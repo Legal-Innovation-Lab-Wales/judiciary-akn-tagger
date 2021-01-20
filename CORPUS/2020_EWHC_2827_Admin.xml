@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWHC_2827_Admin" />
+          <FRBRuri value="www.judiciary.uk/2020_EWHC_2827_Admin" />
+          <FRBRdate date="2020-10-26" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/moore-v-secretary-of-state-for-work-and-pensions" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/moore-v-secretary-of-state-for-work-and-pensions" />
+          <FRBRdate date="2020-10-26" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2827_Admin.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2827_Admin.xml" />
+          <FRBRdate date="2021-01-15" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="AdministrativeCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdministrativeCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="TaylorMoore" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TaylorMoore" showAs="Taylor Moore" />
+        <TLCOrganization eId="Sg" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Sg" showAs="Sg" />
+        <TLCOrganization eId="SecretaryOfStateForWorkAndPensions" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SecretaryOfStateForWorkAndPensions" showAs="Secretary Of State For Work And Pensions" />
+        <TLCPerson eId="MrJusticeSwift" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeSwift" showAs="Mr Justice Swift" />
+        <TLCPerson eId="ShuShinLuh" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ShuShinLuh" showAs="Shu Shin Luh" />
+        <TLCPerson eId="ChildPovertyActionGroup" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ChildPovertyActionGroup" showAs="Child Poverty Action Group" />
+        <TLCPerson eId="EdwardBrown" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EdwardBrown" showAs="Edward Brown" />
+        <TLCPerson eId="JackAnderson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JackAnderson" showAs="Jack Anderson" />
+        <TLCPerson eId="DwpLegalAdvisers,Gld" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DwpLegalAdvisers,Gld" showAs="Dwp Legal Advisers, Gld" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWHC 2827 (Admin)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CO/4081/2019</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#AdministrativeCourt">ADMINISTRATIVE COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-10-26" refersTo="#hand-downDate">26/10/2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#MrJusticeSwift">MR JUSTICE SWIFT</judge>
+      </p>
+      <p>Between</p>
+      <p>
+        THE QUEEN on the application of (1)
+        <party as="#claimant" refersTo="#TaylorMoore">TAYLOR MOORE</party>
+        &amp; (2)
+        <party as="#claimant" refersTo="#Sg">SG</party>
+        (by her mother and litigation friend, Taylor Moore)
+        <role refersTo="#claimant">Claimants</role>
+        -and-
+        <party as="#defendant" refersTo="#SecretaryOfStateForWorkAndPensions">SECRETARY OF STATE FOR WORK AND PENSIONS</party>
+        <role refersTo="#defendant">Defendant</role>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#Sg;TaylorMoore" refersTo="#ShuShinLuh">Shu Shin Luh</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#Sg;TaylorMoore" refersTo="#ChildPovertyActionGroup">Child Poverty Action Group</lawyer>
+        ) for the Claimant
+        <lawyer as="#barrister" for="#SecretaryOfStateForWorkAndPensions" refersTo="#EdwardBrown">Edward Brown</lawyer>
+        and
+        <lawyer as="#barrister" for="#SecretaryOfStateForWorkAndPensions" refersTo="#JackAnderson">Jack Anderson</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#SecretaryOfStateForWorkAndPensions" refersTo="#DwpLegalAdvisers,Gld">DWP Legal Advisers, GLD</lawyer>
+        ) for the Defendant
+      </p>
+      <p>
+        Hearing dates:
+        <date date="2020-06-24" refersTo="#hearing">24th</date>
+        &amp;
+        <date date="2020-06-25" refersTo="#hearing">25th June 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>JUDGMENT</docTitle>
+      </p>
+      <p>COVID-19: This judgment was handed down remotely by circulation to the parties’ representatives by email. It will also be released for publication on BAILII and other websites. The date and time for hand-down is deemed to be at 10:00 on 26/10/2020</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>MR JUSTICE SWIFT:</p>
+        </tblock>
+        <tblock>
+          <p>A. Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The Universal Credit Regulations 2013 classify Statutory Maternity Pay as earned income (regulation 55), but classify Maternity Allowance as unearned income (regulation 66). This difference of treatment has significant practical consequences. When calculating the amount of Universal Credit payable to a benefits claimant, unearned income is deducted pound for pound from the amount that would otherwise be payable. Earned income is treated more favourably: part of the earned income is disregarded when calculating the amount of Universal Credit payable, the remainder is deducted but only to the extent of 63 %. Is this difference of treatment unlawful? The Claimants’ submission in these proceedings is that the difference in treatment is unlawful discrimination contrary to their Convention rights (Article 8 and or Article 1 of Protocol 1, read with Article 14), and to common law Wednesbury principles. The Claimants further contend that the decision contained in the provisions of the Universal Credit Regulations 2013, to treat the two benefits differently was made in breach of the requirements of the public sector equality duty (section 149 of the Equality Act 2010). (1) The Facts</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>In June 2018, the First Claimant (Ms Moore) left one job for another. Her new job was better paid and, she considered, offered more in terms of job security and prospects. Around the time she changed her job, Ms Moore discovered she was pregnant. She continued to work until October 2018 when she was signed off work sick because of complications with her pregnancy. She started her maternity leave earlier than planned. Ms Moore gave birth to her daughter (the Second Claimant) on the 22 November 2018.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>When she commenced maternity leave, Ms Moore made a claim for Maternity Allowance; she did not qualify for payment of Statutory Maternity Pay because she lacked sufficient continuity of service with her new employer.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The conditions for entitlement to Maternity Allowance are at section 35 of the Social Security Contributions and Benefits Act 1992 (“the 1992 Act”). “35. State maternity allowance (1) A woman shall be entitled to a maternity allowance under this section, at the appropriate weekly rate determined under section 35A below, if — (a) she has become pregnant and has reached, or been confined before reaching, the commencement of the 11th week before the expected week of confinement; and (b) she has been engaged in employment as an employed or self-employed earner for any part of the week in the case of at least 26 of the 66 weeks immediately preceding the expected week of confinement; and (c) her average weekly earnings (within the meaning of section 35A below) are not less than the maternity allowance threshold for the tax year in which the beginning of the period of 66 weeks mentioned in paragraph (b) above falls; (d) she is not entitled to statutory maternity pay for the same week in respect of the same pregnancy. (2) Subject to the following provisions of this section, a maternity allowance under this section shall be payable for the period (“the maternity allowance period”) which, if she were entitled to statutory maternity pay, would be the maternity pay period under section 165 below. (3) Regulations may provide — (a) for disqualifying a woman for receiving a maternity allowance under this section if — (i) during the maternity allowance period, except in prescribed cases, she does any work in employment as an employed or self-employed earner; (ia) during the maternity allowance period she fails without good cause to observe any prescribed rules of behaviour; or (ii) at any time before she is confined she fails without good cause to attend for, or submit herself to, any medical examination required in accordance with the regulations; (b) that this section and section 35A below shall have effect subject to prescribed modifications in relation to cases in which a woman has been confined and — (i) has not made a claim for a maternity allowance under this section in expectation of that confinement (other than a claim which has been disallowed); or (ii) has made a claim for a maternity allowance under this section in expectation of that confinement (other than a claim which has been disallowed), but she was confined more than 11 weeks before the expected week of confinement. (c) that subsection (2) above shall have effect subject to prescribed modifications in relation to cases in which a woman fails to satisfy the conditions referred to in subsection (1) (b) or (c) above at the commencement of the 11th week before the expected week of confinement, but subsequently satisfies those conditions at any time before she is confined. (3A) Regulations may provide for the duration of the maternity allowance period as it applies to a woman to be reduced, subject to prescribed restrictions and conditions. (3B) Regulations under subsection (3A) are to secure that the reduced period ends at a time — (a) after a prescribed period beginning with the day on which the woman is confined, and (b) when at least a prescribed part of the maternity allowance period remains unexpired. (3C) Regulations under subsection (3A) may, in particular, prescribe restrictions and conditions relating to — (a) the end of the woman 's entitlement to maternity leave; (b) the doing of work by the woman; (c) the taking of prescribed steps by the woman or another person as regards leave under section 75E of the Employment Rights Act 1996 in respect of the child; (d) the taking of prescribed steps by a person other than the woman as regards statutory shared parental pay in respect of the child. (3D) Regulations may provide for a reduction in the duration of the maternity allowance period as it applies to a woman to be revoked, or to be treated as revoked, subject to prescribed restrictions and conditions. (3E) A woman who would, but for the reduction in duration of a maternity pay period by virtue of section 165(3A), be entitled to statutory maternity</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>Thus, both entitlement to Maternity Allowance and entitlement to Statutory Maternity Pay are subject to a minimum earnings requirement (section 35(1)(c) and section 164 (2)(b)). Entitlement to each is also conditional upon meeting an employment requirement. The employment requirement for Maternity Allowance is more widely cast than that for Statutory Maternity Pay. Maternity Allowance is available to both employed and self-employed earners “who have worked for any part of 26 of the 66 weeks preceding the expected week of confinement”. By contrast, the Statutory Maternity Pay employment requirement is to have been an employed earner “for a continuous period of 26 weeks ending with the week immediately preceding the 14th week before the expected week of confinement”. Entitlement to the benefits is mutually exclusive: Maternity Allowance is not payable to any woman entitled to receive Statutory Maternity Pay.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>For the first 6 weeks of payment Statutory Maternity Pay is payed at “the earnings- related rate” (i.e. 90 % of normal weekly earnings in the eight weeks prior to the fourteenth week before the expected week of confinement). Thereafter, Statutory Maternity Pay is paid at the section 166(1)(b) prescribed rate (unless that is higher than the earnings-related rate, in which case the earnings-related rate will continue to be paid). Maternity Allowance is paid throughout at the section 166(1)(b) prescribed rate (or at 90 % of the claimant ’s average weekly earnings, if lower).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>In late November 2018, Ms Moore made a claim for Universal Credit. The Secretary of State ’s decision was that Ms Moore was entitled to Universal Credit comprising the standard allowance, the responsibility for children and young persons allowance, and the housing costs element. Ms Moore ’s entitlement before deductions was £ 813.36 per month. That amount was then reduced by what she was paid as Maternity Allowance, £ 644.28. It is common ground in these proceedings that had Ms Moore been entitled to receive Statutory Maternity Pay she would have been better off: only £ 225.09 would have been deducted from her Universal Credit entitlement. She would have been better off by £ 419.19 per month. (2) The Welfare Reform Act 2012, and the Universal Credit Regulations 2013</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>How an award of Universal Credit is calculated is prescribed at section 8 of the Welfare Reform Act 2012 (“the 2012 Act”) as follows “8. Calculation of awards (1) The amount of an award of universal credit is to be the balance of — (a) the maximum amount (see subsection (2)), less (b) the amounts to be deducted (see subsection (3)). (2) The maximum amount is the total of — (a) any amount included under section 9(standard allowance), (b) any amount included under section 10 (responsibility for children and young persons), (c) any amount included under section 11(housing costs), and (d) any amount included under section 12(other particular needs or circumstances). (3) The amounts to be deducted are — (a) an amount in respect of earned income calculated in the prescribed manner (which may include multiplying some or all earned income by a prescribed percentage), and (b) an amount in respect of unearned income calculated in the prescribed manner (which may include multiplying some or all unearned income by a prescribed percentage). (4) In subsection (3) (a) and (b) the references to income are — (a) in the case of a single claimant, to income of the claimant, and (b) in the case of joint claimants, to combined income of the claimants.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>Further provision about the elements of an award of Universal Credit is set out in Parts 3 and 4 of the Universal Credit Regulations 2013 (“the 2013 Regulations”). For present purposes, regulation 22 is material because it provides detail of the amounts to be deducted by reason of section 8(3) of the 2012 Act. “22. Deduction of income and work allowance (1) The amounts to be deducted from the maximum amount in accordance with section 8(3) of the Act to determine the amount of an award of universal credit are — (a) all of the claimant 's unearned income (or in the case of joint claimants all of their combined unearned income) in respect of the assessment period; an (b) the following amount of the claimant 's earned income (or, in the case of joint claimants, their combined earned income) in respect of the assessment period — (i) in a case where no work allowance is specified in the table below (that is where a single claimant does not have, or neither of joint claimants has, responsibility for a child or qualifying young person or limited capability for work), 63 % of that earned income; or (ii) in any other case, 63 % of the amount by which that earned income exceeds the work allowance specified in the table. (2) The amount of the work allowance is — (a) if the award contains no amount for the housing costs element, the applicable amount of the higher work allowance specified in the table below; and (b) if the award does contain an amount for the housing costs element, the applicable amount of the lower work allowance specified in that table. (3) In the case of an award where the claimant is a member of a couple, but makes a claim as a single person, the amount to be deducted from the maximum amount in accordance with section 8(3) of the Act is the same as the amount that would be deducted in accordance with paragraph (1) if the couple were joint claimants. Hence unearned income is deducted in full, and earned income deducted at the rate of 63 % to the extent that it exceeds the “work allowance”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The notions of earned income and unearned income are addressed in Part 6 of the 2013 Regulations. By regulation 52, “earned income” is defined as remuneration or profits derived from any of employment under a contract of service, a trade profession or vocation, or any other paid work, and “any income treated as earned income in accordance with this Chapter”. Regulation 55 concerns “employed earnings” and is as follows “55. Employed earnings Higher work allowance Single claimant — responsible for one or more children or qualifying young persons, and/or has limited capability for work [£ 512] Joint claimants – responsible for one or more children or qualifying young persons, and/or where one or both have limited capability for work [£ 512] Lower work allow ance Single claimant — responsible for one or more children or qualifying young persons, and/or has limited capability for work [£ 292] Joint claimants — responsible for one or more children or qualifying young persons, and/or where one or both have limited capability for work [£ 292] (1) This regulation applies for the purposes of calculating earned income from employment under a contract of service or in an office, including elective office (“employed earnings”). (2) Employed earnings comprise any amounts that are general earnings, as defined in section 7(3) of ITEPA, but excluding — (a) amounts that are treated as earnings under Chapters 2 to 11 of Part 3 of ITEPA (the benefits code); and (b) amounts that are exempt from income tax under Part 4of ITEPA. (3) In the calculation of employed earnings, the following are to be disregarded — (a) expenses that are allowed to be deducted under Chapter 2 of Part 5 of ITEPA; and (b) expenses arising from participation as a service user (see regulation 53(2)). (4) The following benefits are to be treated as employed earnings — (a) statutory sick pay; (b) statutory maternity pay; (c) statutory paternity pay; … (e) statutory adoption pay; (f ) statutory shared parental pay; and (g) statutory parental bereavement pay. (4A) A repayment of income tax or national insurance contributions received by a person from HMRC in respect of a tax year in which the person was in paid work is to be treated as employed earnings unless it is taken into account as self-employed earnings under regulation 57(4). (5) In calculating the amount of a person 's employed earnings in respect of an assessment period, there are to be deducted from the amount of general earnings or benefits specified in paragraphs (2) to (4) — (a) any relievable pension contributions made by the person in that period; (b) any amounts paid by the person in that period in respect of the employment by way of income tax or primary Class 1 contributions under section 6(1) of the Contributions and Benefits Act; and (c) any sums withheld as donations to an approved scheme under Part 12of ITEPA (payroll giving) by a person required to make deductions or repayments of income tax under the PAYE Regulations.” Thus, by virtue of regulation 55(4), Statutory Maternity Pay is one of a number of benefits deemed to be employed earnings and therefore also deemed to be earned income.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>The scope of unearned income is set by regulation 66(1). “66. What is included in unearned income? (1) A person 's unearned income is any of their income, including income the person is treated as having by virtue of regulation 74 (notional unearned income), falling within the following descriptions — (a) retirement pension income (see regulation 67) to which the person is entitled, subject to any adjustment to the amount payable in accordance with regulations under section 73 of the Social Security Administration Act 1992 (overlapping benefits); (b) any of the following benefits to which the person is entitled, subject to any adjustment to the amount payable in accordance with regulations under section 73 of the Social Security Administration Act 1992 (overlapping benefits) — (i ) jobseeker 's allowance, (ii) employment and support allowance, (iii) carer 's allowance, … (v) widowed mother 's allowance, (vi) widowed parent 's allowance, (vii) widow 's pension, (viii) maternity allowance, or (ix) industrial injuries benefit, excluding any increase in that benefit under section 104 or 105 of the Contributions and Benefits Act (increases where constant attendance needed and for exceptionally severe disablement); (c) any benefit, allowance, or other payment which is paid under the law of a country outside the United Kingdom and is analogous to a benefit mentioned in sub-paragraph (b); (d) payments made towards the maintenance of the person by their spouse, civil partner, former spouse or former civil partner under a court order or an agreement for maintenance; (da) foreign state retirement pension; (e) student income (see regulation 68); (f) a payment made under section 2of the Employment and Training Act 1973 or section 2of the Enterprise and New Towns (Scotland) Act 1990 which is a substitute for universal credit or is for a person 's living expenses; (g) a payment made by one of the Sports Councils named in section 23(2) of the National Lottery etc. Act 1993 out of sums allocated to it for distribution where the payment is for the person 's living expenses; (h) a payment received under an insurance policy to insure against — (i) the risk of losing income due to illness, accident or redundancy; (i) income from an annuity (other than retirement pension income), unless disregarded under regulation 75 (compensation for personal injury); (j) income from a trust, unless disregarded under regulation 75 (compensation for personal injury) or 76 (special schemes for compensation); (k) income that is treated as the yield from a person 's capital by virtue of regulation 72; (l) capital that is treated as income by virtue of regulation 46(3) or (4); (la) PPF periodic payments; (m) income that does not fall within sub-paragraphs (a) to (la) and is taxable under Part 5of the Income Tax (Trading and Other Income) Act 2005 (miscellaneous income). (2) In this regulation — (a) in paragraph (1) (da)" foreign state retirement pension" means any pension which is paid under the law of a country outside the United Kingdom and is in the nature of social security; (b) in paragraph (1) (f) and (g) a person 's" living expenses" are the cost of — (i) food; (ii) ordinary clothing or footwear; (iii) household fuel, rent or other housing costs (including council tax), for the person, their partner and any child or qualifying young person for whom the person is responsible; (c) in paragraph (1)(la) " PPF periodic payments" has the meaning given in section 17(1) of the State Pension Credit Act 2002.” Maternity Allowance is thus identified as unearned income.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <motivation>
+        <tblock>
+          <p>B. Decision</p>
+        </tblock>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The Claimants’ substantive case is that regulation 66(1) of the 2013 Regulations is unlawful in so far as it classifies Maternity Allowance as unearned income. They also contend that the decision to treat Maternity Allowance as unearned rather than earned income, as set out in the 2013 Regulations was taken without compliance with the obligation at section 149 of the Equality Act 2010 to have due regard to the needs to eliminate discrimination, advance equality of opportunity, and foster good relations between persons sharing the protected characteristic of pregnancy and maternity, and those who do not. The Claimants’ primary argument is that the classification of Maternity Allowance as unearned income is discrimination contrary to ECHR Article 14. Alternatively, the same point is put on the basis of illegality at common law under Wednesbury principles.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>As will be apparent from the reasons below, I do not consider that the complaint raised in this case naturally lends itself to an Article 14 discrimination analysis. The point of substance is whether there is any appropriate reason for treating Maternity Allowance as unearned income, while treating Statutory Maternity Pay as earned income. That issue better presents itself as one of rationality. This is not the least because the basic comparison that this claim requires to be made is between the treatment of two different classes of women, each of which comprises both pregnant women and those who have recently given birth. In this case I can not see that the required level of scrutiny is any different regardless of whether the claim is analysed as one of Article 14 discrimination, or one of common law rationality. The appropriate level of scrutiny follows from the context and subject matter of the decision. Nevertheless, since the Claimants put their substantive case in two distinct ways, I will consider each in turn. (1) ECHR Article 14 read with either Article 1 of Protocol 1, or ECHR Article 8</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Both parties agree that payment of Universal Credit falls within the ambit of Article 1, Protocol 1.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>The Claimants also contend that in this case, payment of Universal Credit falls within the ambit of ECHR Article 8. The Secretary of State disagrees. In DA and others v Secretary of State for Work and Pensions [2019] 1WLR 3289, the Supreme Court accepted that the benefit cap provisions under consideration in that case fell within the ambit of Article 8 because the cap affected payments designed to meet the costs of basic needs providing stability to home life and therefore family life (see per Lord Wilson at § 37; Lord Carnwath at § 102; and Baroness Hale at § 137). Context is important. In instances where the aspect of Universal Credit (or other social security benefit in issue) serves the purpose of meeting basic needs that support family life it is accurate to describe the provision of that benefit as being a means (“modality”) by which the United Kingdom has chosen to provide support for family life. These payments fall within the ambit of Article 8. I am satisfied that payment of Maternity Allowance is a means by which support is provided for family life. In the context of a claim to Universal Credit by a mother in receipt of Maternity Allowance, the same conclusion applies. In the premises, the challenge in this case to the effect of regulation 66 of the 2013 Regulations is a provision that falls within the ambit of ECHR Article 8.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>The next element of the Claimants’ case is that the difference in treatment is by reason of “other status”. The Claimants’ submission is that the relevant status is provided by the criteria for entitlement to receive Maternity Allowance (section 35(1) of 1992 Act), and that those who meet these criteria establish a sufficient status for the purposes of bringing an Article 14 claim. The Secretary of State submits that in the context of this claim, which concerns the way in which Maternity Allowance is treated when a claim for Universal Credit is made by comparison with the treatment of Statutory Maternity Pay, the section 35(1) criteria can not provide a relevant Article 14 status because (echoing the speech of Lord Neuberger in R(RJM) v Secretary of State for Work and Pensions [2009] 1 AC 311) , the same criteria define the less favourable treatment of which complaint is made.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>There is force in the Secretary of State ’s submission. In Kjeldsen, Busk, Madsen and Pedersen v Denmark (1976) 1 EHRR 711, the European Court of Human Rights described discrimination on grounds of other status as being “discriminatory treatment having as its basis or reason a personal characteristic” (Judgment at § 56). In RJM, Lord Walker described the notion of “personal characteristic” in the following way “5. … “Personal characteristics” are more like a series of concentric circles. The most personal characteristics are those which are innate, largely immutable, and closely connected with an individual ’s personality: gender, sexual orientation, pigmentation of skin, hair and eyes, congenital disabilities. Nationality, language, religion and politics may be almost innate (depending on a person ’s family circumstances at birth, or maybe acquired (though some religions do not continence either apostates or converts); but all are regarded as important to the development of an individual ’s personality (they reflect, it might be said, important values protected by Article 8, 9 and 10 of the Convention). Other acquired characteristics are further out in the concentric circles; they are more concerned with what people do, or with what happens to them, than with who they are; but they may still come within Article 14(Lord Neuberger instances military status, residence or domicile, and past employment in the KGB). Like him, I would include homelessness as falling within that range, whether or not it is regarded as a matter of choice (it is often the combination of a series of misfortunes that overwhelm an individual so that he or she can no longer cope). The more peripheral or debatable any suggested personal characteristic is, the less likely it is to come within the most sensitive area where discrimination is particularly difficult to justify. There is an illuminating discussion of these points (contrasting Strasburg jurisprudence with the American approach to the Fourteen Amendment) in the speech of Baroness Hale of Richmond in AL (Serbia) v Secretary of State for the Home Department [2008] 1 WLR 1434, paras 20-35.” Lord Neuberger agreed with this description, pointing out that whether something is or is not a personal characteristic is a matter of evaluation rather than strict science, focusing on “what somebody is, rather than what is being done to him” (see Judgment at § § 41 and 45). But, as the outcome in that case (that homelessness was a relevant status), makes clear “what somebody is” will extend to aspects of their personal circumstances. In Mathieson v Secretary of State for Work and Pensions [2015] 1 WLR 3250, Lord Wilson referred to characteristics such as homelessness as “acquired characteristics” to distinguish them from inherent characteristics. The notion of an acquired characteristic is necessarily flexible.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>However, the line that Lord Neuberger drew, and Lord Wilson described, between what somebody is and what is done to them is important. Where that line is crossed, Article 14 ceases to be about discrimination in any true sense. Article 14 claims ought to retain the basic characteristics of discrimination claims recognised under domestic law and EU law: i.e., that like cases must be treated alike (no direct discrimination); and that different cases should be treated differently (no indirect discrimination). Taking direct discrimination as an example, the potential that an unprincipled approach to “other status” may lead to difficulty is plain. Direct discrimination operates by outlawing certain reasons as valid reasons for decision-making: sex, race, disability, political opinion, and so on. If “other status” remains within the limit identified by Lord Neuberger in RJM no problem arises. When this is so, the question from case to case, remains “what was the reason for the measure complained of?”. If the “other status” identified turns out to be the reason for the decision in issue, that decision will be illegitimate and unlawful. The direct discrimination inquiry can seem a little muddied in the context of an Article 14 claim because it is readily accepted that the absence of justification is a relevant part of the analysis as much for Article 14 claims of direct discrimination as for indirect discrimination claims. But any anomaly is more apparent than real. Where the Article 14 complaint is genuinely a claim of direct discrimination, the justification enquiry tends to go no further than seeking to establish whether or not the decision complained of was taken because of the prohibited reason; in practice the chances that a court would conclude (for example) both that a decision had been taken on grounds of sex and that it was justified, is vanishingly small.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>But if what amounts to “other status” is allowed to extend beyond characteristics (whether inherent or acquired) that exist independently of the complaint, to matters that coincide with the decision challenged, the complaint can not be approached in the same way as a discrimination claim. It would be futile to decide the case only by asking “was the prohibited reason the reason for the decision challenged?” because the answer would always be yes. If “other status” is extended in this way it must be accepted that the decision taken was directed to a class of people because of the characteristics of that class, and the question then becomes whether that is a permissible or justifiable reason for that treatment of that class, as a class. This is not a question about discrimination in any classic sense; rather it is a question about the rationality or justification of a specific policy choice. One possibility is that the notion of “other status” either has already extended, or is in the process of extending beyond inherent or acquired characteristics to include situations where an Article 14 claim can rest on “other status” that coincides with the scope of the measure complained of. Indeed, at § 60 of its judgment in Clift v United Kingdom (Application 7205/07, Judgment 13 July 2010) the European Court of Human Rights stated that “… the general of purpose of Article 14 is to ensure that where a State provides for rights falling within the ambit of the Convention which go beyond the minimum guarantees set out therein, those supplementary rights are applied fairly and consistently to all those within its jurisdiction unless a difference of treatment is objectively justified”. This suggests an approach that would set many Article 14 “other status” discrimination claims apart from discrimination claims that relied on characteristics which are the same or qualitatively similar to the protected characteristics listed at section 4 of the Equality Act 2010, and put them instead on a par with the common law principle that the decisions that favour one class of person over another should be justified. This statement in Clift caused Henderson LJ in his judgment in Stevenson v Secretary of State for Work and Pensions [2017] EWCA Civ 2132 to make the following observation (at § 41) “With apparent reference to this sentence, Lord Mance and Lord Hughes JJSC, delivering the judgment of the Supreme Court in R (Kaiyam) v Secretary of State for Justice [2014] UKSC 66, [2015] AC 1344, said at [52] that the European court here expressed itself “in terms which might, literally read, eliminate any consideration of status”. This comment was made obiter, and Mr Buley for Fiona did not argue that this point had yet been reached in the jurisprudence of the Strasbourg court. Nevertheless, it seems to me to provide a realistic recognition of the direction in which the Strasbourg court ’s jurisprudence is moving, and to reinforce Lord Wilson ’s conclusion that if the alleged discrimination falls within the scope of a Convention right, the question of status will normally be answered in the claimant ’s favour on the basis that he or she possesses either a personal or an identifiable characteristic assessed in the light of all the circumstances of the case. In the majority of cases, it is probably now safe to say that the need to establish status as a separate requirement has diminished almost to vanishing point.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>The point is not so much that the requirement to demonstrate “other status” has diminished, rather it is that if “other status” has the extended meaning suggested by the European Court of Human Rights in Clift, that has consequences for what may count as the criteria for legality and illegality. This matter has not, so far as I can see, been addressed in terms in the authorities. However, in situations where the court has determined Article 14 claims where the “other status” relied on seems to be closely aligned to the scope of the measure complained of (e.g. Mathieson and DA) the decision on the legality of the measure has tended to rest on whether there was a sufficient reason for the measure imposed on the class rather than whether the reason for the measure was independent of the characteristics that defined the class.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>In the present case, the Claimants’ submission comes to the proposition that the criteria in section 35 of the 1992 Act which identify those entitled to receive Maternity Allowance are sufficient to establish a group with “other status” for the purposes of Article 14. I accept the Secretary of State ’s response that putting the case in this way aligns “other status” relied on with the scope of the treatment complained of. Put in another way it serves little purpose to ask whether the reason why the First Claimant ’s Maternity Allowance is deducted pound for pound from Universal Credit is because she falls in the class of persons identified by the criteria at section 35(1) of the 1992 Act. However, I also accept that on the authorities, this state of affairs has not been treated as an insuperable obstacle to an Article 14 claim. A similar situation arose on the facts of DA. Both Lord Hodge (at § 126) and Lord Carnwath (at § 108) doubted that a group identified by rules in the social security system would, by reason of that matter alone, have “other status” for Article 14 purposes. Yet each recognised that, so far as concerned the case law of the European Court of Human Rights, the matter was not settled, and proceeded to consider whether sufficient reasons existed to justify the revised benefit cap.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>I will take the same approach in this case. I do not consider that the doubts I have about the Claimants’ submission on “other status” are such that I should abandon consideration of the Article 14 claim. Rather, following the judgment in Clift, I should focus on whether there is a sufficient justification for the approach in the 2013 Regulations which treat Maternity Allowance as unearned income and Statutory Maternity Pay as earned income.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>For the same reason I will say little about whether or not the class of persons entitled to Maternity Allowance is in an analogous position to the class who meet the criteria at section 164 of the 1992 Act and are entitled to receive Statutory Maternity Pay. If the emphasis is placed on the “other status” relied on by the Claimants, there is quite obviously a material difference between those within the group who meet the criteria at section 35(1) of the 1992 Act for payment of Maternity Allowance, and those who meet the criteria at section 164 of the 1992 Act and receive Statutory Maternity Pay. On the Claimants’ case the latter group have different characteristics (which give rise to a different “other status”). Moreover, the statutory provisions make clear that the two groups are mutually exclusive. However, in real life the two groups are analogues: both comprise women who are pregnant or who have recently given birth. This approach also, directs the attention to the issue of substance which is whether there is a good enough reason for these two groups of women, defined as each is by the criteria in the 1992 Act, to receive different treatment when payment of Maternity Allowance or Statutory Maternity Pay coincides with entitlement to Universal Credit.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The Claimants emphasise the similarities of Maternity Allowance and Statutory Maternity Pay. Both benefits serve the purpose of replacing income lost by reason of pregnancy and maternity. Thus, both Maternity Allowance and Statutory Maternity Pay are ways in which the United Kingdom reaches its obligation under Article 11 of the Pregnant Workers’ Directive (Directive 92/85 / EEC). Both are payable for up to 39 weeks. Although Statutory Maternity Pay is paid at the “earnings related rate” for the first six weeks, thereafter the amount payable whether the claim is for Maternity Allowance or Statutory Maternity Pay is calculated by the same prescribed weekly rate. The two benefits share other common features: for example, the rules for each provide for what are referred to as “keeping in touch days” which permit up to 10 paid days’ work to be done while Maternity Allowance or Statutory Maternity Pay is in payment. This allows a woman to maintain some contact with her work so as to assist her return to work after maternity. Finally, the Claimants point out that in other parts of the benefits system both Maternity Allowance and Statutory Maternity Pay are treated in the same way. Under the Tax Credit Acts 2002 a condition of entitlement to Working Tax Credit is that the claimant be in “qualifying remunerative work”. By regulation 5 of the Working Tax Credits (Entitlement and Maximum Rate ) Regulations 2002 women in receipt of Maternity Allowance and those in receipt of Statutory Maternity Pay are treated as being in qualifying remunerative work. Lastly, Maternity Allowance and Statutory Maternity Pay are treated alike in one other part of the Universal Credit regime. By regulation 31 a person is entitled to the child care cost element of Universal Credit if she meets both the “work condition” and the “child care cost condition”. The work condition is set out at regulation 32. Generally speaking, that condition is met if the claimant is in or is shortly due to start paid work. However, by regulation 32(2) a claimant is to be treated as if in paid work in a number of prescribed circumstances. These include if the claimant is in receipt of either Statutory Maternity Pay or Maternity Allowance.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>The Secretary of State does not take issue with any of these points. Nevertheless, she submits that the treatment of Maternity Allowance as unearned income and Statutory Maternity Pay as earned income is justified. I accept that submission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The matter to be addressed is not so much why Maternity Allowance is treated as unearned income but why Statutory Maternity Pay is treated as earned income. By their nature, both Maternity Allowance and Statutory Maternity Pay are unearned income. It is only by reason of regulation 55 of the 2013 Regulations that Statutory Maternity Pay is required to be treated as earned income. The reasons for this decision are addressed in contemporaneous documents and in a witness statement made by Kerstin Parker, the Deputy Director of Universal Credit at the Department for Work and Pensions.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>The contemporaneous documents include a series of Written Ministerial Submissions from the period May 2011 to April 2012. These submissions are, I suspect, some of a number of written submissions prepared for the purpose of deciding the contents of the 2013 Regulations. The Written Ministerial Submissions I have seen all concern what income should count as either earned or unearned income, and what approach should be taken to each class of income when calculating the Universal Credit payments. Taken together, a series of points emerge from these documents. Two general principles applied for the purposes of formulating the approach taken in the Universal Credit system to the treatment of earned and unearned income. Universal Credit payments should be reduced to take account of unearned income, pound for pound. Since the purpose of Universal Credit is to meet basic needs, it was considered inappropriate not to take account of unearned income in this way. A different principle was applied to earned income; Universal Credit was reduced to take account of earned income but only by reference to a taper provision. This approach was intended to avoid disincentives to work by minimising the likelihood that when a person in receipt of Universal Credit commenced work they would suffer a reduction of income. As early as May 2011 it was recognised that there was a case for treating some elements of unearned income as if they were earned income. The following appeared in a Written Ministerial Submission dated 16 May 2011 “Income equivalent to and treated as earnings 14. Certain income types are paid by employers to replace earnings directly, such as Statutory Sick Pay, Statutory Maternity Pay and other related payments. Such payments may be difficult for any delivery organisation to distinguish from earnings, as they may not be identified separately to HMRC ’s Real Time Information System by employers. There is a case for treating such payments as earnings by applying the relevant disregards and the earnings taper.” The reference to the Real Time Information System (RTI) is to the system used by the Commissioners of Revenue and Customs (“HMRC”) to obtain information from employers about income within the scope of the PAYE scheme. Each time an employer makes payment to workers within the PAYE scheme the employer is required to notify HMRC of the payment made. The intention was that the RTI system would also be used by the Department for Work and Pensions to establish the earnings of benefits claimants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>The point identified at paragraph 14 of the 11 May 2011 Written Ministerial Submission was followed up in a further submission dated 8 June 2011 about how different types of income should be treated for the purposes of calculating Universal Credit. Paragraph 7 of that submission read as follows “Second category – Income equivalent to earnings 7. It will be appropriate to treat some other income types in the same way as earnings. As well as giving relatively generous treatment to some income types which relate to paid work, this approach avoids operationally difficult decisions in distinguishing between earnings and other items of income paid with earnings. In some circumstances, it may be appropriate to apply the relevant earnings disregard and the earnings taper; in others it may be more appropriate to apply the taper only.” Statutory Sick Pay was given as an example. Among other points it was noted that Statutory Sick Pay is paid by employers, reported through the RTI system in the same way as earnings, and would “typically” be paid alongside a proportion of “normal pay”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>The next Written Ministerial Submission is dated 23 June 2011. As regards the treatment of Statutory Maternity Pay as earned income, this submission included the following. “(ii) Income currently disregarded in Tax Credits 9. Certain income types which do not meet our categories of exception are taken into account in full in IS, JSA (IB), ESA (IR) and HB, but receive a disregard in Tax Credits. To maintain the essential simplicity of Universal Credit we have avoided introducing partial disregards. In addition, Tax Credits have taken a more generous approach to the income needs of claimants than we propose to follow in Universal Credit. We therefore propose to take them into account in full in Universal Credit. These types include Maternity Allowance, Industrial Injuries Disablement Benefit and Spousal / Child Maintenance, which are fully disregarded in Tax Credits. Retirement and Occupational Pensions are included in the pensions and savings disregard in Tax Credits, where up to £ 300 p.a. is fully disregarded. 10. We propose to take Maternity Allowance into account in full. This is different from the treatment of Statutory Maternity Pay (SMP), which we have already agreed should be treated as earnings. Although part of the rationale for treating SMP as earnings was to reinforce the advantage of work, it was also due to it being paid by employers in the same way as earnings, whereas Maternity Allowance is paid separately by Jobcentre Plus. There is also a distinction between the two in the current system: while IS, JSA(IB) and ESA(IR) take both income types fully into account, Maternity Allowance is also taken fully into account in Housing Benefit, whereas SMP is treated as earnings.” The position did not materially change thereafter prior to the date that the 2013 Regulations were made.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>Drawing matters together, a range of considerations relating to the practical workings of the Universal Credit system combined to produce the conclusion that Statutory Maternity Pay should be treated as if it were earned income. The first consideration was that Statutory Maternity Pay, unlike Maternity Allowance was paid by employers through the payroll. It is treated in the same way as earnings paid through the PAYE system. By contrast, Maternity Allowance is paid directly by the Secretary of State through Jobcentre Plus. Next, in consequence of the route by which Statutory Maternity Pay is paid, payments are recorded by employers and reported to HMRC through the RTI system. For the purpose of Universal Credit, the Department for Work and Pensions used the RTI system as the source of information to establish a person ’s earnings. This was an important feature of Universal Credit. Using the RTI system information means that the tax system and the benefits system are aligned in terms of the basic information used by each. This alignment was one of the objectives of the reform of the benefits system and the implementation of Universal Credit. The Department for Work and Pensions also considered that using information from the RTI system to establish a person ’s earnings was a way of reducing the risk of error or of fraud. Employers had a clear incentive to do their best to ensure that accurate earnings information is provided because the same information is used for the purposes of determining the tax properly payable through the PAYE system. The view taken by the Department for Work and Pensions was that even though it would in principle, have been possible to require employers to record unearned income such as Statutory Maternity Pay and Statutory Sick Pay separately through the RTI system, that would make it more likely that employers might mis-record information. This risk was particularly significant in respect of Statutory Sick Pay: an employer might in any single pay period pay an employee a combination of Statutory Sick Pay and wages. The same risk, although lower, also existed vis-à-vis payments of Statutory Maternity Pay and, in any event, treating Statutory Maternity Pay and Statutory Sick Pay differently for this purpose might simply end up confusing employers. The alternative that was considered was introduction of manual checks from information obtained from RTI system to identify which payments made were payments of Statutory Maternity Pay. Although this would have been possible, the Secretary of State contended that it would be unduly laborious.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>I consider that these reasons are sufficient to justify the decision to treat Statutory Maternity Pay as earned income notwithstanding: (a) that it is unearned income; and (b) that Maternity Allowance, a different form of unearned income, is not treated in the same way.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>There was some dispute before me as to the appropriate standard by which to assess justification. In his judgment in DA v Secretary of State for Work and Pensions [2019] 1 WLR 3289, Lord Wilson stated (at § 65) that there ought to be “no future doubt” that the criterion for justification of a rule concerning entitlement to welfare benefits which had a discriminatory impact ought to be whether the measure was manifestly without reasonable foundation. The Claimants’ submissions draw attention to the judgment of the European Court of Human Rights in JD v United Kingdom (Applications 32949/17 and 34614/17, Judgment 24 February 2020), and the point that between § § 85 and 89, the Court stated that in its role as a court of international jurisdiction, it applied the “manifestly without reasonable foundation” criterion only where a national government had adopted a policy or measure which had a discriminatory impact as the means of correcting a pre-existing inequality. In other situations, the Court considered whether a measure challenged in proceedings before it was objectively and reasonably justified. The Claimants accept that Lord Wilson ’s conclusion in DA is binding for the purposes of my judgment, but put down their marker in the event that this claim goes further.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>Yet even considering the Claimants’ submission based on the judgment in JD on its own terms, I do not consider that it raises any issues of true substance. Rather, I (respectfully) agree with the general observations made by Singh LJ in R(Drexler) v Leicestershire County Council [2020] EWCA Civ 502 (at § § 53 – 56 and 76) when dealing with a submission that the “manifestly without reasonable foundation” standard was confined to challenges to social security rules. “53. There are three important principles which have potential relevance in this case. They may be related to each other but they should be kept distinct, at least for the purposes of analysis. 54. The first principle is the “margin of appreciation”. Strictly speaking this is only a principle of international law and has no direct relevance in domestic law. It is a doctrine which is used by the European Court of Human Rights to respect the fact that the Council of Europe has 47 Member States, with many different cultures, traditions and legal systems. The European Court of Human Rights respects the fact that national institutions will often be better placed to make an assessment of whether, for example, a fair balance has been struck between the rights of the individual and the general interests of the community, since they have a closer understanding of conditions in their own country than an international court does or could have. The European Court of Human Rights has frequently said that the scope of the margin of appreciation will vary according to the circumstances, the subject- matter and its background: see e.g. Fretté v France (2002) 38 EHRR 438, at para. 40, which was cited by Lord Bingham of Cornhill in A v Secretary of State for the Home Department [2004] UKHL 56; [2005] 2 AC 68, at para. 39. As Lord Bingham also observed in that paragraph, a similar approach is to be found in domestic authority: see e.g. R v Director of Public Prosecutions, ex p. Kebilene [2000] 2 AC 326, at 381 in the opinion of Lord Hope of Craighead. 55. The second relevant principle is that not all grounds of discrimination are treated in the same way under Article 14. It is recognised in the jurisprudence both of the European Court of Human Rights and in domestic courts under the HRA that certain grounds of discrimination are “suspect”, in particular race, sex, nationality and sexual orientation. These will therefore call for more stringent scrutiny than other grounds of discrimination. In the terminology used by the European Court of Human Rights, “very weighty reasons” will usually be required to justify what would otherwise be discrimination on such grounds: see e.g. R (Carson) v Secretary of State for Work and Pensions [2005] UKHL 37; [2006] 1 AC 173, at paras. 15-17 in the opinion of Lord Hoffmann; and paras. 55-60 in the opinion of Lord Walker of Gestingthorpe. Lord Walker in particular drew on the terminology of “suspect” grounds which is to be derived from American jurisprudence on the Fourteenth Amendment to the US Constitution (the “equal protection” clause). 56. The third relevant principle is that the courts recognise that they are not well placed to question the judgement made by either the executive or the legislature in relation to matters of public expenditure. This is both on the ground of relative institutional competence and on the ground of democratic legitimacy. The allocation of scarce or finite public resources is inherently a matter which calls for political judgement. This does not mean that the courts have no role to play but it does mean that they must tread with caution, affording appropriate weight and respect to the judgement formed by the executive or the legislature. … 76. … the crucial point is not so much whether the “manifestly without reasonable foundation” test is the applicable test; it is rather how the conventional proportionality test, even if that is the applicable test, should be applied given that the context is one in which a public authority is required to allocate finite resources and to cho</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>Rather than focussing on a specific form of words, attention must be directed to the substantive considerations that lay behind those words. In the circumstances of the present case it is appropriate to afford significant latitude to the Secretary of State given that the decision challenged is self-evidently one involving judgements on matters of social and economic policy, matters that are primarily the responsibility of the executive. My conclusion is that the reasons advanced by the Secretary of State in this case do meet this standard.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>The Claimants’ submissions to the contrary are not persuasive. I accept that the purposes served both by Statutory Maternity Pay and Maternity Allowance are materially the same. However, it does not follow from this that any distinction between them is illegitimate. For example, one point of difference between the two benefits is in the way each is paid: Statutory Maternity Pay by employers through their payroll; Maternity Allowance paid directly by the Secretary of State. This difference, which supported the Secretary of State ’s pragmatic decision to treat Statutory Maternity Pay as if it is earned income, is neither anomalous, nor a matter of chance. The criteria for entitlement to each benefit are not identical. Payment of Statutory Maternity Pay is restricted by reference to the existence of a contract of service, and a period of continuous employment. Given the way in which the class of persons entitled to Statutory Maternity Pay is identified, there is sense in the decision that Statutory Maternity Pay is paid by the employer through PAYE. Not only does it recognise that the class entitled to Statutory Maternity Pay is more closely linked to employment than the class that meets the criteria (at section 35 of the 1992 Act) for entitlement to Maternity Allowance; the tying-in of the employer and employee helps create a situation that promotes the exercise of the employee ’s right to return to work after maternity. Thus, the payment mechanism (through PAYE) which supported the decision to treat Statutory Maternity Pay as earned income itself serves a material purpose. Further, although, as I accept for the reasons above at paragraph 30, that there is sufficient reason for the decision to treat Statutory Maternity Pay as earned income, I also accept that the Secretary of State was entitled to conclude that it would be anomalous to treat Maternity Allowance as earned income, just because she treated Statutory Maternity Pay as earned income. In this regard, the reasons that apply to the latter have no application to the former.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>Next, the fact that for the purposes of some parts of the benefits system, Statutory Maternity Pay and Maternity Allowance are treated in the same way does not require the conclusion that for all purposes they should be treated identically in the context of Universal Credit. The Claimants submitted that outside the context of the Universal Credit system anyone in receipt of Maternity Allowance and Statutory Maternity Pay is regarded as being in “qualifying remunerative work” for the purposes of Working Tax Credits. This point was recognised in the Written Ministerial Submission of 11 June 2011. It is clear from that submission that it was recognised that the approach for the purposes of Universal Credit which distinguished between the treatment of Statutory Maternity Pay and Maternity Allowance was a different approach to that taken in the context of Tax Credits. Nevertheless, the decision proposed in the Written Ministerial Submission was that it was appropriate for the rules of Universal Credit to be less generous than those applicable to Tax Credits in this regard. While it is possible to dispute the policy, I do not consider that this difference of approach identifies anything that indicates illegality.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>The same point answers the Claimants’ submission that seeks to compare the respective treatments of Maternity Allowance and Statutory Maternity Pay under Universal Credit with their treatment for the purposes of the benefits that Universal Credit has replaced. In the context of the present claim, there is no comparison between the two systems of benefits capable of being assessed against any recognised legal standard. The treatment of Statutory Maternity Pay and Maternity Allowance first before, and then after the introduction of Universal Credit reveals different social and economic policy choices; it is not possible to draw a comparison declaring one set of choices legally permissible and the other legally impermissible.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>The Claimants’ final submission was made by reference to articles 3.1 and 26 and 27 of the United Nations Convention on the Rights of the Child (“UNCRC”), which provide as follows “Article 3 1. In all actions concerning children, whether undertaken by public or private social welfare institutions, courts of law, administrative authorities or legislative bodies, the best interests of the child shall be a primary consideration. … Article 26 1. States Parties shall recognize for every child the right to benefit from social security, including social insurance, and shall take the necessary measures to achieve the full realization of this right in accordance with their national law. 2. The benefits should, where appropriate, be granted, taking into account the resources and the circumstances of the child and persons having responsibility for the maintenance of the child, as well as any other consideration relevant to an application for benefits made by or on behalf of the child. Article 27 1. States Parties recognize the right of every child to a standard of living adequate for the child ’s physical, mental, spiritual, moral and social development. 2. The parent(s) or others responsible for the child have the primary responsibility to secure, within their abilities and financial capacities, the conditions of living necessary for the child ’s development. 3. States Parties, in accordance with national conditions and within their means, shall take appropriate measures to assist parents and others responsible for the child to implement this right and shall in case of need provide material assistance and support programmes, particularly with regard to nutrition, clothing and housing. 4. States Parties shall take all appropriate measures to secure the recovery of maintenance for the child from the parents or other persons having financial responsibility for the child, both within the State Party and from abroad. In particular, where the person having financial responsibility for the child lives in a State different from that of the child, States Parties shall promote the accession to international agreements or the conclusion of such agreements, as well as the making of other appropriate arrangements.” The Claimants’ submission (made primarily in the context of their common law claim but, it seems to me, equally applicable in the context of the question whether any contravention of Convention rights is justified) was to the effect that UNCRC articles 3.1, 26 and 27, although unincorporated, could be relevant to the standard of scrutiny a court should bring to bear. Specifically, the Claimants submitted that any situation that entailed a breach of the UNCRC could not be within the margin permitted to a public authority, regardless of whether the claim was one of breach of Convention rights, or a claim of common law unlawfulness.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>The approach to take to the relevance of the UNCRC is not entirely straightforward. In DA v Secretary of State for Work and Pensions [2019] 1 WLR 3289 three distinct approaches were taken by the different members of the Supreme Court. At § 68 of his judgment, Lord Wilson considered UNCRC article 3.1. He identified the meaning of that provision by reference to General Comment No.14 (2013) of the United Nations Committee on the Rights of the Child: “68. What does the concept of the best interests of the child in article 3.1 encompass? ... the Committee … [suggests] that the concept [has] three dimensions: (a) a substantive right of the child to have his or her best interest assessed as a primary consideration when different interests are being considered in order to reach a decision on the issue at stake; (b) an interpretive principle, irrelevant to the present appeals; and importantly (c) a rule of procedure that, whenever a decision is to be made that will affect an identified group of children , the decision-making process must include an evaluation of the possible impact of the decision on them.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>Without reference to authority, it might be thought that in the circumstances of the present case neither the first nor the second of these three aspects could be engaged, only the third, procedural requirement. However, the various judgments in DA suggest (in different ways) that something more than a procedural obligation arises.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>At § 78 of his judgment in DA, and in respect of the substantive relevance of UNCRC article 3.1, Lord Wilson accepted the view (stated by McCombe LJ in the decision of the Court of Appeal in that case) that a decision that breached UNCRC article 3.1 “might well be manifestly unreasonable”. Lord Hodge agreed with Lord Wilson.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>Lord Carnwath also considered UNCRC article 3.1 but took a different approach stating (at § 94) that “… while article 3.1 is not a source of substantive rights or duties under the European Convention, it may, where appropriate be taken into account as an aide to the interpretation to those rights or duties.” Lord Reed and Lord Hughes agreed with Lord Carnwath.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The focus of Baroness Hale and Lord Kerr, like that of Lord Wilson, was on the potential relevance of UNCRC article 3.1 to whether justification could be made out. However, neither placed the significance that Lord Wilson had placed on whether or not breach of UNCRC article 3.1 had been made out; instead each focussed on the effect that article 3.1 might have, read together with one or more substantive obligations under the UNCRC. At § 188 and then § § 192 – 193 Lord Kerr put the matter in the following way “188. Article 3 (and articles 26 and 27) provide a context as well as a backdrop to the Government ’s decision as to those who should be covered by the cap. That decision is not insulated from challenge on proportionality grounds by the Government ’s claim that it took representations into account, nor even that it carried out an evaluation of their weight and persuasiveness. The Government must show that it reached a balanced conclusion, taking into account the impact which the refusal to exempt the cohorts whom DA and DS represent has had upon them, when weighed against the interests of society which the conclusion is said to protect. … 192. The enjoinder in article 3.1 of the UNCRC that, in all actions concerning children undertaken by administrative authorities or legislative bodies, the best interests of the child shall be a primary consideration sets the scene for an examination of whether the failure to exempt the DA and DS cohorts from the cap is a proportionate interference with their Convention rights. It is to be noted that the best interests of the child must be a primary consideration. Where those interests conflict with other considerations, although they will not inevitably prevail, their primary status must be respected. Ephemeral aspirations, however high-sounding or apparently noble, will not suffice to displace them. 193. The entitlement of children, enshrined in articles 26 and 27 of the UNCRC, to have the state take necessary measures to ensure that their right to social security benefits is fully realised; and that this comprises an adequate standard of living; and that measures must be taken to assist parents to implement that right all contribute to the importance that UNCRC places on the welfare of children. Where measures are adopted by a state which have a demonstrable adverse effect on children, the hurdle faced by Government in showing that these factors have been properly taken into account is correspondingly heightened.” Thus, what arose from the UNCRC was not simply a matter of taking matters into account.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>I do not consider that it is necessary for me in this judgment to plot a path through these differences of approach. Based on DA the highest that the Claimants in this case could put their submission is that the consequence of UNCRC article 3.1 read with article 26is that the state should take “necessary measures to ensure that their right to social security benefits is fully realised”. My premise is that (where conditions for its payment are met) payment of Universal Credit, including the responsibility for children allowance, is sufficient to discharge any obligation that could be said to arise in English law by reference to the UNCRC (an unincorporated instrument of international law). Since that is so, the treatment of Maternity Allowance by reason of regulations 22 and 66 of the 2013 Regulations (i.e. deduction from the maximum amount of Universal Credit payable) is not contrary to any norm arising from the UNCRC because in every case, a social security payment equivalent to the maximum amount of Universal Credit remains payable. In the premises, the provisions of the UNCRC do not impact upon whether or not the decision to treat Statutory Maternity Pay as earned income is justified. (2) The claim at common law</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>The Claimants’ submission on this ground of challenge is that the decision to treat Statutory Maternity Pay as earned income (i.e. regulation 55 of the 2013 Regulations) is Wednesbury unlawful. The Claimants submit and I accept, that the Wednesbury standard is sensitive to context. It does not operate only to weed out decisions in the nature of “red-headed” irrationality; the standard of legality at common law requires the court to assess any decision challenged by reference to a range of considerations including the reasons for it and the extent of its adverse impact on the claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>I have already set out at length my reasons for concluding that the difference of treatment of Maternity Allowance and Statutory Maternity Pay for the purposes of Universal Credit (i.e. the decision to treat Statutory Maternity Pay as earned income) does not amount to a breach of the Claimants’ Convention rights. For that purpose, I proceeded on the basis that the Secretary of State needed to justify the different of treatment, and concluded that she had. For the same reasons I am satisfied that the difference in treatment of Maternity Allowance and Statutory Maternity Pay is lawful, at common law. Neither the Claimants nor the Secretary of State sought to argue that in the context of this claim, there was any material difference between the level of scrutiny required at common law and the scrutiny required when considering compatibility with Convention rights. I do not think that there is any such difference. The Secretary of State ’s reasons for treating Statutory Maternity Pay as earned income are sufficient. This second ground of claim therefore fails. (3) The public sector equality duty: section 149, Equality Act 2010</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>The Claimants’ challenge is directed to the material parts of the 2013 Regulations i.e. regulations 22 and 66 which, respectively, specify the treatment of unearned income, and identify Maternity Allowance as unearned income. The Claimants’ case is that when the decision to make Regulations to this effect was taken, no due regard was had to the needs to eliminate discrimination, advance equality of opportunity, and/or foster good relations between those with the protected characteristic of pregnancy and maternity and those who do not have that protected characteristic.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>On this analysis, the breach of section 149 pre-dates the making of the 2013 Regulations (which was on 25 February 2013). Ms Luh, who represents the Claimants, focused her submission on what was said (or not said) in an equality impact assessment document that dates back to November 2011. She submitted that she did not need to seek any extension of time in order to pursue this ground of challenge, which on any analysis must date back at least to April 2013 when the 2013 Regulations came into effect and more likely dates back to February 2013 when those Regulations were made. Her submission was that no extension of time was required because if there had been a breach of the public sector equality duty, time for bringing in a claim in respect of that breach could not start to run until the breach had been remedied. In support of this submission, Ms Luh relied on the judgment of the Court of Appeal in Bracking v Secretary of State for Work and Pensions [2014] Eq. LR 60 per McCombe LJ at § 26, and the judgment of Singh J in R(Cushnie) v Secretary of State for Health [2015] PTSR 384, from § 95.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>I can not see any support in either judgment for Ms Luh ’s submission. It is one thing to say (as has been pointed out in many authorities) that the obligation to comply with the section 149 duty continues throughout the decision-making process; but the submission in this case that the time to bring a claim does not start to run until a breach is remedied is something entirely different. True it is that in Cushnie in proceedings started in 2013, the court ruled on whether there had been compliance with section 149 when Regulations were made in 2011. However, there is no suggestion in the judgment in that case that any point was taken on whether that part of the claim had been commenced in time.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>As a matter of principle, I do not consider there is any reason why, so far as concerns the obligation to commence proceedings promptly and in any event within three months of the decision challenged, a claim asserting breach of section 149 of the Equality Act 2010 should be approached differently from any other public law challenge. The section 149 obligation is a process-type obligation, requiring prescribed considerations to be built-in to every decision-making process. The obligation will either have been discharged or breached by the time the relevant substantive decision has been taken. The time to commence proceedings alleging a breach of section 149 of the Equality Act 2010 starts from that time. If anything, the nature of the obligation under section 149, concerned with how a decision is taken, heightens the need for any challenge to be brought promptly because proceedings brought promptly increase the prospect that if the challenge succeeds, there would be no compelling practical objection to granting a remedy that requires the substantive decision to be reconsidered and taken again following proper consideration of the matters prescribed by section 149 of the 2010 Act.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>C. Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>This matter came before me as a rolled-up hearing. I accept that the first two grounds of challenge are arguable and grant permission to apply for judicial review on each of them. However, each of those grounds of challenge fails on its merits. The third ground of challenge (the public sector equality duty) is not properly arguable. The claim was commenced out of time, and no application was made to extend time. I refuse permission to apply for judicial review on this ground of challenge.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>For these reasons the Claimants’ claim fails.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

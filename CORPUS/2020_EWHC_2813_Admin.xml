@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWHC_2813_Admin" />
+          <FRBRuri value="www.judiciary.uk/2020_EWHC_2813_Admin" />
+          <FRBRdate date="2020-10-23" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/skelton-v-hm-coroner-for-west-sussex" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/skelton-v-hm-coroner-for-west-sussex" />
+          <FRBRdate date="2020-10-23" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2813_Admin.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2813_Admin.xml" />
+          <FRBRdate date="2021-01-15" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="DivisionalCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DivisionalCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="MrPeterSkeltonAndMrsElizabethSkelton" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrPeterSkeltonAndMrsElizabethSkelton" showAs="Mr Peter Skelton And Mrs Elizabeth Skelton" />
+        <TLCOrganization eId="SeniorCoronerForWestSussex" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SeniorCoronerForWestSussex" showAs="Senior Coroner For West Sussex" />
+        <TLCOrganization eId="TheChiefConstableOfSussexPolice" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheChiefConstableOfSussexPolice" showAs="The Chief Constable Of Sussex Police" />
+        <TLCOrganization eId="RobertTrigg" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RobertTrigg" showAs="Robert Trigg" />
+        <TLCPerson eId="LordJusticePopplewell" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticePopplewell" showAs="Lord Justice Popplewell" />
+        <TLCPerson eId="MrJusticeJay" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeJay" showAs="Mr Justice Jay" />
+        <TLCPerson eId="HeatherWilliamsQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HeatherWilliamsQc" showAs="Heather Williams Qc" />
+        <TLCPerson eId="HodgeJones&amp;AllenSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HodgeJones&amp;AllenSolicitors" showAs="Hodge Jones &amp; Allen Solicitors" />
+        <TLCPerson eId="BridgetDolanQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BridgetDolanQc" showAs="Bridget Dolan Qc" />
+        <TLCPerson eId="WestSussexCountyCouncil" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#WestSussexCountyCouncil" showAs="West Sussex County Council" />
+        <TLCPerson eId="EmmaPrice" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EmmaPrice" showAs="Emma Price" />
+        <TLCPerson eId="Weightmans" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Weightmans" showAs="Weightmans" />
+        <TLCPerson eId="JoanneLee" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JoanneLee" showAs="Joanne Lee" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+        <TLCRole eId="interested-party" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#interested-party" showAs="interested-party" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWHC 2813 (Admin)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CO/3922/2019</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#DivisionalCourt">DIVISIONAL COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-10-23" refersTo="#hand-downDate">23/10/2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticePopplewell">LORD JUSTICE POPPLEWELL</judge>
+        <judge refersTo="#MrJusticeJay">MR JUSTICE JAY</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        THE QUEEN ON THE APPLICATION OF
+        <party as="#claimant" refersTo="#MrPeterSkeltonAndMrsElizabethSkelton">MR PETER SKELTON AND MRS ELIZABETH SKELTON</party>
+        <role refersTo="#claimant">Claimants</role>
+        – and –
+        <party as="#defendant" refersTo="#SeniorCoronerForWestSussex">SENIOR CORONER FOR WEST SUSSEX</party>
+        <role refersTo="#defendant">Defendant</role>
+        – and – (1)
+        <party as="#interested-party" refersTo="#TheChiefConstableOfSussexPolice">THE CHIEF CONSTABLE OF SUSSEX POLICE</party>
+        (2)
+        <party as="#interested-party" refersTo="#RobertTrigg">ROBERT TRIGG</party>
+        <role refersTo="#interested-party">Interested Parties</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#MrPeterSkeltonAndMrsElizabethSkelton" refersTo="#HeatherWilliamsQc">Heather Williams QC</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#MrPeterSkeltonAndMrsElizabethSkelton" refersTo="#HodgeJones&amp;AllenSolicitors">Hodge Jones &amp; Allen Solicitors</lawyer>
+        ) for the Claimants
+        <lawyer as="#barrister" for="#SeniorCoronerForWestSussex" refersTo="#BridgetDolanQc">Bridget Dolan QC</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#SeniorCoronerForWestSussex" refersTo="#WestSussexCountyCouncil">West Sussex County Council</lawyer>
+        ) for the Defendant
+        <lawyer as="#barrister" for="#TheChiefConstableOfSussexPolice" refersTo="#EmmaPrice">Emma Price</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#TheChiefConstableOfSussexPolice" refersTo="#Weightmans">Weightmans</lawyer>
+        ) for the First Interested Party
+        <lawyer as="#barrister" for="#RobertTrigg" refersTo="#JoanneLee">Joanne Lee</lawyer>
+        for the Second Interested Party
+      </p>
+      <p>
+        Hearing dates:
+        <date date="2020-10-06" refersTo="#hearing">6</date>
+        to
+        <date date="2020-10-08" refersTo="#hearing">8 October 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>Covid-19 Protocol: This judgment was handed down by the judges remotely by circulation to the parties’ repres entatives by email and re lease to Bailii. The date and time for hand-down was deemed to be Friday 23rd October 2020 at 10 am.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Lord Justice Popplewell:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This is the judgment of the court to which we have both contributed.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The Claimants are the parents of Susan Nicholson, who was murdered on 17 April 2011 by her then partner, Robert Trigg. Her death was investigated by Sussex Police who initially considered it to be non-suspicious. Following a lengthy campaign by the Claimants, a re-investigation commenced in 2016 which ultimately led to Trigg ’s conviction for Susan ’s murder on 5 April 2017 at a trial at Lewes Crown Court presided over by Simler J (as she then was).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>In light of Trigg ’s conviction, HM Senior Coroner for West Sussex (“the Coroner”) applied to the High Court for an order under s.13 of the Coroners Act 1988 to quash the original inquest verdict of accidental death which had been returned on 8 November 2011, in order to enable her to substitute a fresh verdict (strictly speaking, conclusion) of unlawful killing. Whipple J made such an order, unopposed, on 15 October 2018, and ordered a fresh inquest. The Coroner then indicated that she intended to list a short hearing in order accurately to record the cause of death as unlawful killing. That course was opposed by the Claimants, who sought a wider inquest into the circumstances of Susan ’s death, and in particular an investigation into whether the circumstances involved breaches by Sussex Police of duties imposed by article 2 of the European Convention on Human Rights (“ECHR”). Those breaches were said by the Claimants to arise not only in relation to events shortly before Susan Nicholson ’s death, but also in relation to the investigation by the Sussex Police into the death of one of Trigg ’s former partners, Caroline Devlin, some five years earlier in March 2006. That too was treated as non-suspicious at the time, but following the renewed investigation in 2016 and 2017 Trigg was charged with her manslaughter and convicted of that offence at the same trial as his conviction for the murder of Susan Nicholson.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>In detailed representations to the Coroner, the Claimants submitted that the available material disclosed arguable breaches by Sussex Police of substantive article 2duties falling into two categories: i) failure to conduct an effective investigation into the death of Caroline Devlin; and/or ii) failure to take reasonable steps to protect Susan Nicholson in the months before her death against the real and immediate risk to life posed toward her by Trigg.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>In support of the arguable breaches in both categories, the material relied on by the Claimants included material in the possession of Sussex Police, or said to have been reasonably available to them, which evidenced controlling, aggressive and violent behaviour by Trigg not only towards Caroline Devlin and Susan Nicholson, but also towards others of his former partners.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The Claimants submitted that as a result of such arguable substantive breaches of article 2 by Sussex Police, the Coroner came under the procedural article 2 duty to conduct an inquest into the circumstances of Susan Nicholson ’s death in accordance with ss. 5(2) and 10(1)(a) of the Coroners and Justice Act 2009 (“CJA 2009”), by way of what is often called an article 2 compliant or Middleton inquest, after the decision of the House of Lords in R (Middleton) v West Somerset Coroner and another [2004] 2 AC 182, the effect of which would be that the inquest would consider the alleged police failures.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>On 2 August 2019 the Coroner ruled that there was no arguable breach of any article 2 duty by Sussex Police in either of the categories alleged, and that accordingly she was not obliged to carry out an article 2 compliant inquest and did not intend to do so. This is the ruling which is challenged by the Claimants in the present judicial review proceedings. The challenge is opposed by the Chief Constable of Sussex Police and by Trigg. The Coroner takes a neutral stance.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>Within these judicial review proceedings Trigg has issued an application notice seeking to challenge an earlier ruling by the Coroner that she was bound to reach a conclusion which was consistent with Trigg ’s conviction, namely one of unlawful killing. He seeks, in effect, to require the Coroner to investigate whether he was responsible for Susan Nicholson ’s death, and to consider a conclusion of accident. The Claimants submit that Trigg ’s application is procedurally impermissible, and in any event ha s no merit. Their opposition to Trigg ’s application is supported in both these respects by the Chief Constable of Sussex Police and the Coroner, although it was made clear on behalf of the latter that she would wish the court to express its views on the merits of the application, even if procedurally impermissible, in order to provide guidance for the future conduct of inquests.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>On 14 November 2019 Pushpinder Saini J granted the Claimants permission to bring the judicial review proceedings on all grounds. He also directed that Trigg ’s application be considered at the substantive hearing.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>Narrative of events</p>
+          <p>Susan Holland</p>
+        </tblock>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>On 16 November 2003 Trigg received a caution for assaulting his then partner, Susan Holland, the previous night. The caution was recorded in the normal way on the Police National Computer.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>When members of Sussex Police (hereinafter referred to for brevity as “the police”) were reinvestigating matters in 2016 and 2017 as “Operation Naples”, they compiled a document setting out contemporaneous entries in police records which then survived, including those from CIS, command and control communications and the like. This document, to which we will refer as the Operation Naples log, therefore identifies material as to what the police were told and did or thought at the time of the events it records and which would have been available to the police at any subsequent investigation. It is, of course, not a complete record and its accuracy is capable of being challenged.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>Further details of the 15 November 2003 assault on Susan Holland were contained in an Operation Naples log entry which stated that Trigg became angry and used physical violence, punching and kicking Susan Holland, causing a suspected broken nose, a bruised right eye, and a cut to the forehead and right arm.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>An Operation Naples log entry for 21 December 2003 records that when Susan Holland went to the flat to retrieve her personal property Trigg became aggressive.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>The Operation Naples log records Susan Holland reporting to the police on 12 February 2004 that Trigg (whom she had left but was later to return to) had been making increasingly threatening calls to her over the previous 2½ weeks.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>An Operation Naples log entry for 15 October 2005 records that a caller thought to be Susan Holland stated that a male thought to be Trigg was kicking her and was very drunk. She left. The police attended and spoke to Trigg who said the allegation was false. The police attempted to speak to Susan Holland without success.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Pursuant to the police ’s 2016/ 2017 investigations, Susan Holland gave a formal s.9 statement to the police. It painted a picture of Trigg as an unstable character who was at times controlling, verbally aggressive and physically violent towards her, including the following assertions in particular: i ) he disliked her talking to people when they were out and on one occasion slapped her in the face for doing so; ii) the assault on 15 November 2003 involved him “beat[ing] the hell out of” her and knocking her out, resulting in her being hospitalised for three weeks (in Simler J ’s sentencing remarks after Trigg ’s convictions she described the hospitalisation as having been for three days); iii) it was Trigg who called the police while she was unconscious, not her, and when the police arrived he told them “I ’m going to kill her, you need to arrest me”; iv) the police had contacted her in 2006 in the wake of Caroline Devlin ’s death; it appears from the statement that she was not asked about any history of violence but only whether there had been any asphyxiation or strangulation in their sex life (which she confirmed there had not been).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>We consider below whether it can be said that the information in her later statement ought reasonably to have been available to the police when investigating Caroline Devlin ’s death, or for the purposes of protection of Susan Nicholson. We consider the same question in relation to the other evidence we identify in this section which goes beyond that which can currently be shown to have been available in police records which was contemporaneously available at the material times.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Violence toward Caroline Devlin</p>
+        </tblock>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>According to the draft prosecution Opening Note at the trial, Caroline Devlin had been in a relationship with Trigg since the summer of 2003. She was 35 at the time of her death. There is no evidence of any contemporaneous record of violence by Trigg towards Caroline Devlin prior to her death. However Zoe Watson, her niece, gave evidence at Trigg ’s trial, which Simler J recorded in her sentencing remarks as being patently truthful and reliable, of two incidents of violence by Trigg in early March 2006, shortly before her death. The Opening Note recorded her witness statement as disclosing that Caroline Devlin had said to her in the context of the first incident “it ’s not the first time and wo n’t be the last” and “I wo n’t be here for my 40th.”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Caroline Devlin ’s death</p>
+        </tblock>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>Because Caroline ’s death was treated as non-suspicious, the police investigation files were destroyed three years later in accordance with the policy then in force in relation to matters which were not considered to be crimes. This has obviously hampered a reconstruction of the details of the investigation. The material currently available includes the following matters shedding light on what the police knew and did at the time: i) The Operation Naples log entry records that police were called by a neighbour and attended at 09.40 to find Caroline dead in bed. ii) The same entry records that she was found “in a slightly odd position”: facing downwards, but not flat, on top of the bed coverings with her head toward the foot end of the bed. The first local uniformed officer who attended regarded this position as suspicious (according to the draft Prosecution Opening Note) and accordingly two CID officers attended, DI Brown and DS Jones. iii) Trigg was spoken to by the uniformed officer, PC Cox, for an initial account, which was relayed to DI Brown, who did not speak to Trigg himself. No written statement was taken from him. DI Brown ’s recollection of this briefing when giving a statement over 10 years later in January 2017 was that Trigg ’s account was that they had been having sexual intercourse in the early hours of the morning after both had been drinking heavily, and she had immediately fallen asleep afterwards. He could not in 2017 recall whether Trigg ’s account was that he had slept in the bed or gone to sleep downstairs. It was that she could not be woken in the morning, but DI Brown could not recall what Trigg ’s account was as to how she had been found, or what had happened thereafter. PC Cox ’s evidence of Trigg ’s account on the morning of Caroline ’s death, later given for the trial as reflected in the draft Prosecution Opening Note, was that following intercourse Caroline Devlin had been very still and not said anything; he had heard a sound as if she had broken wind and assumed she had gone to sleep. He had gone to sleep. This was at about 03.00. He had woken at 05.00 and she was in the same position and thought to himself (“jokingly”); “I hope that she had not suffocated”. He went back to sleep, awoke at about 09.00 and went about his morning routine as normal. It was at 09.40 before leaving for work that he noticed that she was in the same position and that her colour looked wrong. He had shaken her but she had not responded. At that point Caroline ’s son Jordan had come in and “realised his mother was dead”. iv) There is no record of whether the police spoke to the children or, if so, what they told them. DI Brown ’s later statement does not suggest that they were spoken to. Their evidence at the trial was that Caroline ’s daughter was the first to see her mother on the bed in the morning but thought she was sleeping. By that stage Trigg had already got up and dressed, gone out to buy milk and made himself a cup of coffee, but not one for her as would usually have been the case. Another of Caroline ’s children, Jordan, had a friend staying, and their evidence was that Trigg came into their room and told Jordan to come and look at his mother as there was something wrong. Another of the children, also present, was struck by the fact that Trigg had got dressed before coming to tell Jordan this news, and the friend was struck by the fact that Trigg had not called an ambulance. Their account was therefore inconsistent with Trigg ’s account (according to PC Cox) that Jordan had learned of his mother ’s death by accident just after entering the room. By the time of the trial, Trigg had been interviewed under caution, but his account remained at odds with that of the children: he suggested that he had not called the ambulance because he wanted to prevent the children from seeing her; and they had just come into the room when he was there. He also said that Caroline had gone to sleep with her head at the head end of the bed, and was in the same position when he found her as when she</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>A post-mortem was carried out by a “local” rather than a Home Office appointed forensic pathologist. We will be reverting to the reasons for this. DI Brown says that he was advised by a more senior officer that the pathologist should be briefed to be in a heightened state of awareness for anything suspicious; and that if this arose, the procedure should be stopped and a fuller post-mortem requested. However no such briefing took place, and no police officer attended. According to DI Brown, this was because the pathologist would not allow any police attendance and preferred to carry out the examination without a briefing so as not to approach it with preconceptions. The pathologist noted the presence of a large quantity of clotted blood at the base of the brain with patchy subarachnoid haemorrhage. This was recorded as the cause of death, which was said to be due to natural causes. There was no evidence of aneurysm, but the haemorrhage could have been caused by a vessel leak without one. There is nothing to indicate that this pathologist dissected Caroline ’s neck tissue in order to perform a vertebral arterial examination, which might have revealed the existence of traumatic injury as a possible cause of the haemorrhage. No photographs were taken and a brief report is all that remains available.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>In 2017 a Home Office registered consultant forensic pathologist reviewed the evidence and observed that “basal subarachnoid haemorrhage in a woman of this age could easily have occurred as a result of a blow to the junction region of the head and neck”. The absence of any evidence of ruptured Berry aneurysm meant that “there is no evidence in the positive to support this being a spontaneous and natural subarachnoid haemorrhage”. On the other hand, the consultant forensic pathologist instructed by Trigg in the criminal proceedings concluded that the findings were “indeed entire ly consistent with a natural rupture of a subarachnoid haemorrhage noting the presence of hypertension, recent sexual intercourse, and the absence of any intelligence to suggest an ongoing assault, including an absence of other bodily injuries”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>According to DI Brown ’s witness statement he was told at some point after attending the scene but before the post-mortem that Caroline ’s sister had contacted the police with information to the effect that Caroline had confided in her that on one occasion during sexual intercourse Trigg had briefly placed a pillow over her face. DI Brown ’s recollection is that this was significant evidence which called into question the decision that the post-mortem should be carried out by a local pathologist. However, the opinion of Major Crime Branch was that this information did not fundamentally change the way in which the procedure should be carried out, although a police officer should attend to brief the pathologist personally and observe. What then ensued – on DI Brown ’s recollection-was a dispute between the Coroner ’s office, divisions within the Police and the pathologist herself as to whether a Home Office registered pathologist should be conducting the procedure, at much greater cost, and whether a police officer should be attending in any event. The upshot was that the post-mortem proceeded four days after Caroline ’s death (and not some two weeks later, which was DI Brown ’s memory in 2017) in the absence of a police officer and without a briefing.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Evidence of violence perpetrated by Trigg towards other partners before 2011</p>
+          <p>Carole O’Neil</p>
+        </tblock>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>According to the Operation Naples log, Trigg was verbally abusive towards Carole O’Neil in 2006/7. The log describes Trigg ’s behaviour as being “abusive and threatening” but does not specify the nature of the threat. In 2016 Ms O’Neil informed a police officer that her relationship with Trigg lasted about six months, that he was controlling and prone to excessive drink, and that there were episodes of violence including a threat to kill on 21 January 2007. She stated that she ended the relationship owing to Trigg ’s violence and verbal abuse.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>It is pointed out by Ms Lee that on 3 February 2017 Ms O’Neil withdrew her statement and it therefore became part of the unused material in the criminal trial. However, Ms O’Neil ’s reasons for doing so are unknown. It was not drawn to our attention during the hearing that the bundle contains a police officer ’s report dated 3 February 2017 simply recording that “after careful consideration she has decided that she does not wish to make a formal statement”. Accordingly, nothing was formally withdrawn, and the unused material contained the police officer ’s report.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lisa Herley</p>
+        </tblock>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>The Operation Naples log further discloses that on 8 May 2010 Trigg assaulted Lisa Herley by slapping her in the face and kicking her groin. Trigg made admissions at interview and was issued with a formal caution for battery. The officer ’s report dated 19 August 2016 refers to Trigg making a threat to kill when she left Worthing which led to Ms Herley changing her mobile phone number. It is not suggested that this was reported to the Police at the time. Ms Herley did not give evidence at Trigg ’s criminal trial.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Susan Nicholson</p>
+        </tblock>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The focus of these proceedings is not the police investigation into Susan Nicholson ’s death or the directly surrounding circumstances, but alleged operational failures in the light of three previous episodes of violence by Trigg towards her in the months before her death.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>On 27 January 2011 the police received a report from Hannah Cooper, a neighbour, that there had been lots of shouting and screaming from the flat below (i.e. Susan ’s flat) over the previous two hours and she had just heard a massive bang. The officer attending at the scene completed a “Domestic Abuse, Stalking, Harassment and Honour Based Violence” report (“DASH”) which recorded that Trigg had a criminal record for theft, that there was no history of violence involving Susan Nicholson, that it was “not known” whether there was a history of violence involving other partners , that there was no evidence of any injury, and that Susan Nicholson was denying any previous violence, threats or controlling behaviour. The risk was categorised as “standard”. The police did not take a statement from Hannah Cooper. When she came to make a statement in December 2016 she recalled that there was an occasion on which she could hear “Rob hitting Sue” although this may well not refer to this January incident.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>On 24 March 2011, following a call probably from Hannah Cooper and possibly others, police attended at the flat because “there was a domestic going on”. Both Susan Nicholson and Trigg were heavily intoxicated. The former denied that there had been any physical violence although the report (probably from Ms Cooper) was that “the male party has punched the female party in the face”. On this occasion the DASH report recorded that Trigg had a criminal record for “common assault x 2”, it referred to the January incident as being a “non-crime domestic”, and stated (erroneously) that there was no history of violence with other partners. Ms Nicholson ’s answers to the police officer were as before, save that she mentioned Trigg ’s alcohol problem and that that his behaviour was controlling: in particular, that he was jealous over her ex- boyfriend. The risk was recorded as “standard”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>On 26 March 2011 police were called to the flat after a neighbour reported a domestic argument that had gone on for a good part of the day and the evening. It is possible that in December 2016 Ms Cooper was recollecting this occasion. Upon attendance officers noted that Susan Nicholson had several visible injuries including two black eyes, a swollen nose and mouth, bruising to the top of her chest and a cut to her right arm. Trigg admitted causing these injuries and the matter was dealt with by way of a formal caution. The DASH report did reference Trigg ’s criminal record (including cautions for battery and common assault) but a negative answer was given to the question, “is there a history of violence, domestic or other?”. As for whether there was a history of violence involving other partners, the report recorded the Herley caution. The DASH report did state that the abuse was getting worse, although on this occasion Susan Nicholson denied that Trigg ’s behaviour was controlling and that he had a problem with alcohol, and (as before) she denied that he had threatened to kill her.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>The officers at the scene categorised the risk as “medium” giving the following reasons for so doing: “Victim very reluctant to provide police with any information on this incident. She has suffered numerous facial cuts and bruises and had her hair pulled out. … Officers believe that she is withholding the full facts of what happened and is at risk of further violence hence graded medium risk. Victim refused any DV support agency details or intervention.” The supervisor, without giving reasons, recategorised the risk as “standard”. In the context of the charging decision, the supervisor observed that the victim did not want court proceedings and that the sanction of an adult caution would impact on the level of risk.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>The ACPO policy documents which were drawn to our attention emphasise the need for a structured risk assessment in cases of domestic incidents based on intelligence checks. The allocation of a case to the category of “standard” betokens that “current evidence does not indicate likelihood of causing serious harm”; the “medium” category indicates that there is a risk of serious harm but it is thought unlikely to eventuate; whereas if a case is in the “high” category the risk could result at any time and the impact would be serious.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Thames Valley Police Review December 2017</p>
+        </tblock>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>Following the criminal trial a “thematic review” was conducted by a separate polic e force, Thames Valley Police, into the police response and investigation into the deaths of Caroline Devlin and Susan Nicholson, resulting in a thirteen page report dated 19 December 2017 (“the TVP Report”). It is to be noted that the review was document- based and was designed to investigate “adherence to force policy relevant at the time” rather than any errors in decisions made in compliance with that policy, or any systemic or broader failings which changes in policy might address.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>Both Counsel sought to draw assistance from the TVP Report, although its somewhat limited and narrow purpose must be recognised. That being said, the following two concerns were clearly expressed. First, the investigators considered that “the failure to authorise the Home Office post-mortem on Caroline Devlin was fundamental to the subsequent chain of events that led to the lack of suspicion against Trigg”. Secondly, it was considered to be best practice for the pathologist to receive a personal briefing, “especially when there are initial suspicions as to the cause of the death”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The investigators also called into question DI Brown ’s recollection about Caroline ’s sister mentioning a previous pillow incident during the initial investigation. No one within the original investigation other than DI Brown had any memory of this, there was in fact no witness statement from the sister within the HOLMES database, and those members of Caroline ’s family who were seen as part of the 2016 investigation did not mention it either. However, DI Brown ’s recall of this is supported by Susan Holland ’s later evidence that she was asked at the time about whether there had been any asphyxiation or strangulation in their sex life (see para 16(iv) above), and in any event the report is capable of being read as expressing the view that there were “initial suspicions as to the cause of death” to support a personal briefing of the pathologist independently of this issue.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Coroner ’s Decisions</p>
+        </tblock>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>By way of a pre-Inquest review, which extended to an oral hearing and a number of rounds of written submissions, the Coroner was asked to decide the two issues with which we are concerned, namely whether, as Trigg submitted, he should be permitted to seek to provide evidence of facts and circumstances pertaining to Susan Nicholson ’s death which had not been previously considered and might assist the jury in concluding that the cause of her death was not that she had been unlawfully killed but was accidental; and whether, as the Claimants submitted, there was an obligation to conduct an article 2 compliant inquest.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>On 3 June 2019 the Coroner notified the parties of what she described as her “preliminary ruling” on both issues. On the first she ruled that she was bound to reach a conclusion which was consistent with Trigg ’s conviction. On the second she ruled that she was not obliged to conduct an article 2 compliant inquest in the sense considered in Middleton. She said she would give reasons in due course.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>On 14 June 2019 the Coroner gave a “Ruling” in which she set out her detailed reasons for her conclusions on both issues. It is convenient to refer to this as her First Ruling.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>The Claimants were dissatisfied with the ruling in relation to article 2 and threatened proceedings by way of judicial review. They sent a pre-action protocol letter which contended amongst other matters that she had misdirected herself as to the applicab le test, by addressing the issue as if it required the Claimants to prove the substantive breaches of article 2 by Sussex Police, whereas the question for her was whether there were arguable breaches. The Coroner subsequently agreed to revisit her decision on the article 2 issue. This led to her Ruling on 2 August 2019, to which we shall refer as her Second Ruling, which revisited this question afresh and superseded her First Ruling.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>It is clear from an examination of the procedural history and the terms of Coroner ’s Second Ruling that she was confining her reconsideration to the article 2 issue, and was not reconsidering Trigg ’s contention that the inquest should address the issue of unlawful killing. This is unsurprising: in the interim there had been no indication by those advising Trigg that the Coroner ’s restrictive ruling on that issue might be challenged.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>In the Second Ruling, the Coroner summarised the applicable law (as to which see below) and fairly characterised the submissions that were made to her. In relation to Caroline Devlin ’s death, the kernel of the Coroner ’s decision was as follows: “54. I do not find that the failings suggested by the family, individually or collectively, arguably amount to “really serious” failings in the Devlin investigation and thereby give rise to an arguable breach [of] the state ’s general systemic duty of Article 2. 55. In particular I do not find that the decision by Sussex Police not to treat Caroline Devlin ’s death as suspicious to have been a serious failing. Sussex Police have pointed out that at the time there were no signs of any disturbance, no injuries apparent on the body of the deceased and no concerns raised by the FME. The prosecution opening note of the criminal trial seems to suggest that it was only after Susan Nicholson ’s death in 2001 [sic], when the similarities between the two deaths could be appreciated, and more information had become available regarding Trigg ’s history of violence towards former partners, that the circumstances of Devlin ’s death came to be reconsidered. 56. With the benefit of hindsight the Police should perhaps have taken a different view, however at the time it was not, even arguable [sic], a “conspicuous” or “egregious” error not to regard Caroline Devlin ’s death as suspicious. 57. I have been careful to consider the information which was available to the Police at the time of the investigation as opposed to information that has become available subsequently. However, I have also taken into account information which, upon reasonable inquiry, should have been available to the Police in 2006.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>As for the death of Susan Nicholson: “61. Taking into account the families [sic] submissions at their highest and applying the Osman test I am not satisfied that there was an arguable breach of the operational duty in that the police knew or ought to have known of a real and immediate risk to the life of Susan Nicholson and failed to take reasonable steps to protect her. (i) “Knew or ought to have known”: not all the informa tion relied upon by the family appears to have been communicated to the Police, even taking into account reasonable inquiries which could have been made. Any risk must have been known, or reasonably know-able, at the time of the risk, considered without the benefit of hindsight. (ii) “Real and immediate risk”: evidence of previous non fatal violence against former partners and against Susan Nicholson herself, does not necessarily establish a present and continuing risk to Susan Nicholson ’s life in March / April 2011. (iii) “Risk to life”: it is not sufficient for the family to show that the police were aware of a risk of harm, even serious harm, to Susan Nicholson in the months before her death. 62. I have therefore concluded that the Osman test has not been met and that an arguable breach of the operational duty has not been established.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Trigg ’s reaction to the Coroner ’s Ruling</p>
+        </tblock>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>On 6 August 2019 Ms Lee, who is Trigg ’s sister in law and a qualified solicitor, emailed the Coroner expressing concern that her rulings were not adequately responsive to Trigg ’s case that there was no constraint on the Coroner ’s duty to investigate all the facts. On 11 August 2019 she sent a further email stating that the Coroner had failed to give any legal source for her conclusion that she was precluded from investigating the cause of death in a case such as this. On 13 August 2019 the Coroner responded to this email by stating that she remained of the view that it was and is “parliament’ s intention to give primacy to the outcome of the criminal proceedings”. The Coroner had, rightly in our view, interpreted Ms Lee ’s email as comprising further submissions directed to her First Ruling given on 14 June 2019. We would not interpret the Coroner ’s response as amounting in any way to a fresh decision on this issue; it was merely a reiteration of it. The Coroner concluded her email by drawing attention to the fact that judicial review was the only avenue of challenge.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The judicial review proceedings</p>
+        </tblock>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The Part 54 Claim Form was issued by the Claimants on 8 October 2019. On 28 October 2019 Trigg issued an application notice on Form N244 seeking the following relief: (i) the Coroner ’s decision that there was no arguable breach of the operational duty be upheld. (ii) the scope of the new inquest should cover the circumstances in which Susan Nicholson met her death, and should not be restricted in the manner indicated by the Coroner.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>Trigg, as an interested party in these proceedings, did not need to file an Application Notice in order to advance the argument comprising the first head identified in (i). However the second head identified in (ii) amounts to nothing less than an attempt to challenge to the Coroner ’s First Ruling without identifying it as such, and an Application Notice of this sort is not the same as a Claim Form seeking judicial review.</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>The law</p>
+        </tblock>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>Section 5 of the CJA 2009 provides: “5 Matters to be ascertained (1) The purpose of an investigation under this Part into a person 's death is to ascertain — (a) who the deceased was; (b) how, when and where the deceased came by his or her death; (c) the particulars (if any) required by the 1953 Act to be registered concerning the death. (2) Where necessary in order to avoid a breach of any Convention rights (within the meaning of the Human Rights Act 1998 (c. 42)), the purpose mentioned in subsection (1) (b) is to be read as including the purpose of ascertaining in what circumstances the deceased came by his or her death. (3) Neither the senior coroner conducting an investigation under this Part into a person 's death nor the jury (if there is one) may express any opinion on any matter other than — (a) the questions mentioned in subsection (1) (a) and (b) (read with subsection (2) where applicable); (b) the particulars mentioned in subsection (1) (c). This is subject to paragraph 7 of Schedule 5.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>Section 10 provides: “10 Determinations and findings to be made (1) After hearing the evidence at an inquest into a death, the senior coroner (if there is no jury) or the jury (if there is one) must — (a) make a determination as to the questions mentioned in section 5(1) (a) and (b) (read with section 5(2) where applicable), and (b) if particulars are required by the 1953 Act to be registered concerning the death, make a finding as to those particulars. (2) A determination under subsection (1) (a) may not be framed in such a way as to appear to determine any question of — (a) criminal liability on the part of a named person, or (b) civil liability. (3) In subsection (2) “criminal liability” includes liability in respect of a service offence.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>There are also provisions relevant to Trigg ’s application about the scope of the inquest which we address below.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>There was little difference between the parties as to the nature, content and scope of the obligations imposed on the state, including agents of the state and the Coroner, by article 2 of the ECHR insofar as they apply to this case. However, there is an important question as to the threshold of seriousness which must be reached and some exposition is required.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>Article 2.1 of the ECHR provides: “Everyone ’s right to life shall be protected by law. No one shall be deprived of his life intentionally save in the execution of a sentence of a court following his conviction for a crime for which this penalty is provided by law.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>There are three aspects of the article 2 duty which are in play in this case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>First, the substantive duty to protect life not only includes an obligation on the state to establish a framework of laws, precautions, procedures and means of enforcement which will to the greatest extent reasonably practicable do so (see Middleton per Lord Bingham at para 2); but also in certain circumstances an operational duty to take positive preventative measures to protect life (Rabone v Pennine Care NHS Trust [2012] 2 AC 72, per Lady Hale JSC at para 94). The obligation, albeit arising “in certain well-defined circumstances”, extends beyond the systemic or framework duty to secure the right to life by putting in place effective criminal law provisions to deter the commission of offences, backed up by a law enforcement machinery for the prevention, suppression and sanctioning of breaches of such provisions (ibid., at para 93 and Osman v UK [1998] 29 E.H.R.R 245, at para 115).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>As explained by Lord Dyson JSC in Rabone, the operational duty has been held to apply in a range of circumstances (see paras 15-18), but not to individua l “casual acts of medical negligence” in treating patients, where it is necessary to establish systemic failings in order to amount to breach (ibid., para 19 and R (Humberstone) v Legal Services Commission [2011] 1 WLR 1460, para 71).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>The aspect of the operational duty relied on in the present case is that identified at para 115 of Osman, namely an obligation on the authorities to take positive operational measures to protect an individual whose life is at risk from the criminal acts of another person. It arises where (1) the authorities know or ought reasonably to know of (2) a real and immediate risk to life and (3) requires them to take measures which could reasonably be expected of them to avoid such risk (ibid., para 116). The following aspects of the duty are well-established : i) Risk means a significant or substantial risk, rather than a remote or fanciful one. In Rabone the risk was quantified as being 5 %, 10 % and 20 % on successive days, which was held to be sufficient (see paras 35-38). ii) An immediate risk to life means one that is “present and continuing” as opposed to “imminent” (see Rabone, para 39). iii) The relevant risk must be to life rather than of harm, even serious harm (see G4S Care and Justices Services Ltd v Kent County Council [2019] EWHC 1648 (QB), paras 74-75 and R (Kent County Council) v HM Coroner for the county of Kent [2012] EWHC 2768 (Admin) at paras 44-47). iv) Real focuses on what was known or ought to be known at the time, because of the dangers of hindsight (see Hertfordshire Police v Van Colle [2009] 1 AC 225, per Lord Bingham at para 32). v) Overall, in the light of the foregoing considerations viewed cumulatively, the test is a stringent one (see Van Colle, per Lord Brown JSC at para 15; and G4S, paras 71-73). It will be harder to establish than mere negligence, but that is not because reasonableness here has a different quality to that involved in establishing negligence; rather it is because it is sufficient for negligence that the risk of damage be reasonably foreseeable, whereas the operational duty requires the risk to be real and immediate : see Rabone at paras 36-37.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>Secondly, the substantive operational duty also extends to an obligation to investigate crimes involving loss of life. This may be conceptualised as an aspect of the framework duty but was held in DSD v Commissioner of Police of the Metropolis [2019] AC 196 to apply to operational failures as much as to systemic failings. Although DSD was a case where the operational duty was said to engage article 3 and not article 2, there can be no sensible distinction between the two: see Lord Neuberger at para 85 and Rabone, per Baroness Hale PSC at para 104.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>DSD is also authority for the proposition that this operational duty arises whether or not the state or its agents have any arguable involvement in the crimes to be investigated (per Lord Kerr JSC at paras 18-26, Lord Neuberger at paras 85-99 and Lord Mance DPSC at para 150).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>However, DSD makes clear that not every operational failure to investigate relevant crime is a breach of the operational duty. The failure must attain a threshold of seriousness which was expressed in various ways. Lord Kerr JSC used a number of epithets to describe what was required: “[o]nly conspicuous or substantial errors in investigation would qualify”; the errors must be “egregious and significant” (at paras 29 and 53). They must be “really serious operational failures” (para 53), or “[o]bvious and significant shortcomings in the conduct of the police … investigation” (para 71). By way of contrast, “simple errors or isolated omissions” or “minor errors” are insufficient (para 29). Lord Neuberger consistently referred to a need to establish that the investigation must be “seriously defective” or the defects or failures “serious” in the investigation (see paras 84, 85, 92, 95, 96, 98 and 99). Failures which were “isolate d”, “not serious” or “not decisive” would fail to suffice (see para 98, by reference to MC v Bulgaria (2003) 40 EHRR 20 at para 168). Lord Neuberger concluded at para 100 by saying that his was little more than a summary of the reasons given by Lord Kerr JSC with which he agreed. Baroness Hale PSC agreed with both Lord Kerr JSC and Lord Neuberger. Lord Mance DPSC said that what would be insufficient are “simple errors or isolated omissions” (para 151(ii)) or “mere shortcomings” (para 151(iii)).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>This plethora of epithets and antonyms is not particularly helpful, given that they can not be regarded as synonymous: compare for example Lord Kerr ’s “really serious” with Lord Neuberger ’s “serious”. We think that Lord Neuberger ’s succinct formulation of a “seriously defective” investigation best encapsulates the legal test, for three reasons. First, in the light of Baroness Hale ’s agreement with the judgments of both Lords Kerr and Neuberger, and the latter ’s assertion that he was seeking to summarise Lord Kerr ’s, it is a legitimate synthesis of the common view of the majority in that case. Secondly, compliance with the substantive obligations in article 2 ranks amongst the highest priorities of a modern democratic state governed by the rule of law, as Lord Bingham observed in Middleton at para 5. On the other hand the test must keep clearly in mind the difficulties in policing modern societies, the unpredictability of human conduct and the operational choices which must be made in terms of priorities and resources so that it does not impose an impossible or disproportionate burden on the authorities (see Osman at para 116 and DSD per Lord Neuberger at para 92). A test of serious deficiency reflects this balance. Thirdly, despite the warnings that “isolated” omissions may not be sufficient, and references to failures, plural, there seems to be no reason in principle why a single failing could not be so serious as to engage the duty. It was natural for the court to frame its language in that way in that case because it was concerned, as are we, with allegations of a series of individual failings which had to be viewed cumulatively.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>In Beganovic v Croatia (cited in DSD at paras 37-39) the ECtHR stated in an article 3 context that in order to amount to an effective investigation the authorities must take whatever reasonable steps they can to secure evidence concerning the incident including a detailed statement from the victim, eye witness testimony, forensic evidence and where appropriate medical reports. Translated to the context of an unexplained death where the putative victim can not give a statement, this must place a heightened emphasis on the securing of circumstantial evidence of what happened, including evidence from those who can speak to relevant events before and after the death, forensic medical evidence in the form of an effective investigation into the cause of death, and any potentially relevant history of violence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>Although these authorities talk of the investigation of a crime, it is obvious that they apply as much to the question whether a crime has been committed as to responsibility for a crime which has indisputably been committed. It is beyond argument that in the case of a death, the duty is to investigate effectively whether there has been a culpable homicide, as well as identifying the person responsible in such an instance.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>The third duty imposed by article 2 which is relevant to the current case is a procedural obligation, or a duty of enhanced investigation, to initiate an effective public investigation by an independent official body into any death occurring in circumstances in which it appears that a substantive obligation has been or may have been violated, and it appears that agents of the state are, or may be, implicated in some way (see for example Middleton, para 3; Humberstone, para 22; and Rabone, para 12(ii)).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>In a situation where the state may have been implicated in the death, the purposes of the investigation are those identified by Lord Bingham in Amin v Home Secretary [2004] 1 AC 653: “In this country, as noted in paragraph 16 above, effect has been given to that duty for centuries by requiring such deaths to be publicly investigated before an independent judicial tribunal with an opportunity for relatives of the deceased to participate. The purposes of such an investigation are clear: to ensure so far as possible that the full facts are brought to light; that culpable and discreditable conduct is exposed and brought to public notice; that suspicion of deliberate wrongdoing (if unjustified) is allayed; that dangerous practices and procedures are rectified; and that those who have lost their relative may at least have the satisfaction of knowing that lessons learned from his death may save the lives of others.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>The way in which the article 2 obligation is usually fulfilled in England and Wales is by holding an inquest (see Middleton, para 20). It does so by the inquest asking and answering the question “in what circumstances” the deceased died, thereby broadening the scope of the traditional coronial inquiry (see Middleton, para 35) as now reflected in the language of s. 5(2) of the CJA 1999.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>The threshold for the procedural obligation to arise is that there has been an arguable breach of an article 2 substantive obligation. This threshold is a low one because to impose a more onerous burden would run the risk of the Coroner determining, in advance of the full evidential picture, what the outcome of any inquest might be. ‘ Arguable’ in this context means anything more than fanciful (see R (AP) v HM Coroner for the County of Worcestershire [2011] EWHC 1453 (Admin), per Hickinbottom J, as he then was, at para 60). The threshold was expressed in slightly different language by Lord Burnett CJ in R (oao Muriel Maguire) v HM Senior Coroner for Blackpool and Fylde [2020] 738 at para 75 where he said: “ … .the procedural obligation imposed by article 2 … .. with which we are concerned [is] .. the parasitic procedural obligation to investigate when a credible suggestion is made that the state has breached its substantive article 2obligations.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Claimants’ grounds</p>
+        </tblock>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>Ms Heather Williams QC advanced four grounds of challenge on behalf of the Claimants. These may be summarised as follows: (1) GROUND 1: the Coroner erred in law in applying the wrong test. Although she used the terminology of arguability and constructive knowledge on the part of the police, it is clear from an examination of her reasons that she required the Claimants to satisfy her that there had been an article 2 breach and it is also clear that she paid no regard to what the police ought reasonably to have known. (2) GROUND 2: it is for the Court to determine the threshold question for itself. Given that it is plainly arguable that the police breached the substantive duties relied on, the Coroner erred in law in coming to the contrary conclusion. (3) GROUND 3: the Coroner ’s decision was Wednesbury unreasonable. (4) GROUND 4: the Coroner ignored relevant considerations and took into account irrelevant ones.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>Grounds 3 and 4 are expressed as alternatives to Ground 2. We agree with Ms Price for the police that Ground 1 must be envisaged in the same way. If the issue is one for the court, any public law errors that may have been perpetrated by the Coroner are neither here nor there. For this reason it is convenient to examine Ground 2 first.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 2</p>
+          <p>The parties’ submissions</p>
+        </tblock>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>Ms Williams submitted that the weight of authority, and principle, supports the proposition, which she contended was the orthodoxy following the enactment of the HRA 1998, that the role of the court on this application for judicial review is to determine for itself whether there has been an arguable breach of the article 2 substantive duties so as to give rise to the article 2 procedural obligation to hold an inquest investigating those issues for the purposes of determining in what circumstances the death occurred pursuant to ss.5(2) and 10(1)(a) of the CJA 1999. The reasons for this were twofold. First, the determination by the Coroner was itself a determination of a question of law – to which there can be only one correct answer. Secondly, if the court were constrained by ordinary judicial review principles, a situation could well arise in which the Coroner ’s decision survived challenge, yet the court might conclude that it was wrong on the merits: in such a circumstance, the court itself, if not the Coroner, would be acting in breach of article 2. Moreover, if the case ever went to Strasbourg the article 2 question would be addressed on the merits.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>Ms Price submitted that there is no general principle as to the approach of the court in cases involving Convention rights, but that it would be only in rare cases that the court would make its own assessment, particularly in a situation (as here) where the Coroner ’s decision did not go to a substantive right, and where it involved an evaluative exercise in relation to the facts. Her decision was as to whether there was a breach of a substantive article 2 right by others, and different decision makers could legitimately take differing views in their assessment of the evidence. Ms Price submitted that the court ’s approach is sensitive to the context of the Convention rights in play, and that in analytical terms there is a contextual spectrum between the court making its own assessment and Wednesbury unreasonableness. Between these two poles are various gradations of review which vary in intensity according to the circumstances. Ms Price contended that the decision of the Coroner in this case falls at or close to the Wednesbury unreasonableness end of this spectrum.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>Ms Lee, who is a solicitor with experience outside the realm of public law, described herself as Trigg ’s personal representative. She was permitted to address the court although she could not be treated as formally on the record. Her submissions throughout were courteous and precise. Essentially, on this issue she supported the position taken by the police and contended that the Coroner ’s decision was reasonable in all the circumstances.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The authorities</p>
+        </tblock>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>Although we were taken to a number of coronial cases, the issue generated by Ms Williams’ Ground 2 has not been squarely addressed in any of them.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>In Humberstone Smith LJ held: “71. As I have said, it is not always easy to decide whether an inquest will engage article 2 and it is not possible to say that an allegation of individual negligence will never engage article 2. In Khan, the court said that a flexible approach must be taken and that, in the circumstances which there prevailed, the article 2 obligation arose. There the allegations against individua l health professionals were not of systems failure or inadequacy of provision. There were allegations of gross negligence against individual health professionals and an allegation of a concerted cover up. That was enough to engage article 2. I repeat that it will be necessary for care to be taken to ensure that allegations of individual negligence are not dressed up as systemic failures but, provided that this possibility is always borne in mind, the appropriate conclusion should not be elusive. 72. In that regard, it seems to me that the person best placed to decide whether article 2 is engaged is the coroner who is to conduct the inquest. In the present case, the Coroner did not volunteer his opinion on this matter when writing his two letters in support of Ms Humberstone 's application for representation. Knowing that he is a very experienced coroner, I am inclined to infer that he did not then have sufficient material on which to form a concluded view. I think that it would be helpful to the Commission if a coroner who wishes to support an application for representation tells the Commission whether or not he intends to conduct a Middleton inquest.” [emphasis supplied] The highlighted passages appear to cut both ways. Their reconciliation may lie in the observation that, even if the issue is one for the court, the Coroner ’s decision, as well as the reasons for it, will carry forensic weight.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>In R (AP) v HM Coroner for the County of Worcestershire [2011] EWHC 1453 (Admin), Hickinbottom J proceeded on the basis that the decision as to arguability was one for the court, although the Coroner ’s reasoning should be respected. There was no submission to the contrary effect (see paras 62-63): “100. In coming to that view, I give due deference to the view of the Coroner … in which he gave his decision not to resume the inquest, the decision of course the Claimants now seek to challenge. Whether the Police Force and/or the Council arguably breached article 2is a matter which I have to reconsider afresh, as I have done: I only note that the Coroner ’s approach (to consider whether there was an arguable breach) appears to me to be legally correct), and this conclusion (that there was no arguable breach) coincides with my own. …” Accordingly, in the light of this conclusion it made no difference which approach was adopted.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>In R (oao Medihani) v HM Coroner for Inner London District of Greater London [2012] EWHC 1104 (Admin) Silber J approached the article 2 question though the lens of traditional judicial review principles. At paras 38 and 40 of his judgment he examined whether the Coroner ’s reasoning withstood scrutiny, and at para 41 said this: “I am bound to conclude that these reasons and the others relied on by the Coroner as justification of the decision not to resume the Inquest individually and cumulatively reach the threshold of being unreasonable and constituting an unlawful decision. … None of these factors or other reasons in the letter showed that the Coroner had made a reasonable or lawful decision bearing in mind the statutory test …” Although at para 36 of his judgment he expressed the issue as being whether the Coroner erred as a matter of public law, Silber J ’s interpretation of R (AP) was that Hickinbottom J had “made a fact-sensitive decision”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>In R (oao Silvera) v HM Senior Coroner for Oxfordshire [2017] EWHC 2499 (Admin), this court (Charles J and HHJ Lucraft QC) applied traditional judicial review principles (para 31). In so doing the Court was doing no more than acceding to the submission made by the Claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>In R (Parkinson) v Kent Senior Coroner [2018] 4 WLR 106, this Court (Singh LJ, Foskett J and HHJ Lucraft QC) decided the arguability question for itself rather than examine the Coroner ’s reasons (see paras 93-120). However, given that there was a coincidence between the two, it made no difference to the outcome: “120. In all the circumstances of this case, we conclude that the Senior Coroner was perfectly entitled to reach the view that there was no systemic issue which arose. Therefore, there was no arguable breach of the substantive obligations in article 2. It followed that there was no enhanced duty of investigation under article 2 either.” The submissions on behalf of the police as Interested Party are not fully set out in the court ’s judgment, but the contention raised by Ms Price in the present case does not appear to have been made.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>In R (oao Muriel Maguire) v HM Senior Coroner for Blackpool and Fylde [2019] EWHC 1232 (Admin), this court (Irwin LJ, Farbey J and HHJ Lucraft QC) applied the lexica of judicial review: “49. … However, it was the function of the Coroner to draw [the fine line]. This court will not interfere save on grounds of irrationality or other error of law. The Coroner ’s approach reveals no such error. On the evidence before the Coroner, it was open to him to conclude that this was a medical case and that a jury could not safely find that Jackie died as a result of any actions or omissions for which the state would be responsible. …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>In the Court of Appeal ([2020] EWCA Civ 738) Lord Burnett CJ giving the judgment of the court decided the issue on the merits (see para 100) but did not comment on para 49 of the judgment of the Divisional Court. Given that the appeal was dismissed, the outcome did not pivot on which approach was right.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>The absence of clear, binding authority on the issue of principle raised by Ground 2 requires us to consider the broader jurisprudence. Given the multitude of cases which have some bearing on this case, it is appropriate both to be selective and to attempt a thematic approach.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>First, there is a line of authority which holds that in a human rights context the role of the court is not to determine whether the decision-maker has erred on traditional public law grounds but rather to evaluate whether there has been a violation of the right in question. So, the focus is on outcome as opposed to process. The authorities in the highest courts which expound and elaborate this principle are R (SB) v Governors of Denbigh High School [2007] 1 AC 100, Belfast City Council v MissBehavin’ Ltd [2007] 1 WLR 1420, Secretary of State for the Home Department v Nasseri [2010] 1 AC 1 and R (Aguilar Quila) v Secretary of State for the Home Department [2012] 1 AC 621</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>The broad principle was clearly expressed by Baroness Hale JSC in the Belfast City Council case at para 31: “The first, and most straightforward, question is who decides whether or not a claimant 's Convention rights have been infringed. The answer is that it is the court before which the issue is raised. The role of the court in human rights adjudication is quite different from the role of the court in an ordinary judicial review of administrative action. In human rights adjudication, the court is concerned with whether the human rights of the claimant have in fact been infringed, not with whether the administrative decision-maker properly took them into account. If it were otherwise, every policy decision taken before the Human Rights Act 1998 came into force but which engaged a convention right would be open to challenge, no matter how obviously compliant with the right in question it was. That can not be right, and this House so decided in R (SB) v Governors of Denbigh High School [2007] 1 AC 100, in relation to the decisions of a public authority. To the same effect were Wilson v First County Trust Ltd ( No 2) [2004] 1 AC 816 and R (Williamson) v Secretary of State for Education and Employment [2005] UKHL 15, [2005] 2 AC 246, in relation to legislation passed before the 1998 Act came into force. In each of those cases, the House considered the justification for the policy or legislation in question on its merits, regardless of whether the decision-maker had done so.” (emphasis supplied)</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>80</num>
+          <content>
+            <p>The critical sentence is the one we have highlighted. The key point is that a claimant can not demonstrate a violation of her or his human rights simply by showing that the decision-maker failed to have regard to them. We think that this point was made with equal force by Lord Hoffmann at para 15 of his opinion in the same case, and he returned to it at paras 12-14 of his opinion in Nasseri: “12. In my respectful opinion the judge was wrong in saying that article 3 creates a procedural obligation to investigate whether there is a risk of a breach by the receiving state, independently of whether or not such a risk actually exists. In making this mistake the judge was in good company, because it seems to me that he fell into the same trap as the English Court of Appeal in R (SB) v Governors of Denbigh High School [2005 ] 1 WLR 3372; [2007] 1 AC 100 and the Northern Irish Court of Appeal in Belfast City Council v MissBehavin' Ltd [2007] 1 WLR 1420. It is understandable that a judge hearing an application for judicial review should think that he is undertaking a review of the Secretary of State 's decision in accordance with normal principles of administrative law, that is to say, that he is reviewing the decision-making process rather than the merits of the decision. In such a case, the court is concerned with whether the Secretary of State gave proper consideration to relevant matters rather than whether she reached what the court would consider to be the right answer. But that is not the correct approach when the challenge is based upon an alleged infringement of a Convention right. In the Denbigh High School case, which was concerned with whether the decision of a school to require pupils to wear a uniform infringed their right to manifest their religious beliefs, Lord Bingham of Cornhill said, in para 29:" the focus at Strasbourg is not and has never been on whether a challenged decision or action is the product of a defective decision-making process, but on whether, in the case under consideration, the applicant 's Convention rights have been violated." 13. Likewise, I said, in para 68:" In domestic judicial review, the court is usually concerned with whether the decision-maker reached his decision in the right way rather than whether he got what the court might think to be the right answer. But article 9 is concerned with substance, not procedure. It confers no right to have a decision made in any particular way. What matters is the result: was the right to manifest a religious belief restricted in a way which is not justified under article 9(2)? " 14. The other side of the coin is that, when breach of a Convention right is in issue, an impeccable decision-making process by the Secretary of State will be of no avail if she actually gets the answer wrong. That was the basis of the decision of the House of Lords in Huang v Secretary of State for the Home Department [2007] 2 AC 167, in which the question was whether the removal of a migrant would infringe his right to respect for family life under article 8. The Appellate Committee said, in para 11:" the task of the appellate immigration authority, on an appeal on a Convention ground against a decision of the primary official decision-maker refusing leave to enter or remain in this country, is to decide whether the challenged decision is unlawful as incompatible with a Convention right or compatible and so lawful. It is not a secondary, reviewing, function dependent on establishing that the primary decision-maker misdirected himself or acted irrationally or was guilty of procedural impropriety. The appellate immigration authority must decide for itself whether the impugned decision is lawful and, if not, but only if not, reverse it."</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>81</num>
+          <content>
+            <p>Lord Hoffmann was not addressing the question of what weight, if any, should be accorded to the views of the decision-maker. This was described by Baroness Hale in the Belfast City Council case as “the second, and more difficult” question (see para 32). In this regard para 37 of her opinion is particularly valuable: “But this is not a case in which the legislation itself attempts to strike that balance. The legislation leaves it to the local authority to do so in each individual case. So the court has to decide whether the authority has violated the convention rights. In doing so, it is bound to acknowledge that the local authority is much better placed than the court to decide whether the right of sex shop owners to sell pornographic literature and images should be restricted-for the prevention of disorder or crime, for the protection of health or morals, or for the protection of the rights of others. But the views of the local authority are bound to carry less weight where the local authority has made no attempt to address that question. Had the Belfast City Council expressly set itself the task of balancing the rights of individuals to sell and buy pornographic literature and images against the interests of the wider community, a court would find it hard to upset the balance which the local authority had struck. But where there is no indication that this has been done, the court has no alternative but to strike the balance for itself, giving due weight to the judgments made by those who are in much closer touch with the people and the places involved than the court could ever be.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>82</num>
+          <content>
+            <p>Broadly similar statements of principle are to be found in the opinions of Lord Rodger (para 26, citing Lord Bingham in the Denbigh High School case (“If, in such a case, it appears that such a body has conscientiously paid attention to all human rights considerations, no doubt a challenger ’s task will be the harder”), Lord Mance (para 44) and Lord Neuberger (para 97).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>83</num>
+          <content>
+            <p>Other things being equal, where – as in the present case – the decision-maker (i.e. the Coroner) has plainly had regard to the Convention right in play, the court in exercising the role identified by Lady Hale at para 31 of her opinion will bear in mind her conclusion in coming to its own determination on the merits. We have prefaced this by an appropriate qualification because in the final analysis the extent to which the opinion of the subordinate body will be borne in mind, and respected, must depend on the correct characterisation of the question it was asked to answer. In the Belfast City Council case, that question entailed an evaluation of where the article 10 balance fell.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>84</num>
+          <content>
+            <p>The second strand of authority addresses the different standards of review which may apply to cases involving the principle of proportionality. The canonical text is the opinion of Lord Steyn in R (Daly) v Home Secretary [2001] 2 AC 532, paras 27-28. In summary, however, he recognised that apart from the ordinary Wednesbury standard of review and the “heightened scrutiny” in the Smith type of case, there was a third standard of a higher intensity of review necessary in that case, although this fell short of the review court deciding the merits for itself. It is unnecessary to cite extensively from this authority not merely because it is so well known but also because the present case is not concerned with the alleged breach of a qualified human right. Article 2 does not mandate the performance of any balancing exercise where, by its very nature, there is usually room for more than one reasonable opinion.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>85</num>
+          <content>
+            <p>In Huang v Secretary of State for the Home Department [2007] 2 AC 167 in which Lord Bingham said at para 13: “In the course of his justly-celebrated and much-quoted opinion in R(Daly) v Secretary of State for the Home Department [2001] UKHL 26, [2001] 2 AC 532, paras 26-28, Lord Steyn pointed out that neither the traditional approach to judicial review formulated in Associated Provincial Picture Houses Ltd v Wednesbury Corporation [1948] 1 KB 223 nor the heightened scrutiny approach adopted in R v Ministry of Defence, Ex p Smith [1996] QB 517 had provided adequate protection of Convention rights, as held by the Strasbourg court in Smith and Grady v United Kingdom (1999) 29 EHRR 493. Having referred to a material difference between the Wednesbury and Smith approach on the one hand and the proportionality approach applicable where Convention rights are at stake on the other, he said (para 28):" This does not mean that there has been a shift to merits review". This statement has, it seems, given rise to some misunderstanding. The policy attacked in Daly was held to be ultra vires the Prison Act 1952 (para 21) and also a breach of article 8. With both those conclusions Lord Steyn agreed (para 24). They depended on questions of pure legal principle, on which the House ruled. Ex p Smith was different. It raised a rationality challenge to the recruitment policy adopted by the Ministry of Defence which both the Divisional Court and the Court of Appeal felt themselves bound to dismiss. The point which, as we understand, Lord Steyn wished to make was that, although the Convention calls for a more exacting standard of review, it remains the case that the judge is not the primary decision-maker. It is not for him to decide what the recruitment policy for the armed forces should be. In proceedings under the Human Rights Act, of course, the court would have to scrutinise the policy and any justification advanced for it to see whether there was sufficient justification for the discriminatory treatment. By contrast, the appellate immigration authority, deciding an appeal under section 65, is not reviewing the decision of another decision-maker. It is deciding whether or not it is unlawful to refuse leave to enter or remain, and it is doing so on the basis of up to date facts.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>86</num>
+          <content>
+            <p>Finally, Ms Williams referred us to R (Wilkinson) v Broadmoor Special Hospital Authority [2002] 1 WLR 419. There, the Court of Appeal quashed the judge ’s decision not to order cross-examination of medical witnesses in a forcible treatment case said to violate the claimant ’s article 3 and 8 rights. In our view this case is of no assistance because, as Simon Brown LJ (as he then was) explained (para 24), the same issue could have arisen in a private law action.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The correct approach</p>
+        </tblock>
+        <paragraph>
+          <num>87</num>
+          <content>
+            <p>We consider that these authorities do not support the high watermark of Ms Willia ms’ submission that, whatever the context, the issue involving whether there is a breach of a convention right is always a hard-edged one of law where the court must answer a binary question without regard to the view of the Coroner. If that were right, all questions arising under the Convention could only ever receive one correct answer, and the Court of Appeal in deciding appeals in such cases, including proportionality cases, would be required to come to its own conclusion regardless of the reasons given by the court below. At times during her oral argument, Ms Williams was in danger of elevating this issue to a realm of legal abstraction in which the question we are required to answer was not specified sufficiently precisely. Thus, a submission that “[a]s the issue relates to the alleged infringement of ECHR rights, it is for the court to determine the question for itself” (see para 8(2) of her skeleton argument) is too wide-ranging to be helpful. Furthermore, a submission at this level of generality is not supported by the citations from authority which we have set out in some detail. As Lord Steyn observed, context is everything.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>88</num>
+          <content>
+            <p>The point has already been made that article 2 is an unqualified right. The decision for the Coroner was whether there had been an arguable breach of that right so as to trigger the investigative duty. It is necessary to focus on the nature of the decision the Coroner was being required to make, namely whether the evidence reached a threshold of arguability. An assessment of whether or not a case is arguable involves an evaluative process but, to adopt the language of Lord Phillips in ZT (Kosovo) v Home Secretary [2009] 1 WLR 348, the test is “black and white” and “objective” (para 22), leaving no room for more than one rational conclusion. In that case the House of Lords was concerned with the “clearly unfounded” test for certification under s.94(2) of the Nationality, Immigration and Asylum Act 2002, but there can be no difference between this and the concept of arguability: in substance, they are antonyms. Furthermore, there is no dispute of primary fact (para 23) in the sense that the documentary material before us is exactly the same as that before the Coroner. At para 21 of his opinion, Lord Phillips made clear that “anxious scrutiny” was the correct approach, but he pointed out that the “mental process” would be the same even if the court were substituting its own view.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>89</num>
+          <content>
+            <p>At para 23 of his opinion, Lord Phillips stated: “Where, as here, there is no dispute of primary fact, the question of whether or not a claim is clearly unfounded is only susceptible to one rational answer. If any reasonable doubt exists as to whether the claim may succeed then it is not clearly unfounded. It follows that a challenge to the Secretary of State 's conclusion that a claim is clearly unfounded is a rationality challenge. There is no way that a court can consider whether her conclusion was rational other than by asking itself the same question that she has considered. If the court concludes that a claim has a realistic prospect of success when the Secretary of State has reached a contrary view, the court will necessarily conclude that the Secretary of State 's view was irrational.” (emphasis supplied)</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>90</num>
+          <content>
+            <p>It is certainly arguable that Lords Hope and Carswell did not conceptualise the issue in these terms, but they were in the minority: see Lord Brown of Eaton-under-Heywood (at para 75) and Lord Neuberger (at para 83), who supported Lord Phillips. The latter stated that the application of judicial review principles will “at least normally” admit of only one answer.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>91</num>
+          <content>
+            <p>In our view this approach is applicable to the present case. Although the standard of review is correctly categorised conceptually in terms of heightened scrutiny, in practical terms the result must be the same as that which would be reached by the court reaching its own conclusion. The court must ask itself whether (on our facts) article 2 required a s.5(2) investigation, and can only do so by an assessment of whether the arguability threshold was reached. This is the same question that the Coroner posed to herself. Thus, in this particular context, a rationality challenge collapses into a merits review because the answer to the question as posed is the same whether the route to it is through Wednesbury or an examination of the merits. If the court considers that the arguability threshold is not reached, the Coroner ’s decision would stand irrespective of whether public law errors were committed on the road to that conclusion. If, on the other hand, the court considers that the arguability threshold is reached, the court will necessarily conclude that the Coroner ’s view was irrational.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>92</num>
+          <content>
+            <p>That is not to say, however, that the conclusion and the reasons given by the Coroner are entirely irrelevant. The authorities referred to above show that the court in reaching its own conclusion will take account of those reasons, just it would have in the Belfast City Council case had the local council with particular local experience expressed the reasons for its conclusions on the balancing considerations at play in that case. The weight to be accorded to them by the court in reaching its own decision will vary according to their nature and cogency, as well as the degree to which they can properly be regarded as informed by specialist knowledge and experience in relation to the particular factual questions in issue.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>93</num>
+          <content>
+            <p>In conclusion, therefore, the nature of the exercise being conducted by the Coroner means that her options were limited to one, as are ours. In practice, we must ask ourselves whether her conclusion was right or wrong. In so doing we accord such weight to her reasoning as its nature and cogency require, and such weight to her conclusion as is appropriate to such differences as exist between her and our experience and expertise. Ground 2 will therefore be dispositive of the result.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Our conclusions on Ground 2</p>
+        </tblock>
+        <paragraph>
+          <num>94</num>
+          <content>
+            <p>The Coroner set out the governing law in some detail She did so accurately, save that she expressed the threshold for operational failures to investigate as being “very serious” when, for the reasons we have given, we think the yardstick is “serious”. Her central conclusions on both aspects of the article 2 case were somewhat brief. At para 55 of her Second Ruling she relied on the fact that there was no evidence of injury, disturbance etc. and that the similarities between the two deaths only became apparent after 2011. However, we agree with Ms Williams that these were hardly knock-out blows, and the Coroner failed to address the detail of the criticisms itemised in the Claimants’ submissions to her. There is also force in the submission that paragraph 55 suggests that she lapsed into the error which infected her First Ruling of whether the failures were established rather than arguable, despite her reference to arguability in other paragraphs. Moreover, paras 56 and 57 of the Coroner ’s ruling amount to little more than the stating of her conclusions without accompanying reasoning by reference to the detail of the evidence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>95</num>
+          <content>
+            <p>Similar criticisms may be made in connection with the Coroner ’s ruling on the second limb of the Claimants’ article 2 case. We would add that although evidence of previous non-fatal violence against former partners and against Susan Nicholson herself did not necessarily establish an article 2 risk at the relevant time, the issue for the Coroner was whether there was at least credible evidence to show that it might have done.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>96</num>
+          <content>
+            <p>The Coroner ’s failure to provide detailed reasoning in a complicated case like this does not mean that her conclusions are necessarily wrong. However it means that where the correct approach is for the court to decide the issue, we have not been able to derive any significant benefit from her views in reaching our own conclusions. Nor do we think that the area of factual inquiry is such that her conclusion alone carries particular weight by virtue of any discrepancy in experience and expertise. We therefore approach the issue afresh.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>97</num>
+          <content>
+            <p>At para 50 of her skeleton argument, Ms Williams highlighted ten “apparent serious failings in the police investigation”. On our understanding, a number of these are said to be serious when taken in isolation; others are serious when viewed cumulatively. Para 47 of Ms Price ’s skeleton argument attempted a detailed rebuttal of all Ms Williams’ points. The arguments on the evidence were developed in oral argument. We hope we will be forgiven for not addressing every one of them. It is sufficient to seek to identify those aspects of the evidence which have led us to the conclusion we have reached on whether arguable breaches of the substantive article 2 duties have been made out.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>98</num>
+          <content>
+            <p>In doing so it is necessary to keep two matters firmly in mind. First, the Claimants are entitled to say that their case should be taken at its highest. The question is not whether breaches of duty have been made out, but merely whether it can credibly be suggested at this stage that they will be, after the further and fuller investigation of all the evidence which will be available at a Middleton inquest, which will be greater than that currently available. In what follows we should not be taken to be expressing any concluded views on what findings would be made on that evidence. Secondly, we are acutely aware of the dangers of hindsight which are capable of distorting the picture.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Investigation into Caroline Devlin ’s death</p>
+        </tblock>
+        <paragraph>
+          <num>99</num>
+          <content>
+            <p>The material currently available suggests that the following can credibly be suggested: i) The police officers at the scene were confronted by a relatively young woman who, on Trigg ’s account, had died after sexual intercourse and had being lying still for many hours. They were told that at 05.00 Trigg had woken up and had wondered to himself, albeit “jokingly”, that she may have suffocated, before going back to sleep. When he woke up in the morning he had not apparently checked her despite his thought at 05.00 that she might have suffocated. She was in exactly the same position but Trigg comported himself as if nothing was amiss and did not himself call an ambulance. ii) That was sufficient to categorise the death as suspicious. Indeed the Operation Naples log suggests that it was so categorised after DI Brown and DS Jones arrived. iii) The FME, a general practitioner with no particular expertise in unexplaine d deaths, thought it possible that Caroline Devlin had died as the result of a heart attack or vaginal embolism (he was wrong) and DI Brown, who did not hear Trigg ’s account for himself, concluded on the basis of the FME ’s opinion alone to treat it as a non-suspicious death. That was unjustified. iv) The suspicious circumstances would have mandated, at least, taking a detailed statement from Trigg and the family members as to how and by whom she had been found to be dead. Had that occurred it would have revealed the further suspicious discrepancies which emerged from their conflicting accounts of how Caroline ’s death was discovered. v) The suspicious circumstances should also have mandated a fuller and more careful investigation of Trigg ’s history of violence, leading to the obtaining of witness statements from Susan Holland and Zoe Watson. Taken at its arguable highest therefore the police ought to have known at the time of their investigation into Caroline Devlin ’s death: a) from Susan Holland that Trigg had been controlling and verbally aggressive towards her, and had been physically violent towards her on a number of occasions, one of which involved significant facial injuries resulting in her being knocked out and hospitalised for days, if not weeks, in an incident in which Trigg himself had called the police and asked to be arrested because he regarded himself as at risk of killing her; and b) from Zoe Watson that Trigg had recently been violent towards Caroline herself on at least three occasions which made her fear for her life. vi) It is arguable that these circumstances would, or should, have led to a homicide enquiry and to a full post-mortem by a Home Office pathologist who might have discovered evidence of a blow to the head as the cause of death. That might also have been the effect of a full briefing of the local pathologist who in fact undertook the post-mortem, who might credibly have required a full post mortem on the evidence the police had and that which they arguably ought to have obtained. In any event, what Caroline Devlin ’s sister told DI Brown about an incident with a pillow (the fact that Caroline did not die by suffocation is irrelevant), justified a full post-mortem; and it may be that when DI Brown says in his statement that it prompted a desire for a review of that question, that really means that he was in favour of a full post-mortem which was thwarted by squabbling over funding.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>100</num>
+          <content>
+            <p>Taken together we consider that these failures, if such they be and are made out at an inquest which investigates them, are arguably sufficiently serious to meet the threshold of article 2 breaches.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>101</num>
+          <content>
+            <p>Had Trigg been charged and convicted of the manslaughter of Caroline Devlin following an investigation into her death, he would not have been at large to murder Susan Nicholson.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Protection of Susan Nicholson</p>
+        </tblock>
+        <paragraph>
+          <num>102</num>
+          <content>
+            <p>The contention that the police failed in their operational duty to Susan Nicholson because Trigg represented a real and immediate risk to her life is a difficult one, given the stringency of the test. We remind ourselves that the risk must be to life, not merely a risk of serious harm; and that the strictures articulated in Osman about not seeking to impose impossible or disproportionate duties on the police is particularly apposite. The police are called out to a vast number of domestic incidents and it would put a disproportionate burden upon them if they were required to conduct extensive investigations in most cases.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>103</num>
+          <content>
+            <p>The material currently available suggests that the following can credibly be suggested: i) The DASH reports disclose material errors, inconsistencies, and failures to make reasonable enquiry, to set out the history in relation to previous partners and to grade the risk accurately. ii) By 26 March 2011 and the third DASH report, there was clear evidence that Trigg had perpetrated significant physical violence towards Susan, which he accepted, and that the situation was escalating. The risk was originally assessed as medium and should not have been downgraded to standard. iii) The circumstances mandated a proper investigation of any previous history of violence by Trigg towards partners in order properly to assess the risk to Susan Nicholson. iv) That would have revealed the violence towards Susan Holland set out in her subsequent statement, and ought arguably to have led to the evidence of violence perpetrated against Caroline Devlin (per Zoe Watson), Carole O’Neil and Lisa Herley. This pattern of domestic violence against former partners was not merely of physical harm but, importantly, included threats to the lives of all four of them. v) In addition, Caroline Devlin ’s death should also have given rise to heightene d concern. The hypothesis involved in our assessment of the operational failures in the investigation of her death, when looked at on its own, is that Trigg would have been charged over Caroline ’s death and convicted. But even had that not occurred, and one hypothesises that there had been a decision not to charge, or a prosecution with an acquittal, when it came to assessing Susan Nicholson’ s position, the police conclusion that Caroline had died in suspicious circumstances, which it is arguable they ought to have reached, taken with the other violence towards previous partners, should have heightened the perception of the risk to Susan Nicholson ’s life. vi) In the light of the above, it is arguable that by the time of the third incident and investigations into previous violence, which should have taken place prior to Susan ’s death, a real and immediate risk to Susan ’s life should have been identified.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>104</num>
+          <content>
+            <p>It is therefore arguable that the police ought to have taken measures to involve social services and protect Susan, which would have been the result of a DASH report that the risk was high, and that had they done so, Trigg might not have been in a position to murder her as a result of protective measures.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>105</num>
+          <content>
+            <p>It follows that the Claimants’ case must succeed on both aspects of Ground 2.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>106</num>
+          <content>
+            <p>We should emphasise that of course we are not finding that the police were in fact guilty of any failings, or in breach of the operational duties. Our conclusion is merely that that can credibly be suggested, so that an inquest should look into whether that is so. It may find that no criticism of the police is justified, or that any criticisms are isolated failures and not serious. That will be a matter for investigation at the inquest.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Trigg ’s Application</p>
+          <p>The procedural issue</p>
+        </tblock>
+        <paragraph>
+          <num>107</num>
+          <content>
+            <p>Ms Williams first contended that Trigg ’s challenge was procedurally incompetent because no Claim Form under CPR Part 54 has been filed (the Application Notice on Form N244 was not such a document) and that would be the only proper procedure to seek to challenge the relevant decision of the Coroner which was made in her First Ruling on 14 June 2019. Even if the Application Notice could in such way be regarded as a claim, it was out of time.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>108</num>
+          <content>
+            <p>We agree that the short answer to Trigg ’s application is that it is procedurally flawed and too late. An Application Notice on Form N244 can not be regarded as some form of surrogate for a Claim Form seeking judicial review under CPR Part 54. The latter procedure is protected by a number of safeguards imposed in the public interest, including in particular the need for permission, and all of these have been circumvented. We have already observed that the application notice is a challenge to the First Ruling and that the August email from the Coroner was not a fresh decision; the Application Notice is not therefore directed to the correct decision. Ms Lee ’s submission that the court should accept Robert Trigg ’s Application Notice because it was filed within a reasonable time of the August email exchanges does not provide any proper ground for doing so. The Coroner herself pointed out in correspondence to Ms Lee that if a challenge were to be made it would have to be by way of judicial review. No satisfactory explanation has been advanced for the failure to do so. Nor have any satisfactory reasons been advanced for failing to make the challenge, whether or not in proper form, within the three month time limit.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The substantive issue</p>
+        </tblock>
+        <paragraph>
+          <num>109</num>
+          <content>
+            <p>Ms Bridget Dolan QC for the Coroner joined with Ms Williams in submitting that the challenge was out of time, as she put it, but indicated that her client would welcome assistance from this court on the merits. We think it right to address the point for that reason.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>110</num>
+          <content>
+            <p>Section 11 of the CJA 2009 provides that Schedule 1 makes provision about suspension and resumption of investigations. Paragraphs 1 to 3 of Schedule 1 address the circumstances in which a Coroner must suspend an investigation into a person ’s death, in which case paragraph 6 requires the inquest to be adjourned. Paragraph 2 broadly speaking requires suspension when criminal proceedings for a homicide offence are brought before an inquest has been concluded.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>111</num>
+          <content>
+            <p>Schedule 1, para 8 deals with the resumption of investigations that have been suspended under paragraph 2. Specifically: “8(1) An investigation that is suspended under paragraph 2 may not be resumed unless, but must be resumed if, the senior coroner thinks that there is sufficient reason for resuming it.” (2) Subject to sub-paragraph (3) — (a) an investigation that is suspended under paragraph 2 may not be resumed while proceedings are continuing before the court of trial in respect of a homicide offence, or the service equivalent of a homicide offence, involving the death of the deceased; (b) an investigation that is suspended by virtue of sub-paragraph (4) or (5) of that paragraph may not be resumed while proceedings are continuing before the court of trial in respect of the offence referred to in that sub-paragraph. … (5) In the case of an investigation resumed under this paragraph, a determination under section 10(1) (a) may not be inconsistent with the outcome of — (a) the proceedings in respect of the charge (or each charge) by reason of which the investigation was suspended; (b) any proceedings that, by reason of sub-paragraph (2), had to be concluded before the investigation could be resumed.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>112</num>
+          <content>
+            <p>The public policy rationale for this prohibition on an inquest arriving at conclusions on the statutory questions which are inconsistent with the outcome of criminal proceedings regarding the same death, are obvious. If such a prohibition did not exist an inquest could be used to try and undermine conclusions reached to the criminal standard of proof in the criminal jurisdiction. If the defendant to the criminal proceedings disputes the basis of his conviction, then his proper remedy is to appeal to the Court of Appeal, Criminal Division. If he is unable to show sufficient grounds to be granted permission to appeal or his appeal against conviction fails, then there is no reason in law or policy why he should be given another opportunity to try and re-open such matters via an inquest. To permit him to do so would be contrary to the efficient administration of justice and would fail to respect the criminal jury ’s role and conclusion.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>113</num>
+          <content>
+            <p>However these provisions do not appear to apply on their express terms to the instant case because there was no criminal prosecution before the conclusion of the first inquest and its verdict of accidental death; there was no suspension of an inquest under paragraph 2.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>114</num>
+          <content>
+            <p>Nevertheless these provisions were relied on both by the Coroner in her First Ruling, and by the Claimants in submissions to us, as supporting the requirement of the Coroner to reach a verdict consistent with Trigg ’s convictions. The Coroner did so by analogy, saying that the underlying rationale for them applied equally to the current circumstances. Ms Williams supported that reasoning, but went further and submitted that they applied as a matter of construction: given that there could be no difference in principle between a resumed inquest and the instant case, a purposive construction of para 8(5) of Schedule 1 to the CJA 1999 should lead to the conclusion that the ambit of the inquest must reflect the verdicts of the jury in the criminal trial. In the alternative, Ms Williams submitted that the legal principle supporting the Coroner ’s decision was abuse of process.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>115</num>
+          <content>
+            <p>Ms Dolan submitted that the instant case was not covered by the legislative wording but supplemented Ms Williams’ alternative submission in the following manner. She submitted that Trigg ’s proposed course of action would be an attack on the administration of justice, because the issue has already been determined by a competent court. It would be an abuse of process regardless of who initiated the process. The Coroner was fully entitled to conclude that the scope of her investigation and inquiry should be delimited to prevent a usurpation of the rule of law.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>116</num>
+          <content>
+            <p>Ms Williams and Ms Dolan were not ad idem as to whether the analysis should be the same in the event of a prior acquittal. Beyond noting that an acquittal by a jury in a criminal trial does not depend on the proof of an affirmative proposition (to any standard), and drawing attention to what Lord Diplock said in Hunter v Chief Constable [1982] AC 592, at page 543B, we decline to address this issue on an academic basis.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>117</num>
+          <content>
+            <p>Ms Lee advanced three submissions in support of her overarching contention that the inquest should not be bound by the verdict in the criminal trial. First, she submitted that, as a matter of language, para 8(5) of Schedule 1 to the CJA 2009 was limited to resumed investigations, and in the present case did not apply. Secondly, she submitted that there was no rule of public policy and/or principle of abuse of process which dictated that the fresh inquest should be constrained in any way. These were not civil proceedings; they were in the nature of being a statutory inquiry which was initiated in the public interest rather than the private interests of Robert Trigg. Thirdly, she submitted that his article 6 rights would be denied if a full inquiry were not undertaken. On our understanding of her oral argument, Ms Lee ’s contention was that this was so for the purposes of s.5(1) of the 1999 Act rather than s.5(2), although her skeleton argument was to contrary effect.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>118</num>
+          <content>
+            <p>In our judgment, Ms Dolan and Ms Lee are correct to submit that the present case is not covered by the wording of para 8(5) of Schedule 1 to the CJA 1999. No flexibility of language permits the conclusion that this is a resumed inquest to which paragraph 8 applies. That paragraph only applies where an inquest has been suspended under paragraph 2. That has not occurred in this case. When Whipple J quashed the verdict of accidental death, she ordered that “another inquest be held”. An investigation which is resumed under para 8(5) of Schedule 1 is not the same as a fresh investigation which commences following a quashing of an unlawful verdict under s.13 of the Coroners Act 1988. We accept that the public policy considerations which underlie paragraph 8 apply equally to a fresh investigation in the circumstances of the current case. However, the fact that there is no difference in principle between the two situations does not permit the court to hold, in the application of some sort of purposive construction, that the instant case may be accommodated within Schedule 1. The wording of para 8(5) is sufficiently clear to preclude this creativity.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>119</num>
+          <content>
+            <p>It may well be that the reason why Parliament has left this situation untouched by the CJA 1999 is that s.13 of the Coroners Act 1988 covers a broad range of possible situations in which “another” investigation may be ordered. It provides: “13 Order to hold investigation (1) This section applies where, on an application by or under the authority of the Attorney-General, the High Court is satisfied as respects a coroner (“the coroner concerned”) either — (a) … .. (b) where an inquest or an investigation has been held by him, that (whether by reason of fraud, rejection of evidence, irregularity of proceedings, insufficiency of inquiry, the discovery of new facts or evidence or otherwise) it is necessary or desirable in the interests of justice that an investigation (or as the case may by, another investigation) should be held.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>120</num>
+          <content>
+            <p>The present case falls within sub-para (b). The new fact is the verdict of the jury in the criminal trial with which the inquest verdict of accidental death can not be reconciled. The criminal jury found (at the very least) unlawful killing to the criminal standard of proof, and the purpose of the new inquest is to regularise the position in the public interest.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>121</num>
+          <content>
+            <p>The scope of the new inquest is for the Coroner. But for the article 2 question, she would have been fully entitled to proceed along the abbreviated path she originally had in mind. In her First Ruling the Coroner concluded that to inquire into matters that had already been determined in the criminal proceedings would amount to a collateral attack on the conviction. In our view the Coroner was correct. Notwithstanding that para 8(5) of Schedule 1 is inapplicable, any investigation as to whether this was otherwise than an unlawful killing would be a collateral attack on the criminal court and contrary to the public policy underlying the statutory wording (which exists in all cases, including fresh inquests brought about by s.13 of the 1988 Act) which we have identified. Thus, it would be Wednesbury unreasonable, and probably unlawful on Padfield principles, for the Coroner to decide other than she did.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>122</num>
+          <content>
+            <p>The scope of the abuse of process principle in this context is familiar. It is based on a notion of public policy that if a fact in issue has been established to the requisite standard of proof in a criminal trial, it would be offensive to the administration of justice and the rule of law that the same issue could be relitigated in any forum other than through the prescribed route of appeal. The entirety of Lord Diplock ’s famous passage in Hunter at page 541H to 542H is relevant here, but our attention was drawn in particular to the dictum of Lord Halsbury LC in Reichel v Magrath [1889] 14 App. Cas. 665, at 668: “… I think it would be a scandal to the administration of justice if, the same question having been disposed of by one case, the litigant were to be permitted by changing the form of the proceedings to set up the same case again.” This scandal would arise regardless of the nature of the proceedings (pace Ms Lee ’s contention that the principle is limited to subsequent civil proceedings) and who brings the claim. Although Trigg has no role in initiating the coronial process in the public interest, that same public interest definitively precludes the course of action he seeks to take.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>123</num>
+          <content>
+            <p>There is no merit in Ms Lee ’s argument that Trigg ’s article 6 rights would be violat ed by any restrictive course. His “civil rights and obligations” are not in play in a coroner ’s inquest, and the article 6 protections which apply to criminal trials are clearly irrelevant. Although s.5(2) refers in general terms to Convention rights, it was not relied on by Ms Lee and in any event has no application to article 6.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>124</num>
+          <content>
+            <p>For all these reasons, we must reject Trigg ’s application and uphold the Coroner ’s ruling given on 14 June 2019 that the fresh inquest can not reach a verdict inconsistent with Trigg ’s conviction.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Disposal</p>
+        </tblock>
+        <paragraph>
+          <num>125</num>
+          <content>
+            <p>This application for judicial review is allowed on both limbs of Ground 2. There must be an article 2 compliant inquest into the death of Susan Nicholson.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

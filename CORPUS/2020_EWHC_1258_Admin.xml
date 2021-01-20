@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWHC_1258_Admin" />
+          <FRBRuri value="www.judiciary.uk/2020_EWHC_1258_Admin" />
+          <FRBRdate date="2020-04-23" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/wisniewski-v-polish-judicial-authority" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/wisniewski-v-polish-judicial-authority" />
+          <FRBRdate date="2020-04-23" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_1258_Admin.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_1258_Admin.xml" />
+          <FRBRdate date="2021-01-15" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="AdministrativeCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdministrativeCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="Wisniewski" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Wisniewski" showAs="Wisniewski" />
+        <TLCOrganization eId="PolishJudicialAuthority" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PolishJudicialAuthority" showAs="Polish Judicial Authority" />
+        <TLCPerson eId="MrJusticeSwift" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeSwift" showAs="Mr Justice Swift" />
+        <TLCPerson eId="MrM.Hawkes" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrM.Hawkes" showAs="Mr M. Hawkes" />
+        <TLCPerson eId="MwSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MwSolicitors" showAs="Mw Solicitors" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWHC 1258 (Admin)</neutralCitation>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#AdministrativeCourt">ADMINISTRATIVE COURT</organization>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CO/3452/2018</docNumber>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London WC2A 2LL</location>
+      </p>
+      <p>
+        <date date="2020-04-23" refersTo="#hand-downDate">23/04/2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#MrJusticeSwift">MR JUSTICE SWIFT</judge>
+      </p>
+      <p>BETWEEN:</p>
+      <p>
+        <party as="#appellant" refersTo="#Wisniewski">WISNIEWSKI</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and-
+        <party as="#respondent" refersTo="#PolishJudicialAuthority">POLISH JUDICIAL AUTHORITY</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>
+        <lawyer as="#barrister" for="#Wisniewski" refersTo="#MrM.Hawkes">MR M. HAWKES</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#Wisniewski" refersTo="#MwSolicitors">MW Solicitors</lawyer>
+        ) appeared on behalf of the Appellant.
+      </p>
+      <p>THE RESPONDENT did not appear and was not represented.</p>
+      <p>
+        Hearing date:
+        <date date="2020-04-23" refersTo="#hearing">23 April 2020</date>
+      </p>
+      <p>-----------------</p>
+      <p>
+        <docTitle>TRANSCRIPT OF JUDGMENT</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <decision>
+        <tblock>
+          <p>MR JUSTICE SWIFT:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This is an application for permission to appeal against an extradition order made on 31 August 2018. Extradition is sought in respect of two European Arrest Warrants. In the judgment of the District Judge they are referred to as" EAW1" and" EAW2". The first warrant was issued on 17 November 2015 and certified by the NCA on 2 December 2015. It relates to a conviction for rape that occurred in 2012 on the basis of events that were held to have taken place in 2020. The second warrant was issued on 27 April 2017 and certified on 19 May 2017. It is also a conviction warrant, in respect of a conviction for theft. The theft took place in 2013 and was the charge was the subject of a judgment of the Court in Poland also in 2013.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The Polish Courts imposed sentences of imprisonment on each occasion. The rape conviction resulted in a sentence of imprisonment of three years, the theft conviction in a sentence of eight months.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>This case has a long or, at least, extended procedural history. Permission to appeal was refused on the papers as long ago as 18 April 2019. The oral permission to appeal hearing has been adjourned on no less than four separate occasions; in each the adjournment was sought in order to permit the appellant to seek information relevant to proposed amendments to the grounds of appeal. Most recently the application for permission to appeal was adjourned at a hearing before me on 8 October 2019. That was to allow the appellant to obtain information in pursuit of an Article 6 challenge. That was a ground of challenge that had been brewing since May 2019.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>Mr Hawkes, who now represents the appellant, but has only recently been instructed to do so, served his skeleton argument yesterday. He has made it clear in that document that the Article 6 ground of appeal is no longer pursued. Where this leaves this application for permission to appeal is that although almost a year has passed since the original permission to appeal hearing the single ground of appeal remains an Article 8 ground of appeal. The only difference between now and the situation a year ago is that the basis of the Article 8 claim has changed entirely, and now as its primary component relies on events since May 2019, or at least matters arising from the passage of time since May 2019.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>Matters material to the relevant Article 8 interests were found as follows by the District Judge. The appellant came to the UK in 2010 and has lived and worked in the UK since then. He met his partner in 2014. They have two children who are now aged three and two years old. The appellant works and provides financial support for his family. His partner does not work; she after their children.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>In the judgment on the extradition order, the judge then went on to consider matters" for and against extradition" in the manner of the balance sheet approach recommended by the Divisional Court in its judgment in Celinski [2015] EWHC 1274 (Admin). The judge accepted that the appellant 's partner and children would suffer emotionally if the appellant were extradited. She also accepted that they would suffer financial hardship, although she concluded that, to an extent, that hardship might be mitigated by the assistance of family members and the availability of State benefits. The judge also accepted, it goes without saying, that the appellant 's extradition would cause the appellant himself harm to his own Article 8 interests in that he would be separated from his partner and their two young children.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The District Judge weighed those matters against seriousness of the crimes committed, in particular the rape conviction. Her conclusion was that for the purposes of both warrants the appellant was to be regarded as a fugitive. Her overall conclusion was that the interference with Article 8 rights would be consequent on the appellant 's extradition was justified by public interest in that extradition pursuant to the two EAWs.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The submission that Mr Hawkes makes today in respect of Article 8 can be summarised as follows. First, Mr Hawkes make a number of points about the likely duration of any sentence of imprisonment which will remain to be served if extradition takes place. He points to the time that the appellant has been on remand. The appellant was arrested on 4 August 2018 and, so far as I am aware, has been on remand since that date, that is to say for a year and eight months. This means that only some two years of the sentences imposed would remain to be served if the appellant were returned to Poland.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>Mr Hawkes then draws my attention that on 6 May this year a hearing is scheduled before the Court in Poland, which is an application by the appellant that the sentence imposed in respect of the theft conviction, which was originally a suspended sentence then converted to a sentence of immediate imprisonment, should be re-suspended. Mr Hawkes informs me that such an application has previously been made by the appellant to the Courts in Poland but has been refused. The renewed application is due to be heard at the beginning of next month. Mr Hawkes submits that, were that application to succeed, then the period to be served in the event that Mr Wisniewski is returned to Poland, would be reduced accordingly.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Mr Hawkes then submits that any period of imprisonment that remained to be served in Poland, were this application for permission to appeal be dismissed, would probably be reduced further in the event of delay removing the appellant to Poland, caused by the present Covid-19 pandemic. It is the case that, for the present at least, removals to many EAW States are suspended because those States are unable, because of the pandemic, to make the usual arrangements to receive those persons they have requested. Mr Hawkes submits, and I accept, that Poland is one of those States.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>Mr Hawkes also points to a further matter, that is that under the Polish Criminal Code, specifically Article 78, if a prisoner is serving a sentence in Poland it is open to the Polish authorities, once he has served at least half of the sentence, to release him on licence. Again, Mr Hawkes says that the halfway point of the appellant 's sentence is fast approaching, he says it will be 4 June in the event that both the sentence for the rape conviction and that for the theft conviction remain to be served. In those circumstances Mr Hawkes' overall submission is that it would be disproportionate in Article 8 terms for extradition to go ahead, given that, perhaps, only a small part of the sentences imposed would remain to be served.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>I accept that in cases where only a very short part of a sentence remains to be served, that can be a matter that is material to the Article 8 equation. It is a matter that goes to the significance of the public interest in the performance of extradition arrangements which the United Kingdom has made. However, in this case, and notwithstanding the passage of time since August 2018, when the applicant was first placed on remand, two years of the sentence imposed still remain.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>So far as concerns Mr Hawkes' reliance on the hearing that is due to take place in Poland on 6 May this year that may result in the re-suspension of the sentence for the theft conviction, this is not a matter on which I can place any real reliance. It is entirely a matter of speculation whether or not the sentence will once again, be suspended. I note that an earlier application to re-suspend the sentence failed.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>As regards the likelihood, pointed to by Mr Hawkes, that if the appeal is dismissed, the appellant would not be returned to Poland within the usual required period because of the effect of the Covid-19 pandemic, even anticipating that those circumstances could result in some delay to the appellant 's removal and, of course, recognising that in the present time there is little that can be said with absolute certainty as to when circumstances will change, I still consider that by the time the appellant is likely to be removed a significant part of his sentence will remain to be served.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>As to the final element of this part of Mr Hawkes' submission, the possibility of release on licence by a Polish Court under Article 78 of the Polish Criminal Code, this, again, is a matter which is simply too speculative to weigh significantly in the balance for the purposes of this application for permission to appeal. It is simply impossible to say whether or not the discretion in Art 78 is likely to be exercised in the appellant 's favour by the Polish Authorities.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Drawing all these matters together I do not think that any of them on its own or, indeed, all of them collectively detract significantly from the public interest in giving effect to the extradition arrangements that the United Kingdom has entered into.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>The second limb of Mr Hawkes’ submission under Article 8 is to rely on the fact that the appellant 's circumstances (his conviction for rape) were referred to the Ombudsman in Poland (also referred to as the Human Rights Commissioner) as long ago as January 2019, and those proceedings before the Ombudsman remain outstanding. As I understand it, the position under Polish law is that someone convicted of an offence may refer his circumstances to the Ombudsman for consideration and if the Ombudsman considers that a case is appropriate he may, in turn, refer the matter to the Polish Supreme Court, which can then decide whether or not to uphold, or to quash the conviction. That is the process which the appellant 's conviction for rape is proceeding through at the present stage.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>As I say, the matter was referred to the Ombudsman in January 2019. It appears from emails from the end of 2019 and the beginning of this year, that the Ombudsman has yet to take a decision on whether or not to refer the appellant 's case to the Polish Supreme Court. It is said that this amounts to a form of Article 6 breach. It is also said that the fact that the Ombudsman 's process remains outstanding adds weight to the submission that his extradition would be a disproportionate interference with his Article 8 right. I can not see that this matter gives rise to any arguable issue relating to the application of Article 8 on the facts of this case. Any issue as to delay in the Ombudsman process, and I emphasise that I am in no position either to assess the extent of any delay, or the significance of any such delay, is a matter that can, if appropriate, be pursued before the courts in Poland. The appellant 's extradition is sought on the basis of the rape conviction that has already occurred. There is simply no Article 6 point, so far as I can see, in respect of the process that led to that conviction, and in those circumstances no Article 6 point that impinges upon whether or not extradition should take place.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>Nor can I see how (as submitted by Mr Hawkes) the fact that the Ombudsman 's process remains outstanding, and has remained outstanding since January last year, is a matter that will impinge upon the appellant 's Article 8 rights. These matters seem to me to be entirely unrelated. I accept that in the period since January last year, the appellant has clearly continued to remain in the United Kingdom and to that extent, although on remand, has been able to have some contact with his partner and children, and to that extent maintain the family ties between them. I can not see how the continued existence of those ties, of course, weigh in the balance when considering the significance of the interests that are protected by Article 8 in this case. However, I can not see how the fact that the Ombudsman 's process remains outstanding impacts at all on the significance to be attached to the public interest in the efficient and effective execution of extradition arrangements.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>Drawing these matters together, my conclusion is that the public interest in the effective application of those extradition arrangements remains significant. I do not think it is arguable that the extent of that interest has diminished to the point at which it would be insufficient to warrant the interference with Article 8 rights, which will be the consequence of the appellant 's extradition to Poland.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>For those reasons, I do not consider that the grounds of appeal now pursued are reasonably arguable, and for that reason this application for permission to appeal is refused.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

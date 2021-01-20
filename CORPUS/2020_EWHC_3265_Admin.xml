@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWHC_3265_Admin" />
+          <FRBRuri value="www.judiciary.uk/2020_EWHC_3265_Admin" />
+          <FRBRdate date="2020-09-14" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/republic-of-india-v-singh" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/republic-of-india-v-singh" />
+          <FRBRdate date="2020-09-14" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_3265_Admin.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_3265_Admin.xml" />
+          <FRBRdate date="2021-01-15" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="AdministrativeCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdministrativeCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="RepublicOfIndia" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RepublicOfIndia" showAs="Republic Of India" />
+        <TLCOrganization eId="Singh" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Singh" showAs="Singh" />
+        <TLCPerson eId="MrJusticeSwift" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeSwift" showAs="Mr Justice Swift" />
+        <TLCPerson eId="Mr.NicholasHearn" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Mr.NicholasHearn" showAs="Mr. Nicholas Hearn" />
+        <TLCPerson eId="Cps" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Cps" showAs="Cps" />
+        <TLCPerson eId="MrJoelSmith" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJoelSmith" showAs="Mr Joel Smith" />
+        <TLCPerson eId="DaltonHolmesGray" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DaltonHolmesGray" showAs="Dalton Holmes Gray" />
+        <TLCRole eId="applicant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#applicant" showAs="applicant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWHC 3265 (Admin)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CO/3265/2020</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#AdministrativeCourt">ADMINISTRATIVE COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-09-14" refersTo="#hand-downDate">14/09/2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#MrJusticeSwift">MR JUSTICE SWIFT</judge>
+      </p>
+      <p>Between:</p>
+      <p>
+        <party as="#applicant" refersTo="#RepublicOfIndia">REPUBLIC OF INDIA</party>
+        <role refersTo="#applicant">Applicant</role>
+        -and –
+        <party as="#respondent" refersTo="#Singh">SINGH</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#RepublicOfIndia" refersTo="#Mr.NicholasHearn">MR. NICHOLAS HEARN</lawyer>
+        (instructed by the
+        <lawyer as="#solicitor" for="#RepublicOfIndia" refersTo="#Cps">CPS</lawyer>
+        ) for the Applicant
+        <lawyer as="#barrister" for="#Singh" refersTo="#MrJoelSmith">MR JOEL SMITH</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#Singh" refersTo="#DaltonHolmesGray">Dalton Holmes Gray</lawyer>
+        ) for the Respondent
+      </p>
+      <p>
+        Hearing date:
+        <date date="2020-09-14" refersTo="#hearing">14th September 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Judgment</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <decision>
+        <tblock>
+          <p>MR. JUSTICE SWIFT:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This is an appeal by the Government of India against a decision of District Judge Branston of 10 September 2020 to grant bail to Kuldip Singh. Mr Singh was arrested pursuant to an extradition warrant on 16 October 2019. He is wanted to face trial in India on very serious charges. In the note prepared by the Government of India for the purposes of the hearing before me those matters were described as follows: “ Mr Singh is a senior member of the Khalistan Zindabad Force (“KZF”), a banned terrorist organisation under Indian law. He is accused of conspiring with others to commit terrorist activities in the Punjab area of India. It is said that one of the acts involved a plot to assassinate the Chief Minister of the Punjab, the Deputy Chief Minister of the Punjab and other eminent leaders and political leaders within that region. It is also alleged that he was involved in recruiting young people to the KZF by offering them money to join. Some of the contact with others in the organisation is said to have happened whilst he was resident in the UK.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Mr Singh denies these charges.</p>
+        </tblock>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>Mr Singh entered the United Kingdom illegally in 2005 and remained under the radar, undeclared to the United Kingdom authorities until 2013, when he made a claim for leave to remain in the United Kingdom on human rights grounds. That application was refused. In 2017, he made a further application to remain on human rights grounds. That claim, too, was refused. In 2018, he made an asylum claim. That application was treated as withdrawn by the Home Secretary on the basis that the Home Secretary considered Mr Singh had failed to attend the asylum interview. Mr Singh ’s position was that he had not been properly informed of the details for the interview, and in 2019 he submitted a further asylum claim. That claim remains outstanding; it has not yet been the subject of any determination by the Home Secretary.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>Mr Singh was not in immigration detention prior to his arrest on 16 October 2019, he was on immigration bail. I approach this appeal on the assumption that while on immigration bail he complied with the conditions of that bail. Extradition proceedings are in progress.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>On 3 September 2020, DJ Branston gave the parties a draft of his judgment on a preliminary point, namely the application of section 84(5) of the Extradition Act 2003, whether there was evidence to make good a case to answer on the extradition charges. The judge ’s conclusion on Charges 1, 2 and 4 (Charge 3 having been withdrawn) is that Mr Singh will succeed before him on the section 84(5) point. There is still to be an extradition hearing on the other issues in the extradition proceedings. Therefore, at this time, there has been no order by the District Judge to discharge the warrant; that we will come at some time later. It is, however inevitable that DJ Branston will not, at the end of the extradition proceedings make an order sending this case to the Secretary of State.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>When the District Judge gave the parties his draft judgment on the section 84(5) issue, a bail application was made and he granted bail. The appeal to me is by way of rehearing. Section 4 of the Bail Act applies, and so the question for me is whether there are substantial grounds to believe that Mr Singh would not surrender if bail were granted. In substance, the bail that has been granted was granted pending the outcome of the Government of India ’s appeal to the High Court against the order that the District Judge will in due course make, to discharge the extradition warrant. Mr Hearn, who appears for the Government of India, has made it clear that the Government intends to appeal that order when it is made. I accept that that is so.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>There are significant points in Mr Singh ’s favour. He has been on immigration bail since, it appears, as long ago as 2013. There is no suggestion that for whatever time he has been on immigration bail that he failed to comply with any condition of that bail. He has family ties in the United Kingdom in the form of a sister who, because she has her own business, has been able to put a sum of £ 25,000 as surety.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>Mr Smith, who appears for Mr Singh this afternoon, also says that the general landscape has now changed. The District Judge ’s draft decision in the extradition proceedings means that (he did not put it this way, but I do) in those proceedings Mr Singh is now on the front foot; he has no reason to abscond, given the strength of his position in those proceedings, not just at the District Judge stage but also, it is said, in the context of the appeal that the Government of India has said will in due course, be commenced.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>Notwithstanding those matters, I am satisfied that there are substantial grounds to believe that Mr Singh would fail to surrender if bail is granted. If he is returned to India he will face serious charges. I accept that he will succeed at first instance defeating the extradition request, but I also accept that there will be an appeal and it goes without saying that winning in the last court, not the first court, is the thing that matters in any proceedings. Looked at objectively, any person in Mr Singh ’s position would recognise there was still a significant risk that he could be returned to face the charges levelled against him in India. The outcome of the appeal can not be known with any material degree of certainty. In that context, the significance of his previous compliance with immigration bail conditions pales. In the period from 2013 to 2019 he had no incentive to abscond. Now, there is an incentive in the form of the as yet unresolved proceedings relating to the extradition request.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>I do place significant weight on the fact that Mr Singh entered the United Kingdom illegally and remained at large and undetected for a period of some eight years. That suggests that he is a resourceful man and is a man who is capable of going to ground for an extended period when he chooses. The District Judge, when granting bail, pointed out that if Mr Singh did abscond he would lose the opportunity to pursue his asylum claim and he would also forfeit the benefit of the District Judge ’s conclusion not to make an order requiring the Secretary of State to consider Mr Singh ’s extradition. But in my judgment, those matters are likely to count for little to a person who was willing to live unlawfully in the United Kingdom for a period of some eight years. The risk that Mr Singh will not surrender is not offset even by the family ties in the United Kingdom that I have referred to, in the form of his sister and the surety / security she has put up, or by the conditions that would be attached to any grant of bail, including curfew and reporting conditions. Those matters being so, my conclusion is that the appeal should be allowed, and the District Judge ’s decision granting bail is revoked. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

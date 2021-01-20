@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2019_EWHC_956_QB" />
+          <FRBRuri value="www.judiciary.uk/2019_EWHC_956_QB" />
+          <FRBRdate date="2019-04-16" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/dr-katherine-alexander-theodotou-others-v-georgios-kounis" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/dr-katherine-alexander-theodotou-others-v-georgios-kounis" />
+          <FRBRdate date="2019-04-16" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_956_QB.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_956_QB.xml" />
+          <FRBRdate date="2021-01-18" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="MediaAndCommunicationsList" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MediaAndCommunicationsList" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="DrKatherineAlexander-theodotou" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DrKatherineAlexander-theodotou" showAs="Dr Katherine Alexander-theodotou" />
+        <TLCOrganization eId="HighgateHillSolicitors(aFirm)" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HighgateHillSolicitors(aFirm)" showAs="Highgate Hill Solicitors (a Firm)" />
+        <TLCOrganization eId="KAlexandrouTheodotouLlc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#KAlexandrouTheodotouLlc" showAs="K Alexandrou Theodotou Llc" />
+        <TLCOrganization eId="GeorgiosKounis" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GeorgiosKounis" showAs="Georgios Kounis" />
+        <TLCPerson eId="MrJusticeWarby" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeWarby" showAs="Mr Justice Warby" />
+        <TLCPerson eId="AnthonyMetzerQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AnthonyMetzerQc" showAs="Anthony Metzer Qc" />
+        <TLCPerson eId="DrAntonVanDellen" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DrAntonVanDellen" showAs="Dr Anton Van Dellen" />
+        <TLCPerson eId="HighgateHillSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HighgateHillSolicitors" showAs="Highgate Hill Solicitors" />
+        <TLCPerson eId="JonathanPrice" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JonathanPrice" showAs="Jonathan Price" />
+        <TLCPerson eId="BarPublicAccess" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BarPublicAccess" showAs="Bar Public Access" />
+        <TLCReference eId="HQ18M00041" showAs="HQ18M00041" name="Document number" href="www.judiciary.uk/HQ18M00041" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2019] EWHC 956 (QB)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <ref href="#HQ18M00041">HQ18M00041</ref>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#MediaAndCommunicationsList">MEDIA AND COMMUNICATIONS LIST</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2019-04-16" refersTo="#hand-downDate">16/04/2019</date>
+      </p>
+      <p>
+        Before: THE HONOURABLE
+        <judge refersTo="#MrJusticeWarby">MR JUSTICE WARBY</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        (1)
+        <party as="#claimant" refersTo="#DrKatherineAlexander-theodotou">Dr Katherine Alexander-Theodotou</party>
+        (2)
+        <party as="#claimant" refersTo="#HighgateHillSolicitors(aFirm)">Highgate Hill Solicitors (A Firm)</party>
+        (3)
+        <party as="#claimant" refersTo="#KAlexandrouTheodotouLlc">K Alexandrou Theodotou LLC</party>
+        <role refersTo="#claimant">Claimants</role>
+        -and-
+        <party as="#defendant" refersTo="#GeorgiosKounis">Georgios Kounis</party>
+        <role refersTo="#defendant">Defendant</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#AnthonyMetzerQc" as="#barrister" for="#KAlexandrouTheodotouLlc;HighgateHillSolicitors(aFirm);DrKatherineAlexander-theodotou">Anthony Metzer QC</lawyer>
+        and
+        <lawyer refersTo="#DrAntonVanDellen" as="#barrister" for="#KAlexandrouTheodotouLlc;HighgateHillSolicitors(aFirm);DrKatherineAlexander-theodotou">Dr Anton Van Dellen</lawyer>
+        (instructed by
+        <lawyer refersTo="#HighgateHillSolicitors" as="#solicitor" for="#KAlexandrouTheodotouLlc;HighgateHillSolicitors(aFirm);DrKatherineAlexander-theodotou">Highgate Hill Solicitors</lawyer>
+        ) for the Claimants
+        <lawyer refersTo="#JonathanPrice" as="#barrister" for="#GeorgiosKounis">Jonathan Price</lawyer>
+        (instructed under the
+        <lawyer refersTo="#BarPublicAccess" as="#solicitor" for="#GeorgiosKounis">Bar Public Access scheme</lawyer>
+        ) for the Defendant
+      </p>
+      <p>
+        Hearing date:
+        <date date="2019-03-22" refersTo="#hearing">22 March 2019</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic. ............................. MR JUSTICE WARBY</p>
+    </header>
+    <judgmentBody>
+      <decision>
+        <tblock>
+          <p>MR JUSTICE WARBY:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This libel action arises from a dispute over the conduct of the litigation which has arisen from the alleged mis-selling of off-plan property in Cyprus (“the Cyprus Property Litigation”).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The first claimant is a solicitor qualified in this jurisdiction and in Cyprus. Here, she is a sole practitioner, carrying on business under the name of the second claimant. In Cyprus, she practices through the third claimant, a limited liability company. She has been acting for many years for a number of British clients in the Cyprus Property Litigation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>The defendant used to work as a consultant for a solicitors’ firm called Maxwell Alves, which acted for a number of British claimants in the Cyprus Property Litigation. The defendant has now left Maxwell Alves and is working independently.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The action</p>
+        </tblock>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>This action was started by a claim form issued on 5 January 2018. This was followed by Particulars of Claim served on 22 January 2018, settled by specialist defamation Counsel, Ms Jane Phillips. As matters stand, the claim is for damages for libel, in respect of two publications alleged to have been made by the defendant, in and after 2017.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>The first publication complained of is the posting of a Press Release on a Facebook page called “Cyprus Property Legal Action – Resolution and Collaboration” (“the Facebook Post”). The Facebook Post was first published on 17 January 2017, and publication continued thereafter. The text is at Appendix A to this judgment, with paragraph numbers added to it. It does not name any of the claimants, but is alleged to refer to them, and to have been understood as doing so.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>Secondly, the Particulars of Claim complain of a Webinar (“the Webinar”) delivered on 18 and 19 February 2017 at a specified web address, a link to which is said to have been sent by email to all the clients of the Cyprus Property Litigation service of Maxwell Alves.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>Stated broadly, the imputations complained of in the Particulars of Claim are that the claimants have misconducted themselves in their conduct of the Cyprus Property Litigation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The claim encompasses foreign publication, but only to the extent that there was publication in Cyprus where, it is alleged, the words complained of are actionable under the local law.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>The Particulars of Claim allege that the claimants’ reputations have been seriously harmed, and that the second and third claimants have suffered or were likely to suffer serious financial loss. As anyone familiar with the Defamation Act 2013 will appreciate, those allegations are necessary in the light of s 1 of the Act. The Particulars of Claim said that a Schedule of the financial losses would be served separately.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>A Defence was filed promptly, on 15 February 2018, by the defendant who was then unrepresented. It raised issues of limitation and abuse of process, into which it is unnecessary to delve for present purposes. What is important for those purposes is the fact that the Defence denied that the material complained of from the Webinar was a webinar, and denied responsibility for the publication of that material. As to the Facebook Post, the Defence did not dispute responsibility for its publication but required the claimants to prove that the Facebook Post referred to them, disputed the meanings attributed to it, denied it was defamatory, required the claimants to prove that its publication caused or was likely to cause serious harm to their reputations, and called on the second and third claimants to prove that the publication had caused or was likely to cause them serious financial loss.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The applications</p>
+        </tblock>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>Three matters are before me for decision now: (1) First, there is the defendant ’s application, by notice dated 28 September 2018, for orders striking out and/or granting summary judgment on aspects of the claim (“the Strike-Out Application”). There is an attack on the claim form, for vagueness and non-compliance with the CPR. And there is an attack on the Particulars of Claim, the main targets being the claim in respect of the Webinar, which is said to have no real prospect of success; and the claim for serious financial loss, which was said to be wholly unparticularised. Other aspects of the Particulars of Claim are attacked as irrelevant and vexatious. In addition, the defendant seeks to strike out in its entirety the libel claim advanced by the third claimant. The Strike-Out Application is listed before me pursuant to an Order of Master Davison dated 3 October 2018. It is supported by the second witness statement of the defendant. (2) Secondly, and pursuant to the same order of Master Davison, this is the trial of two matters identified as preliminary issues: “(1) the actual meaning of the words alleged to be defamatory (2) whether the alleged defamatory statements have caused or are likely to cause serious harm to the reputations of the Claimants within the meaning of section 1 of the Defamation Act 2013.” By agreement, or at least without opposition, I have directed that a third, related issue should be isolated for determination as a preliminary issue on this occasion, namely the question of whether the words referred to the claimants. (3) Finally, there is the claimants’ application, for permission to amend their claim form and Particulars of Claim (“the Amendment Application”). The proposed amendments are extensive. They have five key features: they would abandon in its entirety the third claimant ’s libel claim; abandon in its entirety the libel claim in respect of the Webinar; add a claim for damages for inducement of breach of contract; and transform the existing claim for special damages for libel into a claim that substantial financial loss was caused by that tort and/or the tort of inducing breach of contract; fifthly, a schedule of loss is added to the Particulars, setting out calculations in support of a claim for some £ 917,000.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>This hearing</p>
+        </tblock>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>At this hearing, the claimants are represented by Mr Metzer QC and Dr Van Dellen, both of whom have come into the case more recently. The defendant is represented by Jonathan Price of Counsel.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>The Amendment Application has been on the cards since last summer, and it was as long ago as 16 November 2018 that the claimants first proposed a draft. That draft, prepared by new junior Counsel, not Ms Phillips or Dr van Dellen, was rejected by the defendant the following day. A further explanation of the defendant ’s reasons for rejecting it was provided in some detail in December 2018. But the Amendment Application was not actually made until 18 March 2019. That, as the claimants will have been aware, was the day assigned by Master Davison for the exchange of Skeleton Arguments.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>The consequence of this delay in filing the application notice is that nothing was or could have been said about this application in the Skeleton Argument for the defendant. It was only on the morning of the hearing that I received a note of the defendant ’s position in respect of it. The Amendment Application was not supported by any evidence. But after it was served, there was a flurry of late evidence, starting with a statement from the defendant (his third) and concluding with the service of a witness statement of the first claimant (her first), which was served on the defendant mid- afternoon on the eve of the hearing and not seen by me until the morning of the hearing. This is all most unsatisfactory.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>It will be obvious from what I have said so far, however, that there is a substantial overlap between the Strike-Out Application and the Amendment Application. I accepted Mr Price ’s submission, that the convenient course was to deal with his application first. In the light of the draft amendments, it can be taken quite shortly, and I can deal as I go with those aspects of the draft amendments that correspond to the defendant ’s criticisms of what is presently pleaded.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>It is convenient, first, to set out the key features of the claimant ’s case as it presently stands, which is to say those that are relevant for present purposes.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The claimant ’s (unamended) statements of case</p>
+        </tblock>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>The “Brief details of claim” set out in the claim form are as follows: “The defendant Georgios Kounis for the last 6 years destroyed my reputation and business and caused me serious damage to my health. He destroyed the trust of clients and prospective clients to me and my firms above and induced people to hate me. There were publications against me in newspapers, webinars, Facebook and letters. Georgios Kounis encouraged complaints to the Solicitors Regulation Authority and the Legal Ombudsman for 5 years now. 1. The above activities tended to injure and prejudice my reputation as a Solicitor/ Advocate. 2. Exposed me to any other person to general hate, contempt and ridicule. 3. Caused clients and prospective clients to shun me or avoid me. This claim is for defamation.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>As for the Particulars of Claim, after introducing the claimants, these proceed in paragraph 2 to describe the defendant, making (among others) the following allegations about him: “In 2016, Maxwell Alves solicitors removed the defendant as a consultant and issued proceedings against him to reveal his identity. It is alleged that the defendant ’s true identity is Mr Thomas Wells, the material annexed hereto as Schedule 1 (“the Maxwell Alves Claim Form”).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>Paragraph 3 of the Particulars of Claim refer to an approach made by the defendant to the claimant at the end of 2012, and give a lengthy exposition of what is said to have followed. This includes an allegation that the defendant undertook “a major campaign ... to influence and direct allegations and complaints by conspiring with former clients of the Second Claimant”. It is further alleged that the defendant “instigated an investigation by the SRA and the Legal Ombudsman which started in 2013 and is still ongoing …” However, the Particulars of Claim do not seek damages or any other remedy in libel or any other cause of action in respect of any of these matters.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>At paragraph 4, the Particulars of Claim complain of the publication by the defendant of the Facebook Post and the Webinar. An (incomplete) photocopy of the Facebook Post is annexed to the Particulars of Claim, and the Webinar slides are also annexed. No parts of the publication are selected for complaint. The whole Post and the whole Webinar are relied on, albeit not all the words of the Post are legible in the Annex. But, in argument on these applications, the focus of the claimants’ arguments has been on the words in paragraphs [10-12] which I have underlined in the Annex.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>At paragraph 7, the claimants set out Particulars of their case that the Facebook Post referred and was understood to refer to them: “7.1 Paragraph 1 above is repeated. 7.2 The Claimants were well known by all those involved in and/or concerned with the Cyprus Property Litigation as being among the lead lawyers handling cases on behalf of victims of the Cyprus Property scandal. 7.3 In a Q&amp;A sheet distributed on 10 February 2017 to all of Maxwell Alves Cyprus Property Litigation clients (approximately 1500 individuals) the Defendant stated: “Q: Why did the poor chap who committed suicide get an ECO against him form Alpha Bank? I thought he was in our Group. A: He moved to our Group but originally started with another group – Highgate Hill” 7.4 As was generally known to all members of the Facebook group, the Claimants were originally acting on behalf of the deceased, Philip Davies.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Paragraph 10 sets out three natural and ordinary meanings attributed to the Facebook Post, which is said to have meant that the claimants: “10.1 fed on the plight of the victims of the Cyprus Property Litigation, enriching themselves at the expense of their clients, and in the case of Philip Davies, driving him (along with others responsible) to suicide; and/or 10.2 failed to protect the best interests of their clients, including Mr Davies, from whom they took £ 30,000 in fees, before breaching the terms of their retainer with him and forcing him to fund alternative representation; and/or 10.3 have rightly been reported to the SRA for breach of their duties as solicitors.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Paragraphs 8 and 11 contain the pleas of damage, including the allegations of serious harm. It includes a claim for actual financial loss. It is only necessary to quote paragraph 11. “The publications are self-evidently extremely grave and have caused and/or are likely to cause serious harm to each of the Claimant ’s reputations. If and insofar as necessary, the Claimants will rely upon the facts and matters set out below. As a result of the publications set out above: 11.1 the First Claimant ’s reputation has been seriously damaged and she has suffered considerable hurt, distress and embarrassment which is continuing; and 11.2 the Second and/or Third Claimant have suffered and/or are likely to suffer serious financial loss, a Schedule of which will be served separately.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The reference to the “facts and matters set out below” is to paragraph 12 of the Particulars of Claim, which list matters upon which the claimants will rely “in particular” in support of their damages claims.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>In addition, however, there is an allegation, in paragraph 3 of the prayer for relief, seeking “Damages for serious financial loss by inducing the clients of the Claimants to perform serious breaches of contract.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Strike-Out Application</p>
+        </tblock>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The defendant has six criticisms of these statements of case:- “a. The wording in the ‘ Brief details of claim’ section of the Claim Form … bears no sufficient relevance to the cause of action pleaded; b. The publications the subject of the claim are not identified in the Claim Form … in contravention of CPR PD 53, para. 2.2(1) : … (and it is to be noted that Particulars of Claim were served separately, compounding the default); c. The references to and reliance upon the “Maxwell Alves Claim Form” in the fifth and sixth sentences of paragraph 2 of the Particulars of Claim …, and its inclusion as Schedule 1 …, are irrelevant and vexatious; [this is a reference to the words I have set out at [18] above] d. Paragraph 3 of the Particulars of Claim … is irrelevant and vexatious, apparently alleging various criminal and civil wrongs including harassment, conspiracy, and malicious prosecution, none of which gives rise to any relief claimed in the prayer …; e. The allegation at paragraph 4.1 … that the webinar was published by email to 1,500 clients has always been denied by D, and C has not provided any factual basis for it; and f. The claim for actual serious financial loss (at 3. in the prayer: …) is wholly unparticularised.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>In support of point (c), the defendant relies not just on irrelevance but also on the fact that the allegation that he is “Mr Thomas Wells” has been comprehensively rejected by HHJ John Hand QC in a judgment of 9 November 2018. The “Maxwell Alves Claim Form” included a claim, the purpose of which was “to establish the identity of Mr and Mrs Kounis”. It sought a declaration that “Mr George Kounis is Thomas Wells, and that his wife Mrs Maria Kounis is Maria Wells”. The allegation evidently was that the defendant in the present action, and his wife, had alter egos by those names. Other alter egos were also imputed to them. Judge Hand QC dismissed the claim, granting summary judgment for Mr and Mrs Kounis, and describing aspects of the claim as “lacking any evidential basis” and “lacking not only reality but coherence”. He also struck out the claim form and Particulars of Claim as disclosing no reasonable basis for a claim.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>In support of point (e), the defendant relies on a witness statement he made on 28 September 2018, in support of a claim for summary judgment on the basis that the slides relied on were not sent by him by email, and there was no other basis for the claim. This bald statement was expanded on by an explanation as to when he had used the slides, and the observation that the defendant had challenged the claimants to identify a basis for the allegation, without any response.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Mr Price ’s arguments (a) and (b) seemed to me to be irresistible. These are not brief details of claim, but a discursive narrative which refers to numerous matters that are not the subject of any claim pleaded in the Particulars of Claim. I am not sure that these criticisms are adequately met by the draft amendments proposed by the claimants. But these are not the most important issues before me. Mr Metzer did not seek to defend the current version of the claim form, or the precise form of the proposed amendments to that document. He sensibly focused on the Particulars of Claim. Of these, it had already been conceded, in correspondence on 15 January 2019, that the alter ego allegation about “Thomas Wells” in paragraph 2 had to go. There has been no attempt to defend it at this hearing. Nor did Mr Metzer seek to defend the discursive paragraph 3. Rightly so, in my judgment. It contained a raft of quite serious allegations of wrongdoing, cast in rather vague form, with no apparent relevance to the claims in libel. The retention of those allegations would have obstructed the due administration of justice. The libel claim in respect of the Webinar must also be dismissed; it had also been abandoned by letter of 15 January 2019.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>Mr Metzer has defended the allegations of serious financial loss and the claim for special damages on the basis that a Schedule of loss is now available, and has been since December. It forms part of the draft Amended Particulars of Claim which are the subject of the Amendment Application. I agree that this is the appropriate context in which to address the issue of serious financial loss under s 1(2) of the Defamation Act 2013. But the claim in paragraph 3 of the prayer for relief is separate and distinct. It is not connected with the libel claim but covers a claim for damages for a separate tort for which no, or no adequate, factual basis is set out in the Particulars of Claim as they stand.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>It is also accepted that the Third Claimant ’s claim in libel must be dismissed, as it is no longer alleged that any allegedly defamatory publication referred, or was understood to refer, to the Third Claimant. It seems clear that this is an appropriate concession. As Mr Price has pointed out, the words complained of refer to a “London legal firm”, and the third claimant is a Cypriot firm; and there is no allegation that Mr and Mrs Davies had any dealings or relationship with that firm.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>Accordingly, I make the following orders:- (1) I grant the Strike-Out application in its entirety. (2) I direct that the claim form be amended in terms to be agreed or settled by me (and to the extent necessary I grant permission for it to be amended) to claim, and to claim only, damages for libel in respect of the Facebook Post, and an injunction to restrain the repetition of such libels. (3) I also grant permission to amend the Particulars of Claim in various ways that are consequential or not controversial, and which are indicated in the following paragraphs of the draft Amended Particulars of Claim: 1, 16-22 (ending on page 18) and paragraph 22 on page 19 of the draft.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>I shall have to return to the balance of the Amendment Application once I have dealt with the preliminary issues.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The preliminary issues</p>
+          <p>Procedural status</p>
+        </tblock>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>A number of points should be made about the Order for the trial of preliminary issues in this case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>First, although Orders for the trial of meaning as a preliminary issue are common nowadays, and becoming the norm, the trial of serious harm as a preliminary issue is rather less common. In November 2017, well before the Order in this case, the Court of Appeal warned against the risks of undue procedural complexity and cost that can be involved in trials of the issue of serious harm. In Lachaux v Independent Print Ltd [2017] EWCA Civ 1334 [2018] QB 594 at [82], Davis LJ summed up the position: “(3) If there is an issue as to meaning (or any related issue as to reference) that can be resolved at a meaning hearing, applying the usual objective approach in the usual way. If there is a further issue as to serious harm, then there may be cases where such issue can also appropriately be dealt with at the meaning hearing. If the meaning so assessed is evaluated as seriously defamatory it will ordinarily then be proper to draw an inference of serious reputational harm. Once that threshold is reached further evidence will then be likely to be more relevant to quantum and any continuing dispute should ordinarily be left to trial. (4) Courts should ordinarily be slow to direct a preliminary issue, involving substantial evidence, on a dispute as to whether serious reputational harm has been caused or is likely to be caused by the published statement. (5) A defendant disputing the existence of serious harm may in an appropriate case, if the circumstances so warrant, issue a Part 24 summary judgment application or issue a Jameel application: the Jameel jurisdiction continuing to be available after the 2013 Act as before (albeit in reality likely only relatively rarely to be appropriately used). (6) All interlocutory process in such cases should be sought to be managed in a way that is proportionate and cost-effective and actively promotes the overriding objective.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The Order in this case therefore represented something of an exception to the general rule. That is not a criticism, but an observation. The consequence is that this has been a trial, not an application for “reverse summary judgment” or any other form of interim application. The ordinary rules as to the burden and standard of proof apply.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>The second point is linked to the first. In this case there is an issue about reference to the claimants. As Davis LJ noted, that can sometimes be dealt with at a meaning hearing without difficulty. But it has more recently been recognised as an aspect of a claim which can make the issue of meaning unsuitable for resolution at a preliminary trial. Meaning can usually be tried without any evidence other than the words, and some evidence or agreed facts about the extent of publication; but the same is not always or even often true of reference. If, as here, the claimant needs to plead and prove reference by innuendo, the parties will often, if not normally, need to adduce oral or documentary evidence about extrinsic facts, and the extent to which they were known to readers.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>Thirdly, in some cases, of which this is one, there will be links between meaning, reference, and serious harm. Mr Price has drawn attention to a helpful passage in Gatley on Libel and Slander 12th ed, para 7.3A, which is of some significance to this case:- “While s.1 now requires proof, whether by evidence or inference, that some readers did actually understand the words complained of to refer to the claimant, such proof can not conclude the reference issue. If a reasonable reader would not have understood the words to refer to the claimant, then the claim will fail even if some readers did in fact understand it so to do. Consequently a court should first decide whether reasonable readers would have understood that the words referred to the claimant and if it concludes that they would, should then consider whether a sufficient number of people who read the words did in fact understand the words to refer to him such that serious harm to reputation had been, or was likely to be, caused.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>Fourth, a further development since Lachaux is the emergence of the practice of mandatory costs management as a prelude to the hearing of preliminary issue trials or other substantial applications: see Price v MGN Ltd [2018] EWHC 3395 (QB) [2019] EMLR 12 [7-16].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>I do not believe that all these factors were highlighted or recognised at the hearing before the Master, and it is a fact that the Master did not in terms direct a trial of the issue of reference, nor did he give any directions for disclosure of documents, or the service of witness statements. No costs management was undertaken.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>I am pleased to say that this last issue does not appear to be a significant flaw in the procedure in this case because – in contrast to the position in Price and the cases considered in that judgment – the parties’ costs statements are relatively modest.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>But some of the evidential picture so far as the trial is concerned has been pulled together in a rather disorderly way, at a late stage. Happily, it has been (or become) common ground that the issues to be determined by me should include the issue of whether the Facebook Post referred to the claimants and, if so, to what extent it was understood to refer to them ; that I can and should reach final conclusions not just about the fact of reference but also about the extent of it; and that I can and should have regard to all of the evidence before me. Nobody has sought to cross-examine on any witness statement. For the sake of good order, I have formally directed that the trial should include the issue of whether and if so to what extent the Facebook Post complained of referred and was understood to refer to the claimants or any of them.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Reference</p>
+        </tblock>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>It is convenient to deal first with the straightforward question of reference, or identification-that is to say, whether the words complained of referred at all to the first and/or second claimants. If not, they have no claim. If so, it will be possible to address meaning in a less abstract way. This is also consistent with the principled approach advocated by Gatley ([38] above).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>The legal principles as to reference can be taken from Lachaux v Independent Print Ltd [2015] EWHC (QB) [2016] QB 402 [15]: “(1) “It is an essential element of the cause of action for defamation that the words complained of should be published ‘ of the [claimant]’ Knupffer v London Express Newspaper Ltd [1944] AC 116, 118. This does not mean the claimant must be named. The question is whether reasonable people would understand the words to refer to the claimant: “The test of whether words that do not specifically name the [claimant] refer to him or not is this: Are they such as reasonably in the circumstances would lead persons acquainted with the claimant to believe that he was the person referred to?”: David Syme &amp; Co v Canavan (1918) 25 CLR 234, 238, per Isaacs J. (2) This is an objective test. If the words would be so understood by such people it is not necessary for the claimant to prove that there were in fact such people, who read the offending words …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>If the words complained of do not, on their face, name the claimant, or contain enough other identifying information to allow a person acquainted with the claimant reasonably to conclude that the claimant is referred to by the words, then the claimant will need to plead and prove a case of “reference innuendo”: that one or more reader knew certain special facts which would lead a reasonable person in their position to understand the words complained of to refer to the claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>The Facebook Post does not refer to either of the remaining claimants by name or any other unique identifier. Hence the reference innuendo pleaded in paragraph 7 of the Particulars of Claim, which I have set out. However, no evidence was served by the claimants to support the pleaded case at this trial. On 12 March 2019, the defendant served a witness statement (his second), which does address the issue of reference. That was 8 clear days before the trial. As I have said, it was on the eve of the trial, in the afternoon, that a lengthy witness statement of the first claimant was served.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>I shall return to the detail of this evidence when dealing with the question of serious harm. That is because Mr Price, on behalf of the defendant, concedes that at least one person understood the words of the Facebook Post to refer to each of the remaining claimants. There were people who knew that the second claimant had represented Mr Davies, and some who knew the first claimant to be the principal of the second claimant. But the case advanced by Mr Price, in the light of all the evidence, is that “the only safe conclusion open to the Court is that the Facebook Post was understood to refer to the first and second claimants by a very limited class of people”. Reference is therefore established, though its extent is very much at issue.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Meaning</p>
+        </tblock>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>The applicable principles are well-established, and not in doubt. They have been recently re-stated in a convenient summary by Nicklin J, in Koutsogiannis v Random House Group Ltd [2019] EWHC 48 (QB) [11-12]. I apply those principles, which it is unnecessary to rehearse here.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>In December of last year, the defendant made a concession in correspondence as to the natural and ordinary meanings of the words complained of, setting out a meaning which covers very similar territory to the one pleaded in paragraph 10.2 of the Particulars of Claim.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>In oral argument, Mr Metzer has not pressed the meaning pleaded in paragraph 10.3 of the Particulars of Claim. Rightly so, in my judgment, as it added only a rhetorical flourish to the other meanings complained of.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>The main area of dispute has thus concerned the imputation pleaded in paragraph 10.1 of the Particulars of Claim. And in that context the key issue is whether the Facebook Post would suggest to an ordinary reasonable reader that the claimants were among those responsible for “driving Mr Davies to suicide”. In my judgment, it would not convey that meaning, or any similar meaning.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>This was a serious item, on a serious topic, posted on the Facebook page of a campaign group. It is not a frivolous or transitory piece on an individual ’s social media account, which might be read with a slapdash approach. Paragraph [1] reports very plainly that Mrs Davies places the blame for her husband ’s suicide on “institutions” These are expressly identified in paragraph [6] as “the developer and the bank”. The words in between, in paragraphs [2]-[5], are entirely concerned with these institutions, and their alleged wrongdoing. No blame is cast on any lawyers until paragraph [10], where there is criticism of the lawyers who acted in the original transactions. The claimants’ argument rightly focusses on paragraphs [10]-[12], as it is only here that reference is made to the English legal system and “UK representation”, including the unnamed “London legal firm.” But there is nothing here that links the alleged failings of these lawyers with the suicide of Mr Davies. The criticisms reported are those of Mrs Davies, and she has “squarely” placed the blame for that elsewhere.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>As for the rest of meaning 10.1, as I observed in the course of argument, there is some tendentious rhetorical baggage here, and some overlap with the meaning set out in paragraph 10.2. Plainly, the “London legal firm” is portrayed as having taken nearly £ 30,000 for work that did not serve its client ’s best interests. But I do not think “enriching themselves at the expense of their clients” properly captures the meaning conveyed by what is said about fees.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>In my judgment, the Facebook Post bore the following natural and ordinary meaning: “that the first and second claimants exploited the vulnerable position of Mr and Mrs Davies, victims of the Cyprus property mis-selling scandal, by charging them almost £ 30,000 in fees to help them and then failing to protect their best interests, and forcing them to fund alternative representation.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Serious harm</p>
+        </tblock>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>At common law, a statement is defamatory of the claimant if it imputes conduct which would tend to lower the claimant in the estimation of right-thinking people generally, and the imputation “[substantially] affects in an adverse manner the attitude of other people towards him, or has a tendency so to do”: Thornton v Telegraph Media Group Ltd [2010] EWHC 1414 (QB) [2011] 1 WLR 1985 [96] (Tugendhat J). As explained in Lachaux [2016] QB 402 [15(5)]: “Although the word ‘ affects’ might suggest otherwise, it is not necessary to establish that the attitude of any individual person towards the claimant has in fact been adversely affected to a substantial extent, or at all. It is only necessary to prove that the meaning conveyed by the words has a tendency to cause such a consequence.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>The meaning I have found is unquestionably defamatory by these standards. It attributes misconduct of which any right-thinking person would disapprove, and would tend to have a substantial adverse effect on others’ attitudes to the claimants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>The law was changed by s 1 of the Defamation Act 2013, which provides as follows: “(1) A statement is not defamatory unless its publication has caused or is likely to cause serious harm to the reputation of the claimant. (2) For the purposes of this section, harm to the reputation of a body that trades for profit is not serious harm unless it has caused or is likely to cause the body serious financial loss.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>The effect of these provisions was considered by the Court of Appeal in Lachaux, where Davis LJ said this, at [82]: “(1) Section 1(1) of the 2013 Act has the effect of giving statutory status to Thornton v Telegraph Media Group Ltd … albeit also raising the threshold from one of substantiality to one of seriousness: no less, no more but equally no more, no less. The Thornton case has thus itself been superseded by statute. … (7) … it may be that in some respects the position with regard to bodies trading for profit, under section 1(2), will be different. I say nothing about that subsection which clearly is designed to operate in a way rather different from section 1(1).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>“Serious” is an ordinary English word which means what it says; it is weightier than “substantial”, but requires no further gloss: Lachaux [44]. Generally, the question of whether a statement causes or is likely to cause serious reputational harm will be a matter of inference from the gravity of the statement and the context of the publication: see Davis LJ in Lachaux [73], [75]. But mere tendency is no longer the test. A case of serious harm can be rebutted by evidence. In a strong case, that can be done on a defendant ’s application for summary judgment. Otherwise, the issue should go to trial. For these propositions, see Lachaux [79], [80]. See also [82(3)] (cited at [36] above).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>At [79], Davis LJ gave examples of cases in which an inference of serious harm might be rebutted on a summary judgment application. These must apply with appropriate modifications to a trial, and I have accordingly removed the words linked only to the summary judgment context: “There may, for instance, be cases where the evidence shows that no serious reputational harm has been caused or is likely for reasons unrelated to the meaning … One example could, for instance perhaps be where … the number of publishees was very limited, that there has been no grapevine percolation and that … no one thought any the less of the claimant by reason of the publication”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>As indicated by the citation at [58] above, the position in relation to s 1(2) is not settled. But, for the purposes of the present trial, it is accepted by Mr Price (a) that the term “financial loss” in that subsection is a broader concept than “special damage”; and (b) that the Court may use a process of inference to reach a conclusion on whether a publication has caused or is likely to cause serious financial loss. In my view, without adjudicating on these issues, these are appropriate concessions. The fact remains, however, that the burden lies on the claimant to establish that the statutory requirements are satisfied.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>Mr Price sensibly concedes that, other things being equal, an inference of serious reputational harm could be drawn from the fact that the words complained of, containing a serious imputation, were published on the Facebook page. But there is no rule of evidence that material posted online is presumed or assumed to have been read by anyone, let alone a substantial number of people. And in this case the claimants have rightly assumed the burden of pleading a reference innuendo. There is a limited concession, that the words were reasonably taken to refer to them. But there is no concession as to how many readers there were who would have done so. Nor is there any concession that the consequence was serious reputational harm. To the contrary, the defendant has expressly called on the claimants to prove their case. More than that, it remains the case that, with some minor exceptions, the only relevant evidence before me is that provided by the defendant in his second witness statement.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>The belated witness statement of the first claimant, though long, and accompanied by a voluminous exhibit, is not an impressive document. Mr Metzer rightly apologised for its lateness, but the statement itself makes no such apology, nor does it attempt even to explain why evidence was served weeks or months after it should have been. The claimants themselves had proposed an exchange of evidence on 6 March 2019, then failed to comply with their own timetable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>Mr Price has aptly described the statement as accusatory, tendentious, and emotional. It is mainly concerned with imputing to the defendant all manner of wrongdoing, in something of a scattergun manner. Most of the statement is assertion, rather than evidence. Paragraph 54 asserts that “all the matters stated in this statement are within my knowledge and backed by the documents to show they are genuine”. But much of the statement is not backed by anything that is exhibited. And it is obvious that much of it can not be within the first claimant ’s own knowledge. Although paragraph 2 claims that the sources of statements made on information and belief will be provided, that is not the case in many instances. One illustration will suffice. Paragraph 25 asserts that the defendant established “an enormous number of websites both in Cyprus and UK” which “resembled a spider ’s web … that a specialist in such systems could say that this was done in order to hide his tracks”. None of this is vouched by any detail or any document, or even by identifying an expert who has said any such thing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>For present purposes, the most significant feature of the witness statement is what it does not say. It does not seek in any way to address the evidence of the defendant on the issue of reference. It does not even refer to his second statement. In my judgment, Mr Price is justified in his invitation to me to ignore the first claimant ’s statement at this stage, except for some limited parts of it which are incidentally of some assistance to his client ’s case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>The conclusion I have arrived at, on the basis of the defendant ’s evidence and the few aspects of the claimant ’s evidence that are relevant and helpful on the issue, is that it has not been established that the publication complained of caused serious harm to the reputation of the first or the second claimant. The inference that would be drawn from the gravity of the imputation, if other things were equal, should not in all the circumstances be drawn. That is for these main reasons: (1) There is no evidence to support the proposition in paragraph 7.4 of the Particulars of Claim (that it was generally known to members of the Facebook group that the claimants had originally acted for Mr Davies). The evidence of the defendant deals with the drafting of the Post. He says it was a joint effort between him and the Cyprus Victims Association (“CVA”). His evidence is that, with the exception of a small group to whom I shall come, it was not generally known among members of the Facebook group which individuals had instructed which solicitors previously. (2) Paragraph 7.3 of the Particulars cites a publication linking Mr Davies with the second claimant. But the publication was made to a constituency other than the Facebook group, after the initial publication of the words complained of. The Facebook Post did remain online at the time, so it would have been possible for someone who read both to put the two together, and identify the claimants as the lawyers mentioned in the Post. But there is no evidence to establish that all or indeed any of Maxwell Alves Property Litigation clients were members of the Facebook group. If they all were, then paragraph 7.4 could not be true. The questioner in paragraph 7.3 plainly did not know, until told, that “the poor chap who committed suicide” had originally been with Highgate Hill. There is simply not enough evidence to justify a conclusion that the Q &amp; A cited in paragraph 7.3 served to identify the claimants to readers of the Facebook Post. (3) That leaves the allegation in paragraph 7.2, that “all those involved in and/or concerned with the Cyprus Property Litigation” knew the claimants to be “among the lead lawyers” handling victims’ claims. It is to be noted that this is not an allegation that anybody had information linking the claimants to the Davieses. It seeks to establish reference on the basis that the claimants were members of a group, of undefined number. The defendant ’s evidence is that there were numerous firms dealing with such litigation. He names five, in addition to the second claimant (Highgate Hill): Maxwell Alves, Irwin Mitchell, Healys, Cubism Law, and Christofi Law. It is here that the witness statement of the first claimant lends some help to the defence case. She identifies a further two firms involved with Cyprus Property Litigation: Regulatory Legal and Judicare. (4) Eight is a substantial group. This is not a case of what is sometimes called “group libel”, where an allegation of misconduct is levelled indiscriminately at a group, and the question arises of whether each member of the group can sue. The imputation here applies to one, unidentified “London legal firm”. I can not see any sound basis on which to find that a reasonable reader, knowing the claimants to be one of the leading law firms acting in the Cyprus Property Litigation, but no more, would identify the second claimant as the firm said to have misconducted itself with regard to Mr Davies. That leaves no basis for concluding that the first claimant was identifiable to any reasonable reader as the individual responsible for such misconduct. (5) The defendant ’s evidence acknowledges that there was a group of clients who did know that the Davieses had been represented by Highgate Hill, and that this was the firm referred to in the Facebook Post. The defendant identifies Mrs Davies (whom he got to know “quite well”), the leadership of the CVA, and others. His point, and the nub of Mr Price ’s argument, is that not only was this a relatively small group, but that “The</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>Some further detail about the regulatory complaints is contained in paragraphs 10 to 11 of the defendant ’s witness statement, and supports the argument advanced by Mr Price. The defendant ’s evidence is that, before the publication complained of, many of the second claimant ’s former clients had transferred to the defendant, in his guise as a consultant for other firms; and a “good number” of these had already complained to the SRA and/or the Legal Ombudsman about the first and second claimants. The initial complaints had been made in 2014 and 2015, as a joint complaint. Mrs Davies was a complainant. It would be manifestly absurd to suggest that the claimants could recover damages for the publication of the meaning I have found, to people who already took that view of their professional conduct. The overall effect of the evidence is that all, or the vast majority of the others who may have identified the claimants as the firm referred to in the words complained of had a similar opinion of them. There is nothing to suggest that there was anyone outside that group or, if there were, that it was someone whose opinion matters to the claimants. I note, in addition, that within the exhibits to the first claimant ’s statement is an email suggesting that there were “many complaints that the SRA had received” from as early as 2012. Two individual complainants are identified by name, and the author of the email endorses the 24 complaints that they had made.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>Mr Metzer has acknowledged the difficulties of assessing how many readers saw the Facebook Post, with knowledge of facts that would lead them reasonably to identify the claimants as the London lawyers referred to. He has urged me to take into account that, as in (for instance) the Hillsborough litigation, members of a group of litigants with a shared interest and common aim, will know which firms are instructed by whom. His difficulties are twofold: he can only rely on matters that are in evidence at this trial, and there is really none to support the submissions he has advanced, and much that tends to undermine it; and the evidence indicates that the few who would have known the claimants’ roles were either dissatisfied ex-clients or others who will already have taken against them, so that no material harm was done.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>Mr Metzer has referred me to the pleaded allegations, in support of the case on damage, that the Facebook Post resulted in the online publication of an article in the Cyprus Mail. Republication of a libel can often contribute significantly to the harm done, and, in a particular case, might get a case over the serious harm hurdle, even if the primary publication did not. But this line of argument faces the fundamental difficulty that the Cyprus Mail article did not reproduce all the text of the Facebook Post. Critically, it made no reference, explicit or implicit, to the “London legal firm”. It is pleaded that the publication was defamatory of the claimants, but there is no pleaded reference innuendo, nor any pleaded case that this article conveyed the defamatory meanings complained of, or any particular defamatory meaning about them, nor is there any evidential basis for inferences or conclusions to that effect.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>Having reached those conclusions, it is strictly unnecessary to deal with the issues arising under s 1(2). But I will say that I would have found against the second claimant on the issue of serious financial loss. The loss of one client can, in some circumstances, be a serious matter for a small or boutique firm of solicitors: see Brett Wilson LLP v Persons Unknown [2015] EWHC 2628 (QB) [2016] 4 WLR 69 [27-30]. But, in this case, the Particulars of Claim contain nothing that would allow such a finding. Nor is there evidence to make good that deficiency. The defendant ’s evidence on the extent of reference, and the identity of the publishees, undermines any such conclusion. The evidence is that clients had left the claimants before the offending publication.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>I have not ignored the proposed amendments to the Particulars of Claim, which would introduce some schedules setting out alleged financial loss. These are not especially clear or coherent, but as I understand them they advance claims based on clients being induced (by libels and/or other inducements) to leave the claimants in 2013 and 2014, which is-again-before the publication complained of. The schedules also lend some support to the view that at least 45 clients were not paying their bills to the claimants. That is consistent with the conclusions I have reached separately.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>The result of these conclusions is that what is left of the libel action following my decision on the Strike-Out Application must be dismissed.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Amendment Application</p>
+        </tblock>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>I turn to consider the application for permission to amend to plead a claim in inducement of breach of contract. There is a degree of artificiality about this exercise, now that there is no extant claim to which to attach this new one. It would seem hard in principle to justify the dismissal of the existing claim and the simultaneous addition by amendment of an entirely new and different cause of action.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>It would seem harder still to justify that course of action when the draft amendments have been put forward so very late, and inexcusably so. The result of the lateness was, as already noted, that Mr Price was not able to address the amendments in his skeleton argument. A measure of the disruption caused by conducting litigation in this way can be gained from noting the time of the email by which Mr Price sent his Note on the draft amendments to my clerk: it was sent at 23:41 on the day before the hearing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>The Note pointed out a number of procedural flaws in the application filed on 19 March 2019. Among them were the fact that the draft amendments introduced a new claimant; that they differed from those put forward in December 2018; that no evidence was filed in support of the proposed amendments; and that no other explanation had been offered for the timing or the content of the application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>I do not have to grapple with all of these issues, however. I have concluded that permission to amend should be refused in any event, for reasons that mirror those put forward by the defendant in correspondence, in response to the draft amendments of last December.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>The relevant principles are uncontroversial. They include the obvious proposition that permission will not be granted for an amendment which would have no prospect of success. The test is not one of improbability, but whether the claim is fanciful. The Court will not dismiss a claim just because it seems unlikely to prevail, nor will it conduct a mini-trial. But the Court is not bound to accept that a factual proposition advanced by a party may be upheld at trial. It will consider the state of the evidence, whether (and to what extent) the factual allegations advanced are improbable, and whether there is any contemporaneous documentation that supports or undermines the relevant contentions.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>Here, the proposed amendments are extensive, in terms of text, but as Mr Price has pointed out, they have at their heart two main elements. The first is a new allegation that the defendant has operated under an alter ego. This time, the allegation is that he has been using the assumed name “Guy Fawkes”. The proposition, which is central to the new claim, is that whilst the defendant, in his own name, was interacting with and providing professional services to victims of the Cypriot property mis-selling scandal, he was also secretly emailing such victims frequently, and en masse, under the pseudonym “Guy Fawkes”, using the email address rutrulyscrewed@gmail.com, pretending to be such a victim. It is “Guy Fawkes” who is alleged to have perpetrated much of the alleged wrongdoing, that is said to have induced clients of the three proposed claimants to break their contracts, causing substantial financial loss. The allegation is, as Mr Price submits, one of fraud.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>The allegation was addressed by the defendant in correspondence last year. On 7 December 2018, the second claimant wrote to the defendant, professing not to understand why he would not consent to the draft amendments which were then being put forward. The claimants threatened to issue an application and to seek costs against the defendant, if he failed to consent to the amendments within 7 days. He wrote back on 12 December, explaining, over some 7 pages, why he would not consent. He did so carefully, clearly, and in some detail. Among the points he made were that the allegation that he was “Guy Fawkes” was denied, highly improbable, and unsupported by any pleaded facts. His letter said that “unless / until you are able to provide any proper support for your allegation” he would argue that it was too weak to be permitted to proceed. He made clear that he presumed that the application would be supported by evidence, to which he would be allowed to respond in the usual way.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>80</num>
+          <content>
+            <p>No particulars supporting the allegation have been put forward. Nor did the claimants serve any evidence to support this (or indeed any) aspect of their amendment application. The defendant has, however, sought to refute it evidentially. He has made a witness statement asserting clearly and unequivocally that the allegation is false. He has supplemented this with documentary evidence which he exhibits, and which corroborates his denial.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>81</num>
+          <content>
+            <p>The defendant ’s third witness statement explains, over several paragraphs, what he knows about “Guy Fawkes”, as a result of his role in the Cyprus Property Litigation. He identifies “Guy Fawkes” as part of a sub-group of 28 clients who had been represented by the claimants until July / August 2014, but then moved to Irwin Mitchell, and then Maxwell Alves. Having searched his own records, the defendant produces two emails from “Guy Fawkes”. One, dated 4 August 2014, was sent by “Guy Fawkes” to the group of 28. The defendant is able to produce it because it was forwarded to him by one of the 28, under the subject line “INTERESTING TIMES AHEAD”. This indicates that the sender (one Michael MacNamara) knew or believed “Guy Fawkes” and the defendant to be different individuals. The second email is from “Guy Fawkes” to the defendant himself, sent on 20 August 2014. It forwards an email which is clearly meant to be funny, with the words “Hi George. To make you smile.” Nobody has questioned the authenticity of these documents, or suggested a reason why the defendant might have emailed himself in August 2014, using the “Guy Fawkes” pseudonym.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>82</num>
+          <content>
+            <p>The defendant has also produced correspondence emanating from the first claimant herself, at around the same time. A letter dated 2 August 2014, written on the headed notepaper of the second claimant, refers to the group of 28, and asserts that all of them had signed an agreement for the firm to negotiate on their behalf “apart from one, the ‘ Guy Fawkes’. We know who he is.” This corroborates the defendant ’s evidence that “Guy Fawkes” was a client of the claimants. More than that, it indicates that the first claimant, in August 2014, knew the true identity of that person. A document of 6 August 2014, also signed by the first claimant, suggests very clearly that she knew, at that time, that “Guy Fawkes and the claimant were not the same person. She alleged that ‘ “Guy Fawkes” and George Kounis of Maxwell Alves have joined together” in various nefarious ways.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>83</num>
+          <content>
+            <p>The first claimant ’s belated witness statement does contain some material that addresses this issue. She re-asserts in several places the proposition that “Guy Fawkes” is the defendant. However, she fails altogether to address the defendant ’s evidence on the matter. She has nothing to say about the documents I have mentioned. And she provides no explanation for making this allegation. It must, by its nature, be an allegation based on information and belief. But she does not identify or even provide a clue to the source or sources on which she is relying for that purpose. In this, and other respects, her witness statement fails to comply with one of the fundamental requirements of the CPR. It is not, on a proper analysis, evidence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>84</num>
+          <content>
+            <p>Mr Metzer has valiantly tried to shore up the position by informing me, on instructions, that the contents of the first claimant ’s statement are based on what she has been told by former clients of the firm. But that is not stated in the witness statement. Moreover, it begs the question of who those former clients are, what they said, and what were the sources of their information. This is not an acceptable way for the claimants to advance this application, or to respond to the defendant ’s rebuttal of their case. In all the circumstances, the onus would lie on any claimant seeking permission to make amendments such as these, to persuade the Court that the case advanced is a proper one, which might succeed, and is deserving of the Court ’s time. These claimants are solicitors of the Senior Courts who know, or should know, the relevant procedural rules.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>85</num>
+          <content>
+            <p>The first claimant ’s witness statement contains a yet further (though unpleaded) allegation that the defendant has masqueraded as someone else. In paragraph 42 she asserts that a statement from a prominent (named) Cypriot advocate “proves that George Kounis presented himself as an investigator from the SRA”. The first claimant does not produce the advocate ’s statement. But in this instance, she does exhibit relevant documentation, namely an email string from the defendant to the advocate. That material contradicts the first claimant ’s witness statement. What it shows is that, writing as “George Kounis-Senior Consultant (Non Solicitor)-Maxwell Alves Solicitors”, the defendant made clear that the firm represented a number of clients previously represented by the first claimant, and asks for the matter to be looked into. He then followed up, informing his correspondent that a report was going to the Solicitors Regulation Authority.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>86</num>
+          <content>
+            <p>In my judgment, the “Guy Fawkes” charges against this defendant are not allegations which the Court could properly permit, by way of amendment. This is an allegation of fraud, the basis for which is in no way explained, which is inherently improbable in the extreme, and which is convincingly denied by the defendant, with cogent corroborative documentary evidence. In the face of that denial, which has been repeated on pain of proceedings for contempt of court, the claimants have completely failed to provide any evidential support for their contention. The first claimant ’s witness statement is, on this topic, worthless or worse. The fact that this is the claimants’ second apparently baseless allegation that the defendant has used an alias lends support to my conclusion that this aspect of the new claim can not be allowed to go forward. In my judgment, on the evidence before me, the allegation is fanciful. The evidence provides no reason to suppose that the evidential picture would change over time.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>87</num>
+          <content>
+            <p>The second principal strand of the draft amendments concerns two Webinars, dated 22 October 2013, and 30 July 2014. In paragraph 12 of the draft Amended Particulars of Claim it is alleged that by giving these webinars the defendant induced and procured breaches of contract by clients of the claimants, “by persuading the Clients that they had been overcharged by and/or had not received and would not receive value for money from the Claimants …” A claim is advanced that by these means and/or by means of the alleged libels, the defendant caused losses in excess of £ 900,000. The schedules to which I have referred are meant to support that claim.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>88</num>
+          <content>
+            <p>The defendant does not dispute that he may have been responsible for webinars produced by Maxwell Alves on these dates. He produces the slides for the webinars, or what he says are the slides. He provides persuasive third-party evidence that the total number of attendees at the second webinar was 16, and he produces evidence, which is in no way contradicted by the claimants, as to the content of the webinars. The argument of Mr Price is that this evidence demonstrates that the claim in respect of the webinars is too speculative and too weak to be allowed to proceed. Further, Mr Price points out that the schedules appear at least in part to be at odds with the basis of the claims.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>89</num>
+          <content>
+            <p>In my judgment, the starting point is that the claim in respect of the webinars is, in all the circumstances, insufficiently pleaded. The Particulars of Claim need to identify some representations which are calculated to induce clients to terminate their contracts with the claimants, and to make a link between the representations and the loss. Here, the pleading avers (in paragraph 12.3) that the first webinar accused the claimants of charging “extortionate fees” with “low success”. The clients to whom the webinar was presented are not identified. Nothing in the statement of case links the attendees with those who terminated their contracts, other than by bare assertion. Much the same can be said of the claim in respect of the second Webinar. The representations which are alleged to have been made to an unspecified number of unidentified clients of the claimants are that (a) they could report the first claimant to the SRA for “misappropriation of funds” and (b) they should complain to the SRA. Again, there is no detail as to the causal link between these representations and lost income or profit, which is asserted baldly as a fact, without more.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>90</num>
+          <content>
+            <p>The defendant ’s evidence supports Mr Price ’s argument that the claims are dubious and speculative. He rightly points out that the slides, produced by the defendant as being those for the first webinar, contain nothing to support the allegation in paragraph 12.3 of the Particulars of Claim. Nor is there anything to support paragraph 12.4.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>91</num>
+          <content>
+            <p>When I look at the first claimant ’s witness statement to see how these points are dealt with , I find that there is some relevant evidence. She asserts that the number affected by the 2013 webinar is 13. There is also an item of documentary evidence of obvious relevance. A document is exhibited (at page 1 of the exhibit), which purports to be a signed statement of one M Georgiades, setting out his recollection of events in 2013. This asserts that the writer attended a seminar on 22 October 2013 at which the defendant alleged “verbally” that the claimants had been charging extortionate fees and with low success. It suggests that one David Hebditch and 13 others “subsequently” left the claimants. The statement is undated. It does not give the writer ’s full name, nor does it bear a statement of truth. It refers to having possession of “these pictures”, and to having provided them to the second claimant. But these are not exhibited. The first claimant identifies the maker of this statement as “Marios Georgiades”, but she does not give the date of the statement. She says that the defendant was “advising the clients to abandon Highgate Hill Solicitors saying that they were incompetent and expensive.” That is not the pleaded case. The first claimant ’s contention that the SRA complaints were drummed up by the defendant is not supported by her own evidence, which confirms that a number of complaints have led to cases being referred to the Solicitors’ Disciplinary Tribunal, after SRA investigation. This is most unsatisfactory.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>92</num>
+          <content>
+            <p>It seems to me, in addition, that the schedules are very hard indeed to reconcile with this aspect of the claim. The numbers of “lost” clients in respect of which financial losses are claimed seem to be far beyond the numbers that can plausibly be supposed to have attended a webinar and acted on what was said by terminating their retainer with the claimants. The Georgiades statement suggests that as many as 14 might have done so. But the list in the Schedules is much longer, and although there is overlap there is not a match between those he names as attendees. Other evidence as to the timing of terminations casts doubt on the credibility of such claims.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>93</num>
+          <content>
+            <p>I do not say that this aspect of the claim is manifestly hopeless, but I have concluded that it is confused and inadequate as the basis for a claim on this scale, and should not be permitted to go forward in its current form, or (I would suggest) unless and until it is set out in a clear and more coherent way, which meets or circumvents the objections that I have identified.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>94</num>
+          <content>
+            <p>For all these reasons, the balance of the amendment application is dismissed. It follows that the action will be dismissed. If the claimants wish to make another attempt to pursue a claim for damages for inducing breach of contract, it will have to be done in a fresh action.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+    <attachments>
+      <attachment>
+        <doc name="appendix">
+          <meta>
+            <identification source="#source">
+              <FRBRWork>
+                <FRBRthis value="www.judiciary.uk/2019_EWHC_956_QB" />
+                <FRBRuri value="www.judiciary.uk/2019_EWHC_956_QB" />
+                <FRBRdate date="2019-04-16" name="hand-down date" />
+                <FRBRauthor href="#EWHC" />
+                <FRBRcountry value="GB-UKM" />
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="https://www.judiciary.uk/judgments/dr-katherine-alexander-theodotou-others-v-georgios-kounis" />
+                <FRBRuri value="https://www.judiciary.uk/judgments/dr-katherine-alexander-theodotou-others-v-georgios-kounis" />
+                <FRBRdate date="2019-04-16" name="hand-down date" />
+                <FRBRauthor href="www.judiciary.uk" />
+                <FRBRlanguage language="eng" />
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_956_QB.xml" />
+                <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_956_QB.xml" />
+                <FRBRdate date="2021-01-18" name="date generation AKN file" />
+                <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+                <FRBRformat value="application/akn+xml" />
+              </FRBRManifestation>
+            </identification>
+            <references source="#source">
+              <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+              <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+              <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+              <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+              <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+              <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+              <TLCOrganization eId="MediaAndCommunicationsList" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MediaAndCommunicationsList" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+              <TLCOrganization eId="DrKatherineAlexander-theodotou" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DrKatherineAlexander-theodotou" showAs="Dr Katherine Alexander-theodotou" />
+              <TLCOrganization eId="HighgateHillSolicitors(aFirm)" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HighgateHillSolicitors(aFirm)" showAs="Highgate Hill Solicitors (a Firm)" />
+              <TLCOrganization eId="KAlexandrouTheodotouLlc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#KAlexandrouTheodotouLlc" showAs="K Alexandrou Theodotou Llc" />
+              <TLCOrganization eId="GeorgiosKounis" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GeorgiosKounis" showAs="Georgios Kounis" />
+              <TLCPerson eId="MrJusticeWarby" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeWarby" showAs="Mr Justice Warby" />
+              <TLCPerson eId="AnthonyMetzerQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AnthonyMetzerQc" showAs="Anthony Metzer Qc" />
+              <TLCPerson eId="DrAntonVanDellen" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DrAntonVanDellen" showAs="Dr Anton Van Dellen" />
+              <TLCPerson eId="HighgateHillSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HighgateHillSolicitors" showAs="Highgate Hill Solicitors" />
+              <TLCPerson eId="JonathanPrice" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JonathanPrice" showAs="Jonathan Price" />
+              <TLCPerson eId="BarPublicAccess" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BarPublicAccess" showAs="Bar Public Access" />
+              <TLCReference eId="HQ18M00041" showAs="HQ18M00041" name="Document number" href="www.judiciary.uk/HQ18M00041" />
+              <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+              <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+            </references>
+          </meta>
+          <mainBody>
+            <p>Appendix</p>
+            <p>PRESS RELEASE, 18 January 2017</p>
+            <p>Cyprus Property Legal Action – Resolution &amp; Collaboration For immediate release 17/01/2017</p>
+            <p>[1] Widow of British suicide victim calls institutions to account in UK &amp; Cyprus property miss- selling scandal.</p>
+            <p>[2] On Sunday 08/01/2017 Philip Davies tragically took his own life, only hours after receiving notification that Alpha Bank had re-opened legal proceedings in Cyprus for a Swiss Franc loan.</p>
+            <p>[3] Mr &amp; Mrs Davies invested all their life savings and their savings and their pension into this property, but are now facing demands for repayment of nearly £ 700,000 from the bank against a loan that began at only £ 275,000.</p>
+            <p>Mr Davies was well-known and respected amongst those who worked with him to secure justice in Cyprus. [4] Mr Went, a fellow member of a group of victims, said:</p>
+            <p>“Philip was a strong fighter for justice against the mis-selling that took place, and was the one of the few that forged ahead with a claim with the CCPS (The Competition &amp; Consumer Protection Service).</p>
+            <p>A victory was achieved when it was established that the contract with the developer and the loan agreement with the Bank, contained unfair terms.</p>
+            <p>I remember many a meeting we attended together and phone calls we had and felt buoyed up by his enthusiasm to push ahead to get justice, not just for himself but for everyone involved”.</p>
+            <p>[5] Mr &amp; Mrs Davies envisaged that they were purchasing a dream home in Cyprus with developer Alpha Panareti.</p>
+            <p>Unfortunately, the experience turned into a nightmare through alleged mis-selling, misrepresentation and breaches on the part of developers (Alpha Panareti), UK selling agents, Cypriot lawyers, Alpha Bank.</p>
+            <p>The villa, which was purchased off-plan is now on a derelict development, with no title deeds due to long-standing issues in Cypriot land-registry legislation, built on land that is already heavily mortgaged by the developer to the Bank.1</p>
+            <p>[6] Mrs Davies placed the blame for her husband ’s death squarely with the developer and the bank, who appear to have mis-sold these properties and loans, not just to them but 1000 ’s of other families.</p>
+            <p>She is particularly critical of the bank and the pressure they placed on her and her husband.</p>
+            <p>[7] Back in March 2013, the Alpha Panareti case became a prominent issue in the UK House of Commons.</p>
+            <p>A Select Committee under William Cash MP, which over 100 MPs signed up to, used the case to inform the Ministers in this country, European Commission and Officials in Cyprus of the legal predicament affecting the defendants.</p>
+            <p>Unfortunately, no information regarding progress has been received since 2013.</p>
+            <p>[8] Recent pleas to the Cyprus Minister of the Interior to implement a complete overhaul of the relevant legislation has apparently fallen on deaf ears with only a short-term fix to the existing law.</p>
+            <p>[9] The Government of Cyprus has been operating this system for decades, the lawyers saw no need to alert their clients of the title deeds trap and the bank argues that all they were doing was simply facilitating the dream.</p>
+            <p>[10] But their dream turned into a nightmare and Mrs Davies accuses them and the legal system in England that has allowed lawyers to feed on the plight of these victims.</p>
+            <p>1 The text in bold italics is not legible in Schedule 3 to the Particulars of Claim, but has been transcribed from</p>
+            <p>the Facebook Post as it appears online on 26 March 2019</p>
+            <p>[11] Even UK legal representation has failed to always protect the best interests of their clients.</p>
+            <p>Mr Davies was known to have been hit particularly hard by a London legal firm who took almost £ 30,000 in fees, before apparently breaching the terms of their retainer and forcing the Davies’ to fund alternative representation.</p>
+            <p>Their subsequent attempts to get the case heard by the Legal Ombudsman were rejected on the grounds that this matter relates to Cyprus, despite the fact that it involved a London firm and a High Court action in London.</p>
+            <p>And despite numerous complaints to the SRA (Solicitors Regulation Authority) after a five-year investigation, they have yet to offer any conclusion or hope of recovering the lost legal fees. [12] Mrs Davies is understandably devastated and keen to protect her family from publicity.</p>
+            <p>She hopes, however, that her husband ’s suicide will help bring Cypriot housing victim ’s together to support one another through consolidated legal action, and to achieve the justice which Mr Davies so badly wanted for all.</p>
+            <p>[13] Recently, a growing group of victims, of which Mr Davies was a part, formed their own Client Committee to control the conduct and funding of their legal cases and ensure that no victim of Cyprus property mis-selling feels trapped and alone under similar circumstances.</p>
+            <p>Tragically, this appears to have come too late to give a ray of hope to Mr Davies.</p>
+            <p>Notes to Editor</p>
+            <p>news item 10.01.2017 – CPS Specialist Fraud Division takes sales agent to court and is jailed for 8.5 years for miss-selling in UK. http://www.news.cyprus-property-buyers.com/.../alp.../id=0034363 http://www.news.cyprus-property-buyers.com/.../alp.../id=00151801 http://www.news.cyprus-property-buyers.com/.../alp.../id=00152020 Availability for interviews:</p>
+            <p>Sue Howell (Cyprus Property Victims Committee Publicity Officer) Mobile:</p>
+            <p>[number] Mike Went (Alpha Panereti Victims Group) Mobile:</p>
+            <p>[number]</p>
+            <p>Dr.</p>
+            <p>Rick Norris Mobile:</p>
+            <p>[number]</p>
+            <p>George Kounis (Consultant on Cyprus property matters) Mobile:</p>
+            <p>[number] Information on:</p>
+            <p>team@gkops.com</p>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </judgment>
+</akomaNtoso>

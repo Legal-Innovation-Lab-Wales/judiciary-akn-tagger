@@ -1,0 +1,2901 @@
+@prefix :      <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CliveSheldonQc  a  :Lawyer ;
+        :has-names  "Clive Sheldon Qc" .
+
+:LegalEntity  a  owl:Class .
+
+:SaoirseTownshend  a  :Lawyer ;
+        :has-names  "Saoirse Townshend" .
+
+:has-names  a   owl:DatatypeProperty .
+
+:2019EWCACiv851  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/zurich-insurance-plc-v-david-romaine" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2019_EWCA_Civ_851.xml" ;
+        :has-handdown-date  "2019-05-17" ;
+        :has-hearing-date   "2019-04-03" ;
+        :has-judge          :LordJusticeDavis , :LordJusticeHaddon-cave , :MrJusticeGoose ;
+        :has-lawyer         :MrDavidRomaine , :WeightmansLlp , :MrDavidCallow ;
+        :has-party          :ZurichInsurancePlc , :DavidRomaine .
+
+:MrJusticeWarby  a  :Judge ;
+        :has-names  "Mr Justice Warby" .
+
+:SimonButler  a     :Lawyer ;
+        :has-names  "Simon Butler" .
+
+:MrDavidGregory  a  :Lawyer ;
+        :has-names  "Mr David Gregory" .
+
+:MrPDMccreaFrics  a  :Judge ;
+        :has-names  "Mr P D Mccrea Frics" .
+
+:2019EWHC1560QB  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/birmingham-city-council-v-mr-shakeel-afsar-and-others-protest-at-birmingham-primary-school" ;
+        :has-court          :BirminghamDistrictRegistry , :QueensBenchDivision , :EWHC ;
+        :has-filename       "2019_EWHC_1560_QB.xml" ;
+        :has-handdown-date  "2019-06-18" ;
+        :has-hearing-date   "2019-06-10" ;
+        :has-judge          :MrJusticeWarby ;
+        :has-lawyer         :SafaazSolicitors , :JohnRandallQc , :JamesDixon , :BirminghamCityCouncil , :JonathanManning ;
+        :has-party          :MrAmirAhmed , :MsRosinaAfsar , :BirminghamCityCouncil , :PersonsUnknown , :MrShakeelAfsar .
+
+:TheSpecialImmigrationAppealsCommission
+        a           :Party ;
+        :has-names  "The Special Immigration Appeals Commission" .
+
+:WilliamMccormickQc  a  :Lawyer ;
+        :has-names  "William Mccormick Qc" .
+
+:SirBrianLeveson  a  :Judge ;
+        :has-names  "Sir Brian Leveson" .
+
+:JenniRichardsQc  a  :Lawyer ;
+        :has-names  "Jenni Richards Qc" .
+
+:defendant-in-the-claim
+        a           owl:NamedIndividual , :PartyRole ;
+        :has-names  "defendant in the claim" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MichaelBoolsQc&TomPascoe>
+        a           :Lawyer ;
+        :has-names  "Michael Bools Qc & Tom Pascoe" .
+
+:KhalidIkram  a     :Party ;
+        :has-names  "Khalid Ikram" .
+
+:AshurstLlp  a      :Lawyer ;
+        :has-names  "Ashurst Llp" .
+
+:2020EWHC1598Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/hughes-v-pension-protection-fund" ;
+        :has-court          :QueensBenchDivision , :AdministrativeCourt , :EWHC ;
+        :has-filename       "2020_EWHC_1598_Admin.xml" ;
+        :has-handdown-date  "2020-06-22" ;
+        :has-hearing-date   "2020-05-18" , "2020-05-22" ;
+        :has-judge          :MrJusticeLewis ;
+        :has-lawyer         :ZoeLeventhal , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TomDeLaMareQ.c.> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GerryFacennaQ.c.> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NigelGiffinQ.c.> , :IainSteele , :PatrickHalliday , :HoganLovellsInternationalLlp , :JamesBourke , :ThomasSeymour , :GovernmentLegalDepartment , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Allen&OveryLlp> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JasonCoppelQ.c.> , :FraserCampbell , :FarrerAndCoLlp , :WalkersSolicitors ;
+        :has-party          :20-20TrusteesServicesLimited , :PaulHughes , :TheSecretaryOfStateForWorkAndPensions , :TheBoardOfThePensionProtectionFund .
+
+:IainSteele  a      :Lawyer ;
+        :has-names  "Iain Steele" .
+
+:MrsJusticeCockerillDbe
+        a           :Judge ;
+        :has-names  "Mrs Justice Cockerill Dbe" .
+
+:BrettWilsonLlp  a  :Lawyer ;
+        :has-names  "Brett Wilson Llp" .
+
+:2020EWCACiv1759  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/driver-v-rhondda-cynon-taf-county-borough-council" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1759.xml" ;
+        :has-handdown-date  "2020-12-21" ;
+        :has-hearing-date   "2020-12-08" , "2020-12-09" ;
+        :has-judge          :MrJusticeFraser , :LadyJusticeNicolaDavies , :SirGeoffreyVos , :LordJusticeLewis ;
+        :has-lawyer         :MsKatherineEddy , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DirectorOfLegalServices,WelshGovernment> , :MrJulianMilfordQc , :DirectorOfLegalServicesOfRhonddaCynonTaf , :MrOwainRhysJames , :MsNiaGowman , :CapitalLaw , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Watkins&Gunn> , :MrRhodriWilliamsQc , :MrGwionLewis ;
+        :has-party          :RhonddaCynonTafCountyBoroughCouncil , :TheWelshMinisters , :TheWelshLanguageCommissioner , :Anne-marieDriver .
+
+:ReanneMackenzie  a  :Lawyer ;
+        :has-names  "Reanne Mackenzie" .
+
+:JamesSeganQc  a    :Lawyer ;
+        :has-names  "James Segan Qc" .
+
+:KathleenDonnelly  a  :Lawyer ;
+        :has-names  "Kathleen Donnelly" .
+
+:CommercialCourt  a  owl:NamedIndividual , :subDivision ;
+        :has-names  "Commercial Court (QBD) --- Commercial Court" ;
+        :part-of    :QueensBenchDivision .
+
+:ShrewsburyTownCouncil
+        a           :Party ;
+        :has-names  "Shrewsbury Town Council" .
+
+:MrJusticeMacdonald  a  :Judge ;
+        :has-names  "Mr Justice Macdonald" .
+
+:TheLondonBoroughOfWalthamForest
+        a           :Party ;
+        :has-names  "The London Borough Of Waltham Forest" .
+
+:ZaneMalik  a       :Lawyer ;
+        :has-names  "Zane Malik" .
+
+:MrM.Hawkes  a      :Lawyer ;
+        :has-names  "Mr M. Hawkes" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SuezGroupeSas&Others>
+        a           :Party ;
+        :has-names  "Suez Groupe Sas & Others" .
+
+:HhjPaulMatthews  a  :Judge ;
+        :has-names  "Hhj Paul Matthews" .
+
+:JosephBarrett  a   :Lawyer ;
+        :has-names  "Joseph Barrett" .
+
+:JonathanManning  a  :Lawyer ;
+        :has-names  "Jonathan Manning" .
+
+:hand-down  a   owl:NamedIndividual , :EventType .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JamesSmith(planningLawServices)Ltd>
+        a           :Lawyer ;
+        :has-names  "James Smith (planning Law Services) Ltd" .
+
+:CourtOfProtection  a  owl:NamedIndividual , :SpecialCourt ;
+        :has-names  "court of protection" .
+
+:DdjSmith  a        :Judge ;
+        :has-names  "Ddj Smith" .
+
+:LadyJusticeRose  a  :Judge ;
+        :has-names  "Lady Justice Rose" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#X-yachtsA/S(aCompanyIncorporatedUnderTheLawsOfDenmark)>
+        a           :Party ;
+        :has-names  "X-yachts A / S (a Company Incorporated Under The Laws Of Denmark)" .
+
+:JudgeMatthews  a   :Judge ;
+        :has-names  "Judge Matthews" .
+
+:MrBrunoQuintavalle  a  :Lawyer ;
+        :has-names  "Mr Bruno Quintavalle" .
+
+:GateleyLegal  a    :Lawyer ;
+        :has-names  "Gateley Legal" .
+
+:solicitor  a   owl:NamedIndividual , :LawyerRole .
+
+:CountyCourt  a          owl:Class ;
+        rdfs:subClassOf  :Court .
+
+:MackintoshLaw  a   :Lawyer ;
+        :has-names  "Mackintosh Law" .
+
+:SarahAbram  a      :Lawyer ;
+        :has-names  "Sarah Abram" .
+
+:StevenGray  a      :Lawyer ;
+        :has-names  "Steven Gray" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NigelGiffinQ.c.>
+        a           :Lawyer ;
+        :has-names  "Nigel Giffin Q.c." .
+
+:HerbertSmithFreehillsLlp
+        a           :Lawyer ;
+        :has-names  "Herbert Smith Freehills Llp" .
+
+:MrPhilipHaversQc  a  :Lawyer ;
+        :has-names  "Mr Philip Havers Qc" .
+
+:SpecialCourt  a         owl:Class ;
+        rdfs:subClassOf  :Court .
+
+:MrsJusticeCarr  a  :Judge ;
+        :has-names  "Mrs Justice Carr" .
+
+:CantorFitzgeraldEuropeLegalDepartment
+        a           :Lawyer ;
+        :has-names  "Cantor Fitzgerald Europe Legal Department" .
+
+:StevenFennell  a   :Lawyer ;
+        :has-names  "Steven Fennell" .
+
+:2020EWCACiv1491  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/brakes-and-ors-v-lowes-and-ors" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1491.xml" ;
+        :has-handdown-date  "2020-11-13" ;
+        :has-hearing-date   "2020-10-13" , "2020-10-14" ;
+        :has-judge          :LadyJusticeAsplin , :LordJusticeFloyd , :LordJusticeHenderson , :JudgeMatthews ;
+        :has-lawyer         :MrStephenDaviesQc , :MsAnnaLintner , :StewartsLawLlp , :MsDaisyBrown , :MrWilliamDay , :MrAndrewSutcliffeQc , :PorterDodsonLlp , :SeddonsSolicitors ;
+        :has-party          :RichardToone , :TheChedingtonCourtEstateLimited , :SimonLowes , :DuncanKenricSwift , :KatarzynaWegrzyn , :NihalMohammedKamalBrake , :SladeAssociates , :RitchiePhillipsLlp , :RebeccaHolt , :AndrewYoungBrake , :TomaszWegrzyn .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GerryFacennaQ.c.>
+        a           :Lawyer ;
+        :has-names  "Gerry Facenna Q.c." .
+
+:AndrewYoungBrake  a  :Party ;
+        :has-names  "Andrew Young Brake" .
+
+:SocietyOfLondonTheatre
+        a           :Party ;
+        :has-names  "Society Of London Theatre" .
+
+:2020EWCACiv1634  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/r-mp-v-secretary-of-state-for-health-and-social-care" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1634.xml" ;
+        :has-handdown-date  "2020-12-03" ;
+        :has-hearing-date   "2020-11-10" ;
+        :has-judge          :MrJusticeLewis , :LordJusticeNewey , :LordJusticeMccombe , :LordJusticeMoylan ;
+        :has-lawyer         :RobertPalmerQc , :DeightonPierceGlynn , :GovernmentLegalDepartment , :JasonCoppelQc , :ChristopherKnight , :JosephBarrett ;
+        :has-party          :SecretaryOfStateForHealthAndSocialCare , :Mp .
+
+:SharpePritchardLlp  a  :Lawyer .
+
+:MsMarieDemetriouQc  a  :Lawyer ;
+        :has-names  "Ms Marie Demetriou Qc" .
+
+:2020EWCACiv1602  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/atkinson-and-ors-v-varma-and-ors" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1602.xml" ;
+        :has-handdown-date  "2020-11-27" ;
+        :has-hearing-date   "2020-11-10" ;
+        :has-judge          :LordJusticeLewison , :HhjJohnsQc , :LadyJusticeRose , :LordJusticeStuart-smith ;
+        :has-lawyer         :RoryBrown , :AndrewShipley , :WilliamMccormickQc , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Preiskel&Co> , :GunnercookeLlp ;
+        :has-party          :SanjivVarma , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PaulAtkinson&GlynMummery> .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LegalDepartment,Hmrc>
+        a           :Lawyer ;
+        :has-names  "Legal Department, Hmrc" .
+
+:MrPeterSkeltonAndMrsElizabethSkelton
+        a           :Party ;
+        :has-names  "Mr Peter Skelton And Mrs Elizabeth Skelton" .
+
+:respondent-in-the-claim
+        a           owl:NamedIndividual , :PartyRole ;
+        :has-names  "respondent in the claim" .
+
+:LadyJusticeSimler  a  :Judge ;
+        :has-names  "Lady Justice Simler" .
+
+:TeresaBazarnik-malkiewicz
+        a           :Party ;
+        :has-names  "Teresa Bazarnik-malkiewicz" .
+
+:AnjoliFoster  a    :Lawyer ;
+        :has-names  "Anjoli Foster" .
+
+:ElenaLieskovska  a  :Party ;
+        :has-names  "Elena Lieskovska" .
+
+:StewartsLawLlp  a  :Lawyer ;
+        :has-names  "Stewarts Law Llp" .
+
+:GoodmanRayLlp  a   :Lawyer ;
+        :has-names  "Goodman Ray Llp" .
+
+:SheffieldCityCouncil
+        a           :Party , :Lawyer ;
+        :has-names  "Sheffield City Council" .
+
+:AntonyDeGarrRobinsonQc
+        a           :Lawyer ;
+        :has-names  "Antony De Garr Robinson Qc" .
+
+:LondonHistoricParksAndGardensTrust
+        a           :Party ;
+        :has-names  "London Historic Parks And Gardens Trust" .
+
+:SecretaryOfStateForEducation
+        a           :Party ;
+        :has-names  "Secretary Of State For Education" .
+
+:GunnercookeLlp  a  :Lawyer ;
+        :has-names  "Gunnercooke Llp" .
+
+:appellant-in-the-claim
+        a           owl:NamedIndividual , :PartyRole ;
+        :has-names  "appellant in the claim" .
+
+:LordJusticeFulford  a  :Judge ;
+        :has-names  "Lord Justice Fulford" .
+
+:FraserCampbell  a  :Lawyer ;
+        :has-names  "Fraser Campbell" .
+
+:RichardBuxtonSolicitors
+        a           :Lawyer ;
+        :has-names  "Richard Buxton Solicitors" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DafTrucksN.v.&Others>
+        a           :Party ;
+        :has-names  "Daf Trucks N.v. & Others" .
+
+:CliffordChanceLlp  a  :Lawyer ;
+        :has-names  "Clifford Chance Llp" .
+
+:RitchiePhillipsLlp  a  :Party ;
+        :has-names  "Ritchie Phillips Llp" .
+
+:MrDanielJowellQc  a  :Lawyer ;
+        :has-names  "Mr Daniel Jowell Qc" .
+
+:PersonsUnknown  a  :Party ;
+        :has-names  "Persons Unknown" .
+
+:TimothyMouldQc  a  :Lawyer ;
+        :has-names  "Timothy Mould Qc" .
+
+:BridgetDolanQc  a  :Lawyer ;
+        :has-names  "Bridget Dolan Qc" .
+
+:MsSarahFordQc  a   :Lawyer ;
+        :has-names  "Ms Sarah Ford Qc" .
+
+:EdwardGrieves  a   :Lawyer ;
+        :has-names  "Edward Grieves" .
+
+:LordJusticeLewison  a  :Judge ;
+        :has-names  "Lord Justice Lewison" .
+
+:MrJusticePicken  a  :Judge ;
+        :has-names  "Mr Justice Picken" .
+
+:FamilyDivision  a  owl:NamedIndividual , :Division ;
+        :has-names  "Family Division" ;
+        :part-of    :EWHC .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ManSe&Others>
+        a           :Party ;
+        :has-names  "Man Se & Others" .
+
+:VictoriaOsler  a   :Lawyer ;
+        :has-names  "Victoria Osler" .
+
+:MsShokhanNamiq  a  :Party ;
+        :has-names  "Ms Shokhan Namiq" .
+
+:MrDerekSpitz  a    :Lawyer ;
+        :has-names  "Mr Derek Spitz" .
+
+:ProspectiveAdopters  a  :Party ;
+        :has-names  "Prospective Adopters" .
+
+:2020EWHC3231Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/beckwith-v-solicitors-regulation-authority" ;
+        :has-court          :DivisionalCourt , :QueensBenchDivision , :EWHC ;
+        :has-filename       "2020_EWHC_3231_Admin.xml" ;
+        :has-handdown-date  "2020-11-27" ;
+        :has-hearing-date   "2020-10-20" ;
+        :has-judge          :ThePresidentOfTheQueensBenchDivision , :Mr.JusticeSwift ;
+        :has-lawyer         :AlisdairWilliamsonQc , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RielKarmy-jonesQc&RupertAllen> , :CapsticksSolicitors , :BrettWilsonLlp ;
+        :has-party          :SolicitorsRegulationAuthority , :RyanBeckwith .
+
+:LadyJusticeAndrews  a  :Judge ;
+        :has-names  "Lady Justice Andrews" .
+
+:JamesDixon  a      :Lawyer ;
+        :has-names  "James Dixon" .
+
+:KatarzynaWegrzyn  a  :Party ;
+        :has-names  "Katarzyna Wegrzyn" .
+
+:DwfLawLlp  a       :Lawyer ;
+        :has-names  "Dwf Law Llp" .
+
+:MsMonicaCarss-friskQc
+        a           :Lawyer ;
+        :has-names  "Ms Monica Carss-frisk Qc" .
+
+:BusinessList  a    owl:NamedIndividual , :SpecialistCivilJurisdiction ;
+        :has-names  "Business List (ChD)" ;
+        :part-of    :BusinessAndPropertyCourts .
+
+:HeatherWilliamsQc  a  :Lawyer ;
+        :has-names  "Heather Williams Qc" .
+
+:Mrs.JusticeNicolaDavies
+        a           :Judge ;
+        :has-names  "Mrs. Justice Nicola Davies" .
+
+:Smo    a           :Party ;
+        :has-names  "Smo" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HhAluminium&BuildingProductsLtd>
+        a           :Party ;
+        :has-names  "Hh Aluminium & Building Products Ltd" .
+
+:has-lawyer  a         owl:ObjectProperty ;
+        rdfs:domain    :CaseLaw ;
+        rdfs:range     :Lawyer ;
+        owl:inverseOf  :is-lawyer-of .
+
+:MichaelMansfieldQc  a  :Lawyer ;
+        :has-names  "Michael Mansfield Qc" .
+
+:MitsubishiElectricCorporation
+        a           :Party ;
+        :has-names  "Mitsubishi Electric Corporation" .
+
+:MoneythingCapitalLimited
+        a           :Party ;
+        :has-names  "Moneything Capital Limited" .
+
+:SashaWassQc  a     :Lawyer ;
+        :has-names  "Sasha Wass Qc" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Kirkland&EllisInternationalLlp>
+        a           :Lawyer ;
+        :has-names  "Kirkland & Ellis International Llp" .
+
+:JohnRandallQc  a   :Lawyer ;
+        :has-names  "John Randall Qc" .
+
+:2020EWCACiv1541  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/joanne-v-moneything" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1541.xml" ;
+        :has-handdown-date  "2020-11-19" ;
+        :has-hearing-date   "2020-11-11" ;
+        :has-judge          :LordJusticeLewison , :MrAnthonyMetzerQc , :LadyJusticeRose , :LordJusticeStuartSmith ;
+        :has-lawyer         :MrIainMacdonald , :MrRobinKingham , :DwfLawLlp , :BdbPitmansLlp ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Moneything(securityTrustee)Limited> , :MoneythingCapitalLimited , :JoannePropertiesLimited .
+
+:is-judge-of  a      owl:ObjectProperty ;
+        rdfs:domain  :Judge ;
+        rdfs:range   :CaseLaw .
+
+:MsMariaStanley  a  :Lawyer ;
+        :has-names  "Ms Maria Stanley" .
+
+:MichaelArmitage  a  :Lawyer ;
+        :has-names  "Michael Armitage" .
+
+:CarsonKayeSolicitors
+        a           :Lawyer ;
+        :has-names  "Carson Kaye Solicitors" .
+
+:GideonCohen  a     :Lawyer ;
+        :has-names  "Gideon Cohen" .
+
+:Gld    a           :Lawyer ;
+        :has-names  "Gld" .
+
+:Hfw    a           :Lawyer ;
+        :has-names  "Hfw" .
+
+:2019EWHC956QB  a           :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/dr-katherine-alexander-theodotou-others-v-georgios-kounis" ;
+        :has-court          :MediaAndCommunicationsList , :EWHC , :QueensBenchDivision ;
+        :has-filename       "2019_EWHC_956_QB.xml" ;
+        :has-handdown-date  "2019-04-16" ;
+        :has-hearing-date   "2019-03-22" ;
+        :has-judge          :MrJusticeWarby ;
+        :has-lawyer         :BarPublicAccess , :HighgateHillSolicitors , :JonathanPrice , :DrAntonVanDellen , :AnthonyMetzerQc ;
+        :has-party          :KAlexandrouTheodotouLlc , :GeorgiosKounis , :DrKatherineAlexander-theodotou , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HighgateHillSolicitors(aFirm)> .
+
+:DirectAccess  a    :Lawyer ;
+        :has-names  "Direct Access" .
+
+:2020EWHC1237QB  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/johnny-depp-v-news-group-newspapers" ;
+        :has-court          :EWHC , :QueensBenchDivision ;
+        :has-filename       "2020_EWHC_1237_QB.xml" ;
+        :has-handdown-date  "2020-05-18" ;
+        :has-hearing-date   "2020-05-13" ;
+        :has-judge          :MrJusticeNicol ;
+        :has-lawyer         :AdamWolanskiQc , :SchillingsLlp , :SimonsMuirheadAndBurtonLlp , :ClaraHamer , :SashaWassQc , :DavidSherborneKateWilson ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NewsGroupNewspapersLtd.> , :DanWootton , :JohnChristopherDeppIi .
+
+:CiaranKeller  a    :Lawyer ;
+        :has-names  "Ciaran Keller" .
+
+:BhattMurphy  a     :Lawyer ;
+        :has-names  "Bhatt Murphy" .
+
+:DavidAllisonQc  a  :Lawyer ;
+        :has-names  "David Allison Qc" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DawsongroupPlc&Others>
+        a           :Party ;
+        :has-names  "Dawsongroup Plc & Others" .
+
+:RobertPalmerQc  a  :Lawyer ;
+        :has-names  "Robert Palmer Qc" .
+
+:claimant-respondent  a  owl:NamedIndividual , :PartyRole ;
+        :has-names  "claimant / respondent --- claimant/ respondent  --- claimant /respondent ---  respondent / claimant --- respondent/ claimant --- respondent /claimant" .
+
+:2020EWCACiv1586  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/nikolaeva-v-london-borough-of-redbridge" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1586.xml" ;
+        :has-handdown-date  "2020-11-27" ;
+        :has-hearing-date   "2020-11-11" ;
+        :has-judge          :LadyJusticeAsplin , :LordJusticeLewis , :LordJusticeBean , :JudgeLubaQc ;
+        :has-lawyer         :LondonBoroughOfRedbridge , :MrMichaelMullinAndMissElizabethEngland , :MrBenChataway , :EdwardsDuthieShamashSolicitors ;
+        :has-party          :Nikolaeva , :LondonBoroughOfRedbridge .
+
+:RothJ  a           :Judge ;
+        :has-names  "Roth J" .
+
+:OplusMobiletechUkLimited
+        a           :Party ;
+        :has-names  "Oplus Mobiletech Uk Limited" .
+
+:WombleBondDickinsonLlp
+        a           :Lawyer ;
+        :has-names  "Womble Bond Dickinson Llp" .
+
+:OfficeOfCommunications
+        a           :Party ;
+        :has-names  "Office Of Communications" .
+
+:MrJusticeHolgate  a  :Judge ;
+        :has-names  "Mr Justice Holgate" .
+
+:2020EWCACiv1522  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/london-borough-of-bromley-v-broderick" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1522.xml" ;
+        :has-handdown-date  "2020-11-16" ;
+        :has-hearing-date   "2020-10-22" ;
+        :has-judge          :JudgeLambQc , :LordJusticeNewey , :LordJusticeBaker , :LordJusticeFlaux ;
+        :has-lawyer         :MrJonHolbrook , :MissSophieCaseley , :MrEdwardJ.Fitzpatrick , :LegalServicesLondonBoroughOfBromley , :DetonSolicitors ;
+        :has-party          :LondonBoroughOfBromley , :CelisaBroderick .
+
+:MsAnnaLintner  a   :Lawyer ;
+        :has-names  "Ms Anna Lintner" .
+
+:MrBenRayment  a    :Lawyer ;
+        :has-names  "Mr Ben Rayment" .
+
+:TomWilliams  a     :Lawyer ;
+        :has-names  "Tom Williams" .
+
+:MrRobertGrey  a    :Lawyer ;
+        :has-names  "Mr Robert Grey" .
+
+:PostOfficeLimited  a  :Party ;
+        :has-names  "Post Office Limited" .
+
+:HashimReza  a      :Lawyer ;
+        :has-names  "Hashim Reza" .
+
+:CzasPublishersLimited
+        a           :Party ;
+        :has-names  "Czas Publishers Limited" .
+
+:QualitysolicitorsAcklamBond
+        a           :Lawyer ;
+        :has-names  "Qualitysolicitors Acklam Bond" .
+
+:FhcoLimited  a     :Party ;
+        :has-names  "Fhco Limited" .
+
+:AnthonyGoldSolicitors
+        a           :Lawyer ;
+        :has-names  "Anthony Gold Solicitors" .
+
+:2020EWHC1253Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/lacatus-v-romanian-judicial-authority" ;
+        :has-court          :EWHC , :AdministrativeCourt , :QueensBenchDivision ;
+        :has-filename       "2020_EWHC_1253_Admin.xml" ;
+        :has-handdown-date  "2020-04-23" ;
+        :has-hearing-date   "2020-04-23" ;
+        :has-judge          :MrJusticeSwift ;
+        :has-lawyer         :AmSolicitors , :MrR.Barrett ;
+        :has-party          :NationalCrimeAgency , :RomanianJudicialAuthority , :IoanLacatus .
+
+:SecretaryOfStateForHealthAndSocialCare
+        a           :Party ;
+        :has-names  "Secretary Of State For Health And Social Care" .
+
+:MrJusticeJay  a    :Judge ;
+        :has-names  "Mr Justice Jay" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Hausfeld&Co.Llp>
+        a           :Lawyer ;
+        :has-names  "Hausfeld & Co. Llp" .
+
+:appellant  a       owl:NamedIndividual , :PartyRole ;
+        :has-names  "appellant" .
+
+:2020EWHC1258Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/wisniewski-v-polish-judicial-authority" ;
+        :has-court          :AdministrativeCourt , :EWHC , :QueensBenchDivision ;
+        :has-filename       "2020_EWHC_1258_Admin.xml" ;
+        :has-handdown-date  "2020-04-23" ;
+        :has-hearing-date   "2020-04-23" ;
+        :has-judge          :MrJusticeSwift ;
+        :has-lawyer         :MwSolicitors , :MrM.Hawkes ;
+        :has-party          :PolishJudicialAuthority , :Wisniewski .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NewsGroupNewspapersLtd.>
+        a           :Party ;
+        :has-names  "News Group Newspapers Ltd." .
+
+:DavidPlattQc  a    :Lawyer ;
+        :has-names  "David Platt Qc" .
+
+:MsZoeLeventhal  a  :Lawyer ;
+        :has-names  "Ms Zoe Leventhal" .
+
+:TomaszWegrzyn  a   :Party ;
+        :has-names  "Tomasz Wegrzyn" .
+
+:LordJusticeFlaux  a  :Judge ;
+        :has-names  "Lord Justice Flaux" .
+
+:SchillingsInternationalLlp
+        a           :Lawyer ;
+        :has-names  "Schillings International Llp" .
+
+:CheshireWestAndChesterCouncil
+        a           :Party , :Lawyer ;
+        :has-names  "Cheshire West And Chester Council" .
+
+:KAlexandrouTheodotouLlc
+        a           :Party ;
+        :has-names  "K Alexandrou Theodotou Llc" .
+
+:MrJusticeFancourt  a  :Judge ;
+        :has-names  "Mr Justice Fancourt" .
+
+:SimonBurnSolicitors  a  :Lawyer ;
+        :has-names  "Simon Burn Solicitors" .
+
+:SeddonsSolicitors  a  :Lawyer ;
+        :has-names  "Seddons Solicitors" .
+
+:MsSairaKabirSheikhQc
+        a           :Lawyer ;
+        :has-names  "Ms Saira Kabir Sheikh Qc" .
+
+:RiccardoCalzavara  a  :Lawyer ;
+        :has-names  "Riccardo Calzavara" .
+
+:RepublicOfIndia  a  :Party ;
+        :has-names  "Republic Of India" .
+
+:Ar     a           :Party ;
+        :has-names  "Ar" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TomDeLaMareQ.c.>
+        a           :Lawyer ;
+        :has-names  "Tom De La Mare Q.c." .
+
+:ZahraAl-rikabi  a  :Lawyer ;
+        :has-names  "Zahra Al-rikabi" .
+
+:QueensBenchDivision  a  owl:NamedIndividual , :Division ;
+        :has-names  "Queen’s Bench Division --- Queen's Bench Division --- Queen’s Bench Division  --- Queens Bench Division" ;
+        :part-of    :EWHC .
+
+:Cafcass  a         :Lawyer ;
+        :has-names  "Cafcass" .
+
+:JanePhillips  a    :Lawyer ;
+        :has-names  "Jane Phillips" .
+
+:Department  a           owl:Class ;
+        rdfs:subClassOf  :Organization .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheNationalHealthServiceLitigationAuthority(primaryCareAppealsService)>
+        a           :Party ;
+        :has-names  "The National Health Service Litigation Authority (primary Care Appeals Service)" .
+
+:JudgePellingQc  a  :Judge ;
+        :has-names  "Judge Pelling Qc" .
+
+:2020EWHC2580Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/london-historic-parks-v-sschlg" ;
+        :has-court          :QueensBenchDivision , :EWHC , :PlanningCourt ;
+        :has-filename       "2020_EWHC_2580_Admin.xml" ;
+        :has-handdown-date  "2020-10-02" ;
+        :has-hearing-date   "2020-09-09" , "2020-09-10" ;
+        :has-judge          :MrJusticeHolgate ;
+        :has-lawyer         :GovernmentLegalDepartment , :AnjoliFoster , :JohnHowellQc , :TimothyMouldQc , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RichardBuxtonEnvironmental&PublicLaw> , :MeyricLewis ;
+        :has-party          :SecretaryOfStateForHousingCommunitiesAndLocalGovernment , :LondonHistoricParksAndGardensTrust .
+
+:DeightonPierceGlynn  a  :Lawyer ;
+        :has-names  "Deighton Pierce Glynn" .
+
+:NickGrant  a       :Lawyer ;
+        :has-names  "Nick Grant" .
+
+:AnthonyMetzerQc  a  :Lawyer ;
+        :has-names  "Anthony Metzer Qc" .
+
+:OsbornesSolicitors  a  :Lawyer ;
+        :has-names  "Osbornes Solicitors" .
+
+:LondonBoroughOfSouthwark
+        a           :Party ;
+        :has-names  "London Borough Of Southwark" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SocieteDeDistributionNouvelleD’afrique(sodinaf)S.a.r.l.>
+        a           :Party ;
+        :has-names  "Societe De Distribution Nouvelle D’afrique (sodinaf) S.a.r.l." .
+
+:ChanceryDivision  a  owl:NamedIndividual , :Division ;
+        :has-names  "Chancery Division" ;
+        :part-of    :EWHC .
+
+:MrMartinWestgateQc  a  :Lawyer .
+
+:Jb     a           :Party ;
+        :has-names  "Jb" .
+
+:Party  a                owl:Class ;
+        rdfs:subClassOf  :LegalEntity ;
+        rdfs:subClassOf  [ a            owl:Class ;
+                           owl:unionOf  ( :Organization :Person )
+                         ] .
+
+:PatentsCourt  a    owl:NamedIndividual , :SpecialistCivilJurisdiction ;
+        :has-names  "Patents Court" ;
+        :part-of    :BusinessAndPropertyCourts .
+
+:VirginAtlanticAirwaysLimited
+        a           :Party ;
+        :has-names  "Virgin Atlantic Airways Limited" .
+
+:EdwardBrown  a     :Lawyer ;
+        :has-names  "Edward Brown" .
+
+:2020EWCACiv1604  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/strategic-tech-v-procurement-bureau" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1604.xml" ;
+        :has-handdown-date  "2020-11-30" ;
+        :has-hearing-date   "2020-11-10" ;
+        :has-judge          :LordJusticeMales , :LordJusticeDavidRichards , :LadyJusticeElisabethLaing , :MrsJusticeCarr ;
+        :has-lawyer         :DechertLlp , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AndrewOnslowQc&ClarissaJones> , :HashimReza , :BowerCottonHamiltonLlp ;
+        :has-party          :StrategicTechnologiesPteLtd , :ProcurementBureauOfTheRepublicOfChinaMinistryOfNationalDefence .
+
+:AntonyWhiteQc  a   :Lawyer ;
+        :has-names  "Antony White Qc" .
+
+:HodgeMalekQc  a    :Judge ;
+        :has-names  "Hodge Malek Qc" .
+
+:has-URL  a          owl:DatatypeProperty , owl:FunctionalProperty ;
+        rdfs:domain  :CaseLaw ;
+        rdfs:range   xsd:string .
+
+:TheTreasurySolicitor
+        a           :Lawyer ;
+        :has-names  "The Treasury Solicitor" .
+
+:VikramSachdevaQc  a  :Lawyer ;
+        :has-names  "Vikram Sachdeva Qc" .
+
+:MsJacquelineLean  a  :Lawyer ;
+        :has-names  "Ms Jacqueline Lean" .
+
+:RebeccaHolt  a     :Party ;
+        :has-names  "Rebecca Holt" .
+
+:SeniorCoronerForWestSussex
+        a           :Party ;
+        :has-names  "Senior Coroner For West Sussex" .
+
+:MrR.Barrett  a     :Lawyer ;
+        :has-names  "Mr R. Barrett" .
+
+:GrzegorzMalkiewicz  a  :Party ;
+        :has-names  "Grzegorz Malkiewicz" .
+
+:2020EWCACiv1516  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/morris-homes-ltd-v-cheshire-west-and-cheshire-council" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1516.xml" ;
+        :has-handdown-date  "2020-11-13" ;
+        :has-hearing-date   "2020-10-27" ;
+        :has-judge          :HhjPearce , :LordJusticeSingh , :LordJusticeBaker , :LadyJusticeSimler ;
+        :has-lawyer         :MrWilsonHorne , :MrJonathanWright , :CheshireWestAndChesterCouncil , :GateleyLegal ;
+        :has-party          :CheshireWestAndChesterCouncil , :MorrisHomesLimitedAndAnother .
+
+:2020EWCACiv1562  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/oneplus-v-mitsubishi" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1562.xml" ;
+        :has-handdown-date  "2020-11-19" ;
+        :has-hearing-date   "2020-11-05" ;
+        :has-judge          :LordJusticeMales , :SirAlastairNorris , :LordJusticeFloyd , :LordJusticeLewis ;
+        :has-lawyer         :DanielPiccinin , :MichaelConway , :TaylorWessingLlp , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Bird&BirdLlp> , :SarahAbram , :ColinWestQc , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Kirkland&EllisInternationalLlp> , :NicholasSaundersQc , :DanielAlexanderQc , :EvershedsSutherlandsLlp ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GuangdongOppoMobileTelecommunicationsCorp,Ltd> , :XiaomiCommunicationsCoLtd , :XiaomiInc , :SisvelInternationalSa , :OplusMobiletechUkLimited , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ReflectionInvestmentB.v.> , :XiaomiTechnologyUkLimited , :XiaomiTechnologyFranceSas , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#OneplusTechnology(shenzhen)Co.,Ltd> , :OppoMobileUkLtd , :MitsubishiElectricCorporation .
+
+:CountyCourtAtCentralLondon
+        a             owl:NamedIndividual , :CountyCourt ;
+        rdfs:comment  "The list of all County Court(s) is here:\n\nhttps://en.wikipedia.org/wiki/List_of_County_Court_venues_in_England_and_Wales" ;
+        :has-names    "County Court at Central London --- Central London County Court" .
+
+:JustinBates  a     :Lawyer ;
+        :has-names  "Justin Bates" .
+
+:BdbPitmansLlp  a   :Lawyer ;
+        :has-names  "Bdb Pitmans Llp" .
+
+:BlmLlp  a          :Lawyer ;
+        :has-names  "Blm Llp" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RichardBuxtonEnvironmental&PublicLaw>
+        a           :Lawyer ;
+        :has-names  "Richard Buxton Environmental & Public Law" .
+
+:BrowneJacobsonLlp  a  :Lawyer ;
+        :has-names  "Browne Jacobson Llp" .
+
+:hearing  a     owl:NamedIndividual , :EventType .
+
+:2020EWCACiv1751  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/r-day-v-shropshire-council" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1751.xml" ;
+        :has-handdown-date  "2020-12-23" ;
+        :has-hearing-date   "2020-11-04" ;
+        :has-judge          :LadyJusticeAndrews , :LordJusticeDavidRichards , :LordJusticeHickinbottom , :MrsJusticeLang ;
+        :has-lawyer         :ShropshireCouncilLegalAndDemocraticServices , :AlexGoodman , :KillianGarvey , :LeighDaySolicitors ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CseDevelopment(shropshire)Limited> , :ShropshireCouncil , :PeterDay , :ShrewsburyTownCouncil .
+
+:RobertTrigg  a     :Party ;
+        :has-names  "Robert Trigg" .
+
+:ClaraHamer  a      :Lawyer ;
+        :has-names  "Clara Hamer" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JasonCoppelQ.c.>
+        a           :Lawyer ;
+        :has-names  "Jason Coppel Q.c." .
+
+:RoyalMailGroupLimited
+        a           :Party ;
+        :has-names  "Royal Mail Group Limited" .
+
+:MrDavidCallow  a   :Lawyer ;
+        :has-names  "Mr David Callow" .
+
+:2020EWHC2813Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/skelton-v-hm-coroner-for-west-sussex" ;
+        :has-court          :QueensBenchDivision , :DivisionalCourt , :EWHC ;
+        :has-filename       "2020_EWHC_2813_Admin.xml" ;
+        :has-handdown-date  "2020-10-23" ;
+        :has-hearing-date   "2020-10-08" , "2020-10-06" ;
+        :has-judge          :LordJusticePopplewell , :MrJusticeJay ;
+        :has-lawyer         <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HodgeJones&AllenSolicitors> , :EmmaPrice , :Weightmans , :HeatherWilliamsQc , :WestSussexCountyCouncil , :JoanneLee , :BridgetDolanQc ;
+        :has-party          :MrPeterSkeltonAndMrsElizabethSkelton , :SeniorCoronerForWestSussex , :TheChiefConstableOfSussexPolice , :RobertTrigg .
+
+:ReedSmithLlp  a    :Lawyer ;
+        :has-names  "Reed Smith Llp" .
+
+:LordJusticeUnderhill
+        a           :Judge ;
+        :has-names  "Lord Justice Underhill" .
+
+:intervener  a      owl:NamedIndividual , :PartyRole ;
+        :has-names  "intervener" .
+
+:FryLaw  a          :Lawyer ;
+        :has-names  "Fry Law" .
+
+:MsAlexandraMarzec  a  :Lawyer ;
+        :has-names  "Ms Alexandra Marzec" .
+
+:NasimHussain  a    :Party ;
+        :has-names  "Nasim Hussain" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BeijingBytedanceTechnologyCo.,Ltd>
+        a           :Party ;
+        :has-names  "Beijing Bytedance Technology Co., Ltd" .
+
+:CriminalDivision  a  owl:NamedIndividual , :Division ;
+        :has-names  "Criminal Division" ;
+        :part-of    :EWCA .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAndrewRicketts(valuationOfficer)>
+        a           :Party ;
+        :has-names  "Mr Andrew Ricketts (valuation Officer)" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HighgateHillSolicitors(aFirm)>
+        a           :Party ;
+        :has-names  "Highgate Hill Solicitors (a Firm)" .
+
+:FarinaHussain  a   :Party ;
+        :has-names  "Farina Hussain" .
+
+:DechertLlp  a      :Lawyer ;
+        :has-names  "Dechert Llp" .
+
+:LordJusticeArnold  a  :Judge ;
+        :has-names  "Lord Justice Arnold" .
+
+:MrStephenDaviesQc  a  :Lawyer ;
+        :has-names  "Mr Stephen Davies Qc" .
+
+:WeightmansLlp  a   :Lawyer ;
+        :has-names  "Weightmans Llp" .
+
+:HarryMiller  a     :Party ;
+        :has-names  "Harry Miller" .
+
+:TheWelshLanguageCommissioner
+        a           :Party ;
+        :has-names  "The Welsh Language Commissioner" .
+
+:Mp     a           :Party ;
+        :has-names  "Mp" .
+
+:MrDanielBeardQc  a  :Lawyer ;
+        :has-names  "Mr Daniel Beard Qc" .
+
+:SchillingsLlp  a   :Lawyer ;
+        :has-names  "Schillings Llp" .
+
+:MrKarwanMohammedAli  a  :Party ;
+        :has-names  "Mr Karwan Mohammed Ali" .
+
+:2021EWCACiv2  a            :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/ikram-v-sshgl" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2021_EWCA_Civ_2.xml" ;
+        :has-handdown-date  "2021-01-06" ;
+        :has-hearing-date   "2020-12-02" , "2020-12-01" ;
+        :has-judge          :LordJusticeSingh , :LordJusticeNugee , :MrsJusticeLang , :LadyJusticeAndrewsDbe ;
+        :has-lawyer         :MrCharlesStreeten , :MrRobertWilliams , :GovernmentLegalDepartment , :RichardBuxtonSolicitors , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JamesSmith(planningLawServices)Ltd> , :MsSairaKabirSheikhQc ;
+        :has-party          :SayedVeqarHussain , :LondonBoroughOfBrent , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SecretaryOfStateForHousing,CommunitiesAndLocalGovernment> , :BubalMuradCentre , :KhalidIkram , :TrusteesOfTheCharityKnownAsIslamicLink .
+
+:JoanneLee  a       :Lawyer ;
+        :has-names  "Joanne Lee" .
+
+:AndrewThompsonQc  a  :Lawyer ;
+        :has-names  "Andrew Thompson Qc" .
+
+:MrJusticeGoose  a  :Judge ;
+        :has-names  "Mr Justice Goose" .
+
+:MrJusticeCohen  a  :Judge ;
+        :has-names  "Mr Justice Cohen" .
+
+:DetonSolicitors  a  :Lawyer ;
+        :has-names  "Deton Solicitors" .
+
+:JonathanAuburn  a  :Lawyer ;
+        :has-names  "Jonathan Auburn" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Watkins&Gunn>
+        a           :Lawyer ;
+        :has-names  "Watkins & Gunn" .
+
+:Cps    a           :Lawyer ;
+        :has-names  "Cps" .
+
+:TomCross  a        :Lawyer ;
+        :has-names  "Tom Cross" .
+
+:SayedVeqarHussain  a  :Party ;
+        :has-names  "Sayed Veqar Hussain" .
+
+:JoeEganSolicitors  a  :Lawyer ;
+        :has-names  "Joe Egan Solicitors" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Allen&OveryLlp>
+        a           :Lawyer ;
+        :has-names  "Allen & Overy Llp" .
+
+:has-court  a        owl:ObjectProperty ;
+        rdfs:domain  :CaseLaw ;
+        rdfs:range   :Court .
+
+:BevanBrittanLlp  a  :Lawyer ;
+        :has-names  "Bevan Brittan Llp" .
+
+:2020EWHC3457QB  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/scott-v-downey" ;
+        :has-court          :EWHC , :QueensBenchDivision ;
+        :has-filename       "2020_EWHC_3457_QB.xml" ;
+        :has-handdown-date  "2020-12-16" ;
+        :has-hearing-date   "2020-12-02" , "2020-12-03" ;
+        :has-judge          :MrJusticeMartinSpencer ;
+        :has-lawyer         <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Mccue&PartnersLlp> , :MissAnneStuddQc ;
+        :has-party          :JohnAnthonyDowney , :SarahJaneYoung .
+
+:EWHC   a           owl:NamedIndividual , :SeniorCourtOfEnglandAndWales ;
+        :has-names  "High Court of Justice --- High Court" .
+
+:MartinRedston  a   :Party ;
+        :has-names  "Martin Redston" .
+
+:CameronsSolicitorsLlp
+        a           :Lawyer ;
+        :has-names  "Camerons Solicitors Llp" .
+
+:TheSecretaryOfStateForTheHomeDepartment
+        a           :Party ;
+        :has-names  "The Secretary Of State For The Home Department" .
+
+:TheSecretaryOfStateForHealth
+        a           :Party ;
+        :has-names  "The Secretary Of State For Health" .
+
+:Organization  a          owl:Class ;
+        rdfs:subClassOf   :LegalEntity ;
+        owl:disjointWith  :Person .
+
+:LadyJusticeElisabethLaing
+        a           :Judge ;
+        :has-names  "Lady Justice Elisabeth Laing" .
+
+:MrMichaelHorton  a  :Lawyer ;
+        :has-names  "Mr Michael Horton" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ReflectionInvestmentB.v.>
+        a           :Party ;
+        :has-names  "Reflection Investment B.v." .
+
+:receiver  a        owl:NamedIndividual , :PartyRole ;
+        :has-names  "receiver" .
+
+:SimonDolan  a      :Party ;
+        :has-names  "Simon Dolan" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AndrewOnslowQc&ClarissaJones>
+        a           :Lawyer ;
+        :has-names  "Andrew Onslow Qc & Clarissa Jones" .
+
+:TheBoardOfThePensionProtectionFund
+        a           :Party ;
+        :has-names  "The Board Of The Pension Protection Fund" .
+
+:UkTheatreAssociation
+        a           :Party ;
+        :has-names  "Uk Theatre Association" .
+
+:LadyJusticeKing  a  :Judge ;
+        :has-names  "Lady Justice King" .
+
+:Lawyer  a               owl:Class ;
+        rdfs:subClassOf  :LegalEntity ;
+        rdfs:subClassOf  [ a            owl:Class ;
+                           owl:unionOf  ( :LawFirm :LegalDepartment :Person )
+                         ] .
+
+:SlaughterAndMay  a  :Lawyer ;
+        :has-names  "Slaughter And May" .
+
+:SirAlastairNorris  a  :Judge ;
+        :has-names  "Sir Alastair Norris" .
+
+:appellant-claimant  a  owl:NamedIndividual , :PartyRole ;
+        :has-names  "appellant / claimant --- appellant/ claimant  --- appellant /claimant --- claimant / appellant --- claimant/ appellant --- claimant /appellant" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JohnMccaughranQc&JoyceArnold>
+        a           :Lawyer ;
+        :has-names  "John Mccaughran Qc & Joyce Arnold" .
+
+:IoanLacatus  a     :Party ;
+        :has-names  "Ioan Lacatus" .
+
+:2020EWHC2376Ch  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/in-the-matter-of-virgin-atlantic-airways-limited" ;
+        :has-court          :EWHC , :BusinessAndPropertyCourts , :CompaniesCourt ;
+        :has-filename       "2020_EWHC_2376_Ch.xml" ;
+        :has-handdown-date  "2020-09-04" ;
+        :has-hearing-date   "2020-09-02" ;
+        :has-judge          :MrJusticeSnowden ;
+        :has-lawyer         :DavidAllisonQc , :LottiePyper , :RyanPerkins , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Allen&OveryLLP> ;
+        :has-party          :VirginAtlanticAirwaysLimited .
+
+:MrsJusticeLievenDbe  a  :Judge ;
+        :has-names  "Mrs Justice Lieven Dbe" .
+
+:DrAntonVanDellen  a  :Lawyer ;
+        :has-names  "Dr Anton Van Dellen" .
+
+:ChristopherKnight  a  :Lawyer ;
+        :has-names  "Christopher Knight" .
+
+:Bti2014Llc  a      :Party ;
+        :has-names  "Bti 2014 Llc" .
+
+:subDivision  a          owl:Class ;
+        rdfs:subClassOf  :Court .
+
+:Mr.RalphMorley  a  :Lawyer ;
+        :has-names  "Mr. Ralph Morley" .
+
+:RoyalOperaHouseCoventGardenFoundation
+        a           :Party ;
+        :has-names  "Royal Opera House Covent Garden Foundation" .
+
+:is-lawyer-of  a     owl:ObjectProperty ;
+        rdfs:domain  :Lawyer ;
+        rdfs:range   :CaseLaw .
+
+:MrNeilDavy  a      :Lawyer ;
+        :has-names  "Mr Neil Davy" .
+
+:RyanPerkins  a     :Lawyer ;
+        :has-names  "Ryan Perkins" .
+
+:AndrewCaldecottQc  a  :Lawyer ;
+        :has-names  "Andrew Caldecott Qc" .
+
+:MrRhodriWilliamsQc  a  :Lawyer ;
+        :has-names  "Mr Rhodri Williams Qc" .
+
+:TiktokInformationTechnologiesLimited
+        a           :Party ;
+        :has-names  "Tiktok Information Technologies Limited" .
+
+:MrJusticeMostyn  a  :Judge ;
+        :has-names  "Mr Justice Mostyn" .
+
+:CountyCourtAtBristol
+        a           owl:NamedIndividual , :CountyCourt ;
+        :has-names  "County Court At Bristol" .
+
+:XiaomiCommunicationsCoLtd
+        a           :Party ;
+        :has-names  "Xiaomi Communications Co Ltd" .
+
+:AmSolicitors  a    :Lawyer ;
+        :has-names  "Am Solicitors" .
+
+:claimant  a        owl:NamedIndividual , :PartyRole ;
+        :has-names  "claimant" .
+
+:2020EWCACiv1583  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/oneill-v-holland" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1583.xml" ;
+        :has-handdown-date  "2020-11-27" ;
+        :has-hearing-date   "2020-10-20" ;
+        :has-judge          :JudgePellingQc , :LordJusticeHenderson , :LordJusticeDavidRichards , :LordJusticeNugee ;
+        :has-lawyer         :MrMichaelHorton , :MrSimonCharles , :JoeEganSolicitors , :MrLeslieBlohmQc ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NatalieO’neill> , :ShaunHolland .
+
+:ShellUkLimited  a  :Party ;
+        :has-names  "Shell Uk Limited" .
+
+:LandsChamber  a    owl:NamedIndividual , :Division ;
+        :has-names  "Lands Chamber" ;
+        :part-of    :UpperTribunal .
+
+:UKSC   a           owl:NamedIndividual , :Court ;
+        :has-names  "Supreme Court" .
+
+:LordJusticeBaker  a  :Judge ;
+        :has-names  "Lord Justice Baker" .
+
+:2020EWCACiv1772  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/jb-v-university-hospitals-plymouth-nhs-trust" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1772.xml" ;
+        :has-handdown-date  "2020-12-23" ;
+        :has-hearing-date   "2020-12-23" ;
+        :has-judge          :MrJusticeCohen , :LordJusticePeterJackson , :LadyJusticeKing ;
+        :has-lawyer         :DavidLockQc , :CameronsSolicitorsLlp , :BevanBrittanLlp , :VikramSachdevaQc , :OfficialSolicitor , :BrunoQuintavalle , :AndrewHockton ;
+        :has-party          :Jb , :UniversityHospitalsPlymouthNhsTrust , :Ss .
+
+:JessicaPowers  a   :Lawyer ;
+        :has-names  "Jessica Powers" .
+
+:LordJusticeSingh  a  :Judge ;
+        :has-names  "Lord Justice Singh" .
+
+:HrhTheDuchessOfSussex
+        a           :Party ;
+        :has-names  "Hrh The Duchess Of Sussex" .
+
+:Nikolaeva  a       :Party ;
+        :has-names  "Nikolaeva" .
+
+:HillDickinsonLlp  a  :Lawyer ;
+        :has-names  "Hill Dickinson Llp" .
+
+:2020EWHC2867Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/ig-v-secretary-of-state-for-the-home-department" ;
+        :has-court          :QueensBenchDivision , :EWHC , :AdministrativeCourt ;
+        :has-filename       "2020_EWHC_2867_Admin.xml" ;
+        :has-handdown-date  "2020-10-28" ;
+        :has-hearing-date   "2020-03-03" ;
+        :has-judge          :MrJusticeSwift ;
+        :has-lawyer         :AngusMcculloughQc , :MartinGoudieQc , :BhattMurphy , :StephanieHarrisonQc , :EdwardGrieves , :GovernmentLegalDepartment , :StevenGray ;
+        :has-party          :TheSecretaryOfStateForTheHomeDepartment , :Ig , :Ar , :TheSpecialImmigrationAppealsCommission .
+
+:JudgeFinch  a      :Judge ;
+        :has-names  "Judge Finch" .
+
+:MorrisJ  a         :Judge ;
+        :has-names  "Morris J" .
+
+:has-hearing-date  a  owl:DatatypeProperty ;
+        rdfs:domain  :CaseLaw ;
+        rdfs:range   xsd:string .
+
+:JonathanClarke  a  :Lawyer ;
+        :has-names  "Jonathan Clarke" .
+
+:TheChiefConstableOfSussexPolice
+        a           :Party ;
+        :has-names  "The Chief Constable Of Sussex Police" .
+
+:NationalHealthServiceCommissioningBoard
+        a           :Party ;
+        :has-names  "National Health Service Commissioning Board" .
+
+:MrAndrewSutcliffeQc  a  :Lawyer ;
+        :has-names  "Mr Andrew Sutcliffe Qc" .
+
+:LordJusticeMoylan  a  :Judge ;
+        :has-names  "Lord Justice Moylan" .
+
+:LordJusticeNugee  a  :Judge ;
+        :has-names  "Lord Justice Nugee" .
+
+:TaylorWessingLlp  a  :Lawyer ;
+        :has-names  "Taylor Wessing Llp" .
+
+:WedlakeBell  a     :Lawyer ;
+        :has-names  "Wedlake Bell" .
+
+:AndrewHockton  a   :Lawyer ;
+        :has-names  "Andrew Hockton" .
+
+:Anne-marieDriver  a  :Party ;
+        :has-names  "Anne-marie Driver" .
+
+:FreethsLlp  a      :Lawyer ;
+        :has-names  "Freeths Llp" .
+
+:Role   a       owl:Class .
+
+:PaulHughes  a      :Party ;
+        :has-names  "Paul Hughes" .
+
+:applicant-respondent
+        a           owl:NamedIndividual , :PartyRole ;
+        :has-names  "respondent / applicant --- respondent/ applicant --- respondent /applicant --- applicant / respondent --- applicant/ respondent --- applicant /respondent" .
+
+:LegalServicesLbOfSouthwark
+        a           :Lawyer ;
+        :has-names  "Legal Services Lb Of Southwark" .
+
+:post_hearing_submission
+        a       owl:NamedIndividual , :EventType .
+
+[ a            owl:AllDisjointClasses ;
+  owl:members  ( :CaseLaw :EventType :LegalEntity :LocationType :Role )
+] .
+
+:2020EWCACiv1564  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/r-vip-communications-v-secretary-of-state-for-the-home-department" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1564.xml" ;
+        :has-handdown-date  "2020-11-20" ;
+        :has-hearing-date   "2020-10-15" ;
+        :has-judge          :LordJusticeFlaux , :LordJusticeUnderhill , :MorrisJ , :LadyJusticeMacur ;
+        :has-lawyer         :JamesSeganQc , :ImogenProud , :MichaelArmitage , :MaddoxLegalLtd , :TheTreasurySolicitor , :DanielBeardQc ;
+        :has-party          :TheSecretaryOfStateForTheHomeDepartment , :OfficeOfCommunications , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VipCommunicationsLimited(inLiquidation))> .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheQueen(onTheApplicationOfArticle39)>
+        a           :Party ;
+        :has-names  "The Queen (on The Application Of Article 39)" .
+
+:2019EWCACiv711  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/christopher-goldscheider-v-royal-opera-house-covent-garden-foundation" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2019_EWCA_Civ_711.xml" ;
+        :has-handdown-date  "2019-04-17" ;
+        :has-hearing-date   "2019-03-20" , "2019-03-19" ;
+        :has-judge          :LordJusticeMccombe , :SirBrianLeveson , :LordJusticeBean , :Mrs.JusticeNicolaDavies ;
+        :has-lawyer         :PatrickLimbQc , :AlexanderMacpherson , :FryLaw , :BlmLlp , :KamJaspal , :DavidPlattQc , :JonathanClarke , :TheodoreHuckleQc , :Weightmans ;
+        :has-party          :AssociationOfBritishOrchestras , :ChristopherGoldscheider , :SocietyOfLondonTheatre , :UkTheatreAssociation , :RoyalOperaHouseCoventGardenFoundation .
+
+:CharlesCiumeiQcandheLenMorton
+        a           :Lawyer ;
+        :has-names  "Charles Ciumei Qcandhe Len Morton" .
+
+:PatrickHalliday  a  :Lawyer ;
+        :has-names  "Patrick Halliday" .
+
+:AdoptersRuthCabeza  a  :Lawyer ;
+        :has-names  "Adopters Ruth Cabeza" .
+
+:2021EWCACiv9  a            :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/bti-v-pwc" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2021_EWCA_Civ_9.xml" ;
+        :has-handdown-date  "2021-01-11" ;
+        :has-hearing-date   "2020-10-28" , "2020-10-27" ;
+        :has-judge          :MrJusticeFancourt , :LordJusticeCoulson , :LordJusticeFlaux , :LordJusticeHenderson ;
+        :has-lawyer         :AndrewThompsonQc , :SimonSalzedoQc , :TonySingha , :ZahraAl-rikabi , :CiaranKeller , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Debevoise&PlimptonLlp> , :ReedSmithLlp ;
+        :has-party          :PricewaterhousecoopersLlp , :Bti2014Llc .
+
+:JohnAnthonyDowney  a  :Party ;
+        :has-names  "John Anthony Downey" .
+
+:MsDaisyBrown  a    :Lawyer ;
+        :has-names  "Ms Daisy Brown" .
+
+:KhatijaHafesji  a  :Lawyer ;
+        :has-names  "Khatija Hafesji" .
+
+:WalkersSolicitors  a  :Lawyer ;
+        :has-names  "Walkers Solicitors" .
+
+:2020EWHC2830Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/podolak-v-polish-judicial-authority" ;
+        :has-court          :QueensBenchDivision , :EWHC , :AdministrativeCourt ;
+        :has-filename       "2020_EWHC_2830_Admin.xml" ;
+        :has-handdown-date  "2020-09-08" ;
+        :has-hearing-date   "2020-09-08" ;
+        :has-judge          :MrJusticeSwift ;
+        :has-lawyer         :SaoirseTownshend , :GeorgeHepburneScott , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Bark&Co> , :Cps ;
+        :has-party          :PolishJudicialAuthority , :Podolak .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology>
+        a       owl:Ontology .
+
+:LudgateHouseLimited  a  :Party ;
+        :has-names  "Ludgate House Limited" .
+
+:barrister  a   owl:NamedIndividual , :LawyerRole .
+
+:AshleyUnderwoodQc  a  :Lawyer ;
+        :has-names  "Ashley Underwood Qc" .
+
+:DahliaGriffith  a  :Party ;
+        :has-names  "Dahlia Griffith" .
+
+:PricewaterhousecoopersLlp
+        a           :Party ;
+        :has-names  "Pricewaterhousecoopers Llp" .
+
+:DelaraBegum  a     :Party ;
+        :has-names  "Delara Begum" .
+
+:2020EWCACiv2349  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/british-gas-trading-v-shell-uk-ltd" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_2349.xml" ;
+        :has-handdown-date  "2020-12-04" ;
+        :has-hearing-date   "2020-10-28" , "2020-10-27" ;
+        :has-judge          :LadyJusticeAndrews , :LordJusticeMales , :MrLionelPerseyQc , :LordJusticePeterJackson ;
+        :has-lawyer         :CliffordChanceLlp , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MichaelBoolsQc&TomPascoe> , :HoganLovellsInternationalLlp , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JohnMccaughranQc&JoyceArnold> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DavidWolfsonQc&DouglasPaine> , :HerbertSmithFreehillsLlp ;
+        :has-party          :ShellUkLimited , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EssoExploration&ProductionUkLimited> , :BritishGasTradingLimited .
+
+:Mr.JusticeSwift  a  :Judge ;
+        :has-names  "Mr. Justice Swift" .
+
+:FreshfieldsBruckhausDeringerLlp
+        a           :Lawyer ;
+        :has-names  "Freshfields Bruckhaus Deringer Llp" .
+
+:defendant-respondent
+        a           owl:NamedIndividual , :PartyRole ;
+        :has-names  "defendant / respondent --- defendant/ respondent --- defendant /respondent --- respondent / defendant --- respondent/ defendant --- respondent /defendant ---\n\n\ndefendants / respondents --- defendants/ respondents --- defendants /respondents --- respondents / defendants --- respondents/ defendants --- respondents /defendants" .
+
+:LadyJusticeNicolaDavies
+        a           :Judge ;
+        :has-names  "Lady Justice Nicola Davies" .
+
+:Sinclairslaw  a    :Lawyer ;
+        :has-names  "Sinclairslaw" .
+
+:20-20TrusteesServicesLimited
+        a           :Party ;
+        :has-names  "20-20 Trustees Services Limited" .
+
+:2020EWCACiv1601  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/dray-simpson-v-cantor-fitzgerald-europe" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1601.xml" ;
+        :has-handdown-date  "2020-11-27" ;
+        :has-hearing-date   "2020-11-05" ;
+        :has-judge          :LadyJusticeRose , :LordJusticeHenderson , :MrJusticeChoudhury , :LordJusticeBean ;
+        :has-lawyer         :Clintons , :CantorFitzgeraldEuropeLegalDepartment , :DavidReadeQc , :AliceMayhew ;
+        :has-party          :CantorFitzgeraldEurope , :DraySimpson .
+
+:ThePresidentOfTheQueensBenchDivision
+        a           :Judge ;
+        :has-names  "The President Of The Queen’s Bench Division" .
+
+:Judge  a                owl:Class ;
+        rdfs:subClassOf  :Person .
+
+:PeterDay  a        :Party ;
+        :has-names  "Peter Day" .
+
+:BrunoQuintavalle  a  :Lawyer ;
+        :has-names  "Bruno Quintavalle" .
+
+:MrJonathanWright  a  :Lawyer ;
+        :has-names  "Mr Jonathan Wright" .
+
+:applicant  a       owl:NamedIndividual , :PartyRole ;
+        :has-names  "applicant" .
+
+:2020EWCACiv1577  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/r-article-39-v-secretary-of-state-for-education" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1577.xml" ;
+        :has-handdown-date  "2020-11-24" ;
+        :has-hearing-date   "2020-09-04" ;
+        :has-judge          :LordJusticeHenderson , :MrsJusticeLievenDbe , :LordJusticeUnderhill , :LordJusticeBaker ;
+        :has-lawyer         :IrwinMitchellLlp , :StephenBroach , :JenniRichardsQc , :AdmasHabteslasie , :GovernmentLegalDepartment , :KhatijaHafesji , :CliveSheldonQc ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheQueen(onTheApplicationOfArticle39)> , :SecretaryOfStateForEducation .
+
+:SarahHelenBell  a  :Party ;
+        :has-names  "Sarah Helen Bell" .
+
+:has-party  a          owl:ObjectProperty ;
+        rdfs:domain    :CaseLaw ;
+        rdfs:range     :Party ;
+        owl:inverseOf  :is-party-of .
+
+:JasonCoppelQc  a   :Lawyer ;
+        :has-names  "Jason Coppel Qc" .
+
+:SolicitorsRegulationAuthority
+        a           :Party ;
+        :has-names  "Solicitors Regulation Authority" .
+
+:SirJamesEadieQc  a  :Lawyer ;
+        :has-names  "Sir James Eadie Qc" .
+
+:SonaliNaikQc  a    :Lawyer ;
+        :has-names  "Sonali Naik Qc" .
+
+:2020EWCACiv1591  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/prospective-adopters-v-sheffield" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1591.xml" ;
+        :has-handdown-date  "2020-11-26" ;
+        :has-hearing-date   "2020-11-19" ;
+        :has-judge          :LordJusticeBaker , :LordJusticeLewis , :LordJusticePeterJackson , :MrJusticeMostyn ;
+        :has-lawyer         :TomWilson , :SheffieldCityCouncil , :DeirdreFottrellQc , :AdoptersRuthCabeza , :GoodmanRayLlp ;
+        :has-party          :SheffieldCityCouncil , :ProspectiveAdopters .
+
+:SecretaryOfStateForWorkAndPensions
+        a           :Party ;
+        :has-names  "Secretary Of State For Work And Pensions" .
+
+:MrBenLask  a       :Lawyer ;
+        :has-names  "Mr Ben Lask" .
+
+:DirectorOfPublicProsecutions
+        a           :Party ;
+        :has-names  "Director Of Public Prosecutions" .
+
+:SimonLowes  a      :Party ;
+        :has-names  "Simon Lowes" .
+
+:XiaomiInc  a       :Party ;
+        :has-names  "Xiaomi Inc" .
+
+:LawFirm  a              owl:Class ;
+        rdfs:subClassOf  :Company .
+
+:XiaomiTechnologyUkLimited
+        a           :Party ;
+        :has-names  "Xiaomi Technology Uk Limited" .
+
+:SafaazSolicitors  a  :Lawyer ;
+        :has-names  "Safaaz Solicitors" .
+
+:MrMatthewKennedy  a  :Lawyer ;
+        :has-names  "Mr Matthew Kennedy" .
+
+:MartinGoudieQc  a  :Lawyer ;
+        :has-names  "Martin Goudie Qc" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HodgeJones&AllenSolicitors>
+        a           :Lawyer ;
+        :has-names  "Hodge Jones & Allen Solicitors" .
+
+:MrEdwardJ.Fitzpatrick
+        a           :Lawyer ;
+        :has-names  "Mr Edward J. Fitzpatrick" .
+
+:CelisaBroderick  a  :Party ;
+        :has-names  "Celisa Broderick" .
+
+:LewisJ  a          :Judge ;
+        :has-names  "Lewis J" .
+
+:MarkWestmorelandSmith
+        a           :Lawyer ;
+        :has-names  "Mark Westmoreland Smith" .
+
+:Person  a               owl:Class ;
+        rdfs:subClassOf  :LegalEntity .
+
+:ShuShinLuh  a      :Lawyer ;
+        :has-names  "Shu Shin Luh" .
+
+:LordJusticeHickinbottom
+        a           :Judge ;
+        :has-names  "Lord Justice Hickinbottom" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Mccue&PartnersLlp>
+        a           :Lawyer ;
+        :has-names  "Mccue & Partners Llp" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NatalieO’neill>
+        a           :Party ;
+        :has-names  "Natalie O’neill" .
+
+:AlexUstych  a      :Lawyer ;
+        :has-names  "Alex Ustych" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Kb(jamaica)>
+        a           :Party ;
+        :has-names  "Kb (jamaica)" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Preiskel&Co>
+        a           :Lawyer ;
+        :has-names  "Preiskel & Co" .
+
+:MorrisHomesLimitedAndAnother
+        a           :Party ;
+        :has-names  "Morris Homes Limited And Another" .
+
+:AndrewShipley  a   :Lawyer ;
+        :has-names  "Andrew Shipley" .
+
+:StephenBroach  a   :Lawyer ;
+        :has-names  "Stephen Broach" .
+
+:MsAlexandraLittlewood
+        a           :Lawyer ;
+        :has-names  "Ms Alexandra Littlewood" .
+
+:UniversityHospitalsPlymouthNhsTrust
+        a           :Party ;
+        :has-names  "University Hospitals Plymouth Nhs Trust" .
+
+:BusinessAndPropertyCourts
+        a           owl:NamedIndividual , :Division ;
+        :has-names  "Business and Property Courts of England and Wales --- Business & Property Courts of England and Wales --- Business and Property Courts --- Business & Property Courts" ;
+        :part-of    :EWHC .
+
+:claimant-in-the-claim
+        a           owl:NamedIndividual , :PartyRole ;
+        :has-names  "claimant in the claim" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QuinnEmanuelUrquhart&SullivanUkLlp>
+        a           :Lawyer ;
+        :has-names  "Quinn Emanuel Urquhart & Sullivan Uk Llp" .
+
+:LordJusticeMales  a  :Judge ;
+        :has-names  "Lord Justice Males" .
+
+:JudgeLambQc  a     :Judge ;
+        :has-names  "Judge Lamb Qc" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RielKarmy-jonesQc&RupertAllen>
+        a           :Lawyer ;
+        :has-names  "Riel Karmy-jones Qc & Rupert Allen" .
+
+:defendant  a       owl:NamedIndividual , :PartyRole ;
+        :has-names  "defendant" .
+
+:PlanningCourt  a   owl:NamedIndividual , :subDivision ;
+        :has-names  "Planning Court" ;
+        :part-of    :QueensBenchDivision .
+
+:ColinWestQc  a     :Lawyer ;
+        :has-names  "Colin West Qc" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Scott+scottUkLlp>
+        a           :Lawyer ;
+        :has-names  "Scott+scott Uk Llp" .
+
+:PeterRobertHouse  a  :Party ;
+        :has-names  "Peter Robert House" .
+
+:TheChiefConstableOfHumberside
+        a           :Party ;
+        :has-names  "The Chief Constable Of Humberside" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CseDevelopment(shropshire)Limited>
+        a           :Party ;
+        :has-names  "Cse Development (shropshire) Limited" .
+
+:CapsticksSolicitors  a  :Lawyer ;
+        :has-names  "Capsticks Solicitors" .
+
+:RichardFurlong  a  :Lawyer ;
+        :has-names  "Richard Furlong" .
+
+:KillianGarvey  a   :Lawyer ;
+        :has-names  "Killian Garvey" .
+
+:LocationType  a  owl:Class .
+
+:2020EWHC2160Ch  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/hrh-the-duchess-of-sussex-v-associated-newspapers-2" ;
+        :has-court          :EWHC , :IntellectualPropertyList , :BusinessAndPropertyCourts ;
+        :has-filename       "2020_EWHC_2160_Ch.xml" ;
+        :has-handdown-date  "2020-08-05" ;
+        :has-hearing-date   "2020-07-29" ;
+        :has-judge          :MrJusticeWarby ;
+        :has-lawyer         :JustinRushbrookeQc , :AlexandraMarzec , :ReynoldsPorterChamberlainLlp , :SchillingsInternationalLlp , :JanePhillips , :AntonyWhiteQc ;
+        :has-party          :AssociatedNewspapersLimited , :HrhTheDuchessOfSussex .
+
+:2020EWHC3265Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/republic-of-india-v-singh" ;
+        :has-court          :QueensBenchDivision , :AdministrativeCourt , :EWHC ;
+        :has-filename       "2020_EWHC_3265_Admin.xml" ;
+        :has-handdown-date  "2020-09-14" ;
+        :has-hearing-date   "2020-09-14" ;
+        :has-judge          :MrJusticeSwift ;
+        :has-lawyer         :DaltonHolmesGray , :Cps , :Mr.NicholasHearn , :MrJoelSmith ;
+        :has-party          :Singh , :RepublicOfIndia .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HerMajesty'sAttorneyGeneral>
+        a           :Party ;
+        :has-names  "Her Majesty's Attorney General" .
+
+:StephenYaxley-lennon
+        a           :Party ;
+        :has-names  "Stephen Yaxley-lennon" .
+
+:MrJusticeSwift  a  :Judge ;
+        :has-names  "Mr Justice Swift" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RyderLimited&Another>
+        a           :Party ;
+        :has-names  "Ryder Limited & Another" .
+
+:DavidCavenderQc  a  :Lawyer ;
+        :has-names  "David Cavender Qc" .
+
+:JackAnderson  a    :Lawyer ;
+        :has-names  "Jack Anderson" .
+
+:2019EWCACiv852  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/jan-tomasz-serafin-v-grzegorz-malkiewicz-and-others" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2019_EWCA_Civ_852.xml" ;
+        :has-handdown-date  "2019-05-17" ;
+        :has-hearing-date   "2019-03-05" ;
+        :has-judge          :MrJusticeJay , :LordJusticeLewison , :LordJusticeMccombe , :LordJusticeHaddon-cave ;
+        :has-lawyer         :SimonBurnSolicitors , :MrAnthonyMetzerQc , :DrAntonVanDellen , :DirectAccess , :MsAlexandraMarzec ;
+        :has-party          :CzasPublishersLimited , :GrzegorzMalkiewicz , :JanTomaszSerafin , :TeresaBazarnik-malkiewicz .
+
+:MrMichaelMullinAndMissElizabethEngland
+        a           :Lawyer ;
+        :has-names  "Mr Michael Mullin And Miss Elizabeth England" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PaulWilliams(asJointTrusteesInBankruptcyOfNicolaJaneIde)>
+        a           :Party ;
+        :has-names  "Paul Williams (as Joint Trustees In Bankruptcy Of Nicola Jane Ide)" .
+
+:MrLionelPerseyQc  a  :Judge ;
+        :has-names  "Mr Lionel Persey Qc" .
+
+:DavidRomaine  a    :Party ;
+        :has-names  "David Romaine" .
+
+:LordJusticePeterJackson
+        a           :Judge ;
+        :has-names  "Lord Justice Peter Jackson" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#WolseleyUkLimited&Others>
+        a           :Party ;
+        :has-names  "Wolseley Uk Limited & Others" .
+
+:BarlowRobbins  a   :Lawyer ;
+        :has-names  "Barlow Robbins" .
+
+:SspHealthLimited  a  :Party ;
+        :has-names  "Ssp Health Limited" .
+
+:AssociationOfBritishOrchestras
+        a           :Party ;
+        :has-names  "Association Of British Orchestras" .
+
+:NihalMohammedKamalBrake
+        a           :Party ;
+        :has-names  "Nihal Mohammed Kamal Brake" .
+
+:has-handdown-date  a  owl:DatatypeProperty , owl:FunctionalProperty ;
+        rdfs:domain  :CaseLaw ;
+        rdfs:range   xsd:string .
+
+:LondonBoroughOfBrent
+        a           :Party ;
+        :has-names  "London Borough Of Brent" .
+
+:2020EWCACiv1539  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/hussain-v-london-borough-of-waltham-forest" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1539.xml" ;
+        :has-handdown-date  "2020-11-19" ;
+        :has-hearing-date   "2020-11-12" ;
+        :has-judge          :MrJusticeHolgate , :LordJusticeHickinbottom , :SirTerenceEtherton , :LordJusticeFulford , :JudgeSiobhanMcgrath ;
+        :has-lawyer         :AshleyUnderwoodQc , :LondonBoroughOfWalthamForestGovernanceAndLaw , :NickGrant , :AnthonyGoldSolicitors , :RiccardoCalzavara , :JustinBates ;
+        :has-party          :FhcoLimited , :TheLondonBoroughOfWalthamForest , :NasimHussain , :FarinaHussain .
+
+:NicholasSaundersQc  a  :Lawyer ;
+        :has-names  "Nicholas Saunders Qc" .
+
+:EmmaPrice  a       :Lawyer ;
+        :has-names  "Emma Price" .
+
+:LottiePyper  a     :Lawyer ;
+        :has-names  "Lottie Pyper" .
+
+:is-party-of  a      owl:ObjectProperty ;
+        rdfs:domain  :Party ;
+        rdfs:range   :CaseLaw .
+
+:MrShakeelAfsar  a  :Party ;
+        :has-names  "Mr Shakeel Afsar" .
+
+:respondent  a      owl:NamedIndividual , :PartyRole ;
+        :has-names  "respondent" .
+
+:BryanCaveLeightonPaisnerLlp
+        a           :Lawyer ;
+        :has-names  "Bryan Cave Leighton Paisner Llp" .
+
+:MrJusticeSnowden  a  :Judge ;
+        :has-names  "Mr Justice Snowden" .
+
+:MrDavidRomaine  a  :Lawyer ;
+        :has-names  "Mr David Romaine" .
+
+:FarrerAndCoLlp  a  :Lawyer ;
+        :has-names  "Farrer And Co Llp" .
+
+:LordJusticeDavis  a  :Judge ;
+        :has-names  "Lord Justice Davis" .
+
+:DuncanAtkinsonQc  a  :Lawyer ;
+        :has-names  "Duncan Atkinson Qc" .
+
+:MsNiaGowman  a     :Lawyer ;
+        :has-names  "Ms Nia Gowman" .
+
+:MrJusticeKerr  a   :Judge ;
+        :has-names  "Mr Justice Kerr" .
+
+:CantorFitzgeraldEurope
+        a           :Party ;
+        :has-names  "Cantor Fitzgerald Europe" .
+
+:HighgateHillSolicitors
+        a           :Lawyer ;
+        :has-names  "Highgate Hill Solicitors" .
+
+:2019EWHC3715Comm  a        :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/ifaco-feed-sodinaf" ;
+        :has-court          :EWHC , :CommercialCourt , :BusinessAndPropertyCourts ;
+        :has-filename       "2019_EWHC_3715_Comm.xml" ;
+        :has-handdown-date  "2019-09-05" ;
+        :has-judge          :Mr.JusticePhillips ;
+        :has-lawyer         :Hfw , :Mr.RalphMorley ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#IfacoFeedCompanyS.a.> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SocieteDeDistributionNouvelleD’afrique(sodinaf)S.a.r.l.> , :Mr.FabriceSiaka .
+
+:TrusteesOfTheCharityKnownAsIslamicLink
+        a           :Party ;
+        :has-names  "Trustees Of The Charity Known As Islamic Link" .
+
+:DavidReadeQc  a    :Lawyer ;
+        :has-names  "David Reade Qc" .
+
+:MrTomCleaver  a  :Lawyer .
+
+:SarahJaneYoung  a  :Party ;
+        :has-names  "Sarah Jane Young" .
+
+:AdmiraltyCourt  a  owl:NamedIndividual , :subDivision ;
+        :has-names  "Admiralty Court" ;
+        :part-of    :QueensBenchDivision .
+
+:2020EWHC2827Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/moore-v-secretary-of-state-for-work-and-pensions" ;
+        :has-court          :QueensBenchDivision , :AdministrativeCourt , :EWHC ;
+        :has-filename       "2020_EWHC_2827_Admin.xml" ;
+        :has-handdown-date  "2020-10-26" ;
+        :has-hearing-date   "2020-06-25" , "2020-06-24" ;
+        :has-judge          :MrJusticeSwift ;
+        :has-lawyer         :EdwardBrown , :ShuShinLuh , :ChildPovertyActionGroup , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DwpLegalAdvisers,Gld> , :JackAnderson ;
+        :has-party          :Sg , :TaylorMoore , :SecretaryOfStateForWorkAndPensions .
+
+:PartyRole  a            owl:Class ;
+        rdfs:subClassOf  :Role .
+
+:MrJusticeChoudhury  a  :Judge ;
+        :has-names  "Mr Justice Choudhury" .
+
+:HoganLovellsInternationalLlp
+        a           :Lawyer ;
+        :has-names  "Hogan Lovells International Llp" .
+
+:LordJusticeFloyd  a  :Judge ;
+        :has-names  "Lord Justice Floyd" .
+
+:2019EWHC1791QB  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/attorney-general-v-stephen-yaxley-lennon-reasons-for-judgment-of-5-july-2019" ;
+        :has-court          :EWHC , :DivisionalCourt , :QueensBenchDivision ;
+        :has-filename       "2019_EWHC_1791_QB.xml" ;
+        :has-handdown-date  "2019-07-09" ;
+        :has-hearing-date   "2019-07-04" , "2019-07-05" ;
+        :has-judge          :MrJusticeWarby ;
+        :has-lawyer         :GovernmentLegalDepartment , :AndrewCaldecottQc , :CarsonKayeSolicitors , :RichardFurlong , :AidanEardley ;
+        :has-party          :StephenYaxley-lennon , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HerMajesty'sAttorneyGeneral> .
+
+:Clintons  a        :Lawyer ;
+        :has-names  "Clintons" .
+
+:SarahSimcock  a    :Lawyer ;
+        :has-names  "Sarah Simcock" .
+
+:TraversSmithLlp  a  :Lawyer ;
+        :has-names  "Travers Smith Llp" .
+
+:MrWilsonHorne  a   :Lawyer ;
+        :has-names  "Mr Wilson Horne" .
+
+:GeorgiosKounis  a  :Party ;
+        :has-names  "Georgios Kounis" .
+
+:LordJusticeHenderson
+        a           :Judge ;
+        :has-names  "Lord Justice Henderson" .
+
+:SimonSalzedoQc  a  :Lawyer ;
+        :has-names  "Simon Salzedo Qc" .
+
+:SanjivVarma  a     :Party ;
+        :has-names  "Sanjiv Varma" .
+
+:LegalServicesLondonBoroughOfBromley
+        a           :Lawyer ;
+        :has-names  "Legal Services, London Borough Of Bromley" .
+
+:interested-party-in-the-claim
+        a           owl:NamedIndividual , :PartyRole ;
+        :has-names  "interested party in the claim" .
+
+:JudgeLubaQc  a     :Judge ;
+        :has-names  "Judge Luba Qc" .
+
+:TomWilson  a       :Lawyer ;
+        :has-names  "Tom Wilson" .
+
+:MrRobinKingham  a  :Lawyer ;
+        :has-names  "Mr Robin Kingham" .
+
+:JohnChristopherDeppIi
+        a           :Party ;
+        :has-names  "John Christopher Depp Ii" .
+
+:NationalCrimeAgency  a  :Party ;
+        :has-names  "National Crime Agency" .
+
+:AdmasHabteslasie  a  :Lawyer ;
+        :has-names  "Admas Habteslasie" .
+
+:MrIainMacdonald  a  :Lawyer ;
+        :has-names  "Mr Iain Macdonald" .
+
+:DavidHuber  a      :Party ;
+        :has-names  "David Huber" .
+
+:StephanieHarrisonQc  a  :Lawyer ;
+        :has-names  "Stephanie Harrison Qc" .
+
+:MrTimWardQc  a     :Lawyer ;
+        :has-names  "Mr Tim Ward Qc" .
+
+:Mr.JusticePhillips  a  :Judge ;
+        :has-names  "Mr. Justice Phillips" .
+
+:AlanBatesAndOthers  a  :Party ;
+        :has-names  "Alan Bates And Others" .
+
+:DirectorOfLegalServicesOfRhonddaCynonTaf
+        a           :Lawyer ;
+        :has-names  "Director Of Legal Services Of Rhondda Cynon Taf" .
+
+:ZurichInsurancePlc  a  :Party ;
+        :has-names  "Zurich Insurance Plc" .
+
+:TheCollegeOfPolicing
+        a           :Party ;
+        :has-names  "The College Of Policing" .
+
+:Sg     a           :Party ;
+        :has-names  "Sg" .
+
+:DanWootton  a      :Party ;
+        :has-names  "Dan Wootton" .
+
+:ShaunHolland  a    :Party ;
+        :has-names  "Shaun Holland" .
+
+:NickBano  a        :Lawyer ;
+        :has-names  "Nick Bano" .
+
+:AngusMcculloughQc  a  :Lawyer ;
+        :has-names  "Angus Mccullough Qc" .
+
+:BowerCottonHamiltonLlp
+        a           :Lawyer ;
+        :has-names  "Bower Cotton Hamilton Llp" .
+
+:2020EWHC2962Admin  a       :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/redston-v-director-of-public-prosecutions" ;
+        :has-court          :QueensBenchDivision , :AdministrativeCourt , :EWHC ;
+        :has-filename       "2020_EWHC_2962_Admin.xml" ;
+        :has-handdown-date  "2020-11-05" ;
+        :has-hearing-date   "2020-11-03" ;
+        :has-judge          :LadyJusticeCarrDbe , :MrJusticePicken ;
+        :has-lawyer         :PhilipRule , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Hacket&DabbsLlp> , :DuncanAtkinsonQc , :CrownProsecutionService , :TomWilliams , :MichaelMansfieldQc ;
+        :has-party          :DirectorOfPublicProsecutions , :MartinRedston .
+
+:BubalMuradCentre  a  :Party ;
+        :has-names  "Bubal Murad Centre" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VeoliaEnvironnementS.a.&Others>
+        a           :Party ;
+        :has-names  "Veolia Environnement S.a. & Others" .
+
+:AlexGoodman  a     :Lawyer ;
+        :has-names  "Alex Goodman" .
+
+:BritishGasTradingLimited
+        a           :Party ;
+        :has-names  "British Gas Trading Limited" .
+
+:MrJonHolbrook  a   :Lawyer ;
+        :has-names  "Mr Jon Holbrook" .
+
+:BajariaSolicitors  a  :Lawyer ;
+        :has-names  "Bajaria Solicitors" .
+
+:IsadoreGoldman  a  :Lawyer ;
+        :has-names  "Isadore Goldman" .
+
+:MsAnnelieseBlackwood
+        a           :Lawyer ;
+        :has-names  "Ms Anneliese Blackwood" .
+
+:MrOwainRhysJames  a  :Lawyer ;
+        :has-names  "Mr Owain Rhys James" .
+
+:MsKatherineEddy  a  :Lawyer ;
+        :has-names  "Ms Katherine Eddy" .
+
+:DavidLockQc  a     :Lawyer ;
+        :has-names  "David Lock Qc" .
+
+:UpperTribunal  a   owl:NamedIndividual , :Tribunal ;
+        :has-names  "Upper Tribunal" .
+
+:LordJusticeHaddon-cave
+        a           :Judge ;
+        :has-names  "Lord Justice Haddon-cave" .
+
+:SeniorCourtOfEnglandAndWales
+        a                owl:Class ;
+        rdfs:subClassOf  :Court .
+
+:MrPaulHarrisQc  a  :Lawyer ;
+        :has-names  "Mr Paul Harris Qc" .
+
+:ShropshireCouncil  a  :Party ;
+        :has-names  "Shropshire Council" .
+
+:CompaniesCourt  a  owl:NamedIndividual , :subDivision ;
+        :has-names  "COMPANIES COURT (ChD) --- COMPANIES COURT" ;
+        :part-of    :BusinessAndPropertyCourts .
+
+:QueensBenchCivilLists
+        a           owl:NamedIndividual , :subDivision ;
+        :has-names  "Queen’s Bench Civil Lists --- Queen's Bench Civil Lists --- Queen’s Bench Civil Lists" ;
+        :part-of    :QueensBenchDivision .
+
+:SimonsMuirheadAndBurtonLlp
+        a           :Lawyer ;
+        :has-names  "Simons Muirhead And Burton Llp" .
+
+:MwSolicitors  a    :Lawyer ;
+        :has-names  "Mw Solicitors" .
+
+:LordJusticeStuart-smith
+        a           :Judge ;
+        :has-names  "Lord Justice Stuart-smith" .
+
+:DanielAlexanderQc  a  :Lawyer ;
+        :has-names  "Daniel Alexander Qc" .
+
+:Singh  a           :Party ;
+        :has-names  "Singh" .
+
+:DuncanKenricSwift  a  :Party ;
+        :has-names  "Duncan Kenric Swift" .
+
+:OfficialSolicitor  a  :Lawyer ;
+        :has-names  "Official Solicitor" .
+
+:CrownCourt  a      owl:NamedIndividual , :SeniorCourtOfEnglandAndWales ;
+        :has-names  "Crown Court" .
+
+:LordJusticeDavidRichards
+        a           :Judge ;
+        :has-names  "Lord Justice David Richards" .
+
+:AdministrativeAppealsChamber
+        a           owl:NamedIndividual , :Division ;
+        :has-names  "Administrative Appeals Chamber" ;
+        :part-of    :UpperTribunal .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PaulAtkinson&GlynMummery>
+        a           :Party ;
+        :has-names  "Paul Atkinson & Glyn Mummery" .
+
+:MsRosinaAfsar  a   :Party ;
+        :has-names  "Ms Rosina Afsar" .
+
+:MartinRodgerQc  a  :Judge ;
+        :has-names  "Martin Rodger Qc" .
+
+:Court  a                owl:Class ;
+        rdfs:subClassOf  :Organization .
+
+:MediaAndCommunicationsList
+        a           owl:NamedIndividual , :subDivision ;
+        :has-names  "Media And Communications List" ;
+        :part-of    :QueensBenchDivision .
+
+:OwainDraper  a     :Lawyer ;
+        :has-names  "Owain Draper" .
+
+:BirminghamDistrictRegistry
+        a           owl:NamedIndividual , :subDivision ;
+        :has-names  "Birmingham District Registry" ;
+        :part-of    :QueensBenchDivision .
+
+:AidanEardley  a    :Lawyer ;
+        :has-names  "Aidan Eardley" .
+
+:IrwinMitchellLlp  a  :Lawyer ;
+        :has-names  "Irwin Mitchell Llp" .
+
+:CircuitCommercialCourts
+        a           owl:NamedIndividual , :subDivision ;
+        :has-names  "Circuit Commercial Courts --- Mercantile Court" ;
+        :part-of    :QueensBenchDivision .
+
+:DaltonHolmesGray  a  :Lawyer ;
+        :has-names  "Dalton Holmes Gray" .
+
+:FenellaMorrisQc  a  :Lawyer ;
+        :has-names  "Fenella Morris Qc" .
+
+:HhjPearce  a       :Judge ;
+        :has-names  "Hhj Pearce" .
+
+:SladeAssociates  a  :Party ;
+        :has-names  "Slade Associates" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SecretaryOfStateForHousing,CommunitiesAndLocalGovernment>
+        a           :Party ;
+        :has-names  "Secretary Of State For Housing, Communities And Local Government" .
+
+:TheSecretaryOfStateForWorkAndPensions
+        a           :Party ;
+        :has-names  "The Secretary Of State For Work And Pensions" .
+
+:interested-party  a  owl:NamedIndividual , :PartyRole ;
+        :has-names  "interested party" .
+
+:PatrickLimbQc  a   :Lawyer ;
+        :has-names  "Patrick Limb Qc" .
+
+:IntellectualPropertyList
+        a           owl:NamedIndividual , :SpecialistCivilJurisdiction ;
+        :has-names  "Intellectual Property List (ChD) --- Intellectual Property List" ;
+        :part-of    :BusinessAndPropertyCourts .
+
+:has-filename  a     owl:DatatypeProperty ;
+        rdfs:domain  :CaseLaw ;
+        rdfs:range   xsd:string .
+
+:EdwardsDuthieShamashSolicitors
+        a           :Lawyer ;
+        :has-names  "Edwards Duthie Shamash Solicitors" .
+
+:RhonddaCynonTafCountyBoroughCouncil
+        a           :Party ;
+        :has-names  "Rhondda Cynon Taf County Borough Council" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Bird&BirdLlp>
+        a           :Lawyer ;
+        :has-names  "Bird & Bird Llp" .
+
+:LordJusticeStuartSmith
+        a           :Judge ;
+        :has-names  "Lord Justice Stuart Smith" .
+
+:ManchesterUniversityNhsFoundationTrust
+        a           :Party ;
+        :has-names  "Manchester University Nhs Foundation Trust" .
+
+:2020EWCACiv1339  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/gateway-housing-v-ali-deceased-and-anr" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1339.xml" ;
+        :has-handdown-date  "2020-10-22" ;
+        :has-hearing-date   "2020-10-13" ;
+        :has-judge          :LadyJusticeCarrDbe , :LordJusticeLewison , :DdjSmith ;
+        :has-lawyer         :NickBano , :JustinBates , :OsbornesSolicitors , :NicholasGrundyQc , :VictoriaOsler , :CapsticksSolicitors ;
+        :has-party          :GatewayHousingAssociation , :DelaraBegum , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ThePersonalRepresentativesOfMohammedNurujAli(deceased)> .
+
+:JanTomaszSerafin  a  :Party ;
+        :has-names  "Jan Tomasz Serafin" .
+
+:SirTerenceEtherton  a  :Judge ;
+        :has-names  "Sir Terence Etherton" .
+
+:2020EWCACiv1385  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/kb-jamaica-v-secretary-of-state-for-the-home-department" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1385.xml" ;
+        :has-handdown-date  "2020-10-28" ;
+        :has-hearing-date   "2020-10-21" ;
+        :has-judge          :JudgeFinch , :LadyJusticeAsplin , :LordJusticeMccombe , :LordJusticePopplewell ;
+        :has-lawyer         :GovernmentLegalDepartment , :HelenFoot , :SonaliNaikQc , :BajariaSolicitors , :ZaneMalik ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Kb(jamaica)> , :SecretaryOfStateForTheHomeDepartment .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VipCommunicationsLimited(inLiquidation))>
+        a           :Party ;
+        :has-names  "Vip Communications Limited (in Liquidation))" .
+
+:ThomasSeymour  a   :Lawyer ;
+        :has-names  "Thomas Seymour" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DavidForsdickQc&LukeWilcox>
+        a           :Lawyer ;
+        :has-names  "David Forsdick Qc & Luke Wilcox" .
+
+:Ss     a           :Party ;
+        :has-names  "Ss" .
+
+:Wisniewski  a      :Party ;
+        :has-names  "Wisniewski" .
+
+:MrJusticeMorgan  a  :Judge .
+
+:EvershedsSutherlandsLlp
+        a           :Lawyer ;
+        :has-names  "Eversheds Sutherlands Llp" .
+
+:MrBenChataway  a   :Lawyer ;
+        :has-names  "Mr Ben Chataway" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DavidWolfsonQc&DouglasPaine>
+        a           :Lawyer ;
+        :has-names  "David Wolfson Qc & Douglas Paine" .
+
+:2020EWCACiv1574  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/ssp-health-ltd-v-nhs-litigation" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1574.xml" ;
+        :has-handdown-date  "2020-11-25" ;
+        :has-hearing-date   "2020-11-12" ;
+        :has-judge          :LadyJusticeRose , :LordJusticeStuart-smith , :MrsJusticeCockerillDbe , :LordJusticeLewison ;
+        :has-lawyer         :QualitysolicitorsAcklamBond , :TomCross , :SimonButler , :FenellaMorrisQc , :DavidLockQc , :BrowneJacobsonLlp ;
+        :has-party          :SspHealthLimited , :TheSecretaryOfStateForHealth , :NationalHealthServiceCommissioningBoard , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheNationalHealthServiceLitigationAuthority(primaryCareAppealsService)> .
+
+:CivilDivision  a   owl:NamedIndividual , :Division ;
+        :has-names  "Civil Division" ;
+        :part-of    :EWCA .
+
+:LordJusticePopplewell
+        a           :Judge ;
+        :has-names  "Lord Justice Popplewell" .
+
+:SisvelInternationalSa
+        a           :Party ;
+        :has-names  "Sisvel International Sa" .
+
+:PatrickGreenQc  a  :Lawyer ;
+        :has-names  "Patrick Green Qc" .
+
+:has-judge  a          owl:ObjectProperty ;
+        rdfs:domain    :CaseLaw ;
+        rdfs:range     :Judge ;
+        owl:inverseOf  :is-judge-of .
+
+:applicant-claimant  a  owl:NamedIndividual , :PartyRole ;
+        :has-names  "claimant / applicant --- claimant/ applicant --- claimant /applicant --- applicant / claimant --- applicant/ claimant --- applicant /claimant" .
+
+:LordJusticeLewis  a  :Judge ;
+        :has-names  "Lord Justice Lewis" .
+
+:LordJusticeCoulson  a  :Judge ;
+        :has-names  "Lord Justice Coulson" .
+
+:AssociatedNewspapersLimited
+        a           :Party ;
+        :has-names  "Associated Newspapers Limited" .
+
+:MrDanielPiccinin  a  :Lawyer ;
+        :has-names  "Mr Daniel Piccinin" .
+
+:DanielPiccinin  a  :Lawyer ;
+        :has-names  "Daniel Piccinin" .
+
+:MidrarNamiq  a     :Party ;
+        :has-names  "Midrar Namiq" .
+
+:PhilipRule  a      :Lawyer ;
+        :has-names  "Philip Rule" .
+
+:2020EWCACiv1675  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/griffith-v-p" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1675.xml" ;
+        :has-handdown-date  "2020-12-10" ;
+        :has-hearing-date   "2020-12-10" ;
+        :has-judge          :LordJusticeCoulson , :LordJusticePeterJackson , :MrJusticeMacdonald , :LadyJusticeAndrews ;
+        :has-lawyer         :SarahSimcock , :MackintoshLaw ;
+        :has-party          :P , :DahliaGriffith .
+
+:P      a           :Party ;
+        :has-names  "P" .
+
+:MrGwionLewis  a    :Lawyer ;
+        :has-names  "Mr Gwion Lewis" .
+
+:AliceMayhew  a     :Lawyer ;
+        :has-names  "Alice Mayhew" .
+
+:RyanBeckwith  a    :Party ;
+        :has-names  "Ryan Beckwith" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Debevoise&PlimptonLlp>
+        a           :Lawyer ;
+        :has-names  "Debevoise & Plimpton Llp" .
+
+:GovernmentLegalDepartment
+        a           :Lawyer ;
+        :has-names  "Government Legal Department" .
+
+:Musical.ly  a      :Party ;
+        :has-names  "Musical.ly" .
+
+:RoryBrown  a       :Lawyer ;
+        :has-names  "Rory Brown" .
+
+:WestSussexCountyCouncil
+        a           :Lawyer ;
+        :has-names  "West Sussex County Council" .
+
+:RichardToone  a    :Party ;
+        :has-names  "Richard Toone" .
+
+:Weightmans  a      :Lawyer ;
+        :has-names  "Weightmans" .
+
+:MrAnthonyMetzerQc  a  :Lawyer , :Judge ;
+        :has-names  "Mr Anthony Metzer Qc" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Hacket&DabbsLlp>
+        a           :Lawyer ;
+        :has-names  "Hacket & Dabbs Llp" .
+
+:2020EWHC3589QB  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/smo-v-tiktok" ;
+        :has-court          :QueensBenchDivision , :EWHC , :MediaAndCommunicationsList ;
+        :has-filename       "2020_EWHC_3589_QB.xml" ;
+        :has-handdown-date  "2020-12-30" ;
+        :has-hearing-date   "2020-12-30" ;
+        :has-judge          :MrJusticeWarby ;
+        :has-lawyer         <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Scott+scottUkLlp> , :CharlesCiumeiQcandheLenMorton ;
+        :has-party          :Musical.ly , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BeijingBytedanceTechnologyCo.,Ltd> , :TiktokTechnologyLimited , :TiktokInformationTechnologiesLimited , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TiktokInc.> , :Smo , :BytedanceLtd .
+
+:part-of  a     owl:ObjectProperty , owl:FunctionalProperty .
+
+[ a            owl:AllDisjointClasses ;
+  owl:members  ( :CombinedCourt :CountyCourt :Division :SeniorCourtOfEnglandAndWales :SpecialistCivilJurisdiction :Tribunal :subDivision )
+] .
+
+:MrDerekMoss  a  :Party .
+
+:LaurenMonks  a     :Party ;
+        :has-names  "Lauren Monks" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Allen&OveryLLP>
+        a           :Lawyer ;
+        :has-names  "Allen & Overy Llp" .
+
+:LadyJusticeAsplin  a  :Judge ;
+        :has-names  "Lady Justice Asplin" .
+
+:ZoeLeventhal  a    :Lawyer ;
+        :has-names  "Zoe Leventhal" .
+
+:LondonBoroughOfBromley
+        a           :Party ;
+        :has-names  "London Borough Of Bromley" .
+
+:OppoMobileUkLtd  a  :Party ;
+        :has-names  "Oppo Mobile Uk Ltd" .
+
+:MrAmirAhmed  a     :Party ;
+        :has-names  "Mr Amir Ahmed" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#IfacoFeedCompanyS.a.>
+        a           :Party ;
+        :has-names  "Ifaco Feed Company S.a." .
+
+:ImmigrationAndAsylumChamber
+        a           owl:NamedIndividual , :Division ;
+        :has-names  "Immigration and Asylum Chamber" ;
+        :part-of    :UpperTribunal .
+
+:StrategicTechnologiesPteLtd
+        a           :Party ;
+        :has-names  "Strategic Technologies Pte Ltd" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ThePersonalRepresentativesOfMohammedNurujAli(deceased)>
+        a           :Party ;
+        :has-names  "The Personal Representatives Of Mohammed Nuruj Ali (deceased)" .
+
+:MrJoelSmith  a     :Lawyer ;
+        :has-names  "Mr Joel Smith" .
+
+:AlisdairWilliamsonQc
+        a           :Lawyer ;
+        :has-names  "Alisdair Williamson Qc" .
+
+:DavidSherborneKateWilson
+        a           :Lawyer ;
+        :has-names  "David Sherborne Kate Wilson" .
+
+:MrSimonCharles  a  :Lawyer ;
+        :has-names  "Mr Simon Charles" .
+
+:JudgeSiobhanMcgrath  a  :Judge ;
+        :has-names  "Judge Siobhan Mcgrath" .
+
+:CaseLaw  a     owl:Class .
+
+:Ab     a           :Party ;
+        :has-names  "Ab" .
+
+:MissSophieCaseley  a  :Lawyer ;
+        :has-names  "Miss Sophie Caseley" .
+
+:ShropshireCouncilLegalAndDemocraticServices
+        a           :Lawyer ;
+        :has-names  "Shropshire Council Legal And Democratic Services" .
+
+:OgnjenMiletic  a   :Lawyer ;
+        :has-names  "Ognjen Miletic" .
+
+:MrLeslieBlohmQc  a  :Lawyer ;
+        :has-names  "Mr Leslie Blohm Qc" .
+
+:Mr.FabriceSiaka  a  :Party ;
+        :has-names  "Mr. Fabrice Siaka" .
+
+:LondonBoroughOfWalthamForestGovernanceAndLaw
+        a           :Lawyer ;
+        :has-names  "London Borough Of Waltham Forest Governance And Law" .
+
+:Mr.NicholasHearn  a  :Lawyer ;
+        :has-names  "Mr. Nicholas Hearn" .
+
+:MrsJusticeLieven  a  :Judge ;
+        :has-names  "Mrs Justice Lieven" .
+
+:EWCA   a           owl:NamedIndividual , :SeniorCourtOfEnglandAndWales ;
+        :has-names  "Court of Appeal" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EssoExploration&ProductionUkLimited>
+        a           :Party ;
+        :has-names  "Esso Exploration & Production Uk Limited" .
+
+:AdamWolanskiQc  a  :Lawyer ;
+        :has-names  "Adam Wolanski Qc" .
+
+:AlexandraMarzec  a  :Lawyer ;
+        :has-names  "Alexandra Marzec" .
+
+:PorterDodsonLlp  a  :Lawyer ;
+        :has-names  "Porter Dodson Llp" .
+
+:BirminghamCityCouncil
+        a           :Party , :Lawyer ;
+        :has-names  "Birmingham City Council" .
+
+:GeorgeHepburneScott  a  :Lawyer ;
+        :has-names  "George Hepburne Scott" .
+
+:DivisionalCourt  a  owl:NamedIndividual , :subDivision ;
+        :has-names  "Divisional Court" ;
+        :part-of    :QueensBenchDivision .
+
+:JustinRushbrookeQc  a  :Lawyer ;
+        :has-names  "Justin Rushbrooke Qc" .
+
+:LordJusticeBean  a  :Judge ;
+        :has-names  "Lord Justice Bean" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RichardClaytonQc&FaiselSadiq>
+        a           :Lawyer ;
+        :has-names  "Richard Clayton Qc & Faisel Sadiq" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrRanjitBhoseQc&MsRuchiParekh>
+        a       :Lawyer .
+
+:FancourtJ  a       :Judge ;
+        :has-names  "Fancourt J" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#FiatChryslerAutomobiles&Others>
+        a           :Party ;
+        :has-names  "Fiat Chrysler Automobiles & Others" .
+
+:MrJusticeMartinSpencer
+        a           :Judge ;
+        :has-names  "Mr Justice Martin Spencer" .
+
+:JohnHowellQc  a    :Lawyer ;
+        :has-names  "John Howell Qc" .
+
+:BristolInsolvencyAndCompaniesList
+        a           owl:NamedIndividual , :subDivision ;
+        :has-names  "Bristol Insolvency And Companies List (ChD) --- Bristol Insolvency And Companies List" ;
+        :part-of    :BusinessAndPropertyCourts .
+
+:HewlettSwansonLtd  a  :Lawyer ;
+        :has-names  "Hewlett Swanson Ltd" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DwpLegalAdvisers,Gld>
+        a           :Lawyer ;
+        :has-names  "Dwp Legal Advisers, Gld" .
+
+:2020EWCACiv1637  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/southwark-v-ludgate" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1637.xml" ;
+        :has-handdown-date  "2020-12-04" ;
+        :has-hearing-date   "2020-11-24" , "2020-11-25" ;
+        :has-judge          :LordJusticeBaker , :MrPDMccreaFrics , :MartinRodgerQc , :LordJusticeLewison , :LordJusticeMccombe ;
+        :has-lawyer         :LegalServicesLbOfSouthwark , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LegalDepartment,Hmrc> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DavidForsdickQc&LukeWilcox> , :HerbertSmithFreehillsLlp , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RichardClaytonQc&FaiselSadiq> , :MarkWestmorelandSmith ;
+        :has-party          :LudgateHouseLimited , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAndrewRicketts(valuationOfficer)> , :LondonBoroughOfSouthwark .
+
+:CountyCourtAtManchester
+        a           owl:NamedIndividual , :CountyCourt ;
+        :has-names  "County court at Manchester" .
+
+:ProcurementBureauOfTheRepublicOfChinaMinistryOfNationalDefence
+        a           :Party ;
+        :has-names  "Procurement Bureau Of The Republic Of China Ministry Of National Defence" .
+
+:HelenFoot  a       :Lawyer ;
+        :has-names  "Helen Foot" .
+
+:2020EWCACiv1605  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/dolan-v-secretary-of-state-for-health-and-social-care-2" ;
+        :has-court          :CivilDivision , :EWCA ;
+        :has-filename       "2020_EWCA_Civ_1605.xml" ;
+        :has-handdown-date  "2020-12-01" ;
+        :has-hearing-date   "2020-10-30" , "2020-10-29" ;
+        :has-judge          :LadyJusticeKing , :LewisJ , :LordBurnettOfMaldon , :LordJusticeSingh ;
+        :has-lawyer         :MrFrancisHoar , :MsZoeLeventhal , :MrTomCross , :GovernmentLegalDepartment , :MsJacquelineLean , :SirJamesEadieQc , :MrPhilipHaversQc , :WedlakeBell ;
+        :has-party          :LaurenMonks , :SimonDolan , :Ab , :SecretaryOfStateForEducation , :SecretaryOfStateForHealthAndSocialCare .
+
+:LadyJusticeAndrewsDbe
+        a           :Judge ;
+        :has-names  "Lady Justice Andrews Dbe" .
+
+:CapitalLaw  a      :Lawyer ;
+        :has-names  "Capital Law" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DirectorOfLegalServices,WelshGovernment>
+        a           :Lawyer ;
+        :has-names  "Director Of Legal Services, Welsh Government" .
+
+:JoannePropertiesLimited
+        a           :Party ;
+        :has-names  "Joanne Properties Limited" .
+
+:ChristopherGoldscheider
+        a           :Party ;
+        :has-names  "Christopher Goldscheider" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AbVolvo(publ)&Others>
+        a           :Party ;
+        :has-names  "Ab Volvo (publ) & Others" .
+
+:MrRichardSlade  a  :Lawyer ;
+        :has-names  "Mr Richard Slade" .
+
+:TiktokTechnologyLimited
+        a           :Party ;
+        :has-names  "Tiktok Technology Limited" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TiktokInc.>
+        a           :Party ;
+        :has-names  "Tiktok Inc." .
+
+:TaylorMoore  a     :Party ;
+        :has-names  "Taylor Moore" .
+
+:SecretaryOfStateForTheHomeDepartment
+        a           :Party ;
+        :has-names  "Secretary Of State For The Home Department" .
+
+:LadyJusticeCarrDbe  a  :Judge ;
+        :has-names  "Lady Justice Carr Dbe" .
+
+:TaxAndChanceryChamber
+        a           owl:NamedIndividual , :Division ;
+        :has-names  "Tax and Chancery Chamber" ;
+        :part-of    :UpperTribunal .
+
+:ForceSolicitor  a  :Lawyer ;
+        :has-names  "Force Solicitor" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#X-yachts(gb)Limited>
+        a           :Party ;
+        :has-names  "X-yachts (gb) Limited" .
+
+:BytedanceLtd  a    :Party ;
+        :has-names  "Bytedance Ltd" .
+
+:MrJusticeNicol  a  :Judge ;
+        :has-names  "Mr Justice Nicol" .
+
+:ChildPovertyActionGroup
+        a           :Lawyer ;
+        :has-names  "Child Poverty Action Group" .
+
+:DraySimpson  a     :Party ;
+        :has-names  "Dray Simpson" .
+
+:MrJulianMilfordQc  a  :Lawyer ;
+        :has-names  "Mr Julian Milford Qc" .
+
+:KamJaspal  a       :Lawyer ;
+        :has-names  "Kam Jaspal" .
+
+:address  a     owl:NamedIndividual , :LocationType .
+
+:JonathanPrice  a   :Lawyer ;
+        :has-names  "Jonathan Price" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BtGroupPlc&Others>
+        a           :Party ;
+        :has-names  "Bt Group Plc & Others" .
+
+:DanielBeardQc  a   :Lawyer ;
+        :has-names  "Daniel Beard Qc" .
+
+:2020EWCACiv1475  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/ab-volvo-publ-and-ors-v-ryder-limited-and-anr-and-ors" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1475.xml" ;
+        :has-handdown-date  "2020-11-11" ;
+        :has-hearing-date   "2020-10-07" , "2020-10-06" ;
+        :has-judge          :FancourtJ , :HodgeMalekQc , :LordJusticeFlaux , :RothJ , :LadyJusticeRose , :SirGeoffreyVos ;
+        :has-lawyer         :MrBenRayment , :MrDanielPiccinin , :MsAnnelieseBlackwood , :MrDanielJowellQc , :AshurstLlp , :MrDavidGregory , :MrMatthewKennedy , :MsMonicaCarss-friskQc , :MsSarahFordQc , :MrDerekSpitz , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QuinnEmanuelUrquhart&SullivanUkLlp> , :HerbertSmithFreehillsLlp , :TraversSmithLlp , :MrDanielBeardQc , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Hausfeld&Co.Llp> , :MsAlexandraLittlewood , :MrPaulHarrisQc , :MrTomPascoe , :MrTimWardQc , :MsMarieDemetriouQc , :MrBenLask , :FreshfieldsBruckhausDeringerLlp , :MrMarkBrealeyQc , :BryanCaveLeightonPaisnerLlp , :SlaughterAndMay ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BtGroupPlc&Others> , :RoyalMailGroupLimited , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VeoliaEnvironnementS.a.&Others> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#FiatChryslerAutomobiles&Others> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#WolseleyUkLimited&Others> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ManSe&Others> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DaimlerAg&Another> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SuezGroupeSas&Others> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RyderLimited&Another> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DawsongroupPlc&Others> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AbVolvo(publ)&Others> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DafTrucksN.v.&Others> .
+
+:appellant-defendant  a  owl:NamedIndividual , :PartyRole ;
+        :has-names  "appellant / defendant --- appellant/ defendant --- appellant /defendant --- defendant / appellant" .
+
+:SecretaryOfStateForHousingCommunitiesAndLocalGovernment
+        a           :Party ;
+        :has-names  "Secretary Of State For Housing Communities And Local Government" .
+
+:Company  a              owl:Class ;
+        rdfs:subClassOf  :Organization .
+
+:LawyerRole  a           owl:Class ;
+        rdfs:subClassOf  :Role .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GuangdongOppoMobileTelecommunicationsCorp,Ltd>
+        a           :Party ;
+        :has-names  "Guangdong Oppo Mobile Telecommunications Corp, Ltd" .
+
+:Tribunal  a             owl:Class ;
+        rdfs:subClassOf  :Court .
+
+:ImogenProud  a     :Lawyer ;
+        :has-names  "Imogen Proud" .
+
+:CombinedCourt  a        owl:Class ;
+        rdfs:subClassOf  :Court .
+
+:Division  a             owl:Class ;
+        rdfs:subClassOf  :Court .
+
+:MrTomPascoe  a     :Lawyer ;
+        :has-names  "Mr Tom Pascoe" .
+
+:PolishJudicialAuthority
+        a           :Party ;
+        :has-names  "Polish Judicial Authority" .
+
+:LeighDaySolicitors  a  :Lawyer ;
+        :has-names  "Leigh Day Solicitors" .
+
+:XiaomiTechnologyFranceSas
+        a           :Party ;
+        :has-names  "Xiaomi Technology France Sas" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DaimlerAg&Another>
+        a           :Party ;
+        :has-names  "Daimler Ag & Another" .
+
+:MrTomCross  a      :Lawyer ;
+        :has-names  "Mr Tom Cross" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheMayor&BurgessesOfTheRoyalBoroughOfKingston-upon-thames>
+        a       :Party .
+
+:AlexanderMacpherson  a  :Lawyer ;
+        :has-names  "Alexander Macpherson" .
+
+:AdministrativeCourt  a  owl:NamedIndividual , :subDivision ;
+        :has-names  "Administrative Court in England --- Administrative Court in Wales --- Administrative Court in Scotland --- Administrative Court" ;
+        :part-of    :QueensBenchDivision .
+
+:MeyricLewis  a     :Lawyer ;
+        :has-names  "Meyric Lewis" .
+
+:2019EWHC606QB  a           :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/bates-ors-v-post-office-ltd-judgment-no-3-common-issues" ;
+        :has-court          :QueensBenchDivision , :EWHC ;
+        :has-filename       "2019_EWHC_606_QB.xml" ;
+        :has-handdown-date  "2019-03-15" ;
+        :has-hearing-date   "2018-11-15" , "2018-11-12" , "2018-11-26" , "2018-12-04" , "2018-11-20" , "2018-11-22" , "2018-12-03" , "2018-11-19" , "2018-11-14" , "2018-11-08" , "2018-11-13" , "2018-11-21" , "2018-12-06" , "2018-11-07" , "2018-12-05" ;
+        :has-judge          :MrJusticeFraser ;
+        :has-lawyer         :PatrickGreenQc , :KathleenDonnelly , :OwainDraper , :OgnjenMiletic , :WombleBondDickinsonLlp , :HenryWarwick , :GideonCohen , :FreethsLlp , :DavidCavenderQc , :ReanneMackenzie ;
+        :has-party          :AlanBatesAndOthers , :PostOfficeLimited .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#OneplusTechnology(shenzhen)Co.,Ltd>
+        a           :Party ;
+        :has-names  "Oneplus Technology (shenzhen) Co., Ltd" .
+
+:HenryWarwick  a    :Lawyer ;
+        :has-names  "Henry Warwick" .
+
+:GatewayHousingAssociation
+        a           :Party ;
+        :has-names  "Gateway Housing Association" .
+
+:LordJusticeNewey  a  :Judge ;
+        :has-names  "Lord Justice Newey" .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Bark&Co>
+        a           :Lawyer ;
+        :has-names  "Bark & Co" .
+
+:TheodoreHuckleQc  a  :Lawyer ;
+        :has-names  "Theodore Huckle Qc" .
+
+:MrsJusticeLang  a  :Judge ;
+        :has-names  "Mrs Justice Lang" .
+
+:MrJusticeJulianKnowles
+        a           :Judge ;
+        :has-names  "Mr Justice Julian Knowles" .
+
+:MrJusticeFraser  a  :Judge ;
+        :has-names  "Mr Justice Fraser" .
+
+:RebeccaKeating  a  :Lawyer ;
+        :has-names  "Rebecca Keating" .
+
+:BusinessAndPropertyCourtsInManchester
+        a           owl:NamedIndividual , :CombinedCourt ;
+        :has-names  "Business and property courts in Manchester" .
+
+:TheChedingtonCourtEstateLimited
+        a           :Party ;
+        :has-names  "The Chedington Court Estate Limited" .
+
+:receiver-in-the-claim
+        a           owl:NamedIndividual , :PartyRole ;
+        :has-names  "receiver in the claim" .
+
+:HhjJohnsQc  a      :Judge ;
+        :has-names  "Hhj Johns Qc" .
+
+:2020EWHC225Admin  a        :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/miller-v-college-of-policing" ;
+        :has-court          :QueensBenchDivision , :EWHC , :AdministrativeCourt ;
+        :has-filename       "2020_EWHC_225_Admin.xml" ;
+        :has-handdown-date  "2020-02-14" ;
+        :has-hearing-date   "2019-11-20" , "2019-11-21" ;
+        :has-judge          :MrJusticeJulianKnowles ;
+        :has-lawyer         :JonathanAuburn , :Gld , :ForceSolicitor , :IanWiseQc , :Sinclairslaw , :AlexUstych ;
+        :has-party          :HarryMiller , :TheChiefConstableOfHumberside , :TheCollegeOfPolicing .
+
+<https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Moneything(securityTrustee)Limited>
+        a           :Party ;
+        :has-names  "Moneything (security Trustee) Limited" .
+
+:MichaelConway  a   :Lawyer ;
+        :has-names  "Michael Conway" .
+
+:DeirdreFottrellQc  a  :Lawyer ;
+        :has-names  "Deirdre Fottrell Qc" .
+
+:Ig     a           :Party ;
+        :has-names  "Ig" .
+
+:MrRobertWilliams  a  :Lawyer ;
+        :has-names  "Mr Robert Williams" .
+
+:ReynoldsPorterChamberlainLlp
+        a           :Lawyer ;
+        :has-names  "Reynolds Porter Chamberlain Llp" .
+
+:2019EWHC3408QB  a          :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/bates-others-v-post-office" ;
+        :has-court          :QueensBenchDivision , :EWHC ;
+        :has-filename       "2019_EWHC_3408_QB.xml" ;
+        :has-handdown-date  "2019-12-16" ;
+        :has-hearing-date   "2019-03-27" , "2019-03-21" , "2019-04-09" , "2019-06-06" , "2019-04-12" , "2019-06-07" , "2019-03-18" , "2019-03-19" , "2019-06-13" , "2019-07-01" , "2019-04-03" , "2019-06-14" , "2019-07-02" , "2019-03-11" , "2019-03-13" , "2019-03-12" , "2019-06-05" , "2019-03-20" , "2019-06-04" , "2019-06-11" , "2019-03-14" ;
+        :has-judge          :MrJusticeFraser ;
+        :has-lawyer         :ReanneMackenzie , :WombleBondDickinsonLlp , :RebeccaKeating , :SimonHenderson , :FreethsLlp , :AntonyDeGarrRobinsonQc , :PatrickGreenQc , :KathleenDonnelly , :OwainDraper , :OgnjenMiletic ;
+        :has-party          :AlanBatesAndOthers , :PostOfficeLimited .
+
+:LondonBoroughOfRedbridge
+        a           :Party , :Lawyer ;
+        :has-names  "London Borough Of Redbridge" .
+
+:SirGeoffreyVos  a  :Judge ;
+        :has-names  "Sir Geoffrey Vos" .
+
+:JamesBourke  a     :Lawyer ;
+        :has-names  "James Bourke" .
+
+:DrKatherineAlexander-theodotou
+        a           :Party ;
+        :has-names  "Dr Katherine Alexander-theodotou" .
+
+:MrCharlesStreeten  a  :Lawyer ;
+        :has-names  "Mr Charles Streeten" .
+
+:LegalDepartment  a      owl:Class ;
+        rdfs:subClassOf  :Department .
+
+:RomanianJudicialAuthority
+        a           :Party ;
+        :has-names  "Romanian Judicial Authority" .
+
+:CrownProsecutionService
+        a           :Lawyer ;
+        :has-names  "Crown Prosecution Service" .
+
+:NicholasGrundyQc  a  :Lawyer ;
+        :has-names  "Nicholas Grundy Qc" .
+
+:TechnologyAndConstructionCourt
+        a           owl:NamedIndividual , :subDivision ;
+        :has-names  "Technology and Construction Court (QBD) --- Technology and Construction Court" ;
+        :part-of    :QueensBenchDivision .
+
+:MrWilliamDay  a    :Lawyer ;
+        :has-names  "Mr William Day" .
+
+:2020EWHC3082TCC  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/huber-v-x-yachts" ;
+        :has-court          :BusinessAndPropertyCourts , :EWHC , :TechnologyAndConstructionCourt ;
+        :has-filename       "2020_EWHC_3082_TCC.xml" ;
+        :has-handdown-date  "2020-11-17" ;
+        :has-judge          :MrJusticeKerr ;
+        :has-lawyer         :MrRichardSlade , :DirectAccess , :MrRobertGrey ;
+        :has-party          <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#X-yachtsA/S(aCompanyIncorporatedUnderTheLawsOfDenmark)> , :ElenaLieskovska , :DavidHuber , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#X-yachts(gb)Limited> .
+
+:MaddoxLegalLtd  a  :Lawyer ;
+        :has-names  "Maddox Legal Ltd" .
+
+:LadyJusticeMacur  a  :Judge ;
+        :has-names  "Lady Justice Macur" .
+
+:EmploymentAppealTribunal
+        a           owl:NamedIndividual , :Tribunal ;
+        :has-names  "Employment Appeal Tribunal" .
+
+:TheWelshMinisters  a  :Party ;
+        :has-names  "The Welsh Ministers" .
+
+:BarPublicAccess  a  :Lawyer ;
+        :has-names  "Bar Public Access Scheme" .
+
+:IanWiseQc  a       :Lawyer ;
+        :has-names  "Ian Wise Qc" .
+
+:Podolak  a         :Party ;
+        :has-names  "Podolak" .
+
+:MrJusticeLewis  a  :Judge ;
+        :has-names  "Mr Justice Lewis" .
+
+:LordBurnettOfMaldon  a  :Judge ;
+        :has-names  "Lord Burnett Of Maldon" .
+
+:2020EWHC6Fam  a            :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/manchester-university-nhs-foundation-trust-v-midrar-namiq-mr-karwan-mohammed-ali-and-ms-shokhan-namiq-rro" ;
+        :has-court          :EWHC , :FamilyDivision ;
+        :has-filename       "2020_EWHC_6_Fam.xml" ;
+        :has-handdown-date  "2020-01-28" ;
+        :has-hearing-date   "2020-01-21" , "2020-01-20" , "2020-01-22" ;
+        :has-judge          :MrsJusticeLieven ;
+        :has-lawyer         :MrBrunoQuintavalle , :HillDickinsonLlp , :MsMariaStanley , :Cafcass , :MrNeilDavy , :BarlowRobbins ;
+        :has-party          :MrKarwanMohammedAli , :MidrarNamiq , :ManchesterUniversityNhsFoundationTrust , :MsShokhanNamiq .
+
+:MrMarkBrealeyQc  a  :Lawyer ;
+        :has-names  "Mr Mark Brealey Qc" .
+
+:SimonHenderson  a  :Lawyer ;
+        :has-names  "Simon Henderson" .
+
+:MissAnneStuddQc  a  :Lawyer ;
+        :has-names  "Miss Anne Studd Qc" .
+
+:EventType  a   owl:Class .
+
+:ClerkenwellAndShoreditchCountyCourt
+        a           owl:NamedIndividual , :CountyCourt ;
+        :has-names  "Clerkenwell and Shoreditch County Court" .
+
+:TonySingha  a      :Lawyer ;
+        :has-names  "Tony Singha" .
+
+:LordJusticeMccombe  a  :Judge ;
+        :has-names  "Lord Justice Mccombe" .
+
+:2020EWCACiv1469  a         :CaseLaw ;
+        :has-URL            "https://www.judiciary.uk/judgments/bell-v-ide" ;
+        :has-court          :EWCA , :CivilDivision ;
+        :has-filename       "2020_EWCA_Civ_1469.xml" ;
+        :has-handdown-date  "2020-11-09" ;
+        :has-hearing-date   "2020-10-28" ;
+        :has-judge          :LordJusticeArnold , :HhjPaulMatthews , :LordJusticeNugee , :LordJusticeLewison ;
+        :has-lawyer         :IsadoreGoldman , :HewlettSwansonLtd , :StevenFennell , :JessicaPowers ;
+        :has-party          :PeterRobertHouse , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PaulWilliams(asJointTrusteesInBankruptcyOfNicolaJaneIde)> , <https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HhAluminium&BuildingProductsLtd> , :SarahHelenBell .
+
+:SpecialistCivilJurisdiction
+        a                owl:Class ;
+        rdfs:subClassOf  :Court .
+
+:MrFrancisHoar  a   :Lawyer ;
+        :has-names  "Mr Francis Hoar" .
+
+:CompetitionAppealTribunal
+        a           owl:NamedIndividual , :Tribunal ;
+        :has-names  "Competition Appeal Tribunal" .

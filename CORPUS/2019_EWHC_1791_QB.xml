@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2019_EWHC_1791_QB" />
+          <FRBRuri value="www.judiciary.uk/2019_EWHC_1791_QB" />
+          <FRBRdate date="2019-07-09" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/attorney-general-v-stephen-yaxley-lennon-reasons-for-judgment-of-5-july-2019" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/attorney-general-v-stephen-yaxley-lennon-reasons-for-judgment-of-5-july-2019" />
+          <FRBRdate date="2019-07-09" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_1791_QB.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_1791_QB.xml" />
+          <FRBRdate date="2021-01-18" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="DivisionalCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DivisionalCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="HerMajesty'sAttorneyGeneral" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HerMajesty'sAttorneyGeneral" showAs="Her Majesty 's Attorney General" />
+        <TLCOrganization eId="StephenYaxley-lennon" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#StephenYaxley-lennon" showAs="Stephen Yaxley-lennon" />
+        <TLCPerson eId="ThePresidentOfTheQueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ThePresidentOfTheQueensBenchDivision" showAs="The President Of The Queen’s Bench Division" />
+        <TLCPerson eId="MrJusticeWarby" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeWarby" showAs="Mr Justice Warby" />
+        <TLCPerson eId="AndrewCaldecottQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AndrewCaldecottQc" showAs="Andrew Caldecott Qc" />
+        <TLCPerson eId="AidanEardley" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AidanEardley" showAs="Aidan Eardley" />
+        <TLCPerson eId="GovernmentLegalDepartment" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GovernmentLegalDepartment" showAs="Government Legal Department" />
+        <TLCPerson eId="RichardFurlong" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RichardFurlong" showAs="Richard Furlong" />
+        <TLCPerson eId="CarsonKayeSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CarsonKayeSolicitors" showAs="Carson Kaye Solicitors" />
+        <TLCRole eId="applicant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#applicant" showAs="applicant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2019] EWHC 1791 (QB)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>QB-2019-000741</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#DivisionalCourt">DIVISIONAL COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2019-07-09" refersTo="#hand-downDate">9 July 2019</date>
+      </p>
+      <p>
+        Before: THE PRESIDENT OF THE QUEEN’S BENCH DIVISION
+        <judge refersTo="#MrJusticeWarby">MR JUSTICE WARBY</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#applicant" refersTo="#HerMajesty'sAttorneyGeneral">Her Majesty's Attorney General</party>
+        <role refersTo="#applicant">Applicant</role>
+        -and-
+        <party as="#respondent" refersTo="#StephenYaxley-lennon">Stephen Yaxley-Lennon</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#AndrewCaldecottQc" as="#barrister" for="#HerMajesty'sAttorneyGeneral">Andrew Caldecott QC</lawyer>
+        and
+        <lawyer refersTo="#AidanEardley" as="#barrister" for="#HerMajesty'sAttorneyGeneral">Aidan Eardley</lawyer>
+        (instructed by the
+        <lawyer refersTo="#GovernmentLegalDepartment" as="#solicitor" for="#HerMajesty'sAttorneyGeneral">Government Legal Department</lawyer>
+        ) for the Applicant
+        <lawyer refersTo="#RichardFurlong" as="#barrister" for="#StephenYaxley-lennon">Richard Furlong</lawyer>
+        (instructed by
+        <lawyer refersTo="#CarsonKayeSolicitors" as="#solicitor" for="#StephenYaxley-lennon">Carson Kaye Solicitors</lawyer>
+        ) for the Respondent
+      </p>
+      <p>
+        Hearing dates:
+        <date date="2019-07-04" refersTo="#hearing">4</date>
+        &amp;
+        <date date="2019-07-05" refersTo="#hearing">5 July 2019</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>We direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic. ............................. THE PRESIDENT OF THE QUEEN’S BENCH DIVISION MR JUSTICE WARBY</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>DAME VICTORIA SHARP:</p>
+        </tblock>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This is the judgment of the Court on an application by Her Majesty ’s Attorney General for an order committing the respondent to prison for contempt of court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The respondent is Stephen Yaxley-Lennon, also known as Tommy Robinson. The application arises from what he did and said outside the Crown Court at Leeds on the morning of Friday 25 May 2018, when the jury was in retirement at the end of R v Akhtar, a long trial in which a number of men were accused of sexual offences against women and girls. The focus of the application is on the respondent ’s live-streaming of video of what he did and said, to an online audience via his Facebook page, which had been liked or followed by some 1.2 million people at the time.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>In summary, the Attorney General alleges that the respondent ’s conduct amounted to contempt of court in three different respects. First, the online publication involved a breach of a reporting restriction order (“the RRO”) that had been imposed under s 4(2) of the Contempt of Court Act 1981, and which prohibited any reporting of the Akhtar trial until after the conclusion of that trial and all related trials. Secondly, the Attorney General alleges that the content of what was published gave rise to a substantial risk that the course of justice in the Akhtar case would be seriously impeded, thereby amounting to a breach of the rule of contempt law known as “the strict liability rule”. Thirdly, it is alleged that by confronting some of the defendants as they arrived at court, doing so aggressively, and openly filming the process, the respondent interfered with the due administration of justice. Contempt of court is quasi-criminal in nature, so the onus is on the Attorney General to prove his case so that we are sure.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>Permission to bring this application was granted by this Court after a hearing on 14 May 2019. We heard the substantive application on 4 and 5 July 2019, and on Friday 5 July 2019, we announced our decision in the following terms: “The purpose of the law of contempt of court is to protect the integrity of legal proceedings, the administration of justice, and ultimately the rule of law, which is vital to the protection of the rights of every citizen. Our conclusions are as follows. The respondent committed a contempt of court on 25 May 2018 in three respects: first, by breaching a reporting restriction imposed under s 4(2) of the Contempt of Court Act 1981, in the case of R v Akhtar; secondly, by live streaming a video from outside the public entrance to the court , the content of which gave rise to a substantial risk that the course of justice in that case would be seriously impeded; and thirdly, by aggressively confronting and filming some of the defendants in that case as they arrived at court, thereby directly interfering with the course of justice. In our judgment, the respondent ’s conduct in each of those respects amounted to a serious interference with the administration of justice.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>These are our reasons.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The history</p>
+        </tblock>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>Much of this has been set out in a judgment of the Court of Appeal [2018] EWCA Crim 1856 [2018] 1 WLR 5400.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Huddersfield</p>
+        </tblock>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>In 2017, a total of 29 individuals were charged with involvement in the sexual exploitation of young women and girls in the Huddersfield area. On 12 April 2017, there was a hearing at Huddersfield Magistrates Court, at which the defendants were sent for trial in the Crown Court. The respondent attended, and took part in video recorded reporting. There was other reporting of these proceedings.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Canterbury</p>
+        </tblock>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>On 8 May 2017, the respondent attended the Crown Court at Canterbury, at a time when a jury had been sent out to consider their verdicts at the end of a trial (unrelated to the Huddersfield charges) in which four defendants were accused of rape. The respondent filmed himself on the steps of the court building and inside the building, including two pieces to camera in which he described the trial as involving “Muslim child rapists”. He then published the footage on the internet. At a hearing on 22 May 2017, when he was represented by Leading and Junior Counsel, the respondent admitted contempt by filming in the precincts of the court. For this contempt, he was committed to a term of three months’ imprisonment, suspended for 18 months.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Leeds</p>
+        </tblock>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>In the meantime, on 11 May 2017, there was a directions hearing before HHJ Marson QC in the Crown Court at Leeds, when the Judge made orders in respect of the Huddersfield charges. He directed that those charges should be tried in a series of three trials in Leeds, commencing in January, April, and September 2018. The first case was called R v Dhaliwal and others. The Akhtar case was the second of the three. These proceedings were reported in the Huddersfield Examiner and other media, including the BBC.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>On 19 March 2018, in the Crown Court at Leeds, the RRO was made by HHJ Marson QC. It was headed, in capitals, “Notice to the Press – Reporting Restriction” and “Postponement Order”. It was made in the Akhtar proceedings, and provided that “The publication of any report of these proceedings shall be postponed until after the conclusion of this trial and all related trials.” The statutory provision under which the order was made was identified. The purpose of the order was specified: “Since it appears to be necessary for avoiding a substantial risk of prejudice to the administration of justice in these proceedings”. That is one of the statutory bases for making such an order, and although the grounds were imperfectly stated, no challenge was made to the RRO or the Judge ’s decision to make it until the skeleton argument for the present hearing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>On 16 April 2018, the Akhtar trial began, before HHJ Marson QC and a jury. There were originally 9 defendants. On Thursday 24 May 2018, the jury were sent out to consider their verdicts. By this time there were 8 remaining defendants. On the morning of Friday 25 May 2018, the respondent attended the court. He spoke to court staff. He was filmed speaking about the case, and speaking to some of the defendants. The video was live-streamed. Later that same day, the respondent came before HHJ Marson accused of contempt of court. The Judge adopted a summary procedure. The respondent took advice from Counsel, and admitted contempt. Counsel mitigated on his behalf. It was accepted that “he was aware there was a reporting restriction”, but Counsel submitted that there was mitigation that would “allow [the Judge] to draw back from the imposition of an immediate custodial sentence.” The Judge was not persuaded, and committed him to prison for 10 months, simultaneously activating the suspended order imposed at Canterbury, which was made consecutive. The respondent was therefore committed to prison for a period of 13 months. An RRO was imposed in respect of those events, pursuant to s 4(2). This was later lifted.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The jury deliberated for the rest of 25 May 2018, and were then sent away until the following Tuesday, 29 May. On that day, Counsel for two of the defendants applied unsuccessfully for the discharge of the jury, relying among other things on the way in which the respondent had confronted the defendants and the allegedly prejudicial nature of what had been said. On Friday 1 June 2018 there was a large demonstration by the English Defence League outside the Crown Court at Leeds, protesting at the respondent ’s arrest and imprisonment. One of the defendants in the Akhtar trial, Sajid Hussain, absconded. His Counsel had expressed concern on his behalf about the demonstration, which had been advertised in advance. On Monday 4 June 2018, a fresh application to discharge was made, based on the effects of the demonstrations. This was rejected. On Tuesday 5 June 2018, the jury returned their verdicts, finding each of the remaining defendants guilty on all counts that had been left to the jury for decision.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>London: the Court of Appeal</p>
+        </tblock>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>The respondent appealed to the Court of Appeal (Criminal Division) (“CACD”) but only against the sentence imposed by the Crown Court at Leeds. The Criminal Appeal Office, on reviewing the papers, identified some procedural flaws in the process in Leeds, which prompted an appeal against the finding of contempt. The respondent also sought to appeal out of time against the Canterbury committal and sentence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>His case was heard on 18 July 2018. On 1 August 2018, the Court handed down the judgment to which we have referred. It refused to extend time to appeal against the decisions made at Canterbury, and quashed the committal order made at Leeds. In outline, the Court ’s reasons were that (i) it had been inappropriate to deal with the matter summarily; (ii) although it was tolerably clear that the nub of the allegation was breach of the RRO, there had been no clear statement of the conduct alleged to represent such a breach; (iii) the Judge ’s reasoning did not make clear what he considered to be a breach, and relied on conduct which – if it was contempt-could not have amounted to breach of the RRO; and (iv) the haste with which the process was conducted had curtailed Counsel ’s ability to put forward full mitigation on the respondent ’s behalf: see [77]. The respondent, who had by this time spent some 10 weeks in custody, was released on bail.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>The CACD remitted the matter to the Crown Court, directing that it be heard before the Recorder of London at the Central Criminal Court as soon as reasonably possible. The CACD highlighted the requirements of clarity and particularity. In the context of the RRO, it identified the need to take “proper steps to set out the offending conduct, by reference to the video in question”. It also noted that other forms of contempt might be alleged, observing that “outside references to the [RRO] there were aspects of the video which [HHJ Marson] considered amounted to criminal contempt …” It was recognised that the case needed to be “presented by someone other than a judge.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>The procedure identified by the CACD to achieve these objectives was the one prescribed by Part 48 of the Criminal Procedure Rules, coupled with an invitation to the Attorney General to nominate an advocate to appear at the fresh hearing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>The relevant provisions of Part 48 are set out in the CACD judgment at [41]. They envisage an “inquiry”, which may be conducted “there and then” or postponed. The procedure at Leeds had involved an inquiry there and then. The CACD envisaged a fresh hearing that was postponed, thus requiring the Court, as a first step, to “arrange for the preparation of a written statement containing such particulars of the conduct in question as to make clear what the respondent appears to have done”: r 48.7(2). Thereafter, the procedure laid down by Part 48 is a relatively simple one. The Court must identify the procedure to be adopted and inform the respondent. If the respondent admits the conduct, the Court need not receive evidence. If the respondent does not admit the conduct, the Court must consider any statement under r 48.7, any other evidence, and any representations by the respondent.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>This procedure is suitable for relatively simple cases, but not for those that require the resolution of substantial factual issues as, in the event, proved to be the position in this case. Appointments by the Attorney General of an advocate to the Court are governed by a Memorandum dated 19 December 2001, the effect of which is to restrict the advocate to providing assistance on the relevant law and application to the facts. The advocate is not authorised to carry out factual investigations, lead evidence, or cross- examine witnesses.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>London: the Central Criminal Court</p>
+        </tblock>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>It started in satisfactory way. Counsel was appointed by the Attorney General on 24 August 2018, and thereafter produced particulars, specifying the alleged contempts. The allegations were of breach of the RRO, and breach of the strict liability rule. In our judgment, they were clear and sufficient. However, on 22 October 2018, the respondent served a witness statement which made clear, for the first time, that there were significant issues of fact between the parties, which would require resolution. He claimed to have made enquiries at court and online about the existence and content of an RRO. That account called for an evidential investigation which was outside the scope of the role assigned to the advocate to the Court, and it would have been quite inappropriate for the Recorder of London to undertake it. Accordingly, on 23 October 2018, the Recorder held that the matter could not fairly be disposed of under the Part 48 procedure. Instead, he referred the matter to the Attorney General, to consider whether the Attorney General should bring proceedings of an adversarial nature, in which Counsel for the Attorney General could lead evidence and cross-examine witnesses. On 5 November 2018, the respondent was released from bail.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The CACD again</p>
+        </tblock>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>On 21 November 2018, a single Judge of the CACD considered an application by Faisal Nadeem, one of the defendants in the Akhtar case, for permission to appeal against conviction. The application was based principally on the proposition that Nadeem ’s trial had been prejudiced by (a) the respondent ’s activities in streaming video of Nadeem outside court, appearing to react aggressively to provocation by the respondent, and in which the respondent referred to another sexually related charge on which Nadeem was to be tried and (b) protests following the respondent ’s imprisonment by HHJ Marson.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>The single Judge dismissed the application. He rejected the contention that the jury would have become aware of the video and been prejudiced by it as “a wholly speculative ground of appeal which has no evidential basis”. He pointed out that the jury had been repeatedly told that they should not carry out researches, should try the case on the evidence, and must tell the Judge if any fellow juror disobeyed those instructions. He observed that there was no evidence that any juror did disobey those instructions, or felt unable to decide the case on the evidence accordance with his or her oath. The protests had been directed at the Judge not the jury, and there was no reason to believe that they put the jury under pressure.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The present proceedings</p>
+        </tblock>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Following correspondence, in the course of which the respondent ’s solicitors made representations as to why further proceedings should not be instituted, the Attorney General brought this application. He did so by means of a Claim Form under Part 8 of the Civil Procedure Rules, invoking the provisions of Part 81 which governs “Applications and proceedings in relation to contempt of court”. Details of claim accompanied the Claim Form. These began by explaining that the Attorney General sought permission to apply to a Divisional Court of the Queen ’s Bench Division “for an order of committal and/or such other order as may seem just for his contempt of court”, details of which were set out in written grounds.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The permission hearing</p>
+        </tblock>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>We heard the permission application on 14 May 2019, at the Central Criminal Court. Three main issues arose for our decision: was permission required for all three limbs of the Attorney General ’s application; what were the threshold tests to be applied; and should permission be granted? We concluded that permission was required for each limb of the application; that the Court should examine each limb separately and give permission to proceed if, and only if, it was satisfied that the application disclosed a reasonable basis for seeking committal, which it was in the public interest to pursue and that these threshold requirements were met. We announced our conclusion, and granted permission, reserving our reasons, which we give at the end of the present judgment.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The substantive hearing</p>
+        </tblock>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The Attorney General ’s application is supported by an affidavit from James Jenkins, Head of Criminal Casework at the Attorney General ’s Office. The respondent served evidence before our decision on permission, on 26 April and 3 May 2019. Since our grant of permission, he has served a further affidavit, his second. The Attorney General has filed affidavits in reply from the Court Security Officer at Leeds, Anthony Walton, and the Operations Manager, Michelle Dunderdale. There is a short supplemental affidavit from Mr Jenkins, which we gave leave to adduce. Ms Dunderdale, Mr Walton and the respondent were cross-examined before us. During the hearing, the respondent submitted a further affidavit (his third), and was recalled for further cross-examination on its contents.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <motivation>
+        <tblock>
+          <p>Legal context</p>
+        </tblock>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Contempt of court is principally a common law doctrine. Its purpose is to protect the integrity of civil and criminal proceedings by imposing appropriate penalties on those who interfere with, obstruct, impede or prejudice the due administration of justice, or expose the process to risk that these consequences will follow. The label “contempt of court” has long been considered inappropriate. As Salmon LJ observed in Morris v Crown Office [1970] 2 QB 114, 129: “ The archaic description of these proceedings as “contempt of court” is in my view unfortunate and misleading. It suggests that they are designed to buttress the dignity of the judges and to protect them from insult. Nothing could be further from the truth. No such protection is needed. The sole purpose of proceedings for contempt is to give our courts the power effectively to protect the rights of the public by ensuring that the administration of justice shall not be obstructed or prevented: Skipworth ’s Case, L.R. 9 Q.B. 230 and Rex v Davies [1906] 1 KB 32. This power to commit for what is inappropriately called “contempt of court” is sui generis and has from time immemorial reposed in the judge for the protection of the public.” A similar point was made by Lord Cross of Chelsea in Attorney General v Times Newspapers Ltd [1974] AC 273, when he suggested (at 322) that the name “contempt of court” had authoritarian overtones which might tend to predispose people in favour of the alleged offender, when in truth “the administration of justice is something which all citizens, whether on the left or the right or in the centre, should be anxious to safeguard”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The law of contempt has been supplemented and shaped by statute. Four aspects of the law are relevant in this case. The first is interference with parties on their way to and from court. It is well-established that this may amount to contempt at common law. The Court of Appeal summarised the principles and their rationale in R v Runting (1989) 89 Cr. App. R. 243, 245: “… the law insists that a defendant and witnesses, and indeed anyone else who has a duty to perform at a Court, whether in a criminal trial or in a civil trial, is entitled to go to and from the Court, that is between his home and the Court, whether on foot or otherwise, without being molested or assaulted or threatened with molestation. There are two reasons for that, it seems to this Court. The first is, there must be nothing to create in the minds of such persons any fear such as to make them less likely to wish to come to Court to carry out their proper functions. The second reason, which is perhaps more difficult to put adequately into words, is this: that the authority and dignity of the Court require that those who attend the Court to carry out their duties should be allowed to do so without let or hindrance, and again without fear of molestation.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>Secondly, there is the creation and publication of images of people in the court, the court building, or in its precincts. Since 1925, this has been regulated by statute. The Criminal Justice Act 1925 s 41(1) provides, in its amended form, as follows: “41. — Prohibition on taking photographs, &amp; c., in court. (1) No person shall — (a) take or attempt to take in any court any photograph, or with a view to publication make or attempt to make in any court any portrait or sketch, of any person, being a judge of the court or a juror or a witness in or a party to any proceedings before the court, whether civil or criminal; or (b) publish any photograph, portrait or sketch taken or made in contravention of the foregoing provisions of this section or any reproduction thereof; … (2) For the purposes of this section — … (c) a photograph, portrait or sketch shall be deemed to be a photograph, portrait or sketch taken or made in court if it is taken or made in the court-room or in the building or in the precincts of the building in which the court is held, or if it is a photograph, portrait or sketch taken or made of the person while he is entering or leaving the court-room or any such building or precincts as aforesaid. ” We have emphasised the wording that is of particular relevance to the present case. It is generally considered that someone who records moving images “take[s] ... a photograph” within the meaning of these provisions: see Arlidge Eady &amp; Smith on Contempt, 5th ed, para 10-216. This is a summary-only offence, carrying a maximum penalty of a fine at Level 3 on the standard scale. It is however clear law that acts which contravene s 41 can, in appropriate cases, amount to contempt of court, exposing the wrongdoer to the more severe sanctions available in that jurisdiction, including committal: see Solicitor General v Cox [2016] 2 Cr. App. R. 15. Given the terms of s 41(2)(c), there is therefore a potential for overlap between this and the first category.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>Thirdly, there is contempt by publication which tends to interfere with the administration of justice in particular legal proceedings. The common law imposed strict liability in some respects, but the law is modified and controlled by the Contempt of Court Act 1981. Relevant provisions are contained in ss 1 and 2: “1. The strict liability rule. In this Act “the strict liability rule” means the rule of law whereby conduct may be treated as a contempt of court as tending to interfere with the course of justice in particular legal proceedings regardless of intent to do so. 2. Limitation of scope of strict liability. (1) The strict liability rule applies only in relation to publications, and for this purpose “publication” includes any speech, writing, programme included in a cable programme service or other communication in whatever form, which is addressed to the public at large or any section of the public. (2) The strict liability rule applies only to a publication which creates a substantial risk that the course of justice in the proceedings in question will be seriously impeded or prejudiced. (3) The strict liability rule applies to a publication only if the proceedings in question are active within the meaning of this section at the time of the publication. (4) Schedule 1 applies for determining the times at which proceedings are to be treated as active within the meaning of this section. …” The word “serious” is an ordinary English word, which does not require further definition; and a risk is “substantial”, within the meaning of that sub-section is “more than remote” or “not merely minimal”: Attorney General v English [1983] 1 AC 116, 142 (Lord Diplock). By Schedule 1, criminal proceedings are “active” for the purposes of s 2(3) from the time of arrest. They certainly remain active when a jury is in retirement, considering its verdicts.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>The fourth relevant aspect of the law of contempt is breach of an RRO imposed under s 4 of the 1981 Act. That section provides:- “4. — Contemporary reports of proceedings. (1) Subject to this section a person is not guilty of contempt of court under the strict liability rule in respect of a fair and accurate report of legal proceedings held in public, published contemporaneously and in good faith. (2) In any such proceedings the court may, where it appears to be necessary for avoiding a substantial risk of prejudice to the administration of justice in those proceedings, or in any other proceedings pending or imminent, order that the publication of any report of the proceedings, or any part of the proceedings, be postponed for such period as the court thinks necessary for that purpose.” An order under s 4(2) can not prohibit reporting altogether; it can only postpone it for such period as the Court thinks necessary to avoid the substantial risk of prejudice that has been identified. These powers are often used where a series of inter-related trials takes place, to avoid earlier trials infecting later ones. The 1981 Act does not provide, here or elsewhere, that the publication of a report in breach of an RRO imposed under s 4(2) amounts to contempt of court; but authority binding on this court holds that the section creates a new head of contempt, separate and distinct from the strict liability rule: R v Horsham Justices, ex p. Farquharson [1982] QB 762 (CA).</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <background>
+        <tblock>
+          <p>The facts</p>
+        </tblock>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>The facts relied on by the Attorney General are set out in the affidavit evidence, much of which is uncontested. We can outline quite shortly the evidence as to the scene, and the sequence of relevant events on and after 25 May 2018 as we find it, identifying and resolving the modest evidential disputes that arise on this part of the case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>The Crown Court is located in Leeds Combined Court Centre at 1 Oxford Row, which also houses a number of civil courts: the County Court, the Administrative Court, the Business and Property Courts, Family Court, and the Court of Protection. There is a single public entrance, via a revolving door, to which access is gained up five steps from the street. To either side of this is an “accessibility door” for staff, and an exit. All these doors are unlocked at 7.00am, but the public are only admitted between 8:30 am and 5.00pm. At the relevant time there was a notice on the entrance door, advertising these opening hours. Inside the doors there is a security barrier, with arches, manned by security staff.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>Immediately behind the security arches is a Reception desk, visible from the security area. To the right of that desk, on the wall, is the Court ’s listing board and, above this, a screen known as the Xhibit screen, displaying all court listings for the day. These are visible from the security area, though not legible from there. There are also screens with listing information outside the courtrooms, which are further away. All these screens are turned on at 8 am. The information displayed on the noticeboard and the screens is drawn from a system called CREST. The same information is used to publish court listings via CourtServe, the official listing website. Responsibility for inputting listing data into the CREST system, including reference to any RRO, lies with the Court ’s daily listing officer.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>The security area is manned from 7:00 am. The Reception desk is staffed from 8:00 am, and open to the public from 9:00 am. So is the Crown Court General Office, which is on the first floor. The Akhtar trial was in Court 12, on the third floor.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>On 25 May 2018, the respondent arrived at around 8:10 – 8:15 am, and entered the building through the accessibility door. Two Court Security Officers were on duty in the foyer. Mr Walton was one of them. The respondent, who accepts that “going into the trial I had heard there was a reporting restriction”, approached the officers. Mr Walton ’s evidence is that the respondent asked about a press ban in relation to a criminal trial, and whether the listing for that case was “up”. The respondent ’s own evidence is that he went up to security “to ask someone if the reporting restriction had been lifted”. Mr Walton, not knowing the answer to these questions, advised the respondent to enquire at the Crown Office (meaning the Crown Court General Office), or the Court Reception when they opened. Mr Walton also said that there might be notices posted on the door of the court room but that the respondent would not be allowed into the building until it opened to the public at 8:30 am. The respondent left. The respondent ’s evidence is that he went in to ask if the reporting restriction had been lifted, and the individual he spoke to (who must have been Mr Walton) said he did not know anything about a reporting restriction. We accept the respondent ’s evidence in this respect, so far as it goes, but we also accept Mr Walton ’s unchallenged evidence that he advised the respondent to make enquiries.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>As a matter of fact, the RRO was not displayed or mentioned on the noticeboard or Xhibit screen in the Reception area, or on the courtroom screen, or on the door of the courtroom (as is common practice in some courts), or on CourtServe. The undisputed evidence of Ms Dunderdale is that the RRO had been uploaded to the Digital Case System (“DCS”) on 20 March 2018. It was thus readily available to the legal professionals, and anyone else with authorised access to the DCS. We accept Ms Dunderdale ’s evidence that an enquiry of someone in the General Office or the Court clerk at Court 12 would have resulted in the existence and content of the order being made known to the enquirer. Staff members in these positions were all well aware of the RRO, a copy of which was on the noticeboard in the office. They could, if asked, have retrieved the details from the DCS, which would have been the first port of call. Written guidance was in place, advising staff that they could disclose any such order on request. The evidence suggests, however, and we find, that two months after the order was made the relevant information had not been inputted into CREST. This is a regrettable departure from standard practice, which is accurately described in the guidance issued by the Judicial College (Reporting Restrictions in the Criminal Courts 2015 (revised May 2016)) at para 5.1: “any reporting restriction is shown on the Crown Court list under the name of the relevant case – allowing a ready means of checking whether there are such restrictions in place”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The respondent ’s second affidavit maintains that he checked on the court website online, and found nothing. He says that he checked the screens in the court building and, further, that “my colleague went in to check both the court door and court screens and no mention of restriction was posted.” In his oral evidence, he added a detail not contained in his affidavit: that his colleague photographed the screens inside. His third affidavit, made during the hearing, covered the same subject. We shall return to this.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>The respondent did not speak to Mr Walton again. From around 8:32am, he began to film and live stream via Facebook video (“the Video”) showing him outside the public entrance to the court, talking to viewers about the Akhtar trial, and accosting people, including some entering the court. Three of those individuals have been identified by a West Yorkshire Police officer involved in the case as defendants in the trial. After one such confrontation, the respondent identified the person to his viewers as someone facing charges in the trial, and spoke about harassing that individual. The filming and live streaming continued until around 9:45am.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>We have viewed the Video, and an agreed transcript is in evidence. The content of what was said, done, and broadcast is central to this case. We will need to consider it in some detail when we come to the specific allegations of contempt.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>The effect of live streaming via Facebook was that the Video could be viewed on the internet in real time by members of the public and also accessed by members of the public after the live filming had ceased, either via Facebook or via any other social media platform or internet site where the Video had been copied or posted. Members of the public who accessed the Video on Facebook or elsewhere were able to" share" it with other members of the public both during the live streaming (via Facebook) and thereafter (via Facebook and other social media platforms or internet sites). At a number of points during filming, the respondent exhorted viewers to share the Video widely. According to the Respondent himself, speaking on the Video, there were some 3,600 viewers watching live by about 8:45am and this rose steadily until, by shortly after 9:30am there were 10,000 viewers.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>The respondent was arrested at around 9:45am, and brought before HHJ Marson QC shortly after 10:00am. The respondent offered to ring someone to have the Video deleted from Facebook, and we accept that he did so. This proved ineffective however because the Video had by that point been shared many times and had" gone viral". On the afternoon of Friday 25 May that HHJ Marson found the respondent to have been in contempt of court and committed him to prison.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>There is further evidence as to the extent of publication. During proceedings on the morning of 25 May 2018, Counsel for one of the criminal defendants informed the court that she had viewed the material online and reported that by about 10:50am 250,000 people had seen the Video online. This must have been a figure visible on the Facebook page. On the next sitting day, Tuesday 29 May 2018, Counsel informed the Court that there had by then been 3.5 million views of the Video. It is clear that one factor in the ultimate scale of publication was the response by supporters of the respondent to news that he had been arrested.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The content of the Video</p>
+          <p>The Attorney General ’s case</p>
+        </tblock>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>The Attorney General identifies eight main features of the Video, as follows: (1) The respondent told viewers that the Akhtar trial was going on, and that it was the second of three trials. He recited the defendants’ names and the charges they were facing, gave further information about the alleged offending, and stated that the jury were presently considering their verdicts. (2) The respondent expressly described himself as “reporting on” the Akhtar trial. (3) He related the alleged offending to wider patterns of offending (other instances of large-scale child exploitation in northern cities and across the country); he suggested this conduct had largely occurred without prosecution; he referred in derogatory terms to the ethnic and religious backgrounds and associations of the criminal defendants; he gave graphic and disturbing examples of other historic sexual offences committed by Muslim men; and suggested that “sexual slaves” are permitted, if not encouraged, by Islam as a religion. (4) The respondent spoke in terms that can have left viewers in no doubt that he believed the defendants ought to be convicted. (5) He confronted a number of the defendants, and a person he wrongly believed to be a defendant, as they arrived at court, following them as far as he could without stepping onto court property, filming them openly (so that, in most cases, their faces were visible) and questioning them in provocative and aggressive terms. The defendants accosted in this way included the ones to whom we have referred above, and another defendant who hid his face and can not be identified. (6) When some of the individuals responded with abuse, the respondent commented that their chosen terms of abuse had all been sexual and abusive, and suggested this was significant. (7) At one point he addressed other defendants, yet to arrive at Court, telling them that they would “be live to 7,000 in a minute” and that “by the end of the day hopefully millions of people have seen the faces of these alleged offenders”; (8) At another point, the respondent incited viewers to harass the criminal defendants. The words relied on are:- “You want to harass someone ’s family? You see that man who was getting aggressive as he walked into court, the man who faces charges of child abduction, rape, prostitution – harass him, find him, go knock on his door, follow him, see where he works, see what he ’s doing. You want to stick pictures online and call people and slander people, how about you do it about them?”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The respondent ’s case</p>
+        </tblock>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The respondent rejects the allegation of incitement to harass. His case is that the words relied on have been taken out of context, and their significance misrepresented. He says he was addressing the press, who had slandered him and harassed him and others. He was criticising them for double standards. Generally, the respondent says that he never intended to undermine the Court ’s authority or to interfere with the administration of justice. On the contrary, having been convicted in Canterbury he went “out of his way” to ensure he would not fall foul of the law again. He had undertaken training with a leading London law firm, and obtained and relied on the Judicial College guidance we have mentioned above. What he did was fair and accurate reporting in good faith, providing only information that was factual and relevant and already in the public domain. He did not reveal previous case verdicts, or any specifics mentioned in the trial. He did not assume guilt. He did his best not to film anyone other than the defendants “and was calm and respectful throughout”. Taking photos of people entering the precincts of a court does not amount to contempt. He has experienced far worse himself, on attending court in relation to this matter. The Video went viral as a direct result of HHJ Marson ’s conduct in “locking me up in such an obviously rushed and illegal way”, then imposing a further RRO prohibiting reporting of the respondent ’s conviction. The respondent complains that he has been unfairly singled out for prosecution, and subjected to “relentless persecution” when others who breached the RRO were not pursued, and media organisations which have broken other reporting restrictions or published prejudicial material have only been fined.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>The respondent ’s second affidavit provides some further responses to the Attorney General ’s specific points: (1) All the information reported was already in the public domain. He read the charges and names from a BBC news report that was live on their website, and the names and charges were listed on the court website. He made clear that they were innocent until proven guilty. (2) When speaking to passers-by, he was “speaking in general terms about these grooming cases in general and not this specific case”. He denies that references to the defendants having their prison bags amounts to contempt, as it merely highlights that they are defendants. (3) He denies that “asking now convicted child rapists what they think [of] their verdict amounts to contempt”. (4) He treated the defendants “with respect and in a restrained manner in comparison to the treatment of high-profile defendants facing historic sex offence allegations such as Rolf Harris”. Media scrums “unattractive as they are, are an inevitable feature of proceedings”. (5) There is no sensible basis for criticising his own tone and manner. His observations about the defendants’ use of aggressive sexual remarks about women are unobjectionable.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The allegations of contempt</p>
+          <p>Breach of the RRO</p>
+        </tblock>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>The Attorney General ’s case is that the respondent committed contempt by “publishing a report of the Akhtar trial, knowing that a reporting restriction was in place and having failed to take reasonable steps to ascertain the true terms of the s4(2) Order and/or being reckless as to the terms of the s4(2) Order.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>The relevant parts of the Video start at pp1-2 of the transcript. The respondent read out the names of nine defendants, and all the charges they faced. It is common ground that he was reading from an online report. We find this was the Huddersfield Examiner report of the directions hearing on 11 May 2018. But nobody watching and listening to what he said would have known this. Other relevant parts of the Video (with references to the relevant parts of the transcript) are these: [p3] “the alleged perpetrators are in court today and people need to know what is going on, people need to know these court cases are happening. Obviously, the problem is you have people like that who think I ’m a wanker for reporting on it. [p7] You see that man who was getting aggressive as he walked into court, the man who faces charges of child abduction, rape, prostitution … [p11] I ’m on a suspended sentence, suspended prison sentence which was supposed to be to prevent me or deter me from reporting on these sort of cases. I think that it ’s important that people understand just what ’s going on. [p14] Again if you ’re just joining us there is a court case today where10 men are expecting their verdicts, this court case involves 18 young girls, some as young as 11. There were actually I believe hundreds of victims in the Huddersfield area. Must be 18 young girls that they got to come forward, this all come after some of them aged 11, the men face charges of prostitution, abduction, drug abuse, all these sort of charges and offences, in this case there ’s 29 perpetrators, 2 women, 2 Muslim women on this trial. Not this part but they ’re on part of this 29 trial, 2 Muslim women. All of them are alleged to have been involved so all of them are innocent until proven guilty and 30 % of them, if you ’re just joining us, are called Mohammed. They are from majority Pakistani community of Huddersfield and these rapes happened between 2004 and 2011. So today ’s the verdict, I believe the jury went out yesterday to decide. [p24] There ’s a grooming court case going on, there ’s 29 people on charge, 10 of them are up for verdict today. [male bystander] What are they charged for? [Respondent] Raping girls as young as 11, 18 girls …. … are part of this trial … So yeah I ’m here to report to let people know these Court cases are going on … [p39] “[male bystander] What ’s going on here? ... Paedophiles? [Respondent] Yeah 29 of them on trial, 2 women for grooming 11-year olds, well allegedly grooming 11-year olds.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>Mr Caldecott argues that the actus reus of this offence is committed by the reporting in and of itself. The fact, if it be so, that some information is in the public domain has no bearing on the question of whether an act of contempt has been committed. As to mens rea, he submits that negligence may be sufficient, but in any event subjective recklessness as to the existence and terms of the RRO is enough as a matter of law.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>Mr Furlong accepts that breach of a s 4(2) order is capable of amounting to contempt. In his skeleton argument, he made four main submissions as to the law. First, he argued that contempt of this variety can only be made out on proof of “disobedience to an order of the court properly made”. Secondly, he invited us to conclude that on a proper analysis this RRO was not “properly made”. Next, he argued that contempt can not be made out unless it is proved that the respondent had knowledge that an order was in force, postponing publication; it is not enough to establish reckless in that respect. He further argued that it would be wrong to import recklessness into this branch of the law at all.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>We can not accept either of Mr Furlong ’s first two propositions. It is a fundamental principle of long standing that orders of the court must be obeyed whilst they remain in force; disobedience to an order will therefore amount to a breach, capable of amounting to contempt, even if on later examination it proves to have been wrongly made: see Woodward v Earl Lincoln (1674) 3 Swan App 626, 36 ER 1000, and other authorities cited in Arlidge, Eady &amp; Smith at 7-173 and 9-230 to 9-235. More than this, Mr Furlong ’s submission is contrary to authority. In the Horsham Justices case, the majority of the Court of Appeal (Ackner and Shaw LJJ) rejected a submission advanced by Mr Beloff QC on behalf of the appellant journalists that the Court confronted with a committal application could and should reconsider the decision to make a s 4(2 ) order: see [1982] 1 QB 798B-C (Shaw LJ), 805B-E, 806E-F (Ackner LJ). See also the obiter remarks of Brooke LJ in Attorney General v Guardian Newspapers Ltd (No 3) [1992] 1 WLR 874, 884H-885A, which are to the same effect. We agree with the conclusion of the editors of Arlidge, Eady &amp; Smith (at 7-319) that “the validity of a s 4(2) order can not be made the subject of challenge in contempt proceedings based upon a breach.” In his oral submissions, Mr Furlong made clear that he did not seek to argue otherwise.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>Nor did he press the argument, advanced in the skeleton argument, that the RRO in this case was wrongly made. This aspect of the respondent ’s case was based on a misconception. It started with the following passage in para 4.5 of the Judicial College guidance we have mentioned: “The subject matter of a postponement order under s 4(2) is fair, accurate, good faith and contemporaneous reports of the proceedings. Trial judges have no power under s 4(2) to postpone publication of any other reports, eg in relation to matters not admitted into evidence or prejudicial comment in relation to the proceedings.91 Likewise, courts have no power under s 4(2) to prevent publication of material that is already in the public domain. Such publications may incur liability for contempt of court under the strict liability rule and the media bear the responsibility for exercising its judgment in such cases.92” As this passage correctly indicates, s 4(2) does not authorise the Court to postpone reporting of material extraneous to the proceedings, such as comment. But that proposition has no bearing on this case; the RRO did not purport to postpone anything other than reports of the proceedings. This passage, and the authorities cited in it, were also relied on by Mr Furlong in support of a further submission, that “material which is in the public domain can not be the subject of an order under s 4(2)”. From that starting point, it was argued that it was legitimate for this respondent (or, presumably, anyone else) to repeat anything about the proceedings against Akhtar and others which had entered the public domain as a result of reporting by others. That is not how we read what the guidance says, nor is this the law.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>An RRO imposed under s 4(2) operates to prohibit reporting of the proceedings to which it refers, from the time it is made until the end point identified in the order. The fact that there has already been reporting, or that matters that are later given in evidence have previously been made public in some other context does not debar the Court from making an order under s 4(2). Nor is there any implied public domain proviso to orders of this kind, permitting reporting of aspects of the proceedings so long as the facts in question have been publicised before. Indeed, previous reporting may be a reason for making an order. One of the cases cited by Mr Furlong illustrates the point. Montgomery v HM Advocate [2003] 1 AC 641 concerned a notorious murder. A great deal of prejudicial publicity had appeared between the passing of some sentencing remarks in a case brought against one person accused of the murder and 26 August 1999, when a s 4(2) order was made to prevent prejudice to the trial of three others who had been separately indicted. The Privy Council upheld the decisions of the courts below, that the defendants could still have a fair trial. Nobody suggested that s 4(2) order was wrongly made, or that it was of limited or no effect from the date it was made because of previous publicity.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>In his oral submissions, Mr Furlong advanced a different version of the “public domain” argument. He cited Montgomery v HM Advocate and Re B [2006] EWCA Crim 2696 2007] EMLR 5, as authority that juries can be trusted to put prejudicial pre-trial publicity out of their minds, arguing that in consequence s 4(2) orders are unnecessary, and indeed pointless. He went so far as to submit that the Court lacks jurisdiction to make any such order. This, he submitted, explained the wording in the guide. We found these submissions hard to follow. We consider them to be both ill-founded, and incapable of explaining the wording referred to. We believe the point the Judicial College was striving to make was that a s 4(2) Order can not prevent the publication of information in the public domain which is not or does not purport to be a report of the relevant proceedings. That has no bearing on the issues arising in this part of the case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>We also reject Mr Furlong ’s alternative submission, that the order in this case lacked clarity. The argument is that if the order was intended to cover information that was already in the public domain this should have been spelled out. There was no need for this. The order was clear in its terms, leaving no room for ambiguity; it simply prohibited reports of the proceedings until all related trials were complete.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>We turn to the question of the mental element. In our judgment, it is not necessary to prove that an alleged contemnor had actual knowledge of the terms of a s 4(2) order. In Attorney General v News Group Newspapers (1984) 6 Cr App R (S) 418, 420, Stephen Brown LJ observed that there is “a strict duty of care placed upon those who publish news items relating to trials to ensure that they do not run the risk of interfering with the course of justice.” That was in a different context, but we believe it is consistent with principle, and with the gravamen of this form of contempt of court, which is culpable interference with the due administration of justice. We do not consider that there is any analogy to be drawn between orders of this nature and those of different kinds, such as the freezing order which was the subject of Z Ltd v A-Z and AA – LL [1982] QB 558, on which Mr Furlong relies. Someone reporting on a trial is not in any relevant sense a “third party” to a s 4(2) order, which is addressed to the public at large.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>Further, as Mr Caldecott points out, a rule that only those who publish with actual knowledge of the terms of an RRO can be penalised for its breach would pose a serious risk of such orders being ineffectual. It would be impracticable to impose responsibility on the Court to ensure that everybody who is intended to be bound had actual knowledge of the terms of an order, and it would create a perverse incentive for reporters to avoid acquiring actual knowledge. The practicalities are reflected in the Criminal Practice Directions 2015. These require Court staff to help those who ask, but place the duty of enquiry on those who seek to report proceedings : “6B.6 A copy of the order should be provided to any person known to have an interest in reporting the proceedings and to any local or national media who regularly report proceedings in the court. 6B.7 Court staff should be prepared to answer any enquiry about a specific case; but it is and will remain the responsibility of anyone reporting a case to ensure that no breach of any order occurs and the onus rests on such person to make enquiry in case of doubt.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>Mr Furlong argued orally that it would be “problematic” to import the law of recklessness into the law on s 4(2) contempt, when there is no central registry of s 4(2) orders and no easy way to check. He submitted that there was the potential for serious and important adverse consequences for media organisations generally. We disagree. Breaches of these orders by media organisations are extremely rare. This is doubtless because professional journalists reporting on legal proceedings are generally well- informed, careful, and well-advised, and because the Court is ready to provide copies of RROs when asked.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>In our judgment, therefore, it is enough to establish subjective recklessness, as defined in R v G [2003] UKHL 50 [2004] 1 AC 1034. A person who publishes material in breach of an RRO will be guilty of contempt if he or she foresees the possibility that the publication may be a breach of such an order, but proceeds with publication, taking an unreasonable risk. Someone who knows or suspects that an order is in place but does not know its terms is clearly put on inquiry. If the person makes no enquiry, or fails to take reasonable steps to find out what the terms are, it will ordinarily be easy to infer subjective recklessness.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>Mr Caldecott referred to the possibility that negligence as to the existence of a RRO might be enough. This point does not arise on the facts, as we are entirely satisfied that the respondent had actual knowledge that there was an order in force restricting reporting of the trial. He said as much, repeatedly, on the Video itself. He admitted it to HHJ Marson, through his Counsel, on 25 May 2018. The same admission was reflected in the Advice and Grounds of Appeal advanced on his behalf to the Court of Appeal. He has admitted in his written evidence to us that he was aware there was a reporting restriction of some kind, and in his oral evidence he confirmed that someone had told him this. That of course is why he approached Mr Walton. We accept Mr Walton ’s evidence as to what the respondent said to him. That indicates clearly that the respondent knew that the restriction was a “ban”. We also accept that the respondent asked if the “ban” had been “lifted”. However, he had no information to suggest that it had been. Nor was he told that it had. His own account of the enquiries he made does not suggest that he concluded that the “ban” which he knew about had been lifted. The highest he puts it is that the fact that those enquiries drew a blank “gave me the impression that the restriction was no longer in place as the trial had finished and the jury were out” (our emphasis). Even on that account, by filming and live streaming outside court in ignorance of the terms of the order or its status he was taking an unreasonable risk that his conduct would contravene a reporting restriction. He offers no explanation of why a restriction should be thought to come to an end when the jury were out considering their verdicts, the most sensitive stage of the trial.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>As it is, we reject the respondent ’s evidence that he looked online and that he and a colleague looked at screens and the court door, to see if an order could be found. This is an account that, if true, one would expect to have featured prominently at some stage before it was first advanced in the witness statement the respondent submitted in the proceedings before the Recorder of London on 22 October 2018, many months after the event (for example, before the CACD).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>The version of events the respondent has now put before us is more elaborate still, adding significant details that were not mentioned before. In his second affidavit for example, sworn on 4 June 2019, the respondent refers to checking the screens himself. He also mentions an unidentified colleague, who “went in to check both the court door and court screens.” In his oral evidence on 4 July 2019, the respondent named him for the first time, as Caolan Robertson, and claimed in addition that he had reported back to the respondent, and showed him a photo on his phone that showed the screens inside the building.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>The respondent has thus had many opportunities to explain the steps he took to inform himself about the terms of the RRO. His version of events has developed and changed. The account he now gives is not credible. There was no opportunity for the respondent ’s colleague to do these things before the livestreaming began. That happened at around 8:32 am. The Court building was not open to the public. It is not credible that security was not enforced. The screens at the courtrooms could not have been seen from the foyer. Moreover, on the Video itself the respondent can be heard to say this: “Now there is a reporting restriction on this case”. His evidence to us is therefore inconsistent with what he was saying on the day.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>We also reject the respondent ’s evidence that he had consulted the Judicial College guide, and concluded from that document that he was free to report anything that was in the public domain. This is another late and implausible aspect of his account. The guidance was not cited in the training materials he has exhibited. In his oral evidence to us, the respondent variously claimed to have researched the whole subject of contempt on his own account, and to have found out this point when carrying out an internet search outside court between 08:15 and 08:30 on 25 May 2019. This is not credible evidence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>We find that the respondent proceeded to film and livestream the Video knowing there was a reporting restriction order, and without making any further enquiry about its terms beyond the one he made of Mr Walton. Having been told where enquiries could be made, the respondent did not take steps to make any. It is not necessary for us to attribute motives to his actions, but we are satisfied that the respondent proceeded to live stream because he wanted to capture and publish images of the defendants being confronted by him as they went into court. The Video contains a number of references to the desirability of their faces being seen. It also shows that he knew that the defendants would be arriving early.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>Mr Furlong has pointed out, correctly, that some of what was said on the Video did not constitute a report of the proceedings. Remarks about the behaviour of Muslim men, and generalised allegations about their propensity to commit sexual abuse of women and girls, were not court reports. In his oral argument, Mr Furlong added a point that had not appeared in his skeleton argument: that the relevant proceedings, for our purposes, are only those in indictment in the Akhtar case. That was a new point, but one that does not arise on these facts. We agree with the first two of the Attorney ’s eight points listed above, which seem to us beyond sensible dispute. What the respondent published online plainly included material that amounted to reporting of the proceedings on indictment in the Akhtar case, and thus on any view infringed the RRO imposed by HHJ Marson. Indeed, it seems perfectly plain that the respondent was quite deliberately reporting on the proceedings which he had told his viewers were the subject of a reporting restriction.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>Mr Caldecott has addressed us on the question of whether, in order to prove contempt by breach of an RRO imposed under s 4(2), it is necessary to establish a specific intent to interfere with the administration of justice. We do not consider this is necessary. We do not see any principled basis for importing such a requirement, in a context in which the Court has made an order addressed to anyone who might wish to report the proceedings, for the express purposes of avoiding a substantial risk of prejudice to the administration of justice in those proceedings. We are supported in this view by what was said by this Court in Solicitor General v Cox (above) at [73]:- “Where the act which constitutes a contempt in the face of the court, or one closely akin to such a contempt, is not a crime, the deliberate breach of a court order of which he has notice will be sufficient. It is not necessary that the person additionally intended by his breach to interfere with the administration of justice, though, for the reasons we have set out and which were considered in [Attorney General v Dallas [2012] 1 WLR 991] it will generally readily be inferred that such an intention is established. It does not matter in principle whether the order is specific, as in a judge ’s direction to a jury on internet searches, or general, as in the public notices in court buildings.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>See also [77-78].1</p>
+        </tblock>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>We therefore find that the first allegation of contempt is made out.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Breach of the strict liability rule</p>
+        </tblock>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>The Attorney General ’s case is that the respondent committed contempt by “being responsible for a publication which created a substantial risk that the course of justice in the Akhtar Trial and the related trials would be seriously impeded …” by reason of its impact on the defendants. This is a change of position by the Attorney General, who previously suggested that the publication created a risk that the trials would be prejudiced by the impact on jurors. That no longer forms any part of the case for the Attorney General. The change of position follows the single Judge ’s decision to refuse permission to appeal. Prejudice and impediment are separate and distinct concepts: AG v MGN Ltd [2011] EWHC 2074 (Admin) [2012] 1 WLR 2408 [16] (Lord Judge CJ).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>The case, as now put forward, has three linked aspects to it. The first aspect is a risk that (a) one or more of the defendants would (i) be harassed on their way to court by followers of the respondent who had seen the Video, or (ii) reasonably apprehend that this might happen, creating distraction and anxiety which would impede their ability to participate properly in the trial. Secondly, in the light of this first risk, it is suggested that there was risk (b), that the Court and/or the police might have to take or arrange additional measures to ensure that the defendants on bail would be able to continue to attend court without hindrance or harassment, and to participate properly in the trial. 1 We have been referred to Arlidge, Eady and Smith, 5th ed. , para 7-294. The authorities relied on there are all concerned with quite different situations from that which arises in this case. Thirdly, publication of the Video is said to have created a “more than remote” risk (c) that, with or without such measures, one or more of the defendants on bail might abscond; the suggested reasons are having seen the Video and/or having been harassed by followers of the respondent who had seen it and/or being fearful of such harassment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>In support of these arguments, the Attorney General relies in particular on the passage in the Video that we have already quoted, which is characterised as an incitement to the respondent ’s supporters to harass the defendants. Because of its importance to this part of the case, we repeat the passage: “You want to harass someone ’s family? You see that man who was getting aggressive as he walked into court, the man who faces charges of child abduction, rape, prostitution – harass him, find him, go knock on his door, follow him, see where he works, see what he ’s doing. You want to stick pictures online and call people and slander people, how about you do it about them?”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>Mr Caldecott also relies on what he submits are the “abusive and emotive terms of the Video” generally, which can best be gauged by looking at the Video itself. Examples of this are the following: “ [p1] [to one of the defendants] Got your prison bag with you? … You ’ve got no guilt, is there any guilt, is there any guilt, is there any guilt mate? ... So, as you can see there it does n’t seem like much guilt, does n’t seem like anyone ’s ashamed. [p7] Did n’t really get the cleanest shots of them but when I first come to try and show people who these men were, bearing in mind they ’ve been walking around your towns and cities for the last 2 years whilst this has been going on, been working in shops, chicken shops, probably driving taxis etc etc, I thought people should know their faces and their identities. and when I went last time – you can see the footage, go online and watch it – they turned up with balaclavas, they tried to get physical and they all hid their identities. [p27] Yeah share it share it share it, get it up to 10,000 live people by the time these next alleged offenders walk through these doors. [p40] just trying to show people who are watching this is what ’s happening, this is what the case is this is how many girls were victims. This is what they ’ve said and this is what they ’ve done [male bystander] Dirty bastards innit. [Respondent] Yeah mate. [female bystander] Should fucking hang him ...”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>This all happened, submits Mr Caldecott, at a particularly sensitive point in the trial, when the defendants would naturally be anxious about the verdicts which the jury were considering. To participate properly in the trial, it was necessary for them to be able to travel to and from court without fear of molestation, and to be in a state of mind that allowed them to focus on the issues in the case (including any raised by notes from the jury), to give considered instructions to their lawyers, and to receive and understand advice. Mr Caldecott draws attention to the importance of allowing participants in trials, and particularly criminal trials, to pass to and from court without disturbance.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>Mr Furlong submits that, however it may be framed, in substance and reality the Attorney General ’s case before us is one of prejudice to the course of justice and thus that strict liability contempt by publication can only be made out on proof of conduct that gives rise to a “seriously arguable ground of appeal”: see the words of Simon Brown LJ in Attorney General v Unger [198 ] 1 Cr App R 308, 318-319 and Attorney General v Birmingham Post and Mail Ltd [1999] 1 WLR 361, 369-370. We do not accept this argument, which in our view is fundamentally misconceived. The creation of a seriously arguable ground of appeal may be a useful criterion in the context of publications that may prejudice the deliberations of a jury. In our judgment, however, the notion of impeding the course of justice is a distinct one that engages very broad considerations, to do with the administration of justice and the public interest, for the reasons articulated by Salmon LJ and Lord Lane CJ in the passages cited at [25] and [26] above.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>As Oliver LJ said in Attorney General v Times Newspapers Ltd (The Times, 12 February 1983), “The course of justice is not just concerned with the outcome of proceedings. It is concerned with the whole process of the law”. As he went on to explain, the course of justice may be impeded in many ways, including “external pressure which impedes or restricts” the “freedom of a person accused of crime to elect the mode of trial he prefers, or to conduct his defence in the way which seems best to him and his advisers.” See further the observations of Lord Judge in the MGN case at [31].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>Mr Furlong submits that there was no real or substantial risk that any of the defendants would view the Video. We disagree. It was clear to all those who were confronted by the respondent that he was filming for the purpose of broadcast. It will have been clear to all of them that the respondent was hostile, that he would be speaking to followers and sympathisers, and that what he was saying publicly was liable to be highly prejudicial to the defendants’ interests. It would be only natural for a defendant to want to know, and to see and hear, what had been broadcast about them at such a time. That is not least because they will all have been acutely aware of the impact such publicity could have on the verdicts of the jury. We know that Counsel for some of the defendants did go online to see what was broadcast, and to how many, and relied on it in support of applications to discharge the jury. That is entirely unsurprising. We are unimpressed by the submission that the criminal defendants were “well able to handle critical questioning” and “did not show any signs of intimidation”. They responded aggressively, but that is a common reaction to aggressive confrontation. It does not mean that there was no substantial risk of the consequences identified by the Attorney General.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>The respondent says his words were not intended to encourage his followers to harass the defendants but rather to denounce the media for their behaviour towards him and others. However, the issue raised by the application is the meaning and effect of his words. In our judgment, those words and the manner of their delivery were an encouragement to others to harass a defendant by finding him, knocking on his door, following him, and watching him, and this gave rise to a real risk that the course of justice would be seriously impeded. A little later in the Video, the respondent asked viewers rhetorically why there were not dozens of national media outside court waiting and “why are they not trying to approach these criminals or show where they live or show where they work or show what they ’re doing or why why why why …?” All of this has to be assessed in the context of the Video as a whole, in which the respondent approves and encourages vigilante action. We are sure that what the respondent said in this passage will have been understood by a substantial number of viewers as an incitement to engage in harassment of the defendants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>Mr Furlong has not sought to argue that, if the Attorney is correct as to the true meaning and effect of the respondent ’s words, there would have been no real risk of harassment. Rightly so, in our judgment. Generally, someone who uses inflammatory words will find it hard to persuade a court that they were empty of effect. Further, the medium matters, as well as the message. The dangers of using the un-moderated platforms of social media, with the unparalleled speed and reach of such communications, are obvious. In this case, the respondent was engaged in the agitation of members of the public in respect of what he presented as a serious threat to society. His words had a clear tendency to encourage unlawful physical or verbal aggression towards identifiable targets. Harassment of the kind he was describing could not be justified. It is not necessary to assess the level of risk that such conduct would in fact be engaged in, beyond concluding that it was real and substantial. Furthermore, there was plainly a real risk that the defendants awaiting jury verdicts would see themselves as at risk, feel intimidated, and that this would have a significant adverse impact on their ability to participate in the closing stages of the trial. That in itself would represent a serious impediment to the course of justice.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>For these reasons, we find the Attorney General ’s second ground to be made out.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Direct interference with the administration of justice</p>
+        </tblock>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>The Attorney General ’s case is that two aspects of the respondent ’s conduct amounted to contempt at common law, because they involved interference, or created a real risk of interference, with the administration of justice. The first is his conduct in confronting some of the defendants, and one other person attending court, “in aggressive and provocative terms” and openly filming them “so that they would know that these encounters were likely to be made available to the public via social media”. The vices of such behaviour are identified as (a) the creation of a real risk that those defendants would not attend court in a frame of mind that allowed them to participate properly in their trial and (b) disrespecting the authority and dignity of the court and the administration of justice, “which require that persons who are required to attend court should be able to do so without let or hindrance or fear of molestation.” As will be apparent, there is a degree of overlap between this aspect of the Attorney General ’s case and the strict liability limb, with which we have just dealt.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>We find that the respondent ’s conduct did give rise to a real risk that the defendants he confronted would arrive at Court in an upset and agitated state, unsuitable for participation in the serious proceedings in which they were due to take part. The true nature of the respondent ’s behaviour when confronting the defendants outside court can only be properly appreciated by viewing the Video. It can properly be characterised as of an intimidating nature, and “aggressive and provocative”. We agree with the submissions made on behalf of the Attorney General.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>80</num>
+          <content>
+            <p>The underlying legal principle was well expressed by Bowen LJ in Re Johnson (1888) 20 QBD 68, 74: “The principle is that those who have duties to discharge in a court of justice are protected by the law, and shielded on their way to the discharge of such duties, while discharging them, and on their return therefrom ….” As Lord Lane CJ made clear in Runting ([26] above), one reason for that principle is that “the authority and dignity of the Court require that those who attend the Court to carry out their duties should be allowed to do so without let or hindrance.” The principle is broader still. William Blackstone ’s Commentaries on the Laws of England (1825 edition, p285) identified the conduct engaging the common law contempt jurisdiction as that which: “demonstrates a gross want of that regard and respect, which when once courts of justice are deprived of, their authority (so necessary for the good order of the kingdom) is entirely lost among the people.” It is, fundamentally, a matter of respect for the institutions, and the process by which justice is administered.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>81</num>
+          <content>
+            <p>There is no proper basis on which to limit the application of this principle to acts of physical rather than verbal molestation. Mr Furlong argues that the Court should not set a lower standard for interference with a party, than the standard set for the offence of intimidation of a witness or juror, contrary to s 51(1) of the Criminal Justice and Public Order Act 1994. We do not find this persuasive. The statutory offence, which carries a maximum sentence of 5 years’ imprisonment, is quite different. It can be committed anywhere. It applies to an investigation as well as the course of justice. The gist of the offence is an act of intimidation or intended intimidation, which is intended to cause the investigation or the course of justice to be obstructed, perverted or interfered with. It is a carefully crafted statutory regime designed to deal with a particular issue.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>82</num>
+          <content>
+            <p>This brings us to the second aspect of the respondent ’s conduct that is said to amount to common law contempt: “taking photographs of persons while they were entering the Court building (or the precincts thereof), and [simultaneously] publishing those photographs, which are administration of justice offences contrary to s41 of the Criminal Justice Act 1925 and, in the circumstances of this case, contempt of court at common law meriting committal proceedings.” Again, it is right to recognise a degree of overlap between this and other aspects of the Attorney ’s case, but this remains a separate and distinct ground.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>83</num>
+          <content>
+            <p>Mr Furlong has pointed out that there was no filming of events within the court building, and that the respondent never entered the building whilst filming. He has not disputed that some of the filming showed some of the defendants entering court, within the “precincts” of the court, as clearly it did. That would amount to a s 41 offence. He submits, however, that the respondent himself never entered the precincts. We are not persuaded of this point. The term “precincts” is not defined. It was considered by the Phillimore Committee in 1948 which (at para 41) noted the wide variety of court buildings throughout the country, concluding that it would be impracticable to attempt to define for all purposes what are the precincts of a court. The Committee suggested that the court should be able to determine the limits of the precincts, or extend them “if, for example, an actual or threatened demonstration in the highway outside should interfere with proceedings in court.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>84</num>
+          <content>
+            <p>We would be inclined to give the term “precincts” a flexible but purposive interpretation, regarding it as intended to allow a zone of relative calm around the perimeter of a court building, within which the protected categories of participant could be confident that their progress to and from the court building for the purposes of the relevant litigation would not be disrupted or intruded upon by the capture or publication of images. As his own Counsel acknowledged in their Grounds to the CACD, the Video depicted the respondent “in the vicinity of Leeds Crown Court”. The Video itself shows him in a public space near the court, approaching the defendants as they arrive and filming them as they go up the ramp to the front entrance, whilst himself approaching and reaching the foot of the steps and the edge of the wall by the ramp.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>85</num>
+          <content>
+            <p>But this is not the central point. Although we are satisfied that the filming included not only film of defendants in the precincts, but also film taken from places which were within the precincts of the court, it would not be appropriate to deal in niceties, when the allegation is one of contempt. There is threshold of seriousness which the Attorney General must surmount: a s 41 offence is not in and of itself a contempt of court. The question should be approached as one of substance: did the respondent ’s conduct in filming the defendants as they arrived at court and simultaneously broadcasting the footage interfere so significantly with the due administration of justice as to go beyond mere disobedience to the statutory ban on photography, and justify the more severe sanctions attaching to contempt of court?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>86</num>
+          <content>
+            <p>This is essentially a question of fact and degree, for the Court ’s evaluation. At one end of the scale may be the actions of a foreign tourist, taking pictures of the courtroom scene purely out of interest in the architecture or design of the interior, in ignorance of any rule against doing so. Towards the other end would be the recording and online publication of a video of sentencing remarks, in deliberate contravention of a well- advertised prohibition on filming in court, accompanied by derogatory comment, as in Cox. In our judgment, the filming here went beyond mere contravention of s 41. It crossed the threshold of seriousness and justifies the imposition of sanctions for contempt.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>87</num>
+          <content>
+            <p>We would identify the following factors, considered cumulatively: (1) This was targeted behaviour, not incidental filming; (2) it was engaged in at what the defendant must have known to be a time of high anxiety for the defendants, when they were entitled to be presumed innocent; (3) knowing that the defendants did not wish to be approached; he had attempted it before, at Huddersfield Magistrates’ Court; (4) when the respondent ’s approach predictably elicited aggressive responses, he sought to exploit these against the defendants by implying that they were incriminating; (5) this was done very publicly, in a way that was likely to and did attract the attention of passers-by; (6) the filming was persistent, and involved a degree of following, whilst live streaming. The filming must of course be assessed in the context of the harassment with which we have dealt already. It is also necessary to have regard to the wider context. If the court were to condone the live broadcast of these defendants being aggressively confronted as they arrive at court, in conjunction with prejudicial commentary and exhortations to engage in harassment, it would pose a risk to the wider interests of the justice system.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>88</num>
+          <content>
+            <p>As for the mental element, it is not necessary to show knowledge of the legal provision or a specific intent to interfere with the administration of justice. In cases of this kind, as is common ground, it is enough to show that the conduct engaged in was deliberate. There is no room for doubt about that.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>89</num>
+          <content>
+            <p>Finally, we address the respondent ’s contention that similar or worse behaviour, towards him and others, has gone unpunished (though whether his case is that this amounts to “hounding” as the respondent suggested, or what Mr Furlong said in submissions is “robust” behaviour of the kind which it is normal, and legitimate for today ’s media to engage in, is not entirely clear). Be that as it may, the questions we have had to address in these proceedings are not about the conduct of others, but that of the respondent.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Freedom of expression</p>
+        </tblock>
+        <paragraph>
+          <num>90</num>
+          <content>
+            <p>It remains to address the argument advanced by the respondent, that his activities fell within the boundaries of reasonable journalistic behaviour in a high-profile case. Reliance is placed on Article 10 of the European Convention on Human Rights, which guarantees the right to freedom of expression. This includes freedom to hold opinions and to receive and impart information without interference by public authorities. There can be no doubt that the imposition of penalties for contempt of court represents an interference with this fundamental right. It is true, also, that this right includes the freedom to express ideas that shock, offend, or disturb. Mr Furlong submits that even if the respondent ’s behaviour was offensive, rude, uncivilised or wholly reprehensible it would nonetheless be protected by Article 10.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>91</num>
+          <content>
+            <p>Freedom of expression could not justify an interference with fair trial rights, which are unqualified. Here, we are concerned with interferences with the administration of justice that fall short of subverting the right to a fair trial. However, we are satisfied that our interpretation and application of the law of contempt is consistent with the Convention. An interference must be necessary for and proportionate to one or more of the legitimate aims set out in Article 10(2). These include “maintaining the authority and impartiality of the judiciary.” This is not an archaic or empty formality that focusses on the standing of Judges. It is a principle essential to the maintenance of democratic order. Due process is not just about outcomes. The rule of law demands that those who act in such a way as to subvert due process should be held to account, whether or not they actually threaten the fairness of the end result. These are essential principles which must be given weight in a democratic society. On the facts of this case the weight to be given to these valuable principles comfortably exceeds that to be given to forms of expression used by the respondent such as “How are you feeling about your verdict?” or “You got your prison bag with you?”</p>
+          </content>
+        </paragraph>
+      </background>
+      <decision>
+        <tblock>
+          <p>The grant of permission</p>
+        </tblock>
+        <paragraph>
+          <num>92</num>
+          <content>
+            <p>At the hearing before us on 14 May 2019, it was common ground that the Attorney General required the Court ’s permission to proceed with his application. For the respondent, Mr Furlong opposed the grant of permission. Two points of principle arose. First, Mr Caldecott rightly highlighted an issue about the proper categorisation of the first limb of the application, which alleges contempt by breach of the RRO. Secondly, there was debate about the threshold requirements for granting permission.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Categorisation</p>
+        </tblock>
+        <paragraph>
+          <num>93</num>
+          <content>
+            <p>The Attorney General sought permission under Section III of Part 81, and specifically under CPR 81.12(1). The relevant provisions are these:- “III COMMITTAL FOR INTERFERENCE WITH THE DUE ADMINISTRATION OF JUSTICE ” Scope 81.12 (1) This Section regulates committal applications in relation to interference with the due administration of justice in connection with proceedings – … (e) which are criminal proceedings, except where the contempt is committed in the face of the court or consists of disobedience to an order of the court or a breach of an undertaking to the court. … (3) A committal application under this Section may not be made without the permission of the court.” (Emphasis added).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>94</num>
+          <content>
+            <p>This wording plainly means that the Court ’s permission is required for the second and third limbs of the present application, but a difficulty arises from the words of exception which we have underlined. Contempt committed by breach of an RRO would seem, on the face of it, to be contempt which “consists of … disobedience to an order of the court.” Contempt of that kind would, superficially, appear to fall within Section II of Part 81, which is headed “Committal for breach of a judgment, order or undertaking to do or abstain from doing an act”. Section II prescribes a procedure for seeking committal which does not require the Court ’s permission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>95</num>
+          <content>
+            <p>It is hard to believe, however, that the authors of these rules intended that an application by the Attorney General for the committal of a person who has disobeyed an RRO imposed by the Crown Court should be treated in the same way as (for instance) an application by the claimant in a civil money claim to commit a defendant who has refused to comply with an order for disclosure. There are many reasons to think that this was not the intention. (1) The permission requirement is a safeguard for the alleged contemnor. It plainly applies where the respondent is alleged to have committed contempt by a publication that risks impeding or prejudicing the administration of justice in particular proceedings, in breach of the strict liability rule. Logically, the same safeguard should apply to an application to commit on the basis that the very same publication amounted to contempt because it was in breach of a s 4(2) order. The two allegations will often be made in the same committal proceedings, as they are in this case. (2) At the same time, dealing with committal for breach of an RRO under Section II of Part 81 would bring into play a number of procedural requirements which are clearly inappropriate. CPR 81.5 provides, for instance, that a judgment or order may not be enforced under this Section unless it has been “served on the person required to do or not do the act in question”. Rule 81.6 requires personal service. But RROs take effect against all the world; they can and should be publicised, but it would be impossible to serve them personally on everybody who is to be bound. Rules 81.5 and 81.8 do allow the Court to dispense with service, but this only mitigates the unsuitability of the regime. (3) There are further indications that Section II of Part 81 was not intended to cover an application such as this. Section 19(3) of the Senior Courts Act 1981 provides that “the jurisdiction of the High Court shall be exercised by a single Judge of that court”, subject to specified exceptions. The exceptions include cases which the rules of Court require to be decided by a Divisional Court. Historically, the customary way to prosecute contempt consisting of disobedience to orders made by the Court in criminal proceedings was an application to the Divisional Court, pursuant to leave obtained under Order 52 of the Rules of the Supreme Court: see R v D [1984] AC 778, 791-2 (Watkins LJ). Section III of Part 81 seems to echo this; by CPR 81.13(1)(e), an application under that Section to commit for contempt committed in connection with criminal proceedings “may be made only to a Divisional Court”. Section II contains no such limit, so High Court proceedings under that section must be brought before a single Judge. (4) Crown Court Judges have often initiated proceedings in their own Court, by calling in editors or other publishers suspected of disobedience to RROs, including s 4(2) orders, as HHJ Marson did here. It may be that the intention of the draftsman, when framing the exceptions in CPR 81.12(1), was to preserve a summary jurisdiction in such a case. But it would not follow that Section II of Part 81 was the applicable regime. That Section provides for an adversarial regime. Part 81 does not purport to regulate any power of the Court to proceed of its own initiative. CPR 81.2(3) provides in terms that nothing in Part 81 “affects any statutory or inherent power of the court to make a committal order of its own initiative.” It would appear to be Part 48 of the Criminal Procedure Rules that applies to proceedings of that kind.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>96</num>
+          <content>
+            <p>Against this background, we were persuaded by the submission of Mr Caldecott, that the apparent exclusion from Part 81, Section III, of applications to commit for breaches of RROs such as the one with which we are concerned is an accident of drafting. The words of exception in CPR 81.12(1)(e) were not intended to allocate committal applications of that kind to Section II of Part 81. Those words were not intended to modify the established procedural regime by which committal proceedings of that kind, if not initiated by the Court itself, would be brought before a Divisional Court by way of an application for leave or, in modern language, permission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>97</num>
+          <content>
+            <p>Part 81 has been examined and found wanting by this Court on other occasions. Simmonds v Pearce [2017] EWHC 3126 (Admin) [2018] 1 WLR 1849 was a case of contempt arising from breaches of the statutory obligations applying to bankrupts. The Court found the relevant provisions of Part 81 to be unsatisfactory and unclear. The point has been re-emphasised in a case decided since the permission hearing in this case. Her Majesty ’s Solicitor General v Holmes [2019] EWHC 1483 (Admin) was a case about contempt in the face of the court, which is expressly covered by Section V of Part 81. The Court had to grapple with the impact on such a case of the heading to Section III of Part 81, and the words of exception to CPR 81.12(1) which we have italicised at [93] above. This, on one reading, deprived the Divisional Court of jurisdiction to deal with a case of contempt in the face of the court. The Court noted that “superficially at least, the rules provide the opposite of what was intended, because they suggest that the Divisional Court has no jurisdiction in such cases.” But there, as in the present case, it was possible to identify the historical position, the underlying intention, and that the drafting must have gone wrong. We understand that the drafting of Part 81 is now being reconsidered.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The threshold test</p>
+        </tblock>
+        <paragraph>
+          <num>98</num>
+          <content>
+            <p>Part 81 says nothing about the test for granting permission. It was common ground before us that each ground of committal must be considered separately (Patel v Patel [2017] EWHC 1588 (Ch)), and that the Court will not give permission unless it considers that it is in the public interest that an application to commit should be made, that being a question of judgment, not one of fact (Cavendish Square Holdings BV v Makdessi [2013] EWCA Civ 1540 [79]). Mr Furlong submitted that there is also a merits threshold: before it grants permission, the Court should require the applicant to show a “strong prima facie case”. He relied on a series of decisions on applications for permission to commit individual litigants for making false statements of truth.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>99</num>
+          <content>
+            <p>It is true that those or similar words have been used on a number of occasions to identify the threshold for granting permission to pursue committal for contempt by false statements. Examples are afforded by Kirk v Walton [2008] EWHC 1780 (QB) [29] (Cox J) , KJM Superbikes Ltd v Hinton [2008] EWCA Civ 1280 [2009 ] 1 WLR 2411 [17] (Moore- Bick LJ), Barnes (t / a Pool Motors) v Seabrook [2010] EWHC 1849 (Admin) [41] (Hooper LJ), Tinkler v Elliott [2014] EWCA Civ 564 [44] (Gloster LJ), Patel v Patel [21] (Marcus Smith J), and Grosvenor Chemicals Ltd v UPL Deutschland Gmbh [2017] EWHC 1893 (Ch) [105]-[118] (Birss J). We were not persuaded, however, by Mr Furlong ’s submission that consistency required the same criterion to be adopted in the present context.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>100</num>
+          <content>
+            <p>The cases cited reflect the caution with which the Court will approach an attempt by one party to civil litigation to have another party sent to prison for telling lies. Proceedings by a Law Officer with the aim of protecting the administration of justice are different in kind. The difference is reflected in the rules about committal for false statements. The Attorney General can apply for committal on those grounds, but if he does so he is exempted from the need to obtain the Court ’s permission: see CPR 81.18(1)(b) and (3)(b). That is not the position in proceedings of the kind before us now. But they too are proceedings brought by a disinterested public authority, the aim of which is to protect the administration of justice. There is no case that holds, in any context, that a Law Officer must show a strong prima facie case in order to pursue committal. The Court will of course examine the case advanced by the Attorney General. It will consider the public interest. It will not grant permission to pursue any grounds which appear fanciful, fail to disclose a reasonable basis for committal, or are for any reason an abuse of the court ’s process. In our judgment, it is unnecessary and would be undesirable to import the test of “strong prima facie case”, and to subject an application of this kind to a preliminary vetting on its merits. We note that in Solicitor General v Holmes at [45] this Court identified the applicable threshold as a “prima facie case” and observed that “detailed consideration at the permission stage about the precise strength of the application to commit for contempt in the face of the court are to be discouraged.” We take the same view about applications of the kind that are before us.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>101</num>
+          <content>
+            <p>As for the public interest, Mr Furlong submitted that one aspect of this is proportionality. Again, the authority cited for that proposition comes from the different context of committal applications brought by civil litigants over allegedly false statements of truth. The present case involves a contest between an individual and a representative of the State. In that context, due weight will be given to the judgment of the Law Officer. The gravity of the conduct alleged will be a relevant consideration; the Court might decline permission to pursue matters it considered relatively trivial. But it is hard to envisage a Law Officer presenting such an application. In our judgment, it would be wrong to circumscribe the public interest requirement with notions of proportionality that are more apt for litigation between citizens.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Reasons for granting permission</p>
+        </tblock>
+        <paragraph>
+          <num>102</num>
+          <content>
+            <p>Mr Furlong did not seek to persuade us that any of the Attorney General ’s allegations of contempt lacked a reasonable basis in fact or law. Nor did he submit that these proceedings represent an abuse of the Court ’s process. He advanced two main arguments in opposition to the grant of permission. First, under the heading “Delay, proportionality and the public interest”, he pointed to the history of the proceedings, the length of time that had passed since the original incident, the respondent ’s incarceration, and the adverse impact of those matters on the respondent ’s health and wellbeing. Secondly, he pointed to differences between the three grounds now relied on and the allegations of contempt that had previously put forward, and questioned whether it was fair and in the public interest to allow the Attorney General to advance the new, and modified case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>103</num>
+          <content>
+            <p>We did not find these submissions persuasive. Mr Dein QC had submitted to the CACD on behalf of the respondent that since he had served the equivalent of four months imprisonment the matter should not be remitted. The Court disagreed, on the basis that the sentence might be longer if a finding was again made against the respondent, and a determination of the underlying contempt allegations would in any event be in the public interest: see [78]. We shared that assessment. We considered events since the hearing in the CACD, and reviewed the medical and other evidence before us, but did not consider that these materially affected the conclusions reached by the Court of Appeal. It is true that the case now advanced by the Attorney General differs in some respects from the way the contempt allegations have been put before, but we did not see any unfairness in that. We were unconvinced by Mr Furlong ’s submission that the case, as now put, might divert the case into a political rather than a legal assessment of the respondent, his conduct, and that of his supporters. In our judgment, the case raised important issues about how the law of contempt applies to those who seek to report and comment on criminal proceedings and, in particular, how they conduct themselves in and near the courts.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

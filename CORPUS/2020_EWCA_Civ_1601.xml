@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWCA_Civ_1601" />
+          <FRBRuri value="www.judiciary.uk/2020_EWCA_Civ_1601" />
+          <FRBRdate date="2020-11-27" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/dray-simpson-v-cantor-fitzgerald-europe" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/dray-simpson-v-cantor-fitzgerald-europe" />
+          <FRBRdate date="2020-11-27" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWCA_Civ_1601.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWCA_Civ_1601.xml" />
+          <FRBRdate date="2021-01-05" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="Civil Division" />
+        <TLCOrganization eId="EmploymentAppealTribunal" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EmploymentAppealTribunal" showAs="Employment Appeal Tribunal" />
+        <TLCOrganization eId="DraySimpson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DraySimpson" showAs="Dray Simpson" />
+        <TLCOrganization eId="CantorFitzgeraldEurope" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CantorFitzgeraldEurope" showAs="Cantor Fitzgerald Europe" />
+        <TLCPerson eId="MrJusticeChoudhury" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeChoudhury" showAs="Mr Justice Choudhury" />
+        <TLCPerson eId="LordJusticeBean" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeBean" showAs="Lord Justice Bean" />
+        <TLCPerson eId="LordJusticeHenderson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeHenderson" showAs="Lord Justice Henderson" />
+        <TLCPerson eId="LadyJusticeRose" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LadyJusticeRose" showAs="Lady Justice Rose" />
+        <TLCPerson eId="DavidReadeQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DavidReadeQc" showAs="David Reade Qc" />
+        <TLCPerson eId="Clintons" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Clintons" showAs="Clintons" />
+        <TLCPerson eId="AliceMayhew" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AliceMayhew" showAs="Alice Mayhew" />
+        <TLCPerson eId="CantorFitzgeraldEuropeLegalDepartment" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CantorFitzgeraldEuropeLegalDepartment" showAs="Cantor Fitzgerald Europe Legal Department" />
+        <TLCReference eId="UKEAT/0016/18/DA" showAs="UKEAT/0016/18/DA" name="Document number" href="www.judiciary.uk/UKEAT/0016/18/DA" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWCA Civ 1601</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>A2/2019/1639/EATRF</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#EmploymentAppealTribunal">EMPLOYMENT APPEAL TRIBUNAL</organization>
+        <judge refersTo="#MrJusticeChoudhury">MR JUSTICE CHOUDHURY</judge>
+        , PRESIDENT
+        <ref href="#UKEAT/0016/18/DA">UKEAT/0016/18/DA</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-11-27" refersTo="#hand-downDate">27/11/2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticeBean">LORD JUSTICE BEAN</judge>
+        <judge refersTo="#LordJusticeHenderson">LORD JUSTICE HENDERSON</judge>
+        and
+        <judge refersTo="#LadyJusticeRose">LADY JUSTICE ROSE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant" refersTo="#DraySimpson">DRAY SIMPSON</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and-
+        <party as="#respondent" refersTo="#CantorFitzgeraldEurope">CANTOR FITZGERALD EUROPE</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#DavidReadeQc" as="#barrister" for="#DraySimpson">David Reade QC</lawyer>
+        (instructed by
+        <lawyer refersTo="#Clintons" as="#solicitor" for="#DraySimpson">Clintons</lawyer>
+        ) for the Appellant
+        <lawyer refersTo="#AliceMayhew" as="#barrister" for="#CantorFitzgeraldEurope">Alice Mayhew</lawyer>
+        (instructed by
+        <lawyer refersTo="#CantorFitzgeraldEuropeLegalDepartment" as="#solicitor" for="#CantorFitzgeraldEurope">Cantor Fitzgerald Europe Legal Department</lawyer>
+        ) for the Respondent
+      </p>
+      <p>
+        Hearing date:
+        <date date="2020-11-05" refersTo="#hearing">05 November 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Lord Justice Bean:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This is an appeal by Mr Dray Simpson against the decision of the Employment Appeal Tribunal (“EAT”) dismissing his appeal against the decision of the Employment Tribunal (“ET”) to dismiss his claim against Cantor Fitzgerald Europe.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The appeal focuses on the whistleblowing provisions of Part IVA of the Employment Rights Act 1996 (“the 1996 Act”). The Appellant challenges the judgment of the ET before this court in almost identical terms as before the EAT.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>Factual and procedural background</p>
+        </tblock>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>The Appellant worked for the Respondent, a UK-based investment bank, from 23 February 2015 to 31 December 2015. His job title was Managing Director on the Emerging Markets Desk. The Respondent had recently established this desk when the Appellant was taken on. The Respondent had struggled to fill the desk but the Appellant ’s experience, which included years spent working in Ukraine, made him a suitable choice. The Appellant worked on the desk as a salesman alongside traders and other salespeople.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The Appellant first worked for a probationary period of six months from 23 February to 21 August 2015. The Respondent confirmed the Appellant ’s employment after this period. However, on 16 November 2015 the Appellant was suspended and on 1 December 2015 he was dismissed, spending the time until the expiry of his notice on 31 December 2015 on garden leave.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>By a claim form filed on 6 April 2016 the Appellant made public interest disclosure claims under s 47B (detriment) and s 103A (unfair dismissal) of the 1996 Act and a contractual claim for unlawful deductions from pay. The claims were heard at the East London Hearing Centre over 7 sitting days in April 2017 by a three-member ET chaired by Employment Judge Prichard. A decision dismissing all the claims was promulgated on 17 July 2017. The Appellant filed a notice of appeal against the ET judgment on 12 January 2018. The EAT (Choudhury P) heard the appeal on 7 February 2019 and handed down judgment dismissing the appeal on 21 June 2019. I granted permission to appeal to this court on 15 November 2019. The appeal was due to be heard in May 2020 but was postponed because of the pandemic.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Decision appealed</p>
+        </tblock>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>In his particulars of claim, the Appellant alleged that he made four protected disclosures which were the reason or principal reason for his dismissal. Each of these alleged disclosures covered several different events that took place over a period of months, and the issues arising in each cross over a good deal. None consists of a communication of information on a single occasion that might ordinarily be considered a disclosure. However, they can be summarised as follows: i) Protected Disclosure 1 covered the Appellant ’s concerns that a colleague, Steven Gooden, was acting in breach of FCA regulations by working with clients while still awaiting FCA approval. ii) Protected Disclosure 2 covered the Appellant ’s concerns that traders were providing misleading information to clients. iii) Protected Disclosure 3 (also called Protected Disclosure 2 in the particulars of claim) covered the Appellant ’s concerns that traders were engaging in an illegal practice known as front-running. iv) Protected Disclosure 4 (called Protected Disclosure 3 in the particulars of claim) covered the Appellant ’s concerns that traders were circumventing the processes for performing customer due diligence before making a trade.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>Taken together, the protected disclosures alleged by the Appellant formed a narrative of misconduct of various sorts constantly taking place around the Appellant while he raised concerns with his colleagues, who rebuffed him.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>A list of issues before the ET asked them to make findings about protected disclosures under no fewer than 92 subparagraphs, but there is a good deal of repetition under the various headings. In their judgment, the ET adopted Ms Mayhew ’s distillation of the Appellant ’s case into 37 separate alleged disclosures. Each of these constituted a single communication made on a specific date.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>The ET found that none of these communications was a protected disclosure, and that to say that the principal reason for the Appellant ’s dismissal was that he had made protected disclosures would be “utterly fanciful”. It found that the Appellant ’s “distrustful and obstructive” behaviour had made it “utterly impossible for the team to work with him, and that his distrust of the other traders is what he “was ultimately dismissed for”. His claim for unlawful deductions from pay, which was not pursued on appeal, was also dismissed.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Front running</p>
+        </tblock>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Evidence was given about a practice known as “front running”. It was described in the ET ’s judgment as follows:- “19 Explained simply, a client places an order for $ 20 m of a certain bond and the trader holds back that order and buys $ 2 m of the same bond then puts the client ’s order through. The price will go up because that is what a large order of a certain instrument will do to the price of a bond. The trader has bought a smaller amount in the bank ’s own right. The private knowledge that a larger amount is soon to be acquired makes this analogous to insider dealing. The illustration just given is the simplest paradigm case. There are more subtle variants. The practice is illegal both in the US and the UK, under the respective Securities and Exchange Commission (SEC), and Financial Conduct Authority (FCA) regulatory codes. 20 In Cantor Fitzgerald ’s market conduct policy the practice of front running comes under the rubric heading of “Insider dealing” phrased: “The front running of orders i.e. where a broker executes orders for one customer with the benefit of advanced knowledge based on pending orders from other clients or proprietary trading within advanced knowledge of client orders thereby benefit from the impact of those other orders.” 21 Other provisions we were referred to which arise during the narrative of this case were as follows: “Incorrectly advertised volumes could create false or misleading impressions as to the supply / demand of stock traded by a firm. Such false or misleading impressions could in turn encourage market participants to trade the stock through the firm. For example where a market participant sees that a firm has traded a large volume in a given stock which results in a significant market share they may infer that the firm is the most competitive entity for them to route future trades in that stock.” The concept of misleading behaviour or distortion is explained (at length) as follows: “This is behaviour which gives or is likely to give a regular market user a false or misleading impression in relation to the supply of, demand for, or price, or value of an investment, or would or would be likely to be regarded by a regular user of the market to mislead or distort the market in any way and is likely to be regarded by a regular user of the market as a failure on the part of the person concerned to observe the standard or behaviour reasonably be expected of a person in his position in relation to the market.” 22 Another important and relevant aspect is the suspicion provisions as follows: “Upon suspicion that any party has committed or attempted to commit this offence the employee must follow the suspicious activities and incidents procedures which can be found on the intranet. Reports of suspicious activities and incidents including manipulating transactions are highly confidential. Employees must not make any unauthorised disclosures of such reports. Doing so may tip off a suspect and compromise an official investigation which is a potential criminal offence.””</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>The ET continued:- “31 A theme which has emerged from the narrative was the claimant ’s tendency to raise the spectre of large scale fraud investigations / criminal trials, and to send links by email to his colleagues Thomas Blondin and Steve Gooden. Early examples were 13 May 2015 a Bloomberg article about the Jesse Litvak fraud trial headed “White lies and guilty pleas”. 32 Another email on 12 June the subject heading: “ Wow criminal trial this year or next I think”. This attached the judgment of Eder J in the UK Commercial Court on a $ 175 m fraud where the lead claimant was Otkritie International Investment Management Ltd against many Russian defendants. His Lordship stated: “Anyone sitting in court listening to the evidence and the parties’ respective submissions might have been forgiven for supposing that they were in the Old Bailey rather than in the Commercial Court in the Rolls Building.” 33 Much of the claimant ’s oral evidence strayed to wider corruption in the financial sector including mention of the LIBOR affair (in which, as a matter of fact, Cantor Fitzgerald was never involved in any way).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The tribunal ’s judgment did not contain a separate section summarising the relevant law: this omission is a topic to which I shall return later.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Protected disclosures as described by the ET</p>
+        </tblock>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>A substantial part of the decision of the ET is taken up with a narrative of each of the 37 alleged protected disclosures by the Claimant. (Quite rightly, in view of the terms of Rule 62(4) of the Employment Tribunal Rules of Procedure 2013 (“the ET Rules”), the more important ones are treated in greater detail than the less important ones.) I will quote only a selection of them.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>The ET said: “37 Disclosure number 1 was on 27 April 2015. This was a composite string of disclosures starting on that date where the claimant alleges that he said there were improper practices with both the traders on the Emerging Market ’s desk. (How he could have included Steve Gooden at that stage, when he was still 4 months away from FCA approval is not clear). 38 What he alleges in his witness evidence to the tribunal is severe. He accuses Thomas Blondin of arranging trades in a way that disadvantaged the claimant ’s clients and advantaged his own to the prejudice of the claimant ’s own commission payments. 39 A salesman is dependent upon the trader to accurately report what the other side of a trade is, i.e. where it goes once it is traded order to properly account for the commission due to the salesperson, i.e. the claimant. Apparently it is endemic that there is tension between traders and sales. Latterly this “tension” appeared bad to the point of toxic. However Mr Neilly, the Co-Chief Executive Officer, stated it was not the worst he had ever seen 40 The point is well made by the respondent that if the claimant genuinely and conscientiously believed that there had been regulatory breaches it was his duty as an FCA approved professional to report this to Compliance. This was never done. It was over this time that the claimant was sending the emails we have referred to, referring to other cases of fraud and people being tried for financial crimes … … .. The focus of it was the Libor affair. 41 These mails [sic] were not put forward to the tribunal as protected disclosures in themselves, but the claimant now somehow seeks to say that this was his subtle and oblique way of conveying to Thomas Blondin and Steve Gooden that their practices were breaches of regulation and corrupt. If that was the claimant ’s intended message, Mr Blondin and Mr Gooden could be forgiven for not picking it up. It was cryptic in the extreme and could more easily have been taken as gossip, as a typical example of a professional deriving schadenfreude from the misdeeds of fellow professionals. 42 Mr Blondin in his witness evidence to the tribunal stated that the claimant had never told him that he had any regulatory concerns at all and the claimant for his part in oral evidence seemed to resile from the more extreme version of these disclosures which he had made in the original ET1 claim form. 43 The claimant ’s witness statement is vague and over-general and conveys impressionistically that there were many such conversations. If it was half as serious as he originally suggested we would have expected much more detail and we would have expected concerns to have been raised to Compliance at CFE. All of that leads the tribunal to conclude that the respondent is correct that the claimant did not raise such concerns with Mr Blondin nor with Steve Gooden, (as yet still awaiting FCA approval). … 49 Disclosure number 3 was a Bloomberg exchange on 26 May 2015 between the claimant and Charles Cortellesi. They were the only two parties to the chat ... 51 The claimant and he had telephone contact at sometime after 2.40pm that day. We have read this transcript. The call was only 2 minutes long. In tone the phone call is chatty and friendly. The tribunal can not see any suggestion there of a legal duty for the purpose of section 43B(1)(b) of the Employment Rights Act 1996. Further, we can not find on this evidence that there was “information” for the purpose of Cavendish Munro PRM Ltd – v- Geduld [2010] IRLR, 38, EAT, a case and a legal proposition we return to several times in our discussion of the claimant ’s alleged protected disclosures. This can not qualify as a protected disclosure. ... 56 Disclosure number 6, was a Bloomberg chat on 18 June at 2.30pm UK time. The claimant was upbeat saying he had done another decent trade yesterday and had made $ 70,000 this week so far, and said it felt good when it started to click. Cortellesi: “I have noticed great job and … gaining traction” (a metaphor much used in this business). 57</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>The tribunal concluded as follows:- “163 The tribunal has no hesitation in finding that none of the above alleged protected disclosures are in fact protected disclosures under s 43B of the Employment Rights Act 1996, for the reasons given above. In summary: the claimant ’s tendency to insinuate and to challenge others, and his hesitation and equivocation when challenged himself, militate against him ever making a disclosure of information (as opposed to allegations or just queries). The tribunal also consider that the origin of the claimant ’s distrust was a money concern over commission payments. That meant that many of these alleged disclosures could never be in the public interest. Further having heard him giving evidence over a long period at the tribunal, the equivocation suggests that the claimant can not have held a reasonable belief in what he was alleging. The vestigial evidence the claimant overheard on the account A trade, in which he was not involved, and the lack of a single other trade being disclosed to the respondent would suggest a lack of reasonable belief and the claimant bluffing about “other examples”. 164 That could be the tribunal ’s conclusion on the whole public interest disclosure claim, but we need to comment on the main detriment and dismissal complaints and the money claims. Regarding the claimant ’s dismissal, in the course of the above narrative, woven through the 37 alleged disclosures, it was clear to the tribunal that it had become utterly impossible for the team to work with the claimant. Thomas Blondin said (and it did not seem an empty threat), that if Mr Cortellesi insisted on keeping the claimant, he might be the only one left on the team. The team was exasperated with the claimant and, despite being told repeatedly, the claimant showed no sign of mending his ways. It would be utterly fanciful to state that the “principal reason” for his dismissal (s 103A Employment Rights Act 1996) was that the claimant had made protected disclosures. The team ’s dissatisfaction was abundantly well investigated by the respondent and is well documented over a long period, a period which was as long as it was only because Mr Cortellesi kept “pushing back” until it was clear that was no longer an option. The claimant ’s poor attendance was bad in its own right. Mr Neilly was appalled when he saw the records. But he ultimately found it just one aspect of the claimant being a poor team player. It was the lack of trust which proved most corrosive and was ultimately insuperable. 165 So far as account allocation is concerned, work had to be found for Russell Scott when he joined. After a long analysis, the tribunal could find nothing in the respondent ’s allocation of accounts which could be criticised at all, let alone interpreted as a reprisal for the claimant making protected disclosures. At one stage (see above) Steve Gooden and Thomas Blondin agreed to give in to the claimant ’s demands for certain accounts, against their better judgment, just to shut him up (the “noise”). The claimant was spending more time complaining about what he did not have than working with the (substantial) accounts he did have. Account allocation as a whistleblowing detriment is a far-fetched claim. 166 The claimant claims that his rightful commissions were underpaid from as early as April 2015. It is a contractual claim, and a claim for unlawful deductions from pay as well as a claim for whistle-blowing detriments. Detailed accounts were produced by the claimant and the respondent to show the amounts due when he was at work. There was in fact little variance. Many variations were due to the US Dollar / GBP exchange rate, deductions of fixed percentage overheads from profits, and calculation dates (the trade date or the date paid). The claimant, as stated throughout the above narrative, was never slow in complaining if he was underpaid to any extent. His main complaint was that he was forced to trust Thomas Blondin to accurately report the trades which determined the amount of sales commissions, as</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Grounds of appeal</p>
+        </tblock>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>The Claimant gave notice of appeal to the EAT on seven grounds. The appeal was heard by the President, Choudhury J, sitting alone, and dismissed. The same grounds of appeal were repeated before us. They are essentially (with some minor editing) as follows: Ground 1. The ET failed to properly direct itself as to the applicable law; in particular it failed to set out a self-direction on the law in its judgment in accordance with Rule 62 of the Tribunal Rules. The reasoning of the ET does not then demonstrate that it substantially complied with that obligation. Ground 2. The ET failed to properly direct itself to look at the composite picture of the disclosures, in particular it erred in law in that it failed to direct itself to and consider the application of the statutory test under section 43B of the Employment Rights Act (ERA) to the communications together, so as to consider whether they amounted to the 4 protected disclosures on the Claimant ’s ET1. Ground 3. The ET failed to properly direct itself as to the requirements of a protected disclosure and therefore failed to properly apply the statutory test. Ground 4. The ET failed to properly direct itself so as to consider both the “insider context” of the disclosure of information and the evidence which supported that submission if the statutory test was correctly applied. Ground 5. The ET failed properly to direct itself so as to consider, then to apply, the reasonable belief requirements of s.43B. Ground 6. The ET failed to direct itself as to the public interest test under s.44B (sic) and failed to apply the same correctly. Ground 7. The ET erred in law in its conclusions on the reason for dismissal. 7.1 The tribunal erred in law in that it failed to make clear their findings of fact as to: 7.1.1. who on the part of the Respondent made the decision to dismiss the Claimant, whether Mr Neilly made the decision alone; and 7.1.2. the reason, or if more than one the principal reason, for deciding to dismiss the Claimant.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>I granted permission to appeal to this court on 15 November 2019, writing:-“It may prove that the robust findings of fact by the ET are sufficient to withstand a second round of scrutiny, and that Choudhury P was right to dismiss the appeal. Nevertheless I am persuaded, with some hesitation, that the skeleton argument for the Appellant discloses reasonable prospects of success.”</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>Legal framework.</p>
+        </tblock>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>For present purposes, the following provisions of the 1996 Act (as inserted by the Public Interest Disclosure Act 1998) are relevant: “43A Meaning of “protected disclosure”. In this Act a “protected disclosure” means a qualifying disclosure (as defined by section 43B) which is made by a worker in accordance with any of sections 43C to 43H. 43B Disclosures qualifying for protection. (1) In this Part a “qualifying disclosure” means any disclosure of information which, in the reasonable belief of the worker making the disclosure, is made in the public interest and tends to show one or more of the following — (a) that a criminal offence has been committed, is being committed or is likely to be committed, (b) that a person has failed, is failing or is likely to fail to comply with any legal obligation to which he is subject, (c) that a miscarriage of justice has occurred, is occurring or is likely to occur, (d) that the health or safety of any individual has been, is being or is likely to be endangered, (e) that the environment has been, is being or is likely to be damaged, or (f) that information tending to show any matter falling within any one of the preceding paragraphs has been, is being or is likely to be deliberately concealed. 103A Protected disclosures An employee who is dismissed shall be regarded for the purposes of this Part as unfairly dismissed if the reason (or, if more than one, the principal reason) for his dismissal is that the employee made a protected disclosure.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>The words “in the public interest” in s 43B(1) were introduced by amendment with effect from June 2013. In Chesterton Global Ltd v Nurmohamed [2017] IRLR 837, this court, in the leading judgment of Underhill LJ, made it clear that the question for the tribunal was whether the worker believed, at the time he was making it, that the disclosure was in the public interest; whether, if so, that belief was reasonable; and laid down that, while the worker must have a genuine and reasonable belief that a disclosure is in the public interest, this does not have to be his or her predominant motivation in making it.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>As to what amounts to a “disclosure of information”, this has been the subject of some controversy since the decision of the EAT in Cavendish Munro Professional Risks Management Ltd v Geduld [2010] ICR 325 in which it appeared that a strict distinction was drawn between the provision of information on the one hand and the making of an allegation on the other, with only the provision of information being capable of amounting to a protected disclosure. This court, in Kilraine v Wandsworth London Borough Council [2018] ICR 1850, confirmed that there is no such rigid distinction.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>I shall return to the Chesterton and Kilraine cases later.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 1 – failure by the ET to comply with Rule 62.</p>
+        </tblock>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Rule 62 of the ET Rules, so far as relevant, provides: “62. Reasons (1) The Tribunal shall give reasons for its decision on any disputed issue, whether substantive or procedural … (4) The reasons given for any decision shall be proportionate to the significance of the issue ……. (5) In the case of a judgment the reasons shall: identify the issues which the Tribunal has determined, state the findings of fact made in relation to those issues, concisely identify the relevant law, and state how that law has been applied to the findings in order to decide the issues …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>On behalf of the Appellant Mr Reade QC submitted that the Tribunal failed to comply with its duty under Rule 62 of the ET Rules in that it failed to identify the relevant law or to state how that law has been applied to its findings in order to decide the issues. Reliance is placed upon the decision of the EAT (Judge Hand QC presiding) in Greenwood v NWF Retail Ltd [2011] ICR 896, in which it was held that a judgment needed to demonstrate ‘ substantial compliance’ with the rule.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>In this case, submits Mr Reade, the Tribunal failed to set out any reference to the relevant statutory provisions or the legal principles. Reference was made to just one authority and the judgment does not demonstrate substantial compliance with Rule 62 of the ET Rules. The absence of substantial compliance is particularly serious, says Mr Reade, given that the case concerns the particularly vexed area of law concerning protected disclosures.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Ms Mayhew submits that the mere failure to follow the usual practice of setting out a separate section on the relevant law does not give rise to an error of law. The EAT needs to consider whether the Tribunal had in mind the appropriate legal principles and applied them to the facts; it needs, in other words, to consider whether there was substantial compliance with Rule 62 bearing in mind that the rule is a “guide and not a straitjacket”. Ms Mayhew submits that on a fair reading of the judgment there is substantial compliance as the parties are readily able to discern why they won or lost.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>In Chief Constable of the Thames Valley Police v Kellaway [2000] IRLR 170 Morison P, giving the judgment of the EAT, said: “48 … Whilst we would not condone a Tribunal decision which does not set out the relevant legal position and does not make findings of fact on all the principal submissions made, this does not amount to an automatic ground of appeal. It has to be shown that omitting to set out the legal principles or key submissions made has led to a consequent error of law or incorrect finding of fact. We are unable to intervene in the majority ’s findings, which, although lengthy [sic], set out the grounds for finding discrimination in sufficient detail to allow both parties to understand the reasoning behind the finding of discrimination.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>In Balfour Beatty Power Network Ltd v Wilcox [2007] IRLR 63, Buxton LJ said in this court: “… … I do not doubt that in future employment tribunals would be well advised to recite the terms of rule 30(6) [the predecessor to the present rule 62(5)] and indicate serially how their determination fulfils its requirements, if only to avoid unmeritorious appeals. The rule is surely intended to be a guide and not a straitjacket. Provided it can be reasonably spelled out from the determination of the employment tribunal that what rule 30 (6) requires has been provided by the tribunal, then no error of law had been committed.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>As Ground 1 is a point of law I should set out the relevant part of the judgment of Choudhury P. He said of Rule 62: “ 22. The rule is in mandatory terms. Failure to comply with it does give rise to an error of law: see Greenwood at [51], [56] and [57]. However, what is required is ‘ substantial compliance’ with the rule, and not slavish compliance with the structure of the rule which would suggest separate sections in the judgment dealing with each of the constituent parts of the rule. [He then referred to the passage I have cited from Balfour Beatty v Wilcox, and continued:-] 23. In this case, it is regrettable that the Tribunal did not clearly set out the relevant legal provisions and principles to be applied; had it done so , this ground of appeal might have been avoided. The failure to set out at least a summary of the relevant legal provisions and principles is more likely to invite a challenge to the judgment. Tribunals should, in all but the most straightforward of cases, endeavour to set out such a summary. Not only would such a summary be likely to dispel any argument as to substantial compliance, it is also likely to serve the purpose of guiding the Tribunal ’s application of those principles to the findings of fact. 24. That said, however, the mere failure to set out a separate section on the legal principles does not, of itself, give rise to an error of law. Whether or not there is an error depends on whether or not there has been substantial compliance. To answer that question, one needs to look closely at the entirety of the judgment. The specific challenge under Ground 1 of the appeal does not descend to the details of the judgment to make good the argument that there has not been substantial compliance. It is under Grounds 2 to 6 that the Claimant sets out instances of a failure to comply with the rule. … …. 26. In my judgment, the test is and remains one of substantial compliance with the rule. The then President stated in Kellaway that there is no “automatic ground of appeal”, where there is a failure to set out the relevant principles or a failure to make findings of fact on all the principal submissions made. The President went on to say that it has to be shown that omitting to set out the principles or key submissions made has led to a consequent error of law or incorrect finding of fact. It might be said that that further requirement is no more than another way of stating that there needs to be substantial compliance with what is now contained in Rule 62(5) of the ET Rules. However, the use of the phrase “consequent error of law or incorrect finding of fact”, might suggest that the EAT considered that it is not enough that there is a failure to comply with the rule and that an error of law will only arise where that failure gives rise to some consequential error of law. If that is the effect of the decision, then I would disagree with it. As is clear from the decisions of the Court of Appeal in Balfour Beatty and the EAT in Greenwood (neither of which cited Kellaway), a failure to establish substantial compliance with the rule will be enough in itself to amount to an error of law; there is no need to demonstrate that there is also some consequential error of law in some further respect (although clearly there will be cases where the lack of substantial compliance with Rule 62 goes hand in hand with other errors of law).”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Discussion on Ground 1</p>
+        </tblock>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Failure by an ET to set out even a brief summary of the relevant law is a breach of Rule 62(5) of the ET Rules. But I do not think it is a profitable discussion to consider whether it is an error of law, nor whether there has been “substantial compliance” with Rule 62(5). It is an error, but the real question in my view is whether the error is material. That is surely what Morison P meant when he said in Kellaway that it does not “amount to an automatic ground of appeal”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>It has become conventional (and has been made much easier since the invention of word processing) for employment tribunals to include in their decisions the relevant statute law and a summary of what is established by the leading authorities on the relevant subject. But, just as a dutiful recital of the relevant law does not immunise the decision against arguments that the tribunal has erred in its application, so a failure to set out the relevant law does not necessarily mean that there is any substantive error in the tribunal ’s decision or in the reasoning which leads to that decision, although it does make it more likely that there will be a challenge to the judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>The point of Rule 62, headed “reasons”, is to enable the parties to know why they have won or lost. In his classic judgment in Meek v City of Birmingham District Council [1987] IRLR 250 Bingham LJ cited with approval the following observations of Sir John Donaldson MR in an earlier case (Martin v Glynwed Distribution [1983] ICR 511):" The duty of an industrial tribunal is to give reasons for its decision. This involves making findings of fact and answering a question or questions of law. So far as the findings of fact are concerned, it is helpful to the parties to give some explanation of them, but it is not obligatory. So far as the questions of law are concerned, the reasons should show expressly or by implication what were the questions to which the industrial tribunal addressed its mind and why it reached the conclusions which it did, but the way in which it does so is entirely a matter for the industrial tribunal." [emphasis added]</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>I do not know why the ET in the present case did not set out ss 43A-B (and perhaps s 103A) and a brief summary of the most relevant authorities. Such an omission is very unusual in my experience, at least in cases of substance which reach this court on an application for permission to appeal or a substantive appeal itself. But in my judgment, as Mr Reade came close to conceding, this is not a free-standing ground of appeal. Unless the Appellant can show that the tribunal made a substantive error of law, the failure to comply with Rule 62(5) in itself leads nowhere. I will return to the issue of Meek-compliance at the end of this judgment.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 7: the reason for the dismissal</p>
+        </tblock>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>I will next consider ground 7, concerning the reason for Mr Simpson ’s dismissal. I do so because it seems to me that the question of whether any of the 37 communications relied on by the Appellant ought to have been found to be a protected disclosure is somewhat academic if the Appellant can not show a flaw in the ET ’s findings that Mr Neilly made the decision to dismiss and that that decision had nothing to do with the alleged protected disclosures. The ET found that Mr Neilly made the decision and like Choudhury P I regard that as a clear finding of fact. As to his reason or principal reason for doing so, the ET ’s findings could not be clearer. The ET found at [160] that Mr Neilly and the Appellant had had a one-to-one meeting on 12 November at which Mr Neilly talked to the Appellant seriously and critically about his relations with the team and mentioned three points in descending order of importance – confrontational attitude, time-keeping and attendance and the taking of notes.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The ET accepted Mr Neilly ’s evidence that he decided to dismiss the Appellant on 1st December. At [164] they said that Mr Neilly was appalled when he saw the records showing the claimant ’s poor attendance, adding:- “But he ultimately found it just one aspect of the claimant being a poor team player. It was the lack of trust which proved most corrosive and was ultimately insuperable.” This is in my view a clear finding that it was Mr Neilly ’s decision to dismiss the Appellant and that the reasons which he gave were accepted as genuine by the ET.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>It is of course not a complete answer to a case of this kind, where the sole decision- maker did not himself have tainted reasons for dismissing, if he was substantially influenced in making that decision by the views of others who did. The leading case on this topic is Royal Mail v Jhuti [2020] ICR 731. By the time of the EAT hearing in the present case Jhuti had reached this court ([2018] ICR 982), where Underhill LJ considered at [59]-[63] the question of whether there had been “manipulation” of the decision-maker. Choudhury P observed that “as Mr Neilly was the sole decision- maker, the question of whether or not his mind was manipulated by others does not arise”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The Supreme Court have now given judgment in the Jhuti case where Lord Wilson of Culworth put the critical question in slightly different terms. At [46] he says that: “…. In enacting section 103A Parliament clearly intended to provide that, where the real reason for dismissal was that the employee had made a protected disclosure, the automatic consequence should be a finding of unfair dismissal. But is the meaning of the section, to be collected from its language construed in the light of its context and purpose, that when the employee ’s line manager deliberately hides the real reason behind a fictitious reason, the latter is instead to be taken as the reason for dismissal adopted in good faith by the decision- maker on the company ’s behalf?”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>At [60] Lord Wilson answers his own question in the negative, saying: “In searching for the reason for a dismissal for the purposes of section 103A of the Act, and indeed of other sections in Part X, courts need generally look no further than at the reasons given by the appointed decision-maker. Unlike Ms Jhuti, most employees will contribute to the decision-maker ’s inquiry. The employer will advance a reason for the potential dismissal. The employee may well dispute it and may also suggest another reason for the employer ’s stance. The decision-maker will generally address all rival versions of what has prompted the employer to seek to dismiss the employee and, if reaching a decision to do so, will identify the reason for it. In the present case, however, the reason for the dismissal given in good faith by Ms Vickers turns out to have been bogus. If a person in the hierarchy of responsibility above the employee (here Mr Widmer as Ms Jhuti ’s line manager) determines that, for reason A (here the making of protected disclosures), the employee should be dismissed but that reason A should be hidden behind an invented reason B which the decision-maker adopts (here inadequate performance), it is the court ’s duty to penetrate through the invention rather than to allow it also to infect its own determination. If limited to a person placed by the employer in the hierarchy of responsibility above the employee, there is no conceptual difficulty about attributing to the employer that person ’s state of mind rather than that of the deceived decision-maker.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>I do not think it makes any difference in the present case whether the test is one of manipulation of Mr Neilly or one of the construction of an invented reason to conceal a hidden reason. Using the terminology of manipulation I agree with what Choudhury P said:-“85. In my judgment, none of the situations where it might be appropriate to attribute the motivation and knowledge of a manipulator to the employer applies in this case. The alleged manipulators are said to be Mr Cortellesi and/or Mr Blondin. Based on the Tribunal ’s findings, neither of them played any part in the disciplinary decision, and nor did they play any role in any formal investigation of the allegations against the Claimant in this case. This is not a situation, for example, where either Mr Cortellesi or Mr Blondin prepared or assisted in the preparation of a formal report which formed the basis for Mr Neilly ’s decision. (It is perhaps also relevant to note that far from pressing for the Claimant ’s termination, Mr Cortellesi was for a long time “pushing back” against any such suggestion because of the difficulties in recruiting to that desk, and was ultimately reluctant to involve HR at all: see [150]. That undermines the suggestion that Mr Cortellesi was an arch manipulator who was determined to see the back of the Claimant and was prepared to influence Mr Neilly to achieve that outcome). 87. Mr Neilly ’s decision appears to have been based on genuine concerns as to the Claimant ’s relationship with his team. Ms Mayhew took me through numerous passages in the Tribunal ’s judgment identifying the Respondent ’s mounting irritation with the Claimant ’s behaviour. At [151], the Tribunal, having considered a discussion between Mr Cortellesi and Mr Blondin states as follows: “151. We were urged to read this transcript in some detail by the Respondent ’s counsel. It conveys a reliable authentic view of the intensity of, and the focus of, the team ’s unhappiness with the Claimant, as at 9 October at a time before decisive steps were made. Even then Mr Cortellesi was, as he put it, “pushing back”. 88. There were clear findings that each of the Claimant ’s colleagues had become fed up with his constant complaining, poor attitude and timekeeping. As to the records of the latter, when Mr Neilly considered them, he was “horrified” ([150]) and “appalled” ([164]). The Tribunal ’s ultimate conclusion, namely that it was “utterly fanciful to state that the “principal reason” for his dismissal … was that he had made protected disclosures.”, appears to me to be one that was fully supported by the evidence and one that it was entitled to reach. 89. Even if, contrary to the Tribunal ’s conclusions, there had been any protected disclosures, it is clear that the reason for dismissal was properly separable from such disclosures. The issue of timekeeping, for example, which was considered serious in itself, could not conceivably have any overlap with his disclosures.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>I agree. Ground 7, which Ms Mayhew rightly described as the most important issue in the case, is an attempt to re-open the clear and emphatic findings of the ET on an issue of fact. I would reject it for the same reasons as those of the President.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 2-aggregation</p>
+        </tblock>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>This ground complains that the ET failed to look at the composite picture of the disclosures, in particular by considering the application of the statutory test to the communications together. Mr Reade at one point described the approach taken by the ET as “atomisation of the communications”. He referred us to the decision of the EAT (Slade J sitting alone) in Norbrook Laboratories (GB) Ltd v Shaw [2014] ICR 540. This was a case of alleged protected disclosures in a health and safety context, but the principles are the same. At paragraph [22] Slade J said:-“… an earlier communication can be read together with a later one as “embedded in it”, rendering the later communication a protected disclosure, even if taken on their own they would not fall within section 43B(1)(d). … Accordingly, two communications can, taken together, amount to a protected disclosure. Whether they do is a question of fact.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>This is no more than common sense. As Henderson LJ observed in the course of argument, whether two communications are to be read together is generally a question of fact; there is nothing unusual in this respect about the law on protected disclosures. The Norbrook case itself is a good illustration of this, on much simpler facts than those of Mr Simpson ’s case. During the severe winter of 2010 many roads were covered with snow. The claimant, who managed a team of territory managers who drove to visit customers and potential customers, sent three relevant emails to the employers’ health and safety manager, Mr Cuthbertson. The first read:- “Could you please provide me with some advice on what my territory managers should do in terms of driving in the snow. Is there a company policy and has a risk assessment been done?”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>As the employment judge held, that email is not a disclosure of information but simply an enquiry. The next email, sent later the same morning, also to Mr Cuthbertson, read:-“I was hoping for some formal guidance from the company. The team are under a lot of pressure to keep out on the roads at the moment and it is dangerous. Do I log this as the formal guidance?” A third email, sent to a different addressee (in the employer ’s HR department) a week later, said that the claimant had a duty to care for his team ’s health and safety and emphasised that “having spent most of Monday and Friday driving through snow I know how dangerous it can be”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The employment judge in Norbrook considered that the three emails taken together were capable of amounting to a protected disclosure of information as to the danger of territory managers driving in the snow, even though the third email was sent to a different department from the first two; and that finding was upheld on appeal by Slade J. Plainly these decisions were correct. The three communications, two on the same day and one a week later, were all on the same subject and the second and third disclosed information which the claimant reasonably believed tended to show a risk to health and safety.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>In the present case the question of whether any combination of the 37 communications should be read together is rather arid, since on the findings of the ET none of them amounted to a protected disclosure whether read in isolation or by reference to previous communications. The aggregation issue might have been crucial if the ET had found that some (but not all) of the 37 communications constituted the principal reason, or at any rate a significant reason, for Mr Neilly ’s decision to dismiss the claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>In oral argument Mr Reade laid particular emphasis on disclosures 20 and 21. On 16 September the Appellant sent an email to Mr Cortellesi including the following paragraph:- “Earlier this week we were working an order for a client to sell Kazak bonds. Thomas goes and hits a screen and bids my client lower which of course he hits. There ’s a name for that practice.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>As regards disclosure 20, Mr Reade submitted that the closing words were referring to front running. However, the ET found at paragraph 105 that “the main thrust of this is a complaint about the claimant not getting paid for the trade”. The same email goes on to say:- “I know you like to just let things run but when the guy who ’s supposed to be running your business here in Europe does not do it in a proper way then I ’ve got issues and I ’ve been doing this too long to be afraid of speaking up.” This seems to me (although I am not the tribunal of fact) to contain the same ambiguity as the earlier passage as to whether the writer was complaining of being wrongly deprived of commission, or of malpractice. The ET were entitled to find that the claimant ’s real complaint was that Thomas (Mr Blondin) was improperly depriving him of commission, not that he was committing any regulatory offence or any breach of the company ’s legal obligations to its clients.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>Disclosure 21 was described by the tribunal at [114] as “an allegation that strongly resembles front-running which therefore needs to be quoted”. They then describe it at length and note that they had listened to a voice recording of the relevant Bloomberg chat between the claimant and Mr Cortellesi. The ET accepted the evidence of Mr Cortellesi that he “did not consider that the claimant, with this hypothetical illustration, was actually describing front-running. It did not necessarily involve a regulatory breach and unlawful use of insider knowledge of an impending large purchase of Ukrainian bonds. We stress again it was hypothetical. The claimant was not identifying any particular trade here.” After further detailed consideration of the facts of disclosure 21 the ET found at [120] – [121] that:- “It is extraordinary that the claimant would keep quiet about this allegedly blatant example of front-running for a whole month without telling compliance [and] without raising it to Charles Cortellesi with sufficient detail.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>They note that the claimant asked to meet Mr Moore of Compliance the day after the relevant trade and continued:- “It was quite extraordinary he did not raise it then. This is strongly suggestive of the allegation not being one in which the claimant reasonably believed (or believed at all), and the allegation being untrue.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>Despite Mr Reade ’s valiant efforts, ground 2 is an example of an attempt to find an error of law in order to circumvent robust findings of fact which the ET were fully entitled to make.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 3 – the distinction between information and allegations or queries</p>
+        </tblock>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>When the present case was before the ET the case of Kilraine v London Borough of Wandsworth [2018] ICR 1850 had not been decided by this court. The tribunal, in one of their rare references to case law, said at paragraph 51:-“We can not find on this evidence that there was “information” for the purpose of Cavendish Munro PRM Ltd v Geduld [2010] IRLR 38, EAT, a case and a legal proposition we return to several times in our discussion of the claimant ’s alleged protected disclosures.” On that basis they held that disclosure 3 could not qualify as a protected disclosure.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>We now know from the judgment of Sales LJ in Kilraine that it is erroneous to gloss section 43B(1) of the 1996 Act to create a rigid dichotomy between “information” on the one hand and “allegations” on the other. In order for a communication to be a qualifying disclosure it has to have “sufficient factual content and specificity such as is capable of tending to show one of the matters listed in subsection (1)”. Whether it does is a matter for the ET ’s evaluative judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>Sales LJ said: “30. I agree with the fundamental point made by Mr Milsom, that the concept of" information" as used in section 43B(1) is capable of covering statements which might also be characterised as allegations. Langstaff J made the same point in the judgment below at [30], set out above, and I would respectfully endorse what he says there. Section 43B(1) should not be glossed to introduce into it a rigid dichotomy between" information" on the one hand and" allegations" on the other. Indeed, Ms Belgrave did not suggest that Langstaff J 's approach was at all objectionable. 31. On the other hand, although sometimes a statement which can be characterised as an allegation will also constitute" information" and amount to a qualifying disclosure within section 43B(1), not every statement involving an allegation will do so. Whether a particular allegation amounts to a qualifying disclosure under section 43B(1) will depend on whether it falls within the language used in that provision. 32. In my view, Mr Milsom is not correct when he suggests that the EAT in Cavendish Munro at [24] was seeking to introduce a rigid dichotomy of the kind which he criticises. I think, in fact, that all that the EAT was seeking to say was that a statement which merely took the form," You are not complying with Health and Safety requirements", would be so general and devoid of specific factual content that it could not be said to fall within the language of section 43B(1) so as to constitute a qualifying disclosure. It emphasised this by contrasting that with a statement which contained more specific factual content. That this is what the EAT was seeking to do is borne out by the fact that it itself referred to section 43F, which clearly indicates that some allegations do constitute qualifying disclosures, and by the fact that the statement" The wards have not been cleaned [etc]" could itself be an allegation if the facts were in dispute. It is unfortunate that this aspect of the EAT 's reasoning at [24] is somewhat obscured in the headnote summary of this part of its decision, which can be read as indicating that a rigid distinction is to be drawn between" information" and" allegations". 33. I also reject Mr Milsom 's submission that Cavendish Munro is wrongly decided on this point, in relation to the solicitors' letter set out at [6]. In my view, in agreement with Langstaff J below, the statements made in that letter were devoid of any or any sufficiently specific factual content by reference to which they could be said to come within section 43B(1). I think that the EAT in Cavendish Munro was right so to hold. 34. However, with the benefit of hindsight, I think that it can be said that para. [24] in Cavendish Munro was expressed in a way which has given rise to confusion. The decision of the ET in the present case illustrates this, because the ET seems to have thought that Cavendish Munro supported the proposition that a statement was either" information" (and hence within section 43B(1)) or" an allegation" (and hence outside that provision). It accordingly went wrong in law, and Langstaff J in his judgment had to correct this error. The judgment in Cavendish Munro also tends to lead to such confusion by speaking in [20]-[26] about" information" and" an allegation" as abstract concepts, without tying its decision more closely to the language used in section 43B(1). 35. The question in each case in relation to section 43B(1) (as it stood prior to amendment in 2013) is whether a particular statement or disclosure is a" disclosure of information which, in the reasonable belief of the worker making the disclosure, tends to show one or more of the [matters set out in sub-paragraphs (a) to (f)]". Grammatically, the word" information" has to be read with the qualifying phrase," which tends to show [etc]" (as, for example, in the present case, information which tends to show" that a person has failed or is likely to fail to comply with any legal obligation to which he is subject"). In order for a statement or disclosure to be a qualifying disclosur</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>Like the President, I do not consider that the ET was creating a rigid distinction between allegations or queries on the one hand and information on the other. Mr Reade drew attention particularly to disclosure 32, dealt with at paras [154]-[155] of the ET judgment. It may be that in the case of disclosure 32 they were, based on Cavendish Munro, applying too rigid a distinction between a query and information: indeed, as Mr Reade points out, the question asked was “could you let me know if the following information raises any issues?” [emphasis added]. But the ET rejected disclosure 32 on the further ground that it did not involve a reasonable belief on the part of the Appellant that there was a breach of FCA regulations. This should more accurately have been put as an issue of whether he had a reasonable belief that the information tended to show a breach of regulatory standards, but this is a minor error in the context of an alleged disclosure which appears, even on the Appellant ’s case, to have played a very minor part in this complex story.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>Mr Reade also argues that the ET failed to direct itself as to the fact that potential future breaches can be the subject of qualifying disclosures. We were referred to disclosure 31, considered by the ET at paragraph [153]. This was at a meeting with Annie Mills and Martin Appiah at which the Appellant described certain scenarios as hypothetical and apparently said “we have not crossed the line yet”, which the ET said “means he was saying there was no regulatory breach”. Mr Reade fastens on that sentence as demonstrating an error of law. But in the same paragraph the ET go on to say that “the claimant did not even mention the recent Russian trade, despite his stated concerns, which betrayed a lack of faith in his own stated beliefs. Again, this is a hopeless allegation of a protected disclosure”. They went on to say that “the Respondent was probably correct in its contention that he was trying to pass off his commission concerns as protected disclosures in order to leverage his personal position”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>On this point, as elsewhere in the ET ’s judgment, they made findings of lack of genuine, let alone reasonable, belief, which they were entitled to reach and which make the arguments of law somewhat academic. I do not consider that if they had had the benefit of the judgment of this court in Kilraine it would have altered their findings in any material respect.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 4 – failure to consider the “insider” context of the disclosure of information</p>
+        </tblock>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>In Korashi v Abertawe Bro Morgannwg University Local Health Board [2012] IRLR 4 at [62] the EAT, Judge McMullen QC presiding, said: “… many whistle-blowers are insiders, that means that they are so much more informed about the goings on of the organisation of which they make complaint than outsiders and that that insight entitles their views to respect. Since the test is their reasonable belief, that belief must be subject to what a person in their position would reasonably believe to be wrongdoing.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>In answer to this ground of appeal Ms Mayhew rightly submits that the “insider knowledge” point mentioned in Korashi works both ways. Just as someone with experience in the field has information and insight which should be taken into account in his favour, so too he should know better than (say) a lay person who happened to overhear a conversation, whether it does tend to show that something is amiss. As the ET said:-“40 The point is well made by the respondent that if the claimant genuinely and conscientiously believed that there had been regulatory breaches it was his duty as an FCA approved professional to report this to Compliance. That was never done. It was over this time that the claimant was sending the emails we have referred to referring to other cases of fraud and people being tried for financial crimes. One of the articles was, according to Annie Mills, just a gossip article. You could tell from the tone of it. The heading was “If you ai n’t cheating you ai n’t trying” and there were other statements from “The traders who just cost Wall Street 5.8 billion”. The focus of it was the Libor affair. 41 These mails were not put forward to the tribunal as protected disclosures in themselves, but the claimant now somehow seeks to say that this was his subtle and oblique way of conveying to Thomas Blondin and Steve Gooden that their practices were breaches of regulation and corrupt. If that was the claimant ’s intended message, Mr Blondin and Mr Gooden could be forgiven for not picking it up. It was cryptic in the extreme and could more easily have been taken as gossip, as a typical example of a professional deriving schadenfreude from the misdeeds of fellow professionals. 42 Mr Blondin in his witness evidence to the tribunal stated that the claimant had never told him that he had any regulatory concerns at all and the claimant for his part in oral evidence seemed to resile from the more extreme version of these disclosures which he had made in the original ET1 claim form. 43 The claimant ’s witness statement is vague and over-general and conveys impressionistically that there were many such conversations. If it was half as serious as he originally suggested we would have expected much more detail and we would have expected concerns to have been raised to Compliance at CFE. All of that leads the tribunal to conclude that the respondent is correct that the claimant did not raise such concerns with Mr Blondin nor with Steve Gooden, (as yet still awaiting FCA approval).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>These were findings of fact involving no error of law.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 5 – failure to properly apply the reasonable belief requirement.</p>
+        </tblock>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>Mr Reade is right to argue that the ET had firstly to decide whether the claimant actually believed that he was disclosing information which tended to show a breach and secondly, if so, whether that belief was reasonable having regard to his expertise. The problem for the Appellant in this case is that time and again the ET found that he fell at the first hurdle – in other words, they did not accept that he was disclosing information which he actually believed tended to show a breach of regulatory obligations or a legal duty to clients. If they had found a genuine belief to that effect they would have had to consider whether it was reasonable in the light of his expertise. But it was open to them to find that his failure to make any explicit report to Compliance indicated that he did not “genuinely and conscientiously believe that there had been such breaches”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 6 – failure to direct itself as to the public interest</p>
+        </tblock>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>Kilraine is not the only decision of this court in the field of whistleblowing which has been given since the case was before the ET. Mr Reade reminded us of this court ’s decision in Chesterton Global Ltd v Nurmohamed [2017] IRLR 837. In that case (in which Mr Reade appeared for the appellant) Underhill LJ, giving the leading judgment, made four points about the nature of the exercise required by section 43B(1). Firstly, the tribunal has to ask (a) whether the worker believed at the time that he was making it that the disclosure was in the public interest and (b) whether, if so that belief was reasonable. Secondly, the tribunal must recognise that there may be more than one reasonable view as to whether a particular disclosure was in the public interest.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>Underhill LJ continued at [29]-[30]:- “29. Third, the necessary belief is simply that the disclosure is in the public interest. The particular reasons why the worker believes that to be so are not of the essence. That means that a disclosure does not cease to qualify simply because the worker seeks, as not uncommonly happens, to justify it after the event by reference to specific matters which the tribunal finds were not in his head at the time he made it. Of course, if he can not give credible reasons for why he thought at the time that the disclosure was in the public interest, that may cast doubt on whether he really thought so at all; but the significance is evidential not substantive. Likewise, in principle a tribunal might find that the particular reasons why the worker believed the disclosure to be in the public interest did not reasonably justify his belief, but nevertheless find it to have been reasonable for different reasons which he had not articulated to himself at the time: all that matters is that his (subjective) belief was (objectively) reasonable. 30. Fourth, while the worker must have a genuine (and reasonable) belief that the disclosure is in the public interest, that does not have to be his or her predominant motive in making it: otherwise, as pointed out at para. 17 above, the new sections 49(6A) and 103(6A) would have no role. I am inclined to think that the belief does not in fact have to form any part of the worker 's motivation – the phrase" in the belief" is not the same as" motivated by the belief"; but it is hard to see that the point will arise in practice, since where a worker believes that a disclosure is in the public interest it would be odd if that did not form at least some part of their motivation in making it.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>At [37] Underhill LJ went on to say that: “In a whistleblower case where the disclosure relates to a breach of the worker ’s own contract of employment (or some other matter within s 43B(1) where the interest in question is personal in character) there may nevertheless be features of the case that make it reasonable to regard disclosure as being in the public interest, as well as in the personal interest of the worker. Mr Reade ’s example of doctors’ hours is particularly obvious, but there may be many other kinds of case where it may reasonably be thought that such a disclosure was in the public interest.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>The present case is a long way from one of a doctor complaining of excessively long working hours. The ET repeatedly found that Mr Simpson ’s real complaint was about being deprived of the commission which he thought was rightfully his. If they had accepted that the disclosures, or some of them, constituted information which in the actual and reasonable belief of the claimant tended to show malpractice, then the public interest test would no doubt have been quite easily satisfied. But that is not what happened.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Why did the Claimant lose?</p>
+        </tblock>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>I have left to the end the question (raised as part of Ground 1) of whether the ET ’s failure to set out the relevant law means that its judgment was not Meek-compliant. Although I admire Mr Reade ’s ability to make bricks without straw, it is really not difficult to understand why Mr Simpson lost. He lost because the ET found that (a) the decision to dismiss him was taken by Mr Neilly; (b) it was “utterly fanciful” to state that the reason was that the claimant had made protected disclosures; (c) it had become “utterly impossible” for his colleagues on his team to work with him; the lack of trust between them was “corrosive” and “ultimately insuperable”; (d) he had a poor attendance record, by which Mr Neilly was “appalled”; (e) Mr Neilly ’s reasons were genuine and not the result of manipulation by others; and (f) none of the communications relied on was a protected disclosure, either because they were insufficiently specific or because Mr Simpson did not genuinely believe that the information contained in them tended to show malpractice at Cantor Fitzgerald.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>I would dismiss the appeal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Henderson</p>
+        </tblock>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>I agree.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lady Justice Rose</p>
+        </tblock>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>I also agree.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
