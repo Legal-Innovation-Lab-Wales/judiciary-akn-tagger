@@ -11,8 +11,7 @@ The class retrieveLinks.java includes methods to extract information from the kn
 
   public String[] getAllCaseLawFiles()
   
-    => it lists all case law mapped in the ontology (filenames). 
-    Each of them corresponds to a file in the CORPUS subfolder.
+    => OUTPUT: the list of case law mapped in the ontology (filenames). Each of them corresponds to a file in the CORPUS subfolder.
   
   
   public String getURLGivenCaseLaw(String caselaw)
@@ -21,14 +20,14 @@ The class retrieveLinks.java includes methods to extract information from the kn
   
   public String[] getHearingDatesGivenCaseLaw(String caselaw)
   
-    => Given a case law (returned from getAllCaseLawFiles), these methods return 
-    the URL of the file on the Web, the hand-down date, and the hearing dates.
+    => INPUT: a case law (returned from getAllCaseLawFiles)
+       OUTPUT: the URL of the file on the Web, the hand-down date, and the hearing dates.
   
   
   public String[] getCourtsGivenCaseLaw(String caselaw){return caselaw2courts.get(caselaw);}
   
-    => Given a case law (returned from getAllCaseLawFiles), this method returns 
-    the list of courts ordered from the more generic to the more specific, e.g.:
+    => INPUT: a case law (returned from getAllCaseLawFiles)
+       OUTPUT: the list of courts ordered from the more generic to the more specific, e.g.:
           - HIGH COURT OF JUSTICE
             - QUEEN'S BENCH DIVISION
               - ADMINISTRATIVE COURT
@@ -39,10 +38,10 @@ The class retrieveLinks.java includes methods to extract information from the kn
   
   public String[] getLawyersGivenCaseLaw(String caselaw){return caselaw2lawyers.get(caselaw);}
   
-    => Given a case law (returned from getAllCaseLawFiles), these methods return 
-    the list of judges, parties, and lawyers occurring therein.
-    => NOTE: Lawyers and Judges are not disjoint! Some judges also act as lawyers 
-    (in different case law, of course :-))
+    => INPUT: a case law (returned from getAllCaseLawFiles)
+       OUTPUT: the list of judges, parties, and lawyers occurring therein.
+    
+    NOTE: Lawyers and Judges are not disjoint sets! Some judges also act as lawyers (in different case law, of course :-))
   
   public String[] getCaseLawGivenCourt(String court){return court2caselaw.get(court);}
   
@@ -52,5 +51,5 @@ The class retrieveLinks.java includes methods to extract information from the kn
   
   public String[] getCaseLawGivenLawyer(String lawyer){return lawyer2caselaw.get(lawyer);}
   
-    => Given a court, judge, party, or lawyer, these methods return 
-    the list of case law in which they occur.
+    => INPUT: a case law (returned from getAllCaseLawFiles)
+       OUTPUT: the list of case law in which they occur.
