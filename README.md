@@ -1,8 +1,7 @@
 # judiciaryAknTagger
 This repository contains source code and data for tagging a repository of 100 case law from https://www.judiciary.uk in the Akoma Ntoso XML standard (http://www.akomantoso.org).
 
-TO COMPILE: javac -cp jena-core-3.9.0.jar retrieveLinks.java
-
+TO COMPILE: javac -cp jena-core-3.9.0.jar retrieveLinks.java</br>
 TO RUN: java -cp ./lib/*;. retrieveLinks
 
 The class retrieveLinks.java includes methods to extract information from the knowledge graph in JudiciaryProcessorDEMOontology.owl. It also includes a main method that simply prints all information of all XML files in CORPUS.
