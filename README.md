@@ -1,8 +1,17 @@
 # judiciaryAknTagger
 This repository contains source code and data about a repository of 100 case law from https://www.judiciary.uk tagged in the Akoma Ntoso XML standard (http://www.akomantoso.org). The Akoma Ntoso files are included in a subfolder CORPUS. The OWL file JudiciaryProcessorDEMOontology.owl contains the knowledge graph indexing the corpus. The Java file retrieveLinks.java allows to retrieve the information from the ontology via the methods described below.
 
-TO COMPILE: javac -cp jena-core-3.9.0.jar retrieveLinks.java</br>
-TO RUN: java -cp ./lib/*;. retrieveLinks
+```
+Java Version: 11
+
+Window
+javac -cp jena-core-3.9.0.jar retrieveLinks.java
+java -cp ./lib/*;. retrieveLinks
+
+Mac-OS
+javac -cp ./lib/jena-core-3.9.0.jar retrieveLinks.java
+java -cp "./lib/*:." retrieveLinks
+```
 
 The class retrieveLinks.java includes methods to extract information from the knowledge graph in JudiciaryProcessorDEMOontology.owl. It also includes a main method that simply prints all information of all XML files in CORPUS.
 
