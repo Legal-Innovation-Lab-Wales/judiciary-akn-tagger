@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWCA_Civ_1441" />
+          <FRBRuri value="www.judiciary.uk/2020_EWCA_Civ_1441" />
+          <FRBRdate date="2020-11-03" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/gr-property-management-v-safdar" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/gr-property-management-v-safdar" />
+          <FRBRdate date="2020-11-03" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWCA_Civ_1441.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWCA_Civ_1441.xml" />
+          <FRBRdate date="2021-01-21" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="CountyCourtAtCentralLondon" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CountyCourtAtCentralLondon" showAs="County Court at Central London" />
+        <TLCOrganization eId="GrPropertyManagementLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GrPropertyManagementLimited" showAs="Gr Property Management Limited" />
+        <TLCOrganization eId="MansurSafdar" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MansurSafdar" showAs="Mansur Safdar" />
+        <TLCOrganization eId="MohammedHabibSayed" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MohammedHabibSayed" showAs="Mohammed Habib Sayed" />
+        <TLCOrganization eId="LeytonFlatsLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LeytonFlatsLimited" showAs="Leyton Flats Limited" />
+        <TLCPerson eId="HhJudgeGerald" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HhJudgeGerald" showAs="Hh Judge Gerald" />
+        <TLCPerson eId="LordJusticeLewison" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeLewison" showAs="Lord Justice Lewison" />
+        <TLCPerson eId="LordJusticeArnold" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeArnold" showAs="Lord Justice Arnold" />
+        <TLCPerson eId="LordJusticeNugee" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeNugee" showAs="Lord Justice Nugee" />
+        <TLCPerson eId="MrRichardAlford" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrRichardAlford" showAs="Mr Richard Alford" />
+        <TLCPerson eId="ThirskWintonLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ThirskWintonLlp" showAs="Thirsk Winton Llp" />
+        <TLCPerson eId="MrMarkGaltrey" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrMarkGaltrey" showAs="Mr Mark Galtrey" />
+        <TLCPerson eId="RossidesCaineSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RossidesCaineSolicitors" showAs="Rossides Caine Solicitors" />
+        <TLCReference eId="D03EC731" showAs="D03EC731" name="Document number" href="www.judiciary.uk/D03EC731" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWCA Civ 1441</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>B2/2019/2200</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#CountyCourtAtCentralLondon">COUNTY COURT AT CENTRAL LONDON</organization>
+        <judge refersTo="#HhJudgeGerald">HH JUDGE GERALD</judge>
+        <ref href="#D03EC731">D03EC731</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-11-03" refersTo="#hand-downDate">3rd November 2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticeLewison">LORD JUSTICE LEWISON</judge>
+        <judge refersTo="#LordJusticeArnold">LORD JUSTICE ARNOLD</judge>
+        and
+        <judge refersTo="#LordJusticeNugee">LORD JUSTICE NUGEE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant" refersTo="#GrPropertyManagementLimited">GR PROPERTY MANAGEMENT LIMITED</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and- (1)
+        <party as="#respondent" refersTo="#MansurSafdar">MANSUR SAFDAR</party>
+        (2)
+        <party as="#respondent" refersTo="#MohammedHabibSayed">MOHAMMED HABIB SAYED</party>
+        (3)
+        <party as="#respondent" refersTo="#LeytonFlatsLimited">LEYTON FLATS LIMITED</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#MrRichardAlford" as="#barrister" for="#GrPropertyManagementLimited">Mr Richard Alford</lawyer>
+        (instructed by
+        <lawyer refersTo="#ThirskWintonLlp" as="#solicitor" for="#GrPropertyManagementLimited">Thirsk Winton LLP</lawyer>
+        ) for the Appellant
+        <lawyer refersTo="#MrMarkGaltrey" as="#barrister" for="#LeytonFlatsLimited;MohammedHabibSayed;MansurSafdar">Mr Mark Galtrey</lawyer>
+        (instructed by
+        <lawyer refersTo="#RossidesCaineSolicitors" as="#solicitor" for="#LeytonFlatsLimited;MohammedHabibSayed;MansurSafdar">Rossides Caine Solicitors</lawyer>
+        ) for the Respondent
+      </p>
+      <p>
+        Hearing date:
+        <date date="2020-10-27" refersTo="#hearing">27 October 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>Covid-19 Protocol: This judgment was handed down remotely by circulation to the parties’ representatives by email, release to BAILII and publication on the Courts and Tribunals Judiciary website. The date and time for hand-down is deemed to be 10:30am on Tuesday 3rd November 2020.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Lord Justice Lewison:</p>
+        </tblock>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>Chapter I of the Leasehold Reform, Housing and Urban Development Act 1993 gives qualifying lessees of flats the right to acquire the freehold. That right is exercised by giving notice under section 13 of the Act (“the initial notice”). The date on which the initial notice is given is called “the relevant date”: section 1 (8). The right to acquire the freehold is a right to acquire it for its market value on the relevant date: Schedule 6 para. 3. There is no provision for the lessees to pay interest on the purchase price if completion of the procedure is delayed. It can, therefore, be in the interests of lessees to drag out the process, particularly at a time of rising property prices. One way in which the Act discourages this is to prescribe a series of procedural steps which must be taken within specified time limits; and to provide for a deemed withdrawal of the initial notice if that step is not taken. If the initial notice is deemed to have been withdrawn, the lessees will have to wait for a year, and then begin all over again: section 13 (9). In many cases, not only will the landlord ’s reversion be closer, but property values may have risen.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>One of the circumstances in which an initial notice is deemed to have been withdrawn is where the lessees have not made a timely application for the determination of the terms of acquisition.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>This appeal raises the question whether the lessees have correctly complied with the statutory procedure.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The statutory provisions</p>
+        </tblock>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>As mentioned, the right to have the freehold is exercised by the giving of an initial notice under section 13. The notice is given by the qualifying tenants of not less than half the number of flats in the premises. The initial notice must (among other things) specify the proposed acquisition price; and a nominee purchaser for the lessees. Section 13(3) requires the initial notice to state a period (not less than two months after the relevant date) within which the reversioner must serve a counternotice. The counternotice is given under section 21. It may (as in this case) admit the right to enfranchise, but dispute the proposed terms of acquisition.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>Where the reversioner has given a counter-notice admitting the right, but disputing the terms of acquisition, section 24 (1) provides that if any of the terms of acquisition remain in dispute at the end of the period of two months beginning with the date on which the counter-notice was given: “the appropriate tribunal may, on the application of either the nominee purchaser or the reversioner, determine the matters in dispute.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>Section 24 (2) provides: “Any application under subsection (1) must be made not later than the end of the period of six months beginning with the date on which the counter-notice or further counter-notice was given to the nominee purchaser.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The consequences of a failure to comply with that time limit are set out in section 29 (2): “Where — (a) in a case to which subsection (1) of section 24 applies, no application under that subsection is made within the period specified in subsection (2) of that section, … the initial notice shall be deemed to have been withdrawn at the end of the period referred to in paragraph (a) ....”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>Where a notice is deemed to be withdrawn, section 13(9) provides: “Where any premises have been specified in a notice under this section and — (a) that notice has been withdrawn, or is deemed to have been withdrawn, under or by virtue of any provision of this Chapter or under section 74(3) … no subsequent notice which specifies the whole or part of those premises may be given under this section within the period of twelve months beginning with the date of the withdrawal or deemed withdrawal of the earlier notice ….”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>It will be seen that any application under section 24 (1) is to be made to “the appropriate tribunal”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Chapter II of the Act gives the lessee of an individual flat to claim an extended lease. It, too, contemplates a process of notice (section 42) and counter-notice (section 45). If, at the end of two months following the giving of a counter-notice, the terms of acquisition are in dispute, the appropriate tribunal may determine the dispute: section 48(1). The application to the appropriate tribunal must be made not later than six months following the date of the counter-notice: section 48 (2). If no such application is made in time, the tenant ’s notice is deemed withdrawn: section 53 (1). As in the case of the deemed withdrawal of an initial notice under section 13, the deemed withdrawal of a tenant ’s notice under section 42 prevents the tenant from serving another such notice for a period of one year: section 42 (7).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>It will be seen that both in the case of collective enfranchisement under Chapter I and in the case of an individual lease extension under Chapter II, any application for determining any of the terms of acquisition in dispute must be made to the “appropriate tribunal”, in default of which the notice is deemed withdrawn. That expression is defined by section 38(for the purposes of Chapter I) and by section 62 (for the purposes of Chapter II) as follows: ““appropriate tribunal” means — (a) in relation to premises in England, the First-tier Tribunal or, where determined by or under Tribunal Procedure Rules, the Upper Tribunal; and (b) in relation to premises in Wales, a leasehold valuation tribunal.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>This definition was inserted by the Transfer of Tribunal Functions Order 2013, SI 2013/1036, consequent on the reorganisation of the tribunal system. In each case it is identical. But all the definitions in section 38 are introduced by the words “except where the context otherwise requires,” whereas those words do not appear in the relevant part of section 62.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>Jurisdiction over disputes arising in the course of the exercise of the right to enfranchise is split between the appropriate tribunal and the court. Disputes over the price payable, for example, are decided by the tribunal, whereas disputes over the existence of the right to enfranchise, for example, are decided by the court. The relevant provisions are contained in Chapter VII of the Act, headed “GENERAL”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Section 90 deals with the jurisdiction of the court. It provides: “(1) Any jurisdiction expressed to be conferred on the court by this Part shall be exercised by the county court. (2) There shall also be brought in the county court any proceedings for determining any question arising under or by virtue of any provision of Chapter I or II or this Chapter which is not a question falling within its jurisdiction by virtue of subsection (1) or one falling within the jurisdiction of the appropriate tribunal (within the meaning of section 91) by virtue of that section. (3) Where, however, there are brought in the High Court any proceedings which, apart from this subsection, are proceedings within the jurisdiction of the High Court, the High Court shall have jurisdiction to hear and determine any proceedings joined with those proceedings which are proceedings within the jurisdiction of the county court by virtue of subsection (1) or (2). (4) Where any proceedings are brought in the county court by virtue of subsection (1) or (2), the court shall have jurisdiction to hear and determine any other proceedings joined with those proceedings, despite the fact that, apart from this subsection, those other proceedings would be outside the court 's jurisdiction.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Section 91 deals with the jurisdiction of the appropriate tribunal. It provides, so far as relevant: “(1) Any question arising in relation to any of the matters specified in subsection (2) shall, in default of agreement, be determined by the appropriate tribunal. (2) Those matters are-(a) the terms of acquisition relating to — (i) any interest which is to be acquired by a nominee purchaser in pursuance of Chapter I, or (ii) any new lease which is to be granted to a tenant in pursuance of Chapter II, including in particular any matter which needs to be determined for the purposes of any provision of Schedule 6 or 13; …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Section 91 (12) contains a yet further definition of the “appropriate tribunal”, also inserted by the Transfer of Tribunal Functions Order 2003. It is identical to the definitions in sections 38and 62; but like section 62 it does not include the words “unless the context otherwise requires”. It provides: “For the purposes of this section, “appropriate tribunal” means — (a) in relation to property in England, the First-tier Tribunal or, where determined by or under Tribunal Procedure Rules, the Upper Tribunal; and (b) in relation to property in Wales, a leasehold valuation tribunal.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>Section 176A of the Commonhold and Leasehold Reform Act 2002 (also added by Transfer of Tribunal Functions Order 2013/1036 Sched. 1(1 ) para.144) provides: “(1) Where, in any proceedings before a court, there falls for determination a question which the First-tier Tribunal or the Upper Tribunal would have jurisdiction to determine under [the Leasehold Reform, Housing and Urban Development Act 1993] on an appeal or application to the tribunal, the court — (a) may by order transfer to the First-tier Tribunal so much of the proceedings as relate to the determination of that question; (b) may then dispose of all or any remaining proceedings pending the determination of that question by the First-tier Tribunal or, where determined by or under Tribunal Procedure Rules, the Upper Tribunal, as it thinks fit.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>In relation to Wales, there is a similar power of transfer from the court to a leasehold valuation tribunal: Commonhold and Leasehold Reform Act 2002 Sched. 12 para. 3.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>On the face of it, these are discretionary powers of transfer. The version of section 91 as originally enacted (but now repealed) provided: “(4) Where in any proceedings before a court there falls for determination any question falling within the jurisdiction of a leasehold valuation tribunal by virtue of Chapter I or II or this section, the court — (a) shall by order transfer to such a tribunal so much of the proceedings as relate to the determination of that question; and (b) may then dispose of all or any remaining proceedings, or adjourn the disposal of all or any such proceedings pending the determination of that question by the tribunal, as it thinks fit; and accordingly once that question has been so determined the court shall, if it is a question relating to any matter falling to be determined by the court, give effect to the determination in an order of the court.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>The contrast, then, is between the current legislation which provides that the court “may” transfer matters to the FTT (or, in Wales, the LVT) and the previous version which provided that the court “shall” transfer such matters. The former version was clearly mandatory. The probable reason for the change is that the Commonhold and Leasehold Reform Act created a parallel jurisdiction shared between the county court and the FTT over such matters as service charges and administration charges.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>For reasons which are obscure, the relevant practice direction (PD 56 para. 14.6) refers only to transfer under section 91 (4), even though it is now repealed; and wrongly states that the power of transfer applies only to proceedings in Wales.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>The facts</p>
+        </tblock>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Messrs Safdar and Sayed are the lessees of two flats let on long leases that form part of a building in East London. GR Property Management Ltd is the freeholder. On 21 March 2017 they gave an initial notice under section 13 of the Act stating that they wished their nominee purchaser to acquire the freehold; and proposed terms of acquisition. On 25 May 2017 GR Property Management Ltd gave a counter-notice admitting the right; but disputing a number of the suggested terms of acquisition.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>At some stage the lessees took the view that the initial notice needed to be amended because it claimed more property than they were entitled to acquire. An amendment of this kind requires the leave of the court: Sched 3 para. 15 (2). This means the county court: section 90 (1).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>On 23 November 2017 the lessees issued a Part 8 application in the county court at Clerkenwell and Shoreditch. The claim form sought an order (a) that the initial notice be amended (b) determining the terms of acquisition and (c) making such further or consequential directions as might be required. The nominee purchaser was not a party to the application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>On 26 November 2017 the period of six months from the date of the counter-notice expired.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>On 7 December 2017 the freeholder responded. The important point, for the purposes of this appeal, is that the freeholder argued that (a) there was no need for any amendment of the initial notice and (b) the county court was the wrong place for determining the terms of acquisition.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>On 5 October 2018 DDJ Ackland transferred the lessees’ application to determine the terms of acquisition to the FTT. HHJ Gerald dismissed an appeal against her order.</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>The judgments below</p>
+        </tblock>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>The freeholder ’s argument is this Section 24 (2) empowers the appropriate tribunal (and only the appropriate tribunal) to determine the terms of acquisition: see Penman v Upavon Enterprises Ltd [2001] EWCA Civ 956, [2002] L &amp; TR 10. Section 24 (2) provides for a cut-off date for making the application to the appropriate tribunal. The application is made (at the latest) when the application is received by the appropriate tribunal. If the application is not made by the cut-off date, then the initial notice is deemed withdrawn. In this case, the lessees did not make an application to the appropriate tribunal by the cut-off date. Instead, they applied to the county court which has no jurisdiction to determine the terms of acquisition. It follows, therefore, that the initial notice is deemed withdrawn.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Both DDJ Ackland and HHJ Gerald rejected that argument. Both judges considered that the answer lay in section 90 (4). Although the FTT had jurisdiction to determine the terms of acquisition, the application to amend the initial notice was properly made to the county court. Accordingly, by virtue of section 90 (4) the court also had jurisdiction to determine other proceedings joined with that application, even though as a stand-alone application the application to determine the terms of acquisition would have been outside the jurisdiction of the court. HHJ Gerald accepted that the “appropriate tribunal” was a defined term, but that definition applied only where the context did not otherwise require; and on the facts of this case the context did so require. He also pointed to a number of practical advantages that would flow from that conclusion: i) It would avoid a proliferation of applications. ii) It would provide simplicity of proceedings. iii) It would facilitate case management. iv) It would keep down litigation costs.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>As Newey LJ said in giving permission for this second appeal, HHJ Gerald ’s decision has “a common-sense attraction”. But is it right?</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The scheme of the Act</p>
+        </tblock>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>Three features of the legislative scheme are not in doubt First, Parliament has divided jurisdiction over matters arising in the course of the exercise of the right to enfranchise (or the right to extend a lease) between the court and the appropriate tribunal. Even within section 24 itself some functions are conferred on the appropriate tribunal and others on the court. Second, Parliament has laid down a series of time limits within action must be taken, if at all (either by the reversioner, the lessee or the nominee purchaser). Third, Parliament has in the kind of case with which we are concerned, specified the consequences of a failure to comply.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>The functions conferred on the court for the purposes of Chapter I are: i) Making declarations of entitlement to enfranchise (section 22 (1)); ii) Making declarations that the right is not exercisable where the landlord intends to redevelop (section 23) ; iii) Making a vesting order where all the terms of acquisition have been agreed or determined by the appropriate tribunal (section 24 (3)) ; iv) Determining the terms of acquisition where the reversioner has failed to give a counter-notice in time. Where the court makes such a determination, but no contract has been entered into within two months, the court may go on to make a vesting order (section 25 (1) and (5)); v) Making a vesting order where the relevant landlord can not be found (section 26).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>It has analogous functions for the purposes of Chapter II.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The functions conferred on the appropriate tribunal are those set out in section 91. Section 91 applies to both Chapter I and Chapter II.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Where is the application under section 24 (1) to be made?</p>
+        </tblock>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>The relevant part of section 24 (1) is: “the appropriate tribunal may, on the application of either the nominee purchaser … or the reversioner, determine the matters in dispute.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The starting point is the ordinary meaning of those words in the statutory context: R (Spath Holme Ltd) v Secretary of State for the Environment, Transport and the Regions [2001] 2 AC 349, 397 (Lord Nicholls).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>Section 24 (1) is, of course permissive, in the sense that neither the nominee purchaser nor the reversioner can be compelled to make any application at all. The lessees may, for example, propose an acquisition price in the initial notice which is contested by the reversioner ’s counter-notice. The lessees may, on reflection, accept that the reversioner ’s counter-proposal is closer to the real value of the freehold, and decide to let the matter drop. But in my judgment, section 24 (1) does mean that if any application is to be made, it is to be made to the appropriate tribunal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>The natural or ordinary meaning of the relevant words is that the application is to be made (if at all) to the appropriate tribunal, since it is that tribunal which has the power to make the relevant determination. It would make very little sense if the section were interpreted to mean that the appropriate tribunal may, on the application of the nominee purchaser to the county court, determine the terms of acquisition.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>Mr Galtrey advanced three arguments to the contrary. The first was that on the facts of this case, the county court was the “appropriate tribunal.” Because the application for the determination of the terms of acquisition was procedurally joined with the application for leave to amend the initial notice, section 90 (4) empowered the county court to determine both the amendment application and also the terms of acquisition. The definition of “the appropriate tribunal” in section 38 applied unless the context otherwise required, and on the facts of this case, the context did otherwise require. The second was that an application under section 24 need not be made to the appropriate tribunal, if there is another tribunal with jurisdiction to determine that application. Once again, jurisdiction to determine the application is conferred on the county court under section 90 (4). These two arguments were what he called his primary case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>The third argument was that even if the county court does not have jurisdiction to determine the application, it has jurisdiction to entertain it and then transfer it to the appropriate tribunal. For the purposes of section 24 (1) and 29 (2) the application is “made” when it first enters the system, and not when it reaches the appropriate tribunal. This argument was what Mr Galtrey called his secondary case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>As noted, Chapter II contains a parallel procedure for an individual lease extension. It, too, deals with the consequences of a failure to make an application under section 48 for the determination of terms by the appropriate tribunal. The consequences of a failure to make the relevant application must have been intended by Parliament to be the same, whether the lessees are exercising a collective right to enfranchise under Chapter I or an individual lessee is exercising a right to an extended lease under Chapter II. Any other conclusion would be capricious and arbitrary, if not irrational. Unlike HHJ Gerald, therefore, I am unable to give significant weight to the introductory words of section 38(“unless the context otherwise requires”) which do not appear either in section 62 or in section 91. But even if some weight is given to that phrase, a view that one interpretation would be more beneficial or sensible than another does not, in my judgment, lead to the conclusion that the context requires that interpretation to be preferred.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>The point that the appropriate tribunal means (in England) the FTT is given added weight by a consideration of the legislative history. When originally enacted, section 24 (1) referred to a determination of disputed terms by a “leasehold valuation tribunal,” an expression which was not defined. There was no room for some other meaning to be given to that phrase. The insertion of the definition of “appropriate tribunal” in sections 38, 62 and 91 was occasioned by the transfer of the functions of the LVT (in England) to the FTT. It is most unlikely that that change was intended to enlarge the scope of the jurisdiction of the county court; still less to enlarge it under Chapter I but not under Chapter II.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>I conclude, therefore, that the county court is not the appropriate tribunal. I therefore reject Mr Galtrey ’s first argument.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>The second argument depends on first establishing that the county court, even though it is not the appropriate tribunal, has the power to determine the terms of acquisition. The main difficulty with that argument is that section 91 (1) provides that certain matters “shall be determined” by the appropriate tribunal. Under section 91 (2) those matters include the terms of acquisition. On the face of it, that excludes the power of any other tribunal to make that determination. In addition, the only permitted application under section 24 (1) is an application for the appropriate tribunal to make the determination. Once again, Mr Galtrey relies on section 90 (4). But reliance on that sub-section contradicts the clear instruction in section 91 (1); and evades the exclusion from the county court ’s jurisdiction in section 90 (2). This argument also creates a wide gulf between the powers of the county court and the powers of the High Court. Section 90 (3) enables the High Court to hear joined proceedings which are within the jurisdiction of the county court under sections 90 (1) and (2). The High Court ’s jurisdiction to determine the terms of acquisition is excluded by section 90 (2). But section 90 (4) applies only to the county court. It does not apply to the High Court. On this argument, therefore, the county court would have more extensive powers than the High Court. That is not impossible, but it is an unlikely intention to impute to Parliament. It would also mean that while an application to the county court would stop time running for the purposes of section 29, an equivalent application to the High Court would not. That, too, would be an unexplained anomaly.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>The third argument is that the county court has power to entertain the application, even though it may not have power to determine the terms of acquisition. Section 90 (2) is about where proceedings are brought. That refers to the moment of initiation of proceedings. Section 90 (4) applies where proceedings have been brought in the county court under section 90 (1) or (2). But this argument takes as its foundation the proposition that the county court can not determine the terms of acquisition. Yet if section 90 (4) applies, it can make that determination. This argument is therefore, in my judgment, internally inconsistent; and adds little, if anything, to the first two arguments. There is another reason for rejecting this argument. If, as this argument assumes, the county court is not the appropriate tribunal; and if, as it also assumes, the county court has no power to make the determination, then the application has simply been made in the wrong place.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Non-compliance with statutory time limits</p>
+        </tblock>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>In the usual case that comes before the court, the question is what is the effect of non- compliance with a statutory procedure; or a failure to comply with statutory requirements about the form of a notice, where the statute in question does not prescribe the consequences of non-compliance. The answer to that question used to depend on whether the requirement was “mandatory” or “directory”, but that dichotomy has been discarded. It was perceived as unsatisfactory since the characterisation of the statutory provisions as either mandatory or directory did no more than state a conclusion as to the consequence of non-compliance rather than assist in determining what consequence the legislature intended. In such a case the emphasis is now on the consequences of non-compliance, and posing the question whether Parliament can fairly be taken to have intended total invalidity in the event of non-compliance: R v Soneji [2006] 1 AC 340; Natt v Osman [2014] EWCA Civ 1520, [2015 ] 1 WLR 1536.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>But these principles only apply where the statute is silent about the consequences of non-compliance. Shahid v Scottish Ministers [2015] UKSC 58, [2016] AC 429 concerned a time limit in prison rules in Scotland. The Inner House considered that practical considerations led to the conclusion that a particular authorisation could be back-dated and that a failure to comply strictly with a time limit was not fatal. The Supreme Court reversed that decision. Lord Reed explained: “[20] In the light of considerations of that kind, the courts below concluded that purposive arguments favoured treating a late authorisation as valid, within reasonable limits. No amount of purposive interpretation can however entitle the court to disregard the plain and unambiguous terms of the legislation. The consequence of the failure to obtain authority for continued segregation prior to the expiry of the 72-hour period is ineluctably spelled out by the legislation itself: the prisoner “shall not be subject to … removal for a period in excess of 72 hours from the time of the order”. That consequence can not be avoided by relying, as the courts below sought to do, on such authorities as R v Soneji [2006] 1 AC 340. Those authorities were concerned with situations where the legislation was silent as to the consequences of failure to comply with a time limit, and where the intended consequences therefore had to be inferred from the underlying purpose of the legislation. The present case is fundamentally different. [21] The only principle of statutory interpretation which might enable the plain meaning of legislation to be circumvented is that it can be given a strained interpretation where that is necessary to avoid absurd or perverse consequences: see, for example, Inland Revenue Comrs v Hinchy [1960] AC 748, 768 (Lord Reid), and R (Edison First Power Ltd) v Central Valuation Officer [2003] 4 All ER 209, paras 25 (Lord Hoffmann) and 116 (Lord Millett). Indeed, even greater violence can be done to statutory language where it is plain that there has been a drafting mistake: R v Federal Steam Navigation Co Ltd [1974] 1 WLR 505, 509 (Lord Reid), and Inco Europe Ltd v First Choice Distribution [2000] 1 WLR 586, 592 (Lord Nicholls of Birkenhead).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>Lord Reed ’s choice of the adjectives “absurd” and “perverse” sets the bar high.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>On the face of it, in this case both the condition to be satisfied and the effect of a failure to comply are clear. The condition is that no application is made under section 24 (1) by the cut-off date. An application under section 24 (1) is an application to the appropriate tribunal. The appropriate tribunal (in England) is the FTT. An application made elsewhere does not satisfy the condition. The consequence of a failure to satisfy the condition is also spelled out in the legislation: the initial notice is deemed withdrawn.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>Even if, as both judges decided, the court does have jurisdiction to receive the application for determination of the terms of acquisition, the fact remains that the lessees did not satisfy the condition. The application for determination of the terms of acquisition was not made to the appropriate tribunal. It was made to the court. Even on the basis that the court has power to transfer the determination of the terms of acquisition to the appropriate tribunal, I still do not consider that the application can be said to have made to the appropriate tribunal until the appropriate tribunal has received it. Accordingly, the question, as it seems to me, is not whether the court does or does not have jurisdiction under section 90 (4) or whether it has a power of transfer, but whether it is necessary to interpret “the appropriate tribunal” as including the court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>If that phrase is not interpreted so as to include the court, the notice is deemed withdrawn. Is that an absurd or perverse result?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>In both Chapters of the Act Parliament has carefully demarcated the respective functions of the court on the one hand and the appropriate tribunal on the other. Matters which are likely to fall within the specialist competence of the FTT are to be determined by that tribunal, which is staffed by experts. In the vast majority of cases, it is a “no costs” tribunal. Whether to apply to the court or the tribunal is clear on the face of the legislation. It does not require hunting around among a plethora of statutory instruments. Where to make the application is entirely in the hands of the lessees and the nominee purchaser. Any difficulty is of their own making. A requirement that the application be made to the FTT within time also avoids the delay of many months that took place in this case between the making of the application to the county court and the transfer of part of that application to the FTT. Since the whole purpose of the time limits is to prevent delay (or to impose sanctions where delay occurs) it is of importance that the application is made to the right place within the right time.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>Nor is there any material to suggest that there has been a drafting mistake. Not only is “the appropriate tribunal” defined three times in the Act in identical terms, but the powers of transfer clearly recognise that the court is not the appropriate tribunal, as defined.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>I sympathise with both judges in their attempts to avoid potential pitfalls for the unwary, and to simplify the overall procedure. But the fact remains that Parliament has set up a highly prescriptive procedure containing many time limits affecting both lessee and reversioner; and in each case has spelled out in terms the consequences of a failure to comply. That language is, in my judgment, simply too clear to allow of a different interpretation. As Lord Diplock said in Duport Steel Ltd v Sirs [1980] 1 WLR 142: “Where the meaning of the statutory words is plain and unambiguous it is not for the judges to invent fancied ambiguities as an excuse for failing to give effect to its plain meaning because they themselves consider that the consequences of doing so would be inexpedient, or even unjust or immoral.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Result</p>
+        </tblock>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>I would allow the appeal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Arnold:</p>
+        </tblock>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>I agree. I would add three short points. First, I accept the point made by counsel for the freeholder that section 90(4) of the 1993 Act must be construed in context, and in particular the context provided by section 90(3); and that, construed in that context, its effect is to confer on the County Court jurisdiction to hear and determine a claim which would otherwise be outside its general statutory jurisdiction, where the County Court is already seized of a matter falling within section 90(1) or (2).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>Secondly, I consider that counsel for the lessees was correct not to suggest that section 176A of the 2002 Act was an answer to the problem faced by his clients. Section 176A empowered DDJ Ackland to make an order for transfer of a question to the First-Tier Tribunal, but that could not make any difference to the answer to the question of whether the lessees had applied to the appropriate tribunal in time.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>Thirdly, as Lewison LJ has explained, the 1993 Act clearly differentiates between the functions of the First-Tier Tribunal (in England) or the Leasehold Valuation Tribunal (in Wales) and those of the County Court, and it does so for understandable reasons. That legislative policy can hardly be said to be irrational, and the courts should be careful not to subvert it under the guise of interpretation. Nevertheless, the division of jurisdiction may in some circumstances present an obstacle to efficient dispute resolution. It is therefore worthy of consideration whether the Act should be amended either so as to confer jurisdiction on just one court or tribunal or in some other way.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Nugee:</p>
+        </tblock>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>I also agree.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

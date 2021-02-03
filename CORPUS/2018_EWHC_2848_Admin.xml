@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2018_EWHC_2848_Admin" />
+          <FRBRuri value="www.judiciary.uk/2018_EWHC_2848_Admin" />
+          <FRBRdate date="2018-10-31" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/lis-lange-and-chmielewski-v-regional-court-in-warsaw-and-others" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/lis-lange-and-chmielewski-v-regional-court-in-warsaw-and-others" />
+          <FRBRdate date="2018-10-31" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2018_EWHC_2848_Admin.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2018_EWHC_2848_Admin.xml" />
+          <FRBRdate date="2021-01-20" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="AdministrativeCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdministrativeCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="PawelLis" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PawelLis" showAs="Pawel Lis" />
+        <TLCOrganization eId="DariuszLange" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DariuszLange" showAs="Dariusz Lange" />
+        <TLCOrganization eId="PiotrPawelChmielewski" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PiotrPawelChmielewski" showAs="Piotr Pawel Chmielewski" />
+        <TLCOrganization eId="RegionalCourtInWarsaw,Poland" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RegionalCourtInWarsaw,Poland" showAs="Regional Court In Warsaw, Poland" />
+        <TLCOrganization eId="ZielonaGoraCircuitCourt,Poland" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ZielonaGoraCircuitCourt,Poland" showAs="Zielona Gora Circuit Court, Poland" />
+        <TLCOrganization eId="RegionalCourtInRadom,Poland" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RegionalCourtInRadom,Poland" showAs="Regional Court In Radom, Poland" />
+        <TLCPerson eId="LordBurnettOfMaldon" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordBurnettOfMaldon" showAs="Lord Burnett Of Maldon" />
+        <TLCPerson eId="LordJusticeIrwin" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeIrwin" showAs="Lord Justice Irwin" />
+        <TLCPerson eId="MrJusticeOuseley" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeOuseley" showAs="Mr Justice Ouseley" />
+        <TLCPerson eId="MarkSummersQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MarkSummersQc" showAs="Mark Summers Qc" />
+        <TLCPerson eId="FlorenceIveson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#FlorenceIveson" showAs="Florence Iveson" />
+        <TLCPerson eId="JdSpicer" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JdSpicer" showAs="Jd Spicer" />
+        <TLCPerson eId="MarkSummersQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MarkSummersQc" showAs="Mark Summers Qc" />
+        <TLCPerson eId="SaoirseTownshend" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SaoirseTownshend" showAs="Saoirse Townshend" />
+        <TLCPerson eId="LloydsPrSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LloydsPrSolicitors" showAs="Lloyds Pr Solicitors" />
+        <TLCPerson eId="MarkSummersQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MarkSummersQc" showAs="Mark Summers Qc" />
+        <TLCPerson eId="MylesGrandison" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MylesGrandison" showAs="Myles Grandison" />
+        <TLCPerson eId="LewisNedasLaw" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LewisNedasLaw" showAs="Lewis Nedas Law" />
+        <TLCPerson eId="HelenMalcolmQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HelenMalcolmQc" showAs="Helen Malcolm Qc" />
+        <TLCPerson eId="BenLloyd" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BenLloyd" showAs="Ben Lloyd" />
+        <TLCPerson eId="BenSeifert" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BenSeifert" showAs="Ben Seifert" />
+        <TLCPerson eId="CrownProsecutionService" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CrownProsecutionService" showAs="Crown Prosecution Service" />
+        <TLCPerson eId="TheFirst" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheFirst" showAs="The First" />
+        <TLCPerson eId="HelenMalcolmQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HelenMalcolmQc" showAs="Helen Malcolm Qc" />
+        <TLCPerson eId="BenLloyd" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BenLloyd" showAs="Ben Lloyd" />
+        <TLCPerson eId="CrownProsecutionService" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CrownProsecutionService" showAs="Crown Prosecution Service" />
+        <TLCRole eId="applicant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#applicant" showAs="applicant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2018] EWHC 2848 (Admin)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CO/6151/2016</docNumber>
+        ,
+        <docNumber>CO/4738/2017</docNumber>
+        AND
+        <docNumber>CO/4398/2017</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#AdministrativeCourt">ADMINISTRATIVE COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2018-10-31" refersTo="#hand-downDate">31/10/2018</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordBurnettOfMaldon">LORD BURNETT OF MALDON</judge>
+        <judge refersTo="#LordJusticeIrwin">LORD JUSTICE IRWIN</judge>
+        <judge refersTo="#MrJusticeOuseley">MR JUSTICE OUSELEY</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        (1)
+        <party as="#applicant" refersTo="#PawelLis">PAWEL LIS</party>
+        (2)
+        <party as="#applicant" refersTo="#DariuszLange">DARIUSZ LANGE</party>
+        (3)
+        <party as="#applicant" refersTo="#PiotrPawelChmielewski">PIOTR PAWEL CHMIELEWSKI</party>
+        <role refersTo="#applicant">Applicants</role>
+        -and- (1)
+        <party as="#respondent" refersTo="#RegionalCourtInWarsaw,Poland">REGIONAL COURT IN WARSAW, POLAND</party>
+        (2)
+        <party as="#respondent" refersTo="#ZielonaGoraCircuitCourt,Poland">ZIELONA GORA CIRCUIT COURT, POLAND</party>
+        (3)
+        <party as="#respondent" refersTo="#RegionalCourtInRadom,Poland">REGIONAL COURT IN RADOM, POLAND</party>
+        <role refersTo="#respondent">Respondents</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#MarkSummersQc" as="#barrister" for="#PawelLis">Mark Summers QC</lawyer>
+        and
+        <lawyer refersTo="#FlorenceIveson" as="#barrister" for="#PawelLis">Florence Iveson</lawyer>
+        (instructed by
+        <lawyer refersTo="#JdSpicer" as="#solicitor" for="#PawelLis">JD Spicer</lawyer>
+        ) for the First Applicant
+        <lawyer refersTo="#MarkSummersQc" as="#barrister" for="#DariuszLange">Mark Summers QC</lawyer>
+        and
+        <lawyer refersTo="#SaoirseTownshend" as="#barrister" for="#DariuszLange">Saoirse Townshend</lawyer>
+        (instructed by
+        <lawyer refersTo="#LloydsPrSolicitors" as="#solicitor" for="#DariuszLange">Lloyds PR Solicitors</lawyer>
+        ) for the Second Applicant
+        <lawyer refersTo="#MarkSummersQc" as="#barrister" for="#PiotrPawelChmielewski">Mark Summers QC</lawyer>
+        and
+        <lawyer refersTo="#MylesGrandison" as="#barrister" for="#PiotrPawelChmielewski">Myles Grandison</lawyer>
+        (instructed by
+        <lawyer refersTo="#LewisNedasLaw" as="#solicitor" for="#PiotrPawelChmielewski">Lewis Nedas Law</lawyer>
+        ) for the Third Applicant
+        <lawyer refersTo="#HelenMalcolmQc" as="#barrister" for="#ZielonaGoraCircuitCourt,Poland;RegionalCourtInWarsaw,Poland">Helen Malcolm QC</lawyer>
+        ,
+        <lawyer refersTo="#BenLloyd" as="#barrister" for="#ZielonaGoraCircuitCourt,Poland;RegionalCourtInWarsaw,Poland">Ben Lloyd</lawyer>
+        and
+        <lawyer refersTo="#BenSeifert" as="#barrister" for="#ZielonaGoraCircuitCourt,Poland;RegionalCourtInWarsaw,Poland">Ben Seifert</lawyer>
+        (instructed by The
+        <lawyer refersTo="#CrownProsecutionService" as="#solicitor" for="#ZielonaGoraCircuitCourt,Poland;RegionalCourtInWarsaw,Poland">Crown Prosecution Service</lawyer>
+        ) for The First and Second Respondents
+        <lawyer refersTo="#HelenMalcolmQc" as="#barrister" for="#RegionalCourtInRadom,Poland">Helen Malcolm QC</lawyer>
+        and
+        <lawyer refersTo="#BenLloyd" as="#barrister" for="#RegionalCourtInRadom,Poland">Ben Lloyd</lawyer>
+        (instructed by The
+        <lawyer refersTo="#CrownProsecutionService" as="#solicitor" for="#RegionalCourtInRadom,Poland">Crown Prosecution Service</lawyer>
+        ) for The Third Respondent
+      </p>
+      <p>
+        Hearing date:
+        <date date="2018-06-07" refersTo="#hearing">7 June 2018</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>LORD BURNETT OF MALDON CJ</p>
+          <p>This is the judgment of the court to which we have all contributed.</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The issue for determination in these applications for permission to appeal is whether recent developments in Poland which affect the judicial system and the judiciary are such that, without more, the applicants, all subject to European Arrest Warrants [“EAW”] issued by Polish judicial authorities, should be discharged and thus protected from extradition.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The applications followed the decision of Donnelly J in the High Court of Ireland in Minister of Justice and Equality v Celmer [2018] IEHC 119 which considered recent political developments in Poland that affect the judiciary. It resulted in a reference to the Grand Chamber of the Court of Justice of the European Union [“the Luxembourg Court”]. We heard argument on 7 June but were asked by the parties, first, to delay judgment until after the Advocate General had provided his opinion. It then became apparent that the Luxembourg Court intended to deliver its judgment at the end of July. The result was that the parties wished to make further submissions which they provided in mid-September.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>The cases were brought together to consider the legal consequences of the developments introduced by the Polish Government following elections in late October 2015, but in isolation from any other issue or grounds on which the applicants rely. All three applicants submit that those changes have so damaged judicial independence that the criminal proceedings in Poland to which they would return if extradited will entail a real risk of breaches of the right to a fair trial under Article 6 of the European Convention on Human Rights [“ECHR”]. Additionally, they contend that the legislative changes should result in the conclusion that the courts in Poland can no longer be recognised as “judicial authorities” for the purposes of section 2 of the Extradition Act 2003 [“the 2003 Act”] or Article 6 of the Framework Decision governing the EAW system.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>Save for some illustrations of how the changes are said to have affected the specific courts where their proceedings would be conducted, the arguments advanced on behalf of these applicants are general. None of the applicants suggests that a fair trial risk will arise because of the nature of their offending or alleged offending. There is no political dimension, for example. Their criticisms relate to the Polish judicial system as a whole. For that reason, the answer to their arguments will be a general answer. It will apply to all those otherwise liable to extradition to Poland, absent a specific reason derived from individual facts putting a requested person at special risk of an article 6 breach.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>As will shortly become clear, there has been widespread concern at the changes affecting judicial independence in Poland. Judicial independence is a core feature of the rule of law and includes, but does not exclusively comprise, the freedom of judges to decide their cases according to law free from pressure exerted by either the executive or the legislature. Threats to judicial independence may come from other sources but the widespread concerns about recent developments in Poland focus on executive and legislative action. Article 2 of the Treaty on European Union [“TEU”] declares that one of the founding values of the European Union is the rule of law. On 19 March 2014 the European Commission published a new EU Framework to Strengthen the Rule of Law, Com 2014 158 [“the Framework”]. Its purpose, as explained in paragraph 4, was “to enable the Commission to find a solution with the member state concerned in order to prevent the emerging of a systemic threat to the rule of law in that member state that could develop into a ‘ clear risk of a serious breach’ within the meaning of Article 7 TEU, which would require the mechanisms provided for in that Article to be launched.” Paragraph 2 of the Framework encapsulates various features of the generally accepted concept of the rule of law, including “independent and impartial courts”. The Commission followed the procedures set out in the Framework but resolution was not achieved with the result that, in due course, the mechanisms in Article 7 were launched.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>A Summary of Events in Poland</p>
+        </tblock>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The following summary is intended simply to ensure this judgment can be understood without reference to other documents. It is not intended to represent a full account of the events which have led to these appeals. A fuller account is given in the “Reasoned Proposal in Accordance with Article 7(1) of the Treaty on European Union regarding the Rule of Law in Poland” published by the European Commission on 20 December 2017 [“the Reasoned Proposal”]; the decision of Donnelly J to which we have referred in the Irish High Court; and in the decision on the reference by the Luxembourg Court of 25 July 2018, C-216/18 PPU.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The ruling party achieved an outright majority in the Sejm, (the Lower House in the Polish Parliament) on 25 October 2015. The new legislature amended the law on the Polish Constitutional Tribunal, through an accelerated procedure. The Sejm then passed a motion which annulled five judicial nominations to the Constitutional Tribunal and nominated five different new judges. In December 2015, the Constitutional Tribunal delivered two judgments which ruled invalid the legal basis for the appointment of three of the newly proposed judges. The Polish Government refused to publish those judgments, a step necessary for them to have legal effect. Later that month (22 December) the Sejm amended the law affecting the functions of the Constitutional Tribunal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>On 23 December 2015, the European Commission wrote to the Polish Government expressing concern about the refusal to publish judgments and about the impact of the new law on judicial independence. The reply from the Polish Government in January 2016 did not allay the Commission ’s concern.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>On 9 March 2016, the Constitutional Tribunal ruled that the law of 22 December 2015 was unconstitutional. The Polish Government declined to publish that judgment and did not participate in proceedings before the Tribunal thereafter. The Government then adopted a course of refusing to publish all judgments of the Tribunal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The Commission and the Polish Government engaged in exchanges through the early part of 2016. On 22 July the Sejm adopted a new law on the Constitutional Tribunal. On 27 July the Commission, following the procedure under the Framework, adopted a Recommendation, beginning with a finding that there was a systemic threat to the rule of law in Poland, and recommending urgent action to the Polish authorities. Their detailed points were in effect rejected by the Polish Government in their response of October 2016. In the meantime, the President of the Polish Republic signed into law the measure of 22 July.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>On 11 August 2016 the Constitutional Tribunal determined that a number of provisions of that law were unconstitutional.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>In the autumn of 2016, the Venice Commission, (the Council of Europe ’s advisory body for ‘ Democracy through Law’), and the United Nations Human Rights Committee set out detailed concerns about the impact of the changes on the rule of law in Poland. In September and December 2016, the European Parliament expressed its concern, urging the Polish Government not to implement the new laws, including laws affecting criminal proceedings and on the status of judges. Nevertheless, they were signed into effect by the President on 19 December 2016.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>In the same month there were critical events affecting the Constitutional Tribunal. The reasoned proposal describes them as follows: “(38) … On the same day [19 December], the President of the Republic appointed judge Julia Przyłębska, a judge elected by the new Sejm, to the position of acting President of the Constitutional Tribunal. (39) On 20 December 2016, judge Julia Przyłębska admitted the three judges nominated by the 8th term of the Sejm without a valid legal basis to take up their function in the Tribunal and convened a meeting of the General Assembly for the same day. In view of the short notice one judge was unable to participate and requested to postpone the meeting for the next day, which judge Julia Przyłębska refused. Out of 14 judges present at the meeting, only three unlawfully appointed judges and three judges appointed by the current governing majority cast their votes. Two candidates were elected: Julia Przyłębska and Mariusz Muszyński, and were presented as candidate to the President of the Republic. On 21 December 2016, the President of the Republic appointed judge Julia Przyłębska to the post of President of the Constitutional Tribunal.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>On the same day (21 December 2016), the European Commission adopted a second Resolution, raising further concerns about developments in Poland, and again recording their conclusion that there continued to be a systemic threat to the rule of law in Poland. The Polish Government replied in February 2017 rejecting the assessments in the Recommendation and declining to take steps to allay the concerns identified.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>In January 2017, the newly appointed President of the Constitutional Tribunal instructed the Vice President to go on leave and, despite his request to return, prolonged it until the end of June 2017. In the same month, the Minister of Justice took steps which had the effect that three long-standing judges on the Constitutional Tribunal were no longer assigned cases.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>In the same month, the Government announced comprehensive reforms of the judiciary, including draft laws on the National Council for the Judiciary and on the Ordinary Courts organisation, approved by the Senate in July. In May 2017, the Sejm adopted a new law on the National School of the Judiciary. In July 2017 the Sejm and then the Senate approved a law on the Supreme Court which stipulated the dismissal and forced retirement of all Supreme Court judges, save for those approved by the Minister of Justice. On 24 July, the President referred back to the Sejm the laws on the Supreme Court and on the National Council for the Judiciary, but on 25 July signed the law on the Ordinary Courts organisation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>In May and June 2017, the European Council was officially informed by the Commission of these events, and on 11 July adopted the Commission ’s recommendations to Poland.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>On 26 July 2017, the Commission issued a third Recommendation on the rule of law in Poland. The Commission expressed the view that the systemic threat to the rule of law in Poland had “seriously deteriorated” since the second Recommendation in December 2016. A summary of the third recommendation is set down in the Reasoned Proposal, as follows: “(57) … (1) The unlawful appointment of the President of the Constitutional Tribunal, the admission of the three judges nominated by the 8th term of the Sejm without a valid legal basis, the fact that one of these judges has been appointed as Vice- President of the Tribunal, the fact that the three judges that were lawfully nominated in October 2015 by the previous legislature have not been able to take up their function of judge in the Tribunal, as well as the subsequent developments within the Tribunal described above have de facto led to a complete recomposition of the Tribunal outside the normal constitutional process for the appointment of judges. For this reason, the Commission considered that the independence and legitimacy of the Constitutional Tribunal are seriously undermined and, consequently, the constitutionality of Polish laws can no longer be effectively guaranteed. The judgments rendered by the Tribunal under these circumstances can no longer be considered as providing an effective constitutional review; (2) The law on the National School of Judiciary already in force, and the law on the National Council for the Judiciary, the law on the Ordinary Courts Organisation and the law on the Supreme Court, should they enter into force, structurally undermine the independence of the judiciary in Poland and would have an immediate and concrete impact on the independent functioning of the judiciary as a whole. Given that the independence of the judiciary is a key component of the rule of law , these new laws increase significantly the systemic threat to rule of law as identified in the previous Recommendations; (3) In particular, the dismissal of Supreme Court judges, their possible reappointment and other measures contained in the law on the Supreme Court would very seriously aggravate the systemic threat to the rule of law; (4) The new laws raise serious concerns as regards their compatibility with the Polish Constitution as underlined by a number of statements, in particular from the Supreme Court, the National Council for the Judiciary, the Polish Ombudsman, the Bar Association and associations of judges and lawyers, and other relevant stakeholders. However, as explained above, an effective constitutional review of these laws is no longer possible; (5) Finally, actions and public statements against judges and courts in Poland made by the Polish Government and by members of Parliament from the ruling majority have damaged the trust in the justice system as a whole. The Commission underlined the principle of loyal cooperation between state organs which is, as highlighted in the opinions of the Venice Commission, a constitutional precondition in a democratic state governed by the rule of law.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>On 31 July 2017, the Sejm was notified of the decision of the President to veto the laws on the National Council for the Judiciary and on the Supreme Court. On 28 August, the Polish Government replied to the third Recommendation of the Commission, disagreeing with all the assessments and proposing no new actions to address the Commission ’s concerns.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>On 11 September 2017, the Polish Government initiated a public campaign in favour of their reforms. This drew a response from the National Council for the Judiciary and other Polish judges contradicting or correcting statements and allegations made. On 13 September, the Minister of Justice began to exercise powers under the law on Ordinary Courts Organisation to dismiss court presidents and vice-presidents. The National Council for the Judiciary rejected the exercise of this power as arbitrary and liable to affect judicial impartiality.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>On 26 September the Polish President transmitted to the Sejm replacement draft laws on the Supreme Court and on the National Council for the Judiciary. In October, the Supreme Court responded with opinions. They considered that the redrafted law on the Court would substantially curb its independence, and that the draft law on the Council was incompatible with the rule of law.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>In the same month, the Parliamentary Assembly of the Council of Europe, the European Network of Councils for the Judiciary, the United Nations High Commissioner for Human Rights, and the United Nations Special Rapporteur for the Independence of Judges and Lawyers all issued statements of concern and disagreement with the developments in Poland. This was followed by further expressions of concern by the Consultative Council of European Judges, the European Parliament, the Council of Bars and Law Societies of Europe, and other significant international bodies, in addition to the Polish Ombudsman, all urging the Polish Government not to proceed with the redrafted laws on the Supreme Court and the National Council for the Judiciary. However, on 8 December the two redrafted laws were adopted by the Sejm, and on 15 December were approved by the Senate.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Meanwhile, on 24 October 2017, a panel of the Constitutional Tribunal including the two judges whose appointment is regarded by the Commission to be unlawful, declared the basis of their own appointment to be constitutional.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>Article 7(1) TEU provides that, once a Reasoned Proposal is presented to the European Council by the Commission, the Council acting by a majority of four fifths of its members after obtaining the consent of the European Parliament, may make a determination that there is a clear risk of a serious breach by the Member State of the common set of values referred to in Article 2 TEU. Before making a reasoned proposal, the Framework provides that the Commission must (1) make an assessment, (2) make a Rule of Law Recommendation, and (3) monitor the follow-up to the Recommendation by the Member State. It is only after that, if dialogue fails to resolve the difficulty, that the Commission presents a Reasoned Proposal. In this instance, following those preliminary steps, the Reasoned Proposal was issued on 20 December 2017. Thereafter, the Member State has the opportunity to respond.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>As at the date of this judgment, there has been no determination by the European Council under Article 7(1). If the Council concludes that the relevant risk exists and thereafter it then continues, Article 7(2) provides the mechanism for determining a breach of Article 2; and Article 7(3) the sanctions available in that event.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Irish Litigation</p>
+        </tblock>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>In February 2018 Artur Celmer challenged his extradition to Poland in the High Court in Dublin, on the basis that: “The legislative changes to the judiciary, to the courts, and to the Public Prosecutor brought about within the last two to three years in Poland undermines the possibility of him having a fair trial.” He also advanced a further ground concerning prison conditions, with which we are not concerned.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>Having reviewed the evidence of changes in Poland, and the EU response, Donnelly J considered that there had been a “deliberate, calculated and provocative legislative dismantling by Poland of the independence of the judiciary, a key component of the rule of law” [123], and that “the rule of law in Poland has been systematically damaged by the cumulative impact of all the legislative changes that have taken place over the last two years” [124]. She concluded that the common values set out in the TEU were no longer accepted by Poland [135].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>Donnelly J then considered the impact of those conclusions on Celmer ’s appeal in the light of the decision of the Luxembourg Court in Aranyosi and Căldăraru (Joined Cases C-404/15 and C-659/15) [2016] ECLI 198, reported in England as Criminal Proceedings against Aranyosi and Căldăraru [2016] QB 921. The critical passage quoted by the judge is at paragraph [80]: “It follows that the executing judicial authority may refuse to execute such a warrant only in the cases, exhaustively listed, of obligatory non-execution, laid down in Article 3 of the Framework Decision, or of optional non-execution, laid down in Articles 4 and 4a of the Framework Decision. Moreover, the execution of the European arrest warrant may be made subject only to one of the conditions exhaustively laid down in Article 5 of that Framework Decision (see, to that effect, judgment in Lanigan, C-237/15 PPU, EU: C:2015:474, paragraph 36 and the case-law cited).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>The judge concluded that there was such a fundamental defect in the Polish system of justice that it was “difficult to see how the principles of mutual trust and mutual recognition may operate” [141]. She therefore concluded that, before a final determination could be made, it was necessary to request rulings from the Luxembourg Court. She proposed two questions for the Court and invited submissions on the final text for referral.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Proceedings before the Luxembourg Court</p>
+        </tblock>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>The following questions were referred for preliminary ruling: “(1) Notwithstanding the conclusions of the Court of Justice in [the judgment of 5 April 2016,] Aranyosi and Căldăraru [(C-404/15 and C-659/15 PPU, EU: C:2016:198)], where a national court determines there is cogent evidence that conditions in the issuing Member State are incompatible with the fundamental right to a fair trial because the system of justice itself in the issuing Member State is no longer operating under the rule of law, is it necessary for the executing judicial authority to make any further assessment, specific and precise, as to the exposure of the individual concerned to the risk of unfair trial where his trial will take place within a system no longer operating within the rule of law? (2) If the test to be applied requires a specific assessment of the requested person ’s real risk of a flagrant denial of justice and where the national court has concluded that there is a systemic breach of the rule of law, is the national court as executing judicial authority obliged to revert to the issuing judicial authority for any further necessary information that could enable the national court discount the existence of the risk to an unfair trial and if so, what guarantees as to fair trial would be required?”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>The Court agreed to deal with the request under the urgent procedure provi ded for in Article 107 of the Court ’s procedural rules, and to assign the case to the Grand Chamber.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>The decision is reported as LM: Request for a Preliminary Ruling from High Court (Ireland); Case C-216/18 PPU, dated 25 July 2018.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>The Luxembourg Court recorded that the principle of mutual respect of legal systems laid down by Framework Decision 2002/584, which constitutes “the cornerstone of judicial cooperation in criminal matters” means that executing judicial authorities may refuse to execute an EAW only on the grounds listed by the framework decision [41/42]. It nevertheless recognised that in “exceptional circumstances” limitations may be placed on the principles of mutual recognition and trust: Aranyosi and Căldăraru [43].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The first task of a national court is to determine whether there is “a real risk of breach of the fundamental right of the individual concerned to an independent tribunal” [47]. Each Member State must ensure that the courts and tribunals “within its judicial system in the fields covered by EU law meet the requirements of effective judicial protection” [52]. The independence of courts and tribunals “is essential to ensure that protection” [53/54]. The requirement of independence attaches to the judicial body issuing an EAW, as well as the body executing a warrant [56]. The high level of trust between Member States, on which the EAW system rests, is founded on the premise that criminal courts of the other states “meet the requirements of effective judicial protection” [58].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>The Court continued: “59. It must, accordingly, be held that the existence of a real risk that the person in respect of whom a European arrest warrant has been issued will, if surrendered to the issuing judicial authority, suffer a breach of his fundamental right to an independent tribunal and, therefore, of the essence of his fundamental right to a fair trial, a right guaranteed by the second paragraph of Article 47 of the Charter, is capable of permitting the executing judicial authority to refrain, by way of exception, from giving effect to that European arrest warrant, on the basis of Article 1(3) of Framework Decision 2002/584. 60. Thus, where, as in the main proceedings, the person in respect of whom a European arrest warrant has been issued, pleads, in order to oppose his surrender to the issuing judicial authority, that there are systemic deficiencies, or, at all events, generalised deficiencies, which, according to him, are liable to affect the independence of the judiciary in the issuing Member State and thus to compromise the essence of his fundamental right to a fair trial, the executing judicial authority is required to assess whether there is a real risk that the individual concerned will suffer a breach of that fundamental right, when it is called upon to decide on his surrender to the authorities of the issuing Member State (see, by analogy, judgment of 5 April 2016, Aranyosi and Căldăraru, C-404/15 and C-659/15 PPU, EU: C:2016:198, paragraph 88).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>Thus, the “systemic … or … generalised deficiencies” in connection with independence of the judiciary are not enough, without more, to prevent extradition. The executing judicial authority must assess in respect of the individual sought to be extradited whether there is a real risk of “breach” or “compromise” of the “essence of his fundamental right to a fair trial.” The focus becomes whether the individual concerned, given the nature of the proceedings which he faces on return, faces a substantial risk of being denied the essence of his fundamental right to a fair trial.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>This approach was further explained in the paragraphs that follow. The first step is to assess whether there are systemic or generalised deficiencies [61], by reference to Article 47, paragraph 2 of the Charter [62]. This must be conducted by reference to two aspects: the first, “external in nature”, concerns the functional or structural autonomy of the Courts and their freedom from external interventions [63/64]. The second aspect “internal in nature” concerns impartiality, objectivity and the absence of “any interest in the outcome of the proceedings apart from the strict application of the rule of law” [65]. Each aspect must be guaranteed by rules governing the “composition”, terms of service, appointment and dismissal, conduct and discipline of judges, necessary to “prevent any risk of [the judiciary] being used as a system of political control of the content of judicial decisions” [66/67].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>This is a familiar distinction in the context of extradition generally. A country may have a judiciary which does not enjoy the independence long since embedded in the United Kingdom, or anything approaching it, but nonetheless there is no real issue that the trial for an ordinary criminal offence will be essentially fair.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>The Court added that: “68. If, having regard to the requirements noted in paragraphs 62 to 67 of the present judgment, the executing judicial authority finds that there is, in the issuing Member State, a real risk of breach of the essence of the fundamental right to a fair trial on account of systemic or generalised deficiencies concerning the judiciary of that Member State, such as to compromise the independence of that State ’s courts, that authority must, as a second step, assess specifically and precisely whether, in the particular circumstances of the case, there are substantial grounds for believing that, following his surrender to the issuing Member State, the requested person will run that risk [emphasis added] (see, by analogy, in the context of Article 4 of the Charter, judgment of 5 April 2016, Aranyosi and Căldăraru, C404/15 and C659/15 PPU, EU: C:2016:198, paragraphs 92 and 94).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>The Court made clear that such “specific assessment is also necessary” where the “Member State has been the subject of a reasoned proposal adopted by the Commission”, and “the executing judicial authority considers … that there are systemic deficiencies … at the level of that Member State ’s judiciary” [69]. Implementation of the European arrest warrant mechanism may only be suspended in the event of a serious and persistent breach by one of the Member States of the principles set out in Article 2 TEU [70] and it follows that “it is for the European Council to determine a breach” with a view to the suspension of the warrant mechanism [71]. In conclusion: “72. Therefore, it is only if the European Council were to adopt a decision determining, as provided for in Article 7(2) TEU, that there is a serious and persistent breach in the issuing Member State of the principles set out in Article 2 TEU, such as those inherent in the rule of law, and the Council were then to suspend Framework Decision 2002/584 in respect of that Member State that the executing judicial authority would be required to refuse automatically to execute any European arrest warrant issued by it, without having to carry out any specific assessment of whether the individual concerned runs a real risk that the essence of his fundamental right to a fair trial will be affected.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>The Court stressed that in the absence of such a decision a national court may refrain from giving effect to an EAW, where the requesting state is subject to a reasoned proposal: “73. Accordingly, as long as such a decision has not been adopted by the European Council, the executing judicial authority may refrain, on the basis of Article 1(3) of Framework Decision 2002/584, to give effect to a European arrest warrant issued by a Member State which is the subject of a reasoned proposal as referred to in Article 7(1) TEU only in exceptional circumstances where that authority finds, after carrying out a specific and precise assessment of the particular case, that there are substantial grounds for believing that the person in respect of whom that European arrest warrant has been issued will, following his surrender to the issuing judicial authority, run a real risk of breach of his fundamental right to an independent tribunal and, therefore, of the essence of his fundamental right to a fair trial. 74. In the course of such an assessment, the executing judicial authority must, in particular, examine to what extent the systemic or generalised deficiencies, as regards the independence of the issuing Member State ’s courts, to which the material available to it attests are liable to have an impact at the level of that State ’s courts with jurisdiction over the proceedings to which the requested person will be subject. 75. If that examination shows that those deficiencies are liable to affect those courts, the executing judicial authority must also assess, in the light of the specific concerns expressed by the individual concerned and any information provided by him, whether there are substantial grounds for believing that he will run a real risk of breach of his fundamental right to an independent tribunal and, therefore, of the essence of his fundamental right to a fair trial, having regard to his personal situation, as well as to the nature of the offence for which he is being prosecuted and the factual context that form the basis of the European arrest warrant.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>In such circumstances, the executing court may request supplementary information, and consider that information when considering the risks to an individual [76/78].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The Court concluded as follows: “79. In the light of the foregoing considerations, the answer to the questions referred is that Article 1(3) of Framework Decision 2002/584 must be interpreted as meaning that, where the executing judicial authority, called upon to decide whether a person in respect of whom a European arrest warrant has been issued for the purposes of conducting a criminal prosecution is to be surrendered, has material, such as that set out in a reasoned proposal of the Commission adopted pursuant to Article 7(1) TEU, indicating that there is a real risk of breach of the fundamental right to a fair trial guaranteed by the second paragraph of Article 47 of the Charter, on account of systemic or generalised deficiencies so far as concerns the independence of the issuing Member State ’s judiciary, that authority must determine, specifically and precisely, whether, having regard to his personal situation, as well as to the nature of the offence for which he is being prosecuted and the factual context that form the basis of the European arrest warrant, and in the light of the information provided by the issuing Member State pursuant to Article 15(2) of the framework decision, there are substantial grounds for believing that that person will run such a risk if he is surrendered to that State.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>Lord Rodger of Earlsferry famously said in Secretary of State for the Home Department v AF (No 3) [2010] 2 AC 269 at [98]: “Argentoratum locutum: iudicium finitum – Strasbourg has spoken, the case is closed”, in a case concerning the level of disclosure required by article 6 ECHR in a control order case. The Luxembourg Court is the final arbiter of the operation of the EAW system. It has spoken and explained the correct approach in extradition cases to Poland. On this occasion, we add that before seeing the judgment from Luxembourg, we had arrived at a similar conclusion.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Submissions and Evidence of the Parties</p>
+        </tblock>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>The applicants’ submissions can be summarised as follows. They say that the steps taken in Poland represent such destruction of the independence of the Polish judiciary that there is self-evidently a clear risk of a serious breach of the Rule of Law. Such breach falls to be judged, in the context of extradition, not merely as a matter of European law but by reference to the ECHR, see Part 1 of the 2003 Act. Next, accepting that refusal of extradition must be founded not merely on any technical breach of Article 6 but requires a “flagrant denial” of fair trial rights (see Soering v United Kingdom (1989) 11 EHRR 439, Othman v United Kingdom (2012) 55 EHRR 1, and Rwanda v Nteziryayo [2017] EWHC 1912 (Admin)), the developments in Poland constitute a flagrant breach of Article 6 standards. If, on the other hand, this Court were to conclude that developments in Poland did not constitute a flagrant violation of rights to a fair trial, then it is argued that Articles 47 and 48 of the EU Charter carries no “threshold standard of ‘ flagrancy’”. Here the applicants rely upon the opinion of Advocate General Sharpston in Curtea de Apel Constanţa (Romania) v Radu [2013] QB 1031, where the Advocate General stated that it was unnecessary for the breach to be – “… so fundamental as to amount to a complete denial or nullification of the right to a fair trial …. I suggest that the appropriate criterion should rather be that the deficiency or deficiencies in the trial process should be such as fundamentally to destroy its fairness” [82/83]. Hence, it is argued that the Charter affords a higher level of protection than does the ECHR.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>It is further argued that the lack of independence of the Polish judiciary means that courts and tribunals in Poland no longer constitute judicial authorities within the meaning of section 2 of the 2003 Act. This argument was developed essentially during the hearing before us and was the subject of written submissions after the close of the hearing but pre-dating the decision of the Grand Chamber.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>In addition to reliance on the material produced by a range of public bodies and non- governmental organisations, the applicants rely upon two expert reports: a joint report of Ms Stepinska-Duch and Mr Tokarczyk (updated on 25 September 2018) and a report of Professor Matczak.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>In their submissions following the decision of the Grand Chamber, the applicants submit that all, or virtually all, of their arguments are consistent with or supported by the decision of the Luxembourg Court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>The essence of the respondents’ submissions are these. They rely upon the communications, notably the White Paper, from the Polish Government to the EU Commission, and on the two responses to the Court in this case. Ms Malcolm QC argues that the test of a “flagrant denial” of justice remains in the context of ECHR Article 6 arguments. This is a consequence of long-standing authority. To the extent that Advocate General Sharpston in Radu was suggesting that the EU and ECHR standards should be different, there is no support for the proposition in any of the jurisprudence of her court. In any event, her suggested reformulation represents a distinction without a difference. The decision of the Luxembourg Court has not undermined this position. The effect of the Grand Chamber ’s decision is that the relevant threshold has not been crossed, especially for these applicants. The respondents further argue that the submissions of the applicants in relation to section 2 of the 2003 Act are misconceived. If, contrary to Ms Malcolm ’s submissions, there is established evidence of systemic or generalised deficiencies concerning the Polish judiciary, then there is nevertheless no evidence that such difficulties will affect these applicants. Further, even if there is concern as to these applicants, the Court could, and should, request further information from Poland before reaching a final conclusion.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Do the Polish Courts Remain Judicial Authorities?</p>
+        </tblock>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>The applicants contend that “bodies operating as courts in Poland” can not now be considered to meet the definition of “court” or “tribunal” as a matter of EU law and for the same reasons can not be considered to be “judicial authorities” within Article 6 of the Framework Decision or section 2 of the 2003 Act. It is said that independence is one of the “defining attributes” of a court as a matter of EU law: see Ramon Margarit Panicello [2013] 3 CMLR 7. Judicial independence is said to be an integral element of the rule of law: see Pula Parking v Sven Klaus Tederahn [2017] C 551/15. That proposition is hardly controversial.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>The applicants rely on the proposition that the meaning of “judicial authority” is an autonomous concept of Union law: see Criminal Proceedings against Kovalkovas [2017] 4 WLR 10 at [31/33]. In Assange v Swedish Prosecution Authority [2012] 2 AC 471 the Supreme Court held that the meaning of judicial authority in section 2 of the 2003 Act should be given the identical meaning to the definition in Article 6(1) of the Framework Decision, a conclusion now supported by the EU principle of Conforming Interpretation applicable in English Law since Goluchowski v Poland [2016] 1 WLR 2665. On that basis the applicants assert that the interference by the executive in Poland with the independence of the courts is such that, at least since July 2017, those bodies have not been judicial authorities within the meaning of the Framework Decision or the Act. This is so because the Ministry of Justice appoints and dismisses judges, disciplines judges, allocates cases to judges and “threatens” judges. The applicants particularly rely upon comments drawn from the report of Iustitia, a representative judicial organisation in Poland.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>The date of July 2017 is advanced because it was in that month in which the law on Ordinary Courts Organisation was enacted, which enabled the Minister of Justice to remove or replace judges, to prolong their sittings beyond the retirement age and to discipline judges, propositions for which the applicants cite various sources and authorities, including the Reasoned Proposal. Hence, it is said, no EAW issued since July 2017 has been issued by a judicial authority.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>This argument would not avail any of these applicants since their warrants were all issued before the material date. However, alternatively the applicants submit that the date of issue of an EAW is immaterial since the Polish ordinary courts “are not now judicial authorities within the meaning of Article 6 of the Framework Decision or s.2 of the 2003 Act”. They are not “judicial authorities with whom the UK courts can (or should) be engaging in mutual cooperation / mutual recognition”. In support of that argument, the applicants rely upon the various provisions within the Framework Decision confining the procedure to judicial authorities (see Articles 11(1); 15(3); 17(4); 20(2); 22; 23(3); 23(4); 24(4) and 26(2)). Analysing the different functions of the issuing authority in those Articles, the applicants argue that the judicial authority ’s functions are not limited solely to issuing an EAW but persist and may be exercised throughout the surrender process. In the applicants’ submission, the 2003 Act operates on the same premise: see the provisions in sections 21B; 54; 56; 58; 64/65 and187.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>The respondents reject these arguments. In their submission, the applicants’ proposition could only be made out if it is established as a matter of fact that the “rule of law has broken down in Poland and that there is not a single judge in Poland who remains independent of the State”. These are not findings open to this Court on the material relied on. The respondents emphasise that there is a continuing political dialogue between the Polish Government and the European Commission with a clear factual dispute about how the process is evolving. The Polish Government ’s White Paper of 7 March 2018 and the further information of 27 April bear on the issue. The respondents have indicated their willingness to attend to matters of concern raised by the court under the Framework Decision procedure. The respondents make a number of detailed points in this context, for example, rejecting the proposition that the Minister of Justice appoints judges. In their submission, the white paper makes it clear that verification of trainee judges is only approved by sitting judges. Judges can only be selected if they appear on a ranked list, based on examination results. The Minister of Justice can only dismiss judges after consultation with the National Council of Judges. Case allocation is not controlled by the Minister but is addressed by a random computerised process of allocation of cases. The merger of the Prosecutor General ’s office and that of the Ministry of Justice does not mean there is executive interference in cases generally and is clearly not demonstrated in cases without political features, such as those of the three applicants. There is nothing abusive or destructive of judicial independence in the government re-setting a retirement age.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>The parties differ in their submissions as to the implications of the Grand Chamber ’s decision bearing on this issue. The applicants rely upon the Grand Chamber ’s analysis which they say accords completely with the submissions advanced by the applicants to date, namely that judicial independence is central to the rule of law, to the common values of the union and to the characterisation of Polish courts as “judicial authorities”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>The respondents argue to the contrary. The Luxembourg Court considered closely the question of judicial independence but reached no conclusion that ordinary Polish judges no longer possess impartiality or fail to try cases fairly. Indeed, the respondents submit that, having concluded that suspension from the EAW system only arises after the implementation of the Article 7 TEU process, and by their description of the necessary two-stage process, the Court ’s decision is inconsistent with the proposition that no Polish judge can be regarded as an independent judicial authority.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>On this issue we reject the argument of the applicants. The meaning of the phrase “judicial authorities” must be an autonomous meaning within European law since it is derived from the Framework Decision. The 2003 Act falls to be construed consistently. To accept the applicants’ argument on this point would be to subvert the central thrust of the decision of the Luxembourg Court. It is inconceivable that it would have reached the conclusions it did, if it were already established that the Polish courts lacked independence to the degree which required them no longer to be treated as constituting judicial authorities within the scheme. On the contrary, such a general suspension of the scheme is reserved to the Article 7 process and to the European Council. For the English courts to conclude to the contrary would be a contradiction of European Union law.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Article 6 ECHR, the Flagrancy Test and European Law</p>
+        </tblock>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>The applicants accept that the established authority in relation to a breach of Article 6 ECHR in the context of a removal case is that the threshold is a “flagrant denial of justice”. The test was adumbrated in Soering and re-stated in subsequent authority. They submit that, as a matter of fact, the evidence as to the effect of the changes in Poland satisfies this threshold. However, the applicants add the submission that the “flagrancy test” is not the test in EU law. They accept that the Luxembourg Court has frequently held that ECHR fundamental rights and principles are inherent in EU criminal law, and that “the legal principles applicable to extradition … developed under the ECHR are therefore broadly compatible with and required by the EAW scheme” (see Aranyosi). They rely on the opinion of Advocate General Sharpston in Radu, quoted in paragraph [45] above.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>Advocate General Sharpston ’s opinion has previously been considered on two occasions by an English court. In Arranz v Third Section of the National High Court of Madrid, Spain [2013] EWHC 1662 (Admin), Sir John Thomas PQBD (as he then was) observed that at that time the Framework Decision was not within the scope of sections 2 and 3 of the European Communities Act 1972 and therefore the judgments of the Luxembourg Court were not directly applicable and binding on UK courts in this area. That position has since changed: see Assange at [198]-[217] and Mugurel Cretu v Local Court of Suceava, Romania [2016] EWHC 353 (Admin), at [14]-[18]. He pointed out that he was not entitled to disregard the well settled line of authority in removal cases that the test in Article 6 cases was “flagrant denial”. Additionally, section 21 of the 2003 Act, which prevents extradition on human rights grounds, refers to Convention rights not to European law or Charter rights. He went on to observe that although it was clear that the Advocate General did not approve of the “flagrant breach” test, she still considered that a very high test was required.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>Advocate General Sharpston ’s opinion was considered further in Lezon v Regional Court in Tarnow, Poland [2015] EWHC 1908 (Admin). In that case the Court declined to apply the approach set out by Advocate General Sharpston, both on the ground that the “flagrantly unfair” test was well-established as the correct test, and on the ground of the facts in that case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>The applicants argue that neither of those decisions can stand now that in extradition matters arising under an EAW the domestic courts are now subject to the decisions of the Luxembourg Court. Their factual submission is that the changes in Poland are such that there is a real risk of a “flagrant denial” of justice should they be extradited. But, in the alternative, they submit that the less dramatic formulation proposed by Advocate General Sharpston has been fulfilled.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>The respondents submit that the Luxembourg Court in LM has not ruled that a “flagrancy test” does not apply to Article 47 or adopted a different test. The decision is no authority by which the long-established test of a flagrant denial of justice should be regarded as reduced or altered.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>We accept that submission. The Court referred frequently in the course of its judgment to the potential breach of the “essence” of the applicant ’s right to a fair trial: see paragraphs [59], [60], [68], [72], [73], [75] and [78]. We are bound to observe that if the Luxembourg Court were seeking to draw a qualitative distinction between that concept and the oft-repeated formulation of the Strasbourg Court of a “flagrant denial of justice” it would have said so in answering question 2. In our judgment there is no sensible distinction to be made between a breach of the essence of a right to a fair trial and the flagrant denial test.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Aranyosi Process</p>
+        </tblock>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>As we have noted, the Reasoned Proposal by the Commission does not have the effect of suspending the EAW system in a general way. But it does have the effect of raising the question whether or not there is a serious and persistent breach in the issuing Member State of the principles set out in Article 2 TEU. In our view, the conclusion that there is such a breach is consistent with the history of events in Poland to date as summarised earlier in this judgment and set out more fully in the Reasoned Proposal itself, the supporting material, and indeed the expert evidence before us. It means that this court must consider the impact on these individual applicants of the deficiencies which may affect them (see the judgment in Luxembourg, paragraph [75]). Further, the question may arise whether supplementary information is needed to assess whether there is a risk of the necessary quality, paragraph [76].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>The respondents agree that where the executing court considers that the Reasoned Proposal, or any evidence supporting it, gives rise to the relevant level of concern at an individual level then the extraditing judicial authority “has the right to make, and should indeed consider making, a further request for specific information as to whether the requested person will face a real risk of the essence of his fundamental right of fair trial ... having regard to his personal situation, to the nature of the offence for which he is being prosecuted and to the factual context of the EAW”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>There should be no need for expert evidence of a general nature to be adduced in Polish extradition cases pending the resolution of the Article 7 TEU process. The relevant matters are sufficiently explored in materials available in the public domain and, in particular, in those generated in that process.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Individual Applicants</p>
+        </tblock>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>The first applicant, Pawel Lis, is sought to face trial before the Regional Court of Warsaw in respect of seven allegations of mortgage fraud said to have been committed between May 2008 and June 2010. There is no indication that his case arouses any political or special interest of any other kind. To the contrary, his alleged offending is clearly, in our view, devoid of any political or special interest. There is no indication otherwise.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>The second applicant, Dariusz Lange, is sought to serve a sentence of imprisonment of six months and one day, that period representing the remainder of time to be served from an aggregate one-year sentence imposed by the District Court of Zielona Gora in respect of five assault and public order offences committed in June 2007, the sentence being imposed on 8 April 2011. This applicant was arrested in September 2017 and his extradition was ordered on four of the five offences on 11 October 2017. He was discharged for one of the offences pursuant to section 10 of the 2003 Act. It is said that his extradition will “entail a prospective ‘ disaggregation’ hearing before a Polish court in which his sentence will fall to be recalculated”. The applicant submits that such sentencing hearings are within the scope of Article 6 EHCR and Articles 47 and 48 of the Charter. The relevant hearings will be judicial, and it is argued that his prospective detention in any event engages both Article 5 ECHR and Article 6 of the Charter. He further submits there is a real risk that his extradition will violate specialty under section 17 of the 2003 Act. We note the submission that the process of sentence amalgamation by a Polish court represents a “trial”: see Criminal Proceedings Against Tupikas [2017] 4 WLR 188 and Criminal Proceedings Against Zdziaszek [2017] 4 WLR 189. We also note that the section 17 specialty argument has in the past led to consideration by the English courts of the sentence disaggregation process, objections having been met by reference to the “strong presumption” that Poland is a Member State and will act in accordance with its international obligations to respect specialty: see Brodziak &amp; Ors v Poland [2013] EWHC 3394 (Admin) and Kortas v Poland [2017] EWHC 1356 (Admin).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>The third applicant, Piotr Chmielewski, is sought to face trial before the District Court in Radom in respect of three alleged fraud offences said to have been committed in 2013. In his case he has already had an appeal on the issue of proportionality, which was heard and dismissed by May J in March 2018. He applies to reopen his appeal, following the Celmer referral. Here, too, we see no basis for considering that these offences are in any way sensitive or political, or otherwise likely to be of interest to the authorities. We see no basis why any lack of independence or bias might be likely to arise in respect of such run-of-the-mill criminal allegations.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>In respect of each of these applicants, therefore, on the basis of the material before us, we see no reason why further information bearing on the individual cases would be likely to establish any real risk of breach of their fundamental rights to an independent trial. However, this hearing was structured to consider the general question of extradition to Poland in current circumstances. Whilst sceptical that any further information will demonstrate such a risk to these individuals, if there are properly arguable grounds for doing so, the applicants should have the opportunity to formulate applications and, if thought appropriate, individual submissions.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <tblock>
+          <p>Conclusions</p>
+        </tblock>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>We grant each applicant permission to appeal. However, we reject the submissions made to date against extradition in each of the three cases. As matters stand at present, in our judgment there exists no general basis to decline extradition to Poland. However, by reason of the matters contained in the Commission ’s Reasoned Proposal and in the other material to which we have referred, there is sufficient concern about the independence of the Polish judiciary to mean that these applicants and others in a similar position should have the opportunity to advance reasons why they might have an exceptional case requiring individual “specific and precise assessment” to see whether there are substantial grounds for believing they individually might run a real risk of a breach of their fundamental rights to a fair trial. We make it clear, following the approach of the Grand Chamber of the Luxembourg Court, that exceptional circumstances must be demonstrated. We indicate, on the basis of the limited material available to us, that these cases would appear unlikely to fulfil that test and that those sought to be extradited for ordinary criminal offences, with no political or other sensitive content, would seem unlikely to be able to establish the necessary risk.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>The further conduct of these appeals will be subject to directions from Irwin LJ and/or Ouseley J. Postscript Following the further submissions in this case in September 2018, Mr Summers QC for the applicants alerted us to a first instance decision dated 4 October 2018 of the Rechtbank or District Court of Amsterdam, concerning a Polish EAW issued in 2015. We have heard no argument derived from this decision and invited no submissions from the respondent. With great respect to the Amsterdam court, we regard the decision of the Grand Chamber as clear and binding authority. We see no need for further general requests for information of the sort apparently contemplated by that court. The Grand Chamber has stressed that exceptional circumstances only, affecting a specific requested person, can justify a refusal to extradite on Article 6 grounds. Hence, it appears to us that requests for further information are appropriate only in relation to such specific circumstances affecting the individual.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

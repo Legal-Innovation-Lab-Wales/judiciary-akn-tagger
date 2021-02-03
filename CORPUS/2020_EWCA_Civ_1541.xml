@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWCA_Civ_1541" />
+          <FRBRuri value="www.judiciary.uk/2020_EWCA_Civ_1541" />
+          <FRBRdate date="2020-11-19" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/joanne-v-moneything" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/joanne-v-moneything" />
+          <FRBRdate date="2020-11-19" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWCA_Civ_1541.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWCA_Civ_1541.xml" />
+          <FRBRdate date="2020-11-29" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="JoannePropertiesLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JoannePropertiesLimited" showAs="Joanne Properties Limited" />
+        <TLCOrganization eId="MoneythingCapitalLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MoneythingCapitalLimited" showAs="Moneything Capital Limited" />
+        <TLCOrganization eId="Moneything(securityTrustee)Limited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Moneything(securityTrustee)Limited" showAs="Moneything (security Trustee) Limited" />
+        <TLCPerson eId="MrAnthonyMetzerQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAnthonyMetzerQc" showAs="Mr Anthony Metzer Qc" />
+        <TLCPerson eId="LordJusticeLewison" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeLewison" showAs="Lord Justice Lewison" />
+        <TLCPerson eId="LadyJusticeRose" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LadyJusticeRose" showAs="Lady Justice Rose" />
+        <TLCPerson eId="LordJusticeStuartSmith" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeStuartSmith" showAs="Lord Justice Stuart Smith" />
+        <TLCPerson eId="MrRobinKingham" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrRobinKingham" showAs="Mr Robin Kingham" />
+        <TLCPerson eId="BdbPitmansLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BdbPitmansLlp" showAs="Bdb Pitmans Llp" />
+        <TLCPerson eId="MrIainMacdonald" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrIainMacdonald" showAs="Mr Iain Macdonald" />
+        <TLCPerson eId="DwfLawLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DwfLawLlp" showAs="Dwf Law Llp" />
+        <TLCReference eId="QB-2018-000668" showAs="QB-2018-000668" name="Document number" href="www.judiciary.uk/QB-2018-000668" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWCA Civ 1541</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>A2/2020/0135</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN’S BENCH DIVISION</organization>
+        <judge refersTo="#MrAnthonyMetzerQc">Mr Anthony Metzer QC</judge>
+      </p>
+      <p>Deputy High Court Judge</p>
+      <p>
+        <ref href="#QB-2018-000668">QB-2018-000668</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-11-19" refersTo="#hand-downDate">19th November 2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticeLewison">LORD JUSTICE LEWISON</judge>
+        <judge refersTo="#LadyJusticeRose">LADY JUSTICE ROSE</judge>
+        and
+        <judge refersTo="#LordJusticeStuartSmith">LORD JUSTICE STUART SMITH</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant" refersTo="#JoannePropertiesLimited">JOANNE PROPERTIES LIMITED</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and-
+        <party as="#respondent" refersTo="#MoneythingCapitalLimited">MONEYTHING CAPITAL LIMITED</party>
+        (1)
+        <party as="#respondent" refersTo="#Moneything(securityTrustee)Limited">MONEYTHING (SECURITY TRUSTEE) LIMITED</party>
+        (2)
+        <role refersTo="#respondent">Respondents</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#MrRobinKingham" as="#barrister" for="#JoannePropertiesLimited">MR ROBIN KINGHAM</lawyer>
+        (instructed by
+        <lawyer refersTo="#BdbPitmansLlp" as="#solicitor" for="#JoannePropertiesLimited">BDB Pitmans LLP</lawyer>
+        ) for the Appellant
+        <lawyer refersTo="#MrIainMacdonald" as="#barrister" for="#Moneything(securityTrustee)Limited;MoneythingCapitalLimited">MR IAIN MACDONALD</lawyer>
+        (instructed by
+        <lawyer refersTo="#DwfLawLlp" as="#solicitor" for="#Moneything(securityTrustee)Limited;MoneythingCapitalLimited">DWF Law LLP</lawyer>
+        ) for the Respondents
+      </p>
+      <p>
+        Hearing date:
+        <date date="2020-11-11" refersTo="#hearing">11th November 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>Covid-19 Protocol: This judgment was handed down remotely by circulation to the parties’ representatives by email, release to BAILII and publication on the Courts and Tribunals Judiciary website. The date and time for hand-down is deemed to be 10: 30am on Thursday 19th November 2020.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Lord Justice Lewison:</p>
+        </tblock>
+        <tblock>
+          <p>The issue</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The issue on this appeal is whether the parties entered into a binding contract of compromise contained in written communications passing between their respective solicitors. In an extempore judgment, Mr Anthony Metzer QC, sitting as a deputy High Court judge, held that they had.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>Background to the dispute</p>
+        </tblock>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>Joanne Properties Ltd (“Joanne”) owned a building in Wandsworth. It borrowed money from the Respondents (“Moneything”) secured by a legal charge over the property. Joanne fell into arrears under the charge; and on 3 December 2018 Moneything appointed LPA receivers. Joanne challenged that appointment on the ground that both the loan agreement and the charge had been procured by undue influence. On 20 December 2018 Joanne issued a claim against Moneything seeking to set aside both the loan agreement and the charge. It also claimed an injunction against the receivers preventing them from taking any further steps to realise the security.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>On 19 January 2019 the parties compromised the application for an injunction. They agreed that the property should be sold and an order for distribution of the proceeds of sale. After payment of the costs of sale and the capital advanced under the loan agreement: i) The sum of £ 140,00 was to be ring-fenced, representing “sums that may be determined to be payable to [either party] subject to the terms on which the claim is resolved”; and ii) Any balance was to be ring-fenced for the resolution of a dispute relating to another charge over the property in favour of a third party.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>That agreement was embodied in a formal written agreement signed by each party.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>The issue on this appeal is whether the parties reached a further binding agreement about how the sum of £ 140,000 was to be shared between them.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The communications</p>
+        </tblock>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>Both parties were represented by solicitors: Mr Irvine for Moneything, and (initially) Mr Goldberg for Joanne.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>Mr Irvine introduced the “subject to contract” label as early as his e-mail to Mr Goldberg of 29 May 2019. In the course of a telephone call between himself and Mr Goldberg on 13 June, Mr Irvine put forward a different offer “without prejudice and subject to contract”. Mr Goldberg relayed this offer to his client, expressly referring to the fact that it had been made “subject to contract”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>On 19 June 2019 Mr Irvine made a more formal written offer headed “without prejudice save as to costs”. It was not headed “subject to contract”. Although it is (now) common ground that that offer was not compliant with CPR Part 36, it was interpreted at the time by both Mr Irvine and Mr Goldberg as though it was. It was clearly intended to be capable of acceptance. But it was not accepted; and Mr Goldberg ’s subsequent proposal of 21 June was again headed “without prejudice and subject to contract”. His improved offer of 26 June was headed in the same way. Mr Irvine and Mr Goldberg spoke on 11 July. In that conversation Mr Goldberg proposed that £ 72,000 of the ring-fenced sum would be released to Moneything. Mr Irvine ’s attendance note recorded: “David [Goldberg] confirmed that this was a firm offer with instructions from [Joanne] to make to [Moneything] and if accepted, that was the matter concluded, save that we still had to work out the mechanics of how the funds got released from the ring fenced sums.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>On 11 July 2019 Mr Irvine emailed Mr Goldberg. The email was headed “without prejudice and subject to contract.” He said that his clients would accept £ 75,000 from the ring-fenced sum; “mechanics and terms to be agreed.” Since Mr Irvine had proposed the release of £ 75,000 rather than £ 72,000, that was clearly a counter-offer rather than an acceptance of Mr Goldberg ’s proposal. Mr Goldberg replied later in the day. The subject line of the e-mail also read “without prejudice and subject to contract”. The first word of the e-mail was “Agreed.” He said that counsel was away and that he would liaise with counsel and “put a proposal to you to achieve the desired end.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Later in the month, Joanne changed solicitors. The solicitor now representing it was Mr Smith. On 24 July 2019 Mr Irvine wrote to Mr Smith. His letter was again headed “subject to contract;” this time in upper case bold font. The letter said: “We trust that your instructions accord with our understanding that the claim has been settled on terms …” and he enclosed a consent order to dispose of the proceedings. The draft consent order contained a number of terms that had not previously been discussed. He explained that it was in Word format so that tracked changes could be made.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>On 9 August Mr Irvine e-mailed Mr Smith to ask if he had any comments on the draft order; and followed it up with a letter on 13 August. The letter said that unless the draft consent order was agreed by 20 August, Moneything would apply to the court for an order in those terms. The application was duly issued and served on 30 September 2019. That prompted the reply from Mr Smith that there had been no binding settlement because the negotiations had been conducted “subject to contract”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Subject to contract</p>
+        </tblock>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>Whether two persons intend to enter into a legally binding contract is, of course, to be determined objectively. But the context is all-important: Edmonds v Lawson [2000] QB 501. In this case the most important feature of the context is the use of the phrase “subject to contract”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>The phrase “subject to contract” is a well-known phrase in ordinary legal parlance. Statements of its effect are legion. I give a few examples. In Tiverton Estates Ltd v Wearwell [1975] Ch 146, 159 Lord Denning MR said: “It is everyday practice for a solicitor, who is instructed in a sale of land, to start the correspondence with a letter" subject to contract" setting out the terms or enclosing a draft. He does it in the confidence that it protects his client. It means that the client is not bound by what has taken place in conversation. The reason is that, for over a hundred years, the courts have held that the effect of the words" subject to contract" is that the matter remains in negotiation until a formal contract is executed.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>In Secretary of State for Transport v Christos [2003] EWCA Civ 1073, [2004] 1 P &amp; CR 17 Mummery LJ said at [34]: “As everybody, including Mr Christos himself, knows, that expression, when used in relation to the sale of land, means that, although the parties have reached an agreement, no legally binding contract comes into existence until the exchange of formal written contracts takes place.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>In Generator Developments Ltd v Lidl UK GmbH [2018] EWCA Civ 396 [2018] 2 P &amp; CR 7, after considering a number of authorities, I put it this way at [79]: “The meaning of that phrase is well-known. What it means is that (a) neither party intends to be bound either in law or in equity unless and until a formal contract is made; and (b) that each party reserves the right to withdraw until such time as a binding contract is made.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Males J applied that observation in the context of deciding whether an arbitration claim under a shipbuilding contract had been settled: Goodwood Investments Holdings Inc v Thyssenkrupp Industrial Solutions AG [2018] EWHC 1056 (Comm). In RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH &amp; Co KG [2010] UKSC 14, [2010] 1 WLR 753 the Supreme Court considered its application in the context of an alleged contract for the supply and design of machinery. So the principle is not confined to contracts for the sale of land.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>Once negotiations have begun “subject to contract”, in the ordinary way that condition is carried all the way through the negotiations: Sherbrooke v Dipple (1981) 41 P &amp; CR 173. As Lord Denning MR explained: “But there is this overwhelming point: Everything in the opening letter was “subject to contract.” All the subsequent negotiations were subject to that overriding initial condition.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>In the course of the judgments both Lord Denning MR and Templeman LJ approved the proposition formulated by Brightman J in Tevanan v Norman Brett (Builders) Ltd (1972) 223 EG 1945 that: “parties could get rid of the qualification of ‘ subject to contract’ only if they both expressly agreed that it should be expunged or if such an agreement was to be necessarily implied.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>Templeman LJ also approved a further passage of Brightman J ’s judgment in which he said: “… when parties started their negotiations under the umbrella of the “subject to contract” formula, or some similar expression of intention, it was really hopeless for one side or the other to say that a contract came into existence because the parties became of one mind notwithstanding that no formal contracts had been exchanged. Where formal contracts were exchanged, it was true that the parties were inevitably of one mind at the moment before the exchange was made. But they were only of one mind on the footing that all the terms and conditions of the sale and purchase had been settled between them, and even then the original intention still remained intact that there should be no formal contract in existence until the written contracts had been exchanged.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>Templeman LJ went on to say: “Accordingly, in my judgment, the judge, with great respect, fell into the error which was adumbrated by Brightman J, namely of thinking that because parties got near a contract or conveyance, because parties assumed that they would go happily on until matters had become binding, therefore the “subject to contract” qualification either ceased to have effect or was replaced by a new contract. That, in my judgment, is not the position. It is always the case that in “subject to contract” negotiations one side or both from time to time speak as though there was a contract or would be a contract, and that is because everybody looks on the bright side and thinks a sale is going to take place. The fact of the matter is that for very good reasons the “subject to contract” formula enables one to see at once whether there is or is not a contract — either a contract exchanged or conveyance executed and delivered — or whether parties are in the negotiation stage. Once one gets away from principle, then all is difficulty, and reliance on odd conversations and letters produces uncertainty in law.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>This court reaffirmed that approach in Cohen v Nessdale Ltd [1982] 2 All ER 97.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>In RTS Flexible Systems Ltd the Supreme Court held that on the particular facts of that case the equivalent of a “subject to contract” clause had indeed been waived; not least because the putative contract had been partly performed. But in terms of the general approach, Lord Clarke said at [47]: “We agree … that, in a case where a contract is being negotiated subject to contract and work begins before the formal contract is executed, it can not be said that there will always or even usually be a contract on the terms that were agreed subject to contract. That would be too simplistic and dogmatic an approach. The court should not impose binding contracts on the parties which they have not reached. All will depend upon the circumstances.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>He added at [56]: “Whether in such a case the parties agreed to enter into a binding contract, waiving reliance on the “subject to [written] contract” term or understanding will again depend upon all the circumstances of the case, although the cases show that the court will not lightly so hold.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>In Jirehouse Capital v Beller [2009] EWHC 2538 (Ch) Peter Smith J held that the “subject to contract” formula had been lifted by necessary implication. In so holding he applied the principle in Cohen v Nessdale. Whether he was right or wrong on the facts of that case does not concern us. His decision is simply an application of the principle to particular facts.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Incomplete agreements</p>
+        </tblock>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>If parties do intend to enter into a legally binding agreement, there is a different question that sometimes arises: namely whether the agreement they have reached is an incomplete agreement. Typically, this question arises where the parties have agreed some of the terms (or the main terms) of a contract, but have left other terms to be agreed later.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>This, however, is a different principle from the effect of negotiations “subject to contract”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Application to the facts</p>
+        </tblock>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>There was undoubtedly no express agreement that the “subject to contract” qualification should be expunged. Is such an agreement to be necessarily implied?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>In my judgment the answer is undoubtedly “No”. The alleged offer and acceptance were each headed “without prejudice and subject to contract”. Mr Irvine ’s letter of 24 July 2019 was similarly headed; and also plainly contemplated that a consent order would be needed in order to embody the compromise, just as the earlier settlement agreement had been embodied in a formal signed contact. In the context of negotiations to settle litigation which are expressly made “subject to contract,” the consent order is the equivalent of the formal contract. Nor had there been any performance of the putative contract. All that had happened was that correspondence had been exchanged.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Mr MacDonald, for Moneything, placed particular stress on the purported Part 36 offer. In effect, he submitted that that recalibrated the discussions between the parties which thereafter proceeded on the basis of offers and counter-offers capable of acceptance. He also pointed to Mr Irvine ’s attendance note of 11 July which recorded Mr Goldberg as having made “a firm offer” which, if accepted “would conclude the matter”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>It must be stressed that a Part 36 offer is not like an offer in the ordinary law of contract. In the ordinary law of contract, an offer which is rejected (either expressly or by the making of a counter-offer) can not subsequently be accepted. That is not true of a Part 36 offer, which may be accepted even after the offeree has put forward a different proposal: Gibbon v Manchester City Council [2010] EWCA Civ 726, [2010] 1 WLR 2081. That is why it is an ordinary occurrence in litigation that without prejudice negotiations often take place in parallel with the making of a Part 36 offer. The Part 36 offer is, in effect, a free-standing offer. It is not a legitimate inference that the making of such an offer recalibrates attempts to compromise a dispute which are taking place in parallel. I do not overlook the fact that the offer in this case was not in fact a compliant Part 36 offer. But since both Mr Irvine and Mr Goldberg appeared to have treated it as though it had been, it has the same effect on the character of these particular negotiations as a compliant Part 36 offer would have had.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>But even if Mr MacDonald was correct in submitting that the making of that offer had recalibrated the status of the negotiations, the fact remains that both the putative offer and the putative acceptance were each headed “subject to contract”. If the “subject to contract umbrella” had been lowered, those two communications raised it again. As Mr MacDonald acknowledged, his submission entailed the proposition that we should simply ignore that heading in both communications. I do not consider that that is possible, applying an objective approach to the communications; especially where that label had been used at various stages throughout the discussions. Both Mr Irvine and Mr Goldberg, as experienced solicitors, must be taken to know what the label means.</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>The judgment below</p>
+        </tblock>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>The judge found that a binding contract had been made, despite the use of the phrase “subject to contract”. His reasons were: i) The only real issue in dispute was the destination of the ring-fenced sum of £ 140,000. ii) The correspondence referred to a full and final settlement, not a partial settlement. iii) No mention was made in correspondence of any other terms of the agreement. iv) Mr Sekar (the moving spirit behind Joanne) subjectively thought that the dispute had been compromised. v) Although there remained certain administrative matters to be agreed, they were not material for the purposes of the settlement.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>In my judgment, the judge seriously undervalued the force of the “subject to contract” label on the legal effect of the negotiations. He also failed to separate the two distinct questions (a) whether the parties intended to enter into a legally binding arrangement at all and (b) whether the agreed terms were sufficiently complete to amount to an enforceable contract. Almost all the points that he mentioned went to that second question rather than to the first.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>In addition, unfortunately, the judge was not referred either to Sherbrooke v Dipple or Cohen v Nessdale Ltd. That may be because of a change in emphasis in the way that Mr Kingham put Joanne ’s case. In consequence the judge failed to apply the correct test. In my judgment he made the same error as that of the trial judge in Sherbrooke v Dipple. Had he applied the correct test, he could not reasonably have concluded that a concluded contract had been made. As the cases show, where negotiations are carried out “subject to contract”, the mere fact that the parties are of one mind is not enough. There must be a formal contract, or a clear factual basis for inferring that the parties must have intended to expunge the qualification. In this case there was neither.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Result</p>
+        </tblock>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>I would allow the appeal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lady Justice Rose:</p>
+        </tblock>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>I agree.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Stuart-Smith:</p>
+        </tblock>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>I also agree.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

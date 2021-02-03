@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2018_EWHC_2282_QB" />
+          <FRBRuri value="www.judiciary.uk/2018_EWHC_2282_QB" />
+          <FRBRdate date="2018-09-14" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/sws-v-department-for-work-and-pensions-2" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/sws-v-department-for-work-and-pensions-2" />
+          <FRBRdate date="2018-09-14" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2018_EWHC_2282_QB.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2018_EWHC_2282_QB.xml" />
+          <FRBRdate date="2021-02-01" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="MediaAndCommunicationsList" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MediaAndCommunicationsList" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="Sws" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Sws" showAs="Sws" />
+        <TLCOrganization eId="DepartmentForWorkAndPensions" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DepartmentForWorkAndPensions" showAs="Department For Work And Pensions" />
+        <TLCPerson eId="MrJusticeWarby" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeWarby" showAs="Mr Justice Warby" />
+        <TLCPerson eId="IanHelme" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#IanHelme" showAs="Ian Helme" />
+        <TLCPerson eId="BrettWilsonLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BrettWilsonLlp" showAs="Brett Wilson Llp" />
+        <TLCPerson eId="AidanEardley" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AidanEardley" showAs="Aidan Eardley" />
+        <TLCPerson eId="GovernmentLegalDepartment" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GovernmentLegalDepartment" showAs="Government Legal Department" />
+        <TLCRole eId="applicant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#applicant" showAs="applicant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2018] EWHC 2282 (QB)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>SIOC18/0720</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#MediaAndCommunicationsList">MEDIA AND COMMUNICATIONS LIST</organization>
+        IN THE MATTER OF AN APPLICATION PURSUANT TO PD53 6.1
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2018-09-14" refersTo="#hand-downDate">14/09/2018</date>
+      </p>
+      <p>
+        Before: THE HONOURABLE
+        <judge refersTo="#MrJusticeWarby">MR JUSTICE WARBY</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#applicant" refersTo="#Sws">SWS</party>
+        <role refersTo="#applicant">Applicant</role>
+        -and-
+        <party as="#respondent" refersTo="#DepartmentForWorkAndPensions">Department for Work and Pensions</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#Sws" refersTo="#IanHelme">Ian Helme</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#Sws" refersTo="#BrettWilsonLlp">Brett Wilson LLP</lawyer>
+        ) for the Applicant
+        <lawyer as="#barrister" for="#DepartmentForWorkAndPensions" refersTo="#AidanEardley">Aidan Eardley</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#DepartmentForWorkAndPensions" refersTo="#GovernmentLegalDepartment">Government Legal Department</lawyer>
+        ) for the Respondent
+      </p>
+      <p>---------------------</p>
+      <p>Approved Judgment I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p>.............................</p>
+      <p>MR JUSTICE WARBY</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>MR JUSTICE WARBY:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This second judgment in this case deals with a sub-plot about anonymity for the applicant in this case about a statement in open court (SIOC). This is a public judgment.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>The Background</p>
+        </tblock>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The background is this. On 25 July 2017 I heard an application on behalf of SWS, pursuant to PD53 6.1, for permission to make a SIOC. This followed the settlement of a privacy claim brought by SWS against the defendant Department in respect of wrongful disclosures of information about his health, which the department had obtained when he made benefits claims. The issue was whether the applicant should be allowed to make such a statement anonymously. To preserve his rights pending judgment, I made an interim order for the applicant to be given the pseudonym SWS, “until after judgment on the application or further order in the meantime”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>After hearing argument, I refused permission to make an anonymous statement. My reasons are set out in a detailed judgment, [2018] EWHC 1998 (QB) (the First Judgment). That judgment was circulated in draft in the usual way, before it was handed down on 30 July 2017. In this case, as in many cases of anonymity, a useful side-effect of that procedure was to allow the party seeking anonymity an opportunity to raise concern that the wording of the judgment might somehow infringe his rights. Representations were made on his behalf about the extent to which details of the facts should be included in the final judgment. That was quite proper, and I took those representations into account when preparing the final version of the judgment. I eliminated certain details.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The basis for the applicant ’s representations was that the inclusion of such details would compromise his privacy rights. The basis for my editorial measures was the same, though I worked on the assumption that there would, or at least might in due course, be a public judgment that named the applicant. I therefore assumed that the details which I included would or might eventually be linked to the applicant ’s name.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>In the final version of the First Judgment, I summarised my conclusions in this way, at [53]: “… I am not persuaded that the derogation from justice which anonymisation of the draft SIOC would involve is a measure that is either necessary to do justice, or proportionate to that or any other legitimate aim pursued by the applicant. A SIOC which names the claimant and explains the facts without going into detail is one that is fair and proportionate.” I went on to explain (at [54]) that I would “see no difficulty with” a SIOC that contained the same information about the claim and its settlement as was set out in my judgment, if that SIOC also contained the applicant ’s name.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>But Mr Helme, for SWS, had indicated that his client was ‘ likely to seek to appeal the judgment rather than adopt any other course of action’. He asked for permission to appeal, but I refused it. That led to the question of whether anonymity should be preserved pending the determination of an application to the Court of Appeal for permission to appeal and, if permission was granted, the appeal. There was little between the parties in that respect and I made an order to maintain anonymity until the appellate process was complete.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The issue</p>
+        </tblock>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The next question, and the issue that I now have to deal with, was whether anonymity should be preserved come what may. In the First Judgment I said (at [55]) that I did not then see any justification for enlarging the scope of the privacy protection that had been granted thus far. I observed that “the open justice principle would normally lead to the applicant ’s identification, unless he succeeds in an appeal”. That was the position adopted by Mr Eardley for the respondent, in his submissions following my ruling. But Mr Helme ’s submission at that stage was that identification in these circumstances would represent a breach of his client ’s privacy rights. The editorial measures I had adopted would not suffice, he argued.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>I was persuaded to grant SWS a further opportunity to press this point, both by evidence and by argument. Directions were given accordingly. In accordance with those directions, SWS has filed evidence and written submissions, in support of an application that the interim anonymity order be extended until further order, subject to a general liberty for any non-party affected to apply to discharge or vary the order. The respondent has filed written submissions in response.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>The post-judgment directions were given on the basis that the issue would be resolved by a judgment arrived at “on the papers”, without a further hearing. This is that judgment.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Principles</p>
+        </tblock>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The application again concerns the extent to which open justice should prevail, where competing considerations are in play. The well-established principles are rehearsed in the First Judgment at [21-23] and do not require repetition here. Applying those principles, I accept Mr Eardley ’s characterisation of the question for the Court on the present application. It is whether SWS has now adduced “clear and cogent evidence” which establishes that there are “exceptional” circumstances which show that it is “strictly necessary” for his name to continue to be withheld from the public in perpetuity. The decision requires close scrutiny of the application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>I accept, also, the submission of Mr Helme, that the fact that I have rejected the SIOC application is not determinative of the present application. My reasons for dismissing the SIOC application have some relevance, but they are not sufficient in themselves to justify the rejection of the present application, which is separate and distinct. SWS now seeks anonymity in his present capacity as an unsuccessful applicant for an anonymous SIOC. The application must be considered separately and determined on its own merits. The outcome must depend on the application of the established principles to the specific circumstances of this case.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Evidence</p>
+        </tblock>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The evidence of greatest relevance for this purpose is the latest evidence from SWS, consisting of a confidential second witness statement made on 8 August 2018 with one confidential exhibit.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>Mr Eardley argues that the evidence which SWS submitted earlier can not be relied on now, because it was taken into account in reaching my initial decision, and any challenge to that decision must be made by way of appeal. I accept the principle that underlies this argument, but I do not go all the way with the submission. The earlier evidence clearly could not be sufficient to justify a change of view on my part; but I can and do read the evidence that has now been adduced against the background of, and in the context of, what went before.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>It is not necessary to include in this judgment the detail of the further evidence, or indeed that which preceded it. The evidence is not challenged, and if this decision has to be considered by another Court, the evidence will be there for that Court to read. For present purposes it is enough to summarise the evidence as follows : (1) Paragraphs 1 to 19 of the statement are headed “Background” and contain details of the applicant ’s health, employment, and relationship history, some of it historic and some more up to date. There is a considerable overlap with the evidence that was previously adduced. It is not apparent, or at least not obvious, why this background could not all have been adduced in evidence before. But there is one new item in the exhibit that should be mentioned. This is a letter from the applicant ’s GP (the GP Letter), dated 11 October 2017, referring to health events some months beforehand, and expressing a view about the prospects for the future. (2) Paragraphs 20 to 28 of the statement are headed “Reasons for seeking anonymity”. The final paragraph of the statement expresses fear for “the consequences if [the First Judgment] ends with much of the information I have sought to keep private entering the public domain in any event.” (3) I think it is fair to say that SWS expresses, in essence, six concerns: (i) that identification as a claimant for DLA risks exposing the claimant to speculation about the nature of the disability in question, and to hold derogatory opinions about him on the basis of his disability (real or assumed); (ii) that reference in the First Judgment to the DWP embarking on an investigation of the applicant ’s DLA claim may lead some to believe that the applicant is a benefit cheat, on the basis that there is “no smoke without fire”; (iii) reference to deterioration in SWS ’s relationship with his employer following the wrongful disclosure of health information may lead people to conclude that his condition is one that carries a significant stigma; (iv) that his ex-partner may seek to use the First Judgment against him in some way; (v) that online publication of or about the First Judgment may prejudice him; (vi) that his health may suffer if his name is published and any of these adverse consequences arise. (4) The applicant makes clear that he has limited resources, financial and otherwise, with which to fight back if these concerns prove justified. He adds that “this is also an issue which could affect those who are known to be close to me, such as my partner and my children.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Submissions</p>
+        </tblock>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>The core submission of Mr Helme, for SWS, is that continued anonymization is necessary because of a “real risk” to his health and private life if he is named, whereas “there is no significant specific public interest in naming him”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Mr Helme advances two main points in support of his submissions about risk. First, he argues that despite the revisions I made in the light of the written representations about the draft, the First Judgment “continues to publish material that is private to the Applicant and has a significant stigma potential.” He focuses on four of the points made in the witness statement: the significant health problems, serious enough to prevent regular employment; the receipt of benefits, specifically DLA; the DWP investigation-it is said that readers are likely to conclude that this looked into whether the benefits were being improperly claimed; and the difficulties with his employers that followed the wrongful disclosure. Secondly, Mr Helme emphasises his client ’s age and vulnerability, pointing to the history over the last decade or so.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>On the other hand, submits Mr Helme, the applicant ’s identity is of very limited, indeed no real relevance to the facts or issues addressed in the Judgment. In this case, he suggests, if one asks the question “What ’s in a name?” (see Re Guardian News and Media Ltd [2010] 2 AC 697, discussed in the First Judgment at [23]), the answer is “nothing, really”. He identifies two “stories” in this case: the failings of the DWP, and the fact that someone tried but failed to obtain permission to make an anonymised SIOC about them. He says that both stories can be equally well told without knowing the identity of the applicant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>Mr Eardley, for the respondent, does not suggest that the applicant ’s identity is critical to the public interest in learning of or understanding either of these “stories”, or even that the applicant ’s identity is important for that purpose. It is inherent in his approach that he does not need to do this, because the starting point is open justice, which involves the naming of the parties to litigation, and the applicant has not surmounted the challenging threshold requirements for justifying any derogation from that starting point (those identified at [10] above).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>In response to the first limb of Mr Helme ’s argument, Mr Eardley submits that not one of the four matters relied on is “genuinely private”. If and to the extent that the disclosure of such matters might arguably engage Article 8, the weight they might attract in the balancing exercise is “plainly not great enough to displace the open justice principle”. Mr Eardley suggests that the evidence as to health risks is thin and insubstantial. He points out that the applicant ’s own opinion about his possible reaction to being named is not a very solid (he says “insufficient”) basis for the order which he seeks. The only expert opinion is that of a GP, not a specialist; it is contained in the GP letter, not a witness statement or expert report; it is evidently based on a review of previous records, rather than an examination and individual diagnosis; it is not current, but 10 months old; and it is heavily qualified. Importantly, says Mr Eardley, the concern expressed is conditional; it is that “without medication” certain consequences “could” follow.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>Mr Eardley goes on to address the question of the possible reaction of the applicant ’s ex-partner. He submits that the evidence of malice on her part is vague and speculative, and that it is unclear how she might use the contents of “the anodyne [First] Judgment” to damage SWS, even if she were to try.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Discussion</p>
+        </tblock>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>One of the best-known statements of principle in this area is that “where the Court is asked to restrain the publication of the names of the parties … on the ground that such restraint is necessary under Article 8, the question is whether there is sufficient general, public interest in publishing a report of the proceedings which identifies a party and/or the normally reportable details to justify any resulting curtailment of his right and his family 's right to respect for their private and family life”: JIH v News Group Newspapers [2011] EWCA Civ 42 [2011] 1 WLR 1645 [21(5)]. It can sometimes be tempting to treat this test as exhaustive of the relevant principles. If that were the position, then the applicant might prevail on this application. His identity may well add nothing of any great significance to the “stories” which are told in the First Judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>But, as noted in the First Judgment at [23], that would be a wrong approach. Read in its proper context, the passage cited encapsulates a subsidiary principle which only comes into play if and when the party seeking anonymity has shown that the application of the usual rules about open justice would result in some interference with their Convention rights going beyond what is generally to be expected by a party to litigation. Open justice is always the starting point; derogations can only be justified to the extent that they are necessary; and, as is rightly accepted by Mr Helme, the burden of adducing evidence and/or reasons to justify a derogation from open justice always falls on the applicant for such an order. These are all established principles, founded on important public interest considerations.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Assessed within this framework, the argument for SWS falls short, essentially for the reasons advanced by Mr Eardley.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>I am not impressed by the evidence about the applicant ’s ex-partner. Sincere though it no doubt is, this is no more than speculation. I would accept that the First Judgment contains personal information about the applicant ’s health, his receipt of state benefits, his status as a person suspected of wrongful benefit claims, and his dealings with his employer, the disclosure of which may – in isolation or in combination-engage Article 8. The concerns expressed by SWS are predominantly reputational in nature. But most of the disclosures envisaged could not begin to justify a claim for defamation. Viewed as private information, it is anodyne, bland, and general. Its disclosure is, as Mr Eardley puts it, “minimally intrusive”. And the evidence of future health risk does not meet the applicable standards.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>It is convenient to put the DWP investigation to one side for the moment, and deal first with the revelations in the First Judgment that the applicant suffered poor health, claimed benefits, was dismissed, and has found it hard to gain employment. Statements of that kind are not, without more, defamatory. In the eyes of “right-thinking people”, such experiences are more deserving of sympathy than deprecation (cf Sube v News Group Newspapers Ltd [2018] EWHC 1234 (QB) [38(1)(v) and (vi)] and [38(4)(iii)]). Statements of this kind could not, of themselves, satisfy the serious harm requirement in s 1(1) of the Defamation Act 2013.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>That is not to deny that some personal circumstances attract stigma. And I do not overlook the fact that the applicant is concerned about stigma based on inferences that he fears might be drawn from the bland and general items of information on these topics that are included in the First Judgment. But although I am sure his fears in this respect are heartfelt, it seems to me that they are speculative and overstated. Similar considerations apply to the worry, expressed by SWS, that the First Judgment may be reported online in ways that are not fair or accurate. Furthermore, if stigma were to attach to this applicant due to his actual circumstances, or those which he is concerned may be inferred, that stigma would be undeserved. It would be undesirable for the Court, deciding an issue of the present kind, to give too much weight to the possibility of unreasonable third-party prejudice.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>The fact that the reputational concerns expressed are, on analysis, insubstantial is not the end of the matter, because – of course-private information can require protection quite independently of any reputational injury that disclosure might cause. There may be intrusion of a quite different kind. In this case, however, I agree with Mr Eardley ’s characterisation of the intrusion as “minimal”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>Standing back from the details, I think it fair to say, in relation to the matters now under consideration, that the evidence and submissions for SWS do not establish more than a speculative possibility that his identification as the claimant in this case may cause him some embarrassment and damage to reputation, of a kind that is inherent in a person ’s involvement in litigation. That is not enough to justify anonymity: see R v Legal Aid Board, ex parte Kaim Todner (A Firm) [1999] QB 966, 978 (Lord Woolf MR). Indeed, it is a common experience for those who unsuccessfully seek injunctions to restrain the disclosure of personal information about themselves. Where, as here, the reputational harm if any would be unwarranted and unreasonable, the argument is weakened still further.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>The position when it comes to the DWP investigation is a little different. The First Judgment makes clear that SWS came under investigation. If the implication was that he was suspected of wrongdoing, his privacy rights might be engaged. A suspect may sometimes enjoy a reasonable expectation that this status will remain private, at least for a period of time. But the First Judgment makes clear that the investigation was a fact-finding process. Moreover, reasonable members of the public do not equate suspicion with guilt; they understand the difference; and the Court deciding an issue of this kind should not proceed on any other basis : see In re Guardian Newspapers (above) [66] (Lord Rodger JSC) and Khuja v Times Newspapers Ltd [2017] UKSC 49 [2017] 3 WLR 351 [32] (Lord Sumption).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>More importantly, the judgment makes crystal clear that the investigation was closed with no further action. The clear implication is that no incriminating facts were found. It is important to remember this feature of the SIOC application: it all started with a settlement. The applicant sued the DWP for using and disclosing his private information in the course of its investigation. The DWP accepted that it should not have made the disclosure that it made. The applicant sought permission to publicise all of this, albeit anonymously. The applicant ’s starting point is that he is in the clear, and that the legal process has vindicated his rights. I do not accept that any ordinary reasonable reader of the First Judgment could conclude otherwise.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>I come finally to the evidence about the applicant ’s current health, the prognosis, and the concerns expressed about the impact of identification. I have given especially anxious consideration to this aspect of the matter. My conclusion is however that the respondent ’s submissions should be accepted. Upon close scrutiny. the evidence falls well short of “clear and cogent” evidence that it is necessary to derogate from open justice by anonymising this claimant.</p>
+          </content>
+        </paragraph>
+      </background>
+      <decision>
+        <tblock>
+          <p>Conclusions</p>
+        </tblock>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>For these reasons, my conclusion is that I should not continue the interim anonymity order, or modify it so as to provide for indefinite anonymity subject to a right to make third party applications.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Effect</p>
+        </tblock>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>The anonymity of SWS is retained in this judgment, because the order made on 30 July 2018 provided that it would remain in place until at least 21 days after this judgment. The combined effect of this judgment and the order of 30 July 2018 is that anonymity will be removed 21 days after this judgment unless within that time SWS makes an application for permission to appeal against this determination to the Court of Appeal in which case, and subject to any contrary order of the Court of Appeal, it will continue until disposal of that permission application and any ensuing appeal and will then be discharged.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

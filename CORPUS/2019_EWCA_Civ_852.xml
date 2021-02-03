@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2019_EWCA_Civ_852" />
+          <FRBRuri value="www.judiciary.uk/2019_EWCA_Civ_852" />
+          <FRBRdate date="2019-05-17" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/jan-tomasz-serafin-v-grzegorz-malkiewicz-and-others" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/jan-tomasz-serafin-v-grzegorz-malkiewicz-and-others" />
+          <FRBRdate date="2019-05-17" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWCA_Civ_852.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWCA_Civ_852.xml" />
+          <FRBRdate date="2021-01-18" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="JanTomaszSerafin" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JanTomaszSerafin" showAs="Jan Tomasz Serafin" />
+        <TLCOrganization eId="GrzegorzMalkiewicz" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GrzegorzMalkiewicz" showAs="Grzegorz Malkiewicz" />
+        <TLCOrganization eId="CzasPublishersLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CzasPublishersLimited" showAs="Czas Publishers Limited" />
+        <TLCOrganization eId="TeresaBazarnik-malkiewicz" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TeresaBazarnik-malkiewicz" showAs="Teresa Bazarnik-malkiewicz" />
+        <TLCPerson eId="MrJusticeJay" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeJay" showAs="Mr Justice Jay" />
+        <TLCPerson eId="LordJusticeLewison" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeLewison" showAs="Lord Justice Lewison" />
+        <TLCPerson eId="LordJusticeMccombe" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeMccombe" showAs="Lord Justice Mccombe" />
+        <TLCPerson eId="LordJusticeHaddon-cave" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeHaddon-cave" showAs="Lord Justice Haddon-cave" />
+        <TLCPerson eId="MsAlexandraMarzec" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MsAlexandraMarzec" showAs="Ms Alexandra Marzec" />
+        <TLCPerson eId="SimonBurnSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SimonBurnSolicitors" showAs="Simon Burn Solicitors" />
+        <TLCPerson eId="MrAnthonyMetzerQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAnthonyMetzerQc" showAs="Mr Anthony Metzer Qc" />
+        <TLCPerson eId="DrAntonVanDellen" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DrAntonVanDellen" showAs="Dr Anton Van Dellen" />
+        <TLCPerson eId="DirectAccess" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DirectAccess" showAs="Direct Access" />
+        <TLCReference eId="2017EWHC2992QB" showAs="[2017]EWHC2992(QB)" name="neutral citation" href="www.judiciary.uk/2017EWHC2992QB" />
+        <TLCRole eId="appellant-claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant-claimant" showAs="appellant-claimant" />
+        <TLCRole eId="defendant-respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant-respondent" showAs="defendant-respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2019] EWCA Civ 852</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>A2/2018/0794</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN’S BENCH DIVISION</organization>
+        <judge refersTo="#MrJusticeJay">MR JUSTICE JAY</judge>
+        <ref href="#2017EWHC2992QB">[2017]EWHC2992(QB)</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2019-05-17" refersTo="#hand-downDate">17/05/2019</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticeLewison">LORD JUSTICE LEWISON</judge>
+        <judge refersTo="#LordJusticeMccombe">LORD JUSTICE McCOMBE</judge>
+        and
+        <judge refersTo="#LordJusticeHaddon-cave">LORD JUSTICE HADDON-CAVE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant-claimant" refersTo="#JanTomaszSerafin">JAN TOMASZ SERAFIN</party>
+        <role refersTo="#appellant-claimant">Appellant/Claimant</role>
+        -and- (1)
+        <party as="#defendant-respondent" refersTo="#GrzegorzMalkiewicz">GRZEGORZ MALKIEWICZ</party>
+        (2)
+        <party as="#defendant-respondent" refersTo="#CzasPublishersLimited">CZAS PUBLISHERS LIMITED</party>
+        (3)
+        <party as="#defendant-respondent" refersTo="#TeresaBazarnik-malkiewicz">TERESA BAZARNIK-MALKIEWICZ</party>
+        <role refersTo="#defendant-respondent">Respondent/Defendant</role>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#MsAlexandraMarzec" as="#barrister" for="#JanTomaszSerafin">Ms Alexandra Marzec</lawyer>
+        (instructed by
+        <lawyer refersTo="#SimonBurnSolicitors" as="#solicitor" for="#JanTomaszSerafin">Simon Burn Solicitors</lawyer>
+        ) for the Appellant/Claimant
+        <lawyer refersTo="#MrAnthonyMetzerQc" as="#barrister" for="#TeresaBazarnik-malkiewicz;CzasPublishersLimited;GrzegorzMalkiewicz">Mr Anthony Metzer QC</lawyer>
+        and
+        <lawyer refersTo="#DrAntonVanDellen" as="#barrister" for="#TeresaBazarnik-malkiewicz;CzasPublishersLimited;GrzegorzMalkiewicz">Dr Anton van Dellen</lawyer>
+        (instructed via
+        <lawyer refersTo="#DirectAccess" as="#solicitor" for="#TeresaBazarnik-malkiewicz;CzasPublishersLimited;GrzegorzMalkiewicz">Direct Access</lawyer>
+        ) for the Respondents/Defendants
+      </p>
+      <p>
+        Hearing date:
+        <date date="2019-03-05" refersTo="#hearing">5th March 2019</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Judgment Approved by the court for handing down (subject to editorial corrections)</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>JUDGMENT OF THE COURT:</p>
+        </tblock>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The Appellant claimed damages for libel in respect of a double-page article in a popular Polish-language monthly magazine called “Nowy Czas” (“New Time”) published in its October 2014 issue. The article was entitled “Bankruptcy Need Not Be Painful”. The magazine “Nowy Czas” was started in 2006 by the First and Third Respondents who had previously worked as journalists on The Polish Daily. The First Respondent is the editor of “Nowy Czas” and the Second and Third Respondent are co-publishers. The magazine is widely read by the Polish community in London.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>Mr Justice Jay dismissed the Appellant ’s claim for libel following a 7-day trial, at which the Appellant represented himself (having had some legal assistance previously) and both sides gave evidence. The Appellant appeals against Jay J ’s judgment dated 24th November 2017 and order dated 18th December 2017.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>At this appeal, the Appellant was represented by Ms Alexandra Marzec. The Respondents were represented by Mr Anthony Metzer QC and Dr Anton van Dellen (Mr Metzer QC also appeared below). We are grateful to them for their written and oral submissions. For convenience, in the judgment the Appellant will hereafter be referred to as “the Claimant” and the Respondents will be referred to as “the Defendants”.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>Background facts</p>
+        </tblock>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The Claimant, a Polish émigré, was born in Poland in 1952 and is now aged 67. He arrived in the UK when aged 32. He separated from his wife who remained in Poland and they subsequently divorced. He started a building business called ‘ JTS Building Services’. In 1989, he joined the Polish Social and Cultural Association (“POSK”) based in Hammersmith, London, and served as a member of the General Council of POSK for 15 years until 2007. Between 2005 and 2007, he was involved in the major refurbishment of a basement area at POSK known as the Jazz Club. Between 2007 and 2012, he was joint manager of the Jazz Club and served behind the bar as a volunteer.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>In 2008, he started a food business called ‘ Polfood (UK) Ltd’ (“Polfood”). In the course of doing so, he acquired the premises, assets and stock-in-trade of CCW Foods Ltd, a company owned by Mr Waldermar Wegrzynowski and Ms Renata Cyparska. He also obtained a series of loans and investments from various individuals, including Ms Elizabeth Howard, the company secretary of Polfood with whom he had an intimate relationship. In August 2011, a bankruptcy order was made against the Claimant in respect of Polfood. The Official Receiver found misconduct by the Claimant on the basis that he had disposed of £ 123,743 whilst insolvent and in August 2012 he was made subject to a five-year Bankruptcy Restrictions Undertaking (“BRU”).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>In 2012, the Claimant became involved in Kolbe House Society Care Home (“Kolbe House”), a care home for elderly Polish people situated in the Ealing Common area of London. He had previously, in 2006, started bringing bread to Kolbe House free of charge and subsequently organised for Polfood to supply foodstuffs to Kolbe House. He resumed delivering bread to the residents in 2012. In 2013 he took over as maintenance man and subsequently commenced a relationship with the deputy manager, Ms Beata Parylak, which continued until the trial.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>In October 2014, the article “Bankruptcy Need Not Be Painful” appeared in “Nowy Czas”. The Appellant contended that the article contained numerous serious defamatory allegations about him and amounted, in effect, to a character assassination. No attempt was made by the Defendants to contact the Claimant or seek his comments before publication of the article. An agreed translation of the article is annexed to this judgment at ANNEX A.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Complaints</p>
+        </tblock>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The Claimant complained in respect of 14 different defamatory allegations in the “Nowy Czas” article which fell broadly into three categories: (1) allegations concerning the Claimant ’s voluntary work for POSK (“the POSK allegations”); (2) allegations concerning the Claimant ’s dealings with Polfood (“the Polfood allegations”); and (3) allegations concerning the Claimant ’s work for Kolbe House (“the Kolbe House allegations”).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Judgment</p>
+        </tblock>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>The Judge heard evidence from the Claimant, the First and Third Defendants and numerous witnesses called by both sides. The Judge determined the meanings of the 14 allegations, most of which he held were seriously defamatory. He found the POSK allegations and the Polfood allegations to be true, but the Kolbe House allegations (save for one) to be untrue. He held that the defence of ‘ honest opinion’ under s.3 of the 2013 Act was made out in respect of some of the allegations. He found that the defence of ‘ public interest’ under s.4 of the Defamation Act 2013 succeeded in relation to all the allegations. In addition, the Judge found that, even if the s.4 public interest defence had not succeeded, he would not have awarded the Claimant any damages in relation to the allegations that were not proven, because his reputation was “shot to pieces” by the proven allegations [353]. The Judge found that the headline and the caption to the photographs satisfied the ‘ honest opinion’ defence pursuant to s.3. Accordingly, he dismissed the Claimant ’s claim in its entirety.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Jay J ’s judgment in this case (reported at [2017] EWHC 2992 (QB)) is detailed and lengthy, comprising 355 paragraphs. References in this judgment in square brackets are to references to paragraph numbers in his judgment. We set out below the key findings of the Judge which are pertinent to this appeal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>The Judge dealt with four main issues arising under the Defamation Act 2013: (1) First, s.1 ‘ serious harm’: the meaning of the words complained of (including whether there was a ‘ common sting’) and whether the words complained of met the threshold of ‘ serious harm’ within s.1 of the 2013 Act. (2) Second, s.2 defence of ‘ truth’: whether the Defendants’ s.2 defence that the words complained of were ‘ substantially true’ was made out. (3) Third, s.3 defence of ‘ honest belief’: whether the Defendants’ s.3 defence of ‘ honest belief’ in respect of two of the allegations was made out. (4) Fourth, s.4 defence of ‘ public interest’: whether the Defendants’ s.4 ‘ public interest’ defence in respect of the whole article was made out.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>For convenience, we attach as ANNEX B to this judgment, ss.1-4 of the Defamation Act 1993. (1) s. 1 ‘ serious harm’</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>The Judge found the 14 allegations complained of in the article bore the following meanings: POSK allegations: (1) The Claimant had abused his position as house manager of POSK in order to award himself or his company profitable contracts for maintenance work at POSK, avoiding the proper procedure for obtaining approval for tenders for such contracts [62]; (2) The Claimant had purchased memberships of POSK for those whom he could rely upon to support his electoral aspirations [64]; (3) The Claimant was not really single at all, or at the very least his personal circumstances in Poland were mysterious and that he exploited his supposed availability as a means of bringing him close to women, over whom he exercised his charm [66]; (4) The Claimant in the course of supplying alcohol for retail sale in POSK ’s Jazz Café, dishonestly ensured that money taken from sales would by-pass the cash register, in order to obtain unlawful and fraudulent profit from those sales [210]- [220]; Polfood allegations: (5) The Claimant conned a number of women into investing their life savings into his food business by leading each woman to believe she was the only one and with promises of a good life together with him [69]; (6) The Claimant, having dishonestly persuaded investors in his food business to part with their life savings, stole their money for himself and transferred it to Poland to use it to support a family construction project in Poland and to support his family there [70]; (7) The Claimant defrauded his creditors and dishonestly circumvented the normal consequences of bankruptcy in order to retain for himself personal wealth, in the form of a BMW X5 car and real property that he pretended to sell, which should have been made available to satisfy the claims of his creditors [71]; Kolbe House allegations: (8) The Claimant had sold out-of-date, and therefore unfit, food to Kolbe House, a residential care home for elderly and vulnerable people [73] (Note: this meaning is based on the Judge ’s comments and findings in [73]; he does not formulate it in these precise terms); (9) The Claimant, by means of exploiting his charm and sway over the female manager of Kolbe House, inveigled himself into the highest levels of management at the home to the extent that he treated it as if it were his own personal property, including accessing at will the highly confidential records of the vulnerable residents despite having no legitimate reason to do so [74]; (10) The Claimant had or may have concealed his bankruptcy from Kolbe House [76]; (11) The Claimant acted unethically in respect of a charity by replacing bathroom equipment that was in good condition [77]; (12) The Claimant supplied milk and food past their “sell-by” date to Kolbe House [77]; (13) The Claimant had dishonestly concealed from the manager and trustees of Kolbe House his current status as an undischarged bankrupt in order to win their trust and also to obtain a building contract for the extension of the manager ’s personal house [81]-[82]; (14) The Claimant also concealed his status as an undischarged bankrupt from Ealing Council in circumstances where he was obliged to reveal it [84].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>The Judge held that all the allegations satisfied the s.1 ‘ serious harm’ test, save for allegations (2) and (3) which he doubted reached the threshold, and allegation (12) which he held did not. The Judge found that there was no ‘ common sting’.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Allegations can be published with varying degrees of certainty. These degrees of certainty have been classically analysed at three distinct levels: (i) level 1: the claimant is ‘ guilty’ of the conduct alleged; (ii) level 2: there is ‘ reason to suspect’ the claimant is guilty of the conduct alleged; and (iii) level 3: there are ‘ grounds for investigating whether’ the claimant is guilty of the conduct alleged (see Chase v News Group Newspapers [2002] EWCA Civ 1722, [2003] EMLR 11). These levels calibrate the degree of proof required by the defendant in a defence of truth (c.f. paragraph 27 of Mir Shakil-ur-Rahman v Ary Network Limited [2015] EWHC 2917 (QB)). It was not disputed that in the present case, the allegations in “Nowy Czas” were at ‘ Chase Level 1’, i.e. the Claimant was ‘ guilty’ of the conduct alleged. (2) s. 2 Defence of ‘ truth’</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>In respect of the defence of truth under s.2, the Judge found the meanings of the first two sets of allegations were true, i.e. the POSK allegations (1) to (4) and the Polfood allegations (5) to (7); but found that the meanings of the Kolbe House allegations (8) to (13) were untrue, save with the exception of allegation (12) which was true, namely, the allegation that the Claimant supplied Kolbe House milk and food of dubious provenance close to or past their sell-by date.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>It should be noted that the Judge held that, if allegation (12) had satisfied the serious harm test, the defence of truth would have succeeded [276]. The Claimant submitted that this finding was hard to reconcile with the Judge ’s almost indistinguishable finding that allegation (8) regarding the supply of out-of-date food to Kolbe House was serious and not proven to be true [257]-[260]. The Claimant ’s position was that, although the Judge ’s finding in respect of allegation (12) was at odds with his finding in respect of allegation (8), the Claimant did not seek to appeal allegation (12), because he was content with the finding that the allegation (8) was not proven to be true.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>One of the most serious allegations which the Judge found was proven to be true was POSK allegation (4) above, namely that the Claimant was siphoning money from the Jazz Café [214]-[220] (see further below).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Credibility of the Claimant</p>
+        </tblock>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>The Judge devoted a considerable amount of his judgment to analysing the credibility of the Claimant which he saw as the “crucial” issue in the case [86]-[131]. The Judge clearly formed an adverse view of the Claimant ’s evidence and character and expressed his views in the following trenchant terms: “[91] Reflecting on the Claimant ’s evidence, both macroscopically and microscopically, I consider that I am presented with two competing, possible interpretations of him. The first is that the Claimant is, in the main, an honest and generous man, good-hearted, with genuine charitable and community-based instincts. On this interpretation, the Claimant has a quixotic streak, is overly optimistic, is chaotic and inexperienced in relation to financial affairs, and although may well be unreliable in many ways is not dishonest. The second interpretation is that the Claimant is a latter-day Don Juan figure who is only out for himself, and pursues his business and personal goals with a combination of tenacity and deceit. Furthermore, this interpretation would hold that the Claimant is boastful and self-promoting, has an element of the Walter Mitty about him, adapts what he tells people to the circumstances as he perceives them to be, is well aware of the hold he exercises over people because of his plausibility, charisma and personal charm, and – at root – is fundamentally untrustworthy. [92] Ultimately, I have come to the conclusion that the second interpretation of the Claimant largely prevails over the first. There are some refinements I should make which relate to aspects of his charitable work. This is my global assessment after hearing and reflecting upon all the evidence in the case, drawing adverse inferences on a limited basis where appropriate.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>The Judge was critical of the Claimant for having failed to give disclosure of certain documents and for failing to call certain witnesses ([93]-[95]). The Judge disbelieved the Claimant in relation to most of the key factual disputes in the case ([96]-[131]). The Judge also largely disbelieved the witnesses who gave evidence in the Claimant ’s favour (in particular Ms Parylak and the Claimant ’s nephew, Mr Piotr Serafin). By contrast, the Judge found the Defendants and witnesses who gave evidence which supported the Defendants’ case to be essentially reliable and truthful (in particular Ms Henryka Woznizcka and Ms Howard, both of whom the Claimant had relationships with and who made loans to him) ([132]-[179]). (3) s.3 Defence of ‘ honest opinion’</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>The Defendants pleaded the s.3 defence of ‘ honest opinion’ in relation to the headline to the article (“Bankruptcy need not be painful”) and to the caption to the photograph of the Claimant (“JANEK IS PENNILESS AND CHEERFUL …”) (the passage marked [B] in ANNEX A).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>The Judge held that the requirements of s. 3 and defence of ‘ honest belief’ was made out in relation to both the headline and the caption. He held that despite “numerous and significant” evidential errors in the article regarding the question of the Claimant ’s insolvency, the authors of the article were nevertheless entitled to form the opinion that “one would have to be mad to believe that other creditors would ever be repaid” [306]. He emphasised, however, that the headline and caption paled into insignificance when measured against the imputations made elsewhere in the article [307]. (4) s.4 Defence of ‘ public interest’</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>The Judge held that the defence of ‘ public interest’ succeeded in relation to the entirety of the words complained of, i.e. the defence was made out in relation to all of the allegations contained in the article [339].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The Judge made findings as to the credibility of the First and Third Defendants in the context of the s.4 ‘ public interest’ defence at [314]-[339]. The Judge said this about the First Defendant: “[315] The First Defendant was born in 1956 and is a highly educated man, both in his homeland and the UK. He came to this country in 1981 when heavily involved in the activities of Solidarity, and did not return to Poland after martial law was declared. He studied for his doctorate in philosophy at Balliol College Oxford, and after obtaining his PhD has worked in the world of journalism in a number of capacities. In 2006 he and his wife set up Nowy Czas with some of their former colleagues. [316] I hope that he will not mind me saying so, but I would describe the First Defendant as a Polish intellectual in the old school. He should not read that as other than a compliment. I do not think that his health is particularly good, and fear that it is possible that some of the spark and fire has deserted him, at least for the time being. Most importantly, I have concluded that the First Defendant was an honest and reliable witness whose evidence I could safely accept.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>The Judge said this about the Third Defendant: “[328] The Third Defendant was born in Poland in 1957 and she is also highly educated. …. In my judgment, the Third Defendant was an honest and reliable witness.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The Judge then continued: “[332]. I am completely satisfied that it was in the public interest for the Defendants to publish an article about the Claimant 's fitness or otherwise to be involved in a charitable institution, Kolbe House, and the Claimant effectively conceded as much. The Defendants had evidence from apparently credible sources that the Claimant had secured an entrée to Kolbe House through the current manager, and that he was exploiting that relationship and his position as maintenance man to his personal advantage. In relation to the Kolbe House allegations, it is supererogatory for the Defendants to add that the Claimant had an established reputation within the Polish community and that he had" form" for similar behaviour. However, these matters add considerable weight to the already cogent force of the Defendants' arguments in relation to public interest in that context. [333]. The Claimant submits that it was unnecessary for the Defendants to go further than the Kolbe House matters. The POSK matters were stale, and the Polfood matters went to his private life, and were not therefore in the public interest. I disagree. POSK was also a charitable organisation. It, as I have said, was somewhat secretive in the management of its affairs, and it was entirely within the scope of good investigative journalism for this secrecy to be penetrated. Moreover, there was a direct contextual link between the allegation that the Claimant was cheating Kolbe House – another fairly secretive organisation, in my view – and the allegation that the Claimant had profited from his involvement in POSK in two specific ways. To my mind, the link is obvious, because they are both charities; it follows that the editorial judgments that were made can not be gainsaid. The fact that the refurbishment of the Jazz Café had been completed about a decade previously is nothing to the point. [334]. The Defendants accept that there was no public interest in publishing a limited story about the Claimant 's simultaneous entanglement with Ms Wozniczka and Ms Howard. I would go slightly further. Polfood was a private company and the fact that respected members of the community lost out through the Claimant 's brazenly unethical activities would not have justified a limited or narrow story. However, I agree with the First Defendant that these matters acquired direct saliency, and real public interest, once a proper basis for publishing a story about Kolbe House and POSK was established. The connection between the earlier cheating of women, in both the personal and financial domains, and the Claimant 's exploitation of his relationship with Ms Parylak was clear. Once the Polfood tale could properly be told, because it was now in the public interest to narrate it, the length, breadth and depth of that narration became a matter of editorial judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>The Judge went on to give the Defendants’ journalistic standards a fulsome endorsement as follows: “[337] I am satisfied that these Defendants did undertake reasonable inquiry in relation to all the factual matters upon which their story was based. Indeed, I would go further. I think that they applied rigorous, objective journalist standards in the context of a piece which cried out to be published. They were not precipitate; on the contrary, they were cautious and measured. Furthermore, for the reasons that the First and Third Defendants have given, and which I accept, this case falls into the unusual category of case where it was not incumbent on the First and Third Defendants to approach the Claimant for comment before publication.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>The Judge finally said that the fact the Defendants’ defence of ‘ truth’ had failed in relation to virtually all of the Kolbe House allegations did not cast doubt on the integrity of the Defendants’ “journalistic credentials”; the explanation was simply because their sources were not as objective as they thought [338].</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>Grounds of appeal</p>
+        </tblock>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>The Claimant appealed the Judge ’s decision and raised five grounds of appeal as follows: (1) Ground 1: Section 4 ‘ public interest’ defence: The Judge was wrong to find that the Defendants had succeeded in a defence of public interest under s.4 of the Defamation Act 2013 for three reasons: (a) The Judge was wrong to find that the statements complained of were on a matter of public interest, pursuant to s.4(1) (a); (b) The Judge based his conclusion on the s.4(1)(a) test on an alleged concession made by the Claimant. In fact the Claimant made no such concession, and therefore the Judge was wrong to rely upon it; (c) The Judge was also wrong to hold that the Defendants reasonably believed that the statements complained of were in the public interest, pursuant to s.4(1)(a). In particular, he took no or no sufficient account of the fact that the Defendants had not contacted or attempted to contact the Claimant before publication, a matter that is central to any assessment of whether the belief of the Defendants was objectively reasonable. This is especially important where, as in this case, the allegations are of exceptional gravity, and included allegations of criminal conduct. He also failed to have any, or any sufficient, regard to the Defendants’ other journalistic failures, including publishing allegations for which there was no evidential basis. (2) Ground 2: Section 2 ‘ truth’ defence: The Judge was wrong to find that the Defendants had established a truth defence pursuant to s.2 of the Defamation Act 2013 in respect of the defamatory allegation that the Claimant, in the course of supplying alcohol for retail sale in POSK ’s Jazz Café, dishonestly ensured that money taken from sales would by-pass the cash register, in order to obtain unlawful and fraudulent profit from those sales. There was no evidence on which the Judge could have come to the conclusion that the Defendants had proven this serious allegation of criminal behaviour to be substantially true. (3) Ground 3: Burden of proof: Further or alternatively, the Judge ’s finding on the truth of this allegation was unjust, because he reversed the burden of truth, expecting the Claimant to prove his innocence of the charge. (4) Ground 4: Damages: Had the Judge concluded, as he should have done, that this very serious allegation was not proven, he could not possibly have dismissed the claim for damages on the basis that the Claimant ’s reputation was already ‘ shot to pieces’. The Judge was wrong in refusing to award any damages to the Claimant in respect of the unproven defamatory allegations. (5) Ground 5: Unfair judicial treatment: During the trial, the Judge showed hostility and rudeness to the Claimant, an unrepresented party. He made frequent gratuitous interjections during the trial, hostile to the Claimant, putting the Claimant under enormous pressure and making it extremely difficult for him to conduct the litigation. He also prejudged matters against the Claimant (for example making it clear early in the trial that he regarded him as a “liar” who had behaved “deplorably” and threatened that he would say so in his judgment). He made repeated demands that the Claimant prove matters to him by reference to documents which were not before the Court. In consequent of the above, the trial process was either unfair and/or conducted with the appearance of unfairness, and the Judge ’s findings are not safe or reliable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>Permission to appeal was granted by Asplin LJ on all grounds, save for Ground 4 which was stood over for consideration by the Full Court at the hearing.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Grounds 1(a), (b) and (c): s.4 ‘ public interest’ defence</p>
+        </tblock>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>Section 4 of the Defamation Act provides: “4. Publication on matter of public interest (1) It is a defence to an action for defamation for the defendant to show that — (a) the statement complained of was, or formed part of, a statement on a matter of public interest; and (b) the defendant reasonably believed that publishing the statement complained of was in the public interest. (2) Subject to subsections (3) and (4), in determining whether the defendant has shown the matters mentioned in subsection (1), the court must have regard to all the circumstances of the case. (3) If the statement complained of was, or formed part of, an accurate and impartial account of a dispute to which the claimant was a party, the court must in determining whether it was reasonable for the defendant to believe that publishing the statement was in the public interest disregard any omission of the defendant to take steps to verify the truth of the imputation conveyed by it. (4) In determining whether it was reasonable for the defendant to believe that publishing the statement complained of was in the public interest, the court must make such allowance for editorial judgement as it considers appropriate. (5) For the avoidance of doubt, the defence under this section may be relied upon irrespective of whether the statement complained of is a statement of fact or a statement of opinion. (6) The common law defence known as the Reynolds defence is abolished.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>The Explanatory Notes to the Defamation Act 2013 explain as follows: “29. This section creates a new defence to an action for defamation of publication on a matter of public interest. It is based on the existing common law defence established in Reynolds v Times Newspapers [[2001] 2 AC 127] and is intended to reflect the principles established in that case and in subsequent case law. Subsection (1) provides for the defence to be available in circumstances where the defendant can show that the statement complained of was, or formed part of, a statement on a matter of public interest and that he reasonably believed that publishing the statement complained of was in the public interest. The intention in this provision is to reflect the existing common law as most recently set out in Flood v Times Newspapers [[2012] 2 AC 273]. It reflects the fact that the common law test contained both a subjective element — what the defendant believed was in the public interest at the time of publication — and an objective element — whether the belief was a reasonable one for the defendant to hold in all the circumstances.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>What is ‘ public interest’?</p>
+        </tblock>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>“Public interest” in publication cases (including defamation, confidence, privacy, DPA and copyright cases) is necessarily a broad concept. As Lord Bingham explained in Reynolds v Times Newspapers Ltd [2000] EMLR, [2001] 2 AC 127 at pp.176-177 (in a passage cited by Lord Phillips in Flood v The Times [2002] UKSC 11, [2012] 2 AC 273 at [33]): “By [“public interest”] we mean matters relating to the public life of the community and those who take part in it, including within the expression public life activities such as the conduct of government and political life, elections … and public administration, but we use the expression more widely than that, to embrace matters such as (for instance) the governance of public bodies, institutions and companies which give rise to a public interest in disclosure, but excluding matters which are personal and private, such that there is no public interest in their disclosure.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The CJEU most often define “public interest” material as that which contributes to a debate of general interest. In examining whether material contributes to such a debate, it is relevant to look, in particular, at the context of the publication (see e.g. Bladet Tromsø v Norway App. No 21980/93 at [62]-[63] in which the context was an ongoing public debate in Norway about seal hunting).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>Gatley on Libel and Slander (12th edition, at paragraph 15.6) contains the following useful list of subject-matter which has previously been held to be in the public interest: “[T]he business of government and political conduct; the promotion of animal welfare, the protection of health and safety, the dealings of an MP with a foreign regime hostile to this country, the fair and proper administration of justice, the conduct of religious groups; discipline in schools; the conduct of the police; cheating, corruption and the pressure on elite athletes from an early age in sport; breach of charitable fiduciary rules; involvement in serious crimes, corporate malpractice; and the correction of prior misrepresentations by others”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Reynolds privilege</p>
+        </tblock>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The s.4 ‘ public interest’ defence replaces the former common law ‘ public interest’ defence which became known as ‘ Reynolds privilege’. In Reynolds, Lord Nicholls set out a well-known checklist for use when determining whether the defendant reasonably believed that publishing the statement complained of was in the public interest. For reasons explained by the Court of Appeal in the recent case of Economou v De Freitas [2018] EWCA 259 [2019] EMLR 7 (see below), the Reynolds checklist is still relevant under s.4.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>Lord Nicholls said this in Reynolds at pages 204-205: “The elasticity of the common law principle enables interference with freedom of speech to be confined to what is necessary in the circumstances of the case. This elasticity enables the court to give appropriate weight, in today 's conditions, to the importance of freedom of expression by the media on all matters of public concern. Depending on the circumstances, the matters to be taken into account include the following. The comments are illustrative only. 1. The seriousness of the allegation. The more serious the charge, the more the public is misinformed and the individual harmed, if the allegation is not true. 2. The nature of the information, and the extent to which the subject matter is a matter of public concern. 3. The source of the information. Some informants have no direct knowledge of the events. Some have their own axes to grind, or are being paid for their stories. 4. The steps taken to verify the information. 5. The status of the information. The allegation may have already been the subject of an investigation which commands respect. 6. The urgency of the matter. News is often a perishable commodity. 7. Whether comment was sought from the plaintiff. He may have information others do not possess or have not disclosed. An approach to the plaintiff will not always be necessary. 8. Whether the article contained the gist of the plaintiff 's side of the story. 9. The tone of the article. A newspaper can raise queries or call for an investigation. It need not adopt allegations as statements of fact. 10. The circumstances of the publication, including the timing.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>Lord Nicholls went on to make the following further observations: “This list is not exhaustive. The weight to be given to these and any other relevant factors will vary from case to case. … … [I]t should always be remembered that journalists act without the benefit of the clear light of hindsight. Matters which are obvious in retrospect may have been far from clear in the heat of the moment. Above all, the court should have particular regard to the importance of freedom of expression. The press discharges vital functions as a bloodhound as well as a watchdog. The court should be slow to conclude that a publication was not in the public interest and, therefore, the public had no right to know, especially when the information is in the field of political discussion. Any lingering doubts should be resolved in favour of publication.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>In Bonnick v Morris [2002] UKPC 31, [2003] 1 AC 300, Lord Nicholls summarised the rationale of Reynolds privilege as follows:" Stated shortly, the Reynolds privilege is concerned to provide a proper degree of protection for responsible journalism when reporting matters of public concern. Responsible journalism is the point at which a fair balance is held between freedom of expression on matters of public concern and the reputations of individuals. Maintenance of this standard is in the public interest and in the interests of those whose reputations are involved. It can be regarded as the price journalists pay in return for the privilege." He also emphasised that the standard of conduct required of the publisher must be applied in a practical and flexible manner [56].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>The Reynolds privilege exists “where the public interest justified publication notwithstanding that this carries the risk of defaming an individual who will have no remedy” (per Lord Phillips in Flood at [48]).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Economou v De Freitas [2018] EWCA 259, [2019] EMLR 7</p>
+        </tblock>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>The Reynolds ‘ public interest’ defence has been replaced by the s.4 ‘ public interest’ defence. The recent Court of Appeal decision in Economou has confirmed that the two tests are not materially different.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>The defendant in Economou case was the father of a young woman who suffered from bipolar affective disorder. She had had a relationship with the claimant whom she subsequently accused of rape. He was arrested but not charged. He began a private prosecution against her, alleging that she had accused him falsely with intent to pervert the course of justice. The prosecution was taken over by the CPS. Four days before the trial, she tragically killed herself, at the age of 23. Her father then pursued a media strategy in order to seek to influence the coroner ’s inquest. He was not a journalist or media publisher, but gave interviews and contributed to the articles complained about. The articles which reported the suicide of a young woman facing a trial for making false rape allegations were agreed by the parties to be in the public interest. The main issue at trial was whether the defendant reasonably believed his words to be in the public interest. The Court of Appeal upheld the father ’s s.4 defence and dismissed the claim for libel.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>Sharp LJ (with which Ryder and Lewison LJJ agreed) said this at [86]: “The statutory formulation in section 4(1) obviously directs attention to the publisher 's belief that publishing the statement complained of is in the public interest, whereas the Reynolds defence focussed on the responsibility of the publisher 's conduct. Nonetheless, it seems to me it could not sensibly be suggested that the rationale for the Reynolds defence and for the public interest defence are materially different, or that the principles that underpinned the Reynolds defence, which sought to hold a fair balance between freedom of expression on matters of public interest and the reputation of individuals, are not also relevant when interpreting the public interest defence. Reynolds was decided when the Human Rights Act 1998 had been enacted but not yet brought into force. However, the decision was clearly informed by the right to freedom of expression and to the protection of reputation, protected under the Convention; and the observations about the importance of those respective rights and how to mediate between them, in Reynolds and the subsequent cases, including most recently, in Flood, are as true now as they were when those cases were decided.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>The defence is a form of qualified privilege. Sharp LJ summarised the effect of s.4 as follows at [110]: “Looking at the matter from the other perspective however, it is not necessary to expatiate on the importance of freedom of expression to a functioning democracy, and to the individuals within it, which concerns the freedom to receive information as well as to impart it, in particular, as the judge noted, on matters of public concern. The importance of the right in this arena is what led to the recognition of the Reynolds defence, and to the subsequent enactment of the public interest defence in section 4 of the 2013 Act. This defence is not confined to the media, which has resources and other support structures others do not have. Section 4 requires the court to have regard to all the circumstances of the case when determining the all-important question arising under section 4(1)(b): it says the court must have regard to all the circumstances of the case in determining whether the defendant has shown that he or she reasonably believed that publishing the statement complained of was in the public interest. In my judgment, all the circumstances of the case must include the sort of factors carefully identified by the judge, including, importantly, the particular role of the defendant in question. The statute could have made reference to the Reynolds factors in this connection, but it did not do so. That is not to say however, that the matters identified in the non-exhaustive checklist may not be relevant to the outcome of a public interest defence, or that, on the facts of the individual case, the failure to comply with one or some of the factors, may not tell decisively against a defendant. However, even under the Reynolds regime, as Lord Nicholls made clear, the weight to be given to those factors, and any other relevant factors, would vary from case to case. As with Reynolds therefore, with its emphasis on practicality and flexibility, all will depend on the facts.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>Sharp LJ referred at [83] to the two-stage test identified by Lord Hoffmann in Reynolds for determining whether the Reynolds defence applied. First, whether the subject matter of the article was a matter of public interest. Second, whether the steps taken to gather and publish the information were responsible and fair.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>Sections 4(1)(a) and (b), however, suggest a different two-stage test. First, under s.4(1) (a), the defendant has to show that the statement was, or formed part of, a statement on a matter of “public interest”. Second, under s.4(1) (b), the defendant has to show that he “reasonably believed” that publishing the statement was in the public interest. The two limbs of s.4 are clearly linked.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>When determining the issue whether defamatory material is published in the “public interest” under s.4, the public interest in publication is to be balanced with the fact that an individual ’s Article 8 right to reputation will be breached by the publication of unproven allegations without a remedy. (The CJEU has long recognised that a person ’s reputation is encompassed by the Article 8 right: see e.g. Einarsson v Iceland, App. No. 24713/15, at [33]). The s.4 defence needs to be confined to the circumstances necessary to protect Article 10 rights.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>When considering whether or not an article is in the public interest, the Court needs to consider not merely the bare subject-matter, but also the context, timing, tone, seriousness and all other relevant factors. In this respect, Lord Nicholls’ check-list in the Reynolds case remains relevant not only to the issue of whether the journalist acted responsibly, but also the issue of the existence of public interest in the article.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Judge ’s reasoning</p>
+        </tblock>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>The Judge ’s reasons for concluding that the s.4 “public interest” defence succeeded are to be found at paragraphs [314] to [339] of his judgment. His reasoning is not entirely pellucid but can be summarised as follows: the First and Third Defendants were honest and reliable witnesses [316] and [328]; they felt they had genuine and reliable evidence as to the Claimant ’s (disreputable) conduct [322]; their investigations led them to believe that there was real public interest in publishing an article on the Claimant taking advantage of charities such as Kolbe House and previously POSK [325]; it was in the public interest for the Defendants to publish an article about the Claimant ’s fitness or otherwise to be involved in a charitable institution, Kolbe House [332]; the Claimant effectively conceded as much [332]; POSK was also a charitable organisation and somewhat secretive [333]; there was a direct link between the allegation that the Claimant was cheating Kolbe House (another fairly secretive organisation) and the allegation that the Claimant had profited from his involvement in POSK [333]; the publication of the Claimant ’s cheating on women and his exploitation of his relationship with Ms Parylak was relevant [334]; the Polfood story could properly be told [334]; all these matters were properly within editorial judgment [333]-[334]; the Defendants did undertake reasonable inquiry into all factual matters upon which their story was based [337]; and in the circumstances, it was not incumbent upon the First and Third Defendants to approach the Claimant for comment before publication [337]. Analysis of grounds Appeal Ground 1(a): Judge wrong to find that the statements complained of were in the public interest</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>The Judge held that the statements complained of were on matters of public interest. The main thrust of the Judge ’s reasoning that it was in the public interest for the Defendants to publish the article was that it related to the Claimant ’s alleged misconduct in respect of two charities, POSK and Kolbe House; and given the similar allegations that he was “cheating” Kolbe House and had “profited” from POSK, it was in the public interest-and editorially justified-also to include the allegations as to his “brazenly unethical conduct” in relation to Polfood, notwithstanding it was a private company (see especially [332]-[334]).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>In our view, the Judge ’s approach to this issue was misconceived. The article was not about how POSK and Kolbe House were run as charities, and could not be said materially to have contributed to any debate in the Polish community as to broader charitable management issues. Rather, the article was aimed at the narrower target of the Claimant ’s personal life, mores and conduct as a contractor, supplier and volunteer to these two organisations. The gravamen of the Claimant ’s complaint in these proceedings is what the article says about him personally in these capacities.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>It is right to observe that the Polish community in the UK is a strong and tight-knit community which would be interested in allegations relating to the running of POSK, a large and well-known charitable organisation that is highly regarded within the Polish community, and in relation to Kolbe House, which was a care home for elderly Polish people.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>Further, it is right to note that the Claimant was a member of the General Council of POSK for 15 years (between approximately 1997-2012); and the Judge found one of the meanings was that the Claimant had abused his position as a house manager of POSK in order to award himself profitable maintenance contracts [62]. However, the POSK allegations were not about the management of POSK but were aimed at the Claimant ’s conduct in his personal capacity as a contractor or supplier, the fact that he was “profiting” from POSK, and his ‘ dishonest’ conduct as a volunteer behind the Jazz Club bar. They related to his work and conduct as a private individual. As such, these parts of the article could not be said to contribute to any debate of public interest.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>Further, the Claimant was not an appointed officer at Kolbe House and never exercised any public, charitable or executive function at Kolbe House. His role was that of a handyman and a paid contractor at this Polish old people ’s home. The allegations in the article were primarily aimed at his conduct in such capacity, the fact that he had concealed his bankruptcy and that he was “cheating” Kolbe House. They related to his work and conduct as a private individual. As such, these parts of the article could not be said to contribute to any debate of “public interest”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>The Claimant set up and ran Polfood as a private individual and businessman. The Polfood allegations related to his private life in inveigling women to invest in his business and as to the propriety and honesty of his management of this business and its funds on bankruptcy. Absent any parasitic link to the POSK and Kolbe House allegations, it could not be said that the Polfood allegations could stand alone as matters of public interest.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>It is telling that, at no stage, did the Defendants contact anyone involved in the actual management of Kolbe House or POSK to discuss the allegations and the Claimant ’s role and activities in their organisations. This would have been a natural and obvious step to take if, indeed, the article had been about the management of these charities, rather than about the Claimant himself. The fact that the management of Kolbe House subsequently wrote protesting about the article (see below) does not detract from this point.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>Further, the Judge appears to have given insufficient consideration to the Claimant ’s Article 8 right to reputation and the irreparable reputational damage that would inevitably be caused by publication of the article, and whether the public needed to know the information at the time the article was published, so that it could be said to be necessary that the Claimant ’s Article 8 rights should be breached without remedy.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>For these reasons, in our view, the Judge was wrong to hold that the first limb of the “public interest” test under s.4(1)(a) was made out.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Appeal Ground 1(b) : Judge wrong to rely on Claimant ’s alleged concession</p>
+        </tblock>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>The Judge relied upon a finding that the Claimant having “effectively conceded” that it was in the public interest for the Defendants to publish an article about the Claimant ’s “fitness or otherwise to be involved in a charitable institution, Kolbe House” [332] (see above).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>Mr Metzer QC contended that it was not open to the Claimant to raise a “public interest” defence on appeal having conceded it below; and submitted that, having made this concession, the Claimant should not be accorded any leniency by virtue simply of his status as a litigant in person (see Lord Sumption in Barton v Wright Hassall LLP [2018] UKSC 12, [2018 ] 1 WLR 1119). Ms Marzec submitted that, on a fair reading of the transcript, the Claimant had not made such a concession.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>The following passages in the transcript during the cross-examination of the Claimant are relevant: “ (1) Day 2, paragraph 57 G: Mr Metzer QC:' Issues relating to the care of old people, and how such homes are run, are plainly matters of public interest, particularly within the close-knit Polish community in London.' That 's true, is n't it? Claimant: Yes. Q : You agree, plainly a matter of public interest to know that the thing is being run properly? Claimant: Yes. (2) Day 2, paragraph 89B: Mr Metzer QC: And I think you did agree in your evidence, certainly issue about how Kolbe House is run is certainly in the public interest. I think you agreed that this morning? Claimant: Yes, it 's of public interest for Kolbe House, certainly, yes. Q : Thank you, and how old people are looked after, their resources and so on? Claimant: Yes. Q: Yes. Claimant: Yes. (3) Day 4, paragraph 5D: Mr Justice Jay: You agree there is a public interest in relation to Kolbe House? Claimant: I 'm saying that was claimed by the Defendants that that is a fact. Q: You do not dispute that then? Claimant: Sorry? Q: You do not dispute that there is public ... Claimant: No, I do n't, as such, as a house. But there 's only 23 % of wording about the Kolbe House in the whole article.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>In our view, the concession that the Claimant was making was not as suggested by Mr Metzer QC. All the Claimant was conceding in the above exchanges during cross- examination was that the care of old people and how old people ’s homes are run are plainly matters of public interest. Such a general and unexceptional proposition was clearly correct, and the Claimant was right to accept it. It was never put to him in cross- examination, either by Mr Metzer QC nor the Judge, that the article itself or the allegations against him were in the public interest. At no stage did the Claimant concede that it was in the public interest for the Defendants to publish an article about his “fitness” to be involved with a charitable institution such as Kolbe House. The Judge was wrong to find (at [332]) that the Claimant had made such a concession.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>In any event, as we have explained above, the article was not about the care of old people or how old people ’s homes are run. The article was essentially directed towards the Claimant ’s conduct in a personal capacity. Appeal Ground 1(c) : Judge wrong to hold that the Defendant ’s reasonably believed the statements complained of were in the public interest</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>Section 4(1)(b) requires publishers of defamatory material to show that they “reasonably believed” the statements to be in the public interest. Sharp LJ cited with approval Warby J ’s approach in Economou (supra) to the determination of the s.4(1)(b) question of “reasonable belief”: “[101] … [T]he judge said that, it would be hard to describe a belief as reasonable if it has been arrived at without care, in the absence of any examination of relevant factors, and without engaging in appropriate enquiries. He also said that a belief for the purposes of s.4(1)(b) would be reasonable, only if it is arrived at after conducting such enquiries and checks as it is reasonable to expect of the particular defendant in all the circumstances of the case.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>In the present case, the question is whether the Defendants adhered to appropriate and reasonable journalistic standards and carried out such enquiries and checks as it was reasonable to expect of them as journalists to do so (c.f. Yeo v Times [2015] EWHC 3375, [2017] EMLR 1).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>It is a basic requirement of fairness and responsible journalism that a person who is going to publish a story without being required to show that it is true should give the person who is the subject of the story the opportunity to put his side of the story. Gatley refers to this as the “core” Reynolds factor (Gatley on Libel and Slander, 12th edition, paragraph 15.12).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>The Judge found that the First and Third Defendants reasonably believed that it was in the public interest to publish the article. He held that the Defendants had undertaken “reasonable inquiry” into all the factual matters upon which their story was based; and went on to praise the Defendants’ “rigorous, objective journalistic standards” [337]. He did so notwithstanding that the Defendants had failed to approach the Claimant for comment before publication, or indeed anyone else who might gainsay the story.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>The judge accepted the Defendants’ three reasons for not contacting the Claimant before publication which he summarised as follows: “[326]. The First Defendant ’s reasons for not contacting the Claimant before the article was published were that he had not complained about previous articles and letters published in Nowy Czas, he did not believe that he would respond for comment, and that the Third Defendant has been warned that the Claimant was a violent and co-operative liar.” [sic]</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>In our view, however, there is little substance in any of these three reasons. As to the first reason, that the Claimant had not complained about previous articles written about him in “Nowy Czas”: since none of the articles or letters could be said to be comparable in their tenor or content to the present article, it is difficult to see why this was relevant. As to the second reason, that the Defendants thought it was unlikely that the Claimant would respond: the First Defendant said when cross-examined by Claimant: “I admit I did n’t ask you because I knew I was n’t, it was n’t likely for me to get an answer” and “We gave you a chance to reply to the article after publication” (Day 3, p.113)). However, the mere fact that a journalist thinks that the subject of a defamatory article might not respond to allegations, is no reason to deprive that person of the opportunity of denying them so that such denial can be published within the article. As to the third reason, it is difficult to see on what basis the Judge gave credence to the Defendants’ assertion that the Claimant was a “violent and co-operative liar [sic]”: there was no evidence that the Claimant had ever been, or was likely to be, violent; and, in any event, there was no reason why the Defendants could not have contacted the Claimant by phone or in writing in advance of publication to ask for his comments regarding the various allegations.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Economou case</p>
+        </tblock>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>The circumstances in which a journalist or publisher will be able to demonstrate that it was reasonable not to have approached the subject of a potentially defamatory article for comment prior to publication will necessarily be rare.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>The recent case of Economou is a rare example of where a claim for defamation was dismissed notwithstanding the defendant ’s failure to approach the claimant for comment before publication. The facts of Economou were, however, exceptional and entirely distinguishable from the present case (see above). Further, the trial judge, Warby J, found: the articles in that case raised an issue of considerable public importance; the defendant was well placed to raise the issues; the articles were about the CPS and the defendant ’s daughter (not the claimant); they were targeted at the public authority and not the claimant; the defendant deliberately avoided naming the claimant; he had no reason to believe that the claimant would be widely identified; there was a degree of urgency about the matters raised; the defendant could reasonably have supposed to the media organisations publishing the articles to conduct such further investigations as were necessary; the claimant ’s “side of the story” was a secondary issue because the articles were about the CPS, and not the claimant; the tone of the articles was measured and responsible; and it was hard to see how the defendant could have expressed his views without a risk of implicit defamation of the claimant. On these unusual facts, Warby J ’s decision in favour of the defendant father was upheld by the Court of Appeal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>No similar factors apply in the instant case. The “Nowy Czas” article complained of in the present case did not raise issues of public importance; it was all about the Claimant and targeted directly solely at him and included a photograph of him; the Defendants could not have relied on anyone else to verify the allegations; there was no urgency about publication; the tone of the article was gratuitously offensive; and, in the premises, reporting the Claimant ’s side of the story was of primary importance.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Other cases</p>
+        </tblock>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>The tenacity of the requirement that the person who is the subject of the story should be contacted for comment prior to publication is best illustrated by two decisions. In Malik v News Post [2007] EWHC 3063, Eady J rejected a defence of Reynolds privilege at trial, despite the fact that the subject-matter of the allegations was in the public interest, because, as the judge said: “If a defendant is to be spared the burden of proving the truth of such defamatory imputations, and to avail himself of a public interest defence, certain conditions must be fulfilled” at [11]; and the defendant had not met those conditions because, although he said he had tried to contact the claimant by telephone, he did not make “serious, more determined attempts”, as the judge held he ought to have done, to give the claimant a chance to comment. Further, “no effort was made to give his [the claimant ’s] side of the story at all” [16].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>In Sooben v Badal [2017] EWHC 2638 QB, the defendant gave evidence that he had tried to contact the claimant and strongly believed that even if he had met the claimant he would not have said anything new (which is very similar to the excuse given by the Defendants in the instant case for not contacting the Claimant). Nicklin J dismissed the s.4 defence of public interest in the following terms: “ Stepping back, this was a very serious allegation presented in a wholly one-sided way in circumstances where the Defendant had failed to contact the Claimant and had failed to represent, from material he had, what could fairly have been said on the Claimant 's behalf in answer to the allegations”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>We would echo this observation which applies with equal force in the present case.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Defendants’ failure to contact others</p>
+        </tblock>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>Further, the Judge appears to have paid little or no regard to the fact that the Defendants appear not to have contacted anyone else who could or might have given another side of the story; or that they failed to speak to many of those who could be expected to have had first-hand knowledge of the truth or otherwise of published allegations.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>In relation to POSK, the Defendants made no attempt to contact people who worked at POSK or held official management positions who could have given evidence as regards the allegation that the Claimant had unlawfully defrauded POSK. Indeed, none of the Defendants’ sources had any official link or position with POSK but were merely members or visitors. When questioned in cross-examination by the Claimant about this, the First Defendant gave answers which were vague and unsatisfactory: “Claimant: Why did you not speak to bookkeeper or treasurer to corroborate your story and particularly regarding to the cash register? First Defendant: I spoke to several people. I said I can not, well, it ’s very easy to point out, there is, particular person. That ’s a way of manipulating [inaudible] which is very harsh to publishers, and we did everything possible to justify what I was going to publish. We spoke to numbers of people, of people regarding research. Claimant: Why you did n’t approach the bookkeeper or treasurer to clarify that? You were talking to wider people who may or may not [inaudible]. This is a government of POSK [inaudible]. First Defendant: I spoke to, I spoke to people who are very important in POSK. I verified all that information and just, tell me, show me one sentence about POSK which is not true in my article. Claimant: All of them are not true and I will prove it to you …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>In relation to Kolbe House, the Defendants failed to check their allegations with the manager or any other members of senior management to get their input before publication. The Third Defendant gave the reason for not having contacted the management of Kolbe House being that because the Claimant was in a relationship with the manager of Kolbe House, so she would therefore not have been a “reliable source”. In cross-examination on this issue, the Third Defendant said: “Because if we asked, you just go with this answer which we got today and that article would never, never appear and you would still be there.” (Day 3 p.97A-B). On the face of it, this answer suggests a lack of journalistic objectivity and a troubling reluctance to contact anyone who might gainsay the story. Indeed, it suggests that publication of the article was dependent on the fact that no one contradicted the allegations.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>It is noteworthy that, following publication, the Kolbe House Committee of Management wrote to the editor of “Nowy Czas” on 2nd November 2015 complaining about the article which they said was “littered with inaccuracies”, complaining that the magazine should have “checked and verified the facts” and said the editor ’s actions reflected “neither responsible nor professional journalism”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>80</num>
+          <content>
+            <p>In relation to Polfood, the Defendants failed to speak to the Claimant ’s former partner and the company secretary of Polfood, Ms Elizabeth Howard, despite knowing of her existence and the fact that she had been romantically involved with the Claimant and had lent him money. She was, therefore, clearly a potentially important source of information in relation to the Polfood allegations. It is noteworthy that the Defendants regarded her as a sufficiently important witness to have served her with a witness summons to attend trial.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Other journalistic failures by the Defendants</p>
+        </tblock>
+        <paragraph>
+          <num>81</num>
+          <content>
+            <p>Further, when considering the reasonableness of the Defendants’ belief as to the public interest, the Judge failed to take into account other unsatisfactory aspects of the article and the Defendants’ lack of journalistic standards. First, despite the fact that (as the Defendants well knew) by the time the Claimant worked for Kolbe House he was no longer bankrupt, the article nevertheless alleged that the Claimant concealed his status as a bankrupt from Kolbe House and Ealing Council (see paragraphs [M] and [N] of ANNEX A and allegations (10), (11) and (13)). Second, as the Judge himself found, whilst the Defendants did not have an evidential base for the allegation that the Claimant had accessed the confidential information of residents of Kolbe House [330], the article nevertheless stated that the Claimant had “full access to confidential documents concerning residents” (paragraph [K]). Third, as the Judge himself again found, the Defendants did not have an evidential basis for their imputation that the Claimant replaced bathroom equipment at Kolbe House unnecessarily [330].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>82</num>
+          <content>
+            <p>In our view, it is difficult to see how, in the light of these matters, the Judge could properly have concluded that the Defendants had undertaken reasonable inquiries in relation to “all” the factual matters upon which their story was based, let alone praised the Defendants’ “rigorous, objective journalistic standards” [337]. Their standards of journalism plainly left much to be desired.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Reynolds factors</p>
+        </tblock>
+        <paragraph>
+          <num>83</num>
+          <content>
+            <p>Finally, by way of a checklist, it is useful to consider the Reynolds factors seriatim: (1) The seriousness of the allegation(s). As the Judge held, most of the numerous allegations made in the article were self-evidently serious and reputationally damaging to the Claimant, in particular, the allegation of stealing from the Jazz Club bar. (2) The nature of the information, and the extent to which it is a matter of public concern. As explained above, the information in the article was of no, or limited, public interest. (3) The source of the information. The sources of the published allegations included (a) people who had axes to grind (who had lost money as a result of their business dealings with the Claimant, e.g. Mr Wegrzynowski and Ms Cyparska, or who had lent the Claimant money or who had split up with the Claimant on bad terms, e.g. Ms Wozniczka); (b) people who wanted to remain anonymous (employees of Kolbe House); and (c) people who were not in management positions in the organisations concerned (and therefore had limited direct knowledge of the facts). (4) The steps taken to verify the information. As explained above, the journalistic standards and the steps taken to verify the information were inadequate. Notably, at no stage prior to publication did the Defendants contact the Claimant for his comment about the allegations. (5) The status of the information. See (3) above. (6) The urgency of the matter. It is common ground that there was no urgency in publication. Many of the allegations related to conduct years in the past. This is not a case in which news could be said to be a perishable commodity. (7) Whether comment was sought from the claimant. It was not. (8) Whether the article contained the claimant ’s side of the story. It did not. (9) The tone of the article. The tone of the article was snide and disparaging of the Claimant. It portrayed the Claimant as a despicable and reprehensible character. It included a photograph of the Claimant which, as the Judge found, was “an effective and cogent means of portraying the Claimant as not giving two hoots for his creditors” [343]. The article presented the allegations as hard fact. (10) The circumstances of the publication, including the timing. See above.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Summary</p>
+        </tblock>
+        <paragraph>
+          <num>84</num>
+          <content>
+            <p>For the reasons set out above, in our view, the Judge ’s conclusion that the Defendants had shown a “public interest” defence under s. 4 is unsustainable and should be reversed. Grounds 2 and 3: Judge was wrong to find the allegation that the Claimant had stolen from the Jazz Club bar takings was true and erroneously reversed the burden of proof</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>85</num>
+          <content>
+            <p>It is convenient to take appeal Grounds 2 and 3 together. The Claimant contends that the Judge was wrong to find that the allegation that the Claimant had dishonestly stolen from the takings of the Jazz Club, i.e. allegation (4) above, was true (Ground 2). The Claimant also contends that the Judge ’s finding of the truth of this allegation was arrived at erroneously by requiring the Claimant to prove his innocence of this charge (Ground 3).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>86</num>
+          <content>
+            <p>It is axiomatic that an appellate court will rarely interfere with findings of fact of the trial judge. However, it will do so where the Judge ’s finding is unsustainable on the evidence or outside the ambit of reasonable decisions on the evidence. In our view, this is one of those rare cases.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Judge ’s findings</p>
+        </tblock>
+        <paragraph>
+          <num>87</num>
+          <content>
+            <p>The Judge found the meaning of allegation (4) as follows (see above): “Mr Serafin in the course of supplying alcohol for retail sale in POSK ’s Jazz Café, dishonestly ensured that money taken from sales would by-pass the cash register, in order to obtain unlawful and fraudulent profit from those sales”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>88</num>
+          <content>
+            <p>The allegation, in effect, was that the Claimant made a clandestine profit from his joint running of the Jazz Café by ensuring that cash by-passed the cash register and went into a wooden drawer or cash box [214]. This was effectively an allegation of theft from a charitable institution and a “serious matter” as the Judge found [217]. It was probably the most serious and reputationally damaging allegation in the article.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>89</num>
+          <content>
+            <p>The Judge found that the allegation was true. He dealt with this matter shortly in two pages of his judgment at [208]-[220]. The Judge essentially based his finding on the recollection of two witnesses, Mr Wegrzynowski and Mrs Cyparska, who said that at some (unspecified) time in the past “[t]he Claimant boasted that he would easily make £ 300-400 every Friday and Saturday night” by purchasing alcohol for the Jazz Club wholesale at £ 10 for a bottle of spirits and selling it for £ 3.50 a shot, and that he and a friend would “each of them would make a few hundred pounds each weekend” [215] and [218]. The Judge said he was prepared to accept the evidence of Mr Wegrzynowski and Mrs Cyparska even though there was “no love lost” between them and the Claimant [217]. The Judge found that the accounting practices and procedures at the club prior to the upgrading of the cash-register in 2012 were “inadequate” and gave rise to the possibility for diversion of funds; and said he was satisfied that “there was a drawer into which money was placed” [218]. He said he was not impressed by the Claimant ’s evidence that he did not buy alcohol wholesale but was impressed with the level of detail of Mr Wegrzynowski ’s and Mrs Cyparska ’s evidence [218]. He accepted that if the Claimant (who had an element of “Walter Mitty” about him) was really taking out such substantial sums as he boasted one would have thought that POSK would have noticed; and in this regard he accepted that Ms Maria Stenzel (the POSK book-keeper called by the Claimant who had given evidence that she had been able to reconcile the cash takings with what appeared on the till roll) was a reasonably truthful and reliable witness. Finally, whilst he did not think that the Claimant “could have taken out of the Jazz Café as much money as he saw fit to brag about” , nevertheless he held the allegation was substantially true. He concluded: “[220] The article does not specify particular amounts. I remain conscious that this is a serious matter. I am driven to conclude that the Claimant did not properly account to the Jazz Café and POSK for all payments received, and that the fourth meaning is substantially true.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Analysis</p>
+        </tblock>
+        <paragraph>
+          <num>90</num>
+          <content>
+            <p>There are a number of matters which served seriously to undermine the reliability of Mr Wegrzynowski ’s and Mrs Cyparska ’s evidence. First, their statements bore a remarkable similarity: they were not independent witnesses but had been in relationship together since 1998. Second, they had a serious axe to grind with the Claimant: they had had a major business dispute with the Claimant arising out of his purchase of CCW Foods Ltd which resulted in Mr Wegrzynowski suing the Claimant for £ 70,000 in 2008. The Claimant explained that Mr Wegrzynowski had started campaigning against him (Day 1, p.70E-F). Third, at no stage did Mr Wegrzynowski ever report any concerns or suspicions to POSK during the previous 10 years, and Mrs Cyparska spoke to a member of the POSK council (it is not clear when) but took the matter no further. Fourth, both said there was no cash register at the Jazz Club but the Claimant was adamant that there was a cash register (Day 1, p.60) and the Judge was eventually constrained to find (on the basis of Ms Stenzel ’s unimpeachable evidence) that there was a cash register [213], albeit one which was “upgraded” in 2012 [218]. Fifth, Mr Wegrzynowski ’s and Mrs Cyparska ’s evidence was not properly tested in cross- examination (as the Judge himself accepted [217]).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>91</num>
+          <content>
+            <p>Furthermore, there was strong evidence militating against the truth of the Defendants’ allegation that the Claimant had stolen from the Jazz Club. The Claimant himself gave evidence strenuously denying dishonesty. He explained he was one of several volunteers who worked at the Jazz Café. He explained that the price for the drinks was always the same for everyone and set by the Jazz Club not him (Day 1, p.72B). He explained that they had accounts with two wholesale alcohol suppliers (Day 1, p.72D- G). The Claimant therefore admitted that he (or the club) did buy wholesale.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>92</num>
+          <content>
+            <p>The Claimant called Ms Stenzel, who had responsibility for dealing with the Jazz Club takings and reconciling the till rolls. She gave evidence that there was a cash register from day one (Day 2, p.106A). In cross-examination, she did not say that there had been any discrepancies in the accounts or takings from the Jazz Club. There was no evidence that any money had gone missing. We find the Judge ’s observation, “I was not impressed by the Claimant ’s evidence that he did not buy alcohol wholesale” [218], difficult to follow in the light of Ms Stenzel ’s evidence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>93</num>
+          <content>
+            <p>The Claimant called Dr Leszek Bojanowski, POSK ’s health and safety adviser until 2005, and thereafter a member of its Executive Committee. He gave evidence that the Claimant had never had sole charge of the bar and he himself had occasionally helped out at the Jazz Club. He said he knew some of the volunteers that worked there and regarded Claimant as an honest man.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>94</num>
+          <content>
+            <p>The evidence of Ms Stenzel and Dr Bojanowski stood in stark contrast to that of the witnesses called by the Defendants; both had worked at the Jazz Club or POSK, and had direct knowledge of its operations; and neither had an axe to grind (unlike Mr Wegrzynowski and Mrs Cyparska).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Burden of proof</p>
+        </tblock>
+        <paragraph>
+          <num>95</num>
+          <content>
+            <p>It is a fundamental tenet of libel at common law that a defamatory imputation is presumed to be false and, accordingly, the burden is upon the defendant to show that the imputation is substantially true (see Gatley on Libel and Slander, 12th edition, para. 11.4). This principle has been enshrined in s.3, the statutory defence of truth.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>96</num>
+          <content>
+            <p>The Judge was clearly aware that, as a matter of law, the burden of proof lay on the Defendants (see [94], [150], [272] and [338]). However, at times he appeared to suggest that the Claimant had to prove his innocence of the charges made against him. For instance, the Judge stated to the Claimant on Day 2 (transcript p.26H- 27B) that he needed proof from the Claimant as regards the Polfood funds: “A bunch of assertions is not going to cut any ice. I need proof. Strictly speaking, the burden of proof is on the defendant to prove that under the Defamation Act, but it is not going to work like that in the sense that I will draw inferences …. You can prove to me where these monies [belonging to Polfood] went” (emphasis added).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>97</num>
+          <content>
+            <p>This was not an isolated comment. At various other times, the Judge demanded that the Claimant produce documents to him to show that he had done no wrong and intimated that, unless the Claimant produced evidence rebutting the allegations against him, he would face adverse findings (see further below in relation to Ground 5). The basis upon which the Judge did so was not entirely clear and whether he was suggesting the basis that the evidential burden had shifted and, if so, on what basis.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>98</num>
+          <content>
+            <p>In our view, whilst it is not possible to made a definitive finding that the Judge reversed the burden of proof at any particular juncture or in relation to any particular issue, his remarks suggest he may not have brought an entirely consistent approach to the question of the burden of proof. There is, therefore, some force in Ms Marzec ’s submission that this may have tainted the Judge ’s approach to some of the evidence and may provide some explanation as to how he came to his (unjustified) finding as to the truth of the allegation as to theft from the Jazz Café.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Summary</p>
+        </tblock>
+        <paragraph>
+          <num>99</num>
+          <content>
+            <p>In summary, for the reasons set out above, in our view, the Judge ’s finding as to the truth of the meaning of allegation (4) is unsustainable and not one which he was properly entitled to reach on the evidence before him.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Appeal Ground 4: Judge was wrong to award no damages to the Claimant</p>
+        </tblock>
+        <paragraph>
+          <num>100</num>
+          <content>
+            <p>The Judge held that had the s.4 defence of “public interest” not succeeded, he would nevertheless still have not awarded the Claimant any damages in relation to the unproven Kolbe House allegations, because the Claimant ’s reputation was already “shot to pieces” [353] by the proven allegations. The Judge no doubt had in mind principally allegation (4) in relation to theft from the Jazz Club and the provisions of s.2(3) of the Act.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>101</num>
+          <content>
+            <p>If, however, as we have held, the Judge was wrong to find POSK allegation (4) proven by the Defendants, the landscape is markedly different. Whilst the Judge ’s findings as to the truth of the POSK allegations (1) to (3) and the Polfood allegations (5) to (7) (see above) remain undisturbed, nevertheless, it would not have been open to the Judge to say that the Claimant ’s reputation was “shot to pieces” absent the most serious allegation in relation to theft from the Jazz Club being proven.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>102</num>
+          <content>
+            <p>Accordingly, on this basis, the Claimant would be entitled to proper vindication and compensatory damages in respect of the unproven Kolbe House allegations (8) to (13) and ex hypothesi the unproven POSK allegation (4), notwithstanding that other aspects of the article had been found to be true.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Appeal Ground 5: Unfair judicial treatment</p>
+        </tblock>
+        <paragraph>
+          <num>103</num>
+          <content>
+            <p>The fifth ground of appeal was as follows: “Ground 5: unfair judicial treatment During the trial, the Judge showed hostility and rudeness to the Claimant, an unrepresented party. He made frequent gratuitous interjections during the trial, hostile to the Claimant, putting the Claimant under enormous pressure and making it extremely difficult for him to conduct the litigation. He also prejudged matters against the Claimant (for example making it clear early in the trial that he regarded him as a “liar” who had behaved “deplorably” and threatened that he would say so in his judgment). He made repeated demands that the Claimant prove matters to him by reference to documents which were not before the Court. In consequence of the above, the trial process was either unfair and/or conducted with the appearance of unfairness, and the Judge ’s findings are not safe or reliable.” Claimant ’s submissions</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>104</num>
+          <content>
+            <p>Ms Marzec submitted that, from almost the beginning of the trial, the Judge made clear to the Claimant that he believed him to be an undeserving claimant, a liar, and that he was going to lose. She submitted in particular as follows: (i) The Judge ’s interventions were not simply inquisitorial and neutral, but accusatory and challenging: in effect, the Judge acted as another advocate of the Defendants’ case, not as a neutral umpire. (ii) It ought to have been clear to the Judge that there was an inherent risk of unfairness given that (a) the Claimant was an unrepresented litigant in person, who was not legally qualified and did not have English as a first language; (b) his claim was legally and factually complex; (c) he was not familiar with the relevant law or legal procedure; and (d) his opponent was a very experienced silk. Accordingly, (iii) in these circumstances, although the Claimant was not entitled to any better treatment than a represented party, he ought to have been treated at least with courtesy and given appropriate assistance by the Judge in the conduct of his case. However, (iv) he received no such assistance and his attempts to present his case were undermined and derailed by the Judge.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>105</num>
+          <content>
+            <p>Ms Marzec further submitted that the Claimant was entitled to the benefit of the presumption of falsity that attaches to defamatory allegations in English law. However, this was not accorded to the Claimant by the Judge during the hearing.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Defendants’ submissions</p>
+        </tblock>
+        <paragraph>
+          <num>106</num>
+          <content>
+            <p>Mr Metzer QC submitted that it would be wrong to view the Judge ’s findings in the Judgment as all one way and adverse to the Claimant. He listed a series of matters which the Judge had found in the Claimant ’s favour, including e.g. there was no ‘ common sting’ [57], the Claimant ’s closing address was “in many ways a forensic tour de force” [89], the Claimant did not forge a disputed email [149]-[150], and the Defendants had failed to prove the truth of all but one of the Kolbe House allegations ([251] ff).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>107</num>
+          <content>
+            <p>However, as Mr Metzer QC would accept, it is right to observe that the major findings and the overwhelming result of the Judge ’s conclusions were adverse to the Claimant.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The principle of fairness</p>
+        </tblock>
+        <paragraph>
+          <num>108</num>
+          <content>
+            <p>It is a fundamental tenet of the administration of law that all those who appear before our courts are treated fairly and that judges act-and are seen to act-fairly and impartially throughout a trial.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>109</num>
+          <content>
+            <p>It is perfectly proper-indeed a duty-for a judge to intervene in the course of witness evidence for the purposes described by Rose LJ in R v Tuegel [2002] Cr App R 361, namely “to ask questions which clarify ambiguities in answers previously given or which identify the nature of the defence, if this is unclear”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>110</num>
+          <content>
+            <p>It is wrong, however, for a judge “to descend into the arena and give the impression of acting as advocate” (per Lord Parker CJ in R v Hamilton (unreported, 9 June 1969) cited by the Court of Appeal in R v Hulusi (1973) 58 Cr. App. R 378, 382).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>111</num>
+          <content>
+            <p>In Michel v The Queen [2009] UKPC 41, Lord Brown JSC, giving the judgment of the Court, made it clear that the issue whether a trial has been fair was not to be judged merely by the correctness of the result: “27. There is, however, a wider principle in play in these cases merely than the safety, in terms of the correctness, of the conviction. Put shortly, there comes a point when, however obviously guilty an accused person may appear to be, the appeal court reviewing his conviction can not escape the conclusion that he has simply not been fairly tried: so far from the judge having umpired the contest, rather he has acted effectively as a second prosecutor. ... 28. Lord Bingham was, of course, right to recognise that by no means all departures from good practice render a trial unfair .... Ultimately the question is one of degree. … 31. … [N]ot merely is the accused in such a case deprived of “the opportunity of having his evidence considered by the jury in the way that he was entitled”. He is denied too the basic right underlying the adversarial system of trial, whether by jury or jurats: that of having an impartial judge to see fair play in the conduct of the case against him. Under the common law system one lawyer makes the case against the accused, another his case in response, and a third holds the balance between them, ensuring that the case against the accused is properly and fairly advanced in accordance with the rules of evidence and procedure. All this is elementary and all of it, unsurprisingly, has been stated repeatedly down the years. The core principle, that under the adversarial system the judge remains aloof from the fray and neutral during the elicitation of the evidence, applies no less to civil litigation than to criminal trials.” (emphasis added)</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>112</num>
+          <content>
+            <p>These principles, of course, apply with equal rigour whether or not litigants are legally represented. Indeed, so far as litigants in person are concerned, judges and tribunals should be (and generally are) especially conscious to ensure the dictates of fairness are observed-and seen to be observed-at all times and that due allowance is always made for language and other difficulties.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Analysis</p>
+        </tblock>
+        <paragraph>
+          <num>113</num>
+          <content>
+            <p>In her helpful skeleton argument, Ms Marzec cited a series of extracts from the transcript of Days 1 to 4 of the hearing upon which she particularly relied as “indicators of the Judge ’s conduct towards the Claimant”. We attach to this judgment at ANNEX C these extracts as set out in paragraphs 56-69 of her skeleton.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>114</num>
+          <content>
+            <p>It will be immediately apparent from reading these extracts (in particular the passages which we have underlined) that the Judge ’s interventions during the Claimant ’s evidence were highly unusual and troubling. On numerous occasions, the Judge appears not only to have descended to the arena, cast off the mantle of impartiality and taken up the cudgels of cross-examination, but also to have used language which was threatening, overbearing and, frankly, bullying. One is left with the regrettable impression of a Judge who, if not partisan, developed an animus towards the Claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>115</num>
+          <content>
+            <p>We have read all the sections of the transcripts in the bundle from Days 1 to 4 of the hearing carefully. There were other interventions by the Judge which were of a similarly troubling nature to those in ANNEX C. We mention two in particular. First, during the cross-examination of the Claimant by Mr Metzer QC on Day 2 (p.85A) the Judge remarked by way of an aside to Mr Metzer QC about the Claimant (in the Claimant ’s presence): “ Mr Justice Jay: He is either being obtuse, or he is playing for time, and I can not decide which.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>116</num>
+          <content>
+            <p>In a later part of the cross-examination regarding two discrepant emails (immediately before the passage cited at paragraph 65 of Ms Marzec ’s skeleton from Day 2, p.88D) the Judge intervened again and there was the following telling exchange: “Mr Justice Jay: You do not understand what counsel is saying. To put it bluntly, he is saying there were two versions of this email. … That is what is being put, that you have deliberately put words in her mouth – Claimant: I think I – Mr Justice Jay:-and therefore, have lied. Well, did you or did you not? Claimant: I did n’t. I – Mr Justice Jay: Well, how can you explain what is in the bundle, which does not seem to be the version which was sent? I mean, presumably, Mr Metzer, we can see the electronic version, if required? Mr Metzer: Yes, and I wanted to just give Mr Serafin this opportunity because he ’s not represented, and despite my Lord being, if I may say so, very fair in terms of ensuring that he understands everything very carefully …” (We detect more than a note of concern in the fact that Mr Metzer QC felt that he had to make the last observation).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>117</num>
+          <content>
+            <p>The Judge ’s conduct is all the more surprising and troubling given that the Claimant was acting as a litigant in person and English was not his first language (albeit he spoke it well).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>118</num>
+          <content>
+            <p>We are also highly troubled by the repeated demands and criticisms by the Judge regarding the Claimant ’s disclosure, in circumstances where pre-trial disclosure had been completed by both sides at a time when both the Claimant and Defendants had been represented by solicitors and counsel, and no application for further disclosure had been made by the Defendants. Further, the Judge ’s demand that the Claimant give disclosure of “all relevant documents” (on Day 4, p.44E) went beyond what the Defendants had ever required and reinforces the impression that he was favouring one side at the expense of the other.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Summary</p>
+        </tblock>
+        <paragraph>
+          <num>119</num>
+          <content>
+            <p>In our view, the Judge not only seriously transgressed the core principle that a judge remains neutral during the evidence, but he also acted in a manner which was, at times, manifestly unfair and hostile to the Claimant. As emphasised in Michel, not all departures from good practice render a trial unfair-ultimately the question is one of degree. Nevertheless, we have carefully considered and reflected upon this matter and are driven to the conclusion that the nature, tenor and frequency of the Judge ’s interventions were such as to render this libel trial unfair. We, therefore, uphold the Claimant ’s fifth Ground of Appeal.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>120</num>
+          <content>
+            <p>For the reasons given in this judgment, we allow the Claimant ’s appeal.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+    <attachments>
+      <attachment>
+        <doc name="appendix">
+          <meta>
+            <identification source="#source">
+              <FRBRWork>
+                <FRBRthis value="www.judiciary.uk/2019_EWCA_Civ_852" />
+                <FRBRuri value="www.judiciary.uk/2019_EWCA_Civ_852" />
+                <FRBRdate date="2019-05-17" name="hand-down date" />
+                <FRBRauthor href="#EWCA" />
+                <FRBRcountry value="GB-UKM" />
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="https://www.judiciary.uk/judgments/jan-tomasz-serafin-v-grzegorz-malkiewicz-and-others" />
+                <FRBRuri value="https://www.judiciary.uk/judgments/jan-tomasz-serafin-v-grzegorz-malkiewicz-and-others" />
+                <FRBRdate date="2019-05-17" name="hand-down date" />
+                <FRBRauthor href="www.judiciary.uk" />
+                <FRBRlanguage language="eng" />
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWCA_Civ_852.xml" />
+                <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWCA_Civ_852.xml" />
+                <FRBRdate date="2021-01-18" name="date generation AKN file" />
+                <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+                <FRBRformat value="application/akn+xml" />
+              </FRBRManifestation>
+            </identification>
+            <references source="#source">
+              <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+              <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+              <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+              <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+              <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+              <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+              <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+              <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+              <TLCOrganization eId="JanTomaszSerafin" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JanTomaszSerafin" showAs="Jan Tomasz Serafin" />
+              <TLCOrganization eId="GrzegorzMalkiewicz" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GrzegorzMalkiewicz" showAs="Grzegorz Malkiewicz" />
+              <TLCOrganization eId="CzasPublishersLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CzasPublishersLimited" showAs="Czas Publishers Limited" />
+              <TLCOrganization eId="TeresaBazarnik-malkiewicz" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TeresaBazarnik-malkiewicz" showAs="Teresa Bazarnik-malkiewicz" />
+              <TLCPerson eId="MrJusticeJay" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeJay" showAs="Mr Justice Jay" />
+              <TLCPerson eId="LordJusticeLewison" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeLewison" showAs="Lord Justice Lewison" />
+              <TLCPerson eId="LordJusticeMccombe" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeMccombe" showAs="Lord Justice Mccombe" />
+              <TLCPerson eId="LordJusticeHaddon-cave" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeHaddon-cave" showAs="Lord Justice Haddon-cave" />
+              <TLCPerson eId="MsAlexandraMarzec" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MsAlexandraMarzec" showAs="Ms Alexandra Marzec" />
+              <TLCPerson eId="SimonBurnSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SimonBurnSolicitors" showAs="Simon Burn Solicitors" />
+              <TLCPerson eId="MrAnthonyMetzerQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAnthonyMetzerQc" showAs="Mr Anthony Metzer Qc" />
+              <TLCPerson eId="DrAntonVanDellen" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DrAntonVanDellen" showAs="Dr Anton Van Dellen" />
+              <TLCPerson eId="DirectAccess" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DirectAccess" showAs="Direct Access" />
+              <TLCReference eId="2017EWHC2992QB" showAs="[2017]EWHC2992(QB)" name="neutral citation" href="www.judiciary.uk/2017EWHC2992QB" />
+              <TLCRole eId="appellant-claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant-claimant" showAs="appellant-claimant" />
+              <TLCRole eId="defendant-respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant-respondent" showAs="defendant-respondent" />
+            </references>
+          </meta>
+          <mainBody>
+            <p>ANNEX A</p>
+            <p>TRANSLATION OF ARTICLE IN “NOWY CZAS” (OCTOBER 2015 ISSUE)</p>
+            <p>“Bankruptcy need not be painful</p>
+            <p>When in the 80s Janek came to London, he applied a quick eye to his situation.</p>
+            <p>He soon realised that one could make good money out of one ’s compatriots who have been here for years.</p>
+            <p>He left his wife and children in Poland and went to England for seasonal labour.</p>
+            <p>He managed.</p>
+            <p>He took care of his family but presented himself as divorced, for simplicity.</p>
+            <p>Like most Poles in a similar situation, he started by doing minor renovations.</p>
+            <p>Sometimes he cleaned up somebody ’s yard.</p>
+            <p>He did not complain about lack of work, rather his clients had to wait for him, and the queue grew longer year by year.</p>
+            <p>He owed his success not only to the reliability of his services, but mostly to personal charm, openness, resourcefulness, and a willingness to have long conversations and bow low.</p>
+            <p>He easily won the hearts of women, especially those living alone, who were afraid of hiring professional companies to carry out the repair works.</p>
+            <p>They worked faster but not better, and they turned one ’s life upside down.</p>
+            <p>Janek was cheaper and very communicative, and he spent much time chatting in Polish.</p>
+            <p>The circle of satisfied customers grew wider, and he gained their ever growing trust.</p>
+            <p>Later, when his social status had grown enough, he started to meet with them only to socialize.</p>
+            <p>Money was no longer his sole aim.</p>
+            <p>He devoted more and more time to community work.</p>
+            <p>At least that was what his new friends believed.</p>
+            <p>But for him, dancing in a folk group, working in committees in the Polish centre, and engaging in other similar activities were part of building his position and starting anew — this time making pretty decent money.</p>
+            <p>[A] The turning point in Janek ’s career was a hard-earned success in the biggest Polish centre in Hammersmith.</p>
+            <p>He became the house manager, the person responsible for all ongoing repairs and renovations, without the necessity of getting approval for such activities from a wider body.</p>
+            <p>Reports and coherent accounts were sufficient, and Janek did n’t have any problem with them.</p>
+            <p>Photograph of Claimant (flicking a ‘ V’-sign)</p>
+            <p>[B] [CAPTION] JANEK IS PENNILESS AND CHEERFUL.</p>
+            <p>MONEY? WHAT MONEY? YOU HAVE GOLDFISH IN YOUR MIND — HE COULD PARAPHRASE THE FAMOUS QUOTE FROM “THE PROMISED LAND” BY REYMONT.</p>
+            <p>Photograph of “Workshop”</p>
+            <p>[Caption] In the utility rooms of Kolbe House he has created himself a private workshop – in the end, in London he would pay dearly for such a spot.</p>
+            <p>And after all, he is a bankrupt …</p>
+            <p>[C] Even more so as he saw more and reached further.</p>
+            <p>Handsome and eloquent, with a sense of humour, he did not have to try hard to obtain the approval of the centre ’s officers for his decisions.</p>
+            <p>He gained recognition and his appetite for increasing his wealth and prestige within the community continued to increase.</p>
+            <p>He even dreamed of being the centre ’s chairman.</p>
+            <p>To increase his chances, he purchased memberships for kith and kin, mainly for builders who worked for him.</p>
+            <p>[D] But the real gains, and not just of a social nature, came from his “single” status, which he decided on at the outset of his London career.</p>
+            <p>He was a respected public figure and the reputation of the centre he did his “community” work for was a guarantee of his honesty and</p>
+            <p>selflessness.</p>
+            <p>Although it was an open secret that the renovations were done by his company-and he even managed to employ his wife (non-wife?) from Poland — no-one from his closest circle had a problem with that.</p>
+            <p>The job was done, so nobody saw any problem.</p>
+            <p>And the women ever more frequently regarded Janek with admiration.</p>
+            <p>And in this blissful state Janek could have waited for a well-deserved retirement, medals for community work and the splendour that goes with it.</p>
+            <p>Unfortunately, the laws of business propel the man, who has once tasted success, ever further;</p>
+            <p>the stakes increase and there is no resting on one ’s laurels.</p>
+            <p>There are ever more challenges.</p>
+            <p>Poland joined the EU, and hundreds of thousands of Poles came to London.</p>
+            <p>In this situation passivity could have meant failure.</p>
+            <p>Poles took over the construction market.</p>
+            <p>Janek gradually withdrew from this sector.</p>
+            <p>In a sense, he gave this market away:</p>
+            <p>it was a dirty job, so why bother.</p>
+            <p>He had already worked and earned enough in this market.</p>
+            <p>But if an interesting opportunity arose, then one could, using one ’s own experience and contacts, hire subcontractors and easily reap the profits.</p>
+            <p>Poles not only overran the labour market, but also formed a large consumer group.</p>
+            <p>They had their own culinary preferences.</p>
+            <p>Polish shops sprang up.</p>
+            <p>[E] Everything indicated that it would be an easy way to make money, with great profits and loyal, reliable customers — Poles will not drink English beer.</p>
+            <p>Janek knew that.</p>
+            <p>There were two options:</p>
+            <p>wholesale or retail, but he did n’t hesitate.</p>
+            <p>He went for wholesale, leaving retail for his supposed community activities, in the jazz cellar bar, where he supervised the supply of alcohol and ensured that goods would not be registered on the cash register.</p>
+            <p>Cash register? What for? In the community centre, where everyone did community work?</p>
+            <p>[F] Who would bother? At the same time, the jazz cellar club offered the opportunity to establish new contacts, also with women-after all Janek was a declared divorcé and a handsome, successful entrepreneur.</p>
+            <p>And women, like women, blinded by his charm, believed his every word.</p>
+            <p>There was no reason not to believe, since Janek was respected by chairmen and clergymen.</p>
+            <p>And the fact that he still wanted more? These are the laws of economics … One does n’t need to be a graduate in science to give credence to a simple principle — the only guarantee of success is growth, further investments, expansion and overtaking competitors.</p>
+            <p>[G] Janek expanded his investor base, both male and female, the females in ignorance of one another.</p>
+            <p>They invested their life savings in the profits of the business and their joint dolce vitae [sic], tens of thousands of pounds in each case.</p>
+            <p>There was no sign of impending disaster.</p>
+            <p>It probably would not have occurred if Janek had focused on one business … and one woman.</p>
+            <p>But he was far too ambitious for that.</p>
+            <p>[H] Did he think that his new business interests would bring such profits as to enable him to repay his (female) creditors? Or perhaps he knew from the beginning that someone has to lose, so he could earn money not requiring continual reckoning and balancing the books? It is difficult to say.</p>
+            <p>The fact is that Janek transferred the borrowed money to Poland and allocated it to a family construction project, which was supposed to be financially supported by EU funds.</p>
+            <p>He did n’t forget about his wife and children — family is sacrosanct.</p>
+            <p>[I] Meanwhile in London, the only rational course was to declare bankruptcy and surrender to the official procedures.</p>
+            <p>But before that happened, Janek sold his second home, which he still however sporadically uses (the victims say the sale was fictitious;</p>
+            <p>the only person to have visited the house in the last few years is its former owner).</p>
+            <p>[J] Did he leave London in disgrace? No, it ’s not his style.</p>
+            <p>With the official papers of a bankrupt, he continues to shine, and how.</p>
+            <p>He sits behind the wheel of a BMW X5 and with</p>
+            <p>unshakable confidence gets out of the car.</p>
+            <p>He has returned to Kolbe House in Ealing — the house for people in need of care, created by the Polish independence emigration.</p>
+            <p>Returned – because his cooperation with the former manager was not successful – she questioned the out of date food he supplied.</p>
+            <p>The current manager is a different story.</p>
+            <p>Friendly, susceptible to his charm and, most importantly, impervious to the whispers circulating in West London about the famous bankrupt.</p>
+            <p>Kolbe House soon became his second home.</p>
+            <p>[K] He is everywhere, has full access to confidential documents concerning residents (often people with dementia), and enters the centre at all hours, even at night.</p>
+            <p>He takes a seat in the office, at the computer, even though he is not an official employee in the Home ’s administration.</p>
+            <p>Kolbe House nurtures him — in both a literal and figurative sense.</p>
+            <p>He parks his off-road BMW in a parking space designated for long-serving staff.</p>
+            <p>In the utility rooms, he has created himself a private workshop – in the end, in London he would pay dearly for such a spot.</p>
+            <p>And after all, he is a bankrupt …</p>
+            <p>[L] Recently, he has done some major renovations in Kolbe House.</p>
+            <p>Even the bathroom equipment, which was in good condition, was replaced, although Kolbe House needs to economise on everything — not only on night staff, but also on fabric softeners, needed to launder the rough towels used to dry the frequently aching bodies of the patients.</p>
+            <p>Also on frozen milk and bread, almost past its use-by date, which Janek delivers from a source known only to himself.</p>
+            <p>[M] Being a bankrupt he ca n’t operate an independent business, but apparently, somehow he does, or maybe someone officially does it for him.</p>
+            <p>With major renovations comes serious money.</p>
+            <p>Janek has already got into the Inland Revenue ’s black books.</p>
+            <p>Will it happen again? But maybe he works charitably? Do the trustees of Kolbe House (which, over the years, has been supported and meticulously run by the institutions of Polish immigrant communities) inspect everything now, on behalf of the sick, lonely and disabled who were entrusted to them? They wo n’t check this themselves.</p>
+            <p>Let ’s hope that their families, who pay a lot for their care, will do it on their behalf.</p>
+            <p>[N] Or perhaps the trustees think they do n’t need to control everything because Janek is doing so well in Kolbe House that even its manager has commissioned him to extend her house.</p>
+            <p>Officially, in the plans submitted to the local office (which is Ealing Council) he is the head of the construction ’s supervision but — as we can assume — his bankrupt status is concealed.</p>
+            <p>Janek is not a fictional character.</p>
+            <p>In case anyone has not recognised the protagonist of the story, I hereby confirm:</p>
+            <p>it is Jan Serafin, well known among Polish society in London.</p>
+            <p>Grzegorz Malkiewicz”</p>
+            <p>ANNEX B</p>
+            <p>DEFAMATION ACT 2013 (ss.1-4)</p>
+            <p>1. — Serious harm</p>
+            <p>(1) A statement is not defamatory unless its publication has caused or is likely to cause serious harm to the reputation of the claimant.</p>
+            <p>(2) For the purposes of this section, harm to the reputation of a body that trades for profit is not “serious harm” unless it has caused or is likely to cause the body serious financial loss.</p>
+            <p>2. — Truth</p>
+            <p>(1) It is a defence to an action for defamation for the defendant to show that the imputation conveyed by the statement complained of is substantially true.</p>
+            <p>(2) Subsection (3) applies in an action for defamation if the statement complained of conveys two or more distinct imputations.</p>
+            <p>(3) If one or more of the imputations is not shown to be substantially true, the defence under this section does not fail if, having regard to the imputations which are shown to be substantially true, the imputations which are not shown to be substantially true do not seriously harm the claimant 's reputation.</p>
+            <p>(4) The common law defence of justification is abolished and, accordingly, section 5 of the Defamation Act 1952 (justification) is repealed.</p>
+            <p>3. — Honest opinion</p>
+            <p>(1) It is a defence to an action for defamation for the defendant to show that the following conditions are met.</p>
+            <p>(2) The first condition is that the statement complained of was a statement of opinion. (3) The second condition is that the statement complained of indicated, whether in general or specific terms, the basis of the opinion.</p>
+            <p>(4) The third condition is that an honest person could have held the opinion on the basis of — (a) any fact which existed at the time the statement complained of was published;</p>
+            <p>(b) anything asserted to be a fact in a privileged statement published before the statement complained of.</p>
+            <p>(5) The defence is defeated if the claimant shows that the defendant did not hold the opinion. (6) Subsection (5) does not apply in a case where the statement complained of was published by the defendant but made by another person (“the author”);</p>
+            <p>and in such a case the defence is defeated if the claimant shows that the defendant knew or ought to have known that the author did not hold the opinion.</p>
+            <p>(7) For the purposes of subsection (4)(b) a statement is a “privileged statement” if the person responsible for its publication would have one or more of the following defences if an action for defamation were brought in respect of it —</p>
+            <p>(a) a defence under section 4 (publication on matter of public interest);</p>
+            <p>(b) a defence under section 6 (peer-reviewed statement in scientific or academic journal);</p>
+            <p>(c) a defence under section 14 of the Defamation Act 1996 (reports of court proceedings protected by absolute privilege);</p>
+            <p>(d) a defence under section 15 of that Act (other reports protected by qualified privilege). (8) The common law defence of fair comment is abolished and, accordingly, section 6 of the Defamation Act 1952 (fair comment) is repealed.</p>
+            <p>4. — Publication on matter of public interest</p>
+            <p>(1) It is a defence to an action for defamation for the defendant to show that — (a) the statement complained of was, or formed part of, a statement on a matter of public interest;</p>
+            <p>and</p>
+            <p>(b) the defendant reasonably believed that publishing the statement complained of was in the public interest.</p>
+            <p>(2) Subject to subsections (3) and (4), in determining whether the defendant has shown the matters mentioned in subsection (1), the court must have regard to all the circumstances of the case.</p>
+            <p>(3) If the statement complained of was, or formed part of, an accurate and impartial account of a dispute to which the claimant was a party, the court must in determining whether it was reasonable for the defendant to believe that publishing the statement was in the public interest disregard any omission of the defendant to take steps to verify the truth of the imputation conveyed by it.</p>
+            <p>(4) In determining whether it was reasonable for the defendant to believe that publishing the statement complained of was in the public interest, the court must make such allowance for editorial judgement as it considers appropriate.</p>
+            <p>(5) For the avoidance of doubt, the defence under this section may be relied upon irrespective of whether the statement complained of is a statement of fact or a statement of opinion.</p>
+            <p>(6) The common law defence known as the Reynolds defence is abolished.</p>
+            <p />
+            <p>ANNEX C</p>
+            <p>EXTRACTS FROM THE TRANSCRIPT OF THE TRIAL (taken from the Claimant ’s Skeleton Argument (para.</p>
+            <p>56ff.) (underlining added)</p>
+            <p>[Mr Justice Jay (“J);</p>
+            <p>the Claimant (“C”)]</p>
+            <p>56.</p>
+            <p>Day 1, p.95 G (the afternoon of Day 1):</p>
+            <p>J:</p>
+            <p>I am not sure I understand this at all, but you owed Rofood around £ 100,000? C:</p>
+            <p>No, that was slightly before when I have £ 100,000 in debt with him, he did n’t allow us anything without paying. ….</p>
+            <p>J:</p>
+            <p>There is always a lack of clarity with your evidence which I am finding irritating.</p>
+            <p>57.</p>
+            <p>By the end of the first day [Day 1 p.99C], when the Claimant was mid-way through being cross-examined, the Judge indicated his hostility to the Claimant and Claimant ’s case, remarking:</p>
+            <p>J:</p>
+            <p>It is not very ethical business behaviour this, but we will see where the weight of the evidence is leading.</p>
+            <p>Because if I concluded that you are acting unethically as a businessman, I am not sure of the precise terms of the defamations are going to matter to you much.</p>
+            <p>Do you understand? You will lose, but there is a lot more evidence yet.</p>
+            <p>58.</p>
+            <p>The Judge made repeated peremptory demands that he (the Claimant) produce documents the Judge wanted to see, supported by threats.</p>
+            <p>He admonished the Claimant for not having all the documents and information the Judge needed in order to prove the Claimant ’s innocence:</p>
+            <p>See Day 2 p.11;</p>
+            <p>Day 2 p.6:</p>
+            <p>the Judge demands more documents;</p>
+            <p>when the Claimant says he has “five boxes, 14,000 receipts” and he has no idea how to do it, the Judge retorts that he can “do that by tomorrow morning”;</p>
+            <p>also Day 4, p.22;</p>
+            <p>and Day 2 p.16:</p>
+            <p>J:</p>
+            <p>Yes, well it is very simple.</p>
+            <p>Where are the documents to show your investment of £ 365,000?</p>
+            <p>C:</p>
+            <p>I ’ll try to find that in a second, but-</p>
+            <p>J:</p>
+            <p>Well, it should not take you a second.</p>
+            <p>It should take you a nanosecond, because it is obvious that this point would be raised.</p>
+            <p>Where are the documents? In the bundle?</p>
+            <p>C:</p>
+            <p>In the bundle, yes.</p>
+            <p>J:</p>
+            <p>It should be at your fingertips [Pause] Well, you can deal with in re-examination I suppose, otherwise we will be here all day ….</p>
+            <p>J:</p>
+            <p>I am warning you, you find that after lunch-</p>
+            <p>C:</p>
+            <p>Yes.</p>
+            <p>J. – during lunch, and I want to see them at one minute past two, the page.</p>
+            <p>If you do not show them to me, I will draw inferences.</p>
+            <p>Do you understand what that means?</p>
+            <p>C:</p>
+            <p>Yes, I do.</p>
+            <p>59.</p>
+            <p>Day 2, pp.26-27;</p>
+            <p>a portion of which is reproduced here:</p>
+            <p>J:</p>
+            <p>You see, you knew these questions would be asked of you, because one thing you are not is stupid, okay? So, why are you not here today with all of this on your</p>
+            <p>fingertips, saying, ‘ There is £ 31,500 which is not accounted for through the Sami Swoi facility.</p>
+            <p>It was paid to X, Y and Z, and here is proof of it’? Why have you not got that for me, or do I just have to take your word for it every single time? C:</p>
+            <p>[No audible reply].</p>
+            <p>J:</p>
+            <p>Are you going to be able to find it for me, in the documents? C:</p>
+            <p>If they are taken from money to Poland, I ’d have had to sign something which is sending it to Poland, but definitely is going to suppliers.</p>
+            <p>J:</p>
+            <p>Well, you say that, but what is being suggested is not that you are funnelling money out of the company, probably to go to your family in Poland.</p>
+            <p>C:</p>
+            <p>No, that ’s not true. [Inaudible].</p>
+            <p>J:</p>
+            <p>Well, I need it – I am not going to take your word for it, okay? I need you to prove it to me.</p>
+            <p>A bunch of assertions is not going to cut any ice.</p>
+            <p>I need proof.</p>
+            <p>Strictly speaking, the burden of proof is on the defendant to prove that under the Defamation Act, but it is not going to work like that in the sense that I will draw inferences.</p>
+            <p>So, you can get it over lunch.</p>
+            <p>You can prove to me where these monies went.</p>
+            <p>60.</p>
+            <p>Day 2, p.36:</p>
+            <p>When the Claimant was being cross-examined by the Defendants’ Counsel (Mr Metzer QC) to the effect that the Claimant was dishonest, the Judge asked the Claimant:</p>
+            <p>J:</p>
+            <p>Is this going to be more work over lunch, finding these accounts? C:</p>
+            <p>No.</p>
+            <p>J:</p>
+            <p>But why do you not have them at your fingertips?</p>
+            <p>C:</p>
+            <p>[inaudible]</p>
+            <p>J:</p>
+            <p>Also, I want proof that they were filed at Companies House, documented proof.</p>
+            <p>C:</p>
+            <p>I ’ll try to find out.</p>
+            <p>I ’m not quite sure that there ’s anything about it in the documents that they were filed.</p>
+            <p>J:</p>
+            <p>Well, it is up to you.</p>
+            <p>If you fail to provide it, I can draw an inference again.</p>
+            <p>61.</p>
+            <p>The Judge joined in with cross-examination, not questioning the Claimant in a neutral way in order to understand his case, but with hostility, as an adversary.</p>
+            <p>See e.g. Day 2 p.45, when the Claimant was cross-examined by Ds’ counsel about what he had told investors at a meeting.</p>
+            <p>The Judge intervened as follows:</p>
+            <p>J:</p>
+            <p>This does not look great, frankly, because either you were lying to the investors, or you are lying to me.</p>
+            <p>If you are lying to me, the consequences can be really awful, because you understand, I do not like being lied to.</p>
+            <p>Which is it? Who were lying to? Were you telling the truth to the investors and therefore lying to me, or were you lying to investors and telling the truth to me?</p>
+            <p>C:</p>
+            <p>That ’s accurate.</p>
+            <p>I was lying to the investors.</p>
+            <p>Because the documents that she lended the company, I do n’t – I ca n’t dispute that. … ..</p>
+            <p>J:</p>
+            <p>But do you understand what this is about, Mr Serafin? That you are bringing proceedings in the High Court-</p>
+            <p>C:</p>
+            <p>Yes.</p>
+            <p>J:</p>
+            <p>-taking 10 days, and however long it takes for me to write the judgment.</p>
+            <p>It will take some considerable time, seeking to uphold your reputation.</p>
+            <p>But your reputation is already beginning to fall to pieces, because you are a liar, and you do treat women in a frankly disgraceful way, on your own admission.</p>
+            <p>Have you thought through this carefully what you are trying to protect?</p>
+            <p>C:</p>
+            <p>[No audible reply].</p>
+            <p>J:</p>
+            <p>It is up to you.</p>
+            <p>We will carry on.</p>
+            <p>You carry on asking questions, Mr Metzer.</p>
+            <p>(The “frankly disgraceful way” of treating women referred to the fact that the Claimant had carried on relationships with two women at one time.)</p>
+            <p>62.</p>
+            <p>Day 4 p.14:</p>
+            <p>the Claimant wanted to cross-examine D1 as to the fact that he (the Claimant) had paid back all the money he owed Mrs Howard.</p>
+            <p>The Judge stopped him, implying it was irrelevant, when in fact the loans to Mrs Howard were part of Ds’ case (Amended Defence 14.21) and the fact that the Claimant had repaid her in full was part of C ’s case pleaded in the Amended Reply at paragraph 18.18.3.</p>
+            <p>63.</p>
+            <p>When it came to light during Day 4 that an annex of a Bankruptcy Restrictions order was missing, the Judge asked Ct why they did not have it.</p>
+            <p>When the Claimant said that he did not know where it was, the Judge ’s retort was accusatory, unjustified and wrong in law (in informing the Claimant that he should have disclosed “all relevant documents”) [Day 4 p21E]</p>
+            <p>J:</p>
+            <p>You are under an obligation to – You have not given proper disclosure in this case.</p>
+            <p>You are under an obligation under the rules to give disclosure of all relevant documents.</p>
+            <p>There are many documents which are relevant that I have not seen.</p>
+            <p>Your failure to disclose them will give rise to an adverse inference.</p>
+            <p>Do you know what that means?</p>
+            <p>C:</p>
+            <p>No.</p>
+            <p>J:</p>
+            <p>I will hold things against you.</p>
+            <p>You should have disclosed things.</p>
+            <p>It is only fair.</p>
+            <p>The same would apply the other way round, if the defendants did not give proper disclosure.</p>
+            <p>C:</p>
+            <p>I am missing what I can say, only that evidence was exchanged by my previous- J:</p>
+            <p>I am not accepting you blaming them.</p>
+            <p>C:</p>
+            <p>No.</p>
+            <p>Just was missing a few things, not that many.</p>
+            <p>J:</p>
+            <p>It is more than a few things. …</p>
+            <p>64.</p>
+            <p>At the time disclosure had been given, both sides had been represented by solicitors and counsel and no application for further disclosure had been made.</p>
+            <p>65.</p>
+            <p>When an issue arose as to two discrepant emails – one produced by Ds and another copy in the trial bundle-the Judge threatened the Claimant with prosecution and imprisonment for forgery even before he had investigated the matter or permitted the Claimant to explain:</p>
+            <p>Day 2 p.88D:</p>
+            <p>Mr Metzer QC:</p>
+            <p>-and you, on oath, have said that you have not changed the document, you realise you could be liable for perjury?</p>
+            <p>C:</p>
+            <p>Yes, I realise that, but I never changed any document.</p>
+            <p>This is an email between her and me, and I ’m not quite sure I ’ve still got it.</p>
+            <p>I had special file for those documents.</p>
+            <p>J:</p>
+            <p>Well, I think this is so important that we should make available the electronic copy, because you understand what the consequences are.</p>
+            <p>If I think that you are lying, I will send the papers to the Director of Public Prosecutions, and if you are found guilty by a jury, of perjury, you will go to prison.</p>
+            <p>Do you understand? C:</p>
+            <p>Yes, I do.</p>
+            <p>Mr Metzer QC:</p>
+            <p>So, do you want to just-</p>
+            <p>J:</p>
+            <p>Has the penny dropped? You understand?</p>
+            <p>C:</p>
+            <p>I do.</p>
+            <p>66.</p>
+            <p>Later, the Claimant explained that the emails were two different emails, which why 5the version he had produced was discrepant from Ds’ copy.</p>
+            <p>Even then the Judge treated the Claimant ’s explanation with hostility, scepticism and rudeness, telling him that he (the Claimant) “would have to demonstrate” that it was just a printing error.</p>
+            <p>67.</p>
+            <p>When the Defendants themselves gave evidence, the Judge adopted an entirely different approach.</p>
+            <p>At no point did he criticise either the Defendant ’s conduct, even when it was apparent that they had published defamatory allegations in the article for which they had no basis.</p>
+            <p>He suggested answers to the witnesses, e.g. when the Claimant asked the First Defendant which of his (the Claimant ’s) family members in Poland had thought the Claimant was still married, the Judge interrupted to say to the witness, “You would not want to [name the person] anyway because the source is confidential” [Day 3 p119], even when the First Defendant had not claimed any such confidentiality.</p>
+            <p>The Judge also repeatedly let the Claimant know that the Claimant was not cross-examining to his satisfaction, telling him that his questions were “wasting [his] time” [Day 3 p117] (and again);</p>
+            <p>or not relevant [Day 4 p80];</p>
+            <p>or not “proper” [Day 3 p8];</p>
+            <p>Day 4 p9] (“That was not a brilliant question was it?”);</p>
+            <p>Day 4 p14 (“So this is a hopeless line of questioning.</p>
+            <p>The more you try and distance yourself from this, the worse it gets from your perspective”).</p>
+            <p>68.</p>
+            <p>The Judge tried to stop the Claimant cross-examining one of the Defendant ’s witnesses, a woman to whom the Claimant owed money.</p>
+            <p>When the Claimant asked the witness why she had not sued him if she believed she was owed money, the Judge interrupted the cross-examination to support the witness and admonish the Claimant for his prior relationship behaviour [Day 4 p78-9]:</p>
+            <p>J:</p>
+            <p>Yes.</p>
+            <p>What is the point of her suing you if you are bankrupt? ….</p>
+            <p>Complete waste of time suing you.</p>
+            <p>You have not made any proposals, by the way, to repay this money, have you?</p>
+            <p>C:</p>
+            <p>Serafin:</p>
+            <p>No.</p>
+            <p>J:</p>
+            <p>You seem pretty craven about that.</p>
+            <p>I think you need to get on with this because you are just making it worse, okay?</p>
+            <p>C:</p>
+            <p>Serafin:</p>
+            <p>Yes.</p>
+            <p>J:</p>
+            <p>Just speed up and come to a conclusion.</p>
+            <p>It is not the best part of your case.</p>
+            <p>C:</p>
+            <p>I know.</p>
+            <p>J:</p>
+            <p>You know? Well then why aggravate it even more?</p>
+            <p>C:</p>
+            <p>I know that this is my worst bundle. [sic]</p>
+            <p>J:</p>
+            <p>[inaudible] you have acted completely in the wrong and you were with at least one other woman at the time, when the money was lent to you?</p>
+            <p>C:</p>
+            <p>Yes, I accept it.</p>
+            <p>J:</p>
+            <p>It was deplorable behaviour and I am going to say so in my judgment.</p>
+            <p>C:</p>
+            <p>Yes, I know.</p>
+            <p>J:</p>
+            <p>Well, are you going to stop asking questions or not?</p>
+            <p>69.</p>
+            <p>The Judge appeared to regard hearing from the Claimant in any capacity as a waste of time.</p>
+            <p>Halfway through the trial, during Day 4, counsel for Ds suggested to the Judge that he might ask the Claimant which parts of the article he still maintained were false [Day 4, p20].</p>
+            <p>The Judge ’s response was curt:</p>
+            <p>“I would not even bother, Mr Metzer.</p>
+            <p>I think we have got to assume every point is lies”.</p>
+            <p>It was to Claimant ’s credit that he managed to continue to present his case in the face of this show of contempt for him by the bench.</p>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </judgment>
+</akomaNtoso>

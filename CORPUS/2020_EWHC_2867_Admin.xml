@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWHC_2867_Admin" />
+          <FRBRuri value="www.judiciary.uk/2020_EWHC_2867_Admin" />
+          <FRBRdate date="2020-10-28" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/ig-v-secretary-of-state-for-the-home-department" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/ig-v-secretary-of-state-for-the-home-department" />
+          <FRBRdate date="2020-10-28" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2867_Admin.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2867_Admin.xml" />
+          <FRBRdate date="2020-11-17" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="AdministrativeCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdministrativeCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="Ig" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Ig" showAs="Ig" />
+        <TLCOrganization eId="TheSpecialImmigrationAppealsCommission" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheSpecialImmigrationAppealsCommission" showAs="The Special Immigration Appeals Commission" />
+        <TLCOrganization eId="TheSecretaryOfStateForTheHomeDepartment" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheSecretaryOfStateForTheHomeDepartment" showAs="The Secretary Of State For The Home Department" />
+        <TLCOrganization eId="Ar" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Ar" showAs="Ar" />
+        <TLCPerson eId="MrJusticeSwift" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeSwift" showAs="Mr Justice Swift" />
+        <TLCPerson eId="AngusMcculloughQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AngusMcculloughQc" showAs="Angus Mccullough Qc" />
+        <TLCPerson eId="MartinGoudieQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MartinGoudieQc" showAs="Martin Goudie Qc" />
+        <TLCPerson eId="StephanieHarrisonQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#StephanieHarrisonQc" showAs="Stephanie Harrison Qc" />
+        <TLCPerson eId="EdwardGrieves" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EdwardGrieves" showAs="Edward Grieves" />
+        <TLCPerson eId="BhattMurphy" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BhattMurphy" showAs="Bhatt Murphy" />
+        <TLCPerson eId="StevenGray" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#StevenGray" showAs="Steven Gray" />
+        <TLCPerson eId="GovernmentLegalDepartment" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GovernmentLegalDepartment" showAs="Government Legal Department" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+        <TLCRole eId="interested-party" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#interested-party" showAs="interested-party" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWHC 2867 (Admin)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CO/4384/2018</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#AdministrativeCourt">ADMINISTRATIVE COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-10-28" refersTo="#hand-downDate">28/10/2020</date>
+      </p>
+      <p>
+        Before
+        <judge refersTo="#MrJusticeSwift">MR JUSTICE SWIFT</judge>
+      </p>
+      <p>BETWEEN</p>
+      <p>
+        THE QUEEN on the application of
+        <party as="#claimant" refersTo="#Ig">IG</party>
+        <role refersTo="#claimant">Claimant</role>
+        -and –
+        <party as="#defendant" refersTo="#TheSpecialImmigrationAppealsCommission">THE SPECIAL IMMIGRATION APPEALS COMMISSION</party>
+        <role refersTo="#defendant">Defendant</role>
+        -and- (1)
+        <party as="#interested-party" refersTo="#TheSecretaryOfStateForTheHomeDepartment">THE SECRETARY OF STATE FOR THE HOME DEPARTMENT</party>
+        (2)
+        <party as="#interested-party" refersTo="#Ar">AR</party>
+        <role refersTo="#interested-party">Interested Parties</role>
+      </p>
+      <p>
+        <docTitle>JUDGMENT</docTitle>
+      </p>
+      <p>
+        <lawyer as="#barrister" for="#Ig" refersTo="#AngusMcculloughQc">Angus McCullough QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#Ig" refersTo="#MartinGoudieQc">Martin Goudie QC</lawyer>
+        (supported by the Special Advocates Support Office) representing the interests of the Claimant
+        <lawyer as="#barrister" for="#Ig" refersTo="#StephanieHarrisonQc">Stephanie Harrison QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#Ig" refersTo="#EdwardGrieves">Edward Grieves</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#Ig" refersTo="#BhattMurphy">Bhatt Murphy</lawyer>
+        ) for the Claimant (written representations only)
+        <lawyer as="#barrister" for="#TheSpecialImmigrationAppealsCommission" refersTo="#StevenGray">Steven Gray</lawyer>
+        (instructed by the
+        <lawyer as="#solicitor" for="#TheSpecialImmigrationAppealsCommission" refersTo="#GovernmentLegalDepartment">Government Legal Department</lawyer>
+        ) for the Defendant
+      </p>
+      <p>
+        Hearing dates:
+        <date date="2020-03-03" refersTo="#hearing">3 March 2020</date>
+        Post Hearing Submissions:
+        <date date="2020-03-17" refersTo="#post_hearing_submission">17 March 2020</date>
+      </p>
+      <p>COVID-19: This judgment is handed down remotely and circulation to the parties’ representatives by email. It will also be released for publication on BAILII and other websites. The date and time for hand-down is deemed to be at 10:00 am on 28/10/2020</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>MR JUSTICE SWIFT:</p>
+        </tblock>
+        <tblock>
+          <p>A. Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This is a renewed application for permission to apply for judicial review of a decision of the Special Immigration Appeals Commission (“SIAC”) made in the context of applications by AR and IG under section 2D of the Special Immigration Appeals Commission Act 1997 (“the 1997 Act”) to set aside decisions of the Secretary of State for the Home Department (“Secretary of State”) to refuse their respective applications for British nationality. The Secretary of State ’s decision on IG ’s application was made on 15 February 2018; her decision of AR ’s application was made on the same day.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The Secretary of State had taken earlier decisions on those applications which had been the subject of applications to SIAC for review under section 2D of the 1997 Act. The Secretary of State ’s original decision on AR ’s application was made on 30 May 2009, and her original decision on IR ’s application was made on 16 July 2007. On 30 January 2017 SIAC quashed each decision after the Secretary of State elected not to disclose material that SIAC had ordered should be disclosed into Open. I refer to this material, both in its full and gisted forms collectively, as “the Disputed Information”. SIAC had concluded that a gist of the Disputed Information could be provided to AR and IG as open disclosure without causing harm to the public interest.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>SIAC had concluded that the Disputed Information was relevant on two bases.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The Secretary of State, as she was entitled to do under Rule 38 of the SIAC Rules of Procedure, decided to withdraw any reliance on the Disputed Information rather than disclose a gist to AR and IG. SIAC determined that the consequence of that decision was that neither application for review could be fairly determined, and that each application had therefore to be allowed. Thus, the Secretary of State ’s decisions were quashed, and she reconsidered each application for British nationality, and made new decisions.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>The Secretary of State set out her new decisions in letters dated 15 February 2018. Each Claimant commenced new review proceedings under section 2D of the 1997 Act. The Special Advocates who represented the interests of the Claimants in the first round of SIAC proceedings continued to represent their interests in the new proceedings. In the Rule 38 part of the new proceedings the Special Advocates contended that the Disputed Information should be disclosed to them, and the gist should be disclosed to the Claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>This was the issue that came before SIAC in June 2018, which was determined in the judgment in September 2018, and which is the subject of the present application for permission to apply for judicial review. More specifically, the issue before SIAC at the Rule 38 hearing was whether to uphold the Secretary of State ’s objection. Her contention was that there was no need to disclose the Disputed Information because it was irrelevant to any issue in the proceedings before SIAC.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The SIAC hearing took place in closed session. The Special Advocates accepted that one consequence of the Secretary of State ’s further decisions on the applications for British nationality was that one of the two bases found as to why the Disputed Information was relevant was no longer viable. The Special Advocates’ submission at the Rule 38 hearing was that the Disputed Information remained relevant on the other basis. At the Rule 38 hearing the Special Advocates submitted that it was an abuse of process for the Secretary of State to contend otherwise.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The abuse of process submission relied on the rule in Henderson v Henderson (1843) 3 Hare 100. In his speech in Johnson v Gore Wood [2002] 2 AC 1, Lord Bingham said as follows about the rule in Henderson ’s case (at pp 22 C-F, 23 E-F and 31 A-F). “The rule of law depends upon the existence and availability of courts and tribunals to which citizens may resort for the determination of differences between them which they can not otherwise resolve. Litigants are not without scrupulous examination of all the circumstances to be denied the right to bring a genuine subject of litigation before the court: Yat Tung Investment Company Limited v Dao Heng Bank Ltd [1975] AC581, 590 per Lord Kibrandon, giving the advice of the Judicial Committee: Brisbane Council v Attorny General for Queensland [1979] AC 411, 425 per Lord Wilberforce, giving the advice of the Judicial Committee. This does not however mean that the court must hear in full and rule on the merits of any claim or defence which a party to litigation may choose to put forward. For there is, as Lord Diplock said at the outset of his speech in Hunter v Chief Constable of the West Midlands Police [1982] AC 529, 536, an “inherent power which any court of justice must possess to prevent misuse of its procedure in a way which, although not inconsistent with the literal application of its procedural rules, would nevertheless be manifestly unfair to a party to litigation before it, or would otherwise bring the administration of justice into disrepute among right- thinking people. The circumstances in which abuse of process can arise are very varied; those which give rise to the instant appeal must surely be unique. It would, in my view, be most unwise if this House were to use this occasion, to say anything that might be taken as limiting, to fixed categories the kinds of circumstances in which the court has duty (I disavow the word discretion) to exercise this salutary power.” … Thus the abuse in question need not involve the reopening of a matter already decided in proceedings between the same parties, as where a party is estopped in law from seeking a relitigate a cause of action or an issue already decided in earlier proceedings, but, as Somervell LJ put it in Greenhalgh v Mallard [1947] 2 All ER 255, 257, may cover “issues or facts which are so clearly part of the subject- matter of the litigation and so clearly could have been raised that it would be an abuse of the process of the court to allow a new proceeding to be started in respect of them” … But Henderson v Henderson abuse of process, as now understood, although separate and distinct from cause of action estoppel and issue estoppel, has much in common with them. The underlying public interest is the same: that there should be finality in litigation and that a party should not be twice vexed in the same manner. This public interest is reinforced by the current emphasis on efficiency and economy in the conduct of litigation, in the interests of the parties and the public as a whole. The bringing of a claim or the raising of a defence should have been raised in the earlier proceedings if it was to be raised at all. I would not accept that it is necessary, before abuse may be found, to identify any additional element such as collateral attack on a previous decision or some dishonesty, but where those elements are present the later proceeding involves what the court regards as unjust harassment of a party. It is, however, wrong to hold that because a matter could have been raised in earlier proceedings it should have been, so as to render the raising of it in later proceedings necessarily abusive. That is to adopt too dogmatic approach to what should in my opinion be a broad, merits-based judgment which takes account of the public and private interests involved and also takes into account of all the facts of the case, focusing attention on the crucial question whether, in all the circumstances, a party is misusing or abusing the process of the court by seeking to raise before it the issue which could have bee</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>SIAC first considered whether the Disputed Information was relevant and concluded that it was not. SIAC then considered the abuse of process argument. It concluded that it was not an abuse of process for the Secretary of State to contend that the Disputed Information was not material.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>In these judicial review proceedings, the Special Advocates challenge SIAC ’s conclusion on a number of grounds. The first four grounds of challenge are directed to whether SIAC erred in law in its conclusion that the Secretary of State ’s relevance argument was not an abuse of process. The remaining two grounds concern SIAC ’s further finding that the Disputed Information was not relevant.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <tblock>
+          <p>B. Decision</p>
+        </tblock>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>Although the hearing before me was a renewed hearing for permission to apply for judicial review, I have had the benefit of detailed submissions from Counsel for the Secretary of State and from the Special Advocates. I also had the advantage of written submissions from counsel instructed by IG on the scope of the abuse of process doctrine; its application in principle to proceedings before SIAC, and so far as they were able without sight of the Disputed Information, how that principle ought to apply to the circumstances of this case. Having considered those submissions I have reached the firm conclusion that the grounds of challenge advanced by the Special Advocates are not reasonably arguable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The collective effect of the first four grounds of challenge is that the Commission was wrong to reject the abuse of process submission made by the Special Advocates and in doing so relied on irrelevant matters including (a) assessment of whether the Disputed Information was sensitive such that its disclosure to AG and IR might harm the public interest; and (b) that it would, in any event, be open to the Special Advocates at the final hearing of this section 2D application to seek to persuade the Commission that it should take account of the Disputed Information.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>In respect of the first of these two matters the Special Advocates point out at the second SIAC hearing (“the Keith Commission”) the Secretary of State did not seek to go behind the conclusion of the first SIAC hearing (“the Flaux Commission”) that disclosure of the Disputed Information would not cause harm to the public interest. As the Keith Commission identified from the authorities put before it, the issue for it was the one identified by Lord Bingham in his speech in Johnson and Gore Wood: taking a broad merits-based approach that took account of the relevant interests and facts of the case, was the Secretary of State ’s submission on the relevance of the Disputed Information an abuse of the process of the court?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Taking account of the circumstances here, it is not arguable that the Keith Commission ’s conclusion was wrong. The proceedings before the Keith Commission and the Flaux Commission did not concern the same decisions. Following the decision of the Flaux Commission to quash her original decisions, the Secretary of State reconsidered matters. That reconsideration had left the Disputed Information out of account. As a result, one of the bases for disclosure relied on by the Flaux Commission had fallen away. This much was common ground before the Keith Commission. Other material circumstances had also changed. Having regard to these matters and notwithstanding that the Secretary of State ’s submission to the Keith Commission could be classified as a form of collateral attack on the conclusion reached by the Flaux Commission, I do not think that it is arguable that the Keith Commission erred in law in concluding that it was not manifestly unfair to permit the Secretary of State to revisit the relevance issue.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>For largely the same reasons, the Special Advocate ’s submissions on relevance raise no reasonably arguable issue.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>In the course of the hearing, the Special Advocates submitted that the Keith Commission had been wrong to consider whether the Disputed Information was sensitive, where the only matter before it was relevance. I do not consider this raises any matter of substance. Next, the Special Advocates criticise the “wait and see” approach adopted by SIAC. However, that approach, which will permit the Special Advocates to invite SIAC to revisit the relevance issue if circumstances change, discloses no error. It is no more than pragmatism. It could only be open to criticism if it were arguable that SIAC ’s conclusion on the abuse of process argument was flawed. But for the reasons I have already given, it was not.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>For these reasons, the application for permission to apply for judicial review is refused.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

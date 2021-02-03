@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2019_EWHC_3715_Comm" />
+          <FRBRuri value="www.judiciary.uk/2019_EWHC_3715_Comm" />
+          <FRBRdate date="2019-09-05" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/ifaco-feed-sodinaf" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/ifaco-feed-sodinaf" />
+          <FRBRdate date="2019-09-05" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_3715_Comm.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_3715_Comm.xml" />
+          <FRBRdate date="2021-01-14" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="BusinessAndPropertyCourts" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessAndPropertyCourts" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="CommercialCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CommercialCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="IfacoFeedCompanyS.a." href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#IfacoFeedCompanyS.a." showAs="Ifaco Feed Company S.a." />
+        <TLCOrganization eId="SocieteDeDistributionNouvelleD’afrique(sodinaf)S.a.r.l." href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SocieteDeDistributionNouvelleD’afrique(sodinaf)S.a.r.l." showAs="Societe De Distribution Nouvelle D’afrique (sodinaf) S.a.r.l." />
+        <TLCOrganization eId="Mr.FabriceSiaka" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Mr.FabriceSiaka" showAs="Mr. Fabrice Siaka" />
+        <TLCPerson eId="Mr.JusticePhillips" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Mr.JusticePhillips" showAs="Mr. Justice Phillips" />
+        <TLCPerson eId="Mr.RalphMorley" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Mr.RalphMorley" showAs="Mr. Ralph Morley" />
+        <TLCPerson eId="Hfw" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Hfw" showAs="Hfw" />
+        <TLCRole eId="applicant-claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#applicant-claimant" showAs="applicant-claimant" />
+        <TLCRole eId="defendant-respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant-respondent" showAs="defendant-respondent" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2019] EWHC 3715 (Comm)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CL-2019-000045</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#BusinessAndPropertyCourts">BUSINESS &amp; PROPERTY COURTS OF ENGLAND AND WALES</organization>
+        <organization refersTo="#CommercialCourt">COMMERCIAL COURT (QBD)</organization>
+      </p>
+      <p>IN THE MATTER OF THE ARBITRATION ACT 1996</p>
+      <p>AND IN THE MATTER OF AN ARBITRATION APPLICATION</p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date: Thursday,
+        <date date="2019-09-05" refersTo="#hand-downDate">5 September 2019</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#Mr.JusticePhillips">MR. JUSTICE PHILLIPS</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#applicant-claimant" refersTo="#IfacoFeedCompanyS.a.">IFACO FEED COMPANY S.A.</party>
+        (a company incorporated in Switzerland)
+        <role refersTo="#applicant-claimant">Claimant/Applicant</role>
+      </p>
+      <p>-and-</p>
+      <p>
+        (1)
+        <party as="#defendant-respondent" refersTo="#SocieteDeDistributionNouvelleD’afrique(sodinaf)S.a.r.l.">SOCIETE DE DISTRIBUTION NOUVELLE D’AFRIQUE (SODINAF) S.A.R.L.</party>
+        (a company incorporated in Cameroon)
+        <role refersTo="#defendant-respondent">First Respondent/Defendant</role>
+        (2)
+        <party as="#respondent" refersTo="#Mr.FabriceSiaka">MR. FABRICE SIAKA</party>
+        <role refersTo="#respondent">Second Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#IfacoFeedCompanyS.a." refersTo="#Mr.RalphMorley">MR. RALPH MORLEY</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#IfacoFeedCompanyS.a." refersTo="#Hfw">HFW</lawyer>
+        ) for the Claimant/Applicant
+      </p>
+      <p>The First and Second Respondents were not represented and did not appear</p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>Digital Transcription by Marten Walsh Cherer Ltd., 2nd Floor, Quality House, 6-9 Quality Court, Chancery Lane, London WC2A 1HP Telephone No: 020 7067 2900. Fax No: 020 7831 6864. DX: 410 LDE. Email: info@martenwalshcherer.com Web: www.martenwalshcherer.com</p>
+    </header>
+    <judgmentBody>
+      <decision>
+        <tblock>
+          <p>MR. JUSTICE PHILLIPS:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This is an application by the claimant (“IFACO”) for an order: (1) declaring that the first respondent (“SODINAF”) is in contempt of court for failing to comply with an order I granted on 17 May 2019 for the disclosure of SODINAF ’s assets worldwide exceeding € 10,000 in value, and (2) declaring that the second respondent (“Mr. Siaka”) is in contempt for his role in SODINAF ’s non-compliance as a director / officer or individual in actual control of SODINAF and committing Mr. Siaka to prison for that contempt.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The background is as follows. On 19 November 2018, IFACO obtained an arbitral award from a London GAFTA tribunal against SODINAF in the sum of € 4,751,701.89 together with interest. The underlying claim was that SODINAF had wrongly failed to pay for a shipment of bulk soya meal and corn it had purchased pursuant to a contract with IFACO governed by English law and containing a GAFTA arbitration clause.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>As the award was unsatisfied, Butcher J made an order on 29 January 2019 recognising the award under section 66 of the Arbitration Act 996, and granted leave to serve an application for asset disclosure order on SODINAF as an aid to enforcement. That application was duly issued and served and came before me on 17 May 2019. Although SODINAF was on notice of the application it did not appear. The order I made required SODINAF to give disclosure of assets as mentioned above and was endorsed with a penal notice addressed not only to SODINAF but also to Mr. Siaka as its Chief Executive Officer. The order required that the disclosure be given within 14 days of service.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>IFACO took numerous steps to serve the order on SODINAF, including serving through GAFTA in accordance with the domicile provisions of the underlying contract, on Mr. Siaka at his email address and on SODINAF ’s lawyers in Cameroon, but no response was received and SODINAF did not comply. I should add the disclosure order was also couriered to SODINAF ’s offices and to the offices of their advocates, and both were signed for on 23 May 2019. Further correspondence was sent to both SODINAF and Mr. Siaka concerning their non-compliance.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>IFACO issued this application to commit on 5 July 2019 and on 11 July 2019 Andrew Baker J granted permission to serve the committal application and all supporting application documentation out of the jurisdiction personally on Mr. Siaka at the named address or elsewhere within Cameroon. IFACO undertook to serve the application both on SODINAF and personally upon Mr. Siaka. Although there is no doubt that letters and emails have come to Mr. Siaka ’s attention, not least because of conversations with SODINAF ’s lawyers and with Mr. Siaka himself, including conversations this morning, it was not possible to find him to serve him personally. There is also no doubt that the respondents have been notified by email and personally of the hearing today, both its time and its place.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The first question is whether it is appropriate to proceed with this application against Mr. Siaka notwithstanding that he has not been personally served with the order or with the application. CPR 81.8(2) provides that the court may dispense with such service of the order if the court thinks it is just to do so. In this case there is no doubt at all that Mr. Siaka has been notified of the order and its terms and is on notice of those requirements. The fact that it was not possible to serve him personally with the application demonstrates that attempts to serve him with the disclosure order would likely have been unsuccessful and, in those circumstances, it seems entirely just to dispense with personal service.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The one concern is that IFACO did not even attempt to effect personal service on Mr. Siaka notwithstanding that there appears to have been no bar to them attempting to do so and, indeed, IFACO met with Mr. Siaka in August in Switzerland and it appears that no attempt was made to hand him the documents on that occasion. It does now appear that this morning, rather too late, the documents were handed personally to Mr. Siaka. However, the fact remains that Mr. Siaka was well aware and has been for some time of the order and that personal service would have added nothing to his knowledge or notification of the order and it is likely that an attempt to serve him personally would, at the time, not have been successful. I therefore do dispense with personal service of the order.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The position is even stronger in relation to personal service of the application. In that instance IFACO has attempted to serve personally and has been unable to do so, but has taken numerous steps which have brought the application to Mr. Siaka ’s attention. Under CPR 81.10, rule 5A, the court may dispense with service of the application if it considers it just to do so. It plainly is just in this case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>The next question is whether the court should proceed in the absence of the respondents. This question has been considered in numerous authorities including R v Jones [2003] 1 AC 1, in Sanchez v Oboz [2015] EWHC 235 (Fam), by Cobb J, by Warren J in Taylor v Van Dutch Marine Holdings Ltd [2016] EWHC [2001] Ch, and by Spencer J in Calderdale and Huddersfield NHS Foundation Trust v Sandip Singh Atwal [2018] EWHC 961 (QB). In each of those cases the court considered a checklist of nine factors as to whether it is appropriate to proceed in the absence of respondents to a committal application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Taking those factors in turn as they apply to this case, first, whilst the respondents, in particular Mr. Siaka, have not been personally served with the relevant documents, he has full notice of the order and the application, and of the hearing. Second, they have had plenty of time to prepare. Third, no reason has been advanced for their non- appearance. Fourth, it is reasonable to infer that they know of but were indifferent to the consequences of the case as Mr. Siaka has not engaged with these aspects of the proceedings at all. Fifth, an adjournment would not be likely to secure the attendance of either respondent or facilitate their representation. Sixth, there appears to be no disadvantage to the respondents in not being able to present their account of events as the failure to comply with the court order is evident and on the face of it unanswerable. That there would be prejudice caused to IFACO by delay is the seventh factor, namely, the wasted costs of this hearing. In contrast, the eighth factor, there would no prejudice to the forensic process if the application were to proceed in the absence of the defendant as it is clear the defendants have chosen not to comply and there was no basis for believing any answer to that would be advanced if they were present. As for the final factor, the overriding objective, it is plainly just to proceed with the matter today in the interests of expedition and fairness and that adjourning the case would frustrate rather than promote the overriding objective.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>As to the substance of the application, there is no doubt that SODINAF has failed to comply with the order and no excuse or justification has been nor it seems could be advanced for that failure. SODINAF is, beyond all reasonable doubt, in breach of the court ’s order and I will declare that it is in contempt of court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>As for Mr. Siaka, in order for him to be in contempt as a director or officer of the company “it is necessary to show that he / she knew of and was responsible for the company ’s breach of the court order, undertaking to the court, or other contempt”: Da Al Arkan Real Estate Development Company v Al Refai [2015] 1 WLR 135, para 33 per Beatson LJ.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>It is also clear that a director ’s knowledge of the order places him / her under a duty to take reasonable steps to comply. A wilful failure to procure those steps or aiding or abetting a breach is punishable as contempt, even if the individual would not otherwise be liable under the ordinary law of contempt: see Westminster City Council v Adbins Ltd [2013] JPL 654, para. 50-51, and Arlidge on Contempt, para. 12-127.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>The requirement for wilfulness excludes only those situations where a director can reasonably believe some other director or officer is taking those steps. Even if Mr. Siaka was not a director or officer of the company, he would be liable for contempt as a stranger if he wilfully interfered with the administration of justice with an intention on his part to interfere with or impede the administration of justice established to the criminal standard of proof. It is, of course, accepted that it can be inferred from all the circumstances, including the foreseeability of the consequences of the defendant ’s conduct : see Attorney-General v Newspapers Publishing plc [1988] Ch 333, at pages 374-375 per Sir John Donaldson MR.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>In the present case Mr. Siaka is not only the Chief Executive of SODINAF but is also indirectly its sole beneficial owner. It is established beyond reasonable doubt that he was aware of the order and that he has complete control of SODINAF generally and, in particular, in relation to the dispute in question. SODINAF is routinely described as his business or as a business controlled by him. It is clear beyond reasonable doubt that SODINAF ’s failure to comply will have been at the direction of or certainly with the knowledge and instigation of Mr. Siaka.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>In that regard it is pertinent to note that Mr. Siaka was SODINAF ’s signatory to the underlying contracts, was its negotiator thereafter, authorised SODINAF ’s representatives for and was a recipient of communications in the arbitration, negotiated SODINAF ’s multimillion-euro acquisition of forestry companies and continued to negotiate on SODINAF ’s behalf. In all the circumstances, I am satisfied so that I am sure that Mr. Siaka, as a director or officer of SODINAF, procured that the order was breached. But even if he was not technically a director, he wilfully interfered with the administration of justice by permitting SODINAF to act in contempt. I therefore find that Mr. Siaka is also in breach of the court ’s order and is in contempt of court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>The further question then arises as to whether it is appropriate for the court to proceed directly to sentence. In JSC BTA Bank and Solodchenko [2011] EWHC 1613 Ch, Briggs J (as he then was) emphasised that where a serious contempt has been proved in a respondent ’s absence the court should consider pausing before immediately proceeding to sentence and consider whether the matter should in the alternative be adjourned. However, in Taylor v Van Dutch Marine Holdings Ltd, above, and Warren J, in circumstances similar to the present case, did not adjourn, stating that he saw little point in taking that course since it was unlikely that the respondents in that case would in fact avail themselves of the opportunity to appear or be represented, or indeed to comply belatedly with the order.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>Given the lack of engagement by the respondents with this application, or indeed in the enforcement proceedings generally, I see no likelihood that adjourning the sentence would have any impact on the process and would be for no purpose. In those circumstances, I propose to proceed to consider the appropriate sentence for contempt.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>IFACO does not seek any penalty against SODINAF other than a declaration that they are in contempt. However, in relation to Mr. Siaka it is suggested that the appropriate penalty is one of imprisonment. In Lightfoot v Lightfoot [1989] FLR 414, Lord Donaldson MR said as follows: “Sentences for contempt really fall into two categories. There is the purely punitive sentence where the contemnor is being punished for a breach of an order which has occurred but which was a once and for all breach. A common example, of course, is a non-molestation order where the respondent does molest the petitioner and that is an offence for which he has to be punished. In fixing the sentence there can well be an element of deterrence to deter him from doing it again and to deter others from doing it. That is one category. There is a second category which I might describe as a coercive sentence, where the contemnor has been ordered to do something and is refusing to do. Of course, a sentence in that case also has a punitive element since he has to be punished for having failed to do so up to the moment of the court hearing, but nevertheless it also has a coercive element. Now, it is at that point that it is necessary to realise that in earlier times the courts would in such circumstances have imposed an indefinite sentence. That is to say a man would be committed to prison until such time as he purged his contempt by complying with the order. Under the Contempt of Court Act 1981 a limit has been placed on such sentences, that limit being two years. It would be consistent with the previous practice of the courts and give full effect to the modification required by statute, if the courts considered imposing a two-year sentence when the contemnor was in continuing and wilful breach of court orders. Whilst there might be cases in which such a sentence would be disproportionately severe, any wilful defiance of the court and its orders is necessarily a very serious offence and if the contemnor is aggrieved he has a remedy in his own hands he can seek his immediate release by ceasing his defiance, complying with the order, and thereby purging his contempt.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>In JSC BTA Bank v Stepanov [2010] EWHC 794 Ch, Roth J considered the appropriate sentence for contempt of court in circumstances where, like this case, the respondents have failed to comply with disclosure obligations imposed in connection with injunctions. Roth J held that (i) there had been a flagrant disobedience of the court ’s orders, (ii) there had been no attempt whatever to explain or excuse that disobedience and (iii) there would be judgment for very significant sums of money against the defendant and the orders in question were in support of the claimant ’s rights resulting from that judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>In that case the respondent had withdrawn instructions from solicitors and had made no attempt to appear or be represented by the court. In those circumstances, Roth J took the view that it was therefore entirely appropriate to impose a two-year sentence of imprisonment given the seriousness of the circumstances with an express provision that the defendant could apply to vary or discharge that order.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>In my judgment, the very same factors arise in the present case. There is a flagrant breach and disobedience of the court order with no attempt to explain or excuse the disobedience. There is a judgment for a very significant sum of money and these orders are an attempt but to enforce IFACO ’s rights resulting from that judgment. Again, the respondents had previously been represented but had withdrawn instructions from their representatives and now are not complying or engaging with the court process.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>In my judgment, it is therefore appropriate to take the same course as adopted by Roth J in JSC BTA Bank v Stepanov and I make an order that Mr. Siaka be committed to prison for two years for his contempt but I will include a provision that Mr. Siaka can apply to vary or discharge that order, the intent being, of course, that he can do so if and when he procures that SODINAF complies in whole or in part with the order for disclosure or, alternatively, provides an explanation as to why it has been unable to do so. I will therefore make that order and will hear further from counsel as to its terms. (For further proceedings see separate transcript) This transcript has been approved by Mr Justice Phillips</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

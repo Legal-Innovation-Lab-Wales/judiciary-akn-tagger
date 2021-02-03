@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWHC_3500_Ch" />
+          <FRBRuri value="www.judiciary.uk/2020_EWHC_3500_Ch" />
+          <FRBRdate date="2020-11-25" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/schwartz-v-vgv-uk-limited" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/schwartz-v-vgv-uk-limited" />
+          <FRBRdate date="2020-11-25" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_3500_Ch.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_3500_Ch.xml" />
+          <FRBRdate date="2021-02-02" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="BusinessAndPropertyCourts" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessAndPropertyCourts" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="TrustAndProbateList" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TrustAndProbateList" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessAndPropertyCourts" />
+        <TLCOrganization eId="GabrielaSchwartz" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GabrielaSchwartz" showAs="Gabriela Schwartz" />
+        <TLCOrganization eId="Vgv(uk)Limited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Vgv(uk)Limited" showAs="Vgv (uk) Limited" />
+        <TLCOrganization eId="PromocionesEInversionesSudamericanasS.a." href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PromocionesEInversionesSudamericanasS.a." showAs="Promociones E Inversiones Sudamericanas S.a." />
+        <TLCOrganization eId="PeruexpresSociedadDeResponsibilidadLimitada" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PeruexpresSociedadDeResponsibilidadLimitada" showAs="Peruexpres Sociedad De Responsibilidad Limitada" />
+        <TLCOrganization eId="HoldingGrupoTvCableS.a.Limited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HoldingGrupoTvCableS.a.Limited" showAs="Holding Grupo Tv Cable S.a. Limited" />
+        <TLCOrganization eId="ClementeJoseVivancoSalvador" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ClementeJoseVivancoSalvador" showAs="Clemente Jose Vivanco Salvador" />
+        <TLCPerson eId="MrJusticeRoth" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeRoth" showAs="Mr Justice Roth" />
+        <TLCPerson eId="MrJamesWeale" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJamesWeale" showAs="Mr James Weale" />
+        <TLCPerson eId="McdermottWill&amp;EmeryUkLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#McdermottWill&amp;EmeryUkLlp" showAs="Mcdermott Will &amp; Emery Uk Llp" />
+        <TLCPerson eId="MrRichardColbey" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrRichardColbey" showAs="Mr Richard Colbey" />
+        <TLCPerson eId="DirectAccess" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DirectAccess" showAs="Direct Access" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Case No:
+        <docNumber>PT-2019-001066</docNumber>
+      </p>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWHC 3500 (Ch)</neutralCitation>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#BusinessAndPropertyCourts">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</organization>
+        <organization refersTo="#TrustAndProbateList">TRUST AND PROBATE LIST (ChD)</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">7 Rolls Buildings Fetter Lane London EC4A 1NL</location>
+      </p>
+      <p>
+        <date date="2020-11-25" refersTo="#hand-downDate">25 November 2020</date>
+      </p>
+      <p>
+        BEFORE:
+        <judge refersTo="#MrJusticeRoth">MR JUSTICE ROTH</judge>
+      </p>
+      <p>----------------------</p>
+      <p>BETWEEN:</p>
+      <p>
+        <party as="#claimant" refersTo="#GabrielaSchwartz">GABRIELA SCHWARTZ</party>
+        <role refersTo="#claimant">Claimant</role>
+        -and- (1)
+        <party as="#defendant" refersTo="#Vgv(uk)Limited">VGV (UK) LIMITED</party>
+        (2)
+        <party as="#defendant" refersTo="#PromocionesEInversionesSudamericanasS.a.">PROMOCIONES E INVERSIONES SUDAMERICANAS S.A.</party>
+        (3)
+        <party as="#defendant" refersTo="#PeruexpresSociedadDeResponsibilidadLimitada">PERUEXPRES SOCIEDAD DE RESPONSIBILIDAD LIMITADA</party>
+        (4)
+        <party as="#defendant" refersTo="#HoldingGrupoTvCableS.a.Limited">HOLDING GRUPO TV CABLE S.A. LIMITED</party>
+        (5)
+        <party as="#defendant" refersTo="#ClementeJoseVivancoSalvador">CLEMENTE JOSE VIVANCO SALVADOR</party>
+        <role refersTo="#defendant">Defendants</role>
+      </p>
+      <p>----------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#GabrielaSchwartz" refersTo="#MrJamesWeale">MR JAMES WEALE</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#GabrielaSchwartz" refersTo="#McdermottWill&amp;EmeryUkLlp">McDermott Will &amp; Emery UK LLP</lawyer>
+        ) appeared on behalf of the Claimant
+        <lawyer as="#barrister" for="#ClementeJoseVivancoSalvador" refersTo="#MrRichardColbey">MR RICHARD COLBEY</lawyer>
+        (instructed via
+        <lawyer as="#solicitor" for="#ClementeJoseVivancoSalvador" refersTo="#DirectAccess">Direct Access</lawyer>
+        ) appeared on behalf of the Fifth Defendant
+      </p>
+      <p>The First Defendant was not represented</p>
+      <p>
+        <docTitle>APPROVED JUDGMENT</docTitle>
+      </p>
+      <p>(Remote Hearing)</p>
+      <p>----------------------</p>
+      <p>Digital Transcription by Epiq Europe Ltd, Unit 1 Blenheim Court, Beaufort Business Park, Bristol, BS32 4NE Web: www.epiqglobal.com/en-gb/ Email: civil@epiqglobal.co.uk (Official Shorthand Writers to the Court) This Transcript is Crown Copyright. It may not be reproduced in whole or in part other than in accordance with relevant licence or with the express consent of the Authority. All rights are reserved. WARNING: reporting restrictions may apply to the contents transcribed in this document, particularly if the case concerned a sexual offence or involved a child. Reporting restrictions prohibit the publication of the applicable information to the public or any section of the public, in writing, in a broadcast or by means of the internet, including social media. Anyone who receives a copy of this transcript is responsible in law for making sure that applicable restrictions are not breached. a person who breaches a reporting restriction is liable to a fine and/or imprisonment. For guidance on whether reporting restrictions apply, and to what information, ask at the court office or take legal advice.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+        <tblock>
+          <p>MR JUSTICE ROTH:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>On 14 August 2020, I handed down judgment on a committal application in this matter brought against the first defendant, VGV (UK) Ltd and the fifth defendant, Mr Vivanco (" the Contempt Judgment"). That followed a hearing over four half-days last June. I found that some, but not all, of the contempts alleged against VGV UK and some, but by no means all, of the contempts alleged against Mr Vivanco were proved. The matter now comes back before the court for determination of the sanctions for those contempts. In this judgment I shall use the same abbreviations as in the Contempt Judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>It is fundamental that a hearing and the delivery of a judgment imposing sanctions for contempt must be in public. Because of the COVID-19 pandemic, this hearing has been held by Skype for Business but it has been publicised in the court list with an opportunity for any interested person to access the hearing. It is accordingly a public hearing in conformity with Practice Direction 51Y, the Coronavirus Practice Direction for video or audio hearings.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>VGV UK has not participated in this sanctions hearing or been represented. In that respect, its position is no different from the committal hearing last June. Mr Vivanco, by contrast has, as in June, appeared by online link from, on this occasion, Florida and is represented by Mr Colbey, as he was in the committal hearing. Because of the time difference, the sanctions hearing started yesterday at 2 pm, and this hearing for delivery of the judgment has commenced at 2.30 pm.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>General principles</p>
+        </tblock>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The proper approach to the application by the court of sanctions for contempt has been considered in a number of recent judgments. They were conveniently surveyed and summarised in a very recent judgment of Nugee LJ, Kea Investments Limited v Watson [2020] EWHC 2796 (Ch). He quoted the guidance from two Court of Appeal judgments of last year as follows, at [7] to [9]:" 7. In the Court of Appeal 's decision in Liverpool Victoria Insurance Co Ltd v Khan [2019] EWCA Civ 392 at [58] they gave the following guidance (this is the judgment of the Court):' It is therefore appropriate for the court dealing with this form of contempt to consider (as a criminal court would do) the culpability of the contemnor and the harm caused, intended or likely to be caused by the contempt of court. Having in that way determined the seriousness of the case, the court must consider whether a fine would be a sufficient penalty. If it would, committal to prison can not be justified, even if the contemnor 's means are so limited that the amount of the fine must be modest.' 8. In a further decision of the Court of Appeal, Financial Conduct Authority v McKendrick [2019] EWCA Civ 524, having referred to the Liverpool Victoria case, which was a case of contempt of court involving a false statement verified by a statement of truth, the Court said at [39]:' We consider that a similar approach should be adopted when – as in this case – a court is sentencing for contempt of court of the kind which involves one or more breaches of an order of the court. The court should first consider (as a criminal court would do) the culpability of the contemnor and the harm caused, intended or likely to be caused by the breach of the order. In this regard, aggravating or mitigating factors which are likely to arise for consideration will often include some of those identified by Popplewell J in the Asia Islamic Trade Finance Fund case. Having considered the seriousness of the case, the court must consider whether a fine would be a sufficient penalty. If it would, committal to prison can not be justified, even if the contemnor 's means are so limited that the amount of the fine must be modest.'" 9. The first question, therefore, is the degree of culpability and the degree of harm, those being matters which go to the seriousness of the contempt. The Court of Appeal continue in FCA v McKendrick at [40]:' Breach of a court order is always serious, because it undermines the administration of justice. We therefore agree with the observations of Jackson LJ in the Solodchenko case as to the inherent seriousness of a breach of a court order, and as to the likelihood that nothing other than a prison sentence will suffice to punish such a serious contempt of court.'"</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>Hence the authorities show that it is necessary first to consider culpability and the harm which the contempt has caused or is likely to cause. Having done so, the court must then consider whether there are aggravating or mitigating factors. In a sense, those factors also go to culpability and are very relevant to the question of sentence. Various lists of factors of which account should be taken have been put forward. I gratefully quote again from the judgment in Kea Investments at [21]-[23]. The judge referred to the list produced by Lawrence Collins J (as he then was) in Crystal Mews v Metterick:"' First, whether the claimant has been prejudiced by virtue of the contempt and whether the prejudice is capable of remedy. Second, the extent to which the contemnor has acted under pressure. Third, whether the breach of the order was deliberate or unintentional. Fourth, the degree of culpability. Fifth, whether the contemnor has been placed in breach of the order by reason of the conduct of others. Sixth, whether the contemnor appreciates the seriousness of the deliberate breach. Seventh, whether the contemnor has co-operated.' 22. That list was expanded by Lewison J, as he then was, in Aspect Capital Limited v Christensen [2010] EWHC 744 (Ch) in which he said at [52] that he would add to this list of factors the following:' (1) Whether the contemnor has admitted his contempt and has entered the equivalent of a guilty plea. By analogy with sentencing in criminal cases, the earlier the admission is made, the more credit is entitled to be given …' The second factor concerns a Newton hearing and is not relevant."' (3) Whether the contemnor has made a sincere apology for his contempt; (4) Whether the contemnor has been frank with the court in admitting his contempt; (5) In a criminal court the sentencer would also take into account a defendant 's character and relevant antecedents. I think these are relevant to sentence for a civil contempt too.' 23. And finally in a case called Asia Islamic Trade Finance Fund Ltd v Drum Risk Management Ltd [2015] EWHC 3748 (Comm), Popplewell J, as he then was, added his own factor to the Crystal Mews list as follows:' Whether there has been any acceptance of responsibility, any apology, any remorse or any reasonable excuse put forward.'"</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>Section 14 of the Contempt of Court Act 1981 provides that where a court has power to commit a person to prison for contempt, it shall be for a fixed term of a maximum of two years.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>Further, the court making a committal order may order that any prison sentence be suspended. Suspension can be ordered where there is strong personal mitigation: Templeton Insurance v Thomas [2013] EWCA Civ 35. The question of suspension arises after the court has decided that contempt crosses the custody threshold. In that regard, it is fundamental, as the authorities quoted indicate, that the court must consider whether a fine would be a sufficient penalty or whether the contempt is so serious that nothing short of a prison sentence is appropriate.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Recent developments</p>
+        </tblock>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>Before turning to the two defendants, it is relevant to set out certain developments since the hearing of the committal application. On 24 June 2020, VGV UK was wound up by order of this court following a petition issued by the claimant, Ms Schwartz. That was in respect of a debt due by way of costs ordered by Nugee J in the February Order.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>A letter to the court has been received from the Official Receiver stating that he is not intending to attend or be represented at this hearing and that he has very limited information regarding VGV UK.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The orders of this court which gave rise to the committal application were made in support of proceedings in the British Virgin Islands (the “BVI”): see the Contempt Judgment at [8]. On 26 September 2020, the High Court of the Virgin Islands ordered summary judgment in favour of Ms Schwartz, making a series of declarations, ordered the removal of VGV UK as trustee of the Trust of which Ms Schwartz is beneficiary, appointed a replacement trustee, ordered the transfer of the TV Cable Shares from Peru Express back to PEISA and removed Mr Vivanco as protector of the Trust. The BVI court ordered the trial of a preliminary issue as to whether the claim under Ecuadorian law of the sixth defendant in those proceedings, Ms Ruth Garzon, who is the widow of Mr Schwartz, to a share in the assets of the Trust was precluded by a BVI statute, the Trustee Amendment Act 1961. Ms Garzon is not a party to the present proceedings in England.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>On 16 November 2020, after a contested hearing at which the Ms Garzon was represented, the court held that her claim was precluded by operation of the Trustee Amendment Act 1961 and her counterclaim was dismissed.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Sanctions</p>
+        </tblock>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>I now turn to the two defendants and the contempts found against them. I refer to the amended committal application dated 2 May 2020 and the enumerated breaches set out as grounds of contempt at the end of that application.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>VGV UK</p>
+        </tblock>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>Three grounds of contempt by way of breaches of this court 's orders are alleged against VGV UK. I found that it committed some breaches of the January Order alleged in ground 1 and, more seriously, VGV UK was in flagrant breach of the February Order as alleged in grounds 2 and 3. Indeed, it is right to say that VGV UK wholly ignored the February Order. However, in light of the fact that that company is now in liquidation and there is no indication that it has significant assets, the claimant does not seek any sanction against VGV UK. Sanction is of course a question for the court and not the claimant, but I am satisfied that in the circumstances no penalty should be imposed, even if it were appropriate to do so having regard to section 130(2) of the Insolvency Act 1986. Any penalty would only harm creditors of the company, and in particular the claimant, who has a court order against VGV UK for costs, including an order that VGV UK make a payment of £ 110,000 on account.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Mr Vivanco</p>
+        </tblock>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Mr Vivanco, I now turn to consider what sanction this court should impose on you.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Four enumerated grounds of contempt were alleged against you. However, some of these involve several parts since they relate to prior orders of the court which have subparagraphs imposing distinct requirements. Of the four grounds, two are not made out. They related to contempts alleged against VGV UK and it was alleged that you had" procured and/or permitted" those contempts on the basis that you were in de facto control of VGV. I held that the allegation that you were in such control was not established.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Ground 5 alleged breach of paragraph 4 of the February Order. That itself was in two distinct parts. First, you were ordered to make an affidavit setting out the assets in the Trust, exhibiting supporting documents, by 4 March 2020. It is clear that you failed to make any response by that date or until the issue of committal proceedings against you. But having permitted you to make a witness statement instead of an affidavit, I found that you had purged your contempt by the witness statements that you made dated 4 and 14 May 2020 and I rejected the allegation that you had failed to comply with the requirement to list the property of the Trust.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>Secondly, you were to state whether a Ms Alexandra Meade, shown on the documents as a director of VGV UK, exists and give details of her residential address and exhibit, among other documents, certified copies of her passport and driving licence. You were emphatic that Ms Meade does exist but said you were unable to obtain her personal documents. That was strongly challenged by the claimant. I rejected the allegation of contempt in that regard, stating that I am far from satisfied that Ms Meade did not exist and I accepted your explanation that you were unable to obtain her address or personal documents.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>Ground 6 alleged a breach of paragraph 6 of the February Order. That paragraph imposed three distinct obligations. It is sufficient for present purposes to state that I rejected the allegations of contempt as regards two of those three obligations (see the Contempt Judgment) but as regards the obligation in paragraph 6(b), that you should provide an electronic copy of the 2nd Letter of Wishes, I was satisfied to the criminal standard of proof that your explanation as to why you could not produce this was false and that the 2nd Letter was in effect a forgery produced after the death of Mr Schwartz on 14 June 2019 and not, as it states on its face, on 7 May 2019. I emphasise that I made no finding of who typed this document or who inserted Mr Schwartz 's signature on it. I only note that the circumstances described in the Contempt Judgment at paragraph [124] suggest that it was produced no earlier than mid-October 2019. But I was satisfied that you gave a dishonest explanation as to why you said you were unable to access a digital copy of this document. Your explanation was dependent on the document being typed and signed on 7 May.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>In considering sanctions, it is fundamental that you face punishment only for the contempts that have been found and for nothing else. As regards ground 5, the failure to make any attempt to comply with the court order to supply information for several months and then doing so only when you face committal proceedings, that is undoubtedly serious. It can not be said that this non-compliance was accidental or due to any real pressure that you are entitled to rely on. There can be no excuse for that breach, which is all the more surprising in that you are yourself a commercial lawyer. It has undoubtedly caused prejudice to Ms Schwartz as it impeded her investigation of the Trust assets. However, you frankly expressed your regret for that breach of the court ’s order and acknowledged that it was a serious mistake. Moreover, I found that you purged your contempt by the witness statements which you finally provided.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>Although it is a serious breach, in my judgment, taking everything into account, it does not cross the custody threshold and the appropriate sanction would be a financial penalty. I shall return to this after considering the second matter.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>Ground 6, insofar as it concerns the purported 2nd Letter of Wishes, is clearly a much more serious matter. I emphasise that although I found that the document was forged, the court is not here imposing a sanction for that forgery. As a document, the purported 2nd Letter of Wishes clearly exists. Copies of it have been produced. The obligation on you was to produce the electronic copy of that document. I held that that meant a digital copy and that this would have been clear to you: see the Contempt Judgment at [120]. There is no dispute that you did not supply such a digital copy. The issue was whether your explanation as to why it was impossible for you to do so can be accepted: see the Contempt Judgment at [49] to [50]. As I have said, applying the criminal standard, I rejected your explanation as untrue: [129] of the Contempt Judgment. So the contempt for which I impose sanction is the failure to supply a digital copy of that document without any good explanation that this was not possible.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>I apply the various factors to which I have referred. First, culpability: this was a flagrant breach and I would only add that my finding regarding the forgery may perhaps indicate why you failed to comply with the court 's order, so you are in that respect very culpable. Secondly, it was manifestly an intentional breach, that is to say it was deliberate. Third, I consider that it did cause prejudice to Ms Schwartz. Her concern was to establish her position as the sole beneficiary under the Trust after her father 's death and the prompt production of a digital copy of the 2nd Letter of Wishes would have assisted in revelation of the forgery and thus enabled her to impugn the Deed of Amendment. It is true, as Mr Colbey points out, that she has now achieved this and therefore the prejudice has been removed, but that is only after all the expense and delay of the committal proceedings in England and the pursuit of proceedings in the BVI.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Fourthly, it is not suggested that the breach was caused by the conduct of others. The fifth factor is whether you have co-operated. In the Kea case, Nugee LJ suggests that this is intended to refer to co-operation in remedying the breaches, and I respectfully agree, but he nonetheless considered this aspect in terms of the conduct of the committal hearing itself. I shall return to that in a moment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>Next, whether you have admitted the contempt. Here, that means whether you have accepted that you have no good and honest explanation for having failed to produce a digital copy of the 2nd Letter of Wishes. You have not admitted it. Indeed, instead you have put in further evidence in advance of this hearing regarding what happened to the computer of Mr Schwartz and his secretary at TV Cable upon his death. That could only be relevant on the basis that the 2nd Letter of Wishes was produced before his death, whereas I found that the document was created some time after his death. As Mr Colbey very properly recognised, you continue to dispute my findings. You are of course entitled to do that and, if you wish, you may pursue an appeal, but that means that you have not admitted the contempt or accepted that you have not put forward a good explanation for having failed to produce a digital copy of that document.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Finally, on the same basis, you have not apologised for this contempt. However I think it would be wrong to regard that as an additional factor since that goes with your refusal to admit your contempt.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>It may be that some of the above matters go to aggravation or mitigation rather than the underlying seriousness of the breach. I do not think that makes a difference to the initial question this court must ask: is this a contempt for which a financial penalty would be sufficient?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>I have no doubt, in the light of the authorities to which I have referred, that it is not. It is a matter so serious that, in my judgment, only a prison sentence is appropriate.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>I turn to the question of mitigation. Mr Colbey, who has said everything that could be said on your behalf, stressed two matters in particular. First, the fact that when you belatedly responded to these proceedings, you engaged with the English court in a case where you have no real connection with England, do not appear to have assets in England and are not within its territorial jurisdiction. As Mr Colbey pointed out, some might have chosen to ignore the English proceedings altogether. You did not, and you have accepted the jurisdiction of this court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Mr Colbey said that the circumstances of this case are very unusual. I think that is a fair observation. It applies not only to the factual issues but to some of the orders made. The purpose of the English proceedings was" simply to preserve assets" pending the outcome of the proceedings in the BVI (see paragraph 5 of the Contempt Judgment). Arguably, the terms of paragraph 6 of the February Order went beyond that and were directed more at evidential matters going to the merits of the BVI proceedings. Although there was significant delay, once you engaged with the English proceedings, not only did you then file extensive evidence for the purpose of the committal application but, and this is Mr Colbey 's second point, you also submitted yourself to cross-examination which you were not obliged to do. You underwent what I am sure was very stressful cross-examination over four half-day, online hearings, and one of those hearings started (with your agreement) at what for you was very early in the morning. That is all to your credit.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>Then there is personal mitigation. You have sent to the court a full letter setting out your personal circumstances and asking for mercy. That has been criticised for not being in the form of a witness statement. I do not pay attention to that criticism but take your letter fully into account. You are a hard-working managing partner of a law firm in Ecuador and the sole provider for your family. You say, and I accept, that these proceedings have caused your wife, who came to Ecuador from abroad, great distress and she apparently has a significant medical condition, although if particular reliance were placed on that, it would have been appropriate to provide the court with a medical certificate.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>You have two school-age children. Although it is not suggested that their mother would not be able to care for them, nonetheless I accept that it is relevant to have regard to the emotional effect of any custodial sentence upon them and your relationship with them: see Sellers v Podstreshnyy [2019] EWCA Civ 613 at [36]. You also state that a prison sentence imposed by an English court would end your professional career as a lawyer.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>Taking all that into account, Mr Colbey has urged that I should suspend any sentence I impose. I regret but I consider that the breach here is so serious that this mitigation is insufficient to avoid an immediate prison sentence. However, it does mean that the sentence I shall impose will be significantly shorter than it otherwise would have been. Had it not been for this mitigation, I would have sentenced you to 6 months' imprisonment. However, taking all these matters into account, the sentence which I will impose is 4 months' imprisonment with immediate effect. Under the relevant statute, if you go into custody you will be released after you have served half your sentence, that is to say after two months.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>In the light of that and the effect it will have on your earnings, I impose no further penalty for the first contempt regarding the very late service of evidence about the Trust 's assets in breach of paragraph 4 of the February Order.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>I direct pursuant to CPR rule 81.9(3) that in view of the COVID-19 crisis, the committal order need not be served personally but may be served on you by email. I will direct that a transcript of this judgment be produced at public expense and this court will send this judgment, along with the Contempt Judgment, to the President of the Bar Association of Pichincha in Ecuador for them to consider whether any disciplinary sanction should be imposed.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>I am required to tell you, although I expect you have already heard this from Mr Colbey, that you have a right to appeal against this sentence and the finding of contempt and you do not need permission to do so. The time limit for appealing is 21 days from today which will therefore expire on 16 December. So if you wish to appeal, any appeal must be filed before that date. The court where it must be filed is the Court of Appeal of England and Wales.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ruling on costs</p>
+        </tblock>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>For the claimant Mr Weale applied for an order for costs. That covers three matters: first, the committal application and hearing; secondly the February application which resulted in the orders against Mr Vivanco and others; and thirdly, two earlier applications, the December and January applications. I shall take them in that order.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>First, the costs of the committal hearing. VGV UK was found to have committed some but not all the contempts alleged. However the main costs of the hearing was due to the opposition of Mr Vivanco. The court is not precluded from making an order against VGV UK by section 130(2) of the Insolvency Act. In view of the circumstances of VGV UK, any order that I make is likely to be academic, but I shall formally order that VGV UK pay 10 per cent of the costs of the committal application, to be assessed on an indemnity basis.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>As regards Mr Vivanco, as noted above in my sanctions judgment, four distinct grounds of contempt were alleged, but some had several parts. I rejected two of those grounds concerning the allegation that Mr Vivanco had de facto control over VGV UK. The evidence and argument on that took up a significant part of the hearing. I accept ground 5 only in terms of the late supply of information. I rejected the allegation that there was a further property asset in Ecuador which Mr Vivanco had failed to disclose. More significantly, I did not accept the very serious allegation that the reason why the required information regarding Ms Meade was not produced was that she does not exist and is a fictitious character used for convenience by Mr Vivanco. As regards ground 6, I accepted point (b) concerning the 2nd Letter of Wishes but rejected (a) and (c) regarding the Deed of Amendment and the question of inspection, on which there was significant contested evidence regarding the deposit of documents with the public notary in Quito.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>In a normal case, Mr Vivanco may have been entitled in those circumstances to some of his costs against Ms Schwartz and then there would be a mutual setting off of costs. This is not, however, a normal case. Mr Colbey recognised that it would be inappropriate here to seek a contribution to Mr Vivanco 's costs and I consider that he was right to make that concession. Mr Vivanco 's conduct of the proceedings with the very late production of evidence greatly exacerbated the costs and I found that his evidence concerning the operation of VGV UK was far from satisfactory: see the Contempt Judgment at [75] to [97].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>Accordingly, I hold that Ms Schwartz is entitled to recover a part of her costs, but she can do so only in respect of allegations on which she succeeded. Moreover, in considering the proportion, I have regard to the fact that the allegation regarding Ms Meade was an exceptionally serious one and was pursued relentlessly. It amounted to an assertion that over a period of years Mr Vivanco had been involved in false filings of company information at the English Companies Registry, ranging well beyond the factual circumstances of this case. Mr Weale recognised that this was the implication of the case being advanced on behalf of Ms Schwartz. Unsurprisingly, Mr Vivanco devoted a lot of energy to rebutting that allegation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>There is a further point. The hearing of the committal application concluded on 4 June and I reserved judgment. Without seeking the permission of this court, the claimant then filed further evidence in the form of the second affirmation of Ms Robertson of 8 June, exhibiting a statement from Ecuadorian notaries. Unsurprisingly, Mr Vivanco felt he had to reply to that with his own expert report on Ecuadorian law. That led to a further affidavit from Ms Schwartz on 13 June with an alternative translation of that report. I excluded all this evidence which should never have been put forward without seeking the court 's permission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>Accordingly, I order that Ms Schwartz shall recover from Mr Vivanco 30 per cent of the costs of the committal application after deducting the costs of this evidence served after 4 June 2020. Those costs are to be assessed on an indemnity basis.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>Turning to the costs of the February application, I think VGV UK should clearly be liable for those costs.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>As regards Mr Vivanco, that application included the request to join him as a defendant and then sought orders against him. It is not appropriate in this ruling to go again through the correspondence between Mr Vivanco and Ms Schwartz 's solicitors which preceded that application. It is sufficient to say that Mr Vivanco 's responses, in my judgment, made it reasonable for that application to have been made and proper co- operation from him earlier could have avoided it. Not all the application concerned him; it also included provisions regarding Peru Express and TV Cable, effectively continuing provisions in the January order. Having regard to the reality of the situation, I order that Mr Vivanco pays 80 per cent of the costs of the February application, to be subject to detailed assessment, if not agreed, on the standard basis. That liability shall be joint and several with the liability of VGV UK.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>Next, the costs of the December and January applications. By his order of 26 February 2020, Nugee J ordered that VGV UK shall pay the claimant 's costs of those applications, to be assessed on the standard basis. He ordered that VGV UK should pay £ 110,000 on account. However, by paragraph 14 of his order he gave permission to the claimant to apply for those costs to be paid by another defendant insofar as they were not satisfied by VGV UK. No payments have been made by VGV UK and the claimant applies pursuant to that permission for an order that those costs should be paid by Mr Vivanco.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>Mr Colbey points out that Mr Vivanco was not party to the proceedings at the time of the December and January applications and resulting orders. That is not a jurisdictional bar to making such a costs order but it is undoubtedly a relevant factor. It is also very pertinent to note that I did not find that Mr Vivanco was the de facto controller of VGV UK, although I should point out that I did not make any positive finding the other way. Mr Weale stresses that my decision in that regard was on the criminal standard of proof. That is of course true, but it would be disproportionate to revisit that complex issue by reassessment of all the facts applying the civil standard, and indeed he does not invite me to do so.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>Instead, what is said is that Mr Vivanco 's connection to the circumstances which led to the making of the December and January applications was so close that it merits an order for costs against him. I confess that I do not find this an easy question. Like much else in this saga, exactly what occurred remains obscure. But the applications arose out of a fraudulent attempt to dilute the claimant 's interest in the Trust of which Mr Vivanco was the protector. He signed the Deed of Amendment which purported to change the beneficial interests under the Trust. He made a witness statement dealing with all the circumstances on 13 January 2020, after the December Order and before the January Order. I do not think that he can avoid personal responsibility for the circumstances which led to these proceedings and applications. At the same time, it is important to remember that Mr Vivanco is not the alter ego of the law firm Vivanco &amp; Vivanco. He may be the managing partner, but as I understand it, the firm has seven other partners. A connection involving Vivanco &amp; Vivanco is not the same as the direct personal responsibility of Mr Vivanco, even if he is involved.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>Given the uncertainty regarding the control of VGV UK, I do not think it would be right to make Mr Vivanco liable for the full costs, but in my view justice requires that he should bear a significant share. I order that he pays 50 per cent of the costs of the December and January applications. Assessment of those costs seems to be covered by paragraph 12 of Nugee J 's order of 26 February 2020, but for the avoidance of doubt I shall add that those costs are to be assessed on the standard basis. Epiq Europe Ltd hereby certify that the above is an accurate and complete record of the proceedings or part thereof. Unit 1 Blenheim Court, Beaufort Business Park, Bristol BS32 4NE Email: civil@epiqglobal.co.uk This transcript has been approved by the Judge</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

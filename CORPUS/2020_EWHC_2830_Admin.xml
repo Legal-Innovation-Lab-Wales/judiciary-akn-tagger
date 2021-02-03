@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWHC_2830_Admin" />
+          <FRBRuri value="www.judiciary.uk/2020_EWHC_2830_Admin" />
+          <FRBRdate date="2020-09-08" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/podolak-v-polish-judicial-authority" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/podolak-v-polish-judicial-authority" />
+          <FRBRdate date="2020-09-08" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2830_Admin.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2830_Admin.xml" />
+          <FRBRdate date="2020-11-17" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="AdministrativeCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdministrativeCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="Podolak" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Podolak" showAs="Podolak" />
+        <TLCOrganization eId="PolishJudicialAuthority" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PolishJudicialAuthority" showAs="Polish Judicial Authority" />
+        <TLCPerson eId="MrJusticeSwift" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeSwift" showAs="Mr Justice Swift" />
+        <TLCPerson eId="GeorgeHepburneScott" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GeorgeHepburneScott" showAs="George Hepburne Scott" />
+        <TLCPerson eId="Bark&amp;Co" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Bark&amp;Co" showAs="Bark &amp; Co" />
+        <TLCPerson eId="SaoirseTownshend" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SaoirseTownshend" showAs="Saoirse Townshend" />
+        <TLCPerson eId="Cps" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Cps" showAs="Cps" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWHC 2830 (Admin)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CO/3883/2019</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#AdministrativeCourt">ADMINISTRATIVE COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-09-08" refersTo="#hand-downDate">08/09/2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#MrJusticeSwift">MR JUSTICE SWIFT</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant" refersTo="#Podolak">PODOLAK</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and –
+        <party as="#respondent" refersTo="#PolishJudicialAuthority">POLISH JUDICIAL AUTHORITY</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#GeorgeHepburneScott" as="#barrister" for="#Podolak">GEORGE HEPBURNE SCOTT</lawyer>
+        (instructed by
+        <lawyer refersTo="#Bark&amp;Co" as="#solicitor" for="#Podolak">Bark &amp; Co</lawyer>
+        ) for the Appellant
+        <lawyer refersTo="#SaoirseTownshend" as="#barrister" for="#PolishJudicialAuthority">SAOIRSE TOWNSHEND</lawyer>
+        (instructed by
+        <lawyer refersTo="#Cps" as="#solicitor" for="#PolishJudicialAuthority">CPS</lawyer>
+        ) for the Respondent
+      </p>
+      <p>
+        Hearing dates:
+        <date date="2020-09-08" refersTo="#hearing">8 September 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Judgment</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <decision>
+        <tblock>
+          <p>MR. JUSTICE SWIFT:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The Appellant appeals against an extradition order made by District Judge Griffiths on 2 October 2019. His extradition is sought pursuant to a European Arrest Warrant issued by the Regional Court in Warsaw, Poland. The warrant is a conviction warrant. It was issued as long ago as 23 May 2014 and certified by the NCA on 25 June 2014. The warrant rests on a conviction in April 2004 in respect of offending that took place on 23 September 2003. The conviction was for attempted robbery of a mobile phone and threatened battery of the phone 's owner. The Appellant was sentenced to two years’ imprisonment suspended for five years. One year 11 months and 28 days of that sentence remain to be served. The decision of the District Judge was that the Appellant should be removed to Poland to serve the remaining part of that sentence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The challenge to the Extradition Order is put on two grounds: either that the EAW does not meet the requirements of section 2 of the Extradition Act 2003; or, that extradition pursuant to that warrant would be an abuse of process. Both arguments arise from the same matter, namely that at Box F of the warrant it is stated “the time limitation of the penalty execution: 10.4.2019”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>The Appellant also seeks permission to amend his Grounds of Appeal to add a further ground arising from the requirements of section 2 of the 2003 Act. The Respondent does not oppose the application to amend. The proposed additional ground of appeal is to the effect that the consequence of recent judicial reforms in Poland is that the Respondent has ceased to have the characteristics of a judicial authority for the purposes of section 2 of the 2003 Act. This argument, which is being pursued in a number of other Polish extradition cases, rests on observations made by the Council of Europe ’s Venice Commission in an Opinion dated 16 January 2020. The appeals in Chlabicz v Regional Court in Bialystok (CO/4976/2019) and Wozniak v District Court of Gniezno, (CO/4299/2019) have been identified as lead cases for this purpose and will be heard by a Divisional Court later this term. Other cases raising the same issues have been stayed. The same matter is also the subject of a reference to the Court of Justice of the European Union made by the Rechtbank Amsterdam, Case No C-354/20PPU). That reference was made in July 2020 and judgment is anticipated from the CJEU in October 2020.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The Appellant 's application in this appeal is first, for permission to add a new ground of appeal in the following terms. “Given the compromise to the position of Polish courts so far as the fundamental guarantees of independence and impartiality (the two I guarantees) are concerned, with the vitiating consequence of removing the necessary continuity of a Judicial Authority (Extradition Act 2003 s.2) for the lawful maintenance of the pursuit of an EAW brought about by the latest legislative developments in Poland (December 2019 / January 2020), the requesting Judicial Authority can no longer be properly be considered to be a Judicial Authority for the purposes of s.2 and therefore the EAW is invalid.” The second part of this application is that determination of this ground of appeal and this ground only be stayed pending the judgment of the Divisional Court in Chlabicz and Wozniak.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>I will allow this application. The appellant should have the opportunity to argue the judicial authority point. Were the appeals in Chlabicz and Wozniak to succeed, it is possible that that outcome could affect the determination of this appeal. I therefore order as follows: (a) The Appellant has permission to amend his grounds of appeal in the terms at paragraph 8(i) of the application dated 2 September 2020. (b) Determination of that ground of appeal is to be stayed pending judgment of the Divisional Court in the appeals of Chlabicz and Wozniak. (c) The Appellant shall, within 14 days following the day on which the judgment of the Divisional Court is handed down, file and serve a document ( i) stating whether he intends to pursue this ground of appeal; and (ii) if so, setting out the submissions made in support of this ground of appeal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The Appellant also applies to adjourn the hearing of this appeal generally, on the ground that on 26 August 2020 he made an application to the Polish President for clemency. I assume this application was for remission of the sentence of imprisonment that is the premise for the EAW issued on 23 May 2014. The application to adjourn explains that the Polish President has referred the application for clemency to the Warsaw District Court and that there is to be a hearing in Poland on the matter on 29 September 2020. The Appellant 's submission is that were the application for clemency to succeed, it would result in the withdrawal of the EAW rendering the present appeal redundant. The Respondent opposes the application to adjourn, on the basis that it is speculative, that insufficient information has been provided about the grounds for the application for clemency, and that in any event, going ahead with the hearing today to determine the original section 2 and abuse of process grounds of appeal could in no way prejudice the Appellant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>I refuse the application to adjourn. Regardless of the grounds on which the application for clemency is made, I can see no prejudice to that application that would arise from the hearing of this appeal today. Should this appeal succeed on the original grounds of appeal, the application for clemency would , I assume, no longer need to be pursued; were I to reject the original grounds of appeal, the Appellant 's pursuit of the clemency application will go ahead and as far as I can see its outcome will be entirely unaffected by my decision in this appeal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>I now turn to the original ground of appeal. This rests on the statement at Box F of the EAW that the time limit for execution of the sentence of imprisonment imposed on the Appellant was 10 April 2019. At the extradition hearing the District Judge admitted further evidence from the Warsaw Court that the period permitted for execution of the sentence had been extended to 10 April 2029. That evidence came into the proceedings by two routes. The first was in the form of an email dated 9 August 2019. This email was available at the extradition hearing on 17 September 2019. At that hearing the Appellant challenged the admissibility of the email as it had not been authenticated in the manner described by section 202 of the 2003 Act. However, the District Judge admitted the document in exercise of the discretion allowed by section 202(5) of the 2003 Act. At paragraphs 20 to 22 of her judgment, the District Judge stated as follows: “20. The email has not been duly authenticated as provided by s.2020 above. That was not in dispute. That said, whilst I accept that the email is not duly authenticated as required by section 202 of the Act, I find that it can still be admissible pursuant to section 202(5) of the Act. I consider that as the email has clearly been sent from the NCB Warsaw to the NCB Manchester and has come through the official channels, that it is admissible as evidence in these proceedings and I do admit it. I accept that the court that is referred to is the Regional Court in Warsaw, but I do not find that this is the incorrect court as submitted by Mr Cockroft. The RFFI response dated 12 September 2014 makes it clear that the RP appealed against the enforcement of the suspended sentence of imprisonment and that it was the regional court in Warsaw that refused the appeal. Further, the EAW itself was issued by the regional court in Warsaw. I am also satisfied that it is clear that the further information relates to this RP and the date of limitation period ties in with this EAW. 21. I bear in mind that the only reason why the time limitation period has become an issue in these proceedings is because the RP absconded when he was on bail in the UK in relation to this EAW. He told me in his evidence that he was hiding from the authorities in the UK. He told me in his evidence that he was not openly working and indeed was working in such a way so that his risk of being found by the police was reduced. I also note, in my experience of extradition cases involving Poland, it is not unheard of for the time limitation period to be extended in similar situations. I do not say that this in itself would allow me to conclude that the JA had extended the time limit in this EAW, but it gives support to the fact that the email is reliable. 22. For all of the reasons set out above I find that the email should be admitted as evidence in this case pursuant to section 202(5) of the Act.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>After the extradition hearing the Respondent applied to admit a further document dated 9 September 2019. That was authenticated in accordance with section 202 of the 2003 Act. It stated (among other matters) that the relevant period of limitation had been suspended and would expire on 10 April 2029. The District Judge admitted that document only to the extent of that information: see generally her judgment at paragraphs 23-32. Based on the information contained in these two documents, the District Judge concluded that the limitation period for execution of the sentence imposed on 10 April 2004 had been extended to 10 April 2029.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>In this appeal, and by this ground of appeal, the Appellant contends as follows. First, that the EAW as issued which stated that the period of limitation expired on 10 April 2019, did not comply with the requirements of section 2(6)(e) of the 2003 Act and therefore ought not to have been treated as a valid EAW. The Appellant contends that the District Judge was wrong to admit the further information that the limitation period had been extended to 10 April 2029 as this was not permissible supplementary information within the meaning of article 15 of the Framework Decision (Council Framework Decision 2002/584 / JHA). The second submission is that the attempt by the Respondent to enforce this EAW, relying on the two documents admitted by the District Judge, was an abuse of process because the original period of limitation for enforcement of the sentence had expired.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>I reject the Appellant 's first submission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The material parts of section 2 of the 2003 Act are subsections (2), (5) and (6) which provide as follows: “(2) A Part 1 warrant is an arrest warrant which is issued by a judicial authority of a category 1 territory and which contains-(a) the statement referred to in subsection (3) and the information referred to in subsection (4), or (b) the statement referred to in subsection (5) and the information referred to in subsection (6). ... (5) The statement is one that-(a) the person in respect of whom the Part 1 warrant is issued has been convicted of an offence specified in the warrant by a court in the category 1 territory, and (b) the Part 1 warrant is issued with a view to his arrest and extradition to the category 1 territory for the purposes of being sentenced for the offence or of serving a sentence of imprisonment or another form of detention imposed in respect of the offence. (6) The information is – (a) particulars of the person 's identity; (b) particulars of the conviction; (c) particulars of any other warrant issued in the category 1 territory for the person 's arrest in respect of the offence; (d) particulars of the sentence which may be imposed under the law of the category 1 territory in respect of the offence, if the person has not been sentenced for the offence. (e) particulars of the sentence which has been imposed under the law of the category 1 territory in respect of the offence, if the person has been sentenced for the offence.” The warrant in this case does contain the information required by subsections (5) and (6). That information is contained variously in Boxes A to E of the warrant. The information in Box F is, strictly, additional information.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>The Appellant ’s argument is to the effect that because the additional information showed that by the time of the extradition hearing in September 2019 the original limitation period had expired, that information, although not required by section 2, did demonstrate that the legal basis of the warrant had ceased to exist. This argument is put by reference to article 8(1)(c) of the Framework Decision which refers to the need for “evidence of an enforceable judgment”. The Appellant submits that section 2(6)(e) of the 2003 Act must be read consistently with article 8(1)(c) of the Framework Decision. The Appellant then relies on the judgment of the Court of Justice in Criminal Proceedings v Bob-Dogi [2016] 1 WLR 4583. In that case, which concerned an accusation warrant rather than a conviction warrant, the CJEU concluded first that the reference in Article 8(1)(c) of the Framework Decision to" an arrest warrant" was a reference to a national arrest warrant, not an EAW; and second, that in the absence of a separate national arrest warrant, and EAW seeking a person 's return to face trial was invalid: see the judgment at paragraphs 56 to 58, and 64 to 64, respectively. The Appellant submits that in a case such as the present where the EAW is a conviction warrant there must be a valid national decision to impose the penalty for which the person 's return is requested.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>I accept the submission about the application of the principles stated in Bob-Dogi to conviction warrants. I also accept the submission that section 2(6)(e) of the 2003 Act is to be read consistently with article 8(1)(c) of the Framework Decision. Further, it is true that although when the EAW in issue in this appeal was issued in 2014 there could have been no scope to challenge its validity on any limitation ground, because of the complicated history of events since then (referred to in passing in the passage I have extracted above from the District Judge 's judgment, and to which I will refer to further later in this judgment), by the time of the extradition hearing the original limitation period had expired. However, making that point only serves to underline that the real issue here is whether the District Judge was right to admit the further evidence she did, and in reliance on that evidence, reach the conclusion that the original limitation period had been extended. These are the matters that need to be addressed. The Appellant does this by reliance on the judgment of the Divisional Court in Alexander v the Public Prosecutor 's Office, Marseille District Court of First Instance, France [2108] QB 408, and by submitting that the circumstances of the present case are such that the warrant was simply invalid and that it was not open to the District Judge to admit additional evidence to remedy that situation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>The judgment in Alexander considers the limitation on a court having regard to supplementary information, as referred to in article 15 of the Framework Decision, when making a decision to extradite. Lord Justice Irwin gave the judgment of the court. At paragraphs 73 to 75 he said this: “73 In the event, we conclude that the previous approach to the requirements of an EAW and the role of further information must be taken no longer to apply. The formality of Lord Hope 's approach in Cando Armas, based on the wording of the Act, has not survived. It is clearly open to a requesting judicial authority to add missing information to a deficient EAW so as to establish the validity of the warrant. 74. We do not see an easy distinction, in practice, between ‘ formal’ and ‘ substantive’ requirements of an EAW, despite the remarks of Lord Mance in paragraph 45 of Goluchowski. An EAW requires certain specified information. If that information is not forthcoming, then extradition can not lawfully be ordered. Are the date, place and nature of the offence, and the question of maximum sentence, to be regarded as' formal' or' substantive' matters? They are required matters. The effect of the two key recent decisions is, we conclude, that missing required matters may be supplied by way of further information and so provide a lawful basis for extradition. 75. None of this means that extradition can properly be achieved on the basis of a ‘ bit of paper’. In our view, there must be a document in the prescribed form, presented as an EAW, and setting out to address the information required by the Act. An otherwise blank document containing the name of a Requested Person, even if in the form of an EAW, will properly be dismissed as insufficient without more ado. The system of mutual respect and cooperation between states does not mean that the English Court should set about requesting all the required information in the face of a wholly deficient warrant. Article 15(2) expressly concerns itself with ‘ supplementary’ information and can properly be implemented with that description in mind. That will of course include resolution of any ambiguity in the information provided. It will include filling ‘ lacunae’. The question in a given case whether the Court is faced with lacunae or a wholesale failure to provide the necessary particulars can only be decided on the specific facts” Later in his judgment, at paragraph 102, he formulated the matter in terms of whether the EAW in issue had “set out to address the information required by the Act, and did not involve a wholesale failure to provide the necessary particulars.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>It is significant that the judgment in Alexander makes clear that information can be admitted to address a deficiency in a warrant. Missing information can be provided. The line between situations where supplementary information can be admitted and those where it can not be is a matter of evaluation. On the facts of the case in hand, is it the position that the document that purported to be the warrant was wholly deficient?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>The Appellant 's submission is that the information admitted by the District Judge could not be supplementary information within the scope of article 14 of the Framework Decision because in stating that the limitation period was extended to 10 April 2029, it directly contradicted what was said in Box F of the warrant, namely that the period of limitation for enforcement of the sentence expired on 10 April 2019. I disagree with this submission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>The Appellant contends that the line identified in the judgment of Irwin LJ in Alexander between a warrant invalid on its face, which could be rendered valid by supplementary information, and a warrant that was wholly deficient and therefore incapable of being validated by supplementary information could, and in this case does, depend on whether the supplementary information contradicts information that is on the face of the warrant. The Appellant also points to paragraph 65 of the judgment of the Court of Justice in Bob-Dogi. There the court made the point that if an EAW was silent as to whether or not a national warrant existed, supplementary information could be requested and considered in order to determine whether the warrant did exist. But, says the Appellant, the court said nothing about the use of supplementary information to establish that a national warrant did exist when the original EAW had stated that no such national warrant existed. Thus, suggests the Appellant, further information can fill gaps, but can not contradict something that is already stated.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>In my view, such a distinction is less certain or clear than it might at first appear. Taking the present case as an example, it is equally possible to characterise the information admitted by the District Judge as updating information, supplementing the warrant to take account of events necessitated by the passage of time since it was first issued, rather than as contradictory information. In my view, the line identified by the court in Alexander as to the limits on the use of supplementary information is an expression of the principle of mutual cooperation that underpins the system established by the Framework Decision. In any particular case the question for the court is whether admitting the supplementary information is consistent with that principle of mutual cooperation, or whether it tends to undermine it. The point arising from the judgment of Irwin LJ is that admitting supplementary information to make good a wholly deficient EAW would itself go against the principle of mutual cooperation because that principle is to be adhered to as much by the requesting authority as by the extraditing authority.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>In the context of the present case, the decision by the District Judge to admit the information, that the limitation period had been extended, did not come close to offending against the principle of mutual cooperation which is manifest in article 15(2) of the Framework Decision. The information that the limitation period had been extended could not have been included in the EAW as issued in 2014 because at that time no such extension had been made or was necessary. The extension was made necessary only because the Appellant absconded from bail in 2015 when facing an earlier extradition hearing in respect of this same warrant. In the circumstances of this case, a refusal to admit the information as to the extension of the limitation period, would itself have been a failure to adhere to the principle of mutual cooperation. My conclusion is that the District Judge ’s decision to admit the evidence was correct. I further conclude that based on that evidence, she was correct to decide that the punishment imposed by the Polish court had not been extinguished by any principle or rule of limitation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>Drawing matters together, I reject the Appellant ’s first submission because having regard to the supplementary information admitted by the District Judge, I am satisfied that she was correct to conclude that the warrant did rest on an enforceable judgment of the Polish court. The Appellant protests that there was and is no further information as to when the decision extending the limitation period was taken or the reasons for that decision. I do not consider these matters to be critical. One premise of the Framework Decision is, as I have explained, a principle of mutual respect. It is sufficient that the fact of the extension of the limitation period has been communicated.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>There is one final matter to mention in respect of this section 2 ground. The Respondent contended that there could be no section 2 ground of appeal because there was no requirement on the face of section 2 to state whether the sentence for which extradition was sought had been extinguished by limitation. The Respondent relied on the judgment of Davis J in R (Filipek) v Provisional Court in Lublin, Poland [2011] EWHC 506 (Admin), at paragraphs 20 – 24. The gist of the reasoning in that case was that it was no part of any requirement arising under section 2 of the 2003 Act for a requesting authority to say whether or not a sentence imposed had been extinguished by limitation; and that that being so, no statement on the face of the EAW that suggested that the sentence had been overtaken by limitation could have any bearing on whether or not to extradite. If that remains correct, it does rather beg the question why, in this case, the Respondent bothered to apply to the District Judge to admit evidence that the limitation period had been extended. Be that as it may, I do not think it is necessary for me in this judgment to consider whether that part of Davis J 's reasoning remains correct, given the “sea change” described by Irwin LJ at paragraph 61 of his judgment in Alexander, or whether this part of Davis J 's judgment has also been overtaken by events. Suffice it to say that although the route my reasons have taken is different from the route taken by Davis J, this judgment reaches the same end point as the end point he reached in his judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>The Appellant 's second submission rests on an alternative analysis of the significance of the statement in the EAW that the original limitation period expired in April 2019. The Appellant submits that since that is so, any attempt after April 2019 to obtain extradition on the basis of that warrant is an abuse of process. I disagree. Although an abuse of process jurisdiction undoubtedly exists in the context of proceedings under Part 1 of the 2003 Act, it is a jurisdiction that is to be handled with care. I have in mind in particular the observations of the Lord Chief Justice in Giese v Government of the United States of America [2018] 4 WLR 103. At paragraphs 22 to 25 he stated as follows: “22. The Court has power to prevent its process being abused in extradition proceedings. This power exists outside the confines of the 2003 Act, see Tollman (supra) at [80] to [82], although the question whether abuse is demonstrated has to be ‘ asked and answered in light of the specifics of the statutory regime’, see R (Bermingham) v Director SFO [2006] EWHC 200 (Admin); [2007] QB 727 at [98]. As was recognised in the Tollman case at [80] there are various bars to extradition found in the 2003 Act which would be reflected in the abuse jurisdiction in ordinary domestic cases, including motivation by ‘ extraneous circumstances’. Others might be covered by the human rights bar. At [82] an example of abuse recognised in the domestic criminal jurisdiction, namely where ‘ a prosecutor may be manipulating or using the procedures of the court in order to oppress or unfairly prejudice a defendant before the court’ was applied to extradition cases; and extended to such conduct by a judicial authority. 23. In the domestic criminal context, proceedings will amount to an abuse of process if either it is impossible to provide a fair trial or where it is necessary to protect the integrity of the criminal justice system (see, R v Maxwell [2010] UKSC 48; [2011] 1WLR 1837 per Lord Dyson at [13] and R v Crawley [2014] EWCA Crim 1028 per Sir Brian Leveson P at [17] – [18]). In extradition proceedings there are statutory bars in the 2003 Act to prevent an extradition to an unfair trial, and in a range of other circumstances. For these reasons most issues of abuse of process arising in extradition proceedings relate to the protection of the integrity of the system. 24. There is no doctrine of res judicata or issue estoppel in extradition proceedings, see Auzins v Prosecutor General 's Office of the Republic of Latvia [2016] EWHC 802 (Admin); [2016] 4 WLR 75 at [36]. This means that the institution of a second set of extradition proceedings following the failure of the first will not necessarily amount to an abuse of process, see R (Kashamu) v Governor of Brixton Prison [2001] EWHC 980 (Admin); [2002] QB 887 at [34]. 25 ... The scope of the abuse jurisdiction in extradition proceedings has recently been considered in Auzins between [43] and [47] and in Camaras v Baia Mare Local Romania Court [2016] EWHC 1766 (Admin) between [13] and [35]. Both discuss an earlier decision of this court in Hamburg Public Prosecutor 's Office v Altun [2011] EWHC 397 (Admin). That was a case where, exceptionally, albeit in obiter dicta, the court indicated that there was an abuse of process in the German authorities bolstering their evidence in support of a second extradition request to resist a double jeopardy argument they had lost in the first. In my judgment in Auzins at [44] I indicated that, “The underlying purpose of the abuse jurisdiction in extradition cases is to protect the integrity of the statutory scheme of the 2003 Act and the integrity of the EAW system, as well as to protect a requested person from oppression and unfair prejudice. These purposes are more fully discussed in R (Bermingham and others) v Director of the Serious Fraud Office ... at [97]; in Belbin v the Regional Court of Lille, France [2015] EWHC 149 (Admin) at [59]; and in Italy v Barone [2010] EWHC 3004 (Admin) at [81].” In the paragraph to which I referred in Belbin Aikens LJ said:</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>In the circumstances of the present case, what is it that is said has been done by the Polish authorities that impugns the integrity of the EAW system? If the matter is looked at objectively, the only candidate is the decision of the Polish authorities to apply in the extradition proceedings to admit evidence that the limitation period for the sentence imposed by the Polish court had been extended from 10 April 2019 to 10 April 2029.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>In the context of what has happened in this case I do not consider that that action comes close to establishing any form of abuse of process. The EAW relied on in these proceedings was certified by the NCA on 25 June 2014. The Appellant was arrested pursuant to that warrant on 10 July 2014. Following the initial hearing, the Appellant was granted bail. The extradition hearing was listed to take place on 23 September 2014, but the Appellant did not attend on that day. The hearing was then relisted for 16 January 2015. Again, the Appellant did not attend. He absconded and was not re- arrested until 10 July 2019. The extradition hearing took place on 17 September 2019 after the Appellant had served a sentence of 12 weeks’ imprisonment for failing to surrender to bail. The original limitation period attaching to the sentence of imprisonment imposed by the Polish court expired during the period that the Appellant had gone to ground. The Appellant submits that it was an abuse of process of the Respondent to seek to admit evidence of the decision to extend the limitation period, but that instead the Respondent should have issued a new EAW containing information as to the new limitation date, i.e. 10 April 2029. I can not see that the decision by the Respondent to proceed as it did, rather than issue a new EAW, can in any sensible way be characterised as undermining the integrity of the statutory scheme of the 2003 Act.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The Appellant relies on the judgment of Lord Sumption in Zakrzewski v Regional Court in Lodz, Poland [2013] 1 WLR 324. In that case information contained in the warrant had become inaccurate when sentences of imprisonment originally imposed had been consolidated by the requesting authority. Lord Sumption concluded, in a case decided before the decision of the United Kingdom in 2014 to opt back into the Framework Decision, that although the change of circumstances did not engage any ground of appeal under section 2 of the 2003 Act, if the change were material extradition pursuant to the warrant could, in principle, engage the abuse of process jurisdiction of the court. See his judgment at paragraphs 8 to 13.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>Given the approach now taken to section 2 cases and the relevance of supplementary information following the judgment of the Divisional Court in Alexander, it is at least arguable that the part of the abuse process jurisdiction relied on by Lord Sumption in that case (see paragraph 11 at C-D) has been rendered redundant. However, on the assumption it has not, I do not consider that it affords this Appellant any assistance. The change of circumstances from the statement in the warrant about the limitation period to the information about the extension admitted into evidence by the District Judge does not disclose any matter that is material so as to render the extradition request abusive. Because the Appellant had absconded, events moved on. The decision to extend the limitation period was, no doubt, premised at least in part, on the Appellant ’s absconding from the extradition process in 2014 and 2015.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>Regardless of how the matter is analysed, the application by the Respondent to admit evidence of the extension of the limitation period can not plausibly be characterised as something that undermines any purpose or principle on which the provisions of Part I of the 2003 Act rests. For these reasons, these grounds of appeal are dismissed.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>The remainder of the appeal will, as I have explained, be stayed pending judgment of the Divisional Court in the cases of Wozniak and Chlabicz. _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

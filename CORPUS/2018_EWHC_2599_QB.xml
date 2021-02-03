@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2018_EWHC_2599_QB" />
+          <FRBRuri value="www.judiciary.uk/2018_EWHC_2599_QB" />
+          <FRBRdate date="2018-10-08" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/lloyd-v-google" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/lloyd-v-google" />
+          <FRBRdate date="2018-10-08" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2018_EWHC_2599_QB.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2018_EWHC_2599_QB.xml" />
+          <FRBRdate date="2021-01-21" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="MediaAndCommunicationsList" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MediaAndCommunicationsList" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="RichardLloyd" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RichardLloyd" showAs="Richard Lloyd" />
+        <TLCOrganization eId="GoogleLlc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GoogleLlc" showAs="Google Llc" />
+        <TLCPerson eId="MrJusticeWarby" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeWarby" showAs="Mr Justice Warby" />
+        <TLCPerson eId="HughTomlinsonQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HughTomlinsonQc" showAs="Hugh Tomlinson Qc" />
+        <TLCPerson eId="OliverCampbellQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#OliverCampbellQc" showAs="Oliver Campbell Qc" />
+        <TLCPerson eId="VictoriaWakefield" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VictoriaWakefield" showAs="Victoria Wakefield" />
+        <TLCPerson eId="MishconDeReyaLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MishconDeReyaLlp" showAs="Mishcon De Reya Llp" />
+        <TLCPerson eId="AntonyWhiteQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AntonyWhiteQc" showAs="Antony White Qc" />
+        <TLCPerson eId="EdwardCraven" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EdwardCraven" showAs="Edward Craven" />
+        <TLCPerson eId="PinsentMasonsLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PinsentMasonsLlp" showAs="Pinsent Masons Llp" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2018] EWHC 2599 (QB)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <ref href="#HQ17M01913">HQ17M01913</ref>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#MediaAndCommunicationsList">MEDIA AND COMMUNICATIONS LIST</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2018-10-08" refersTo="#hand-downDate">08/10/2018</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#MrJusticeWarby">MR JUSTICE WARBY</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#claimant" refersTo="#RichardLloyd">RICHARD LLOYD</party>
+        <role refersTo="#claimant">Claimant</role>
+        -and-
+        <party as="#defendant" refersTo="#GoogleLlc">GOOGLE LLC</party>
+        <role refersTo="#defendant">Defendant</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#RichardLloyd" refersTo="#HughTomlinsonQc">Hugh Tomlinson QC</lawyer>
+        ,
+        <lawyer as="#barrister" for="#RichardLloyd" refersTo="#OliverCampbellQc">Oliver Campbell QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#RichardLloyd" refersTo="#VictoriaWakefield">Victoria Wakefield</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#RichardLloyd" refersTo="#MishconDeReyaLlp">Mishcon de Reya LLP</lawyer>
+        ) for the Claimant
+        <lawyer as="#barrister" for="#GoogleLlc" refersTo="#AntonyWhiteQc">Antony White QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#GoogleLlc" refersTo="#EdwardCraven">Edward Craven</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#GoogleLlc" refersTo="#PinsentMasonsLlp">Pinsent Masons LLP</lawyer>
+        ) for the Defendant
+      </p>
+      <p>
+        Hearing dates:
+        <date date="2018-05-21" refersTo="#hearing">21</date>
+        -
+        <date date="2018-05-23" refersTo="#hearing">23 May 2018</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>Mr Justice Warby:</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The claimant, Richard Lloyd, applies for permission to serve the proceedings in this action on Google LLC (“Google”). Permission is needed because Google is a Delaware corporation with its principal place of business outside the jurisdiction-in Mountain View, California-and it has not agreed to accept service of the proceedings.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The claim alleges breach of the duty imposed by s 4(4) of the Data Protection Act 1998 (“DPA”). The allegation is that over some months in 2011-2012 Google acted in breach of that duty by secretly tracking the internet activity of Apple iPhone users, collating and using the information it obtained by doing so, and then selling the accumulated data. The method by which Google was able to do this is generally referred to as “the Safari Workaround”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>Mr Lloyd is the only named claimant. However, he sues not only on his own behalf, but also in a representative capacity on behalf of a class of other residents of England and Wales who are also said to have been affected by the Safari Workaround in this jurisdiction (“the Class”). The claim is for damages or, in the language of the DPA, “compensation”. No other remedy is sought. No financial loss or distress is alleged. The claim is for an equal, standard, “tariff” award for each member of the Class, to reflect the infringement of the right, the commission of the wrong, and loss of control over personal data. Alternatively, each Class member is said to be entitled to damages reflecting the value of the use to which the data were wrongfully put by Google. It is said that on either basis of recovery more than nominal damages are recoverable by each claimant. No specific figure is put on the tariff, though ranges are mooted, and a figure of £ 750 was advanced in the letter of claim.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>On either basis of recovery, the total damages payable by the Defendant would be calculated by multiplying the fixed sum awarded in respect of each Class member by the number of individuals within the class. The Class is a large one. Estimates of its scale have varied. The claimant ’s best estimate at one stage was that it comprised as many as 5.4 million people. The estimate has reduced as the Class has been re-defined and refined. But it is still a substantial seven figure number, 4.4 million in the reply evidence. Google ’s estimate of the potential liability, if some of the claimant ’s per capita figures for damages were accepted, is between £ 1 and 3 billion.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>There is no dispute that it is arguable that Google ’s alleged role in the collection, collation, and use of data obtained via the Safari Workaround was wrongful, and a breach of duty. The main issues raised by the application are: (1) whether the pleaded facts disclose any basis for claiming compensation under the DPA; (2) if so, whether the Court should or would permit the claim to continue as a representative action.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>The Safari Workaround and the DoubleClick Cookie</p>
+        </tblock>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The relevant events took place between 1 June 2011 and 15 February 2012 (“the Relevant Period”). The evidence before me sets out in some detail the technical background to the claims, but it is unnecessary for present purposes to do more than summarise the position as set out by the claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The case concerns the acquisition and use of browser generated information or “BGI”. This is information about an individual ’s internet use which is automatically submitted to websites and servers by a browser, upon connecting to the internet. BGI will include the IP address of the computer or other device which is connecting to the internet, and the address or URL of the website which the browser is displaying to the user. As is well-known, “cookies” can be placed on a user ’s device, enabling the placer of the cookie to identify and track internet activity undertaken by means of that device.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>Cookies can be placed by the website or domain which the user is visiting, or they may be placed by a domain other than that of the main website the user is visiting (“Third Party Cookies”). Third Party Cookies can be placed on a device if the main website visited by the user includes content from the third party domain. Third Party Cookies are often used to gather information about internet use, and in particular sites visited over time, to enable the delivery to the user of advertisements tailored to the interests apparently demonstrated by a user ’s browsing history (“Interest Based Adverts”).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>Google had a cookie known as the “DoubleClick Ad cookie” which could operate as a Third Party Cookie. It would be placed on a device if the user visited a website that included content from Google ’s Doubleclick domain. The purpose of the DoubleClick Ad cookie was to enable the delivery and display of Interest Based Adverts.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Safari is a browser developed by Apple. At the relevant time, unlike most other internet browsers, all relevant versions of Safari were set by default to block Third Party Cookies. However, a blanket application of these default settings would prevent the use of certain popular web functions, so Apple devised some exceptions to the default settings. These exceptions were in place until March 2012, when the system was changed. But in the meantime, the exceptions enabled Google to devise and implement the Safari Workaround. Stripped of technicalities, its effect was to enable Google to set the DoubleClick Ad cookie on a device, without the user ’s knowledge or consent, immediately, whenever the user visited a website that contained DoubleClick Ad content.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>This enabled Google to identify visits by the device to any website displaying an advertisement from its vast advertising network, and to collect considerable amounts of information. It could tell the date and time of any visit to a given website, how long the user spent there, which pages were visited for how long, and what ads were viewed for how long. In some cases, by means of the IP address of the browser, the user ’s approximate geographical location could be identified. Over time, Google could and did collect information as to the order in which and the frequency with which websites were visited. It is said by the claimant that this tracking and collating of BGI enabled Google to obtain or deduce information relating not only to users’ internet surfing habits and location, but also about such diverse factors as their interests and habits, race or ethnicity, social class, political or religious views or affiliations, age, health, gender, sexuality, and financial position.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>Further, it is said that Google aggregated BGI from browsers displaying sufficiently similar patterns, creating groups with labels such as “football lovers”, or “current affairs enthusiasts”. Google ’s DoubleClick service then offered these groups to subscribing advertisers, allowing them to choose when selecting the type of people that they wanted to direct their advertisements to. Previous action over the Workaround</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>None of this is news. Google ’s activities in relation to the Safari Workaround were discovered by a PhD researcher, Jonathan Mayer, as long ago as 2012, and publicised in blog posts and, on 17 February 2012, in the Wall Street Journal. Regulatory action was then taken against Google in the USA. In August 2012 the company agreed to pay a US$ 22.5 million civil penalty to settle charges brought by the United States Federal Trade Commission (“FTC”) that it misrepresented to users of the Safari browser that it would not place tracking cookies or serve targeted advertisements to those users. On 11 November 2013 it agreed to pay US$ 17 million to settle US state consumer-based actions brought against it by attorneys general representing 37 US states and the District of Columbia. In addition, the Defendant was required to give a number of undertakings governing its future conduct in its dealings with users in the USA.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>In this jurisdiction, these matters would fall under the regulatory jurisdiction of the Information Commissioner, but it appears that there has been no regulatory action taken here. The Safari Workaround has however been the subject of high profile civil litigation against Google in this jurisdiction. In June 2013, Judith Vidal-Hall and two others issued claims against Google claiming damages on the basis that by obtaining and using information about their internet usage via the Safari Workaround the company had misused their private information and/or committed a breach of confidence and breach of the DPA and caused them distress and anxiety.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Permission to serve outside the jurisdiction was granted. The case then came before Tugendhat J. By a judgment delivered in January 2014 he set aside service of the proceedings in relation to breach of confidence, but declined to do so in relation to the claims in misuse and under the DPA: Vidal-Hall v Google Inc [2014] EWHC 13 (QB) [2014] 1 WLR 4155. An appeal by Google was dismissed by the Court of Appeal on 27 March 2015: Vidal-Hall v Google Inc (Information Commissioner intervening) [2015] EWCA Civ 311 [2016] QB 1003. The Supreme Court granted permission to appeal on one issue, but the claim settled before the appeal to the Supreme Court or any trial took place.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>The nature and basis of the claims in Vidal-Hall were described by Tugendhat J at [22- 25]. They were for compensation for distress suffered by the individual claimants when they learned that information about their “personal characteristics, interests, wishes or ambitions” had been used as the basis for advertisements targeted at them, or when they learned that, as a result of such targeted advertisements, such matters had in fact, or might well have, come to the knowledge of third parties who they had permitted to use their devices, or to view their screens. As Tugendhat J said at [25]: “What each of the claimants claims in the present case is that they have suffered acute distress and anxiety.” The details of the “personal characteristics, interests, wishes or ambitions” referred to were considered sensitive enough to be set out in Confidential Schedules to the claimants’ statements of case. So they are not public knowledge.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>The Court of Appeal emphasised the serious nature of what was alleged. Dismissing a suggestion that the claims were too trivial to deserve a trial, the Court observed that the claims “concern what is alleged to have been the secret and blanket tracking and collation of information, often of an extremely private nature, as specified in the confidential schedules, about and associated with the claimants’ internet use, and the subsequent use of that information for about nine months. The case relates to the anxiety and distress this intrusion on autonomy has caused.” See [137] (Lord Dyson and Sharp LJ, with whom Macfarlane LJ agreed). The present action</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>This action was started by a claim form issued on 31 May 2017. Mr Lloyd (“the Representative Claimant”) has had a long career in consumer protection, and was Executive Director of Which? between April 2011 and February 2016. The claim which he advances is set out in Particulars of Claim, which have gone through more than one version, due to some modifications in the definition of the Class.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>The current definition of the Class, as set out in paragraph 6 of draft Amended Particulars of Claim, is as follows:- “… all individuals who: (a) at any date between 9 August 2011 and 15 February 2012 whilst they were present in England and Wales: (i) had an “Apple ID”; and (ii) owned or were in lawful possession of an iPhone 3 G or subsequent model running iOS version 4.2.1 or later; and (iii) used the Apple Safari internet browser version 5.0 or later on that iPhone to access a website that was participating in Google ’s DoubleClick advertising service; and (iv) did not change the default security settings in the Apple Safari internet browser and did not opt-out of tracking and collation via the Defendant ’s “Ads Preference Manager”; and (v) did not obtain a DoubleClick Ad cookie via a “first party” request made by their Safari browser of DoubleClick ’s server; and (b) are resident in England and Wales at the date of issue or such other domicile date as the Court may order; and (c) are not a Judge of the Supreme Court, a Judge of the High Court (as defined in s. 4 of the Senior Courts Act 1981) or a Master of the Queen ’s Bench Division, who held office on or after 31 May 2017.” This last sub-paragraph has been inserted to exclude those who might deal with this case, to ensure that none of us are judges in our own cause, and disqualified by having an interest in the issue.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>In paragraphs 1 and 2 of the Particulars of Claim, the claim is described as relating to Google ’s “collection and use of the personal data of the Representative Claimant and those whom he represents …”. The claim is said to “arise from the secret tracking and collation by [Google] of information as to their internet usage” during the Relevant Period. This activity is defined as “the Tracking and Collation”. In paragraph 3 of the Particulars of Claim, the facts of the claim are summarised in this way: “The Tracking and Collation was carried out without the knowledge or consent of the Claimant Class, was contrary to [Google ’s] publicly stated policy that such activity could not be conducted in relation to Apple Safari users unless they had actively chosen to allow this to happen, and was in breach of [Google ’s] duties under the [DPA]. The information obtained by [Google] as a result of the Tracking and Collation was aggregated and sold to advertisers, making [Google] a very substantial profit.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>The Particulars then set out details of the parties, and give an account of the technical terminology, and the background. In paragraphs 35 to 38, the basis on which the claim is brought is explained, by reference to the DPA. The allegations are of processing of personal data in breach of the statutory duty imposed by DPA s 4(4).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Paragraphs 39 to 43 deal with the topic of “Damages”. It is alleged that: “The Representative Claimant and each member of the … Class suffered damage by reason of [Google ’s] contraventions of the DPA [and] are therefore entitled to compensation pursuant to s 13(1) of the DPA.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Paragraph 40 identifies three bases for, or categories of, damage. The allegation is that the Representative Claimant and each member of the Class is entitled to damages “for [1] the infringement of their data protection rights, … [2] the commission of the wrong and [3] loss of control over personal data” (I have added the numbering). No material loss or damage is alleged. Nor is there any allegation of distress, anxiety, embarrassment, nor any other individualised allegation of harm. The claimants’ primary case on damage and compensation is explained in paragraph 41: “41. Such damages are sought on a uniform per capita basis, with the quantum reflecting the serious nature of the breach, in particular (but non-exhaustively): (a) The lack of consent or knowledge of the Representative Claimant and each member of the Claimant Class to the Defendant ’s collection and use of their personal data. (b) The fact that such collection and use was contrary to the Defendant ’s public statements. (c) The fact that such collection and use was greatly to the commercial benefit of the Defendant. (d) The fact that Defendant knew or ought to have known of the operation of the Safari Workaround from a very early stage during the Relevant Period. The Representative Claimant relies in support of this contention upon the fact that as a result of the operation of the Safari Workaround, the Defendant Tracked and Collated information regarding the internet usage of many millions of Safari users which could not have been Tracked and Collated but for its operation. In the circumstances it must have been apparent to the Defendant that the volume of information it was collecting from Safari users was substantially in excess of that which it would have expected to collect given the existence of the default security settings. It is to be inferred that the Defendant was at all material times in fact aware of the Safari Workaround or became aware of it during the Relevant Period but chose to do nothing about it until the effect of the Safari Workaround came into the public domain as a result of the investigations of an independent third party.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>Paragraph 42 of the Particulars advances an alternative case, that the Representative Claimant and each member of the Class “is entitled to damages on a ‘ hypothetical release’ basis.” This is explained as follows: “The Defendant used their personal data without their consent and in breach of the DPA. They are each entitled to be compensated for what they could reasonably have charged for releasing the Defendant from the duties which it breached. Such a hypothetically negotiated fee should be on a uniform per capita basis, reflecting the generalised standard terms (rather than individuated basis) on which the Defendant does business. The hypothetical fee should reflect in particular (but non- exhaustively) the Defendant ’s anticipated profits. The Representative Claimant can not give further information as to the amount of those profits until after disclosure.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Paragraph 43 explains how the Representative Claimant proposes to deal with the totality of the “uniform per capita” damages, calculated on one or the other of the two bases relied on: “ Since the present proceedings are of a representative nature, damages are claimed on an aggregate basis with the management and distribution of such aggregate sum to be carried out in accordance with the directions of the Court.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The present claim therefore resembles the claims in Vidal-Hall in some respects. It concerns the operation of the Safari Workaround, and its impact upon individuals in this jurisdiction. In other ways, however, this claim is clearly distinct from those in Vidal-Hall. This claim does not depend upon any identifiable individual characteristics of any of the claimants, or any individual experiences of or concerning the Safari Workaround. It is generic. It does not allege the disclosure, or possible disclosure, on any screen of any personal information. There is no allegation that any individual suffered any distress or anxiety, however slight. The claim is a representative action, whereas the Vidal-Hall claims were fact-specific individual claims. They were not “test cases”, or a representative action, or group litigation. Tugendhat J was at pains to point this out at [42], because there was evidence before him that “there are numerous other persons, some 170, who claim to have used Safari, who also claim, that as a result of the conduct complained of in this action, they have suffered damage similar to that suffered by the claimants.” Google points out that until this case there have in fact been no further claims for damages against Google in England and Wales in respect of the Safari Workaround. Administration and funding of the claim</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>There is no dispute that the Representative Claimant is appropriately qualified to act in the interests of the represented Class. He does however have the benefit of an advisory committee which he may consult as he considers appropriate. The committee is comprised of the Rt Hon Sir Christopher Clarke, Christine Farnish, Martin Lewis, and Dominic McGonigal. Nobody suggests that this is an inappropriately or inadequately qualified group of advisors.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>The Representative Claimant has retained specialists who have devised a plan, called a “Notice and Administration Plan”, which provides for the Class to be notified of any significant developments in the case; the administration of requests to withdraw from the claim; and proposals for each class member to make their claim, if the representative action succeeds. The advisers who have devised this plan are an international communications consultancy called Portland Communications; a provider of legal services and technology called Epiq Systems; and “class action notice experts” called Hilsoft Notifications.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>The claim is being funded by Therium Litigation Funding IC (“Therium”), an investment vehicle associated with and advised by Therium Capital Management Limited. Therium has engaged to provide funding in up to three tranches, the first and second being of £ 5 million each, and the third of £ 5.5 million. This is aptly described as “a significant budget”, and there is no quarrel with the evidence of Mr Oldnall of Mishcon de Reya that it is “more than adequate to fund the claim through to judgment.” After the Event (“ATE”) insurance has been obtained, providing cover of up to £ 12 million in respect of any adverse costs order the Court may make. This appears to be a sound and proper insurance arrangement.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>That insurance would not be needed if the claim succeeded, of course. In that event, the arrangement is that the funders would have first call on the damages awarded. The remainder would be distributed between the Representative Claimant and such other members of the Class who came forward and convincingly identified themselves as such. Recognising that this might result in a surplus of damages over self-identifying claimants, the proposal is that any such surplus might be applied cy-près, or alternatively returned to Google.</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>The legal framework</p>
+          <p>Service outside the jurisdiction</p>
+        </tblock>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>The normal procedure is for the claimant to apply to a Master or Judge without notice to the intended defendant. If permission is granted, a defendant that wishes to contest the court ’s jurisdiction must make an application, on notice to the claimant, to set aside the grant of permission. That is the procedure adopted in Vidal-Hall. The decision of Tugendhat J was made upon Google ’s application to set aside permission granted by Master Yoxall, and the service of the claim form consequent on that permission : see Vidal-Hall [10-11].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>In the present case, by agreement, the procedure has been compressed. The claimant has applied to the Judge for permission, on notice to Google. In the unusual circumstances of this case, I agree that this is a sensible procedure to adopt, which will inevitably result in some saving of costs and time. The procedure does not, however, affect the burden of proof. As Mr Tomlinson accepts, the burden of establishing that the necessary criteria for service outside the jurisdiction are met lies on the claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>The principles governing the grant or refusal of permission are well-established. Summaries may be found in Altimo Holdings and Investment Ltd v Kyrgyz Mobil Tel Ltd [2011] UKPC 7 [2012] 1 WLR 1804 [71], VTB Capital Plc v Nutritek International Corp [2012] EWCA Civ 808 [2012] 2 Lloyd 's Rep 313 [99-101], and Vidal-Hall (CA) [7]. In short, a claimant must establish: (1) that the claim has a reasonable prospect of success (CPR 6.37(1)(b)); (2) that there is a good arguable case that each claim advanced against the foreign defendant falls within at least one of the jurisdictional “gateways” in paragraph 3.1 of Practice Direction 6B; (3) that England is clearly or distinctly the appropriate place to try the claim (CPR 6.37(3)).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>A claim with a reasonable prospect of success is one that raises a substantial question of fact or law or both and has a real, as opposed to a fanciful, prospect of success.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>The claimant must identify each candidate gateway, and satisfy the court that there is a good arguable case that the claim falls within that gateway." Good arguable case" in this context means that the claimant has the better argument on the issue. But where a question of law arises in the context of a dispute about service out of the jurisdiction, which goes to the existence of the jurisdiction (e.g. whether a claim falls within one of the classes set out in paragraph 3.1 of Practice Direction 6B), then the court will normally decide the question of law, as opposed to seeing whether there is a good arguable case on that issue of law: VTB Capital (above) [99].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>A number of “gateways” have been touched upon in the course of the application, but in the end the only one that requires consideration is the one provided for by PD6B 3.1(9). This empowers the Court to grant permission to serve proceedings out of the jurisdiction in respect of: “A claim … in tort where – (a) damage was sustained within the jurisdiction; or (b) the damage sustained resulted from an act committed within the jurisdiction.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>When a claimant seeks permission to serve proceedings on a foreign defendant out of the jurisdiction, the task of the court is to identify the forum in which the case can be suitably tried for the interests of all the parties and for the ends of justice.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Relevant principles of data protection law</p>
+        </tblock>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>The case for the Representative Claimant is that Google was a data controller within the meaning of the DPA, in respect of the personal data it obtained by means of the Safari Workaround. Google is alleged to have dealt with those data in breach of the statutory duty imposed on data controllers by DPA s 4(4), “… to comply with the data protection principles in relation to all personal data with respect to which he is the data controller.” The claim alleges non-compliance with the first, second and seventh data protection principles: “1. Personal data shall be processed fairly and lawfully and, in particular, shall not be processed unless — (a) at least one of the conditions in Schedule 2 is met, and (b) in the case of sensitive personal data, at least one of the conditions in Schedule 3 is also met. 2. Personal data shall be obtained only for one or more specified and lawful purposes, and shall not be further processed in any manner incompatible with that purpose or those purposes. … 7. Appropriate technical and organisational measures shall be taken against unauthorised or unlawful processing of personal data and against accidental loss or destruction of, or damage to, personal data.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>Section 13 of the DPA provides, so far as relevant: “13. Compensation for failure to comply with certain requirements (1) An individual who suffers damage by reason of any contravention by a data controller of any of the requirements of this Act is entitled to compensation from the data controller for that damage.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>At one time it was thought that the term “damage” in this sub-section referred only to material or financial loss, and did not extend to distress (see Johnson v Medical Defence Union Ltd ( No 2) [2007] EWCA Civ 262 [2008] Bus LR 503). The main argument in favour of that narrow interpretation was that DPA s 13(2) provided that compensation was recoverable for distress, but only in limited circumstances: (a) where the claimant suffered not only distress but also “damage”, and (b) where the processing was for “the special purposes” (journalism, literature and art). This issue arose in Vidal-Hall, where the processing was not for the special purposes. The second main issue for decision by the Court of Appeal was “(ii) the meaning of damage in section 13 of the DPA, in particular, whether there can be a claim for compensation without pecuniary loss”: [13].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>The Court of Appeal identified this as a question of law that went to the existence of the jurisdictional gateway so that, in accordance with the principles identified above, it should determine the issue rather than merely decide whether it was arguable: [15]. The Court held that the narrow interpretation of s 13(1) would be incompatible with Article 47 of the Charter of Fundamental Rights of the European Union (“the Charter”). Article 47 grants everyone a right to an effective remedy for the violation of the rights and freedoms guaranteed by the Charter, one of which (Article 8) is “the protection of personal data”. Hence, applying the principles laid down in the Benkharbouche case [2016] QB 347 [69—85], it was held that s 13(2) must be disapplied in its entirety, with the consequence that: “… compensation would be recoverable under section 13(1) for any damage suffered as a result of a contravention by a data controller of any of the requirements of the 1998 Act.” See [105]. The emphasis in this citation is mine. It reflects the use by the Court of Appeal of the precise wording of s 13(1) itself. That language, as the Court pointed out, was meant to implement the Data Protection Directive (95/46 / EC). Relevant provisions of the Directive include recital (55) and Article 23, which provide as follows (emphasis added): “(55) Whereas, … any damage which a person may suffer as a result of unlawful processing must be compensated for by the controller … … 23. Member States shall provide that any person who has suffered damage as a result of unlawful processing operation … is entitled to receive compensation from the controller for the damage suffered.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Representative proceedings</p>
+        </tblock>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>The claim is brought in reliance on CPR 19.6, which is headed “Representative Parties with the Same Interest” and provides, so far as relevant, as follows:- “(1) Where more than one person has the same interest in a claim – (a) the claim may be begun; or (b) the court may order that the claim be continued, by or against one or more of the persons who have the same interest as representatives of any other persons who have that interest. (2) The court may direct that a person may not act as a representative. (3) Any party may apply to the court for an order under paragraph (2). (4) Unless the court otherwise directs any judgment or order given in a claim in which a party is acting as a representative under this rule – (a) is binding on all persons represented in the claim; but (b) may only be enforced by or against a person who is not a party to the claim with the permission of the court.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The wording makes clear that a representative action may be brought without first seeking the permission of the court. That contrasts with the position in respect of applications for a Group Litigation Order (“GLO”) under CPR 19.11. In the Queen ’s Bench Division, an application for a GLO must be made to the Senior Master, and no GLO can be made without the consent of the President of the Queen ’s Bench Division; similar arrangements apply in the Chancery Division, specialist lists, and the County Court: see PD19B, paras 3.3 and 3.5.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>Once brought, however, a representative claim comes under the Court ’s control. Rule 19.6(3) makes clear that a party may apply for a direction that a person may not act as a representative. There is as yet no application. But Mr Tomlinson has not argued, and I see no reason to suppose from the wording of the rule as a whole or its context, that the Court is only empowered to make such a direction upon application. The power under Rule 19.6(2) is not expressed to be confined in that way. It is set out separately from the right to apply, which is to be found in rule 19.6(3). Nor would it make sense or, indeed, be compatible with the overriding objective, to restrict the power. I conclude that in an appropriate case, the Court may act of its own initiative. Otherwise, the Court might find itself powerless to prevent the pursuit of a representative claim where (for example) the parties did not have “the same interest”. Service outside the jurisdiction</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>It is convenient to address in reverse order the three requirements I have identified at [33] above.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>Google does not concede, but nor does it dispute that, if this claim is fit to be pursued at all, England is the appropriate place to try it, and clearly and distinctly so. I consider that this requirement is met. The Class is confined to those who are residents of England and Wales or have been during the Relevant Period, and the claims are confined to the impact on members of the Class in this jurisdiction, or the impact on them of acts in this jurisdiction. This would appear to be the natural jurisdiction for the claims. The only obvious alternative jurisdiction(s) would be the home jurisdiction(s) of Google in the USA. Google has not identified any reason why the claims should be brought in any US jurisdiction. There is, in my judgment, every reason why any such a claim should be brought here and not in any other jurisdiction.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>The real issue, so far as jurisdiction is concerned, is whether the claim falls within the “tort” gateway provided for by Part 6 Practice Direction B. As to that, there is no dispute or doubt that a claim for damages for breach of DPA s 4(4) is “a claim in tort” within the meaning of PD6B para 3.1(9). That much was established by the decision of Tugendhat J in Vidal-Hall, upheld by the Court of Appeal. Nor is there any issue as to the location at which the Safari Workaround operated so as to affect the Representative Claimant and at least some other members of the Class. The mechanism by which it operated was to place the DoubleClick Cookie on a user ’s iPhone when connected to the internet using the Safari browser and, thereafter, to track usage and collect BGI by means of the DoubleClick Cookie. Those were the harmful events, for the purposes of this paragraph, it is said. The submission is that there is at least a good argument that each member of the Class was, for at least some of the Relevant Period, within the jurisdiction of this Court when he or she was affected in that way. On this basis, at least some of any damage that was sustained resulted from acts performed within this jurisdiction; and if there was damage, some at least of that damage was sustained here. Those submissions are sufficient for present purposes, I have no doubt. There might be an issue as to limitation, and Google has reserved its position on that question. But there is no suggestion that permission to serve out can or should be refused on that ground.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>The real and substantial issue between the parties is whether the impact of the Safari Workaround on the Representative Claimant and the other Class members caused or counts as “damage” for the purposes of paragraph 3.1(9). Mr Tomlinson submits that in this context “damage” should be given its natural and ordinary meaning, namely “any damage which is properly characterised as such and recoverable in the context of the tort / wrong in question.” That is a submission accepted by Tugendhat J in Vidal-Hall at [74-75]. I agree, and I do not understand it to be disputed that this is an appropriate approach for the Court to take.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>That, however, leaves open the question of whether the Representative Claimant has shown, or presented a good arguable case, that the conduct complained of did cause or involve anything that is properly characterised as “damage”, for which compensation is recoverable under the DPA. Google says that has not been done. The answer is not, or at least not obviously, provided by the Vidal-Hall decisions. There, Tugendhat J declined to decide the meaning of “damage” in DPA s 13, but held that it was sufficiently arguable that “the alleged damage, in the form of stress and anxiety, can amount to damage sufficiently serious to engage the claimants’ article 8 rights” and hence the DPA: [2014] 1 WLR 4180 [97-103]. The Court of Appeal concluded that it should go further and decide the meaning of “damage” in DPA s 13. But on the facts of the case before it, the Court did not need to, and did not, go further than to decide that the non-material damage asserted by the claimants, in the form of distress and anxiety, fell within the scope of that provision when interpreted in the light of the Charter. The Court of Appeal did not decide the validity of any of the three bases of claim on which the present claim is primarily founded ([23] above). Still less does its decision address the validity of the alternative basis of claim advanced by the present claimant ([24] above). No such argument was advanced in Vidal-Hall.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>These are questions of law. I do not think it would be right merely to consider whether the Representative Claimant has the better of the argument on these questions, and leave a final decision until trial. It seems to me that, like the Court of Appeal, I should determine the questions. This would be consistent with the general rule in cases where the decision of whether to assume jurisdiction turns on a point of law. I see no good reason to step back from that approach here. I have had the benefit of extensive legal argument over several days. There is no need to determine any facts; indeed, it is of the essence of the claim that the Court would never need to reach any factual conclusions about the position of any individual claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>It follows from this conclusion that there is a substantial degree of overlap between the “gateway” question and the remaining requirement, that the claim should have reasonable prospects of success. The overlap is not complete because, in this case, the latter requirement encompasses two distinct issues. The first is whether the claim discloses any reasonable basis for seeking compensation under the DPA (“the DPA issue”). That depends on the questions of data protection law that I have just identified ([49] above). The second issue is separate and distinct. It arises only if the DPA issue is resolved in favour of the claimant. The issue is whether there is a real prospect that the Court would permit the claim to continue as a representative action, pursuant to CPR 19.6 (“the representative action issue”).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>Google submits that the Representative Claimant can not satisfy the “same interest” requirement and/or a Court would conclude that the continuation of the claim under CPR 19.6 does not fulfil the overriding objective. Google maintains that this claim is a contrived and illegitimate attempt to shoe-horn a novel “opt-out class action” into the representative action procedure, in circumstances where Parliament has not considered it appropriate to make such a claim available; and that the claim is unnecessary in case management terms, unworkable in practice and disproportionately expensive.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>I shall deal first with the DPA issue. The DPA issue: does the claim disclose a basis for seeking compensation under the DPA?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>In my judgment it does not.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>The issue is one of statutory construction. A reasonable starting point is the wording of DPA s 13(1). Giving that wording its natural and ordinary meaning, the statutory right to compensation arises if (a) there is a contravention of a requirement of the DPA and (b) as a result, the claimant suffers damage. The right is defined as a right to compensation “for that damage”. The infringement and the damage are thus presented as two separate events, connected by a causal link. These points do not hold good only for the language of DPA s 13(1), they are also true of the corresponding Article of the Directive: see the statutory wording at [39] and the words of Article 23 which are emphasised at [41] above. In this respect, the statute faithfully reflects the language of the parent instrument. Neither is apt to characterise the contravention itself as amounting to damage.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>An interpretation of these provisions which requires proof not only of a contravention but also of consequent damage is also one that makes sense. It presupposes that some contraventions of the DPA will not result in damage, or call for a compensatory remedy. That is a realistic approach. For example, a data controller may record and hold personal data which are inaccurate (for instance by recording information communicated to the data controller by a third party), but may neither disclose nor use those data. Without more, it would seem artificial (and, as Mr White has argued, unduly burdensome on the data controller) to regard such conduct as having caused damage to the data subject. Even if the data controller had no justification for its conduct, and was thus in breach of duty, the remedy which the law requires does not have to be the remedy of compensation, if no consequences followed from the breach. The Directive and the DPA afford a data subject in this situation a range of other remedies, including the remedies of rectification, blocking, and erasure of inaccurate data and of any opinions based upon them: DPA s 14 and Article 12(b) of the Directive. Similar reasoning can be applied to other categories of contravention, such as holding – but not disclosing, or using, or consulting-personal data which are irrelevant, or holding them for too long, in breach of the third and fifth data protection principles, or failing – without consequences-to take adequate security measures, in breach of the seventh principle. In a case of the present kind, proceedings might be brought at an appropriate time for injunctions or declaratory remedies or both.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>In Vidal-Hall, the Court of Appeal concluded that the Charter requires the remedy of compensation where distress has been suffered as a result of a breach of duty. It can not realistically be said that the same is true where the breach of duty has caused neither material loss nor emotional harm, and has had no other consequences for the data subject. And it is not suggested by the Representative Claimant that the Charter requires a departure from the interpretation of DPA s 13 and Article 23 of the Directive that I have set out. Mr Tomlinson, for the Representative Claimant, has not cited any Luxembourg jurisprudence, nor any domestic authority, to that effect. Indeed, the claimants’ pleaded case reflects the wording of the statute and the Directive; it is that the claimants have “suffered damage by reason of [Google ’s] contraventions of the DPA” ([22] above).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>The pleaded contraventions are breaches of the statutory duty imposed by s 4(4), by tracking, collation, aggregation, and sale of personal data without consent. The pleaded case as to the damage suffered “by reason of” that conduct ([23] above) states what the compensation should be for, but categories [1] and [2] are not descriptions of damage; rather, they are two apparently indistinguishable descriptions of the tort. To that extent, the pleaded case appears circular: it asserts that the commission of the tort has caused compensatable damage, consisting of the commission of the tort. Similar considerations apply to category [3]. To say simply that A has “lost control” over his or her personal data is not obviously different from saying that B has acquired and used the data without A ’s consent.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>Of course, a loss of control over personal data can be significant, and may have significantly harmful consequences. Vidal-Hall is an example. The focus in that case was on the significant distress caused to the claimants by the delivery to their screens of unwanted advertising material. The inference I draw is that the nature of that material was a significant element in the case. But the delivery of unwanted commercial communications can be upsetting in other ways, and persistence in such conduct may arguably be so distressing as to justify proceedings for harassment, even if the content of the communications is inherently innocuous: see Ferguson v British Gas Trading Inc. [2009] EWCA Civ 46 [2010] 1 WLR 785. It might be said, in an individual case, that the use of personal data to enable the repeated or bulk delivery to a person of unwanted communications infringes the person ’s right to respect for their autonomy, in a way which counts as damage for the purpose of DPA s 13, even if the content of the messages is innocuous. A person who objected to receiving such material might say that its delivery caused irritation and/or that in any event it represented a material interference with their freedom of choice over how to lead their life. That, however, is not the case advanced by this Representative Claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>It has been said in argument that the result of the collection, collation, aggregation and sale of the data obtained via the Safari Workaround was that individuals in the Class (as well as others) received advertising that was targeted by reference to their interests and preferences, as inferred from the personal data that was processed in those ways, when they would otherwise have received advertising that was not so targeted. But the Particulars of Claim do not contain any complaint that this amounts to damage. They are framed in the way that I have set out. The allegations of damage are confined to the three categories I have numbered at [23] above.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>I have not been shown any European authority to support the view that any of those three categories contains a description of something that, of itself, counts as “damage” for this purpose. What little authority there is concerns Directive 90/134. It tends to suggest that “damage” has been extended in various contexts to cover “non-material damage” but only on the proviso that “genuine quantifiable damage has occurred”: see Leitner v TUI Deutschland GmbH &amp; Co KG (Case-168/00) [2002] All ER (EC) 561 [AG38]. In Vidal-Hall the Court of Appeal considered it “instructive” to consider this case, as an indication of how the concept of “damage” had been interpreted in other European legislation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>However, Mr Tomlinson invites me to resist that approach. He founds his argument instead on domestic authority on damages for the tort of misuse of private information, and for the wrongful use of property. He relies on two principal authorities, submitting as follows:- (1) In Gulati v MGN Ltd [2015] EWHC 1482 (Ch) [2016] FSR 12, Mann J rejected an argument that Vidal-Hall showed that in data protection and (by extension) privacy cases the only relevant head of general damages was for distress. The Judge held that damages could be awarded for the “infringement of the right” (see [132-137]), and assessed damages on the basis that compensation could be given for the “commission of the wrong itself” ([144]). This conclusion was upheld on appeal ([2017] QB 149), where Arden LJ held at [45-48] that a claimant was entitled to compensation for “loss of control” by the use of private information. This approach can properly be applied to damages under s 13, and to the facts of this case, in which each member of the Class has “lost control” over their personal data. The Court can determine an appropriate sum to compensate each such member for this infringement of their rights. There is no need for an individual to have known of the relevant breach or to have suffered distress as a result. (2) Alternatively, damages can be awarded by applying the established principle that a person who has wrongfully used another ’s property without causing pecuniary loss may be liable for more than nominal damages, being liable to pay a reasonable sum (“user damages”) for the wrongful use of that property: Stoke- on-Trent City Council v W &amp; J Wass Ltd [1988] 1 WLR 1406, 1416. It is submitted that such an award can also be made in cases of breach of statutory duty affecting the person.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>It might be thought that this overall approach is flawed. The term “damage” in DPA s 13 must be interpreted and applied in conformity with the language of the section and the provisions of the parent Directive. In general, the Court would give the term “damage” in the Directive an autonomous interpretation, that does not depend upon the content of individual national laws. If domestic authority in respect of different torts affords a compensatory remedy for things that would not count as “damage” on this footing, it is hard to see how that can assist the Representative Claimant. But it is not necessary to decide this point.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Damages for infringement of rights</p>
+        </tblock>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>Gulati was concerned with the appropriate compensation for numerous claimants whose personal information had been acquired and disclosed or used by the defendant, MGN Limited, as a result of hacking of their voicemail. Mann J awarded substantial damages to the claimants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>The first point to make about the case is one that Mann J himself made at [141]: the claims in Gulati were in the tort of misuse of private information, which is separate and distinct from the tort of breach of statutory duty that is created by s 4(4) of the DPA. Thus, when the defence argued, in reliance on Vidal-Hall, that damages were not recoverable in the absence of distress, Mann J said that he did not find that case helpful on the point as “The case concerned the specific drafting of the DPA and what it provided by way of compensatable loss … the case was particular to the relevant legislation and claims made in their own circumstances.” It is true that the two torts have a common source, in the form of Article 8 of the Convention, but that does not compel a conclusion that they are coterminous.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>In any event, I do not read Gulati as authority for a rule or principle that substantial damages are invariably recoverable and must always be awarded for misuse of private information, just because the tort has been committed, and regardless of the nature of the wrong and its impact on the individual claimant. Mann J and the Court of Appeal rejected the argument advanced by the defendants, that distress was an essential component of the tort. But neither held that damages must be awarded for the infringement of the right, in and of itself. Certainly, that is not how I read the Court of Appeal decision.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>What Mann J said at [144] was this (emphasis added): “I shall therefore approach quantum on the footing that compensation can be given for things other than distress, and in particular can be given for the commission of the wrong itself, so far as that commission impacts on the values protected by the right.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>It is clear law that the Court can not make an award of “vindicatory” damages, merely to mark the commission of the wrong; this is wrong in principle: see R (Lumba) v Secretary of State for the Home Department [2012] 1 AC 245 [97-100]. The point has since been reiterated, and built upon, by the Court of Appeal. In Shaw v Kovac [2017] EWCA Civ 1028 [2017] 1 WLR 4773, the Court rejected an invitation to approve the award of a conventional sum by way of damages for loss of autonomy, where a surgical operation was conducted without informed consent, holding that to do so would be contrary to legal authority and principle. An element in the Court ’s reasoning was the “disconcerting implications” given that “most torts can be said to involve a ‘ loss of autonomy’”: [81] (Davis LJ). The Court was unable to identify “just what it is that the claimant ’s proposed award is required to compensate”, over and above the established heads of loss: [68]. It was thus unable to distinguish between this proposed head of damages and the prohibited category of vindicatory damages: [84].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>In Gulati, both Mann J and, in the Court of Appeal, Arden LJ (with whom the other members of the Court agreed) took care to distinguish the awards they made or approved from a merely vindicatory award. Shaw was not cited to either court. It was not decided until many months after the Court of Appeal decision in Gulati. But I do not believe that in Gulati either Court considered that what it was doing was making a “conventional award” for loss of autonomy as such. Arden LJ made clear in terms that the awards were “to compensate”. She identified “the essential principle” at [45]: “… by misusing their private information, MGN deprived the claimants of their right to control the use of private information”. She then illustrated the point by reference to the facts of three “obvious example[s]”. In one, “hacking pre-empted disclosure of the decision of one claimant” to leave a well-known television show. In the second “a newspaper published confidential information that the claimant had taken legal advice on a possible divorce”. The third case involved disclosure of an otherwise secret wedding venue. Arden LJ said that the claimants “are entitled to be compensated for that loss of control of information” (my emphasis). At [47], she drew an analogy with loss of liberty. At [48], she identified the damages awarded as “compensation for the loss or diminution of the right to control formerly private information and for the distress that the claimants could justifiably have felt …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>In my judgment, the Court of Appeal ’s decision in Gulati is not to be read as approving the award of substantial damages for the abstract fact that a person has had their personal information misused. The essential features of Gulati can be summarised, for present purposes, in this way. The case holds that (1) damages can be awarded for misuse of private information even in the absence of material loss or distress; and (2) in the factual circumstances of the cases before the Court, the defendants’ conduct had adversely affected the claimants’ ability to exercise control over information about themselves, and thus the value of their right to exercise such control, in a way and to an extent which was significant or material, and deserving of substantial (as opposed to nominal) compensation for misuse of private information.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>The facts of Gulati were exceptional, as Arden LJ observed at [106]. Plainly, the information in the examples she gave was significant personal information. The right to choose how, when, and to whom that information was used or disclosed was a valuable right, in the sense that it was of value to the individual. It is easy to see the defendants’ conduct as having a real and appreciable impact on the claimants in question, which deprived them of all or most of the value of that right. The disclosures were unwarranted, unwanted, and significant in nature and scale, exposing private information to publicity and/or limiting the choices available to the claimants in ways that appear to have been important to them. Nothing comparable is alleged here.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>In oral argument, Mr Tomlinson relied on one case, decided before Vidal-Hall, in which the Court of Appeal gave consideration to damages for breach of DPA s 13, but I did not find the case of any real assistance. In Halliday v Creation Consumer Finance Ltd [2013] EWCA Civ 333 [2013 ] 3 CMLR 4 the appellant had established that breaches of the DPA caused some damage to his credit and reputation, but because this could not be quantified only nominal damages were awarded. The Court below had taken the view that no “damage” had been established within the meaning of DPA s 13(1) and hence declined to hear evidence on the issue of damages for distress under s 13(2). The main issue on appeal was to have been whether this was correct. But that fell away when the respondent conceded that “damage” had been proved: [3]. What the Court then had to do was to assess the nominal damages, and decide what if any compensation was recoverable for distress under s 13(2). Nominal damages were assessed at £ 1, and damages of £ 750 were awarded for the frustration which the Court was prepared to infer the claimant had experienced as a result of non-compliance. The case does not assist the Representative Claimant in this action, which is not a claim for nominal damages, or for compensation for distress.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>Mr White makes two striking points about the consequences, if the case for the Representative Claimant in this action were accepted. First, the tort of misuse of private information contains built-in safeguards against claims for damages in respect of trivial or insignificant interferences with a protected interest. There is a threshold requirement: in order to be actionable, an interference must attain a certain level of seriousness (McKennitt v Ash [2008] QB 73 [12], Ambrosiadou v Coward [2011] EMLR 21 [28] – [30]). And the process of deciding a misuse case will always involve a balancing exercise, including an assessment of the proportionality of the interference with free speech which success for the claimant would involve. But if the Representative Claimant is correct, a right to compensation would flow from any breach of any requirement of the DPA, or at least from any breach of s 4(4), however trivial. Secondly, Mr White points out that the authorities hold that the right to compensation for distress pursuant to s 13 DPA is also subject to a threshold of seriousness, and the de minimis principle: Vidal-Hall (CA) [82], TLT v Secretary of State for the Home Department [2016] EWHC 2217 (QB) [15] (Mitting J). Yet on the Representative Claimant ’s case, a claim which failed these tests would still yield an award, to reflect the “infringement of the right”, the commission of the tort and/or the loss of control involved.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>These considerations reinforce my conclusion. I do not believe that the authorities show that a person whose information has been acquired or used without consent invariably suffers compensatable harm, either by virtue of the wrong itself, or the interference with autonomy that it involves. Not everything that happens to a person without their prior consent causes significant or any distress. Not all such events are even objectionable, or unwelcome. Some people enjoy a surprise party. Not everybody objects to every non-consensual disclosure or use of private information about them. Lasting relationships can be formed on the basis of contact first made via a phone number disclosed by a mutual friend, without asking first. Some are quite happy to have their personal information collected online, and to receive advertising or marketing or other information as a result. Others are indifferent. Neither category suffers from “loss of control” in the same way as someone who objects to such use of their information, and neither in my judgment suffers any, or any material, diminution in the value of their right to control the use of their information. Both classes would have consented if asked. In short, the question of whether or not damage has been sustained by an individual as a result of the non-consensual use of personal data about them must depend on the facts of the case. The bare facts pleaded in this case, which are in no way individualised, do not in my judgment assert any case of harm to the value of any claimant ’s right of autonomy that amounts to “damage” within the meaning of DPA s 13. “Censure”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>It might be said that in a case involving breaches of duty of the nature and on the scale alleged here, there should be consequences for the perpetrator. That, indeed, is said in the evidence for the Representative Claimant. The Representative Claimant ’s solicitor, Mr Oldnall, says in paragraph 31 of his first statement that “This is a claim where the Defendant ’s breaches are serious and where censure of those breaches is merited.” But the word used in DPA s 13 is “compensation”. Censure is the role of the regulator, or the criminal law. There have been regulatory responses to the breaches, which have resulted in consequences for Google. If those responses are perceived to be inadequate, I do not believe the remedy is to fashion a means of imposing a further penalty by bringing a class action for compensation, based on an artificial notion of “damage”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>User damages</p>
+        </tblock>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>There is one obvious obstacle to this alternative claim: it is contrary to authority. The argument that compensation under s 13 could be recovered on this basis was advanced in Murray v Express Newspapers [2007] EWHC 1908 (Ch) [2007] EMLR 22, but emphatically rejected by Patten J. The claimant, the infant son of J K Rowling, had been photographed without parental consent when out in Edinburgh in his pushchair. A claim for damages was brought, alleging misuse of private information and breach of duty under the DPA. The defence applied to strike out, arguing (among other things) that the DPA claim must fail, in the absence of pecuniary loss or distress. The claimant sought to meet this argument by submitting that the court should award DPA compensation “calculated by reference to the market value of the data which has been misused”: see [90]. Like the argument before me, the argument for young David Murray relied upon Wrotham Park Estate Co Ltd v Parkside Homes Ltd [1974] 1 WLR 798 (where damages were awarded in lieu of an injunction to enforce equitable rights). The Judge identified the underlying principle as “compensating the claimant for his loss of bargaining opportunity or the compulsory acquisition by the claimant of his rights”: see Attorney-General v Blake [2001] 1 AC 268, 281 G (Lord Nicholls). Striking out the claim, Patten J said this at [92]: “It seems to me that these principles have no application in this case. They depend upon an analogy with property rights and the court 's power to enforce the terms of the contract. The Data Protection Act does not purport to give the data subject any property in his personal data but merely regulates the way in which it can be processed. Section 13 entitles him to compensation for pecuniary damage and distress suffered as a result of a contravention of the Act. I think that [Counsel for the defendant] is right in his submission that this does not give him a cause of action based upon a misuse of data which does not actually cause him to suffer damage or distress but rather allows the data controller to profit from his use of the material. The claim is one for breach of statutory duty and I am not aware of any authority in which damages have been assessed on this rather than the more normal basis of direct pecuniary loss suffered by the claimant himself.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>Other authorities on the ambit of user damages (also known as restitutionary damages) bolster the view that this is not a basis on which a DPA claimant can recover compensation, and certainly not an apposite basis for these members of the Class. In Douglas v Hello! Ltd [2005] EWCA 595 [2006] QB 125, the Court of Appeal identified at [246] some “obvious problems” with assessing damages for breach of confidence involving private information on a “notional licence fee” basis. The first was that “the whole basis” of the claim “is upset and affront at invasion of privacy, not loss of the opportunity to earn money”. Secondly, there was the “unreality of the fictional negotiation in this case”, which was “palpable” because the claimants would never have agreed to the publication for which the fee was hypothetically to be paid. A further reason, though not in itself sufficient, was “the difficulty of assessing a fee”: [248].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>All these considerations are pertinent in the present case. The claim is put on the basis that the gist of the wrong is a “loss of control” over information-control which the members of the Class would not willingly have given up. It is hard, if not impossible, to envisage the bargain which this approach requires the court to hypothesise. It would not, indeed could not, be an individualised affair. It could only be a process by which each individual was given the chance to opt in to the use of his or her personal data on standard terms set by Google. Such bargains do of course take place, millions of them, every day. But they do not involve the offer or payment of any money. On the contrary, the implicit bargain is that if the consumer consents to the acquisition and use of their personal data in the ways set out in the “privacy notice” or “cookie notice”, the consumer will receive something else of value, in the form of targeted or filtered communications, more likely to be of interest to the consumer than if consent was withheld. The only alternative on offer is the refusal of consent.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>In One Step (Support) Ltd v Morris-Garner [2018] UKSC 20 [2018] 2 WLR 1353, the recovery of damages assessed by reference to a notional licence fee was considered by the Supreme Court in the context of damages for breach of restrictive covenants not to compete, solicit clients or use confidential information. The Court held that there were circumstances in which damages could be awarded for harm to “the economic value of the right which had been breached, considered as an asset”. The fact that the claimants would not in fact have “sold” the right to compete did not deter the Court from approving such an award in that case, because the test is objective. But the Court emphasised that, whilst the categories are not necessarily closed, the circumstances are tightly circumscribed. At [75], the Court referred to the problem of artificiality. Approving the judgment of Leggatt J in Marathon Asset Management LLP v Seddon [2017] ICR 791 [235], the Court held that: “the premise of the hypothetical negotiation – that a reasonable person in the claimant ’s position would have been willing to release the defendant from the obligation in return for a fee – breaks down in a situation where any reasonable person in the claimant ’s position would have been unwilling to grant a release.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>80</num>
+          <content>
+            <p>That does not quite represent the position in the present case. Here, some reasonable people in the position of some Class members (and some members of the Class) would no doubt have been unwilling to grant a release, wanting to guard their personal data. It can properly be inferred that other reasonable people (and some other members of the Class) would have been willing to grant a release, and to permit the use of their personal data, on the terms offered by Google, in return for nothing more than the central promise in fact available: to use of those data to support the delivery of targeted sales and marketing communications. Other reasonable people (and other members of the Class) might have been willing to release their personal data but only for something more, in the form of a fee. For the reasons I have given, it seems to me to be wholly artificial to envisage a bargaining process involving such individuals. The only option realistically open to them would be to refuse consent. But if that is wrong, then it is not possible to envisage the same negotiation in the case of every claimant. Their personal characteristics and attitudes to data disclosure will inevitably differ. The extent to which they would be willing to consent, and their readiness to accept any given sum of money in return, will vary. The value of their consent to Google will also be variable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>81</num>
+          <content>
+            <p>Mr Tomlinson points to McGregor on Damages (20th edition para 14-031), where the author identifies Gulati as a case where the award “might be explained as restitutionary damages but in which courts nevertheless jump through difficult verbal hoops to give some other explanation for the award”. McGregor argues that in Gulati damages for a “lost right of control” were awarded “independently of any consequence suffered by the claimant”. The author does not seek to defend an award on that basis, but suggests the award can be justified on the basis that the defendant “helped itself” to the information of others, and treated it as its own, and the claimant was entitled to recover according to the value obtained. This is not how the awards were explained by the Court in Gulati at first instance, or on appeal. As will be apparent, I do not agree with the analysis. Mr Tomlinson submits that the McGregor analysis may be “simply another way to analyse the recovery of damages under the first head relied on.” I disagree. The two bases of recovery are separate and distinct. In my judgment, neither can be relied on. The representative action issue: is there a real prospect that the court would allow the continuation of representative proceedings?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>82</num>
+          <content>
+            <p>If I am right about the DPA issue, this question does not arise. But it was fully argued, and this matter might go further. There is also an inter-relationship between the two issues. So, without attempting to address every point that has been argued, I will set out and explain my main conclusions, and the principal reasons for them. The conclusions are, in summary, that: (1) The essential requirements for a representative action are absent. The Representative Claimant and the Class do not all have the “same interest” within the meaning of CPR 19.6(1). (2) Even if the Class is appropriately defined, there are insuperable practical difficulties in ascertaining whether any given individual is a member of the Class. (3) Further and alternatively, the Court ’s discretion would in any event be exercised against the continuation of the action as a representative action. “Same interest”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>83</num>
+          <content>
+            <p>The procedural rule is clear: a representative action may only be started, and the court may only order that a claim be continued as a representative action, if the representative party and those whom that party represents, have “the same interest in” the claim. This is a “threshold point which must be established” by reference to the facts ascertained or assumed at the relevant time: Millharbour Management Ltd v Weston Homes Ltd [2011] 3 All ER 1027 [22(1)] (Akenhead J). The requirement is “fundamental”: Emerald Supplies Ltd v British Airways plc. [2011] Ch 345 [62]. The rule is “non-bendable”: In re X (Court of Protection: Deprivation of Liberty) [2016] 1 WLR 227 [124] (Black LJ).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>84</num>
+          <content>
+            <p>It is necessary, therefore, to determine what counts as “the same interest” for this purpose, and to apply the relevant law to the facts and circumstances of the present claims, as they presently appear.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>85</num>
+          <content>
+            <p>The rule dates from the procedural regime introduced by the Supreme Court of Judicature Act 1873. Its origins lie further back, in the procedures of the Court of Chancery. There is a considerable accretion of authority around its exercise. Changes in the wording of the rule do not appear to be material. Mr Tomlinson invites me to regard the rule as a “flexible tool”, to be construed and applied pragmatically in order to provide access to justice, so long as that can be achieved fairly. He emphasises some of the summary descriptions to be found in the authorities: “a simple rule resting merely upon convenience” (Duke of Bedford v Ellis [1901] AC 1, 10 (Lord Macnaghten)) and a “flexible tool of convenience in the administration of justice” (John v Rees [1970] Ch 345, 370E-F (Megarry J) which “ought to be applied to the exigencies of modern life as occasion requires” (Taff Vale Railway Co v Amalgamated Society of Railway Servants [1901] AC 426, 443 (Lord Lindley)). Mr Tomlinson makes four central submissions: (1) Persons have the “same interest” if they have a common interest and a common grievance. (2) Persons may have the same interest in a claim even if there are disagreements between them and even if the quantum of damages that they have suffered is different. (3) A representative claimant may represent a class, even if the members of that class have been affected by the defendant ’s actions in different ways. (4) There is no limit to the number of persons that can be within the class to be represented.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>86</num>
+          <content>
+            <p>The first three of these propositions give rise to dispute. Google submits that the existence of a common grievance against the same defendant is not enough to satisfy the “same interest” condition. In particular, where the defendant is alleged to have damaged individual rights and interests, the representative action will be unavailable unless every member of the class has suffered the same damage (or their share of a readily ascertainable aggregate amount is clear). Further, and in any event, the procedure will be unavailable where different potential defences are available in respect of claims by different members of the class. I accept Google ’s submissions, and in my judgment these principles apply to the facts of this case, so as to disqualify this claim.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>87</num>
+          <content>
+            <p>At one time it was thought that a representative action for damages was not permissible at all, because damages have to be proved separately in the case of each plaintiff. A long line of authority stands for this proposition: see Markt &amp; Co. Ltd. v Knight Steamship Co. Ltd. [1910] 2 KB 1021, 1039-1041 (Fletcher Moulton LJ), David Jones v Cory Bros &amp; Co Ltd [1921] 56 LJ 302, Prudential Assurance Co Ltd v Newman Industries Ltd [1981] 1 Ch 229, 251-253, 255A, 256B, 256B. It has however been recognised that this rule has exceptions or limitations. In specific circumstances representative claims for damages can be permitted. Such claims have been allowed in cases of copyright piracy (EMI v Riley [1981] 1 WLR 923, Independiente Ltd v Music Trading On-Line (HK) Ltd [2003] EWHC 470 (Ch)) but on the basis that the members of the Class had all transferred their rights to pecuniary remedies to the representative claimant: see Riley 925D-E, Independiente at [28]. In Irish Shipping Ltd v Commercial Union Assurance Co. Plc (“The Irish Rowan”) [1991] 2 QB 206 the Court of Appeal approved a claim against representative defendants. I accept Mr White ’s analysis of this case, that the claim in that case was allowed to proceed on the basis that the Court could ascertain the total amount recoverable against the class as a whole, and the extent to which each class member was bound to participate: see eg pp231G-232A.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>88</num>
+          <content>
+            <p>Subsequent authorities have adhered to the main principle, demonstrating that these conditions are not met, and the represented parties do not have the “same interest”, where the defendant has an answer to some but not all of the claims, or where the wrong in question is not actionable without proof of damage, and it can not be said that the injury sustained is uniform. In Emerald Supplies Ltd v British Airways plc [2010] EWCA Civ 284 [2011] Ch 345, the Court of Appeal upheld a decision of the Chancellor, Sir Andrew Morritt ([2009] EWHC 741 (Ch) [2010] Ch 48), striking out a representative action for breach of competition law, on the basis that the parties whom the claimants sought to represent did not all have the same interest. The Chancellor held that damage was a necessary ingredient of the cause of action, and since different represented parties would have suffered different levels of damages, the relief sought was not equally beneficial to all class members. Upholding that approach in the Court of Appeal, Mummery LJ added at [64] that the “same interest” requirement was not met if a defence was available to some but not all the claims. This decision was followed by Edwards-Stuart J in Rendlesham Estates plc. v Barr Ltd [2015] 1 WLR 3663, where he struck out a representative action claiming damages under the Defective Premises Act 1972, on behalf of 120 apartment owners. The claims raised common complaints against the same defendant. The Judge accepted (at [89]) that “where the effect of the defect was the same on everyone, there might be room for a representative claim”, but held that “those are not the facts of this case.” He concluded at [90] that “if damage is an ingredient of the cause of action a representative claim could not be maintained”. It seems to me indisputable that damage is an essential ingredient of a claim under DPA s 13.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>89</num>
+          <content>
+            <p>In the present case, on the basis of what I have said about the DPA issue, the Class as defined in the draft Amended Particulars of Claim might include some for whom the consequences of the alleged breach do amount to “damage” within the meaning of DPA s 13; but the Class will also, inevitably, include some who have not suffered any such “damage”. The claim as pleaded fails to disclose a basis on which to advance a claim on behalf of the former group, because the necessary facts are not asserted. If they were, the claim could not be advanced as a representative claim on behalf of this Class, for two reasons. First, it is obvious that a representative action for damages can not properly be brought on behalf of a class which is so defined as to include persons who have no cause of action, and thus no “interest” in the claim. Secondly, a representative action would not be legitimate because those claimants who had suffered “damage” would have different interests from one another, dependent on the individual facts of their cases.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>90</num>
+          <content>
+            <p>Many of these considerations would apply even if (contrary to my view) compensation is recoverable by, and must be awarded to, anybody who is the “victim” of a breach of the statutory duty under s 4(4), and has suffered a “loss of control” over their personal data. In principle, the amount of compensation recoverable by any individual must still depend on the facts of that individual ’s case. That is clearly the approach adopted by Mann J in Gulati. There was a “tariff” element in his quantification of damages; he took a starting point of £ 10,000 per year of “serious” levels of hacking: see [230]. But he made clear that this figure was intended to reflect a “common factor” in all the claimants’ cases, namely that “for a considerable period an individual 's voicemail, and those of associates, were listened to and the private lives exposed there were studied by at least one journalist and probably more, on a frequent, sometimes daily, basis.” The starting point was not the end point of the assessment process, which was tailored to the nature and extent of the wrongdoing in each claimant ’s case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>91</num>
+          <content>
+            <p>In the present case, some affected individuals were “super users”-heavy internet users. They will have been “victims” of multiple breaches, with considerable amounts of BGI taken and used throughout the Relevant Period. Others will have engaged in very little internet activity. Different individuals will have had different kinds of information taken and used. No fewer than 17 categories of personal data are identified in the claim documents. The specified categories of data vary in their sensitivity, some of them being “sensitive personal data” within the meaning of the DPA, s 2 (such as sexuality, or ethnicity). The pleaded case is that Google was “able to and did obtain and collate personal data (including sensitive personal data) relating to each user”. But it is not credible that all the specified categories of data were obtained by Google from each represented claimant. Not all represented parties will have created BGI within every category. Google is likely to have a defence available, in principle, in respect of some of these allegations. Further, the nature and extent of the loss of control over personal information experienced will have varied. The results of the acquisition and use will also have varied according to the individual, and their attitudes towards the acquisition, disclosure and use of the information in question. The same is true, if damages are assessed on the user principle, as already discussed when dealing with the DPA issues. It would be unrealistic to suppose that the value to Google of each user ’s BGI was the same.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>92</num>
+          <content>
+            <p>In short, it can not be supposed that the breach of duty or the impact of it was uniform across the entire Class membership; on the contrary, it is inevitabl y the case that the nature and extent of the breach and the impact it had on individual Class members will have varied greatly.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>93</num>
+          <content>
+            <p>I do not believe the “tariff” strategy adopted on behalf of the Representative Claimant is a satisfactory answer to these difficulties. The argument advanced is that compensation can and should be awarded on the basis that “each member of the class has suffered the same damage as a result of Google ’s infringement of the rights under the DPA”. The damage relied on for this purpose is the loss of control of their personal data or the hypothetical release fee. It is said that the appropriate compensation is the same for each individual. For the reasons given, I accept Mr White ’s submission that this uniform approach fails to reflect the law or the reality. It is an artificial device. Further, if no claimant is to be over-compensated, the “tariff” must be set at the figure appropriate to the claimant who suffered the least “damage”. It seems to me that this would be at best a token sum, or alternatively a modest one. Other claimants, perhaps many, would consequently be under-compensated. This would be unprecedented and, it seems to me, unprincipled. To say of the parties represented as claimants in an action constituted in this way that they all have “the same interest” would be unreal. Indeed, many might have no interest (in the ordinary sense of the term) in being parties to the representative action. Some would not see the point of litigation over such modest sums. Others might claim to have suffered significant financial loss or distress as a result of the alleged tort; they would want to consider an individual claim for compensation reflecting the actual harm, à la Vidal-Hall. This is acknowledged in the Representative Claimant ’s action plan, which provides for opt-outs in such circumstances.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Impossibility of identifying all Class members</p>
+        </tblock>
+        <paragraph>
+          <num>94</num>
+          <content>
+            <p>Google ’s evidence in response to the present application asserted that the original Class definition was faulty, because it included iPhone users who were unaffected by the matters complained of. In particular, some individuals within the Class as then defined will have had a DoubleClick Cookie before the Relevant Period (“Already Hads”); others will not have received the DoubleClick cookie (“Never Hads”). It is unnecessary to elaborate the explanation of these factors. The Representative Claimant has conceded the force of these points, and sought to re-define the Class as a result. Hence the revised definition set out in the draft Amended Particulars of Claim ([19] above). Google maintains, however, that the attempt to meet its objections is futile. It is an essential requirement of a representative action that the claimants must be identifiable in practice. The point was put this way by Mummery LJ in Emerald Supplies at [62]: “At all stages of the proceedings ... it must be possible to say of any particular person whether or not they qualify for membership of the represented class of persons”. Here, Google contends that it is not possible to identify and exclude unaffected users. That submission appears to me to be supported by the evidence, and I accept it.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>95</num>
+          <content>
+            <p>It is common ground that a proportion of iPhone users will have received a DoubleClick Cookie before the start of the Relevant Period. No such individual could properly participate in the aggregate compensation. Hence, an appropriate modification has been made to the Class definition. Similarly, it is an undisputed fact that a proportion of iPhone Safari browsers that interacted with websites that participated in the DoubleClick programme did not have the DoubleClick Cookie set on them by the time the Relevant Period expired. Again, the definition of the Class has been altered to reflect this. But the method of distribution proposed by the Representative Claimant relies on self-identification. It is envisaged that iPhone users will come forward to claim a share of the “pot”. The problem is one of verification. Absent a viable method of identifying and excluding individuals in this category, there is an obvious risk that compensation will go to persons who did not suffer damage on any view.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>96</num>
+          <content>
+            <p>Mr Tomlinson ’s argument is that Google are confusing and conflating two separate and distinct issues: definition and practicality. Mr Tomlinson submits that the point of principle is that the class boundaries must be conceptually clear, and that this requirement is satisfied: the revised definition is now unassailably appropriate. I am not convinced that this is right. It seems to me that in principle the Class definition must be both conceptually sound and workable. Mr Tomlinson submits that those acting for the Representative Claimant have devoted a lot of thought and work to dealing with the practical difficulties. Although he does not claim that they have a practical answer at the present time, there is a huge amount of data which can be analysed and which will enable them to determine “in many, perhaps all cases”, whether someone is within the class. It must be at least arguable, he submits, that the requirement is satisfied. I do not regard this somewhat Micawberite response as an adequate answer to the evidence and argument for Google.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>97</num>
+          <content>
+            <p>Google ’s estimate is that 74 % of iPhone Safari browsers were “Already Hads” at the start of the Relevant Period. Those acting for the Representative Claimant propose a figure of 5 %. As to “Never Hads”, the evidence suggests that between 9 and 40 % of iPhone Safari users did not receive the Cookie within the Relevant Period. It is not necessary, even if it were possible, to resolve the disagreements. It is not possible to say that the numbers are insignificant. The root problem is that no methodology has been proposed to ensure that individuals are excluded who fall within this category, however many they are.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>98</num>
+          <content>
+            <p>To take but one example, one sub-category of “Never Hads” would be those who changed the default settings on their browsers to reject all cookies. Hence provision (a)(iv) in the definition of the Class. No explanation has been offered of how, in practice, the Representative Claimant would be able to sift out such individuals from those who came forward to claim a share of the compensation “pot”. It would seem impossible to verify whether such a change had been made, during a six-month window that ended over six years ago. It is unclear how individuals could be expected reliably to remember whether they made such a change. There are two risks. A person might come forward honestly to claim compensation which was not in fact due. Or there might be abuse.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Discretion</p>
+        </tblock>
+        <paragraph>
+          <num>99</num>
+          <content>
+            <p>The case for Google is put on the basis that the Court would inevitably exercise its discretion against the continued pursuit of this representative action. I agree, but for the reasons given above, I think I can deal with the matter more directly by exercising of my own initiative the discretion conferred by CPR 19.6(2).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>100</num>
+          <content>
+            <p>This is a novel form of action, but everything was new once. Mr Tomlinson submits, and I accept, that in principle a person may sue in a representative capacity without the authority of those whom he represents, or any of them, provided the conditions in CPR 19.6 are met. That does not mean, however, that the Court must permit such an unauthorised action to continue, come what may. The authorities make clear that, where the threshold criteria are satisfied, the rule creates a flexible discretionary regime. The Court ’s discretion must, however, be exercised in a principled way. As Sir Andrew Morritt C observed at first instance in Emerald Supplies at [38], CPR 19.6 “should be construed and applied with the overriding objective in mind.”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>101</num>
+          <content>
+            <p>Features of the overriding objective identified in CPR 1.1(2), which appear to me to be pertinent here, are “(b) saving expense (c) dealing with the case in ways which are proportionate (i) to the amount of money involved; (ii) to the importance of the case …” and “(e) allotting to it an appropriate share of the court ’s resources, while taking into account the need to allot resources to other cases.” The nature and extent of the damage that may have been sustained, the quantum of the compensation recoverable by each individual, and the scale of the resources that would need to be devoted to the case, are all legitimate factors to take into account. So too is the extent to which the represented parties are in fact concerned about the issues which are the subject of the representative action.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>102</num>
+          <content>
+            <p>It is not easy to estimate the quantum of the costs that this litigation would generate. It would be wrong to assume that the costs would be vast, but the costs figures given earlier in this judgment do give some indication of the worst case scenario, as envisaged by those acting for the Representative Claimant. A considerable amount of court time would undoubtedly be consumed. The damage sustained and the compensation recoverable by each represented individual are modest at best. The main beneficiaries of any award at the end of this litigation would be the funders and the lawyers, by a considerable margin. Even if the members of the Class have the “same interest” in the technical sense in which that term is used in CPR 19.6(1), it is a striking feature of the case that in the five or six years since the Safari Workaround was identified and publicised none of the million(s) of such individuals in this jurisdiction has demonstrated any interest in the common sense of the term, by coming forward to claim, or complain, or to identify himself or herself as a victim-other than Ms Vidal-Hall, and her co-claimants (if they fall within the Class), and Mr Lloyd.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>103</num>
+          <content>
+            <p>As Sir Andrew Morritt VC observed in Emerald Supplies, (ibid), one of the main purposes of CPR 19.6 is “to provide a convenient means by which to avoid a large number of substantially similar actions”. Put another way, the rule affords a convenient case management tool. On the evidence before me, the present action would not serve that purpose. Rather the contrary. I agree with Mr Tomlinson ’s submission, that the individual claims are not viable as stand-alone litigation, and a GLO is impracticable, so that this representative action is in practice the only way in which these claims can be pursued. I do not accept his argument that this favours the continued pursuit of the representative action. It would not be unfair to describe this as officious litigation, embarked upon on behalf of individuals who have not authorised it, and have shown no interest in seeking any remedy for, or even complaining about, the alleged breaches.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>104</num>
+          <content>
+            <p>The Court has jurisdiction to strike out a claim on proportionality grounds (Jameel (Yousef) v Dow Jones &amp; Co Inc [2005] EWCA Civ 75 [2005] QB 946) but it will be hesitant to do so, striving to find a proportionate means by which the claim can be pursued: Sullivan v Bristol Film Studios Ltd [2012] EWCA Civ 570. But I am not striking out a claim which the claimant wishes to pursue because the “game is not worth the candle”. My decision is that, if I am wrong about the DPA issue and the threshold requirements, the Representative Claimant should not be permitted to consume substantial resources in the pursuit of litigation on behalf of others who have little to gain from it, and have not authorised the pursuit of the claim, nor indicated any concern about the matters to be litigated.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>105</num>
+          <content>
+            <p>The difficulties of ascertaining whether any given individual actually falls within the affected class are an additional factor in favour of that conclusion. As Sir Andrew Morritt VC said in the same paragraph of his judgment in Emerald Supplies, “It is not convenient or conducive to justice that actions should be pursued on behalf of persons who can not be identified before judgment in the action and perhaps not even then.”</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Conclusions</p>
+        </tblock>
+        <paragraph>
+          <num>106</num>
+          <content>
+            <p>In my judgment the facts alleged in the Particulars of Claim do not support the contention that the Representative Claimant or any of those whom he represents have suffered “damage” within the meaning of DPA s 13. If that was wrong, the Court would inevitably refuse to allow the claim to continue as a representative action because members of the Class do not have the “same interest” within the meaning of CPR 19.6(1) and/or it is impossible reliably to ascertain the members of the represented Class. Alternatively, permission to continue the action in this form would be and is refused as a matter of discretion. Accordingly, the Representative Claimant has failed to establish that the claim is one that arguably falls within PD6B 3.1(9), and has a real prospect of success, and permission to serve these proceedings on Google outside the jurisdiction is refused.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

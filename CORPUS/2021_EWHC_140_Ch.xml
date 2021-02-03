@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2021_EWHC_140_Ch" />
+          <FRBRuri value="www.judiciary.uk/2021_EWHC_140_Ch" />
+          <FRBRdate date="2021-01-29" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/la-micro-group-uk-ltd-and-anr-v-l-micro-group-inc-and-ors" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/la-micro-group-uk-ltd-and-anr-v-l-micro-group-inc-and-ors" />
+          <FRBRdate date="2021-01-29" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWHC_140_Ch.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWHC_140_Ch.xml" />
+          <FRBRdate date="2021-02-03" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="BusinessAndPropertyCourts" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessAndPropertyCourts" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="BusinessList" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessList" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessAndPropertyCourts" />
+        <TLCOrganization eId="LaMicroGroup(uk)Limited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LaMicroGroup(uk)Limited" showAs="La Micro Group (uk) Limited" />
+        <TLCOrganization eId="MrDavidBell" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrDavidBell" showAs="Mr David Bell" />
+        <TLCOrganization eId="LaMicroGroupInc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LaMicroGroupInc" showAs="La Micro Group Inc" />
+        <TLCOrganization eId="MrRomanFrenkel" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrRomanFrenkel" showAs="Mr Roman Frenkel" />
+        <TLCOrganization eId="MrArkadiyLyampert" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrArkadiyLyampert" showAs="Mr Arkadiy Lyampert" />
+        <TLCPerson eId="JudgeJarmanQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JudgeJarmanQc" showAs="Judge Jarman Qc" />
+        <TLCPerson eId="MrPaulStrelitz" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrPaulStrelitz" showAs="Mr Paul Strelitz" />
+        <TLCPerson eId="MrOliverHyams" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrOliverHyams" showAs="Mr Oliver Hyams" />
+        <TLCPerson eId="OwenWhite" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#OwenWhite" showAs="Owen White" />
+        <TLCPerson eId="MrWilliamBuck" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrWilliamBuck" showAs="Mr William Buck" />
+        <TLCPerson eId="MrWilliamHooper" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrWilliamHooper" showAs="Mr William Hooper" />
+        <TLCPerson eId="FladgateLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#FladgateLlp" showAs="Fladgate Llp" />
+        <TLCPerson eId="MrAlexBarden" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAlexBarden" showAs="Mr Alex Barden" />
+        <TLCPerson eId="SchofieldSweeneyLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SchofieldSweeneyLlp" showAs="Schofield Sweeney Llp" />
+        <TLCPerson eId="MrMathewThorne" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrMathewThorne" showAs="Mr Mathew Thorne" />
+        <TLCPerson eId="O’melveny&amp;MyersLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#O’melveny&amp;MyersLlp" showAs="O’melveny &amp; Myers Llp" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2021] EWHC 140 (Ch)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>BL-2020-000292</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#BusinessAndPropertyCourts">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</organization>
+        <organization refersTo="#BusinessList">BUSINESS LIST (ChD)</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Rolls Building 7 Rolls Building, London EC4A 1NL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2021-01-29" refersTo="#hand-downDate">29/01/2021</date>
+      </p>
+      <p>
+        Before: HIS HONOUR
+        <judge refersTo="#JudgeJarmanQc">JUDGE JARMAN QC</judge>
+      </p>
+      <p>Sitting as a judge of the High Court</p>
+      <p>Between:</p>
+      <p>
+        (1)
+        <party as="#claimant" refersTo="#LaMicroGroup(uk)Limited">LA MICRO GROUP (UK) LIMITED</party>
+        (2)
+        <party as="#claimant" refersTo="#MrDavidBell">MR DAVID BELL</party>
+        <role refersTo="#claimant">Claimants</role>
+        -and- (1)
+        <party as="#defendant" refersTo="#LaMicroGroupInc">LA MICRO GROUP INC</party>
+        (2)
+        <party as="#defendant" refersTo="#MrRomanFrenkel">MR ROMAN FRENKEL</party>
+        (3)
+        <party as="#defendant" refersTo="#MrArkadiyLyampert">MR ARKADIY LYAMPERT</party>
+        <role refersTo="#defendant">Defendants</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#MrPaulStrelitz" as="#barrister" for="#MrDavidBell;LaMicroGroup(uk)Limited">Mr Paul Strelitz</lawyer>
+        and
+        <lawyer refersTo="#MrOliverHyams" as="#barrister" for="#MrDavidBell;LaMicroGroup(uk)Limited">Mr Oliver Hyams</lawyer>
+        (instructed by
+        <lawyer refersTo="#OwenWhite" as="#solicitor" for="#MrDavidBell;LaMicroGroup(uk)Limited">Owen White</lawyer>
+        ) for the claimants
+        <lawyer refersTo="#MrWilliamBuck" as="#barrister" for="#LaMicroGroupInc">Mr William Buck</lawyer>
+        and
+        <lawyer refersTo="#MrWilliamHooper" as="#barrister" for="#LaMicroGroupInc">Mr William Hooper</lawyer>
+        (instructed by
+        <lawyer refersTo="#FladgateLlp" as="#solicitor" for="#LaMicroGroupInc">Fladgate LLP</lawyer>
+        ) for the first defendant
+        <lawyer refersTo="#MrAlexBarden" as="#barrister" for="#MrRomanFrenkel">Mr Alex Barden</lawyer>
+        (instructed by
+        <lawyer refersTo="#SchofieldSweeneyLlp" as="#solicitor" for="#MrRomanFrenkel">Schofield Sweeney LLP</lawyer>
+        ) for the second defendant
+        <lawyer refersTo="#MrMathewThorne" as="#barrister" for="#MrArkadiyLyampert">Mr Mathew Thorne</lawyer>
+        (instructed by
+        <lawyer refersTo="#O’melveny&amp;MyersLlp" as="#solicitor" for="#MrArkadiyLyampert">O’Melveny &amp; Myers LLP</lawyer>
+        ) for the third defendant
+      </p>
+      <p>
+        Hearing dates:
+        <date date="2021-01-08" refersTo="#hearing">8</date>
+        to
+        <date date="2021-01-15" refersTo="#hearing">15 January 2021</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic. Covid-19 Protocol: This judgment was handed down remotely by circulation to the parties’ representatives by email, released to BAILII and for publication on the Courts and Tribunals Judiciary website. The date and time for hand-down is deemed to be 10: 00 on the 29 January 2021.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+        <tblock>
+          <p>HH JUDGE JARMAN QC:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The second claimant Mr Bell is the registered owner of the only share issued on the incorporation of the first claimant company (UK) in 2004. The only other share issued was in 2008 or 2009 to the third defendant Mr Lyampert. The claimants accept and plead their case on the basis that until 2010 the shares were held on a resulting trust as to 49 % for Mr Bell and as to 51 % for the first defendant company incorporated in California (Inc) and that profits were split equally between Mr Bell and Inc. The claimants however assert that in that year Inc disclaimed its beneficial interest in the shares and in its share of the profits, and that following agreement between Mr Bell and Mr Lyampert the beneficial ownership now accords with the legal registration and profits are paid accordingly. Mr Lyampert agrees that that is now the position. Inc, however, asserts that nothing changed in 2010 so that it is still beneficially entitled to a 51 % shareholding in UK and to an equal share of the profits.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The second defendant, Mr Frenkel, claimed in proceedings (HC-2015-004753) which he brought in this jurisdiction in 2015 against UK, Mr Bell and Mr Lyampert, that the shareholding was owned as to 49 % by Mr Bell and as to 25.5 % each by him and Mr Lyampert. Inc was not party to that claim, as its only two equal shareholders and directors, Mr Frenkel and Mr Lyampert, had fallen out badly in 2010 and Inc was then in deadlock. Those proceedings were heard and determined by Mrs Amanda Tipples QC, sitting then as a deputy judge of the High Court in 2017. She dismissed the claim ([2017] 1 EHWC 2223 (Ch)).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>Judge Tipples’ conclusions were set out in paragraphs 121 to 125 of her judgment, extracts from which are set out below: “I have reached the clear view that … there were no discussions between Mr Frenkel, Mr Lyampert and Mr Bell in late 2003 or early 2004 pursuant to which it was agreed a company would be established in the UK in which they all would be individually shareholders and directors … Rather, the agreement made between Mr Lyampert, on behalf of Inc, with Mr Bell, was that Inc would own 51 % of the UK Company 's share capital … [and] that the UK Company 's profits would be split equally between Mr Bell and Inc … Mr Frenkel owned Inc 50/50 with Mr Lyampert and Inc was dissolved in February 2010, an event which gave rise to the Californian Claims. Following the breakdown of the relationship between Mr Lyampert and Mr Frenkel, Mr Frenkel disavowed any interest in the UK Company in what he said to Mr Bell in March 2010. Mr Bell accepted what he was told by Mr Frenkel in person and over the telephone at that time, and I accept that if Mr Bell had known that Mr Frenkel claimed an interest in the UK Company, then Mr Bell would have wound the UK Company up, and would have set up a new company. It was over five and a half years later, in November 2015, that Mr Frenkel issued this claim and, in the meantime, the UK Company had become, and continues to be, very profitable. I accept what Miss Ansell QC has said in her closing submissions at para 60:" As a result of Mr Frenkel walking away from the [UK] Company and participation in its trade, Messrs Bell and Lyampert (believing themselves to be the undisputed sole two shareholders in the Company) used the [UK] Company to engage in further extensive trade, putting time and resources into making in a success. This trade would have been carried out through a completely different vehicle if Mr Frenkel had made his position clear. To allow Mr Frenkel now to re-enter the scene and take 50 % of Mr Lyampert 's shareholding, past and future dividends would thus cause the latter substantial injustice and lost capital and income". In these circumstances, I do not see that Mr Frenkel as the claimant, is entitled to any relief in respect of Inc, particularly in circumstances where I have found, as a matter of fact, that he disavowed any interest in the UK Company in March 2010, and Mr Bell continued the UK Company 's business in reliance on what he was told by Mr Frenkel in this regard. If, as Mr Frenkel now says, he can claim relief in respect of Inc, then his claim in this regard should have been set out in his statement of case and properly pleaded. That, of course, is so that Mr Lyampert and the other defendants would have the opportunity to consider, and meet the case advanced on behalf of Inc. It is not a claim that can be introduced by Mr Frenkel as an afterthought under CPR Part 16.2(5). Further, for what it is worth, I do not consider that it is a claim that is likely to succeed, given the very substantial delay in the bringing of this claim, what Mr Frenkel told Mr Bell in March 2010, and the continued operation of the UK Company in the light of that representation.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The reference to a claim by afterthought arose because at the end of his closing submissions, Mr Barden for Mr Frenkel submitted that if Judge Tipples decided that the 2004 agreement was between Mr Bell and Inc then Mr Frenkel was entitled to a declaration to that effect, relying on CPR Part 16.2(5). That provides that" The court may grant any remedy to which the claimant is entitled even if that remedy is not specified in the claim form". However, Judge Tipples refused to grant such relief, saying that it had been no part of Mr Frenkel ’s pleaded case or indeed any of his evidence, that the agreement was made between Inc and Mr Bell.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>It was common ground before me that the 2004 agreement also set out the trading position between the two companies, so that UK would trade in Europe including the United Kingdom and Inc would trade elsewhere. Equipment would be supplied between the two companies at cost and profits made by both companies on UK ’s products would be pooled.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>Inc was not a party to the proceedings, and now says that Judge Tipples did not address the issue central to the present proceedings, namely whether the agreement which she found was formed in 2004 subsisted beyond 2010. Inc accepts that that part of the agreement, or agreements, relating to trading did not so subsist but says that that part relating to share ownership and profit distribution did.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The claimants accept that the effect of the 2004 agreement was as found by Judge Tipples. However, they say that that agreement was altered by the conversations between Mr Bell and Mr Frenkel in February and March 2010, during which they assert that Mr Frenkel was acting with the actual or apparent authority of Inc.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>It was not in dispute before me that there was a telephone conversation between Mr Bell and Mr Frenkel in February 2010 and that there was another conversation between the two men in March 2010 when the former visited the latter at his home in California. Unsurprisingly, Mr Bell was concerned about how the falling out would impact on UK. He stayed at the home of Mr Lyampert a short distance away during that visit. Nor is it in dispute that during these conversations Mr Bell was trying to find a way in which Mr Frenkel could work with Mr Lyampert, but Mr Frenkel made it clear that he wanted nothing to do with the latter. Further, Mr Frenkel accepts that at this time he was friendly with Mr Bell and apologised to him for the falling out.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>It was during these conversations that Mr Bell says that Mr Frenkel made clear to him that he was dissolving Inc and wanted nothing to do with UK and that the latter business was his to do with what he liked. He accepts that the shareholding was not specifically mentioned, but says Mr Frenkel made clear that he was walking away from UK. Mr Frenkel denies saying these words, although he accepts that he made clear to Mr Bell that he did n’t want to work with Mr Lyampert ever again.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Mr Lyampert said that when Mr Bell came back from speaking with Mr Frenkel in March 2010, Mr Bell told him that Mr Frenkel had said he was terminating their relationships, closing Inc ’s business, that he had no interest in UK and that Mr Bell could have that business.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>The claimants say that the effect of that agreement was that Mr Frenkel would have nothing further to do with UK and relinquished Inc ’s shareholding as well as its entitlement to a share of the profits. He and Mr Lyampert say they then agreed to split the shareholding 50-50. UK has since become a very successful company. In 2018 its annual turnover was £ 36 million and its annual profits was £ 1 million. Each of these has continued to grow since.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The claimants also say that it is only when Mr Frenkel found out that Mr Lyampert was involved in UK that he has reasserted Inc ’s interest. Mr Bell says that he would not have continued with UK if he thought that Inc or Mr Frenkel retained an interest. In that event he would have shut down UK ’s business and would have started a new business.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>Accordingly, the current proceedings were issued in February 2020 seeking declarations that Mr Bell and Mr Lyampert are the sole shareholders in UK, and consequential relief. Thereafter Mr Frenkel applied in the Californian courts to appoint an independent provisional director in view of the continuing deadlock in Inc. Such an appointment was made in March 2020, when Vahan Yepremyan, an attorney practising in Los Angeles, was so appointed. Inc then counterclaimed for declarations as to its claimed beneficial interest in UK ’s shareholding and entitlement to a share of the profits and consequential relief.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Mr Yepremyan, Mr Bell, Mr Frenkel and Mr Lyampert filed written evidence and I heard each giving oral evidence by video link. Mr Frenkel and Mr Lyampert each speaks Russian as his mother tongue. The latter is not as confident in English as the former, and so gave his evidence mostly through an interpreter. Mr Yepremyan has no direct knowledge of events before his appointment and can only speak from the documents. Those who have direct knowledge, and in particular of the events in 2010, are the other three witnesses (together, the main witnesses). Each of these were also the only witnesses who gave evidence as to the beneficial ownership of UK before Judge Tipples. To my mind the present proceedings have become overly complex when the essential issue is one of fact as to what was said and done in 2010 and the consequences which follow in law.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>It may be important, at the outset of this judgment, to establish where the burden of proof lies in these proceedings. This was not dealt with in written submissions. When I raised the matter during closing submissions, Mr Strelitz with Mr Hyams for the claimants, and Mr Thorne for Mr Lyampert, responded that as they contend for a beneficial ownership of the shares in UK which accords with the legal registration, it is for Inc on its counterclaim to prove that the beneficial ownership lies elsewhere. Mr Buck and Mr Hooper for Inc, with support from Mr Barden for Mr Frenkel, responded that as the claimants plead that Inc was beneficially entitled to 51 % of the shareholding until 2010 when it was disclaimed on its behalf, it is for the claimants to prove such disclaimer. In my judgment, although there is some force in both positions, the correct analysis is that as the claimants assert disclaimer, the burden in that regard is upon them.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Amongst the many legal issues raised by the parties in these proceedings, are abuse of process and issue estoppel. Putting it for the moment very broadly, Inc with some support from Mr Frenkel, submits that the claimants are estopped in these proceedings from asserting that the beneficial ownership of the shareholding of UK and entitlement to its profits changed in 2010, as that amounts to a change of the position which they adopted in the 2017 hearing before Judge Tipples. The claimants, with support from Mr Lyampert, submit that Inc ’s assertion to a beneficial share in UK and entitlement to a share of the profits is an abuse and amounts to a collateral attack on the judgment of Judge Tipples.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>No application to strike out was made by any party, it is said because directions were given for an expedited trial and there was no time for such an application. No party applied orally at the start of the hearing for me to deal with these issues on a preliminary basis, but instead proceeded to call its evidence. Much of the cross-examination dealt with what the main witnesses said in the hearing before Judge Tipples and the findings which she made.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>In closing submissions I raised the issue of whether in this judgment I should deal with these issues at the outset and then proceed to make factual findings insofar as necessary, or to make factual findings and then to deal with these issues insofar as necessary. Mr Strelitz and Mr Thorne favoured the former approach, while Mr Buck and Mr Barden favoured the latter. In my judgment, now that I have heard all of the evidence, the sensible and convenient approach is to deal with the factual issues first and to make findings on them, as they may inform the extent to which, if at all, there is an abuse of process. Moreover, having regard to the overriding objective, I should make factual findings in case the matter goes further.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>The 2004 agreement and the conversations which these witnesses had concerning UK in 2010 were not at the time reduced to or evidenced in writing. No lawyers were involved at these times. Each of the main witnesses was at pains to emphasise before me, as he has done in earlier proceedings, that he is a businessman and not a lawyer. The lack of documentation is a hall mark of how the main witnesses tended to deal with one another and with their business arrangements. There is little documentation, for example, as to how Inc on the one hand and UK on the other were managed until the split. Both companies bought and sold computer parts. The main witnesses tended to deal with each other by oral communication.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>Much of the cross examination and submissions before me dealt with the credibility or reliability of each of the main witnesses. In cross examination, many documents which came into existence after 2010 setting out their respective recollections were put to each of them, including depositions made in Californian court proceedings concerning Inc, emails between the parties, and letters between their solicitors. Both sides relied upon various answers given in evidence before Judge Tipples.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>In particular, Inc relies upon the pleadings, evidence and submissions by and on behalf of Mr Bell in the proceedings before Judge Tipples, and much of his evidence given before me. It submits that Mr Bell admitted that after 2010 he considered that Inc was his co-owner in UK on the basis that Mr Lyampert and Inc were one and the same, that he did not thereafter regard Mr Lyampert as his co-owner, that Mr Frenkel in 2010 was walking away from working with Mr Lyampert and hence from the running of UK but not from an asset interest whether his or those of Inc, and that there was no mention of Inc in the 2010 conversations between him and Mr Frenkel.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Accordingly, Inc submits, where Mr Bell sought before me to say that he thought he was dealing with Mr Lyampert in a personal capacity after 2010 and not on behalf of Inc, such evidence is entirely unreliable at best, but that his position in pleadings, evidence and submissions in the proceedings before Judge Tipples is entirely correct. Mr Buck, on behalf of Inc, accepts that it is not in a position to advance a positive case as to what was said in 2010. He further submits that even if Mr Frenkel did tell Mr Bell what the latter now asserts, all those words meant was that Mr Frenkel was no longer going to play a part in the operation of UK and that he was relinquishing control of Inc to Mr Lyampert.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Many court hearings have taken place involving the main witnesses since 2010. There have been three main hearings in California involving Inc. This is the second main hearing in this jurisdiction concerning UK. In addition there have been various interlocutory hearings. The main witnesses have been separately represented by lawyers here, and other lawyers in California. To give some idea of the scale of the litigation, Mr Lyampert has filed about 10 depositions in the Californian litigation. In my judgment the evidence before me should be judged in this context.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>Before me, none of the main witnesses now say that Inc has a beneficial ownership in UK. Each however gives a conflicting account. Mr Bell accepts that Inc did had such an ownership prior to 2010, but says that in the conversations which he had with Mr Frenkel at the time of the split Mr Frenkel on behalf of Inc disclaimed any interest in UK, although it is not clear from his pleaded case that he asserts that the 2004 agreement wholly terminated in 2010.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Mr Frenkel ’s evidence before me was that he always believed the shareholding was split as to 49 % to Mr Bell and 25.5 % to himself and to Mr Lyampert personally. He accepts that he is bound by the judgment of Judge Tipples. Mr Lyampert says there was simply no discussion about the shareholding of UK between its incorporation and the split, and that the position is now as registered.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>It is clear that in respect of each main witness, there are a number of inconsistencies between the evidence that that witness gave before me and what he said or was said on his behalf in the 2017 hearing or in earlier hearings or documents. Given that it is now nearly 11 years ago since the split occurred, the absence of contemporaneous documents, the complexity of their dealings in respect of UK and Inc, and the number of court hearings which there have been involving each of the main parties, many of those inconsistencies, in my judgment, are not surprising.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>However, other inconsistencies are such as to cause me to be cautious about accepting the contentious evidence of any of the main witnesses at face value, particularly when not corroborated or supported by contemporaneous documentation. I set out the most telling of these below.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>So far as Mr Bell is concerned, he was cross examined by Mr Barden on behalf of Mr Frenkel in the hearing before Judge Tipples. It was put to him that in February 2012 when he made a deposition in the Californian proceedings regarding Inc, he still regarded Mr Frenkel as a shareholder in UK. Mr Bell replied that Inc was the owner of UK but in February and March 2010 he had discussions with Mr Frenkel, the former by telephone and the latter in person at Mr Frenkel ’s Californian home, where Mr Frenkel said he did n’t want anything to do with the UK office and it was his (Mr Bell ’s) company to deal with or words to that effect.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Mr Barden pressed him in the 2017 hearing that he “regards,” using the present tense, Mr Frenkel as part owner, to which he replied “Via Inc, correct.” It was further put to him that there was no reference to Inc in the deposition and that he could have said in it that Mr Frenkel and Mr Lyampert held the shareholding in UK through Inc. Mr Bell accepted that he could have said so but did not. He added “As far as I understand it myself [Mr Lyampert] and [Mr Frenkel] are the owners, but via … well, I should have said via LA Micro Inc.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>He also accepted in cross examination before me that from 2010 he understood that Mr Frenkel had left Inc, wanted nothing further to do with Inc and was doing his best to shut it down. Moreover, he agreed when it was put to him that he was then dealing with Mr Lyampert on behalf of Inc and that these were, in effect, interchangeable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>Before me Mr Bell sought to explain his earlier evidence by saying he was confused during that cross examination and that he was referring to the pre 2010 position. He sought to explain the deposition by saying that its focus was upon the incorporation of UK in 2004 and was taken in stressful conditions in California in a room full of lawyers as well as Mr Frenkel and Mr Lyampert.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>I accept that the main (but not sole) focus of his 2012 deposition was the formation of UK and that the main (but not sole) focus in the 2017 hearing was the 2004 agreement and that some of his answers in both were in such contexts. In the exchanges summarised above, the use of the present tense in both the question and the answer seems clear when taken in isolation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>However, his answers regarding the conversations which he had with Mr Frenkel in early 2010 are broadly consistent with what he told me about them. Moreover in other passages, he referred to UK after 2010 as his and to his taking it forward. The confusion arises in respect of the legal consequences rather than what Mr Frenkel told him. As the submissions of the parties in these proceedings show, there is a stark dispute as to what is the effect in law of the words which Mr Bell ascribes to Mr Frenkel in 2010, even if they were said.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>I take into account that Mr Bell is not a lawyer and the position regarding the two companies on the breakdown of relations between Mr Frenkel and Mr Lyampert in 2010 was not straightforward. In my judgment, the evidence of Mr Bell before me and before Judge Tipples and in the deposition, emails and letters put to him, show a high degree of confusion in his own mind as to the legal position relating to the ownership and profit distribution of UK and the control of Inc after his conversations with Mr Frenkel in 2010.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>In my judgment there is no sufficient justification to infer that he was deliberately setting out to mislead the court, then or now. Even on the basis of confusion, however, that is sufficient for me to adopt the cautious approach to Mr Bell ’s evidence set out above.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>As for Mr Frenkel, he accepted before me that in February 2010, he was instrumental in setting up a company in California called IT Creations (ITC) by funding it to the tune of about $ 1.2million, by signing bank and other documents as chief financial officer or vice-president, and by obtaining leasehold premises in the name of his wife and Mrs Gorban. He accepted that this company was set up to sell computer equipment in the same field as Inc and UK, but without territorial limit. He also accepted that ITC has been very successful and may be bigger than Inc. He further accepted that in February 2010, he was hoping to become chief financial officer and/or vice president of ITC but never held those positions. He said that when he saw what he termed Mr Lyampert ’s resistance, he stepped down from ITC. The major shareholder and president is Mr Gorban who is his friend and business partner in other ventures.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>In cross examination before me Mr Frenkel was referred to a deposition under oath which he filed in the 2011 Californian court proceedings. In that he was asked whether he was involved in ITC and he said no. He was asked whether his wife was so involved and he replied not that he knew of. He was also asked if he knew about the lease and he said he did not. He accepted before me that the latter two answers in particular were “stupid” of him. He denied wanting to hide in those proceedings his involvement with ITC, but said he did not want such involvement “in Mr Lyampert ’s face.” In my judgment it is a proper inference that Mr Frenkel in the 2011 deposition to the Californian court under oath was seeking to hide, to a large extent at least, his involvement in ITC.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>Turning finally to Mr Lyampert, in the litigation in the Californian courts regarding Inc, he and Mr Frenkel agreed to the appointment of an independent accountant to look into its affairs after 8 February 2010. This was in the context that from about 2007, each of them took out substantial monies from Inc for their own personal expenditure. On that day Mr Frenkel served upon Mr Lyampert a notice to dissolve Inc, and thereafter took no further part in its running. Mr Lyampert exercised his right under the Californian Corporations Code for an appraisal, which took about 18 months thereby avoiding a prompt winding up. From that time until 2012 Inc continued to trade with Mr Lyampert in day to day control.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>In that litigation, he accused Mr Frenkel of implementing a secret plan to destroy Inc and himself. In a statement of decision dated 11 January 2017, the Superior Court of California held that these claims did not stand up to scrutiny. On the basis of the independent accountant ’s report, and after each party had put their points about it, the court found that during that period Mr Lyampert had taken over $ 4million of Inc ’s money and applied it for his own expenditure. It ordered him to pay Mr Frenkel about $ 2million, representing his share.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>The judge, the Honourable Steven J Kleifield, in his decision said he was reminded of a previous case where none of the key witnesses was credible, there was virtually no independent corroboration, and where business records were kept not according to accepted accounting principles but by ‘ winging it.’ He also found that whilst Mr Lyampert could have agreed the dissolution or bought out Mr Frenkel ’s interest, the most likely reason he did not was that he wanted to keep Inc for himself and did not want Mr Frankel to get any economic benefit from its operations or from the sale of anyone ’s interest in it.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>Both parties appealed, and one of Mr Lyampert ’s grounds was that the accountant had reversed the burden of proof by recording expenditure as personal if there was no documentation to show otherwise. In its judgment dated 7 May 2019, the Court of Appeal cited the judge ’s observation summarised above and dismissed the appeal. It held that as Mr Lyampert owed a fiduciary duty to Mr Frenkel to account for monies received and expended by Inc after 8 February 2010, it was appropriate to put the burden of proof in respect of the accounting issues on Mr Lyampert. The court observed that his insistence that Mr Frenkel was required formally to resign his corporate position in Inc whilst he was “effectively attempting to steal” it from Mr Frenkel was “inequitable to say the least.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>Before me, Mr Lyampert in cross-examination accepted that he owes the sum awarded and that he has to date paid none of it. His explanation was that he had tried unsuccessfully to negotiate with Mr Frenkel about payment, and he did not have funds to pay. In my judgment, it is not credible that those are the reasons why nothing at all has been paid, given the sums which he accepts he has received from UK between 2010 and 2017 (as to the which, see below), and that by 2018 the annual profits of UK had jumped to £ 1 million and have continued rising since.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>It does not necessarily follow that these issues of credibility and reliability impact directly on the essential dispute as to what was said and done in February and March 2010. However, each is so significant that I am not satisfied that I should simply prefer the evidence as to these conversations of one witness over another.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>Judge Tipples after hearing the evidence before her on the issues before her, and in particular on the main issue as to the 2004 agreement, accepted the evidence of Mr Bell in preference to that of Mr Frenkel. However after hearing the evidence before me with a focus on what was said and done in 2010, I was left in a similar position in relation to these conversations as Judge Kleifield was when dealing with the issues and witnesses before him.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>Before me, whilst each of the main witnesses sought to discredit those aligned against him, there are substantial credibility or reliability issues as to the evidence of each of the main witnesses with virtually no independent corroboration. In those circumstances, the undisputed or incontrovertible facts, the proper inferences to be drawn from them, and the inherent likelihoods assume a particular importance.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>I have already set out some of the facts as now undisputed or as found and now accepted, and I will now complete the background. Inc was formed in 2001 with Mr Frenkel and Mr Lyampert as equal shareholders and directors. The former was its chief of finance and the latter its president. The reason why UK was formed was to promote Inc ’s access to the European and United Kingdom markets. It was a shelf company and as indicated the only share at the time was issued to Mr Bell, although it was found by Judge Tipples and now accepted by the parties to the present dispute that he held that share on trust as to 49 % for himself and as to 51 % as to Inc.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>Between 2004 and 2010 the business of each company and the trading relationship between the two was successful. The management of each however was informal and not well documented. The accounts of UK for the year end 30 April 2010 show a turnover of just under £ 2million and a profit of just over £ 100,000. The balance sheet shows tangible assets of £ 12,571 and net assets of £ 137,067. Mr Bell made payments to Inc by way of profits share and/or dividends in this period. One such payment was made directly to Inc, but others were made to Mr Frenkel ’s and Mr Lyampert ’s investment companies.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>No particular reason was advanced in evidence as to why the share issued in UK in 2009 was issued in Mr Lyampert ’s name, and it appeared to be accepted that it could just easily have been issued at that time in the name of Inc. Mr Bell accepts that such issue did not affect Inc ’s 51 % beneficial ownership of UK at that time.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>After the fall out, there was no further trade between the two companies. Mr Frenkel took no further part in Inc ’s operation but Mr Lyampert continued to operate it and to trade until 2012 when it was wound up on the application of Mr Frenkel by the Californian court. During the course of the winding up proceedings the court in October 2011 confirmed an appraisal valuing Inc at $ 10million. The only work which Mr Frenkel did for Inc after February 2010 was to carry out a reconciliation of what Inc owed to UK. This took some months and showed that the amount owed was £ 284,000. Mr Bell accepts that after that time he saw Inc and Mr Lyampert as one.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>In the meantime Mr Bell and Mr Lyampert agreed to work together to carry on UK ’s business and as part of that agreement the latter agreed to assume responsibility for what Inc owed UK. Their evidence on this was not challenged before me, and Inc accepts in its pleading that the new arrangement asserted by the claimants reflects the business of the two companies as it subsequently developed as a matter of fact after the fall out.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>Mr Bell accepts that in January 2011 he received from Mr Frenkel a declaration to sign acknowledging that he had an interest in UK. Mr Bell did not sign it as, he says, he did not think it was valid. Mr Frenkel said that he had sent a similar email in May 2010 but Mr Bell said that he did not receive the earlier one. He also accepts that in 2012 he received emails from Mr Frenkel asking for payments from UK, and that in response in April 2012 he asked for Mr Frenkel ’s bank details. In cross examination, Mr Bell said that he did so as a stalling tactic. In the event, no further payments were made to Inc or Mr Frenkel from UK. Mr Bell did make such payments by way of profit share and/or dividends to Mr Lyampert between 2010 and 2017 which Mr Lyampert accepts as totalling about $ 847,000 and £ 740,000.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>After Mr Frenkel instituted proceedings in 2015 claiming a 25.5 % shareholding in UK there were exchanges of correspondence between solicitors acting for the main witnesses. Mr Bell wanted to settle and to leave the litigation which he saw as a dispute between Mr Frenkel and Mr Lyampert. In that context, in a letter from solicitors acting for UK and Mr Bell dated 31 August 2016, it was stated that Inc was the correct and legal and beneficial owner of 51 % shares in Inc. Before me, Mr Bell maintained that the letter was, or should have been, referring to the pre 2010 position. There were other assertions on his behalf in that correspondence which suggested that it was he and Mr Lyampert who were the beneficial shareholders. This is another example of Mr Bell ’s confused evidence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>In 2018, Mr Bell agreed to purchase Mr Lyampert ’s share in UK for £ 1.9million. That agreement has not been completed because of the ongoing litigation. Mr Bell told me that he needs the share to make a share allocation to key employees, without which they will probably leave UK and its business would then probably fail.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>In those circumstances I turn to the inherent likelihoods regarding the disputed conversations in February and March 2010.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>The indications which suggest that Mr Frenkel ’s account is the most likely are as follows, in my judgment. First, he would not simply give up a valuable asset, namely what he believed to be his 25.5 % beneficial shareholding in UK, or objectively his interest indirectly through Inc. Second, he would not simply walk away from UK and leave his bitter enemy at that point, Mr Lyampert, with his beneficial shareholding as he believed to him to have, or objectively, through Inc. Third, that beneficial shareholding means that Mr Bell could not have the business to himself, as he says Mr Frenkel told him. Fourth, the fact that Mr Frenkel continued to work on the Inc-UK reconciliation indicates that he was not simply walking away. Fifth, only months later Mr Frenkel was asking Mr Bell to confirm his interest in UK and to make payments from it to him.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>The indications which suggest that the accounts of Mr Bell and Mr Lyampert are the most likely are as follows. First, at this point Mr Frenkel was setting up a new company, ITC, in competition with Inc and UK and had loaned substantial sums to it. Second, retaining his shareholding in UK would continue a relationship with Mr Lyampert, something he did not want. Third, the financial position of UK and the financial benefits which Mr Frenkel was obtaining from it were very small compared with the financial benefit from Inc. Fourth, Mr Frenkel nevertheless served a dissolution notice in respect of Inc. Fifth, that meant that the trading venture with UK could not continue, which venture was the reason why UK was set up. Sixth, Inc owed a substantial debt to UK. Seventh, Mr Frenkel was apologetic to Mr Bell about the fall out and a way of minimising the impact of that on UK or Mr Bell would be to allow Mr Bell to do what he wished with UK.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>Putting all these factors into the balance and weighing them up, in my judgment the balance of likelihoods tips in favour of Mr Bell ’s account. It is clear in my judgment that Mr Frenkel wanted to dissolve Inc and had set up a new company to compete with UK. The trading relationship between Inc and UK was at an end. Mr Frenkel was still friendly with Mr Bell and felt he needed to apologise to him for the situation between himself and Mr Lyampert.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>By disclaiming what he thought was his interest in UK, he would be handing the majority shareholding in it to Mr Bell. It is clear that he wanted nothing further to do with Mr Lyampert. Although it does not necessarily follow that he was willing to give up his interest (direct or indirect) in UK or a share of the profits, having regard to its relative modest financial position and Mr Frenkel ’s clear bitterness towards Mr Lyampert at that time, in my judgment it is likely that he wanted to walk away from it all.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>That does not mean that he wanted to divest himself of his interest in Inc as a valuable company in its own right (as opposed to any direct or indirect interest or rights in respect of UK). It is likely that he thought he would realise his interest in Inc quickly. As he accepted in cross examination, he thought that the dissolution of Inc would be fast and that he intended to be involved in ITC. It is likely that it was only when he realised that Mr Lyampert ’s “resistance” as he termed it meant that Inc ’s dissolution would not be so fast that he stepped back from ITC and reasserted any interest in UK.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>Mr Frenkel maintained that he was speaking in his personal capacity to Mr Bell in February and March 2010. It appears that from this time Mr Bell regarded Mr Lyampert as in control of Inc. However, these conversations took place in the immediate aftermath of the fall out, and in the context that the main witnesses were working out the way forward. Mr Frenkel accepted in cross examination that he did not give Mr Bell any cause to believe in these conversations that he was no longer a director of Inc.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>In determining the legal consequences of Mr Frenkel ’s words to Mr Bell in February and March 2010, regard must be had to what a reasonable person with the background knowledge of the parties rather than a pedantic lawyer would have understood the parties to mean. This principle was applied in the context of beneficial ownership of shares by HH Judge Hodge QC sitting as a judge of the High Court in Al-Dowaisan v Al-Salam [2019] EWHC 301 (Ch) at paragraph 206, citing Lord Hoffman in Jumbo King v Faithful [1999] HKCFA 80.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>Mr Buck relies on the acceptance by Mr Lyampert in cross examination before me that he and Mr Frenkel operated Inc between 2004 and 2010 on the basis that the agreement of both of them was needed for any action by Inc. Accordingly, he submits that it can not be the case that Mr Frenkel had apparent authority to give up its interest in UK in 2010. However, in answer to a question wheth Mr Lyampert added that this was the case up to a certain point in time.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>At the time Mr Frenkel was speaking to Mr Bell in February and March 2010 it was clear that he wanted nothing to do with Mr Lyampert. Objectively, he must have been speaking on behalf of Inc, as he personally held no interest in UK whatever he may have believed. At this time he was in the process of dissolving Inc in his capacity as director, chief financial officer and shareholder. He confirmed that he did not suggest to Mr Bell at this time that he was no longer a director. In my judgment he had authority in such capacity, apparent if not actual, to speak on behalf of Inc.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>The claimants and Mr Lyampert put the effect in law of those conversations in a number of different ways, namely waiver, abandonment, disclaimer, proprietary estoppel and promissory estoppel. In my judgment the appropriate categorisation in respect of the shareholding and share of the profits is disclaimer. In In re Paradise Motor Co Ltd [1968] 1 WLR 1125, the Court of Appeal dealt with a situation where a registered shareholder of shares in the company was informed of the registration but replied to the effect that he wanted no shares. He later changed his mind.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>One of the points taken on his behalf was that there could be no disclaimer as it would, by re-transfer, be a disposition of an equitable interest in property, which was by section 53(2) of the Law of Property Act 1925 required to be in writing. Dankwerts LJ, giving the judgment of the court said at 1143 B: “We think that the short answer to this is that a disclaimer operates by way of avoidance and not by way of disposition.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>Mr Buck submits that there could have been no disclaimer as that requires full knowledge of the interest to be disclaimed and full intention to disclaim it (see Lady Naas v Westminster Bank Ltd [1940] AC 366). As Mr Frenkel thought he personally owned a beneficial interest rather than Inc, he can not have been acting with full knowledge. However, in my judgment the fact that he thought he had a direct interest rather than an indirect interest through Inc (in effect, in similar amount) does not deprive him of the requisite knowledge. It is clear in my judgment that both he and Mr Lyampert acted in a way which blurred the legal distinction between Inc as a separate entity and their own interests, for example by taking money out of Inc for their personal expenses and by directing profits and/or dividends due to Inc from UK to their personal investment companies.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>As for the share of the profits, it was submitted on behalf of Inc in closing that this aspect agreed in 2004 was separate from that relating to the shareholding and the trading relationship and did not come to an end in 2010 on the basis of what Mr Frenkel said to Mr Bell. In my judgment however his words were clear enough to deal with all three strands, whether seen as separate agreements or not.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>If disclaimer is not the appropriate legal analysis in respect of the profit share agreement, then in my judgment as an alternative what was said and done in 2010 amounted to determination on reasonable notice or waiver of contractual rights (see Chitty on Contracts 33rd edition 4-087 and 14-029).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>As Mr Thorne submits, the new arrangement between Mr Bell and Mr Lyampert after the former ’s conversations with Mr Frenkel in February and March 2010 was of some benefit to Inc. Inc was discharged from its debt to UK and was released from territorial restrictions and obligations to provide products at cost and account for profit. As Mr Frenkel after February 2010 took no part in the operation of Inc, Mr Lyampert had actual or apparent authority on its behalf to enter into the new arrangement.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>The findings that the beneficial interest of Inc in UK was disclaimed by Mr Frenkel ’s words to Mr Bell in February and March 2010, and that the profit sharing was determined as set out above, make it unnecessary to consider the claimants’ points on abuse of process, limitation or laches.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>However, on behalf of Inc and Mr Frenkel, it is submitted that the claimants are barred from bring this claim, because of what is said to have been a change in the position of Mr Bell as set out in his 2012 deposition, the 2016 correspondence and his evidence before Judge Tipples on the one hand, and his evidence in these proceedings on the other. At paragraph 9.46 of the 5th edition of Spence Bower and Handley: Res- Judicata, this is said: “A party ’s conduct in the course of legal proceedings may estop him from adopting an inconsistent position in those or later proceedings.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>As I have already indicated, in my judgment the conduct of Mr Bell as outlined above does not amount to a clear and consistent position in previous legal proceedings so as now to estop him or UK from asserting a disclaimer by Inc in 2010. His evidence in 2017 and before me as to what Mr Frenkel told him in early 2010 was broadly consistent. Some passages in his evidence before Judge Tipples, in his solicitors correspondence in 2016 and in his 2012 deposition , in the circumstances summarised in paragraph 17 above as to the legal consequences may be taken as inconsistent with his position in these proceedings, whereas other passages may not. The overall impression is one of confusion which is why I have not found his evidence before me to be reliable. But that is not sufficient to found the claimed estoppel.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>Mr Barden on behalf of Mr Frenkel took another point that Mr Frenkel was not properly made a party to these proceedings and no relief is sought against him. He could have been called to give evidence as a witness without having to be joined as a party. The only reason he was joined was for the claimants to allege issue estoppel against Inc on the basis of Mr Frenkel ’s conduct and to seek costs against him.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>Mr Strelitz replied that it was not necessary to join him to seek costs and he is funding Inc ’s costs of these proceedings by a loan and promissory note which he agreed with Mr Yepremyan. Costs could be claimed against him on this basis. The reasoning for joining him in is so that he would be bound by the outcome, in the context where he still pursues relief in the Californian courts which is inconsistent with the claimants’ position in the present proceedings. In the confused background to these proceedings in my judgment that was a reasonable viewpoint.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>Mr Strelitz, whilst not impugning Mr Yepremyan ’s appointment by the court, submitted that there is no real line between him and Mr Frenkel who by funding Inc ’s costs remains in control, and that Inc has defended these proceedings without any real evidence. Both men denied any influence by Mr Frenkel. In my judgment these attacks on Mr Yepremyan were unjustified. The claimants brought their claim on the basis that Inc was beneficially entitled in UK until 2010 and relied on Mr Bell ’s evidence of a disclaimer when, as I have found, that evidence was confused and some of his evidence to Judge Tipples and to me suggested that Inc retained a shareholding and a right to profits from UK thereafter. In my judgment Mr Yepremyan has acted properly pursuant to his appointment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>In conclusion, the claimants are entitled to the declarations they seek. Broadly these are to the effect that Mr Bell and Mr Lyampert are the only legal and beneficial owners of the shares in UK and, since March 2010, have between them been solely entitled to its profits. Inc is not entitled to relief.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>I invite the parties to attempt to agree the wording of a draft order to reflect these conclusions. Counsel helpfully indicated at the end of closing submissions that any disagreement on consequential matters can be dealt with on the basis of written submissions. The draft order and any such submissions should be filed within 14 days of handing down of this judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>A draft of this judgment was sent to the parties on 26 January 2021 for hand down on 29 January. On 28 January by email a request was made on behalf of Inc for adjournment of the issue of permission to appeal for 14 days and for an extension of time to file any notice of appeal to 21 days after my decision on any application for permission. One of the reasons given for the request for more time was that Inc is based in California. I was referred to the decision in MacDonald v Rose [2019] 1 WLR 2821 in which the Court of Appeal confirmed the appropriate way in which to deal with such applications. The court confirmed that any permission decision should normally be dealt with at the same time as the judgment is handed down, although it recognised that there may be situations where more time is needed. It was also emphasised that the time for filing an appeal notice should normally be 21 days from the decision date, namely the date on which judgment is handed down (see paragraph 21).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>Inc in its closing submissions before me said that despite the substantial number of authorities and documents placed before the court, the principal issues are relatively simple. Although Mr Yepremyan is based in California he is a lawyer who gave evidence before me and instructions should not be difficult to obtain. I will adjourn the issue of permission until Friday 5 February 2021. Any application should be filed and served by 4 pm on 4 February. Any response (if so advised) can be sent to the court by email no later than noon on 5 February. I will make a decision promptly and in good time for any notice of appeal to be served within 21 days from 29 January 2021 in accordance with CPR 52.3(2)(a), and so I do not extend time.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

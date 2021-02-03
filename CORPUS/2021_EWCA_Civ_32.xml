@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2021_EWCA_Civ_32" />
+          <FRBRuri value="www.judiciary.uk/2021_EWCA_Civ_32" />
+          <FRBRdate date="2021-01-20" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/asda-v-leeds-city-council" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/asda-v-leeds-city-council" />
+          <FRBRdate date="2021-01-20" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_32.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_32.xml" />
+          <FRBRdate date="2021-02-01" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="PlanningCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PlanningCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="AsdaStoresLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AsdaStoresLimited" showAs="Asda Stores Limited" />
+        <TLCOrganization eId="LeedsCityCouncil" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LeedsCityCouncil" showAs="Leeds City Council" />
+        <TLCOrganization eId="CommercialDevelopmentProjectsLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CommercialDevelopmentProjectsLimited" showAs="Commercial Development Projects Limited" />
+        <TLCPerson eId="MrsJusticeLievenDbe" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrsJusticeLievenDbe" showAs="Mrs Justice Lieven Dbe" />
+        <TLCPerson eId="SirKeithLindblom" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SirKeithLindblom" showAs="Sir Keith Lindblom" />
+        <TLCPerson eId="LordJusticeCoulson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeCoulson" showAs="Lord Justice Coulson" />
+        <TLCPerson eId="LordJusticeMales" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeMales" showAs="Lord Justice Males" />
+        <TLCPerson eId="PaulTuckerQ.c." href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PaulTuckerQ.c." showAs="Paul Tucker Q.c." />
+        <TLCPerson eId="SarahReid" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SarahReid" showAs="Sarah Reid" />
+        <TLCPerson eId="AddleshawGoddardSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AddleshawGoddardSolicitors" showAs="Addleshaw Goddard Solicitors" />
+        <TLCPerson eId="StephanieHall" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#StephanieHall" showAs="Stephanie Hall" />
+        <TLCPerson eId="LeedsCityCouncilLegalServices" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LeedsCityCouncilLegalServices" showAs="Leeds City Council Legal Services" />
+        <TLCPerson eId="RupertWarrenQ.c." href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RupertWarrenQ.c." showAs="Rupert Warren Q.c." />
+        <TLCPerson eId="BirkettsLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BirkettsLlp" showAs="Birketts Llp" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2021] EWCA Civ 32</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>C1/2020/0059/QBENF</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        (
+        <organization refersTo="#PlanningCourt">PLANNING COURT</organization>
+        ) THE HONOURABLE
+        <judge refersTo="#MrsJusticeLievenDbe">MRS JUSTICE LIEVEN DBE</judge>
+        <ref href="#2019EWHC3578Admin">[2019] EWHC 3578 (Admin)</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2021-01-20" refersTo="#hand-downDate">20/01/2021</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#SirKeithLindblom">SIR KEITH LINDBLOM</judge>
+        , SENIOR PRESIDENT OF TRIBUNALS
+        <judge refersTo="#LordJusticeCoulson">LORD JUSTICE COULSON</judge>
+        and
+        <judge refersTo="#LordJusticeMales">LORD JUSTICE MALES</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        R. (on the application of
+        <party as="#appellant" refersTo="#AsdaStoresLimited">Asda Stores Limited</party>
+        )
+        <role refersTo="#appellant">Appellant</role>
+        -and- (1)
+        <party as="#respondent" refersTo="#LeedsCityCouncil">Leeds City Council</party>
+        -and-
+      (2)
+        <party as="#respondent" refersTo="#CommercialDevelopmentProjectsLimited">Commercial Development Projects Limited</party>
+        <role refersTo="#respondent">Respondents</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#AsdaStoresLimited" refersTo="#PaulTuckerQ.c.">Paul Tucker Q.C.</lawyer>
+        and
+        <lawyer as="#barrister" for="#AsdaStoresLimited" refersTo="#SarahReid">Sarah Reid</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#AsdaStoresLimited" refersTo="#AddleshawGoddardSolicitors">Addleshaw Goddard Solicitors</lawyer>
+        ) for the Appellant
+        <lawyer as="#barrister" for="#LeedsCityCouncil" refersTo="#StephanieHall">Stephanie Hall</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#LeedsCityCouncil" refersTo="#LeedsCityCouncilLegalServices">Leeds City Council Legal Services</lawyer>
+        ) for the First Respondent
+        <lawyer as="#barrister" for="#CommercialDevelopmentProjectsLimited" refersTo="#RupertWarrenQ.c.">Rupert Warren Q.C.</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#CommercialDevelopmentProjectsLimited" refersTo="#BirkettsLlp">Birketts LLP</lawyer>
+        ) for the Second Respondent
+      </p>
+      <p>
+        Hearing date:
+        <date date="2020-11-26" refersTo="#hearing">26 November 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>The Senior President of Tribunals:</p>
+        </tblock>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>Did a local planning authority err in law when granting planning permission for a large “mixed-use retail-led” development, because it misinterpreted and misapplied the Government ’s policy for retail development in paragraph 90 of the National Planning Policy Framework (“the NPPF”)? That is the central question in this case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>With permission granted by Lewison L.J., the appellant, Asda Stores Ltd., appeals against the order of Lieven J., dated 16 January 2019, by which she dismissed its claim for judicial review challenging the decision of the first respondent, Leeds City Council, on 5 April 2019, to grant planning permission on an application made by the second respondent, Commercial Development Projects Ltd., for the redevelopment of a site of some six hectares at the former Benyon Centre on the Middleton Ring Road in Leeds. The proposal was to construct “a mixed use retail-led development comprising retail (use classes A1, A2, A3 and A5), leisure (use class D2), non-residential institutions (use class D1) and book makers (sui generis) with associated access, parking and landscaping”. Asda owns and operates a large retail store on land next to the application site, to the south. It objected to the proposal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The main issue in the appeal</p>
+        </tblock>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>From Asda ’s grounds of appeal a single main issue arises, which is whether, in making its decision to grant planning permission for the proposed development, the city council misinterpreted and misapplied the policy in paragraph 90 of the NPPF.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The proposed development</p>
+        </tblock>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>At the time of the decision to grant planning permission, both the application site and Asda ’s store lay outside the Middleton district centre as defined in the Leeds Core Strategy, adopted in November 2014. At its nearest point, the site is about 80 metres from the district centre. It is agreed to be in an “edge of centre” location for the purposes of the NPPF and policy in the development plan.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>Planning permission had been refused for a previous scheme in September 2017, for reasons that did not refer to harm to the district centre. The application with which we are concerned was submitted in January 2018. The Planning and Retail Impact Statement acknowledged (in paragraph 3.2) that the site is “approximately 70 m from the edge of the defined Middleton Town Centre”, but added that “it is immediately adjacent to the proposed Centre boundary in the Leeds Sites and Allocation plan (SAP) which proposes an extension to the existing centre to incorporate the Asda store adjacent to the site”, and that “[the] design of the development seeks to integrate itself into the existing retail provision at Middleton Centre and utilises existing pedestrian infrastructure in order to provide legible links between the proposed development and the existing shop and businesses …”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>Commercial Development Projects intended the development to include a Lidl store and a B&amp;M Homestore, having agreed terms with both. B&amp;M had a store in the district centre, which it intended to close. In August 2018 the city council was advised by CBRE that there would be limited demand for that unit, and a void period of 18 months was likely. B&amp;M had said it intended to leave at the end of its lease, within the next year.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The policies in the NPPF</p>
+        </tblock>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>Under the heading “Ensuring the vitality of town centres” in chapter 7 of the NPPF, paragraphs 89 and 90 state: “89. When assessing applications for retail and leisure development outside town centres, which are not in accordance with an up-to-date plan, local planning authorities should require an impact assessment if the development is over a proportionate, locally set floorspace threshold (if there is no locally set threshold, the default threshold is 2,500m2 of gross floorspace). This should include assessment of: a) … b) the impact of the proposal on town centre vitality and viability, including local consumer choice and trade in the town centre and the wider retail catchment (as applicable to the scale and nature of the scheme). 90. Where an application fails to satisfy the sequential test or is likely to have significant adverse impact on one or more of the considerations in paragraph 89, it should be refused.” Those policies are the same in the February 2019 version of the NPPF as in that published in July 2018.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The policies of the development plan</p>
+        </tblock>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>Policy SP2 of the core strategy states: “The Council supports a centres first approach supported by sequential and impact assessments. The Council will direct retailing, offices, intensive leisure and culture, and community development to the City Centre and designated town and local centres in order to promote their vitality and viability as the focus for shopping, employment, leisure, culture, and community services. Proposals which would undermine that approach will not be supported. ….”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>Policy P8 confirms that the city council “has adopted a centres first approach to main town centre uses as set out in Policy SP2 …”, and sets out “sequential and impact assessment requirements” according to the location and size of development.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The meeting of the South and West Plans Panel on 18 October 2018</p>
+        </tblock>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The application for planning permission first came before the city council ’s South and West Plans Panel at its meeting on 18 October 2018. In his report to the panel the Chief Planning Officer recommended that it be refused for two reasons, the first of which was this: “1) The proposal (in this edge of [centre] location) will result in a significant adverse impact on Middleton Town Centre, therefore harming the viability and vitality of this town centre location. The proposal is therefore contrary to paragraph 89 and 90 of the NPPF and policies SP2 and P8 of the Core Strategy.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>The officer told the members that Asda had objected on the ground that the development would harm the “vitality and viability” of the district centre, contending that “[closure] of B&amp;M [would] result in 43 % of all trade loss from Middleton Town Centre”, and that the development would “impact on other stores due to loss of linked trips from visitors to B&amp;M” (paragraph 6.3 of the report). He also reported the consultation response of the “Local Plans” officers, who had said that “… the decision on whether the proposal will result in a significant adverse impact (thus requiring refusal in accordance with para 89 of the NPPF and P8 of the Core Strategy) rests on the likelihood of the B&amp;M unit being re- occupied, that likelihood has now significantly reduced, thus tipping the balance to the extent that we now consider that the application is likely to have a significant adverse impact” (paragraph 7.2).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>In section 8 of his report, the officer reminded the members of the requirement in section 38(6) of the Planning and Compulsory Purchase Act 2004 that applications for planning permission should be determined in accordance with the development plan unless material considerations indicate otherwise (paragraph 8.1). He included Policy SP2 and Policy P8 in his list of the most relevant policies in the core strategy (paragraph 8.3). He went on to refer to the policies of the NPPF, and said this about the policies in paragraphs 89 and 90 (in paragraph 8.10): “8.10 The NPPF sets out in paragraph 89 that when assessing applications for retail and leisure development outside of town centre, an impact assessment will be required if over 2,500 sqm or a locally set threshold, which in Leeds is set at 1,500 sqm through Policy P8 of the Core Strategy. This should include an assessment of a) the impact on investment in centres, and b) the impact of the proposal on town centre vitality and viability. Paragraph 90 instructs local planning authorities that where an application fails to satisfy the sequential test or is likely to have a significant adverse impact on one or more of the considerations in paragraph 89, it should be refused.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>In section 10 of the report, the officer set out his appraisal of the proposed development. Under the heading “Principle of Development”, he noted that the proposal was to “redevelop a previous employment site to a predominantly retail-led use” (paragraph 10.1). He quoted policy EC3 of the core strategy, which set three criteria by which to assess the acceptability of proposals to introduce “other economic development uses including town centre uses on sites last used for employment”. Criterion (iii) is that “[the] proposal will deliver a mixed use development which continues to provide for a range of local employment opportunities …”. He advised that, “[given] the proposal will create approximately 140 jobs, it is considered that [criterion] (iii) applies, and this policy is met” (paragraph 10.2).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>A lengthy section of the report was devoted to the “Impact on Middleton Town Centre”. The officer advised the members that the site was not “in-centre” but “edge of centre”, and that “… in accordance with policies SP2 and P8 of the Core Strategy and Chapter 7 [the proposal] must pass a sequential and Impact Assessment before the application is approved” (paragraph 10.6). In his conclusions on the impact the development would have on the district centre, the officer said that “… the severity of the projected impact upon Middleton Town Centre rests largely on the likelihood of the re-occupation of the existing B&amp;M Bargains unit that will be vacated as a result of the new development” (paragraph 10.10). He referred to the advice given to the city council by CBRE (paragraph 10.11), which “[cast] significant doubt on the re-occupation of the existing B&amp;M unit” (paragraph 10.12). His advice, “given that the unit generates 42 % of the turnover of the centre”, was that “the failure to re-occupy the unit with a store of a similar footfall and turnover would have a significant adverse impact on Middleton Town Centre” (paragraph 10.14). The proposed extension to the boundary of the district centre, to include the Asda store, “would have the effect of increasing the overall turnover of the centre, thus reducing the % impact of the proposed development on the centre”. But whether the Adsa store was included within the district centre boundary or not, it was “the view of officers that the proposal will have a significant adverse impact on the existing centre of Middleton by reducing trade, footfall and diminishing consumer choice, thus reducing the vitality and viability of the centre” (paragraph 10.15). The “positive impact on linked trips to the existing centre” was not expected to “mitigate the impact of the likely long-term closure of the B&amp;M unit” (paragraph 10.16).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Under the heading “Retail Policy Conclusion”, the officer stated (in paragraph 10.18): “10.18 Given the increased uncertainty surrounding the re-occupation of the B&amp;M unit in Middleton Centre, as a result of the unfavourable trading conditions for Budget / Discount retailers, it is considered that there is a material change in circumstances from the previous application. As with the previous application the decision on whether the proposal will result in a significant adverse impact (thus requiring refusal in accordance with para 89 of the NPPF and P8 of the Core Strategy) rests on the likelihood of the B&amp;M unit being re-occupied. In our view that likelihood has now significantly reduced, thus tipping the balance to the extent that we now consider that the application is likely to have a significant adverse impact. There are significant concerns about a) the likelihood of the re- occupation, and b) the length of time that re-occupation will take and the impact that would be had on footfall in the centre in the meantime. Therefore in accordance with para 89 of the NPPF and SP2 and P8 of the Core Strategy, it is recommended that the application should be refused on retail impact grounds.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>At the end of his report, the officer concluded (in paragraphs 13.1 and 13.2): “13.1 … [It] is now considered that there is a material change in circumstances relating to retail impact, from the previous application. As with the previous application the decision on whether the proposal will result in a significant adverse impact (thus requiring refusal in accordance with para 89 of the NPPF and P8 of the Core Strategy) rests on the likelihood of the existing B&amp;M unit in Middleton town / Town Centre [sic] being re-occupied. 13.2 Officers now consider that this likelihood has now significantly reduced, thus tipping the balance to the extent that it is now considered that the application is to have a significant adverse impact on Middleton Town Centre. Therefore in accordance with para 89 of the NPPF and P8 of the Core Strategy, it is recommended that the application should be refused on retail impact grounds. It is not considered the benefits of the scheme in terms of economic investment outweighs the harm.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>The members considered the proposal, having visited the site earlier in the day. The minutes record that the panel was made aware of B&amp;M ’s letter to the city council saying they intended to vacate their unit in the district centre. It was told of the work to assess the effects of this on the district centre, and was advised that “it could be difficult to re-let a unit of this size”. It was addressed by a director of Commercial Development Projects, who said the development would create “180 local jobs” and would be a “substantial investment for the local area”. Having discussed “[changes] in the market”, “[investment] and creation of jobs in the area”, and “[the] sustainability of Middleton Town Centre”, it resolved to defer its consideration of the proposal, to enable “further information” to be provided on “retail impact”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The panel ’s meeting on 20 December 2018</p>
+        </tblock>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>The application came back before the panel at its meeting on 20 December 2018. The Chief Planning Officer produced a second report, updating the previous one, which was attached to it. The recommendation for refusal was maintained, for the same reasons as before. The officer referred to a further representation from Asda, the gist of which was that the development would have “a significant adverse impact” on the district centre, that “[in] those circumstances, [paragraph] 90 of [the NPPF] mandates the refusal of planning permission”, and that this “policy mandate weighs strongly against the grant of permission and it is difficult to see that there is any other course [of] action properly open to members other than to refuse planning permission in accordance with the officer recommendation” (paragraph 3.1).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>Under the heading “Planning Policy”, the officer said (in paragraph 4.6): “4.6 As stated in the Panel Report dated 18th October, Officers consider the proposal will have a significant adverse impact on Middleton District Centre, and as such should be refused in accordance with para 89 of the NPPF and P8 of the Core Strategy. Some members indicated at the Panel meeting on 18th October, that they disagree with Officers’ interpretation of national policy and the retail impacts of this scheme, and they did not consider that the proposal would have a significant adverse impact on the vitality and viability of Middleton Centre.” But he acknowledged (in paragraph 4.8): “4.8 Members are entitled to form a different view, which is contrary to the recommendation of Officers and place a different degree of weight on issues, in making a decision. ….”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>The minutes record several matters that had been “highlighted”, including that “[officers] were still of the view that the principle of the application was not acceptable as reported at the October meeting due to the adverse impact on Middleton Town centre”, “[the] applicant had not felt it was possible to make improvements to pedestrian links”, and “[it] was recommended that the application be refused due to the impact on Middleton Town Centre and the loss of employment and housing land”. A representative of Commercial Development Projects addressed the panel, stating that “[the] proposals would only have a minimal impact on Middleton centre”, and again that the development would “create up to 140 jobs and local employment during construction …”. Objectors also spoke. Among the contentions made were that “[the] application should rightly be refused in line with policy as there would be a 40 % impact on Middleton Town Centre”, and that “[there] was no guarantee that the existing B&amp;M site would be re-used”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>Questions and comments from the panel followed. The minutes summarise the discussion that took place, and record the resolution: “… [The] following was discussed: • Some members showed support towards the application and felt that the proposals would have a positive impact on the area. It was felt that the employment opportunities and the potential to attract more customers to the area were factors that could outweigh the recommendation for refusal. • Some concern that policy and guidelines would not be followed should the officer recommendation be overturned. The Panel received further advice with regards to this and informed that as decision makers it was for Members to decide what weight to give to each material consideration and an alternative motion to the officer recommendation would have to be tabled should a different decision be sought. • There was still some concern with regard to the layout and design. It was reported that should the application be approved then the detailed design could be agreed with Ward Members via discharge of conditions. There was a broad agreement across Members that other issues outweighed policy and that the application should be approved contrary to the officer recommendation. Issues highlighted included the opportunity for employment, economic impact, the site ’s location to Middleton centre and the opportunity to extend the centre. A motion to approve the application, contrary to the officer recommendation was made and seconded and following a vote it was: RESOLVED – That the officer recommendation be overturned and the application be approved in principle as the following were considered to outweigh the recommendation set out in the officer report: • The additional jobs growth provided by the development and the economic development it represents in the area. • The site ’s location adjacent to the existing centre and the excellent links allowing for enhanced linked trips between the existing centre and the proposal site. • The proposal site is an obvious choice to expand the centre to provide an increased range of [goods] and services for local people, given the limitations of the existing centre. Officers were requested to return the matter to the next available Panel to report the provisional reasons formulated by the Panel for consideration.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>We also have a transcript of the meeting. This records the officer ’s advice that “the proposal will have a significant adverse impact on Middleton District Centre and should be refused in accordance with [paragraph] 89 of the [NPPF] and Policy P8 of the Adopted Core Strategy”, and “[it] is not considered [that] the benefits of the scheme in terms of the economic investment outweigh the harm”. In discussion, Councillor Wray said officers had given “undue weight” to “[NPPF] policy in terms of the impact [the development] will have”; Councillors Heselwood and Gibson referred to the employment it would create; the Chair, Councillor Gruen, cast doubt on the officers’ “weighting” of impact on the district centre; Councillor Campbell said he foresaw a “major impact” on the district centre; and Ms Walker, the city council ’s Head of Service, Legal Services, guided the members on their approach to the “balancing act”, advising them that “the [NPPF] policy relating to [retail] is a very significant policy in certain circumstances, … where an impact is found, however again that in itself is only a material consideration”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The panel ’s meeting on 21 February 2019</p>
+        </tblock>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>On 21 February 2019, the proposal was brought back to the panel again, this time with a report setting out “reasons for approval and suggested planning conditions as requested by Members” at the meeting on 20 December 2018 (paragraph 1.1 of the report). The suggested reasons for approval were stated in this way (in paragraph 2.1): “2.1 At the Panel meeting on 20th December, in considering the application, Members placed greater weight on the benefits of the scheme in terms of economic development, regeneration, increase in retail offer and job creation, and considered these benefits outweighed … any harm the proposal would have on vitality and viability of Middleton District centre. Members also considered the proposal has the potential to boost trade at Middleton District centre, by new linked trips. The economic and regeneration benefits are material planning considerations and valid reasons to approve the application, contrary to the advice of Officers.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The minutes record that the officer ’s report “set out the reasons for approving the application”. The panel resolved to delegate approval to the Chief Planning Officer.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The submissions made by the Secretary of State in these proceedings</p>
+        </tblock>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Though not a party to these proceedings, the Secretary of State for Housing, Communities and Local Government took the opportunity given to him by Holgate J., as Planning Liaison Judge, by an order dated 7 June 2019, to assist the court on the issues of national policy raised in the claim. In written submissions made by his counsel on 8 July 2019, it was asserted that the words “should be refused” in paragraph 90 of the NPPF “should be given their ordinary meaning in [their] context”, which is that “where a proposal causes … a significant adverse effect on town centre vitality it should be assessed as contrary to national policy on ensuring the vitality and vitality [sic] of town centres” and “[this] would, in the absence of any other considerations, provide a basis for refusal of the application” (paragraph 16 of the submissions); that “[paragraph] 90 read in context does not mean that in any case where … the proposals are likely to have a significant adverse effect on planned investment or town centre vitality and viability the application must be refused”, and “[in] this sense, it is not mandatory” (counsel ’s emphasis) (paragraph 17); and that “[such] an interpretation would … not give “should” its ordinary meaning”, “… be inconsistent with the duties under section 38(6) [of the 2004 Act] and [section] 70(2) [of the 1990 Act] to have regard to all material considerations” (paragraph 18).</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <motivation>
+        <tblock>
+          <p>The judgment of Lieven J.</p>
+        </tblock>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The main contention in Asda ’s challenge is that the city council misinterpreted and misapplied the policy in paragraph 90 of the NPPF by failing to recognise that it contains a “presumption” against development that would have a “significant adverse effect” on the “vitality and viability” of a town centre. The panel, it is said, carried out a simple, unweighted – or “flat” – balancing exercise, merely placing greater weight on the benefits of the development than on its likely harmful impact on the district centre. It should have applied a “tilted balance” because of the breach of policy. And the city council had failed adequately to explain how the policy had been applied.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>Lieven J. rejected that argument. She emphasised that the NPPF must be “read as a whole”. In paragraphs 11 to 14, the term “presumption” is used in the policy for the “presumption in favour of sustainable development”, which creates a “tilted balance”. The policy in paragraph 90 is not one of those referred to in footnote 6, which identifies those capable of providing a “clear reason for refusal” sufficient to disapply that “presumption” (paragraph 43 of the judgment). In paragraph 90 “the word “presumption” is not used, nor is there any suggestion of a tilted balance; or any attempt to tell decision makers that they should put more weight on one factor rather than another”. In that paragraph there is no attempt to require the decision-maker to give “a particular factor particular weight”, whereas, for example, in paragraph 80 the NPPF calls for “significant weight” to be accorded to “economic growth”. So the judge did “not think [Asda ’s] argument was correct on a textual analysis of the NPPF as a whole” (paragraph 44). It would also “create a legal minefield for decision makers with potentially different presumptions pulling in different directions” – for example, between the “presumption in favour of sustainable development” in paragraphs 11 to 14 … and the “implicit presumption” of the kind one sees in the paragraph 90 policy and in the policy in paragraph 130, which says that “permission should be refused for development of poor design …” (paragraph 45).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>The judge saw no inconsistency between her analysis and that of Hickinbottom J., as he then was, in Zurich Assurance Ltd. v North Lincolnshire Council [2012] EWHC 3708 (Admin). That case concerned the policy EC17.1 of PPS4, which contained the expression “should be refused planning permission”. Though Hickinbottom J. referred to a “presumption” in the policy, he “seems to have accepted that the decision maker would continue to undertake a balancing exercise, in which the ascription of weight was for the decision maker on normal [Tesco Stores Ltd. v Secretary of State for the Environment [1995] 1 W.L.R. 759] principles” (paragraph 46).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Did the city council misinterpret and misapply the policy in paragraph 90 of the NPPF?</p>
+        </tblock>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Before us, Mr Paul Tucker Q.C., for Asda, put forward the same argument as the judge rejected. He acknowledged that the panel was aware of the wording of the policy in paragraph 90 of the NPPF, which had been quoted in the first officer ’s report. He also accepted that, in performing its duties under section 70(2) of the 1990 Act and section 38(6) of the 2004 Act, the city council was free to depart from the policy in the NPPF, as one of the “other material considerations”, or to give greater weight to other factors than it did to any conflict with those policies.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>Mr Tucker submitted, however, that the judge ’s interpretation of paragraph 90 of the NPPF was wrong, as a matter of law. In circumstances where it was accepted that the proposed development would have a “significant adverse impact” on the vitality and viability of the town centre, the clear wording of paragraph 90 – “should be refused” – creates a policy presumption or expectation that planning permission will be refused. The fact that paragraph 90 – unlike paragraph 11 – does not use the word “presumption” is of no significance. Though the policy may not mandate that permission be refused, the presumption itself had to be taken into account, and weight had to be given to the conflict with policy, in the planning balance. It was not open to the members simply to decide what weight they should give to the significant harm to the vitality and viability of the district centre. In striking only a “flat” balance, they erred in law. The policy is unequivocal. No exceptions are stated – by contrast, for example, with the policies on heritage assets in paragraphs 196 and 197 of the NPPF.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>Mr Tucker relied on the first instance judgment in Zurich Assurance Ltd., where the word “presumption” was used to describe a policy in identical terms to paragraph 90 of the NPPF. Though the court had accepted in that case that the decision-maker still had to undertake a balancing exercise, giving such due weight to the other material considerations, the outcome would be unlawful if the exercise proceeded on an incorrect interpretation of national policy (see E.C. Gransden &amp; Co. Ltd. v Secretary of State for the Environment (1987) 54 P. &amp; C.R. 361, at p.368).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>The prospect of a “legal minefield” being created, and also the charge of “excessive legalism”, were, Mr Tucker submitted, misplaced. Asda ’s argument, he emphasised, is based on the ordinary interpretation of the words used in paragraph 90 of the NPPF. Any difficulties arising from the correct interpretation would be for the Government to consider in producing a revised policy, if it chose to do so.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>I can not accept Mr Tucker ’s argument. In making its decision to grant planning permission, notwithstanding the officer ’s recommendation that permission should be refused, the city council did not, in my view, misinterpret or misapply the policy in paragraph 90 of the NPPF. Rather, the members proceeded on a correct understanding of that policy, but differed from the officer, as they were entitled to do, in the lawful exercise of their own planning judgment. This was the thrust of the argument presented to us by Ms Stephanie Hall for the city council, and Mr Rupert Warren Q.C. for Commercial Developments Ltd ..</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The relevant law is well established, and uncontroversial. The principles governing the interpretation and the application of national planning policy, and the clear distinction between them, have been identified at the highest level (see the judgment of Lord Reed in Tesco Stores Ltd. v Dundee City Council [2012] UKSC 13; [2012] P.T.S.R. 983, at paragraphs 18 and 19, and the judgment of Lord Carnwath in Hopkins Homes Ltd. v Secretary of State for Communities and Local Government [2017] 1 W.L.R. 1865, at paragraphs 24 to 26), and frequently confirmed in this court (see, for example, Barwood Strategic Land II LLP v East Staffordshire Borough Council [2017] EWCA Civ 893, at paragraph 50).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>National planning policy is not the work of those who draft statutes or contracts, and does not always attain perfection. The language of policy is usually less precise, and interpretation relies less on linguistic rigour. When called upon – as often it is nowadays – to interpret a policy of the NPPF, the court should not have to engage in a painstaking construction of the relevant text. It will seek to draw from the words used the true, practical meaning and effect of the policy in its context. Bearing in mind that the purpose of planning policy is to achieve “reasonably predictable decision-making, consistent with the aims of the policy-maker”, it will look for an interpretation that is “straightforward, without undue or elaborate exposition” (see Mansell v Tonbridge and Malling Borough Council [2017] EWCA Civ 1314, at paragraph 41). Often it will be entitled to say that the policy simply means what it says, and that it is the job of the decision-maker to apply it with realism and good sense in the circumstances as they arise – which is what local planning authorities are well used to doing when making the decisions entrusted to them (see R. (on the application of Corbett) v The Cornwall Council [2020] EWCA Civ 508, at paragraphs 65 and 66).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The policy we are considering in this case is a good example. Its language is simple. What it says is that planning permission “should be refused” in the circumstances it contemplates – including where the development proposed will have a “significant adverse impact” on a town centre. The words “should be refused” have a clear meaning, which requires no elaboration by the court. They do not mean “must be refused”. The policy is not imperative. It does not dictate a refusal of planning permission whenever the development proposed is likely to have a “significant adverse impact” on the “vitality or viability” of a town centre.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>The corresponding development plan policy is in somewhat different terms. Policy SP2 of the core strategy introduces “a centres first approach supported by sequential and impact assessments”, and says that “[proposals] which would undermine that approach will not be supported”. The proposition that a proposal “will not be supported” though less emphatic than the proposition that it “should be refused”, is to similar effect. There has, however, been no suggestion in Asda ’s argument, either here or below, that the city council failed to interpret Policy SP2 correctly, or to apply it lawfully, in granting planning permission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>Unlike others in the NPPF, the policy in paragraph 90 does not identify factors that may tell against the proposition that the application “should be refused”. It is not qualified by a clause beginning with a word such as “if” or “unless” or “provided”. But implicit in a policy of this kind, as in many that bear on decision-making, is the need for planning judgment to be exercised in its application. As a material consideration under section 70(2) of the 1990 Act and section 38(6) of the 2004 Act, it must be given such weight as the decision-maker judges to be right when resolving whether the application is to be determined “in accordance with the development plan”, as section 38(6) requires “unless material considerations indicate otherwise”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>This is what I understand Hickinbottom J. to have meant in Zurich Assurance Ltd. when he drew the contrast between a balancing exercise that “takes place within the four corners of the policy: the policy requires it to be performed” (paragraph 22iii) of his judgment), and, in the case of a policy that an application “should be refused”, which is “capable of being displaced if the planning committee considers that it is outweighed by other material considerations”, a balancing exercise “performed outside the four corners of the policy: it is required because of the nature of the policy, not because of its terms”. As he said, in the latter case “one negative factor that must be taken into account in this exercise is of course the fact that it is the national policy to refuse an application in these circumstances” (paragraph 22iv)).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>Plainly, if the decision-maker ignores the Government ’s policy in paragraph 90 of the NPPF, it will fail to have regard to a material consideration. The decision-maker must be aware of the policy, and, if approving a development likely to have a “significant adverse impact” on the “vitality and viability” of a town centre, it must be conscious of the fact that it is making a decision contrary to the proposition, in government policy, that permission for such development “should be refused”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>It is not necessary, in my view, to apply to the policy in paragraph 90 the label of “presumption”. The meaning and effect of the policy are entirely clear without it. What paragraph 90 does is to establish, in national planning policy, a proposition that will indicate a refusal of planning permission if it is not overbalanced by other considerations. It does not matter, I think, whether one calls this a “presumption” or an “effective presumption” or an “expectation”, or something else of that kind. The effect of the policy is the same. Whenever a decision-maker finds there is likely to be a “significant adverse impact” on the “vitality and viability” of the town centre, this will count as a negative factor with the force of government policy behind it. It will go against the proposal as a material consideration. Other policies in the NPPF may support the proposal. These too will be “material considerations” to which appropriate weight must be given. As Mr Warren submitted, the policy in paragraph 90 does not have some special status, enabling it to prevail over any other policy in the NPPF. Nor does it automatically trump any other material consideration or combination of material considerations bearing on the decision.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>The crucial point, therefore, is this. Even if the policy in paragraph 90 is rightly regarded as containing a “presumption”, the “presumption” is one that can be overcome by countervailing factors, which are not specified or limited by the policy itself – but might include, for example, planning benefits such as the creation of jobs in an area where unemployment is high and an uplift to the local economy by the development proposed. Inevitably, this will be more difficult or less according to the nature and degree of the “significant adverse impact” the development is likely to have. The potential harm will vary from one proposal to another. Giving appropriate weight to it is a matter of planning judgment for the decision-maker. In some cases, the development may be judged likely to cause numerous shop closures and vacancies in the town centre, serious and lasting effects on trade to the detriment of the centre as a whole, and a long-term lack of investment. In others, the effects may still be “significant” but much less damaging, and the town centre may be expected to recover in a relatively short time. A “significant adverse impact” is not a uniform concept.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>It follows that the strength of countervailing factors sufficient to overcome the proposition, or “presumption”, in the policy will also vary. The policy “presumption” – if one calls it that – will be overcome only if the likely “significant adverse impact” on the “vitality and viability” of the town centre is judged acceptable when all material considerations are weighed by the decision-maker in performing the statutory obligation in section 38(6) of the 2004 Act. This, of course, must be lawfully done in every case (see Secretary of State for Communities and Local Government v BDW Trading Ltd. [2016] EWCA Civ 493, at paragraph 21). Within the overall process of determination under the statutory scheme, the considerations favouring the proposal will have to be powerful enough to outbalance those weighing against, including the harm to the town centre and the proposal ’s conflict with government policy in paragraph 90 arising from that harm. Otherwise, the proposition or “presumption”, and therefore the policy too, will prevail. However, the weight to be given to these considerations is for the decision-maker, subject only to the court ’s supervision on public law grounds (see the speech of Lord Hoffmann in Tesco Stores Ltd. v Secretary of State for the Environment, at p.780).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>There is a parallel here – though not in the context of section 38(6) – with the reasoning of this court in Gransden. That case concerned the then “presumption in favour of granting planning permission” for housing development in the absence of an identified five-year supply of housing land, in paragraph 3 of Annex A to Circular 22/80. The “presumption” was expressly qualified by the words “except where there are clear planning objections which in the circumstances of the case outweigh the need to make the land available for housing”. In his judgment, with which Sir John Donaldson M.R. and Dillon L.J. agreed, Croom Johnson L.J. said (at p.368): “… This seems to me to require the inspector to undertake a balancing exercise. The presumption is not something which is absolute. It is not a pillar of presumption, waiting to see if it will be knocked down by the impact of serious planning objections. Paragraph 3 clearly requires the inspector to carry out a balancing exercise, he has to take into account a presumption, he has to take into account whether there are clear planning objections, but, then, he has to see whether in the circumstances of the case planning objections outweigh the need to make the land available for housing. There may be circumstances, for example, where there is almost no land available, but not quite, and where there may be clear planning objections either of a greater or lesser weight. These are all matters which have to be taken into account by the inspector in exercising his discretion and coming to his decision.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>Mr Warren submitted to us that the appeal fails on its facts. In my view that submission is right. It is, I think, plain from the officer ’s reports and the minutes of the meetings at which the panel considered the application that the members made their decision conscious of the terms of paragraph 90 and aware that the decision was contrary to national planning policy in that paragraph. Indeed, this conflict with the paragraph 90 policy was at the heart of the panel ’s discussion of the planning merits. That the officer ’s reports, and the minutes, do not refer to paragraph 90 as containing a “presumption” is of no real consequence. We must consider whether the policy played its proper part in the panel ’s decision-making – whether it was both correctly understood and lawfully applied. In my view, it was.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>The first officer ’s report, for the meeting of the panel on 18 October 2018, began with the officer ’s recommendation, in which the first suggested reason for refusal asserted that the proposal was in conflict both with the policy in paragraph 90 of the NPPF and with Policy SP2 and Policy P8 of the core strategy, and framed that assertion in the language of paragraph 90. The allegation was that the development “will result in a significant adverse impact on Middleton Town Centre, therefore harming the vitality and viability of this town centre location”, and “is therefore contrary to paragraph 89 and 90 of the NPPF and policies SP2 and P8 of the Core Strategy”. It was clear, therefore, that the officers did not consider that conflict with national and development plan policy was outweighed by other factors.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>From the outset, then, the members were taken to this as one of the principal matters they had to grapple with. And they were brought back to it several times throughout the officer ’s report: in the summary of Asda ’s objection, which was on the grounds of the development ’s likely impact on the district centre (paragraph 6.3); in the consultation response of the “Local Plans” officers, which focused on the question of whether the development would result in “a significant adverse impact (thus requiring refusal in accordance with para 89 of the NPPF and P8 of the Core Strategy)”, and concluded that the development was likely to have such an impact (paragraph 7.2); in the reference to the content of paragraph 90 of the NPPF, as a policy that “instructs local planning authorities that where an application … is likely to have a significant adverse impact on one or more of the considerations in paragraph 89, it should be refused” (paragraph 8.10); in the paragraphs headed “Impact on Middleton Town Centre”, culminating in the “Retail Policy Conclusion”, which reminded the panel of the question “whether the proposal will result in a significant adverse impact (thus requiring refusal in accordance with para 89 of the NPPF and P8 of the Core Strategy)” and ended with the statement that “in accordance with para 89 of the NPPF and SP2 and P8 of the Core Strategy, it is recommended that the application should be refused on retail impact grounds” (paragraph 10.18); and finally, in similar terms at the end of the report which twice referred to “significant adverse impact” and twice referred to the NPPF and development plan policies (paragraphs 13.1 and 13.2), which were again said to found the recommendation that “the application should be refused on retail impact grounds”, adding that “[it] is not considered the benefits of the scheme in terms of economic investment outweighs this harm” (paragraph 13.2) (emphasis added). I should add that, as Mr Tucker accepted, some of those references to paragraph 89 of the NPPF should clearly be taken as including paragraph 90.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>At the panel meeting on 18 October 2018, as the minutes confirm, the officer ’s report was discussed. The members considered the likelihood of the B&amp;M unit being re-let, other issues relating to the health of the district centre, the investment and creation of jobs, but they wanted more information on retail impact before making a decision on the application. By this stage their main concern, clearly, was whether the economic benefits of the proposal outweighed the likely harm to the district centre, contrary to national policy in paragraph 90 of the NPPF.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>The second officer ’s report, for the meeting of the panel on 20 December 2018, was equally clear on national and development plan policy. Once again, the officer began with his recommendation, which was unchanged. The further representation made by Asda was mentioned, suggesting – incorrectly – that the policy in paragraph 90 of the NPPF, “mandates the refusal of permission”. Again, the members were told, squarely, that the officer ’s view was that the development would have “a significant adverse impact on Middleton District Centre, and as such should be refused in accordance with para 89 of the NPPF and P8 of the Core Strategy” (paragraph 4.6) (emphasis added). They were also told that they were “entitled to form a different view … contrary to the recommendation of Officers and place a different degree of weight on issues, in making a decision” (paragraph 4.8).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>At the meeting on 20 December 2018, as both the minutes and the transcript show, the members discussed the issues thoroughly, expressing different views about the weighting of the harm, including the harm inherent in the conflict with the policy in paragraph 90 of the NPPF, the “employment opportunities”, and the concern that “policy … would not be followed” if the officer ’s recommendation were rejected, and legal advice was given to them about the approach they should take in this exercise. The outcome of the discussion, according to the minutes, was “broad agreement … that other issues outweighed policy” and that planning permission should be granted “contrary to the officer recommendation”. The considerations underlying that conclusion were identified as “the opportunity for employment, economic impact, the site ’s location to Middleton centre and the opportunity to extend the centre”, and these were incorporated in the resolution itself.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>The final stage of the decision-making – the panel ’s meeting on 21 February 2019, at which the “reasons for approval” were settled – demonstrates again that the decision was the result of a balancing exercise, in which, as the minutes record, “greater weight” was given by the panel to the “benefits” of the proposal “in terms of economic development, regeneration, increase in retail offer and job creation”, with the result that these benefits “outweighed … any harm [it] would have on the vitality and viability [of] Middleton District centre”. Another benefit is also mentioned: the development ’s “potential to boost trade at [the district centre], by new linked trips”. Lastly, it is recorded that “[the] economic and regeneration benefits are material planning considerations” and are “valid reasons to approve the application, contrary to the advice of Officers” (paragraph 2.1). That reference to the rejection of the officers’ advice is significant. It leaves no room for doubt that the members were consciously departing from a recommendation based on the policy in paragraph 90 of the NPPF and the corresponding policies of the core strategy.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>When one looks at this process of decision-making, it is, I think, impossible to find any legal error of the kind to which Mr Tucker referred. The decision was one of balance. It emerged from a process in which, from beginning to end, the members knew that the officers were basing their recommendation of refusal explicitly on government policy in paragraph 90 of the NPPF and the corresponding policies of the development plan. The policies were quoted verbatim by the Chief Planning Officer. They were accurately represented in both reports. They were not misinterpreted in any way, nor unlawfully applied.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>The policy in paragraph 90 was not treated, either by the officers or by the members, as precluding a grant of planning permission if the “significant adverse impact” on the district centre, and also the consequent conflict with government policy, were outweighed in the planning balance by the economic benefits and other considerations set out in the resolution of 21 February 2019. That balance, conducted within the statutory parameters, depended on an exercise of planning judgment. The panel exercised its planning judgment lawfully. In doing so, it did not fail to give due weight to the proposal ’s conflict with the policy in paragraph 90. It gave full effect to that policy. It did not ignore the fact that it was making a decision contrary to the policy. After all, it had been repeatedly told that in a case where there would be a “significant adverse impact” on a town centre the policy said planning permission “should be refused”. Its discussion of the proposal was, in truth, centred on the policy. The suggestion that it merely struck a “flat” balance, without giving lawful weight to the policy itself, and the proposal ’s conflict with it, as well as to the harm the development was said to threaten to the district centre, is, in my view, untenable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>I also reject the submission that the reasons for the panel ’s decision are somehow obscure. They are not. They are, I think, quite clear from the relevant minutes.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>Mr Warren drew our attention to the similarities here with the losing argument in Zurich Assurance Ltd .. There too the relevant policies had not been described as giving rise to a “presumption”. Policy EC17 of PPS4 stated that “[planning] applications for main town centre uses that are not in an existing centre and not in accordance with an up to date development plan should be refused planning permission where … the applicant has not demonstrated compliance with the requirements of the sequential approach (policy EC15) …”. It was submitted that there had been a fundamental misunderstanding and misapplication of policy EC17. Instead of being told that where there was a failure to meet the “sequential test” national policy directed refusal of planning permission, the committee was led to believe that the partial breach of it should merely be weighed against the positive material considerations, including the economic benefits of the development. That argument was rejected. The officer had clearly concluded in his report that the “sequential test” had not been passed (paragraph 45ii) of the judgment). But the committee still had to decide whether there were any other material considerations displacing what the judge called “a national policy presumption of refusal”. The officer ’s report had proceeded, “properly, to consider the other material considerations, both positive and negative” (paragraph 45iii), and concluded that the positive outweighed the negative (paragraph 45vii)).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>That, in my view, is what happened in this case, in the application of a national policy in similar terms, including the expression “should be refused”. Adopting a similar approach, the city council ’s South and West Plans Panel reached an entirely lawful decision on the proposal before it.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>For the reasons I have given, I would dismiss the appeal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Coulson</p>
+        </tblock>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>I agree.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Males</p>
+        </tblock>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>I also agree.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

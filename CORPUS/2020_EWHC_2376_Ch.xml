@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWHC_2376_Ch" />
+          <FRBRuri value="www.judiciary.uk/2020_EWHC_2376_Ch" />
+          <FRBRdate date="2020-09-04" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/in-the-matter-of-virgin-atlantic-airways-limited" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/in-the-matter-of-virgin-atlantic-airways-limited" />
+          <FRBRdate date="2020-09-04" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2376_Ch.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWHC_2376_Ch.xml" />
+          <FRBRdate date="2021-01-05" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="BusinessAndPropertyCourts" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessAndPropertyCourts" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="CompaniesCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CompaniesCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessAndPropertyCourts" />
+		<TLCOrganization eId="VirginAtlanticAirwaysLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VirginAtlanticAirwaysLimited" showAs="Virgin Atlantic Airways Limited" />
+        <TLCPerson eId="MrJusticeSnowden" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeSnowden" showAs="Mr Justice Snowden" />
+        <TLCPerson eId="DavidAllisonQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DavidAllisonQc" showAs="David Allison Qc" />
+        <TLCPerson eId="RyanPerkins" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RyanPerkins" showAs="Ryan Perkins" />
+        <TLCPerson eId="LottiePyper" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LottiePyper" showAs="Lottie Pyper" />
+        <TLCPerson eId="Allen&amp;OveryLLP" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Allen&amp;OveryLLP" showAs="Allen &amp; Overy LLP" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWHC 2376 (Ch)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CR-2020-003222</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#BusinessAndPropertyCourts">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</organization>
+        <organization refersTo="#CompaniesCourt">COMPANIES COURT (ChD)</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Rolls Building Fetter Lane London, EC4A 1NL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-09-04" refersTo="#hand-downDate">4 September 2020</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#MrJusticeSnowden">MR JUSTICE SNOWDEN</judge>
+      </p>
+      <p>---------------------</p>
+	  <p>IN THE MATTER OF</p>
+	  <p>
+        <party refersTo="#VirginAtlanticAirwaysLimited">VIRGIN ATLANTIC AIRWAYS LIMITED</party>
+	  </p>
+	  <p>AND IN THE MATTER OF PART 26A OF THE COMPANIES ACT 2006</p>
+	  <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#DavidAllisonQc" as="#barrister" for="#VirginAtlanticAirwaysLimited">David Allison QC</lawyer>
+        ,
+        <lawyer refersTo="#RyanPerkins" as="#barrister" for="#VirginAtlanticAirwaysLimited">Ryan Perkins</lawyer>
+        and
+        <lawyer refersTo="#LottiePyper" as="#barrister" for="#VirginAtlanticAirwaysLimited">Lottie Pyper</lawyer>
+        (instructed by
+        <lawyer refersTo="#Allen&amp;OveryLLP" as="#solicitor" for="#VirginAtlanticAirwaysLimited">Allen &amp; Overy LLP</lawyer>
+        ) for the Company
+      </p>
+      <p>
+        Hearing date:
+        <date date="2020-09-02" refersTo="#hearing">2 September 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>COVID-19: This judgment was handed down remotely by circulation to the parties’ representatives by email. It will also be released for publication on BAILII and other websites. The date and time for hand-down is deemed to be 2 p.m. on 4 September 2020. ........................... MR JUSTICE SNOWDEN</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>MR JUSTICE SNOWDEN:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>At the conclusion of a hearing conducted remotely on 2 September 2020 I indicated that I would sanction a restructuring plan (the “Restructuring Plan”) between Virgin Atlantic Airways Limited (the “Company”) and four classes of its creditors (the “Plan Creditors”). It was the first such restructuring plan to come before the court under the new provisions of Part 26A of the Companies Act 2006 (“Part 26A” and the “CA 2006”) and it had the support of the overwhelming majority of the Plan Creditors. I indicated that I would give my reasons in writing, which I now do.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>Background</p>
+        </tblock>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The Company operates a major international airline based in the UK and is a member of the Virgin Atlantic Group of companies (the “Group”). The Company is indirectly owned by Virgin Atlantic Limited (“VAL”) which in turn is owned as to 51 % by Virgin Investments Limited (“VIL”) and 49 % by Delta Air Lines, Inc (“Delta”). The ultimate beneficial owner of VIL is Sir Richard Branson.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>The Company ’s airline business is fundamentally sound, but its financial position has been severely affected by the ongoing COVID-19 pandemic, which has caused an unprecedented reduction in passenger numbers and disruption to the global aviation industry. As a result, the Company is now undergoing a liquidity crisis. Without a restructuring and an injection of new money, it is projected that the Company ’s cash flow would drop to a critical level by the week commencing 21 September 2020. This would trigger the rights of certain bondholders under a securitisation to commence an enforcement process over the Company ’s valuable landing and departure slots at Heathrow Airport. Even if this did not occur, it is projected that the Company would run out of available (free) cash altogether during the week commencing 5 October 2020.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>In such circumstances, without a restructuring of its liabilities and an injection of new money, the Company ’s directors would have no choice but to place the Company into administration in mid-September 2020 in order that its business could be wound down in an orderly manner and its assets sold. The Company has received independent expert advice from Alvarez &amp; Marsal that this process would be likely to result in a very poor outcome for the Company ’s creditors of between 10.5p to 21.4p in the £, and that it might take a couple of years before a first dividend was paid in the administration.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>To avoid this outcome, the Company has proposed the Restructuring Plan as part of a broader suite of inter-conditional arrangements which it has negotiated over a comparatively short and intensive period of a few months with creditors, other stakeholders and third parties (the “Recapitalisation”). The Recapitalisation aims, among other things, to reduce the Company ’s debt to a sustainable level, to provide for a deferred repayment schedule for that debt, and for there to be an injection of new money from VIL (£ 200 million) and Davidson Kempner (£ 170 million) so that the Company can continue trading.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Restructuring Plan in outline</p>
+        </tblock>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The Restructuring Plan involves four classes of Plan Creditors: i) the lenders under a $ 280 million secured revolving credit facility agreement (the “RCF” and the “RCF Plan Creditors”); ii) the lessors under 24 operating leases for aircraft leased to the Company (the “Operating Lease Agreements” and the “Operating Lessor Plan Creditors”); iii) certain creditors (including other Virgin companies and companies in the Delta group) who have entered into various intellectual property licensing agreements and joint venture agreements with the Company (the “Connected Party Plan Agreements” and the “Connected Party Plan Creditors”); and iv) 162 of the Company ’s trade creditors (the “Trade Plan Creditors”) who are individually identified in a schedule to the Restructuring Plan and who are owed a total of about £ 51.67 million.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The debts owed to these four classes of Plan Creditors will be varied under the Restructuring Plan as follows.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The RCF Plan Creditors</p>
+        </tblock>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The Restructuring Plan will make various amendments to the terms of the RCF, including: (i) converting the RCF into a term loan facility; (ii) extending the final maturity date to 17 January 2026; (iii) changing the repayment schedule so that the currently drawn loans are repayable in three annual instalments starting on 17 January 2024; (iv) increasing the margin payable on the outstanding balance by 1 % per annum; (v) amending the suite of covenants and events of default to enhance the position of the RCF Plan Creditors; and (vi) inserting a mechanism that enables the RCF Plan Creditors to receive repayment of any deferred amounts out of the Group ’s excess cash flow (a “cash sweep”) together with certain of the Company ’s other stakeholders.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>In addition, one of the aircraft engines that is currently part of the security package for the RCF will be released from the security (so that it can be used as security for a new money facility). In exchange, the Company will grant the RCF Plan Creditors security over a bank account with a credit balance of $ 23.3 million pending the addition of a new engine to the security package in 2021.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Operating Lessor Plan Creditors</p>
+        </tblock>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The Operating Lessor Plan Creditors are entitled to choose between three options. The first option involves a deferral of rent for a defined period of time; the second option involves a 20 % reduction of rent coupled with a deferral; and the third option involves the termination of the relevant lease and redelivery of the aircraft.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>In the event, all of the Operating Lessor Plan Creditors have chosen the first option (“Option 1”). The basic terms of Option 1 are as follows: i) from 1 April 2020 to 30 September 2021 inclusive (the “Operating Lease Deferral Period”), the Company shall only pay 15 % of the rent due. The balance will accrue and be capitalised. Interest shall also accrue and be capitalised on the deferred rent (at a rate of 1 % per annum) during the Operating Lease Deferral Period. No default interest shall accrue or be payable on the deferred amounts; ii) if the Company ’s airline revenues from 1 January 2021 to 30 September 2021 inclusive are less than or equal to £ 750 million then the Company may elect to extend the Operating Lease Deferral Period to 31 December 2021, in which case the same deferral provisions described above will continue to apply; and iii) at the end of the Operating Lease Deferral Period, the Company will recommence paying rent in full, and the deferred rent payments will be paid in 48 equal monthly instalments from 2022 to 2025.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The Operating Lease Deferral Period is deemed to commence on 1 April 2020. Since that date, the Company has paid (or part-paid) various instalments of rent that have fallen due. In some cases, the Company has paid less than the 15 % entitlement of the relevant lessor under Option 1 above. In other cases, the Company has paid more than the 15 % entitlement of the relevant lessor under Option 1 above. Accordingly, under Option 1 the rent paid since 1 April 2020 will be subject to a “true-up” arrangement to equalise the amounts that such lessors have received so as to ensure that all Operating Lessor Plan Creditors are treated fairly. The Operating Lessor Plan Creditors will also benefit from the cash sweep, in priority to the RCF Plan Creditors.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Connected Party Plan Creditors</p>
+        </tblock>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>The Restructuring Plan will make the following amendments to the Connected Party Plan Agreements: i) all accrued and unpaid amounts due by the Company to each Connected Party Plan Creditor when the Recapitalisation becomes effective will be capitalised in exchange for preference shares in VAL (“Preference Shares”); and ii) all accrued and unpaid amounts due by the Company to each Connected Party Plan Creditor (other than under the Delta Air4 Agreement) that become payable after the Recapitalisation until 2026 shall be capitalised in exchange for Preference Shares on 31 December each year.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Trade Plan Creditors</p>
+        </tblock>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>The Restructuring Plan will vary the rights of the Trade Plan Creditors as follows: i) all amounts owed to Trade Plan Creditors by the Company with respect to goods or services supplied by each Trade Plan Creditor prior to 13.30 hrs UK time on 14 July 2020 (being the time when the Practice Statement Letter was issued as referred to in paragraph 29 below) shall be reduced and discharged by 20 %; and ii) the remaining balance of 80 % of the original debt (i.e. after applying the 20 % reduction) shall be paid to each Trade Plan Creditor in cash in nine instalments. The first payment will be made shortly after the Recapitalisation becomes effective and payments will continue by eight further quarterly payments commencing on 31 December 2020 and including interest at a rate of 1 % per annum.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Any claims of the Trade Plan Creditors in respect of goods or services supplied after 13.30 hrs UK time on 14 July 2020 will not be compromised by the Restructuring Plan. This is designed to ensure that the Trade Plan Creditors do not cease to supply the Company with goods and services.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Plan Mechanics</p>
+        </tblock>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>The Restructuring Plan itself is a relatively short document. Its key provisions are clauses 3, 4 and 5.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>Under clause 3, each Plan Creditor appoints the Company as its attorney and agent with power to execute and deliver documents on its behalf which implement the relevant provisions of the Recapitalisation as regards that creditor. Those documents include a Restructuring Implementation Deed which sets out the key terms and mechanics for the entire Recapitalisation. There are also separate suites of documents to amend and restate the RCF, the Operating Lease Agreements and the Connected Party Plan Agreements.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>Clause 4 of the Restructuring Plan provides for the giving of an instruction (and waiver of liability) from the RCF Plan Creditors to the agent and security agent under the RCF to enter into the relevant documents to give effect to the Recapitalisation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>It has become very common practice in complex restructurings in recent times for a scheme of arrangement under Part 26 CA 2006 to confer a power of attorney on the scheme company or other designated person to execute the necessary restructuring documents on behalf of scheme creditors. Such restructuring documents amend the terms of the relationship between the scheme company and the scheme creditors, or between the scheme creditors and third parties (such as guarantors). I recently considered and endorsed this practice in Re ColourOz Investment 2 LLC [2020] EWHC 1864 (Ch) at [74]-[75], following a decision to similar effect in Scotland: see Re Premier Oil plc [2020] CSOH 39 at [218]-[230] per Lady Wolffe. I see no obvious reason why the same technique should not be used in relation to a restructuring plan under Part 26A, or why it should not be used to provide for an instruction to be given on behalf of scheme or plan creditors to a third party for the purposes of varying the relevant finance documents.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>In contrast to the other arrangements set out above, the variation of the debts of the Trade Plan Creditors will not be implemented through a power of attorney structure. Instead, the terms of the arrangement with the Trade Plan Creditors are directly set out in Clause 5 of the Restructuring Plan.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Excluded parties</p>
+        </tblock>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>A number of parties are not included in the Restructuring Plan but are the subject of bilateral arrangements with the Group as part of the wider Recapitalisation. These include lessors and lenders whose claims amount to almost $ 1 billion under various finance lease agreements for further aircraft (the “Finance Lease Creditors”). The Finance Lease Creditors were originally intended to be included in the Restructuring Plan, but due to the technical complexity of amending their contractual arrangements, a decision was made to deal with them all consensually. Bilateral arrangements will also be entered into, in particular, with the bondholders under the securitization of the Company ’s slots at Heathrow airport, and with the credit card acquirers with whom the Company deals.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>A significant number of trade creditors of the Company will not be subject either to the Recapitalisation or to the Restructuring Plan at all (the “Excluded Trade Creditors”). As such, their claims against the Company will not be reduced or deferred. Most significantly for present purposes, the categories of Excluded Trade Creditors include, i) trade creditors who provide goods or services which are essential to the Company ’s ability to operate safely and/or continue as a going concern (such as airports, governments or other public bodies, insurance companies and sales agents selling flights or package holidays on behalf of the Group); ii) trade creditors who had already agreed with the Company to reduce their outstanding liabilities as at 12 June 2020 by 20 % or more; iii) trade creditors who were owed less than £ 50,000 (including any VAT or other applicable taxes) as at 12 June 2020; and iv) trade creditors who provide restructuring advice to the Company or its creditors in connection with the Restructuring Plan and the Recapitalisation.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Anticipated returns to Plan Creditors</p>
+        </tblock>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>As indicated above, if the Restructuring Plan is not sanctioned, the most likely alternative is an administration of the Company which would attempt to achieve an orderly wind-down of the Company ’s affairs and the sale of any realisable assets for the benefit of creditors. In order to estimate the likely outcome for Plan Creditors of an administration, the Company instructed Alvarez &amp; Marsal to produce an administration outcome analysis, using valuations of the Company ’s assets by a specialist firm of aviation valuers. That original analysis was summarised in some detail in the Explanatory Statement provided to Plan Creditors.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The Alvarez &amp; Marsal report has since been updated using figures to 20 August 2020 which show a deterioration in the Company ’s position. The updated Alvarez &amp; Marsal analysis suggests that if an administration is commenced in the week starting 14 September 2020, it is likely that the unsecured creditors of the Company (including the Trade Plan Creditors) would receive a return in the range of 21.4p (best case) to 10.5p (worst case) in the £ and that a first dividend would only be likely to be paid two years after the commencement of the administration.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>In contrast, if the Restructuring Plan is sanctioned and the Recapitalisation becomes effective, each class of Plan Creditors is predicted to receive a much better return than they would receive in an administration. In particular, as indicated above, the Restructuring Plan provides for Trade Plan Creditors to receive 80p in the £ in respect of their existing claims in a total of nine instalments commencing shortly after the Recapitalisation becomes effective and with quarterly payments from 31 December 2020 together with interest on the outstanding amounts at a rate of 1 % per annum.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>Thus, in approximate terms, if all goes well, the Trade Plan Creditors will receive an amount under the Restructuring Plan that is significantly greater than the amount that they could expect to receive in an administration, and will beat their likely outcome in an administration between four and six months after the Restructuring Plan becomes effective.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>These projections for returns under the Restructuring Plan are, of course, not guaranteed, but are subject to a number of risk factors. These include the possibility of the Company being adversely affected by a “second wave” of COVID-19 which might further delay a return to normal flying operations. These risk factors were identified and explained in the Explanatory Statement sent to Plan Creditors.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Support for the Restructuring Plan and the Plan Meetings</p>
+        </tblock>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>By 13 July 2020 the Company had entered into support agreements with a large number of Plan Creditors and other key stakeholders who undertook to support the Recapitalisation and (where relevant) to vote in favour of the Restructuring Plan.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>At 13.30 hours on 14 July 2020 the Company sent a letter to all Plan Creditors pursuant to the Practice Statement ( Companies: Schemes of Arrangement under Part 26 and Part 26A of the Companies Act 2006) (the “Practice Statement Letter”). That letter outlined the Company ’s proposals and gave notice of a hearing to obtain a court order convening meetings of the Plan Creditors to consider and vote on the Restructuring Plan (the “Convening Hearing”). The Company subsequently also held a virtual webinar for Trade Plan Creditors on 21 July 2020 to discuss the background and terms of the Recapitalisation and the Restructuring Plan.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>The Convening Hearing took place on 4 August 2020. By that date, the Company had entered into support agreements with all of the RCF Plan Creditors, all of the Operating Lessor Plan Creditors and all of the Connected Party Plan Creditors which committed those Plan Creditors to vote in favour of the Restructuring Plan.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>Trower J gave a detailed judgment on 4 August 2020: see Re Virgin Atlantic Airways Limited [2020] EWHC 2191 (Ch) (the “Convening Judgment”). He also made an order to convene meetings of each of the four classes of Plan Creditors set out above (the “Plan Meetings”) to consider and, if thought fit, approve the Restructuring Plan (the “Convening Order”).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>A comprehensive Explanatory Statement in relation to the Restructuring Plan was circulated to Plan Creditors in accordance with the Convening Order on 4 August 2020 and the four Plan Meetings took place by Zoom conference on 25 August 2020. The technology worked well and only one Plan Creditor, which had already appointed a proxy to vote in favour of the Restructuring Plan, encountered technical problems attending.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>The Restructuring Plan was approved at all four Plan Meetings. As anticipated in the support agreements, it was approved by 100 % in number and value of the RCF Plan Creditors, the Operating Lessor Plan Creditors and the Connected Party Plan Creditors (with a turnout of 100 % in each class meeting).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The Restructuring Plan was also approved by 99.24 % in value of the Trade Plan Creditors who voted at their class meeting. The turnout was 107 out of 162 (i.e. 66.05 % in number) of the Trade Plan Creditors, who represented 89.18 % by value of all Trade Plan Creditors. Of those who participated, 102 Trade Plan Creditors voted in favour, two Trade Plan Creditors holding 0.39 % by value of those attending voted against, and three Trade Plan Creditors holding 0.37 % by value of those attending abstained.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>In those circumstances, the Company sought an order sanctioning the Restructuring Plan under section 901F of the CA 2006. It also intends to seek recognition of the Restructuring Plan in the United States (where the Company also operates and holds assets of material value) under Chapter 15 of the US Bankruptcy Code.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>It is intended that the Restructuring Plan and the wider Recapitalisation will become effective this Friday, 4 September 2020.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Part 26A Plans</p>
+        </tblock>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>The Restructuring Plan is proposed under Part 26A, which was inserted into the CA 2006 by Schedule 9 to the Corporate Insolvency and Governance Act 2020 (the “CIGA 2020”). Part 26A was intended to provide a new restructuring tool to supplement the existing scheme of arrangement under Part 26 CA 2006.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>There are very considerable similarities between a restructuring plan under Part 26A and a creditors scheme of arrangement under Part 26. Both types of procedure involve a “compromise or arrangement” between a “company” and its creditors (or any class of them). Both procedures involve a convening hearing (at which the court considers the appropriate class composition), followed by one or more class meetings (where the creditors vote on the compromise or arrangement), followed by a sanction hearing (where the court decides whether to exercise its discretion to sanction the compromise or arrangement).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>There are, however, a number of important differences in the express provisions of Part 26 and Part 26A.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>First, a company that wishes to propose a restructuring plan under Part 26A must satisfy a threshold condition under section 901A CA 2006 that “the company has encountered, or is likely to encounter, financial difficulties that are affecting, or will or may affect, its ability to carry on business as a going concern”, and that “the purpose of the proposed compromise or arrangement must be to eliminate, reduce or prevent, or mitigate the effect of, any of [those] financial difficulties”: see sections 901A (2) and (3). There is no such requirement in Part 26, which, as is well-known, is frequently used by solvent companies to promote schemes of arrangement with their members to implement take-overs and other changes to their capital structures.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>Secondly, unlike Part 26, sections 901C(3) and (4) in Part 26A make express provision for who must be permitted to participate in a class meeting summoned under section 901C(1). Those sections provide as follows, “(3) Every creditor or member of the company whose rights are affected by the compromise or arrangement must be permitted to participate in a meeting ordered to be summoned under subsection (1). (4) But subsection (3) does not apply in relation to a class of creditors or members of the company if, on an application under this subsection, the court is satisfied that none of the members of that class has a genuine economic interest in the company.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>Thirdly, under section 901F(1), a restructuring plan under Part 26A is deemed to be approved by a class meeting if it is approved by 75 % in value of those present and voting in person or by proxy. Unlike under Part 26, there is no need to obtain a majority in number of those attending and voting.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>Fourthly, unlike a scheme under Part 26, which must be approved by each class meeting in order to be capable of being sanctioned by the court, section 901 G in Part 26A contains, for the first time in English law, a provision for so-called “cross-class cram down”. Broadly speaking, this gives the court a discretion to sanction a plan notwithstanding that the necessary 75 % vote in favour has not been obtained at one or more of the class meetings, provided (i) that another class which would receive a benefit under the relevant alternative to the plan has voted in favour of the plan, and (ii) that members of the dissenting class(es) will not be worse off under the plan than they would be if the plan were not sanctioned.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>The introduction of Part 26A by CIGA 2020 was accompanied by Explanatory Notes prepared by the Department for Business, Energy and Industrial Strategy. These Explanatory Notes are admissible as an aid to the interpretation without needing to show that the legislation is ambiguous or unclear: see Flora v Wakom (Heathrow) Ltd [2007] 1 WLR 482 at [15]-[16]. The Explanatory Notes describe the basic purpose of Part 26A and make comparisons with schemes of arrangement under Part 26 as follows (at [9]-[16]): “[Part 26A] will allow struggling companies, or their creditors or members, to propose a new restructuring plan between the company and creditors and members. The measures will introduce a “cross-class cram down” feature that will allow dissenting classes of creditors or members to be bound to a restructuring plan. This means that classes of creditors or members who vote against a proposal, but who would be no worse off under the restructuring plan than they would be in the most likely outcome were the restructuring plan not to be agreed can not prevent it from proceeding. ... In schemes of arrangement [under Part 26] creditors (and sometimes members) are divided into classes (based on the similarity of their rights, which may vary significantly across a company ’s creditor base) and each class must vote on the proposed scheme. If all classes vote in favour of the scheme (requiring 75 % by value and a majority by number of each class), the court must then decide whether to sanction it. Not all creditors or members of a company need to be included within a scheme. A company may propose a scheme in such a way as to exclude some creditors or members from it. Those creditors or members who are not bound by the scheme retain their existing rights. The new restructuring plan procedure is intended to broadly follow the process for approving a scheme of arrangement (approval by creditors and sanction by the court), but it will additionally include the ability for the applicant to bind classes of creditors (and, if appropriate, members) to a restructuring plan, even where not all classes have voted in favour of it (known as cross-class cram down). Cross-class cram down must be sanctioned by the court and will be subject to meeting certain conditions. As is the case with Part 26 schemes, the court will always have absolute discretion over whether to sanction a restructuring plan. For example, even if the conditions of cross- class cram down are met, the court may refuse to sanction a restructuring plan on the basis it is not just and equitable …. While there are some differences between the new Part 26A and existing Part 26 (for example the ability to bind dissenting classes of creditors and members), the overall commonality between the two Parts is expected to enable the courts to draw on the existing body of Part 26 case law where appropriate.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The approach to sanction</p>
+        </tblock>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>From the legislative background to Part 26A, and having regard to the Explanatory Notes, it is clear that the court has a general discretion whether to sanction a restructuring plan under Part 26A. It is also envisaged that the authorities under Part 26 may, where appropriate, assist the court in deciding how to exercise its discretion under Part 26A.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>In the instant case, all classes of Plan Creditors have voted in favour of the Restructuring Plan. I am therefore in a similar position to that which would have arisen had the Restructuring Plan been proposed as a scheme of arrangement under Part 26. Accordingly, I shall simply follow the tried and tested approach to the exercise of discretion which has been established under Part 26.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>In that regard, I should state for the avoidance of doubt that I do not need to consider whether the power to cram down a dissenting class has arisen under section 901 G, or if so, on what basis to exercise it. I say that, in particular, because this Restructuring Plan has an unusual feature in that 100 % of the members of three of the four classes of Plan Creditors (the RCF Plan Creditors, the Operating Lessor Plan Creditors and the Connected Party Plan Creditors) had, by the time that the Convening Order was made, already agreed to support the Recapitalisation. Arguably, therefore, such creditors could simply have entered into a consensual agreement with the Company without needing to be parties to the Restructuring Plan (which was the course taken with the Finance Lease Creditors).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>Under Part 26, the court would not ordinarily entertain an application to convene scheme meetings or sanction a scheme of arrangement where it was known in advance that all creditors have consented or would be prepared to consent to a variation of their rights against the company. As such, although very high majorities are sometimes locked up in advance to support a scheme, it is not normal practice to include classes in a Part 26 scheme where 100 % of the relevant creditors are known to be willing to consent.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>In this case, however, it would appear that the three fully consenting classes of Plan Creditors may have been included within the Restructuring Plan with a view to arguing that the cram down power under section 901 G would have been available in the event that the class of Trade Plan Creditors had not voted in favour of the Restructuring Plan.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>In paragraph 56 of the Convening Judgment, Trower J declined to be drawn on this point. In sanctioning the Restructuring Plan I should also not be taken to have decided that the power to cram down a dissenting class under section 901 G can be activated by including within a plan a class of creditors who would otherwise all have been prepared to enter into consensual arrangements to give effect to the restructuring of their rights. Nor do I need to consider whether, if that were effective as a matter of jurisdiction, how the inclusion of such a class should be taken into account as a matter of discretion under section 901G.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>The principles which the court regularly applies to the exercise of its discretion to sanction a scheme of arrangement under Part 26 CA 2006 were summarised by David Richards J in Re Telewest Communications plc (No. 2) [2005] BCC 36 at [20]-[22]: “20. The classic formulation of the principles which guide the court in considering whether to sanction a scheme was set out by Plowman J in Re National Bank Ltd [1966] 1 All ER 1006 at 1012, [1966 ] 1 WLR 819 at 829 by reference to a passage in Buckley on the Companies Acts (13th edn, 1957) p 409, which has been approved and applied by the courts on many subsequent occasions: ‘ In exercising its power of sanction the court will see, first, that the provisions of the statute have been complied with; secondly, that the class was fairly represented by those who attended the meeting and that the statutory majority are acting bona fide and are not coercing the minority in order to promote interests adverse to those of the class whom they purport to represent, and thirdly, that the arrangement is such as an intelligent and honest man, a member of the class concerned and acting in respect of his interest, might reasonably approve. The court does not sit merely to see that the majority are acting bona fide and thereupon to register the decision of the meeting; but at the same time the court will be slow to differ from the meeting, unless either the class has not been properly consulted, or the meeting has not considered the matter with a view to the interests of the class which it is empowered to bind, or some blot is found in the scheme.’ 21. This formulation in particular recognises and balances two important factors. First, in deciding to sanction a scheme under s 425, which has the effect of binding members or creditors who have voted against the scheme or abstained as well as those who voted in its favour, the court must be satisfied that it is a fair scheme. It must be a scheme that ‘ an intelligent and honest man, a member of the class concerned and acting in respect of his interest, might reasonably approve’. That test also makes clear that the scheme proposed need not be the only fair scheme or even, in the court ’s view, the best scheme. Necessarily there may be reasonable differences of view on these issues. 22. The second factor recognised by the above-cited passage is that in commercial matters members or creditors are much better judges of their own interests than the courts. Subject to the qualifications set out in the second paragraph, the court ‘ will be slow to differ from the meeting’.” </p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>In Re Noble Group Limited [2018] EWHC 3092 (Ch) at [17] I paraphrased those requirements as a four-stage test as follows: i) the court must consider whether the provisions of the statute have been complied with; ii) the court must consider whether the class was fairly represented by the meeting, and whether the majority was coercing the minority in order to promote interests which are adverse to the class that they purported to represent; iii) the court must consider whether the scheme was a fair scheme which a creditor could reasonably approve; and iv) the court must consider whether there is any “blot” or defect in the scheme.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The exercise of discretion in this case</p>
+          <p>Compliance with the statute</p>
+        </tblock>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>In the Convening Judgment, Trower J gave careful consideration to a number of the jurisdictional requirements under Part 26A. He held that the threshold “financial difficulties” and “purpose” tests in section 901A were satisfied, and that the Company fell within the scope of Part 26A. He also held that if it were necessary, the court would have jurisdiction to entertain the Restructuring Plan by virtue of Article 8 of the EU Recast Judgments Regulation. My attention was drawn to a slight change in the evidence as to the domicile of certain Plan Creditors, but I do not think that it affects Trower J ’s reasoning on the EU point. As I have indicated, Trower J also determined the appropriate composition of the Plan Meetings. There has been no suggestion by anyone that Trower J ’s decision in any of these respects was in error and I therefore propose simply to follow his decision.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>Trower J also approved the form and style (but not the content) of the Explanatory Statement, which included the requisite statement of interests by the directors of the Company and which was sent to Plan Creditors in accordance with the Convening Order. The Plan Meetings were also held in accordance with the Convening Order and as I have indicated above, the requisite 75 % majority by value was obtained at all of the Plan Meetings.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>The statutory requirements of Part 26A have therefore been satisfied.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Representation and voting at the Plan Meetings</p>
+        </tblock>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>At the second stage, the question is whether the classes of Plan Creditors were fairly represented at their Plan Meetings. In three of the Plan Meetings there was a 100 % turnout and vote in favour; and the Trade Plan Creditor meeting was attended by 66.05 % in number and 89.18 % in value of the Trade Plan Creditors. Moreover, no Trade Plan Creditor has suggested that any of those voting in favour did so for any collateral motive or had any special interest different from the other members of the class.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>Mr. Allison QC very properly also drew my attention to the possibility of arguments being raised by a dissenting Trade Plan Creditor arising out of the exclusion from the Restructuring Plan of the Excluded Trade Creditors. Unlike the Trade Plan Creditors, who face a reduction of 20 % in their claims and payment of the balance by instalments, Excluded Trade Creditors can expect to be paid in full by the Company in the ordinary course.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>In the context of a scheme of arrangement under Part 26, it is well established that as a matter of jurisdiction, in formulating its proposals the scheme company can decide which creditors should be included in the scheme. A particularly relevant example was SEA Assets v PT Garuda [2001] EWCA Civ 1696, in which an airline company chose to propose a scheme only with its finance creditors, and not to propose a compromise with creditors under procurement contracts for aircraft and engines, or with the suppliers of goods and services regarded as essential for the continuation of the business as a going concern, even though in an insolvency all these parties would have ranked pari passu as unsecured creditors. The company ’s reason for proposing the scheme to some only of the unsecured creditors was that the creditors under procurement contracts and the essential trade suppliers had a strong bargaining position if the company was to continue its flight operations, so that as a commercial matter they had to be paid in full as their debts fell due : see paragraphs [10]-[11].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>The aim of the dissentient creditor in Garuda was to persuade the court that the procurement and essential creditors had to be included within the scheme, and in the same class as it was, in order that those other creditors would object to the scheme proposal and vote it down. The argument was advanced as a matter of jurisdiction based on the interpretation of the phrase “class of creditors” in the statute, but was rejected by the Court of Appeal. At paragraph [51], Peter Gibson LJ concluded, “51. In my judgment Mr Phillips was right to submit that the proposer of a scheme is free to select the creditors to whom a scheme of arrangement should be put, provided that the rights of the creditors and the effect of the scheme on those rights are not so dissimilar as to make it impossible for those creditors to consult together with a view to acting in their common interest. That gives a sufficient meaning, in my judgment, to the phrase ‘ class of creditors’.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>The ability of a company in financial difficulty to propose a compromise or arrangement with some, but not all, of its groups of creditors is one of the most flexible and valuable features of the scheme jurisdiction under Part 26. I see no reason, either as a matter of law or commercial utility, why the same feature and approach should not be available in a restructuring plan under Part 26A.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>That said, it is also clear that the selection by the company of creditors to which it will propose a compromise or arrangement, and the exclusion of those to which it does not wish to propose a compromise or arrangement, is not simply a matter of jurisdiction. It also has implications for the exercise of the court ’s discretion whether to endorse the decision of the majority at the meeting of creditors, and when the court is considering the adequacy of the information provided to creditors.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>In Garuda, Peter Gibson LJ alluded to the first of these points in paragraphs [45]-[46] when indicating, in response to an argument that the company had “picked” (i.e. manipulated) the composition of the class, that a company should not make an “arbitrary selection” of creditors because it had to obtain not only the approval of the class but also the sanction of the court, “45. … But to suggest that those who in the real world would not accept less than the due payment of 100 % of their debt in order to continue supplying the company (and thereby to enable the company to continue trading) must be included in the Scheme as Scheme Creditors, defies not only commercial logic but would defeat the legislative purpose of [Part 26] to facilitate compromises and arrangements. If the creditors within the Scheme think the proposal unfair to them and unduly favourable to those left outside the Scheme, they can vote against the Scheme. If the majority vote in favour of the Scheme, then a minority creditor has the opportunity to seek to persuade the court that the Scheme is unfair and should not be sanctioned. 46. Mr. Cohen suggested that to leave the company to select the members of the class of creditors to be brought within the Scheme would enable the company to pick a class such as would outvote a recalcitrant creditor. But such an example to my mind ignores the commercial realities. No company proposing a scheme will want to leave out of the scheme creditors other than those with whom they have reached agreement or those with whom agreement is impossible but who have to be paid in full if the company is to survive. Nor will it want to put forward a scheme with an arbitrary selection of creditors to be bound by it when it has to procure not only the approval of 75 % of the scheme creditors subject to the scheme but also the sanction of the court …” (my emphasis)</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>The second point arises because, as indicated in the second paragraph from Buckley on the Companies Acts referred to by David Richards J in Telewest (above), the court will only be able to have faith in the majority vote as a reflection of the commercial judgment of the creditors as to their own best interests, if the creditors have been “properly consulted”. In addition to being given adequate time for consideration, this requires that the creditors must have been given sufficient information in the explanatory statement to enable them to make a reasonable judgment as to whether the proposal is in their commercial interests or not. This will ordinarily require creditors to be given sufficient commercial and financial information so as to be able to assess their prospects for repayment in the absence of the scheme or plan, and to compare them with what they are being offered and likely to receive under the scheme or plan. In addition, if creditors who rank pari passu with scheme or plan creditors are being treated more favourably outside the scheme or plan, this should be fully explained to the creditors who are being dealt with under the scheme or plan, so that they can assess whether they are being treated unfairly.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>In the instant case, I am entirely satisfied on both these points. The exclusion of the Excluded Trade Creditors from the class of Trade Plan Creditors under the Restructuring Plan was not arbitrary or designed to manipulate the class. The rationale for the exclusion of the various categories of Excluded Trade Creditors was set out in some detail in the evidence and in the Explanatory Statement provided to Plan Creditors.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>Some of the reasons for excluding essential suppliers and creditors reflect similar reasons to those encountered in Garuda and are entirely understandable as a matter of reality and to ensure continuity of the Company ’s business and the completion of its Recapitalisation. The decision to exclude trade creditors with claims of under £ 50,000 can not be justified in the same way, but was explained in the Explanatory Statement as follows, “If the Company were to include all trade creditors in the Restructuring Plan … it would increase the number of Plan Creditors significantly: the Company would have to review the contracts in place with more than 1,000 such suppliers and categorise them as Plan Creditors. This would impose an additional logistical burden on the Company and its advisers throughout the preparation for the Restructuring Plan and the Recapitalisation process, in circumstances where time and resources are already very limited and the Company is managing a large number of other stakeholder groups in parallel (approximately 80 per cent. of the Company 's employees are currently on furlough). The aggregate value of the claims of the trade creditors below the £ 50,000 threshold is approximately one-tenth of the aggregate value of those above £ 50,000. The Company considers that the cost savings to be borne by including those below £ 50,000 are outweighed by the practical time and cost of including them.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>In my judgment, that is a reasonable justification, especially when it is considered that the burden of including an extra 1,000 such trade creditors (i.e. about six times the current number) in the Restructuring Plan would only result in a further reduction in the Company ’s debt burden of about £ 1 million (e.g. 20 % of 10 % of £ 51.67 million).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>I therefore agree with the brief observation of Trower J in the Convening Judgment at paragraph [11] that, “on the face of it [the Excluded Trade Creditors] all appear to have been excluded for respectable commercial reasons”. I am also satisfied that the facts and reasons for the exclusion of the Excluded Trade Creditors were properly disclosed and explained to the Trade Plan Creditors in the Explanatory Statement.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Fairness</p>
+        </tblock>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>As explained by David Richards J in Telewest, the requirement that a scheme be a “fair” scheme does not mean that the court imposes its own view of what is in the interests of creditors or even what is the “best” scheme. Fairness in this context means that the scheme must be one that “an intelligent and honest man, a member of the class concerned and acting in respect of his interest, might reasonably approve.” This stage of the Buckley test is closely connected with the previous stage, because if the Court is satisfied that the class was fairly represented and properly consulted, it will be “slow to differ” from the result at the meeting.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>In this case, it is clear that the Restructuring Plan is one which an intelligent and honest man could reasonably approve: i) the Restructuring Plan is part of the broader Recapitalisation which has been approved by a number of the Company and the Group ’s other stakeholders, including all of the other classes of Plan Creditors, other creditors whose liabilities will be compromised outside the Restructuring Plan, and new third- party investors; ii) the Restructuring Plan offers a return that is approximately four times more than the evidence suggests that Trade Plan Creditors are likely to receive in an administration; iii) the Trade Plan Creditors have voted overwhelmingly in favour of the Restructuring Plan on the basis of a full Explanatory Statement. The high turnout and level of support is clear evidence that a reasonable creditor could approve the Restructuring Plan, since most of them in fact did so; and iv) although two Trade Plan Creditors voted against the Restructuring Plan, neither of them appeared at the hearing or articulated any reason why the Restructuring Plan should not be sanctioned, whether on grounds of alleged unfairness or otherwise.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>No “blots” or defects</p>
+        </tblock>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>I considered the validity of the agency mechanism used in the Restructuring Plan in paragraph 19 above, and I saw no other “blots” or defects in the Restructuring Plan. I was not, of course, asked to scrutinise the detail of the many restructuring documents for which the Restructuring Plan provides, but no Plan Creditor suggested that there is any material defect in those documents.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>International effectiveness</p>
+        </tblock>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>As a final matter going to the exercise of my discretion, I considered whether the Restructuring Plan is likely to be recognised in any key overseas jurisdictions which are material to its effectiveness.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>As indicated above, all of the RCF Plan Creditors, the Operating Lessor Plan Creditors and the Connected Party Plan Creditors consented to the Restructuring Plan by signing support agreements and voting in favour of the Restructuring Plan. These creditors hold the vast majority of the liabilities affected by the Restructuring Plan (96.4 % by value). On that basis alone, it is clear that the Restructuring Plan will have substantial effect.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>Further, in order to ensure that the Restructuring Plan is recognised in the US where it has material operations and assets which might otherwise be sought to be attached as a result of proceedings by dissentient creditors, the Company has appointed one of its directors as its foreign representative for the purpose of seeking recognition under Chapter 15 of the US Bankruptcy Code. This appointment was the subject of a declaration in the Convening Order and shortly thereafter the foreign representative issued an application for recognition of a foreign main proceeding under Chapter 15 and an order giving full force and effect to the Restructuring Plan in the US.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>A hearing of that application was scheduled to take place in the US on 3 September 2020. Whilst the decision in that regard was obviously entirely a matter for the US Bankruptcy Court, I was provided with detailed and persuasive expert evidence from Professor Stephen J. Lubben that the US Bankruptcy Court was likely to grant the relief sought and to recognise the Restructuring Plan as a foreign main proceeding under Chapter 15.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>On these bases, I was entirely satisfied that the Restructuring Plan will have a substantial effect.</p>
+          </content>
+        </paragraph>
+      </background>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>For the reasons that I have given, I decided to sanction the Restructuring Plan.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

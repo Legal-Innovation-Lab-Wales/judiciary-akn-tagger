@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2019_EWCA_Civ_851" />
+          <FRBRuri value="www.judiciary.uk/2019_EWCA_Civ_851" />
+          <FRBRdate date="2019-05-17" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/zurich-insurance-plc-v-david-romaine" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/zurich-insurance-plc-v-david-romaine" />
+          <FRBRdate date="2019-05-17" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWCA_Civ_851.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWCA_Civ_851.xml" />
+          <FRBRdate date="2021-01-18" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="ZurichInsurancePlc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ZurichInsurancePlc" showAs="Zurich Insurance Plc" />
+        <TLCOrganization eId="DavidRomaine" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DavidRomaine" showAs="David Romaine" />
+        <TLCPerson eId="MrJusticeGoose" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeGoose" showAs="Mr Justice Goose" />
+        <TLCPerson eId="LordJusticeDavis" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeDavis" showAs="Lord Justice Davis" />
+        <TLCPerson eId="LordJusticeHaddon-cave" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeHaddon-cave" showAs="Lord Justice Haddon-cave" />
+        <TLCPerson eId="MrDavidCallow" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrDavidCallow" showAs="Mr David Callow" />
+        <TLCPerson eId="WeightmansLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#WeightmansLlp" showAs="Weightmans Llp" />
+        <TLCPerson eId="MrDavidRomaine" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrDavidRomaine" showAs="Mr David Romaine" />
+        <TLCReference eId="2018EWHC3383QB" showAs="[2018]EWHC3383QB" name="neutral citation" href="www.judiciary.uk/2018EWHC3383QB" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2019] EWCA Civ 851</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>A2/2018/2893</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN’S BENCH DIVISION</organization>
+        <judge refersTo="#MrJusticeGoose">MR JUSTICE GOOSE</judge>
+        <ref href="#2018EWHC3383QB">[2018]EWHC3383QB</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2019-05-17" refersTo="#hand-downDate">17/05/2019</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticeDavis">LORD JUSTICE DAVIS</judge>
+        and
+        <judge refersTo="#LordJusticeHaddon-cave">LORD JUSTICE HADDON-CAVE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant" refersTo="#ZurichInsurancePlc">ZURICH INSURANCE PLC</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and-
+        <party as="#respondent" refersTo="#DavidRomaine">DAVID ROMAINE</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#MrDavidCallow" as="#barrister" for="#ZurichInsurancePlc">Mr David Callow</lawyer>
+        (instructed by
+        <lawyer refersTo="#WeightmansLlp" as="#solicitor" for="#ZurichInsurancePlc">Weightmans LLP</lawyer>
+        ) for the Appellant
+        <lawyer refersTo="#MrDavidRomaine" as="#barrister" for="#DavidRomaine">Mr David Romaine</lawyer>
+        (a Litigant in Person) for the Respondent
+      </p>
+      <p>
+        Hearing date:
+        <date date="2019-04-03" refersTo="#hearing">3rd April 2019</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Judgment Approved by the court for handing down (subject to editorial corrections)</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>LORD JUSTICE HADDON-CAVE:</p>
+        </tblock>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This case raises issues about the correct approach to the grant of permission to bring committal proceedings in the context of false statements alleged to have been made by a personal injury claimant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The Appellant appeals the order of Goose J dated the 8th November 2018 refusing the Appellant permission under CPR 81.18(3)(a) to proceed with an application to commit the Respondent for Contempt of Court. The Appellant appeals the order with the permission of McCombe LJ granted on the 31st January 2019.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>At the hearing before us, the Appellant was represented by Mr David Callow. The Respondent appeared in person.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>Background Facts</p>
+        </tblock>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>On 17th November 2015, the Respondent (now aged 69) issued proceedings for noise- induced hearing loss (“NIHL”) against the Appellant ’s insured, Stanley Refrigeration Limited (“SRL”) and a third party known as Lee Beesley Mech &amp; Elec Limited (“LBMEL”). The Respondent had been employed by LBMEL as a refrigeration engineer from 1965 to 1971 and by SRL as an apprentice engineer from 1978 to 1985. The Appellant is the relevant Employers’ Liability insurer of SRL (a dissolved company) and is responsible for the defence of the Respondent ’s claim.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>On 2nd November 2015, the Respondent served Amended Particulars of Claim claiming damages limited to £ 5,000 against SLR and LBMEL for breach of statutory duty and/or negligence of SLR and LBMEL which had caused him “bilateral long-term noise- induced hearing loss of 19dB and mild tinnitus” (paragraph 10). The Respondent relied upon a medical report by Mr Hugh Wheatley dated 19th October 2015, which was attached to his Particulars of Claim. The medical report stated that it had been compiled following an interview with the Respondent on 24th September 2015 and stated that the Respondent “has not had any noisy hobbies” (paragraph 7.3). The Amended Particulars of Claim contained the following Statement of Truth (as required by CPR 22.1): “STATEMENT OF TRUTH The Claimant believes that the facts stated in these Particulars of Claim are true. I am duly authorised by the Claimant to sign on his behalf. Full name: Faisa Arshad [signature] Date: 02-11-15 Messrs Asons Solicitors, of 120 Bark Street, Bolton BL1SAX, who will accept service of all proceedings herein at the above address.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>SRL and LBMEL filed an Acknowledgement of Service contesting liability. They subsequently obtained the Respondent ’s medical records which suggested that the Respondent was a professional singer and a motorcyclist. Both of these activities were potentially relevant to issues of causation and loss.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>By way of a Part 18 Request for Further Information, the solicitors for LBMEL asked the Respondent a number of questions regarding these activities, in particular whether he was or had been a professional singer, whether he played an instrument, whether he performed with a live band and, if so, the frequency with which he practiced.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>On 1st August 2016, the Respondent served his Reply to the Part 18 Requests which stated as follows: “18. It is noted that in the Claimant ’s medical records, entry dated 2012, it states that the Claimant is a professional singer with a band. Please could the Claimant confirm if he is / was a professional singer: Response: I was never and have never been a professional singer. I worked for different companies for a living. The mention of a professional singer came about when visiting the doctor for a throat infection I mentioned that I could n’t sing anymore. He must have made the assumption that I sang professionally and documented this in my medical records but this is not the case. 19. Does the Claimant play an instrument; Response: I used to play the Acoustic Guitar for soft music when I was about 19 years old. I sometimes do this on a very rare occasion now and again but it is not noisy by any means. 20. Does the Claimant perform with a live band; Response: No. 21. How often does the Claimant practice; Response: occasionally.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>The Respondent ’s Part 18 Response contained the following Statement of Truth: “STATEMENT OF TRUTH I the Claimant believe that the facts stated in this statement are true. Full name: Mr David Romaine [electronic signature of David Michael Romaine] Date: 13.06.2016”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>In a witness statement in support of his claim dated 27th June 2016 (and electronically signed on 1st August 2016), the Respondent stated: “6. I do not ride a motorcycle, nor do I participate in or attend motorcross or motorsport events. 7. I understand it has been noted in my GP records that I am a professional singer. This is incorrect as I have never been a professional singer. I believe the mention of a professional singer came about when visiting the doctor for a throat infection and I mentioned that I could not sing anymore. The doctor must have made the assumption that I sang professionally and documented this in my medical records. I used to play the acoustic guitar playing soft music when I was about 19 years old. I sometime do this on a very occasion now and again but it not noisy by any means. 8. To the best of my knowledge I do not participate in any other pastime, hobby or activity, which may have contributed to any hearing difficulty or medical issues relating to hearing loss or tinnitus.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>The Respondent ’s witness statement Response contained the following Statement of Truth: “STATEMENT OF TRUTH I the Claimant believe that the facts stated in this statement are true. Full name: Mr David Romaine [electronic signature of David Michael Romaine] Date: 01.08.2016 Asons Solicitors”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>In the light of the discrepancies between the Claimant ’s medical records and the Claimant ’s account, the Appellant ’s solicitors commissioned an intelligence report on the Respondent. The findings of that report are contained in the witness statement of Mr Lee Kay dated 16th February 2017. Mr Kay conducted searches on the Claimant ’s Facebook page which revealed the following: (1) The Respondent had ridden motorcycles; (2) The Respondent had an interest in fast motorcycles, fast cars and guitars; (3) The Respondent performed in a live rock-and-roll band called the “501 ’s”; (4) The Respondent played an electric guitar when performing with the live band and was the lead singer; (5) The Respondent ’s live band advertised its services to perform at venues; (6) The Respondent ’s live band performed regularly both at pubs, clubs and larger events; (7) The Respondent rehearsed regularly.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>Mr Kay ’s researches also revealed that the Respondent ’s band has its own website “501’s@501sRocking”. The website contained numerous still images and video clips of the band and their live performances. The website contained a logo and legend reading “501 ’s Rock n Roll Live Band” with a phone number for bookings and contained the following details: “The 501 ’s are a three piece rock n roll and rockabilly band. Two of them met through their passion of 50 ’s rock n roll and the music of that time. Initially the 501 ’s lead guitarist and vocalist David Romaine started out as a soloist and eventually joined a folk band where he played the big pubs and clubs all over the midlands. He shared the stages with the likes of Jasper Carrot and The Slade, but after a long time away from the music scene he came back with a new formed affection for rock n roll and rockabilly. Alongside Dave Hawkins who had also had a long standing love affair with the 50 ’s decided to learn the double bass. After some time of jamming in few music rooms the 2 became more and the 501 ’s began to gig regularly on the rock n roll scene.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>It appeared, therefore, to the Appellant insurers that the Respondent ’s account-that he had no hobbies or activities which were potential sources of noise exposure-was untrue.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>The Appellant served Mr Kay ’s evidence upon the Respondent and the Third Party along with notice that an application to strike out would be made in due course. The Respondent was also advised in correspondence that if he sought to discontinue his claim, the Appellant would make an additional application to set aside the notice of discontinuance and/or seek a trial on the issue of his fundamental dishonesty.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>On 14th March 2017, the Appellant made an application to strike out the Respondent ’s claim as a result of the Respondent ’s dishonesty.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>On 21st March 2017, the Appellant advised the Respondent ’s solicitor, Messrs Asons, that an application had been made to strike out the claim. Later the same afternoon, the Respondent served a notice of discontinuance.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>On 29th March 2017 Messrs Asons were the subject of interventions by the Solicitors Regulatory Authority. Subsequently, on 23rd June 2017, Messrs Coops Law, who took over the Respondent ’s claim, were also the subject of interventions by the Solicitors Regulatory Authority.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>On 12th September 2017, the Appellant issued and served committal proceedings on the Respondent by way of a Part 8 claim form contending that the Respondent was guilty of Contempt of Court pursuant to CPR 81.17(1)(a) (‘ Making a false statement in a document verified by a statement of truth’ contrary to CPR 32.14).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>On 8th November 2017, the Respondent provided a witness statement opposing committal. He drew up the statement with the benefit of advice from direct access counsel.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>On 17th August 2018, Goose J dismissed the Appellant ’s application for permission to commence contempt proceedings on paper without a hearing. In his order refusing permission, the Judge recited that he had read the Part 8 claim form, the witness statements filed on behalf of the Appellant and the Respondent ’s witness statement and stated the reasons for refusing permission as follows: “Whilst there is good evidence of false statements being made deliberately, the documents upon which the Statement of Truth appeared were not signed by the Defendant. This is not a sufficiently strong case bearing in mind the need for great caution before granting permission” Although it is in the public interest that dishonesty in litigation is identified publically, it is not in the public interest that committal proceedings be brought in the circumstances of this case, where the Defendant discontinued his claim at a relatively early stage of the proceedings.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>On 7th September 2018, the Appellant lodged a notice of appeal against Goose J ’s order and, in addition, made an application for an oral reconsideration of the order. The Respondent challenged the Court ’s jurisdiction to conduct such an oral rehearing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>On 8th November 2018, an oral hearing took place before Goose J who held that he did have jurisdiction to conduct an oral reconsideration hearing and went on to hear argument on the Appellant ’s CPR 81.17 application. He refused the Appellant ’s application. The Appellant appeals against his refusal.</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>The Legal Framework</p>
+          <p>The rules</p>
+        </tblock>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>Where a person makes or causes to be made a false statement in a document verified by a statement of truth without an honest belief in its truth, proceedings for Contempt of Court may be brought against that person with permission of the court. CPR 32.14 provides as follows: “ 32.14 — False statements (1) Proceedings for contempt of court may be brought against a person if he makes, or causes to be made, a false statement in a document verified by a statement of truth without an honest belief in its truth. (Part 22 makes provision for a statement of truth.) (Section 6 of Part 81 contains provisions in relation to committal for making a false statement of truth.)”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>The procedure for making an application for permission to commence committal proceedings is set out in CPR 81.14: “81.14 — Application for permission (High Court, Divisional Court or Administrative Court) (1) The application for permission to make a committal application must be made by a Part 8 claim form which must include or be accompanied by — (a) a detailed statement of the applicant ’s grounds for bringing the committal application; and (b) an affidavit setting out the facts and exhibiting all documents relied upon. (2) The claim form and the documents referred to in paragraph (1) must be served personally on the respondent unless the court otherwise directs. (3) Within 14 days of service on the respondent of the claim form, the respondent — (a) must file and serve an acknowledgment of service; and (b) may file and serve evidence. (4) The court will consider the application for permission at an oral hearing, unless it considers that such a hearing is not appropriate. (5) If the respondent intends to appear at the permission hearing referred to in paragraph (4), the respondent must give 7 days’ notice in writing of such intention to the court and any other party and at the same time provide a written summary of the submissions which the respondent proposes to make. (6) Where permission to proceed is given, the court may give such directions as it thinks fit, and may — (a) transfer the proceedings to another court; or (b) direct that the application be listed for hearing before a single judge or a Divisional Court.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The principles</p>
+        </tblock>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>In A Barnes t / a Pool Motors v Seabrook [2010] C P Rep 42, Hooper LJ set out the following propositions (which he derived from the Court of Appeal ’s judgment in KJM Superbikes Ltd v Hinton [2009] 1 WLR 2406): “(1) A person who makes a statement verified with a statement of truth or a false disclosure statement is only guilty of contempt if the statement is false and the person knew it to be so when he made it. (2) It must be in the public interest for proceedings to be brought. In deciding whether it is the public interest, the following factors are relevant: (a) The case against the alleged contemnor must be a strong case (there is an obvious need to guard carefully against the risk of allowing vindictive litigants to use such proceedings to harass persons against whom they have a grievance); (b) The false statements must have been significant in the proceedings; (c) The court should ask itself whether the alleged contemnor understood the likely effect of the statement and the use to which it would be put in the proceedings; (3) The court must give reasons but be careful to avoid prejudicing the outcome of the substantive proceedings; (4) Only limited weight should be attached to the likely penalty; (5) A failure to warn the alleged contemnor at the earliest opportunity of the fact that he may have committed a contempt is a matter that the court may take into account.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>In my view, the following further supplementary principles can be derived from Moore- Bick LJ ’s judgment in KJM Superbikes (supra) and are pertinent: (1) Ultimately, the only question is whether it is in the public interest for contempt proceedings to be brought (ibid, [16]). (2) Whilst at the permission stage the Court is not determining the merits of the contempt allegation, nevertheless the Court will have regard to the following factors in order to determine whether the alleged contempt is of sufficient gravity for there to be a public interest in taking proceedings in relation to it. The factors include (i) the strength of the evidence tending to show that the statement in question was false, (ii) the strength of the evidence tending to show that the maker knew at the time the statement to be false, (iii) the significance of the false statement having regard to the nature of the proceedings in which it was made, (iv) the use to which the statement was put in the proceedings, and (v) such evidence as there may be as to the maker ’s state of mind at the time, including his understanding as to the likely effect of the statement and his motivations in making the statement) (ibid, [16]). (3) In addition, the Court should consider whether contempt proceedings would justify the resources which would have to be devoted to them (ibid, [16]). (4) The Court should have in mind paragraph 28.3 of PD of CPR Part 32 and whether proceedings for contempt would further the overriding objective (ibid, [18]). (5) The penalty which the contempt, if proved, might attract plays a part in assessing the overring public interest in bringing proceedings (ibid, [22]).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>It is worth also highlighting the following passage in Moore-Bick LJ ’s judgment in KJM Superbikes at [17] in which he summarises the overall approach: “… there is also a danger of reducing the usefulness of proceedings for contempt if they are pursued where the case is weak or the contempt, if proved, trivial. I would therefore echo the observation of Pumfrey J. in paragraph 16 of his judgment in Sony v Ball [Kabushiki Kaish Sony Computer Entertainment Inc v Ball [2004] EWHC 1192 (Ch)] that the court should exercise great caution before giving permission to bring proceedings. In my view it should not do so unless there is a strong case both that the statement in question was untrue and that the maker knew that it was untrue at the time he made it. All other relevant factors, including those to which I have referred, will then have to be taken into account in making the final decision.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>I agree with Mr Callow that Moore-Bick LJ ’s warning was intended to ensure that the permission to bring committal proceedings is only granted where there is a strong prima facie case as to knowing falsity.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>The issue for the Court on an application for permission to bring proceedings is, therefore, not whether a contempt has, in fact, been committed, but whether it is in the public interest for proceedings to be brought to establish whether it has or not and what, if any, penalty should be imposed. The question of the public interest also naturally includes a consideration of proportionality.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>In South Wales Fire and Rescue Service v Smith [2011] EWHC 1749 (Admin), Moses LJ (with whom Dobbs J agreed) powerfully underlined how seriously the courts regard false claims: “2. For many years the courts have sought to underline how serious false and lying claims are to the administration of justice. False claims undermine a system whereby those who are injured as a result of the fault of their employer or a defendant, can receive just compensation. 3. They undermine that system in a number of serious ways. They impose upon those liable for such claims the burden of analysis, the burden of searching out those claims which are justified and those claims which are unjustified. They impose a burden upon honest claimants and honest claims, when in response to those claims understandably, those who are liable are required to discern those which are deserving and those which are not. 4. Quite apart from that effect on those involved in such litigation is the effect upon the court. Our system of adversarial justice depends upon openness, upon transparency, and above all upon honesty. The system is seriously damaged by lying claims. It is in those circumstances that the courts have on numerous occasions sought to emphasise how serious it is for someone to make a false claim, either in relation to liability, or in relation to claims for compensation, as a result of liability. 5. Those who make such false claims if caught should expect to go to prison. There is no other way to underline the gravity of the conduct. There is no other way to deter those who might be tempted to make such claims, and there is no other way to improve the administration of justice. 6. The public and advisors must be aware that, however easy it is to make false claims, either in relation to liability or in relation to compensation, if found out the consequences for those tempted to do so will be disastrous. They are almost inevitably in the future going to lead to sentences of imprisonment, which will have the knock-on effect that the lives of those tempted to behave in that way, of both themselves and their families, are likely to be ruined.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>This passage from Moses LJ ’s judgment was cited with approval by the Supreme Court in Fairclough Homes Limited v Summers [2012] UKSC 26 (at paragraphs [56]-[59]) , emphasising that all reasonable steps should be taken to deter fraudulent claims, including by contempt proceedings (paragraph [50]).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>In the recent case of Liverpool Victoria Insurance Co Ltd v Dr Asef Zafar [2019] EWCA Civ 392, a case involving false verification of statements of truth , the Court of Appeal (Sir Terence Etherton MR, Hamblen LJ and Holroyde LJ) emphasised that : “60. Because this form of contempt undermines the administration of justice, it is always serious, even if the falsity of the relevant statement is identified at an early stage and does not in the end affect the outcome of the litigation. The fact that only a comparatively modest sum is claimed in the proceedings in which the false statement is made does not remove the seriousness of the contempt.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The threshold test for interference by an appeal court with the exercise of discretion of a first instance court is that stated by Lord Woolf MR in AEI Rediffusion Music Ltd v Phonographic Performance Ltd [1999] 1 W.L.R. 1507, CA, at 1523: “Before the court can interfere it must be shown that the judge has either erred in principle in his approach, or has left out of account, or taken into account, some feature that he should, or should not, have considered, or that his decision is wholly wrong because the court is forced to the conclusion that he has not balanced the various factors fairly in the scale.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The judgment below</p>
+        </tblock>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>The first part of Goose J ’s judgment dealt clearly and carefully with a procedural question which had been raised as to the correct route following a refusal of permission to bring committal proceedings on paper, i.e. whether oral renewal or appeal (see paragraphs [1]-[17]). Having determined that the Appellant was entitled to renew the application for permission to bring contempt proceedings before him, Goose J then turned to the substantive merits of the application (see paragraphs [18]-[28]). He directed himself correctly in law and derived the following propositions from the authorities (A Barnes (T / A Pool Motors) v Michael Seabrook and KJM Superbikes Ltd v Hinton (supra)) at paragraph [18]: (1) The discretion to grant permission should be exercised with great caution. (2) That there must be a strong prima facie case against the defendant. (3) The court should consider whether the public interest requires committal proceedings to be brought, this being a public, not a private, remedy. (4) That such proceedings must be proportionate and in accordance with the overriding objective. (5) The false statements must have been significant in the proceedings and the defendant understood the likely effect of the statements and the use to which they would be put. (6) The court must give reasons in making a decision but be careful to avoid pre- judging or prejudicing the outcome of any potential substantive proceedings. (7) Only limited weight should be attached to a likely penalty. (8) A failure to warn the alleged defendant at the earliest opportunity of the fact that he may have committed a contempt, is a matter that the court may take into account.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>His reasoning for refusing to grant the Appellant permission to proceed with committal proceedings against the Respondent is set out at paragraphs [19] to [28] of his Judgment (which it is convenient to set out in full): “Discussion and Decision 19. When considering the alleged dishonesty of the defendant in the documents submitted in the course of the personal injury proceedings, I make no decision one way or the other about whether they were false or dishonest. That is not a decision for this court at the permission stage. Further, the fact that I refused the application on the face of the papers before the court on 17 August 2018 does not affect my decision in this renewed application in an oral hearing. It is obvious without more that further evidence has been submitted by the claimant and that the court has now heard full oral submissions by the parties. This court has considered the application as a fresh exercise. 20. It does not follow that in all cases where a witness or a party may have dishonestly lied on the face of documents which they have signed as being true, that permission will be granted in favour of committal proceedings. Good, prima facie evidence of dishonestly false statements is the first step when considering an application for permission. Without it, the court need proceed no further. In this application, I remain of the view, having considered all of the evidence including the additional evidence dated after 17 August 2018, that there is good evidence of false statements having been made deliberately and dishonestly by the defendant. However, I make no findings of fact upon this. 21. There remains a substantial issue between the claimant and the defendant about whether the allegedly false statements were knowingly made by the defendant. The claimant 's submissions based on the Civil Procedure Rules, that an electronic signature is sufficient to validate a document as belonging to its apparent author, are clearly correct. However, the defendant denies in his witness statement dated 8 November 2017 that the signature is his and says that it was inserted into the document without his instructions. Further, he states that he did not see the statement or Part 18 replies before they were served. Whether this is right or not, I do not seek to determine at this permission stage. However, it will be for the claimant to prove to the criminal standard of proof that he, the defendant, was expressly confirming the truth of the contents of the documents. This does not detract from my assessment that the evidence against the defendant establishes a good prima facie case but it remains a significant factor. 22. It does not appear on the evidence that the defendant was warned that he may have committed a contempt of court such as to merit an application for committal to prison. The chronology of events is as follows. On 13 June 2016, the defendant filed his Part 18 responses. On 1 August 2016, the defendant 's witness statement was filed. On 16 February 2017, the witness statements of the claimant 's solicitors revealed that the defendant may not have been truthful in the context of the Part 18 responses and in his witness statement. On 14 March 2017, the claimant 's solicitors made an application to strike out the claim on dishonesty grounds having shortly before given notice. Within days the defendant 's solicitor indicating that the claim would be discontinued, which was confirmed on 21 March 2017. On 12 September 2017, the application for permission to commence committal proceedings was issued by the claimant. 23. There is no indication within the chronology of events or within the evidence that the defendant was warned of his potential committal for contempt of court. Of itself, this is not decisive, but it is a relevant factor. 24. The chronology also establishes that almost immediately after the application to strike out, based on the claimant 's inquiry evidence was made, he discontinued proceedings. The claimant correctly observes that this may have been because of his asserted dishonesty being discovered</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Submissions</p>
+        </tblock>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>The Appellant put forward a single ground of appeal, namely that the Judge ’s conclusion that it was not in the public interest to bring committal proceedings was wrong as a matter of law and fact and represented a misdirection as to the relevant factors when considering the correct approach to the public interest. Accordingly, the Appellant submitted, the Judge ’s exercise of his discretion was wrong.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>Mr Callow ’s argument can be summarised as follows. First, the Judge correctly found that the Appellant had established a good prima facie case of false statements having been deliberately and dishonestly been made by the Respondent (paragraphs [20]-[21]). Second, the Judge also correctly found that it was in the public interest that dishonest conduct in the course of criminal or civil proceedings should not go without sanction, particularly in the context of growing small sum insurance fraud (paragraphs [25]-[27]). Third, however, neither of the two reasons the Judge then gave for holding that it was not in the public interest to grant permission for committal proceedings in this case was valid, namely, (a) the absence of warning given to the Respondent and (b) the Respondent ’s immediate discontinuance of the proceedings (see paragraphs [22]-[28]).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>The Respondent, in person, submitted that Goose J ’s refusal of permission should be upheld for the reasons he gave.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Respondent ’s statement</p>
+        </tblock>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>The Respondent relied upon his statement filed for his appeal under paragraph 19 of CPR PD 52 in which he stated as follows: (i) His involvement came about as a result of a ‘ cold call’ from personal injury claim solicitors, Messrs Asons, specialists in hearing loss claims, who conducted a hearing test at his home and said he may have a claim in view of his engineering background. (ii) He was subsequently informed by Asons that they would lodge a claim of between £ 1,000 and £ 5,000 on his behalf and they would do the paperwork which he understood would be ‘ generic’. (iii) At no stage did he sign a statement of truth or see the Part 18 responses which contained an electronic signature which had been applied by Asons. (iv) He felt he had been a victim of a claims management scheme to make money from his hearing loss predicament. (v) Both Asons and Coops Law (which took over his claim) were the subject of interventions by the Solicitors Regulatory Authority (on 29th March 2017 and 23rd June 2017 respectively). (vi) Apart from Asons ’s first visit, he never met or was interviewed by any legal representative of either Asons or Coops Law; any conversations were by phone. (vii) He is now 69 years-old and has been undergoing chemotherapy for bladder cancer and has responsibilities for a foster-child. (viii) He discontinued the claim on 21st March 2017 without taking legal advice which, with hindsight, may not have been the right thing to do.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Analysis</p>
+        </tblock>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>There are two aspects of the Judge ’s reasoning to consider. First, the relevance of the absence of warning given to the Respondent. Second, the relevance of the Respondent ’s immediate discontinuance of the proceedings. (a) Relevance of failure to warn</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>The Judge cited “a failure to warn” as one of the relevant matters which the court may take into account and placed specific reliance upon “the absence of evidence that [the Respondent] was warned that he may have committed a contempt of court such as to merit an application for committal to prison” when coming to his decision to refuse permission for contempt proceedings (see paragraphs [22] and [28] of his judgment cited above).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>In my view, the Judge was mistaken in his approach to this issue. The absence of a warning may be a relevant factor for the court to take into account in some cases, but not necessarily all cases. Each case will depend upon its own facts.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>The genesis of principle (5) outlined by Hooper LJ in Barnes (supra) about the absence of a warning can be found in paragraph [19] of Moore-Bick LJ ’s judgment in KJM: “[19] … I think that in general a party who considers that a witness may have committed a contempt of this kind should warn him of that fact at the earliest opportunity (as the appellant did in this case) and that a failure to do so is a matter that the court may take into account if and when it is asked to give permission for proceedings to be brought.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>The specific context with which Moore-Bick LJ was concerned was that of a witness who had sworn a false witness statement in support of a strike-out application. In that case, there was an opportunity for the witness to be warned about the potential consequences of his lack of veracity before the matter proceeded any further.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>The present case is, however, quite different. It concerns an alleged contemnor who himself commenced the claim. The chronology is important. The Defendant issued the claim on 17th November 2015 and sought to back it up with an allegedly false witness statement dated 27th June and Part 18 responses dated 13th June 2016 (see above), each of which were verified with a standard “Statement of Truth”. Whilst the Appellant insurers were able to raise Part 18 questions about the claim in the light of discrepancies with the medical records which they had obtained, it would not have been reasonable to have expected them to have given the Respondent any warnings about contempt at that early stage. It was only later, after the Appellant ’s investigator, Mr Kay, had presented his report dated 5th September 2017 with his discovery that the Defendant ’s claim and assertions were demonstrably false, that the picture was clear and there was scope for any warning. By this time, however, the die was already cast. The Appellant, thereafter, served Mr Kay ’s evidence upon the Respondent with notice that they would pursue him for fundamental dishonesty.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>In practice, the absence of a warning is unlikely to be of any relevance where the alleged contemnor is himself the claimant in an underlying personal injury claim (such as the present case) and where the allegedly false statements are contained in claims documents prepared by himself or his solicitors and signed with a “Statement of Truth”. Whilst the CPR do not provide (or allow) for a penal notice to be attached to a “Statement of Truth”, it is difficult to conceive of circumstances where a claimant can be heard to say that he was prejudiced by the absence of warning about the risks of contempt proceedings if he, himself, has been responsible for bringing a fraudulent claim. (b) Relevance of discontinuance</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>The Judge placed reliance upon the fact that the Respondent discontinued the proceedings “almost immediately” upon receiving the Appellant ’s strike out application. Whilst acknowledging that this may have been because the Respondent realised his asserted dishonesty had been discovered and that discontinuance should not be a “bar” to permission to bring contempt proceedings, the Judge nevertheless clearly regarded the immediate discontinuance as a significant factor to be taken into account when refusing permission to bring contempt proceedings (see paragraphs [24] and [28] of his judgment cited above).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>The fact that a claimant or applicant discontinues proceedings or an application immediately or shortly after being confronted with evidence or an accusation of falsity is likely to be a relevant factor to be taken into account in most cases. This is because the claimant who discontinues immediately upon realising that ‘ the game is up’ is naturally, and appropriately, to be contrasted with the claimant who contumaciously presses on nevertheless, wasting everyone ’s time and costs in the process. However, the analysis goes deeper than this. The stratagem of early discontinuance should not be seen to be used by unscrupulous claimants or lawyers as an inviolable means of protecting themselves from the consequences of their dishonest conduct. It is clear that the modus operandi of some of those involved in fraudulent insurance claims has been to issue tranches of deliberately low-value claims (sometimes on an industrial scale) for e.g. whiplash, slips and trips etc and when confronted with resistance or evidence of falsity, simply then to drop those particular claims, in anticipation that it would probably not be worth the candle for insurers to pursue the matter further, particularly since recovery of costs can itself be time-consuming and costly and nominal claimants may be impecunious. The problem has become even more acute in recent times because of one-way cost shifting (“QOCS”) and the costs of proving “fundamental dishonesty” under CPR 44.16 (and c.f. section 57 of Criminal Justice and Court Act 2015).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>Thus, whilst the Judge was right to observe that early discontinuance was not a “bar” to permission to bring committal proceedings, in my view, he erred because he should also have had regard to the very real mischief that the stratagem of early discontinuance represents in this arena as one of the tactics of unscrupulous claimants and lawyers who engage in the practice of low-value wide-scale insurance fraud, particularly in the field of e.g. NIHL claims.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>It is axiomatic that the court should be astute to protect the court processes being used as an instrument of, or aid to, fraud in any way. Further, false statements in court documents are public wrongs which offend the proper administration of justice. They are not necessarily addressed by a private remedy, such as costs. They should, in appropriate cases, be marked by the public remedy of committal proceedings.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>General considerations</p>
+        </tblock>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>The Judge was right to observe it is not in every case where a witness or a party may have lied on the face of documents which they have signed as being true that permission to bring committal proceedings will be granted. Good prima facie evidence of dishonestly false statements was required in the first place (paragraph [20] of his judgment). The Judge correctly found that there was a strong prima facie case of false statements being deliberately and dishonestly made by the Respondent in this case (paragraph [20] of the judgment). These statements went directly to issues of causation and breach of duty in this NIHL case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>The Judge also correctly held that the value of the claim with a ceiling of £ 5,000 was not a significant argument against granting permission in the light of Mr Gifford ’s evidence regarding the growing problem of this sort of insurance fraud (see paragraph [26] of the judgment). The low value of many NIHL claims means they are allocated to the Fast-Track procedure where there is limited costs exposure for claimants and less opportunity for investigation as to the underlying merits compared with Multi-Track cases.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>It should be emphasised that in litigation of this type insurers are particularly vulnerable to fraudulent claims. NIHL claims often concern issues or allegations of historic exposure and potential non-occupational noise exposure over a long intervening period, and entail long-tail insurance claims where the insured and/or the relevant records no longer exist. Insurers of NIHL claims are, therefore, particularly dependent on the veracity of claimants, both as to occupational and non-occupational causes. The current case is a paradigm example of the problem with the insured company having ceased to exist some 30 years ago.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>It is worth highlighting the following passage in Mr Gifford ’s evidence as to the consequences of fraudulent claims: “12. The consequences of fraudulent claims are not limited simply to the costs of those claims which are not detected and paid when they should not have been. The impact of a “verify” rather than “trust” approach contaminates all claims, causing honest litigants’ claims to be slowed or adding costs to claims which are inevitably reflected in higher insurance premiums generally. Higher attritional costs are evidenced in the [Association of British Insurer] figures for 2013 which suggest that in NIHL claims the claimant solicitor received £ 3 in costs for every £ 1 that the claimant received in damages. Worse still, as stated in the report, “the normalisation of fraudulent behaviour is socially corrosive and erodes trust. 13. Until relatively recently, I believe that insurers have been perceived by many not only to be “fair game” but also to be a “soft touch”, because whenever they have discovered [] fraudulent claims, more often than not it is the “no-win, no-fee” lawyers who suffer financially and not the dishonest litigant”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Respondent ’s evidence</p>
+        </tblock>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>In his CPD 52 paragraph 19 statement, the Respondent has sought to argue that he was at all material times unaware of what was being said or written by his then solicitors, Messrs Asons, on his behalf, and that, in retrospect he should not have discontinued the claim and felt he had been badly advised to do so (see above). The veracity of these assertions, and the true motivations for discontinuing the proceedings, are matters for the committal hearing on the merits and are ex hypothesi not relevant to the prior question of whether it is in the public interest to give permission for committal proceedings in the first place. Further, I agree with Mr Callow that the Respondent ’s evidence regarding his health and personal circumstances are matters which go primarily to subsequent questions of mitigation and penalty, should they become relevant in due course.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>In my view, for the reasons set out above, the Judge erred in principle in his approach to the exercise of his discretion as to whether to grant permission to bring committal proceedings in three respects. First, the Judge took into account an irrelevant matter, namely the absence of any warning given to the Respondent that if he brought a claim for personal injury for hearing loss based on false statements, he ran the risk of committal proceedings. Second, the Judge failed to take into account a relevant matter, namely the mischief that early discontinuance represents in the hands of unscrupulous claimants and lawyers who engage in bringing false insurance claims. Third, the Judge erred and was wrong to conclude that the proposed committal proceedings would not be proportionate.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>In these circumstances, it is open to this Court to re-make the decision and consider the question of the exercise of discretion under CPR 81.18(3)(a) afresh. In my view, the public interest in this case clearly militates in favour of granting permission for committal proceedings to be brought in this case for the reasons set out above.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>Accordingly, I would allow this appeal and grant the Appellant permission to bring committal proceedings against the Respondent.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>Finally, I would add that the message needs to go out to those who might be tempted to bring-or lend their names to-fraudulent claims: that dishonest claimants can not avoid being liable to committal proceedings merely by discontinuing their original fraudulent claim.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>LORD JUSTICE DAVIS</p>
+        </tblock>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>I agree entirely with the reasoning and conclusion of Haddon-Cave LJ.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>The appeal court will always be slow to interfere with the evaluation and exercise of discretion of a first-instance judge in deciding whether or not to grant permission to bring contempt proceedings. But, as explained by Haddon-Cave LJ, the Judge ’s approach here was, with all respect to him, flawed: and that entitles this court to intervene.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>The Respondent among other things says that he did not in fact approve or authorise the various Statements of Truth and also complains of a lack of proper advice from his then solicitors. Those no doubt will be issues which can be explored at the substantive hearing. However, I observe at this stage that the signature of the solicitor to the Amended Particulars of Claim carries with it the connotations set out in paragraph 3.8 of Practice Direction 22 which supplements CPR Part 22. As to the Response to the Part 18 Request and the Witness Statement of the Respondent (both of which on their face bear the signature of the Respondent in electronic form) it is difficult at this stage to see how the substantive statements there made could have derived from any source other than the Respondent: nor should he have needed express legal advice to the effect that, in providing such information, he should tell the truth.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>Accordingly I too would allow the appeal. What the outcome of the substantive contempt hearing will be will be entirely a matter for the court on that occasion in the light of the evidence, materials and explanations presented to it.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

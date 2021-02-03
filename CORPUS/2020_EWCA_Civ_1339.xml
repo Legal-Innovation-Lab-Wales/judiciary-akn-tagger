@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2020_EWCA_Civ_1339" />
+          <FRBRuri value="www.judiciary.uk/2020_EWCA_Civ_1339" />
+          <FRBRdate date="2020-10-22" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/gateway-housing-v-ali-deceased-and-anr" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/gateway-housing-v-ali-deceased-and-anr" />
+          <FRBRdate date="2020-10-22" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWCA_Civ_1339.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2020_EWCA_Civ_1339.xml" />
+          <FRBRdate date="2021-01-20" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCEvent eId="hand-downDate" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hand-down" showAs="hand-down date" />
+        <TLCEvent eId="hearing" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#hearing" showAs="hearing date" />
+        <TLCLocation eId="addressLocation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#address" showAs="address location" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="Civil Division" />
+        <TLCOrganization eId="ClerkenwellAndShoreditchCountyCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ClerkenwellAndShoreditchCountyCourt" showAs="Clerkenwell and Shoreditch County Court" />
+        <TLCOrganization eId="GatewayHousingAssociation" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GatewayHousingAssociation" showAs="Gateway Housing Association" />
+        <TLCOrganization eId="ThePersonalRepresentativesOfMohammedNurujAli(deceased)" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ThePersonalRepresentativesOfMohammedNurujAli(deceased)" showAs="The Personal Representatives Of Mohammed Nuruj Ali (deceased)" />
+        <TLCOrganization eId="DelaraBegum" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DelaraBegum" showAs="Delara Begum" />
+        <TLCPerson eId="DdjSmith" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DdjSmith" showAs="Ddj Smith" />
+        <TLCPerson eId="LordJusticeLewison" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeLewison" showAs="Lord Justice Lewison" />
+        <TLCPerson eId="LadyJusticeCarrDbe" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LadyJusticeCarrDbe" showAs="Lady Justice Carr Dbe" />
+        <TLCPerson eId="NicholasGrundyQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NicholasGrundyQc" showAs="Nicholas Grundy Qc" />
+        <TLCPerson eId="VictoriaOsler" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VictoriaOsler" showAs="Victoria Osler" />
+        <TLCPerson eId="CapsticksSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CapsticksSolicitors" showAs="Capsticks Solicitors" />
+        <TLCPerson eId="JustinBates" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#JustinBates" showAs="Justin Bates" />
+        <TLCPerson eId="NickBano" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NickBano" showAs="Nick Bano" />
+        <TLCPerson eId="OsbornesSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#OsbornesSolicitors" showAs="Osbornes Solicitors" />
+        <TLCReference eId="F00EC246" showAs="F00EC246" name="Document number" href="www.judiciary.uk/F00EC246" />
+        <TLCRole eId="appellant-claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant-claimant" showAs="appellant-claimant" />
+        <TLCRole eId="defendant-respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant-respondent" showAs="defendant-respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2020] EWCA Civ 1339</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>B5/2020/0083</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#ClerkenwellAndShoreditchCountyCourt">CLERKENWELL AND SHOREDITCH COUNTY COURT</organization>
+        <judge refersTo="#DdjSmith">DDJ Smith</judge>
+        <ref href="#F00EC246">F00EC246</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2020-10-22" refersTo="#hand-downDate">22/10/2020</date>
+      </p>
+      <p>
+        Before: THE MASTER OF THE ROLLS
+        <judge refersTo="#LordJusticeLewison">LORD JUSTICE LEWISON</judge>
+        and
+        <judge refersTo="#LadyJusticeCarrDbe">LADY JUSTICE CARR DBE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant-claimant" refersTo="#GatewayHousingAssociation">GATEWAY HOUSING ASSOCIATION</party>
+        <role refersTo="#appellant-claimant">Claimant/Appellant</role>
+        -and-
+        <party as="#defendant-respondent" refersTo="#ThePersonalRepresentativesOfMohammedNurujAli(deceased)">The personal representatives of Mohammed Nuruj ALI (deceased)</party>
+        (1)
+        <party as="#defendant-respondent" refersTo="#DelaraBegum">Delara BEGUM</party>
+        (2)
+        <role refersTo="#defendant-respondent">Defendants/Respondents</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer refersTo="#NicholasGrundyQc" as="#barrister" for="#GatewayHousingAssociation">Nicholas Grundy QC</lawyer>
+        and
+        <lawyer refersTo="#VictoriaOsler" as="#barrister" for="#GatewayHousingAssociation">Victoria Osler</lawyer>
+        (instructed by
+        <lawyer refersTo="#CapsticksSolicitors" as="#solicitor" for="#GatewayHousingAssociation">Capsticks Solicitors</lawyer>
+        ) for the Appellant
+        <lawyer refersTo="#JustinBates" as="#barrister" for="#DelaraBegum">Justin Bates</lawyer>
+        and
+        <lawyer refersTo="#NickBano" as="#barrister" for="#DelaraBegum">Nick Bano</lawyer>
+        (instructed by
+        <lawyer refersTo="#OsbornesSolicitors" as="#solicitor" for="#DelaraBegum">Osbornes Solicitors</lawyer>
+        ) for the Second Respondent
+      </p>
+	  <p>The First Respondents did not appear and were not represented</p>
+      <p>
+        Hearing date:
+        <date date="2020-10-13" refersTo="#hearing">13 October 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>COVID-19 PROTOCOL This judgment was handed down remotely by circulation to the parties’ representatives by email, and by release to the British and Irish Legal Information Institute (BAILII) for publication. Copies were also made available to the Judicial Office for dissemination. The date and time of handing down shall be deemed for all purposes to be 10:00am on Thursday 22 October 2020.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Sir Terence Etherton MR, Lord Justice Lewison and Lady Justice Carr DBE:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>This appeal concerns the correct procedure for terminating a periodic tenancy following the death of the tenant and before probate or letters of administration have been granted.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>It turns on the proper meaning and requirements of section 18 of the Law of Property (Miscellaneous Provisions) Act 1994 (“the 1994 Act”).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>It is an appeal from the order of Deputy District Judge Smith who dismissed the claim of the appellant, Gateway Housing Association (“Gateway”), for possession of 45 Pier Street, Isle of Dogs, E14 3HR (“the Property”) because the notice to quit served on the Property in accordance with the 1994 Act ss. 18(1)(a) was invalid for lack of clarity.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The 1994 Act section 18</p>
+        </tblock>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>Section 18 of the 1994 Act provides as follows: “18 Notices affecting land: service on personal representatives before filing of grant. (1) A notice affecting land which would have been authorised or required to be served on a person but for his death shall be sufficiently served before a grant of representation has been filed if — (a) it is addressed to “The Personal Representatives of” the deceased (naming him) and left at or sent by post to his last known place of residence or business in the United Kingdom, and (b) a copy of it, similarly addressed, is served on the Public Trustee. (2) The reference in subsection (1) to the filing of a grant of representation is to the filing at the Principal Registry of the Family Division of the High Court of a copy of a grant of representation in respect of the deceased ’s estate or, as the case may be, the part of his estate which includes the land in question. (3) The method of service provided for by this section is not available where provision is made — (a) by or under any enactment, or (b) by an agreement in writing, requiring a different method of service, or expressly prohibiting the method of service provided for by this section, in the circumstances.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>As can be seen, section 18 applies to all notices affecting land, and not just notices to quit.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The origins of section 18 can be traced back to the Law Commission ’s report, Property Law: Title on Death (Law Com No. 184) (Cm 777), published in 1989. The problem sought to be addressed was described in the report as follows: “ 2.27 Our fourth and final recommendation concerns the service of notices affecting land following the death of the land-owner. There are many situations in dealing with land in which it is necessary for notice to be given to the owner. Examples are: notices to quit land which is let, notices to exercise options to purchase or to extend leases and notices to exercise rights to review a rent. Where a notice is required to be served on the land- owner, a notice addressed to the deceased former owner will not be sufficiently served, since the deceased ’s property will necessarily have vested in either his personal representatives or, at present, the President of the Family Division of the High Court. In the absence of special statutory or contractual provisions, the notice must then be served in the names of the personal representatives (not simply “to the personal representatives” of the deceased) or, in a case of intestacy, on the President of the Family Division. (See Wirral Borough Council v Smith (1982) 43 P. &amp; C.R. 312.) Problems arise in two circumstances. First, the person wishing to serve the notice may be unaware of the death. Secondly, even if he knows of the death, he may be unable to discover whether there is a will, whether it appoints executors and if so, who they are. In any event, the risk always exists that the will is invalid or has been superseded by a later one. In the absence of a will, he must discover whether letters of administration have been granted. These problems will become critical if the notice has to be served within a strict time- limit. The party wishing to serve the notice may suffer considerable loss by reason of the other ’s death. It seems to us unjust that the law should not offer a procedure to overcome the consequences of this capricious disruption of the parties’ contractual relations.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The references in that passage to the President of the Family Division are no longer apposite. By virtue of amendments to section 9 of the Administration of Estates Act 1925 by section 14 of the 1994 Act, (1) where a person dies intestate, his or her real and personal estate now vest in the Public Trustee until the grant of administration; (2) where at the time of a testator ’s death there is no executor with power to obtain probate or at any time before probate of the will is granted there ceases to be any executor with power to obtain probate, the real and personal estate disposed by the will now vest in the Public Trustee until the grant of representation, but (3) in neither case is there conferred on the Public Trustee any beneficial interest in, or any duty, obligation or liability in respect of the property. The Public Trustee (Notices Affecting Land) ( Title on Death) Regulations 1995 (“the 1995 Regulations”)</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The 1995 Regulations were made by the Lord Chancellor pursuant to section 19 of the 1994 Act.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>Regulation 3 provides that the Public Trustee must maintain a register relating to notices served under section 18 of the 1994 Act, as follows: “(1) The Public Trustee shall keep a register on which he shall record the details set out in paragraph (2) in respect of every document which is — (a) served on him under section 18 of the Act, and (b) is accompanied by an application to register in Form NL(1). (2) The details referred to in paragraph (1) are — (a) the name of the deceased person; (b) a description of the land to which the document relates; and (c) the date on which the entry on the register was made. (3) The Public Trustee shall file every document in respect of which a registration is made against the name of the deceased person in respect of whom the document is served.”</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>The factual background</p>
+        </tblock>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>On 4 May 1998 Gateway (then called Bethnal Green &amp; Victoria Park Housing Association), a registered provider of social housing, granted Mr Mohammed Nuruj Ali and his wife, Mrs Moizun Nessa, a joint assured tenancy of the Property, to which the Housing Act 1988 applies.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>Clause 1(6) of the tenancy agreement provides that: “Any legal notice, or any other communication arising from this Agreement, shall be validly served on the Tenant if posted or delivered to the Premises.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>On Mrs Nessa ’s death on 15 March 2014 Mr Ali became the sole tenant of the Property by survivorship.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>Mr Ali died on 10 August 2018.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Gateway served a notice to quit by first class post to the Property. It was addressed to “The Personal Representatives of Mr Nuruj Ali” and gave the address of the tenant as the Property. It gave Gateway ’s name and address as the landlord. It then said as follows: “[Gateway], as Landlord, gives you NOTICE TO QUIT and requires you to deliver up possession to them of [the Property] on 12 November 2018 (EXPIRY OF A FOUR WEEK PERIOD) or, if later, a day on which a complete period of your tenancy expires next after the end of four weeks from the service of this notice”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>The notice was dated 15 October 2018 and was signed on behalf of Gateway. At one stage, Gateway said that it served the notice to quit at the Property on 15 October 2018 but it now appears that it sent it by first class post to the Property on that date and the deemed date of service was 17 October 2018. It is agreed that (taking into account that the minimum period for a notice to quit residential premises is 28 days) the notice expired on 18 November 2018.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Gateway says that it sent a copy of the notice to quit on the Public Trustee on 18 October 2018 by first class post, with a deemed service date of 22 October 2018. In an email dated 4 December 2018 to Gateway the Public Trustee stated that the application for registration of the notice to quit was received on 30 October 2018, had been reviewed and was awaiting registration. The Deputy District Judge found that the application was accompanied by a copy of the notice to quit. The email further stated that the application would be recorded on the register as at the date it was received, 30 October 2018. In those circumstances, it is not disputed that the notice expired on 2 December 2018.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>The Property remains occupied by among others, the second respondent, Ms Delara Begum, who claims to have married Mr Ali in Bangladesh in March 1990.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Pavey v London Borough of Hackney (unreported) 21 November 2017</p>
+        </tblock>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>This was a judgment of His Honour Judge Luba QC in the County Court at Central London, in which he considered the meaning and practical effect and consequences of section 18 of the 1994 Act. In some subsequent County Court judgments his analysis and conclusions have been followed but there are other County Court decisions which take a different approach. In the present case the Deputy District Judge followed Judge Luba. Gateway submits that Judge Luba ’s analysis and conclusions are wrong. Our decision will, therefore, provide the precedent for consistency of approach.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>In order to understand the issues and the dispute in the present case it is appropriate to consider Pavey at this stage.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>It is not necessary to set out the facts in Pavey in any great detail. Hackney Borough Council, having let residential premises to a Mr Ronald Pavey, and Mr Pavey having died, and the Council having taken the view that there was no person qualified to succeed Mr Pavey, the Council sought to determine the continuing contractual tenancy. The Council delivered to the premises on 19 December 2014 a document, described in its header as “Notice to Quit”, addressed to “the personal representatives of Mr Ronald Pavey”. The notice to quit was in much the same general form as in the present case, with the usual general saving provision. The Council claimed that the notice to quit determined the tenancy on 18 January 2015. On 24 April 2015 the Council sent a copy of the notice to quit to the Public Trustee, which was apparently received by the Public Trustee that day.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>Judge Luba observed that the 1994 Act was based on a draft bill prepared by the Law Commission and attached to the Law Commission ’s report mentioned above. He referred to a number of passages in the Law Commission ’s report and traced them through to subsequent legislative provisions, including section 18 of the 1994 Act.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Judge Luba concluded, firstly, that section 18 requires that, in order to take effect, there must be both service of the actual notice at the premises directed to the personal representatives in accordance with section 18(1) (a), and delivery of a copy of it to the Public Trustee in accordance with section 18(1) (b). He held, secondly, that the saving clause in the notice to quit must operate in relation to proper service rather than partial service of the notice to quit, that is to say when the copy was received by the Public Trustee. That meant that the saving clause operated only when the copy had been served on the Public Trustee. If the saving provision in the copy of the notice to quit took effect from that date, the tenancy would have determined on 24 or 25 May 2015. Thirdly, he then sought to apply the principle that a notice to quit must be clear as to the date on which it determines the tenancy, and if a reasonable recipient of the notice can not determine from it the date on which the tenancy ends or will end, then it fails for want of clarity. Fourthly, he held that the date of determination of the tenancy had to be clear both to the personal representatives from the original notice, and to the Public Trustee and anyone who may legitimately have an interest in the validity of the notice or otherwise, from the copy. Finally, he concluded that the reasonable recipient of the notice delivered on 19 December 2014 could not possibly have known that the notice would determine the tenancy on 24 or 25 May 2015, and the Public Trustee could not have been certain about the date of determination of the tenancy without also knowing that the original notice had been served at the premises. Accordingly, Judge Luba held that the notice to quit failed on the test of validity for lack of clarity.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The present proceedings</p>
+        </tblock>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>The claim form and particulars of claim were issued on 21 January 2019 for possession, arrears of rent and charges for use and occupation. The first defendant is described as “The Personal Representatives of Mr Mohammed Nuruj Ali (Deceased”). Ms Begum is the second defendant. The first defendants have played no part in the proceedings.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The particulars of claim allege that the notice to quit was served at the Property on 15 October 2018 but, as we have said above, that is not Gateway ’s present position. It claimed possession on the basis of service and expiry of the notice to quit and the consequent termination of the tenancy, and because Ms Begum and others have remained in occupation of the Property without Gateway ’s permission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Ms Begum has advanced several grounds of defence in her amended defence dated 22 July 2019 in addition to the invalidity of the notice to quit. So far as the invalidity of the notice to quit is concerned, the relevant paragraph in the defence is as follows, so far as relevant: “3. … Further, the notice to quit fails the test of validity for lack of clarity because the notice that was served at the Premises (which was deemed served on 17th October 2018) purports to determine the tenancy on 12th November 2018 or 18th November 2018 (being the day on which a complete period of the tenancy expired next after the end of four weeks from the date of service), whereas the copy that was served on the Public Trustee (which was deemed served on 22nd October 2018) purports to determine the tenancy on 12th November 2018 or 25th November 2018 (being the day on which a complete period of the tenancy expired next after the end of four weeks from the date of service). The notice to quit did not validly determine the tenancy and the claim stands to be dismissed.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The judgment</p>
+        </tblock>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>In a succinct judgment the Deputy District Judge concluded that, because the expiry dates of the notice sent to the Property and the copy sent to the Public Trustee were different, the notice to quit was invalid for lack of clarity.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>The Deputy District Judge acknowledged that his conclusion differed from that in another County Court judgment, in which it appears to have been held that the Public Trustee has no need to calculate when a notice to quit expires; if there is a date on the face of the notice which can be entered into the Public Trustee ’s record, then the only requirement is that the notice is received prior to its expiry.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>The Deputy District Judge preferred the reasoning in Pavey. The Deputy District Judge quoted the following passage from paragraph [31] of the judgment of Judge Luba: “First, it is of importance and significance that, in the twofold service methodology set out in section 18, the actual notice goes to the property addressed to the personal representatives and only a copy of it to the Public Trustee. [emphasis in the original]. Secondly, it is important that in both notices there is set out the same date for the termination of the tenancy, or the same rubric for determining the date. It can not have been envisaged by the Law Commission, or by Parliament in enacting the 1994 Act, that the date for determination of the tenancy could or should be understood to be a different date in the hands of each of the two recipients, ie, the addressees, the personal representatives, and the person to whom a copy was to be sent, the Public Trustee. Thirdly, it is important, particularly in the context of notices intended to determine interests, but also in relation to notices intended to affect interests, that the notices be clear. … In my judgment it is important that it is clear to that person [the actual tenant who receives it] but it must also be clear to any other person who may legitimately have an interest in the validity of the notice or otherwise. … They all need to know from an examination of the terms of the document itself, with clarity, when it determines the tenancy.”</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>Grounds of appeal</p>
+        </tblock>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>There are four grounds of appeal. Ground 1 Section 18(1) is an enabling provision. In the present case, clause 1(6) of the tenancy agreement includes an express provision that notices are properly served on the tenant if posted to, or delivered to, the Property. Ground 2 On its true construction the effect of section 18(1) is that the date on which a notice to quit served pursuant to the provisions of that subsection expires is the date on which the original served on the personal representatives, pursuant to subsection 18(1)(a), expires. Accordingly, it is only necessary for the date of expiry of the original notice to quit, served pursuant to sub-section 18(1)(a), to be clearly ascertainable. Ground 3 On its true construction the effect of section 18(1) is that the date of expiry of the notice to quit is calculated by reference to the original notice served in accordance with subsection 18(1)(a) and provided that the copy of the notice that is served on the Public Trustee is served before the date on which the original expires, the original is valid to determine the tenancy on that date. Ground 4 If the construction of section 18(1) under Ground 2 above is wrong, then on its true construction the date on which a notice to quit served pursuant to the provisions of that subsection expires is the date on which a copy served on the Public Trustee expires, provided that an original has been served on the deceased tenant ’s Personal Representatives in accordance with subsection 18(1)(a). As is apparent, the interpretation of section 18(1) in Ground 3 is an elaboration of that put forward in Ground 2. The interpretation of section 18(1) in Ground 4 is an alternative to that put forward in Grounds 2 and 3.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Discussion</p>
+          <p>Appeal Ground 1</p>
+        </tblock>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>Mr Nicholas Grundy QC, leading counsel for Gateway, submitted that section 18(1) of the 1994 Act is an enabling provision, and where a tenancy agreement includes an express term for service of notices a notice is properly served on the tenant pursuant to that term even if served after the tenant has died. He points to clause 1(6) of the lease, quoted above, as being such a term, as it provides that notices shall be validly served on the Tenant if posted or delivered to the Property. At the hearing of the appeal, however, Mr Grundy accepted that Mr Ali died intestate (there being no evidence or pleading that he died testate); and he conceded that this ground of appeal could not therefore succeed on the present facts as the notice to quit was addressed to the personal representatives and, letters of administration not having been granted, there were not any personal representatives in whom the tenancy had vested.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>There is no need to say anything further about this ground of appeal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Appeal Grounds 2, 3 and 4</p>
+          <p>Practical difficulties and possible solutions</p>
+        </tblock>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>Gateway criticises the analysis and conclusion in Pavey on practical and legal grounds. The problems, it submits, are the result of Judge ’s Luba ’s interpretation of section 18 of the 1994 Act requiring that (1) both the section 18(1) (a) notice and the section 18(1) (b) copy of the notice are of contractual effect; (2) the recipient of both the notice and the copy must be able to work out that both expire on the same date; and (3) the recipient of both the notice and the copy must be able to be satisfied that they both expired on the same date. Gateway has summarised the consequent practical difficulties for landlords in paragraphs 21 and 22 of its skeleton argument as follows: “21. Where the notice is a notice to quit and the landlord does not use a saving clause the landlord must: 21.1 Be certain that the specified expiry date is one which has lawful effect; 21.2 Ensure that the original and the copy are both served by a date on which the specified date will remain a valid expiry date; 21.3 Inform the recipients of the original that a copy will be served on the Public Trustee before the specified date becomes an invalid date; and 21.4 Send the Public Trustee an affidavit of service of the original confirming that the original has been served. 22. Where the notice is a notice to quit and the landlord uses the saving clause: 22.1 It must serve the copy on the Public Trustee so that the expiry date of the copy calculated by reference to the saving clause is the same date as the expiry date of the original, also calculated by reference to the saving clause; 22.2 It must ensure that the specified date (if there is one) is a date by which the copy could validly expire if it is served on the Public Trustee after the date on which the original is served on the relevant premises; 22.3 It must inform the recipients of the original that a copy will be served on the Public Trustee before the specified date becomes an invalid date; and 22.4 It must send the Public Trustee an affidavit of service of the original confirming that the original has been served.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>Mr Grundy did not elaborate further on those practical points in his oral submissions at the hearing, but rather focused on the issue of statutory interpretation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>Mr Justin Bates, counsel for Ms Begum, did not reject Mr Grundy ’s summary of Judge Luba ’s judgment in Pavey but he rejected Gateway ’s description of the practical consequences as exaggerated and as capable of easy solution. In that context he referred to paragraph 11 of his skeleton argument. It is stated there that there is nothing in the case law or the text books to suggest that landlords have regularly fallen into the difficulties suggested. It is submitted in the skeleton argument that the solution, in any event, would be for the landlord to post the notice and the copy by first class post at the same time and, absent any proven delay in the postal system, the two notices will be deemed, by virtue of section 7 of the Interpretation Act 1978, to have arrived at the same time. In the course of oral submissions, Mr Bates accepted that this carried an element of risk for the landlord as the presumption may be rebutted, as indeed it was in the present case on the facts found by the Deputy District Judge (who found that the copy was posted to the Public Trustee on 18 October 2018 but was only received on 30 October 2018). Mr Bates said it was all a question of “risk management” and the degree of risk a landlord was prepared to accept. He submitted that, if a landlord was not prepared to accept any risk of a discrepancy that the presumption in section 7 might be rebutted, then the landlord should arrange for personal service on the Public Trustee.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>The idea that landlords, who understandably would wish to be certain of the date of expiry of their notice to quit, could only eliminate the risk of different dates of service by arranging for personal service on the Public Trustee, no matter where in the country the landlord or the property are situated, and in the absence of any evidence before us that the Public Trustee has any office outside London at which such personal service could be effected and that Public Trustee would be prepared to accept personal service at its only office in London, seems to us impractical and unrealistic.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>That seems to us to be equally the case with the suggestion both in Ms Begum ’s skeleton argument and in Mr Bates’ oral submissions that there is no real problem if the landlord only becomes aware of a problem with the application of the presumption during the course of proceedings, as there would nothing to prevent the landlord from serving a further set of notices and amending the claim as necessary.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>There is another difficulty which it is accepted would arise on Judge Luba ’s interpretation and application of section 18 of the 1994 Act. It was an essential part of his reasoning that a notice to quit will fail for lack of clarity unless it is possible for the recipient to know on what date the notice will determine the tenancy. On his analysis, as the copy of the notice served on the Public Trustee has contractual effect and the tenancy will only determine if the notices provide for the same date of determination of the tenancy, the notice to quit will only be valid if it makes clear when service of the copy on the Public Trustee will take place. This difficulty was not addressed in Pavey. Mr Bates submitted that the difficulty can be overcome by simultaneous service and a covering letter to the personal representatives or an endorsement on the notice informing them that service would be simultaneous, with a similar letter being sent to the Public Trustee on service of the copy.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>Those conflicting views as to the practical consequences of Pavey and the judgment of the Deputy District Judge in the present case do not play any direct role in resolving the central issue of statutory interpretation but they provide the background as to why the issue has arisen. They also provide a reminder that, where a statutory provision is capable of more than one interpretation, the Court will favour that which, consistently with the objects of the legislation and consistent with its other provisions, will have the most reasonable consequences.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Interpretation of section 18(1): (1) the operative document</p>
+        </tblock>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>The starting point for Judge Luba ’s reasoning in Pavey is that, in accordance section 18, the notice to quit is only sufficiently served if has been delivered in accordance with section 18(1) (a) and a copy has been served on the Public Trustee in accordance with section 18(1) (b). It is implicit in his judgment that both the service of the notice to quit and the service of the copy are of equal significance and consequence. As he said (at [25]), there can only be the running of time from proper service rather than partial service of the notice to quit. It was from that starting point that he asserted (in [31]) that it is important that in both notices there is set out the same date for termination of the tenancy, or the same rubric for determining the date, as it can not have been envisaged by the Law Commission or by Parliament that the date for determination of the tenancy could or should be understood to be a different date in the hands of each of the two recipients, the personal representatives and the Public Trustee. Accordingly, for Judge Luba, the notice to quit and the copy served on the Public Trustee is each a self- standing document, and it must be clear from each of them when the tenancy would be determined, and that must be the same date of determination notwithstanding that the service of the notice and the service of the copy might not be the same date.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>With all respect to Judge Luba ’s careful analysis, we consider that he has mischaracterised the significance of the copy served on the Public Trustee, and its inter- relationship with the notice to quit. It is fundamental that what is served on the Public Trustee is only a copy of the notice to quit. It is not an independent, self-standing notice. Mr Bates placed weight on the fact that the Public Trustee is the notional tenant. That can not, however, be a compelling consideration. In the first place, although the Public Trustee might be the notional tenant in the present case if (as asserted by counsel, but not pleaded) Mr Ali died intestate, the Public Trustee will not be the notional tenant where the tenant died testate and there are executors capable of taking a grant of probate. In the second place, section 18(1)(b) requires the copy to be addressed, not to the Public Trustee, but to the personal representatives. Accordingly, I do not agree with the submission of Mr Bates that what is to be served under section 18(1)(b) of the 1994 Act is not a copy of the notice to quit but, in his words, a notice “of the same form and of the same effect” as the notice to quit under section 18(1)(a). The operative document is the notice to quit and its terms govern the date of determination of the tenancy. The date on which the service of that document is deemed to be served, pursuant to section 18(1), is a different issue.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>Leaving aside the express wording of section 18(1)(b) referring to the document served on the Public Trustee being a copy of the notice to quit, other matters reinforce the conclusion that it is the notice to quit left at or sent to the property which is the operative document for determining the tenancy. In the Law Commission ’s report (at para. 2.30) and in the draft Bill attached to the report (at clause 4(4)), the Law Commission provided for copies of the notice to go to both the personal representatives at the property and the Public Trustee. In section 18(1) as enacted, however, the original notice is to be served on the personal representatives at the property and only a copy of it is to be sent to the Public Trustee.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>Further, although section 19 of the 1994 Act stipulated that regulations made by the Lord Chancellor may make provision for the supply of copies of documents served on him under section 18(1)(b) to any person on request, there is nothing in sections 18 or 19 of the 1994 Act or in the 1995 Regulations which requires the Public Trustee to keep a record of when the copy was received. On Judge Luba ’s analysis, however, that is a crucial date for establishing the termination of the tenancy and the validity of the notice to quit. The evidence before us of the usual practice of the Public Trustee in relation to the recording of the date of applications for registration, which would be accompanied by a copy of the notice to quit, was exiguous. Regulation 3(2) of the 1995 Regulations is quite clear, however, that the only date to be recorded on the register kept by the Public Trustee is “the date on which the entry on the register was made”. Regulation 3(2) provides for an application for registration to be made in Form NL(1). Paragraph 5 of the explanatory notes to that document states that: “The date and description of Notices are requested for office purposes only and will not be entered on the register”. No change to these matters was made by subsequent regulations.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The very limited contents of the register required to be maintained by the Public Trustee undermine the significance of another important consideration for Judge Luba and for Mr Bates in his submissions. Judge Luba stated (at [31]) that the notice to quit needs to be clear to any person who may legitimately have an interest in the validity of the notice or otherwise. Section 19(3)(c) of the 1994 Act contemplated that regulations might provide not merely for the personal representatives and those interested in the deceased ’s estate to be supplied with copies of documents served on the Public Trustee but “any person”. That is, indeed, the effect of regulation 4 of the 1995 Regulations.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>What is clear is that, as enacted, the legislation requires only very limited details to be recorded on the register maintained by the Public Trustee. As we have said, they do not include what Judge Luba regarded as the all important date of receipt by the Public Trustee of the copy under section 18(1)(b) of the 1994 Act.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>Looking at the Law Commission ’s report more generally, we agree with the submission of Mr Grundy that the primary focus of the Law Commission was on the difficulties of owners of land being able to serve notices following the death of the person who would otherwise have been the recipient. That is clear from paragraph 2.27 of the report, quoted above, and from the earlier description of the scope of the Commission ’s recommendations, in paragraph 1.9(d) of the report, as follows: “1.9 Our recommendations relate to the following matters: […] (d) the service of notices on deceased owners of land. Rights and liabilities in relation to land are frequently regulated or triggered by the service of notices. Difficulties arise when they can not be properly served for one of two reasons: first, the person serving the notice does not know the intended recipient has died; or, secondly, although he knows of the death, he does not know, and can not find out, whether there are any personal representatives or who they are. It seems unjust that these circumstances should preclude the service of any notice. We have however devised a procedure that will not unreasonably prejudice the deceased ’s estate.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>The role of the copy notice sent to the Public Trustee, as a document for the information of those interested in the estate and anyone else, was a subsidiary issue. Moreover, the record required to be kept by the Public Trustee, although far from comprehensive, still performs a useful function. The right to call for copies of the documents will be sufficient to alert those investigating to the fact that notices have been served in relation to the property, further details of which can then be obtained by enquiries of those who served the notices. Interpretation of section 18(1): (2) the significance and effect of service of the copy under section 18(1)(b)</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>Gateway ’s case implicit in Appeal Ground 2 is that the service of the operative document, the notice to quit addressed to the personal representatives and posted to or left at the property, will be retrospectively validated by service of the copy on the Public Trustee pursuant to section 18(1)(b) at any time before the appointment of personal representatives.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>Gateway ’s alternative case under Appeal Ground 3 is that the service of the notice to quit on the personal representatives at the property will be retrospectively validated by service of the copy pursuant to section 18(1)(b) at any time before expiry of the notice to quit in accordance with its terms.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>Mr Grundy supports Appeal Ground 2 on the footing that neither the 1994 Act nor any other legislation prescribes any time limit on the service of the copy on the Public Trustee.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>We consider that Parliament could not possibly have intended that the only time limit on the valid and effective service of the copy under section 18(1)(b) is that service must take place before the appointment of personal representatives. That is wholly unpredictable date, which could be years in the waiting if, for example the will, the executors appointed by the will or for some other reason the grant of probate is challenged. Mr Grundy described that period of waiting, in the case of a tenancy, as a “twilight” period when the landlord can not enforce the terms of the tenancy.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>Apart from the uncertainty and unpredictability arising from Mr Grundy ’s submission, it has the consequence that it would be possible retrospectively to revive the operative notice to quit which, on its terms, has expired. That would be a remarkable result.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>Furthermore, in many cases the date of service of notices is critical for the timing of notices and counternotices. Although the point was not elaborated before us by counsel, section 18 on its face applies to any notice affecting land, whether served by the owner, a tenant or a third party. In the case, for example of business tenancies, rent review notices and notices to treat under compulsory purchase legislation, to name but a few examples, there are time limits on the service of notices and counternotices, and the person affected may not be the person who has the responsibility under section 18 for serving the copy notice under section 18(1)(b). It is not consistent with the objectives of the Law Commission ’s recommendation or of Parliament in enacting section 18 for there to be such a potentially long and uncertain period of delay before effective and valid service.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>All those difficulties are avoided if section 18 is interpreted to require service of the copy under section 18(1)(b) prior to expiry of the operative notice, as indeed occurred in the present case. That is not oppressive for the landlord, and it is consistent with the objectives of the Commission and the legislation. It is both necessary and reasonable to interpret section 18 accordingly in order to make the legislation workable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>We are not aware of any reason to take a different view because section 18 applies to all notices affecting land and not just notices to quit.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Statutory interpretation of section 18(1): (3) Appeal Ground 4</p>
+        </tblock>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>It follows from everything we have said that Appeal Ground 4 must be rejected. It is inconsistent with the notice served on the personal representatives at the property being the operative notice determining the tenancy and with the purpose and effect of service of the copy on the Public Trustee being to validate retrospectively the service of the operative notice.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Conclusion on Appeal Grounds 2, 3 and 4</p>
+        </tblock>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>Accordingly, we would reject Appeal Grounds 2 and 4 and we would accept the proposition in Appeal Ground 3.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>For the reasons given above, we allow the appeal on Appeal Ground 3.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>The consequence is that, the case must be remitted to Deputy District Judge Smith for determination of Ms Begum ’s other defences.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
