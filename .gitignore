@@ -1,0 +1,9 @@
+# IntelliJ
+.idea/*
+*.iml
+
+# MacOS
+.DS_Store
+
+# Java
+out/*
