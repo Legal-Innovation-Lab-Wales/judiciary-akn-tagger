@@ -1,11 +1,23 @@
+package org.legalinnovationlab.wales;
+
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import javax.ws.rs.*;
+import javax.ws.rs.core.*;
 import java.io.*;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.*;
 import java.util.stream.*;
 
+@Path("/")
+@Produces(MediaType.APPLICATION_JSON)
 public class OntResource {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(OntResource.class);
 
     private static final String URL = "url";
     private static final String HAND_DOWN_DATE = "hand_down_date";
@@ -24,16 +36,16 @@ public class OntResource {
 
     public OntResource() {
         // Load Ontology Model
-        try (FileInputStream inputStream = new FileInputStream("./JudiciaryProcessorDEMOontology.owl")) {
+        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("JudiciaryProcessorDEMOontology.owl")) {
             ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-            ontModel.read(inputStream,null,"TTL");
+            ontModel.read(inputStream, null, "TTL");
             namespace = ontModel.getNsPrefixMap().get("");
 
             // Add every Individual from the models CaseLaw class to CASE_LAW_FILES
             ontModel.getOntClass(namespace + "CaseLaw").listInstances()
                     .forEachRemaining(individual -> addCase((Individual) individual));
         } catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.error("Ontology model file could not be loaded from resources!", e);
         }
     }
 
@@ -115,20 +127,33 @@ public class OntResource {
 
     private Individual getIndividual(String str) { return ontModel.getIndividual(str); }
 
-    // Below are a collection of API functions leveraging Java Streams for data retrieval
-    public Map<String, Object> getCase(String fileName) {
-        return CASE_LAW_FILES.stream()
+    @Path("/case/{value}")
+    @GET
+    public Response getCaseMetaData(@PathParam("value") String value) {
+        String fileName = value + ".xml";
+
+        Map<String, Object> caseLawFile = CASE_LAW_FILES.stream()
                 .filter(map -> fileName.equalsIgnoreCase((String) map.get(FILE)))
                 .findFirst()
                 .orElse(null);
+
+        return Response.ok(caseLawFile).build();
     }
 
-    public List<String> getCasesByParam(String param, String value) {
-        return CASE_LAW_FILES.stream()
+    @Path("/cases")
+    @GET
+    public Response getAllCases() {
+        return Response.ok(CASE_LAW_FILES).build();
+    }
+
+    @Path("/cases/{param}/{value}")
+    @GET
+    public Response getCasesByParam(@PathParam("param") String param, @PathParam("value") String value) {
+        List<String> cases = CASE_LAW_FILES.stream()
                 .filter(map -> ((List<String>) map.get(param)).contains(value))
                 .map(map -> (String) map.get(FILE))
                 .collect(Collectors.toList());
-    }
 
-    public List<Map<String, Object>> getAllCases() { return CASE_LAW_FILES; }
+        return Response.ok(cases).build();
+    }
 }
