@@ -5,6 +5,7 @@ import io.helidon.common.LogConfig;
 import io.helidon.config.Config;
 import io.helidon.media.jackson.JacksonSupport;
 import io.helidon.webserver.Routing;
+import io.helidon.webserver.StaticContentSupport;
 import io.helidon.webserver.WebServer;
 import io.helidon.webserver.jersey.JerseySupport;
 
@@ -46,6 +47,9 @@ public final class Main {
         return Routing.builder()
                 .register("/api", JerseySupport.builder()
                         .register(OntResource.class)
+                        .build())
+                .register("/", StaticContentSupport.builder("/static-content")
+                        .welcomeFileName("index.html")
                         .build())
                 .build();
     }

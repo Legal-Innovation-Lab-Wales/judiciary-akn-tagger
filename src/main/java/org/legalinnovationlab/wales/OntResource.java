@@ -2,14 +2,11 @@ package org.legalinnovationlab.wales;
 
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.slf4j.*;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 import java.io.*;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.*;
 import java.util.stream.*;
 

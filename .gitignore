@@ -1,9 +1,40 @@
 # IntelliJ
-.idea/*
+.idea/
 *.iml
 
 # MacOS
 .DS_Store
 
 # Java
-target/*
+src/main/resources/static-content/
+target/
+
+# Node
+root/
+node_modules/
+
+#### React Start #####
+src/main/ui/node_modules/
+src/main/ui/.pnp
+src/main/ui/.pnp.js
+src/main/ui/.eslintcache
+
+# testing
+src/main/ui/coverage
+
+# production
+src/main/ui/build/
+
+# misc
+src/main/ui/.DS_Store
+src/main/ui/.env.local
+src/main/ui/.env.development.local
+src/main/ui/.env.test.local
+src/main/ui/.env.production.local
+
+src/main/ui/npm-debug.log*
+src/main/ui/yarn-debug.log*
+src/main/ui/yarn-error.log*
+
+#### React End ####
+
