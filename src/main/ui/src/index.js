@@ -1,8 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
+import {BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
+import Home from "./home";
+import Case from "./case";
 
 ReactDOM.render(
-  <App />,
+  <Router>
+    <Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route path="/case/:id" component={Case} />
+      <Route path="*">
+        <Redirect to="/" />
+      </Route>
+    </Switch>
+  </Router>,
   document.getElementById('root')
 );

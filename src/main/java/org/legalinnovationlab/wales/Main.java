@@ -52,6 +52,9 @@ public final class Main {
                 .register("/api", JerseySupport.builder()
                         .register(OntResource.class)
                         .build())
+                .register("/xml", JerseySupport.builder()
+                        .register(XmlResource.class)
+                        .build())
                 // Below I'm handing off to the React framework to handle route management
                 .register("/", staticContent)
                 .register("/{+}", staticContent)
