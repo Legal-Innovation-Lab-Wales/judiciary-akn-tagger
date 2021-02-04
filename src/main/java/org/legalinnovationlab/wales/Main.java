@@ -44,13 +44,17 @@ public final class Main {
     }
 
     private static Routing createRouting() {
+        StaticContentSupport staticContent = StaticContentSupport.builder("/static-content")
+            .welcomeFileName("index.html")
+            .build();
+
         return Routing.builder()
                 .register("/api", JerseySupport.builder()
                         .register(OntResource.class)
                         .build())
-                .register("/", StaticContentSupport.builder("/static-content")
-                        .welcomeFileName("index.html")
-                        .build())
+                // Below I'm handing off to the React framework to handle route management
+                .register("/", staticContent)
+                .register("/{+}", staticContent)
                 .build();
     }
 }
