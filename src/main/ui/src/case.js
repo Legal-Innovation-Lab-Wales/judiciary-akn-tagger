@@ -1,6 +1,7 @@
-import React from "react";
-import CaseHeader from "./case_components/header";
-import Court from "./case_components/court";
+import React from 'react';
+import CaseHeader from './case_components/header';
+import Court from './case_components/court';
+import Parties from './case_components/parties';
 
 class Case extends React.Component {
   constructor(props) {
@@ -28,21 +29,24 @@ class Case extends React.Component {
   }
 
   render() {
-    let headerEl, courtEl;
+    let header, court, parties;
 
     if (this.state.xml) {
-      const xml = new DOMParser().parseFromString(this.state.xml, "text/xml"),
-            header = xml.querySelector('header');
+      const xml = new DOMParser().parseFromString(this.state.xml, 'text/xml'),
+            header_node = xml.querySelector('header');
 
-      headerEl = <CaseHeader header={ header }/>
-      courtEl = <Court header={ header } />
+      header = <CaseHeader header={ header_node }/>
+      court = <Court header={ header_node } />
+      parties = <Parties header={ header_node } />
     }
 
     return (
-      <div className="case">
-        { headerEl }
+      <div className='case'>
+        { header }
         <hr />
-        { courtEl }
+        { court }
+        <hr />
+        { parties }
         <hr />
       </div>
     )

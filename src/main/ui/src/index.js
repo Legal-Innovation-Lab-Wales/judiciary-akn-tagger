@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
-import Home from "./home";
-import Case from "./case";
+import {BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom';
+import Home from './home';
+import Case from './case';
 
 ReactDOM.render(
   <Router>
     <Switch>
-      <Route exact path="/">
+      <Route exact path='/'>
         <Home />
       </Route>
-      <Route path="/case/:id" component={Case} />
-      <Route path="*">
-        <Redirect to="/" />
+      <Route path='/case/:id' component={Case} />
+      <Route path='*'>
+        <Redirect to='/' />
       </Route>
     </Switch>
   </Router>,

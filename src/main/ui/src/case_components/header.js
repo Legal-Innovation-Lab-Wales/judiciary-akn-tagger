@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 class CaseHeader extends React.Component {
   // It's possible for a hearing date to be a time range of the format X - Y Mon Year.
@@ -13,7 +13,7 @@ class CaseHeader extends React.Component {
           hearing_date = this.formatDate(this.props.header.querySelectorAll('date[refersTo="#hearing"]'));
 
     return (
-        <div className="header">
+        <div className='header'>
           <p>Neutral citation number: {neutral_citation}</p>
           <p>Case Number: {case_number}</p>
           <p>Hand-down date: {hand_down_date}</p>

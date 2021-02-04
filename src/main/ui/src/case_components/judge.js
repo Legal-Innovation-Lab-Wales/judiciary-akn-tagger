@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 class Judge extends React.Component {
   render() {
@@ -7,16 +7,16 @@ class Judge extends React.Component {
 
     // Check if this judge node belongs to the Before: ... section of the DOM.
     all_judge_nodes.forEach(judge_node => {
-      if (judge_node.parentNode.textContent.trim().toLowerCase().indexOf("before:") > -1) {
+      if (judge_node.parentNode.textContent.trim().toLowerCase().indexOf('before:') > -1) {
         judges.push(judge_node);
       }
     });
 
     return (
-        <div className="judges">
+        <div className='judges'>
           <h4>Judges:</h4>
           <ul>
-            {judges.map(judge => <li>{judge.textContent}</li>)}
+            {judges.map(judge => <li key={judge.getAttribute('refersTo')}>{judge.textContent}</li>)}
           </ul>
         </div>
     )
