@@ -28,8 +28,9 @@ an Ontology Model, and the aforementioned XML files. The project structure is as
 ---
 ### Build
 
-To build this project you will need to have [Maven](https://maven.apache.org/) and [Java 11](https://adoptopenjdk.net/) 
-installed, if you intend to make code changes to the applications front-end you will also require some
+To build this project you will need to have [Maven](https://maven.apache.org/), [Java 11](https://adoptopenjdk.net/), 
+[Node.js](https://nodejs.org/en/) and npm installed (npm should come bundled with Node.js). 
+If you intend to make code changes to the applications front-end you will also require some
 additional software packages to be installed, see the ```README``` file under ```src/main/ui``` for more information.
 
 With the above installed you can now build the project ```mvn clean install``` and run the application server 
