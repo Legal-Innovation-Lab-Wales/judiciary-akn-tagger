@@ -3,7 +3,8 @@ import CaseHeader from './case_components/header';
 import Court from './case_components/court';
 import Parties from './case_components/parties';
 import Judgment from "./case_components/judgment";
-import {Container} from "react-bootstrap";
+import {Alert, Col, Container, Row} from "react-bootstrap";
+import './case.css';
 
 class Case extends React.Component {
   constructor(props) {
@@ -14,47 +15,63 @@ class Case extends React.Component {
   }
 
   componentDidMount() {
-    fetch('/xml/case/' + this.props.match.params.id, {
+    const id = this.props.match.params.id
+
+    fetch(`/xml/case/${id}`, {
       method: 'GET',
       cache: 'no-cache',
       headers: {
-        'Content-Type': 'text/xml'
+        'Accept': 'text/xml'
       }
     })
-        .then(response => response.text())
+        .then(response => {
+          switch (response.status) {
+            case 200:
+              return response.text();
+            case 404:
+              throw Error(`No such case law file could be found: [${id}]`)
+            case 500:
+              throw Error(`An unexpected error occurred when attempting to fetch case law file: [${id}]`);
+          }
+        })
         .then(data => {
           this.setState({ xml: data });
         })
         .catch(error => {
-          console.error(error);
+          this.setState({ error: error.message });
         })
   }
 
   render() {
-    let header, court, parties, judgment;
-
     if (this.state.xml) {
       const xml = new DOMParser().parseFromString(this.state.xml, 'text/xml'),
-            header_node = xml.querySelector('header'),
-            judgment_body = xml.querySelector('judgmentBody');
+          header = xml.querySelector('header'),
+            judgment = xml.querySelector('judgmentBody');
 
-      header = <CaseHeader header={ header_node }/>
-      court = <Court header={ header_node } />
-      parties = <Parties header={ header_node } />
-      judgment = <Judgment judgment={ judgment_body } />
+      return (
+          <Container>
+            <CaseHeader header={ header }/>
+            <hr />
+            <Court header={ header } />
+            <hr />
+            <Parties header={ header } />
+            <hr />
+            <Judgment judgment={ judgment } />
+          </Container>
+      )
+    } else if (this.state.error) {
+      return (
+          <Container>
+            <Row>
+              <Col xs='auto'>
+                <Alert variant='danger'>{ this.state.error }</Alert>
+              </Col>
+            </Row>
+          </Container>
+      )
+    } else {
+      return <div/>
     }
-
-    return (
-      <Container>
-        { header }
-        <hr />
-        { court }
-        <hr />
-        { parties }
-        <hr />
-        { judgment }
-      </Container>
-    )
   }
 }
 

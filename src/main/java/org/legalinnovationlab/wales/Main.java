@@ -7,7 +7,6 @@ import io.helidon.media.jackson.JacksonSupport;
 import io.helidon.webserver.Routing;
 import io.helidon.webserver.StaticContentSupport;
 import io.helidon.webserver.WebServer;
-import io.helidon.webserver.jersey.JerseySupport;
 
 public final class Main {
 
@@ -49,12 +48,8 @@ public final class Main {
             .build();
 
         return Routing.builder()
-                .register("/api", JerseySupport.builder()
-                        .register(OntResource.class)
-                        .build())
-                .register("/xml", JerseySupport.builder()
-                        .register(XmlResource.class)
-                        .build())
+                .register("/api", new OntService())
+                .register("/xml", new XmlService())
                 // Below I'm handing off to the React framework to handle route management
                 .register("/", staticContent)
                 .register("/{+}", staticContent)

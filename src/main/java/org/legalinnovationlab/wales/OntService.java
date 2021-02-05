@@ -1,21 +1,19 @@
 package org.legalinnovationlab.wales;
 
+import io.helidon.common.http.Http;
+import io.helidon.common.http.HttpRequest;
+import io.helidon.webserver.Routing;
+import io.helidon.webserver.ServerRequest;
+import io.helidon.webserver.ServerResponse;
+import io.helidon.webserver.Service;
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
-import org.slf4j.*;
 
-import javax.ws.rs.*;
-import javax.ws.rs.core.*;
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
 
-@Path("/")
-@Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.APPLICATION_JSON)
-public class OntResource {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(OntResource.class);
+public class OntService implements Service {
 
     private static final String URL = "url";
     private static final String HAND_DOWN_DATE = "hand_down_date";
@@ -32,7 +30,7 @@ public class OntResource {
     private OntModel ontModel;
     private String namespace;
 
-    public OntResource() {
+    public OntService() {
         // Load Ontology Model
         try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("JudiciaryProcessorDEMOontology.owl")) {
             ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
@@ -43,7 +41,7 @@ public class OntResource {
             ontModel.getOntClass(namespace + "CaseLaw").listInstances()
                     .forEachRemaining(individual -> addCase((Individual) individual));
         } catch (IOException e) {
-            LOGGER.error("Ontology model file could not be loaded from resources!", e);
+            e.printStackTrace();
         }
     }
 
@@ -125,33 +123,51 @@ public class OntResource {
 
     private Individual getIndividual(String str) { return ontModel.getIndividual(str); }
 
-    @Path("/case/{value}")
-    @GET
-    public Response getCaseMetaData(@PathParam("value") String value) {
-        String fileName = value + ".xml";
+    @Override
+    public void update(Routing.Rules rules) {
+        rules.get("/case/{value}", this::getCaseMetaData);
+        rules.get("/cases", this::getAllCases);
+        rules.get("/cases/{param}/{value}", this::getCasesByParam);
+        rules.get("/{+}", this::notFound);
+    }
+
+    private void getCaseMetaData(ServerRequest request, ServerResponse response) {
+        String fileName = request.path().absolute().param("value") + ".xml";
 
         Map<String, Object> caseLawFile = CASE_LAW_FILES.stream()
                 .filter(map -> fileName.equalsIgnoreCase((String) map.get(FILE)))
                 .findFirst()
                 .orElse(null);
 
-        return Response.ok(caseLawFile).build();
+        if (caseLawFile != null) {
+            sendOKJsonResponse(response, caseLawFile);
+        } else {
+            notFound(request, response);
+        }
     }
 
-    @Path("/cases")
-    @GET
-    public Response getAllCases() {
-        return Response.ok(CASE_LAW_FILES).build();
+    private void getAllCases(ServerRequest request, ServerResponse response) {
+        sendOKJsonResponse(response, CASE_LAW_FILES);
     }
 
-    @Path("/cases/{param}/{value}")
-    @GET
-    public Response getCasesByParam(@PathParam("param") String param, @PathParam("value") String value) {
+    private void getCasesByParam(ServerRequest request, ServerResponse response) {
+        HttpRequest.Path path = request.path().absolute();
+
         List<String> cases = CASE_LAW_FILES.stream()
-                .filter(map -> ((List<String>) map.get(param)).contains(value))
+                .filter(map -> ((List<String>) map.get(path.param("param"))).contains(path.param("value")))
                 .map(map -> (String) map.get(FILE))
                 .collect(Collectors.toList());
 
-        return Response.ok(cases).build();
+        sendOKJsonResponse(response, cases);
+    }
+
+    private void sendOKJsonResponse(ServerResponse response, Object responseEntity) {
+        response.status(Http.Status.OK_200);
+        response.headers().add(Http.Header.CONTENT_TYPE, "application/json");
+        response.send(responseEntity);
+    }
+
+    private void notFound(ServerRequest request, ServerResponse response) {
+        response.status(Http.Status.NOT_FOUND_404).send();
     }
 }

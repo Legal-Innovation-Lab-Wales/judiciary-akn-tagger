@@ -24,10 +24,6 @@
             <artifactId>helidon-webserver</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.helidon.webserver</groupId>
-            <artifactId>helidon-webserver-jersey</artifactId>
-        </dependency>
-        <dependency>
             <groupId>io.helidon.media</groupId>
             <artifactId>helidon-media-jackson</artifactId>
         </dependency>
@@ -64,11 +60,6 @@
             <groupId>org.apache.jena</groupId>
             <artifactId>jena-shaded-guava</artifactId>
             <version>3.9.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish.jersey.media</groupId>
-            <artifactId>jersey-media-json-jackson</artifactId>
-            <version>2.32</version>
         </dependency>
     </dependencies>
 
