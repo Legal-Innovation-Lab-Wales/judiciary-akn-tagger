@@ -1,5 +1,6 @@
 import React from 'react';
 import Party from './party';
+import {Col, Row} from "react-bootstrap";
 
 class Parties extends React.Component {
   render() {
@@ -17,11 +18,17 @@ class Parties extends React.Component {
     });
 
     return (
-        <div className='parties'>
-          <h4>Parties:</h4>
-          { Object.keys(parties).map(party_type => <Party key={party_type} header={this.props.header}
-                                                          type={party_type} nodes={ parties[party_type] }/> ) }
-        </div>
+        <Row className='parties'>
+          <Col>
+            <Row>
+              <Col>
+                <h4>Parties:</h4>
+              </Col>
+            </Row>
+            { Object.keys(parties).map(party_type => <Party key={party_type} header={this.props.header}
+                                                            type={party_type} nodes={ parties[party_type] }/> ) }
+          </Col>
+        </Row>
     )
   }
 }

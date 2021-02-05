@@ -1,4 +1,5 @@
 import React from "react";
+import {Col, Row} from "react-bootstrap";
 
 class Judgment extends React.Component {
   render() {
@@ -21,12 +22,14 @@ class Judgment extends React.Component {
     });
 
     return (
-        <div className='judgment'>
-          <h3>Approved Judgment</h3>
-          <ol>
-            { elements }
-          </ol>
-        </div>
+        <Row className='judgment'>
+          <Col>
+            <h3>Approved Judgment</h3>
+            <ol>
+              { elements }
+            </ol>
+          </Col>
+        </Row>
     )
   }
 }

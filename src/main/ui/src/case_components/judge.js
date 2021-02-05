@@ -16,7 +16,7 @@ class Judge extends React.Component {
         <div className='judges'>
           <h4>Judges:</h4>
           <ul>
-            {judges.map(judge => <li key={judge.getAttribute('refersTo')}>{judge.textContent}</li>)}
+            {judges.map(judge => <li key={judge.getAttribute('refer')}>{judge.textContent}</li>)}
           </ul>
         </div>
     )

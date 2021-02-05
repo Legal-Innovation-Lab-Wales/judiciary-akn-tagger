@@ -1,5 +1,6 @@
 import React from 'react';
 import Judge from './judge';
+import {Col, Row} from "react-bootstrap";
 
 class Court extends React.Component {
   render() {
@@ -47,16 +48,26 @@ class Court extends React.Component {
     }
 
     return (
-        <div className='court'>
-          <div className='main'>
-            <h4>Court: </h4>
-            <ul>
-              { main_courts.map(court => <li key={court.getAttribute('refersTo')}>{court.textContent}</li>)}
-            </ul>
-          </div>
-          <Judge header={this.props.header} />
-          { appeal }
-        </div>
+        <Row className='court'>
+          <Col>
+            <Row>
+              <Col>
+                <h4>Court: </h4>
+                <ul>
+                  { main_courts.map(court => <li key={court.getAttribute('refersTo')}>{court.textContent}</li>)}
+                </ul>
+              </Col>
+              <Col>
+                <Judge header={this.props.header} />
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                { appeal }
+              </Col>
+            </Row>
+          </Col>
+        </Row>
     )
   }
 }

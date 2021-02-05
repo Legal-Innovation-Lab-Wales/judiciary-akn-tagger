@@ -1,4 +1,5 @@
 import React from 'react';
+import {Col, Row} from "react-bootstrap";
 
 class Party extends React.Component {
   render() {
@@ -13,20 +14,20 @@ class Party extends React.Component {
     this.props.header.querySelectorAll(`lawyer[for="#${lawyer_key}"]`).forEach(node => lawyer_nodes.push(node));
 
     return (
-        <div className='party'>
-          <div className='persons'>
+        <Row className='party'>
+          <Col className='persons'>
             <h4>{ type }</h4>
             <ul>
               { this.props.nodes.map(node => <li key={node.getAttribute('refersTo')}>{node.textContent}</li>) }
             </ul>
-          </div>
-          <div className='lawyers'>
+          </Col>
+          <Col className='lawyers'>
             <h4>Lawyers</h4>
             <ul>
               { lawyer_nodes.map(node => <li key={node.getAttribute('refersTo')}>{node.textContent}</li> ) }
             </ul>
-          </div>
-        </div>
+          </Col>
+        </Row>
     )
   }
 }

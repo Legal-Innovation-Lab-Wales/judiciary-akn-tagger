@@ -3,6 +3,7 @@ import CaseHeader from './case_components/header';
 import Court from './case_components/court';
 import Parties from './case_components/parties';
 import Judgment from "./case_components/judgment";
+import {Container} from "react-bootstrap";
 
 class Case extends React.Component {
   constructor(props) {
@@ -44,15 +45,12 @@ class Case extends React.Component {
     }
 
     return (
-      <div className='case'>
+      <Container fluid className='case'>
         { header }
-        <hr />
         { court }
-        <hr />
         { parties }
-        <hr />
         { judgment }
-      </div>
+      </Container>
     )
   }
 }

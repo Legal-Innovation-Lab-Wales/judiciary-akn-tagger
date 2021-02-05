@@ -1,4 +1,5 @@
 import React from 'react';
+import {Col, Row} from "react-bootstrap";
 
 class CaseHeader extends React.Component {
   // It's possible for a hearing date to be a time range of the format X - Y Mon Year.
@@ -13,18 +14,18 @@ class CaseHeader extends React.Component {
           hearing_date = this.formatDate(this.props.header.querySelectorAll('date[refersTo="#hearing"]'));
 
     return (
-        <div className='header'>
-          <div className='details'>
-            <p>Neutral citation number: {neutral_citation}</p>
-            <p>Case Number: {case_number}</p>
-            <p>Hand-down date: {hand_down_date}</p>
-            <p>Hearing date: {hearing_date}</p>
-          </div>
-          <div className='links'>
-            <p>Click <a href='/'>here</a> to see the pdf.</p>
-            <p>Click <a href='/'>here</a> to see the LegalDocML</p>
-          </div>
-        </div>
+      <Row className='header'>
+        <Col className='details'>
+          <p>Neutral citation number: {neutral_citation}</p>
+          <p>Case Number: {case_number}</p>
+          <p>Hand-down date: {hand_down_date}</p>
+          <p>Hearing date: {hearing_date}</p>
+        </Col>
+        <Col className='links'>
+          <p>Click <a href='/'>here</a> to see the pdf.</p>
+          <p>Click <a href='/'>here</a> to see the LegalDocML</p>
+        </Col>
+      </Row>
     )
   }
 }
