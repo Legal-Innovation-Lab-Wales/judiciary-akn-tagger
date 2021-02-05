@@ -14,10 +14,16 @@ class CaseHeader extends React.Component {
 
     return (
         <div className='header'>
-          <p>Neutral citation number: {neutral_citation}</p>
-          <p>Case Number: {case_number}</p>
-          <p>Hand-down date: {hand_down_date}</p>
-          <p>Hearing date: {hearing_date}</p>
+          <div className='details'>
+            <p>Neutral citation number: {neutral_citation}</p>
+            <p>Case Number: {case_number}</p>
+            <p>Hand-down date: {hand_down_date}</p>
+            <p>Hearing date: {hearing_date}</p>
+          </div>
+          <div className='links'>
+            <p>Click <a href='/'>here</a> to see the pdf.</p>
+            <p>Click <a href='/'>here</a> to see the LegalDocML</p>
+          </div>
         </div>
     )
   }
