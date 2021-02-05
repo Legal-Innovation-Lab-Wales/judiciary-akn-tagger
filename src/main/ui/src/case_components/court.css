@@ -1,0 +1,8 @@
+.court {
+    margin-bottom: 30px;
+}
+
+.appeal {
+    border: 1px solid var(--gray);
+    padding-top: 15px;
+}

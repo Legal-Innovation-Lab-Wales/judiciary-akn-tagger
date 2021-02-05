@@ -1,5 +1,6 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
+import './judgment.css';
 
 class Judgment extends React.Component {
   render() {
@@ -22,8 +23,8 @@ class Judgment extends React.Component {
     });
 
     return (
-        <Row className='judgment'>
-          <Col>
+        <Row>
+          <Col className='judgment'>
             <h3>Approved Judgment</h3>
             <ol>
               { elements }

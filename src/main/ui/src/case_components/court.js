@@ -1,6 +1,7 @@
 import React from 'react';
 import Judge from './judge';
 import {Col, Row} from "react-bootstrap";
+import './court.css';
 
 class Court extends React.Component {
   render() {
@@ -38,13 +39,13 @@ class Court extends React.Component {
     let appeal = '';
 
     if (appeal_courts.length > 0) {
-      appeal = <div className='appeal'>
-        <h4>On appeal from:</h4>
+      appeal = <Col md={{ span: 6, offset: 3 }} className='appeal'>
+        <h5>On appeal from</h5>
         <ul>
-          { appeal_courts.map(court => <li key={court.getAttribute('refersTo')}>{court.textContent}</li>)}
+          { appeal_courts.map(court => <li key={court.getAttribute('refersTo')}><a href='/'>{court.textContent}</a></li>)}
         </ul>
-        { appeal_judge ? <p>Judge: {appeal_judge} </p> : ''}
-      </div>
+        { appeal_judge ? <p>Judge: <a href='/'>{appeal_judge}</a> </p> : ''}
+      </Col>
     }
 
     return (
@@ -52,9 +53,9 @@ class Court extends React.Component {
           <Col>
             <Row>
               <Col>
-                <h4>Court: </h4>
+                <h4>Court</h4>
                 <ul>
-                  { main_courts.map(court => <li key={court.getAttribute('refersTo')}>{court.textContent}</li>)}
+                  { main_courts.map(court => <li key={court.getAttribute('refersTo')}><a href='/'>{court.textContent}</a></li>)}
                 </ul>
               </Col>
               <Col>
@@ -62,9 +63,7 @@ class Court extends React.Component {
               </Col>
             </Row>
             <Row>
-              <Col>
                 { appeal }
-              </Col>
             </Row>
           </Col>
         </Row>

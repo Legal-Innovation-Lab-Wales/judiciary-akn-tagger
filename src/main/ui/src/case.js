@@ -45,10 +45,13 @@ class Case extends React.Component {
     }
 
     return (
-      <Container fluid className='case'>
+      <Container>
         { header }
+        <hr />
         { court }
+        <hr />
         { parties }
+        <hr />
         { judgment }
       </Container>
     )

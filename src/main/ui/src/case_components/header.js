@@ -1,5 +1,6 @@
 import React from 'react';
 import {Col, Row} from "react-bootstrap";
+import './header.css';
 
 class CaseHeader extends React.Component {
   // It's possible for a hearing date to be a time range of the format X - Y Mon Year.
@@ -14,16 +15,18 @@ class CaseHeader extends React.Component {
           hearing_date = this.formatDate(this.props.header.querySelectorAll('date[refersTo="#hearing"]'));
 
     return (
-      <Row className='header'>
-        <Col className='details'>
-          <p>Neutral citation number: {neutral_citation}</p>
-          <p>Case Number: {case_number}</p>
-          <p>Hand-down date: {hand_down_date}</p>
-          <p>Hearing date: {hearing_date}</p>
+      <Row>
+        <Col>
+          <p><strong>Neutral citation number:</strong> <a href='/'>{neutral_citation}</a></p>
+          <p><strong>Case Number:</strong> <a href='/'>{case_number}</a></p>
+          <p><strong>Hand-down date:</strong> <a href='/'>{hand_down_date}</a></p>
+          <p><strong>Hearing date:</strong> <a href='/'>{hearing_date}</a></p>
         </Col>
-        <Col className='links'>
-          <p>Click <a href='/'>here</a> to see the pdf.</p>
-          <p>Click <a href='/'>here</a> to see the LegalDocML</p>
+        <Col xs='auto'>
+          <div className='links'>
+            <p>Click <a href='/'>here</a> to see the pdf.</p>
+            <p>Click <a href='/'>here</a> to see the LegalDocML</p>
+          </div>
         </Col>
       </Row>
     )

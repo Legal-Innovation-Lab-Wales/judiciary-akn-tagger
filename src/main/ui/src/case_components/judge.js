@@ -1,4 +1,5 @@
 import React from 'react';
+import './judge.css'
 
 class Judge extends React.Component {
   render() {
@@ -14,9 +15,9 @@ class Judge extends React.Component {
 
     return (
         <div className='judges'>
-          <h4>Judges:</h4>
+          <h4>Judges</h4>
           <ul>
-            {judges.map(judge => <li key={judge.getAttribute('refer')}>{judge.textContent}</li>)}
+            {judges.map(judge => <li key={judge.getAttribute('refer')}><a href='/'>{judge.textContent}</a></li>)}
           </ul>
         </div>
     )

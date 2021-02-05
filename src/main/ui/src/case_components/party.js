@@ -1,5 +1,6 @@
 import React from 'react';
 import {Col, Row} from "react-bootstrap";
+import './party.css';
 
 class Party extends React.Component {
   render() {
@@ -15,16 +16,16 @@ class Party extends React.Component {
 
     return (
         <Row className='party'>
-          <Col className='persons'>
-            <h4>{ type }</h4>
+          <Col>
+            <h5>{ type }</h5>
             <ul>
-              { this.props.nodes.map(node => <li key={node.getAttribute('refersTo')}>{node.textContent}</li>) }
+              { this.props.nodes.map(node => <li key={node.getAttribute('refersTo')}><a href='/'>{node.textContent}</a></li>) }
             </ul>
           </Col>
-          <Col className='lawyers'>
-            <h4>Lawyers</h4>
+          <Col>
+            <h5>Lawyers</h5>
             <ul>
-              { lawyer_nodes.map(node => <li key={node.getAttribute('refersTo')}>{node.textContent}</li> ) }
+              { lawyer_nodes.map(node => <li key={node.getAttribute('refersTo')}><a href='/'>{node.textContent}</a></li> ) }
             </ul>
           </Col>
         </Row>

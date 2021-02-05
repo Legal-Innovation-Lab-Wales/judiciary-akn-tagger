@@ -18,11 +18,11 @@ class Parties extends React.Component {
     });
 
     return (
-        <Row className='parties'>
+        <Row>
           <Col>
             <Row>
               <Col>
-                <h4>Parties:</h4>
+                <h4>Parties</h4>
               </Col>
             </Row>
             { Object.keys(parties).map(party_type => <Party key={party_type} header={this.props.header}
