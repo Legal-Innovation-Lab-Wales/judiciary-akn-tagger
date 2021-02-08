@@ -1,5 +1,5 @@
 import React from 'react';
-import {Alert, Col, Container, Row} from 'react-bootstrap';
+import {Alert, Container} from 'react-bootstrap';
 import Summary from './summary';
 
 class Entity extends React.Component {
@@ -32,24 +32,16 @@ class Entity extends React.Component {
           }
         })
         .then(data => {
-          this.setState({ data: data });
+          this.setState({data: data});
         })
         .catch(error => {
-          this.setState({ error: error.message });
+          this.setState({error: error.message});
         })
   }
 
   render() {
     if (this.state.error) {
-      return (
-          <Container>
-            <Row>
-              <Col xs='auto'>
-                <Alert variant='danger'>{ this.state.error }</Alert>
-              </Col>
-            </Row>
-          </Container>
-      )
+      return <Alert variant='danger'>{this.state.error}</Alert>
     } else {
       return (
           <Container>

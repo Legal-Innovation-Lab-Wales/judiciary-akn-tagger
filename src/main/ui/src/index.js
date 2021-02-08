@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import Home from './home/home';
@@ -8,7 +8,7 @@ import Case from './case/case';
 import Entity from './entity/entity';
 
 ReactDOM.render(
-  <Router>
+  <BrowserRouter>
     <Switch>
       <Route exact path='/'>
         <Home />
@@ -19,6 +19,6 @@ ReactDOM.render(
         <Redirect to='/' />
       </Route>
     </Switch>
-  </Router>,
+  </BrowserRouter>,
   document.getElementById('root')
 );

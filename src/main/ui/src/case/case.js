@@ -3,19 +3,17 @@ import CaseHeader from './header';
 import Court from './court';
 import Parties from './parties';
 import Judgment from './judgment';
-import {Alert, Col, Container, Row} from 'react-bootstrap';
+import {Alert, Container} from 'react-bootstrap';
 import './case.css';
 
 class Case extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      xml: ''
-    }
+    this.state = {}
   }
 
   componentDidMount() {
-    const id = this.props.match.params.id
+    const id = this.props.match.params.id;
 
     fetch(`/xml/case/${id}`, {
       method: 'GET',
@@ -35,10 +33,10 @@ class Case extends React.Component {
           }
         })
         .then(data => {
-          this.setState({ xml: data });
+          this.setState({xml: data});
         })
         .catch(error => {
-          this.setState({ error: error.message });
+          this.setState({error: error.message});
         })
   }
 
@@ -49,26 +47,18 @@ class Case extends React.Component {
             judgment = xml.querySelector('judgmentBody');
 
       return (
-          <Container>
-            <CaseHeader header={ header } id={ this.props.match.params.id }/>
-            <hr />
-            <Court header={ header } id={ this.props.match.params.id }/>
-            <hr />
-            <Parties header={ header } id={ this.props.match.params.id }/>
-            <hr />
-            <Judgment judgment={ judgment } />
-          </Container>
+        <Container>
+          <CaseHeader header={header} id={this.props.match.params.id}/>
+          <hr />
+          <Court header={header} id={this.props.match.params.id}/>
+          <hr />
+          <Parties header={header} id={this.props.match.params.id}/>
+          <hr />
+          <Judgment judgment={judgment} />
+        </Container>
       )
     } else if (this.state.error) {
-      return (
-          <Container>
-            <Row>
-              <Col xs='auto'>
-                <Alert variant='danger'>{ this.state.error }</Alert>
-              </Col>
-            </Row>
-          </Container>
-      )
+      return <Alert variant='danger'>{this.state.error}</Alert>
     } else {
       return <div/>
     }

@@ -13,10 +13,10 @@ class CaseHeader extends React.Component {
 
   componentDidMount() {
     fetch(`/api/case/${this.props.id}`)
-        .then(response => response.json())
-        .then(data => {
-          this.setState(data);
-        });
+      .then(response => response.json())
+      .then(data => {
+        this.setState(data);
+      });
   }
 
   // It's possible for a hearing date to be a time range of the format X - Y Mon Year.
@@ -40,8 +40,8 @@ class CaseHeader extends React.Component {
         </Col>
         <Col xs='auto'>
           <div className='links'>
-            <p>Click <a target="_blank" href={ this.state.url }>here</a> to see the pdf.</p>
-            <p>Click <a target="_blank" href={ this.state.url }>here</a> to see the LegalDocML</p>
+            <p>Click <a target="_blank" href={this.state.url}>here</a> to see the pdf.</p>
+            <p>Click <a target="_blank" href={this.state.url}>here</a> to see the LegalDocML</p>
           </div>
         </Col>
       </Row>

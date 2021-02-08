@@ -6,7 +6,7 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      index: []
+      data: []
     }
   }
 
@@ -20,7 +20,7 @@ class Home extends React.Component {
     })
         .then(response => response.json())
         .then(data => {
-          this.setState({ index: data });
+          this.setState({data: data});
         })
         .catch(error => {
           console.error(error);
@@ -31,7 +31,7 @@ class Home extends React.Component {
     return (
         <Container>
           <Row>
-            <Col> { this.state.index.map(item => <Summary key={item.file} case={item}/>) } </Col>
+            <Col>{this.state.data.map(item => <Summary key={item.file} case={item}/>)}</Col>
           </Row>
         </Container>
     )
