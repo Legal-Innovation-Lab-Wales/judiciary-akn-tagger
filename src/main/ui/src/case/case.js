@@ -43,7 +43,7 @@ class Case extends React.Component {
   render() {
     if (this.state.xml) {
       const xml = new DOMParser().parseFromString(this.state.xml, 'text/xml'),
-          header = xml.querySelector('header'),
+            header = xml.querySelector('header'),
             judgment = xml.querySelector('judgmentBody');
 
       return (
