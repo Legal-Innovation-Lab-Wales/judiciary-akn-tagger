@@ -1,6 +1,6 @@
 import React from 'react';
 import Judge from './judge';
-import {Col, Row} from "react-bootstrap";
+import {Col, Row} from 'react-bootstrap';
 import './court.css';
 
 class Court extends React.Component {

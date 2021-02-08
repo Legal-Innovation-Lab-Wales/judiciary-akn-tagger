@@ -1,6 +1,6 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
-import Summary from "./home_components/summary";
+import {Col, Container, Row} from 'react-bootstrap';
+import Summary from './summary';
 
 class Home extends React.Component {
   constructor(props) {

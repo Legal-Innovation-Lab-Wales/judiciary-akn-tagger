@@ -1,10 +1,10 @@
 import React from 'react';
-import {Col, Row} from "react-bootstrap";
+import {Col, Row} from 'react-bootstrap';
 import './party.css';
 
 class Party extends React.Component {
   render() {
-    let type = this.props.header.querySelector(`role[refersTo="${this.props.type}"]`).textContent;
+    let type = this.props.header.querySelector(`role[refersTo='${this.props.type}']`).textContent;
 
     const lawyer_key = this.props.nodes
         .map(node => node.getAttribute('refersTo'))
@@ -12,7 +12,7 @@ class Party extends React.Component {
         .map(party => party.substr(1)).join(';');
 
     const lawyer_nodes = [];
-    this.props.header.querySelectorAll(`lawyer[for="#${lawyer_key}"]`).forEach(node => lawyer_nodes.push(node));
+    this.props.header.querySelectorAll(`lawyer[for='#${lawyer_key}']`).forEach(node => lawyer_nodes.push(node));
 
     return (
         <Row className='party'>

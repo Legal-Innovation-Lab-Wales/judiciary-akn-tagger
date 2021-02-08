@@ -11,17 +11,8 @@ import java.util.stream.*;
 
 public class OntService implements Service {
 
-    private static final String URL = "url";
-    private static final String HAND_DOWN_DATE = "hand_down_date";
-    private static final String HEARING_DATE = "hearing_date";
-
-    protected static final String FILE = "file";
-    protected static final String COURTS = "courts";
-    protected static final String JUDGES = "judges";
-    protected static final String LAWYERS = "lawyers";
-    protected static final String PARTIES = "parties";
-
     private static final List<Map<String, Object>> CASE_LAW_FILES = new ArrayList<>();
+    private static final String FILE = "file";
 
     private OntModel ontModel;
     private String namespace;
@@ -45,16 +36,16 @@ public class OntService implements Service {
     private void addCase(Individual individual) {
         Map<String, Object> map = new LinkedHashMap<>();
         map.put(FILE, getPropertyValue(individual, "has-filename").replaceAll(".xml", ""));
-        map.put(URL, getPropertyValue(individual, "has-URL"));
-        map.put(HAND_DOWN_DATE, getPropertyValue(individual, "has-handdown-date"));
-        map.put(HEARING_DATE, getPropertyValue(individual, "has-hearing-date"));
+        map.put("url", getPropertyValue(individual, "has-URL"));
+        map.put("hand_down_date", getPropertyValue(individual, "has-handdown-date"));
+        map.put("hearing_date", getPropertyValue(individual, "has-hearing-date"));
 
         List<String> courtList = new ArrayList<>();
         orderCourts(individual.listPropertyValues(getProperty("has-court"))).forEach(court -> addCourt(courtList, court));
-        map.put(COURTS, courtList);
-        map.put(JUDGES, getMultiple(individual.listPropertyValues(getProperty("has-judge"))));
-        map.put(LAWYERS, getMultiple(individual.listPropertyValues(getProperty("has-lawyer"))));
-        map.put(PARTIES, getMultiple(individual.listPropertyValues(getProperty("has-party"))));
+        map.put("courts", courtList);
+        map.put("judges", getMultiple(individual.listPropertyValues(getProperty("has-judge"))));
+        map.put("lawyers", getMultiple(individual.listPropertyValues(getProperty("has-lawyer"))));
+        map.put("parties", getMultiple(individual.listPropertyValues(getProperty("has-party"))));
 
         CASE_LAW_FILES.add(map);
     }
@@ -121,19 +112,14 @@ public class OntService implements Service {
 
     @Override
     public void update(Routing.Rules rules) {
-        rules.get("/case/{value}", this::getCaseMetaData);
+        rules.get("/case/{case}", this::getCaseMetaData);
         rules.get("/cases", this::getAllCases);
-        rules.get("/cases/{param}/{value}", this::getCasesByParam);
+        rules.get("/{entity}/{case}", this::getCasesForEntity);
         rules.get("/{+}", this::notFound);
     }
 
     private void getCaseMetaData(ServerRequest request, ServerResponse response) {
-        String fileName = request.path().absolute().param("value") + ".xml";
-
-        Map<String, Object> caseLawFile = CASE_LAW_FILES.stream()
-                .filter(map -> fileName.equalsIgnoreCase((String) map.get(FILE)))
-                .findFirst()
-                .orElse(null);
+        Map<String, Object> caseLawFile = getCase(request.path().absolute().param("case"));
 
         if (caseLawFile != null) {
             sendOKJsonResponse(response, caseLawFile);
@@ -146,15 +132,37 @@ public class OntService implements Service {
         sendOKJsonResponse(response, CASE_LAW_FILES);
     }
 
-    private void getCasesByParam(ServerRequest request, ServerResponse response) {
+    private void getCasesForEntity(ServerRequest request, ServerResponse response) {
         HttpRequest.Path path = request.path().absolute();
+        String entityType = path.param("entity");
+        String caseId = path.param("case");
 
-        List<String> cases = CASE_LAW_FILES.stream()
-                .filter(map -> ((List<String>) map.get(path.param("param"))).contains(path.param("value")))
+        List<Map<String, Object>> allCases = new ArrayList<>();
+        Map<String, Object> caseLawFile = getCase(caseId);
+        List<String> allEntities = (ArrayList<String>) caseLawFile.get(entityType);
+
+        allEntities.forEach(entity -> {
+            Map<String, Object> map = new LinkedHashMap<>();
+            map.put("name", entity);
+            map.put("cases", getCaseByEntity(entityType, entity));
+            allCases.add(map);
+        });
+
+        sendOKJsonResponse(response, allCases);
+    }
+
+    private Map<String, Object> getCase(String caseId) {
+        return CASE_LAW_FILES.stream()
+                .filter(map -> caseId.equalsIgnoreCase((String) map.get(FILE)))
+                .findFirst()
+                .orElse(null);
+    }
+
+    private List<String> getCaseByEntity(String entity, String value) {
+        return CASE_LAW_FILES.stream()
+                .filter(map -> ((List<String>) map.get(entity)).contains(value))
                 .map(map -> (String) map.get(FILE))
                 .collect(Collectors.toList());
-
-        sendOKJsonResponse(response, cases);
     }
 
     private void sendOKJsonResponse(ServerResponse response, Object responseEntity) {

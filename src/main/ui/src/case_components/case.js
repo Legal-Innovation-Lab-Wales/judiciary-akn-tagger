@@ -1,9 +1,9 @@
 import React from 'react';
-import CaseHeader from './case_components/header';
-import Court from './case_components/court';
-import Parties from './case_components/parties';
-import Judgment from "./case_components/judgment";
-import {Alert, Col, Container, Row} from "react-bootstrap";
+import CaseHeader from './header';
+import Court from './court';
+import Parties from './parties';
+import Judgment from './judgment';
+import {Alert, Col, Container, Row} from 'react-bootstrap';
 import './case.css';
 
 class Case extends React.Component {

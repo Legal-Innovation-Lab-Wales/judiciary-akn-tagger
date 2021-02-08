@@ -1,5 +1,5 @@
-import React from "react";
-import {Col, Row} from "react-bootstrap";
+import React from 'react';
+import {Col, Row} from 'react-bootstrap';
 import './judgment.css';
 
 class Judgment extends React.Component {
