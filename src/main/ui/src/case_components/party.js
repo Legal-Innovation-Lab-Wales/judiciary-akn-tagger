@@ -14,18 +14,28 @@ class Party extends React.Component {
     const lawyer_nodes = [];
     this.props.header.querySelectorAll(`lawyer[for='#${lawyer_key}']`).forEach(node => lawyer_nodes.push(node));
 
+    const parties_url = `/parties/${this.props.id}`, lawyers_url=`/lawyers/${this.props.id}`;
+
     return (
         <Row className='party'>
           <Col>
             <h5>{ type }</h5>
             <ul>
-              { this.props.nodes.map(node => <li key={node.getAttribute('refersTo')}><a href='/'>{node.textContent}</a></li>) }
+              { this.props.nodes.map(node =>
+                  <li key={node.getAttribute('refersTo')}>
+                    <a target="_blank" href={parties_url}>{node.textContent}</a>
+                  </li>
+              ) }
             </ul>
           </Col>
           <Col>
             <h5>Lawyers</h5>
             <ul>
-              { lawyer_nodes.map(node => <li key={node.getAttribute('refersTo')}><a href='/'>{node.textContent}</a></li> ) }
+              { lawyer_nodes.map(node =>
+                  <li key={node.getAttribute('refersTo')}>
+                    <a target="_blank" href={lawyers_url}>{node.textContent}</a>
+                  </li>
+              ) }
             </ul>
           </Col>
         </Row>

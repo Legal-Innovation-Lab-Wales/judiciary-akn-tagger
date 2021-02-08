@@ -7,7 +7,8 @@ class Court extends React.Component {
   render() {
     const organizationParent = this.props.header.querySelector('organization').parentNode,
           allElements = organizationParent.querySelectorAll('*'),
-          main_courts = [], appeal_courts = [];
+          main_courts = [], appeal_courts = [],
+          court_url = `/courts/${this.props.id}`, judge_url = `/judges/${this.props.id}`;
 
     let is_main_court = true, appeal_judge = '';
 
@@ -42,9 +43,11 @@ class Court extends React.Component {
       appeal = <Col md={{ span: 6, offset: 3 }} className='appeal'>
         <h5>On appeal from</h5>
         <ul>
-          { appeal_courts.map(court => <li key={court.getAttribute('refersTo')}><a href='/'>{court.textContent}</a></li>)}
+          { appeal_courts.map(court =>
+              <li key={court.getAttribute('refersTo')}>{court.textContent}</li>
+          )}
         </ul>
-        { appeal_judge ? <p>Judge: <a href='/'>{appeal_judge}</a> </p> : ''}
+        { appeal_judge ? <p>Judge: <a target="_blank" href={judge_url}>{appeal_judge}</a></p> : ''}
       </Col>
     }
 
@@ -55,11 +58,15 @@ class Court extends React.Component {
               <Col>
                 <h4>Court</h4>
                 <ul>
-                  { main_courts.map(court => <li key={court.getAttribute('refersTo')}><a href='/'>{court.textContent}</a></li>)}
+                  { main_courts.map(court =>
+                    <li key={court.getAttribute('refersTo')}>
+                      <a target="_blank" href={court_url}>{court.textContent}</a>
+                    </li>
+                  )}
                 </ul>
               </Col>
               <Col>
-                <Judge header={this.props.header} />
+                <Judge header={ this.props.header } id={ this.props.id }/>
               </Col>
             </Row>
             <Row>

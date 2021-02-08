@@ -50,11 +50,11 @@ class Case extends React.Component {
 
       return (
           <Container>
-            <CaseHeader header={ header }/>
+            <CaseHeader header={ header } id={ this.props.match.params.id }/>
             <hr />
-            <Court header={ header } />
+            <Court header={ header } id={ this.props.match.params.id }/>
             <hr />
-            <Parties header={ header } />
+            <Parties header={ header } id={ this.props.match.params.id }/>
             <hr />
             <Judgment judgment={ judgment } />
           </Container>

@@ -3,6 +3,22 @@ import {Col, Row} from 'react-bootstrap';
 import './header.css';
 
 class CaseHeader extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      url: '/',
+    }
+  }
+
+  componentDidMount() {
+    fetch(`/api/case/${this.props.id}`)
+        .then(response => response.json())
+        .then(data => {
+          this.setState(data);
+        });
+  }
+
   // It's possible for a hearing date to be a time range of the format X - Y Mon Year.
   formatDate(dates) {
     return dates.length > 1 ? `${dates[0].textContent} - ${dates[1].textContent}` : dates[0].textContent;
@@ -17,15 +33,15 @@ class CaseHeader extends React.Component {
     return (
       <Row>
         <Col>
-          <p><strong>Neutral citation number:</strong> <a href='/'>{neutral_citation}</a></p>
-          <p><strong>Case Number:</strong> <a href='/'>{case_number}</a></p>
-          <p><strong>Hand-down date:</strong> <a href='/'>{hand_down_date}</a></p>
-          <p><strong>Hearing date:</strong> <a href='/'>{hearing_date}</a></p>
+          <p><strong>Neutral citation number:</strong> {neutral_citation}</p>
+          <p><strong>Case Number:</strong> {case_number}</p>
+          <p><strong>Hand-down date:</strong> {hand_down_date}</p>
+          <p><strong>Hearing date:</strong> {hearing_date}</p>
         </Col>
         <Col xs='auto'>
           <div className='links'>
-            <p>Click <a href='/'>here</a> to see the pdf.</p>
-            <p>Click <a href='/'>here</a> to see the LegalDocML</p>
+            <p>Click <a target="_blank" href={ this.state.url }>here</a> to see the pdf.</p>
+            <p>Click <a target="_blank" href={ this.state.url }>here</a> to see the LegalDocML</p>
           </div>
         </Col>
       </Row>

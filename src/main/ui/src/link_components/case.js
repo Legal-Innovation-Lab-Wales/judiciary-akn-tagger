@@ -4,7 +4,7 @@ import './case.css';
 class Case extends React.Component {
   render() {
     return (
-        <a href={`/case/${this.props.case}`}>{ this.props.case.replaceAll('_', ' ') }</a>
+        <a target="_blank" href={`/case/${this.props.case}`}>{ this.props.case.replaceAll('_', ' ') }</a>
     )
   }
 }

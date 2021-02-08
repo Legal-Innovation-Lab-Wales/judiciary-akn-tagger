@@ -26,7 +26,8 @@ class Parties extends React.Component {
               </Col>
             </Row>
             { Object.keys(parties).map(party_type => <Party key={party_type} header={this.props.header}
-                                                            type={party_type} nodes={ parties[party_type] }/> ) }
+                                                            type={party_type} nodes={ parties[party_type] }
+                                                            id={this.props.id}/> ) }
           </Col>
         </Row>
     )

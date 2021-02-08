@@ -4,7 +4,7 @@ import './judge.css'
 class Judge extends React.Component {
   render() {
     const all_judge_nodes = this.props.header.querySelectorAll('judge'),
-          judges = [];
+          judges = [], judge_url = `/judges/${this.props.id}`;
 
     // Check if this judge node belongs to the Before: ... section of the DOM.
     all_judge_nodes.forEach(judge_node => {
@@ -17,7 +17,11 @@ class Judge extends React.Component {
         <div className='judges'>
           <h4>Judges</h4>
           <ul>
-            {judges.map(judge => <li key={judge.getAttribute('refer')}><a href='/'>{judge.textContent}</a></li>)}
+            {judges.map(judge =>
+                <li key={judge.getAttribute('refersTo')}>
+                  <a target="_blank" href={judge_url}>{judge.textContent}</a>
+                </li>
+            )}
           </ul>
         </div>
     )
