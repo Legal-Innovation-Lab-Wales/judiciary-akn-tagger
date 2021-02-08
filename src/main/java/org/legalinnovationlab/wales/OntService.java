@@ -1,11 +1,7 @@
 package org.legalinnovationlab.wales;
 
-import io.helidon.common.http.Http;
-import io.helidon.common.http.HttpRequest;
-import io.helidon.webserver.Routing;
-import io.helidon.webserver.ServerRequest;
-import io.helidon.webserver.ServerResponse;
-import io.helidon.webserver.Service;
+import io.helidon.common.http.*;
+import io.helidon.webserver.*;
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
 
@@ -48,7 +44,7 @@ public class OntService implements Service {
     // Every CaseLaw Individual is represented via a LinkedHashMap
     private void addCase(Individual individual) {
         Map<String, Object> map = new LinkedHashMap<>();
-        map.put(FILE, getPropertyValue(individual, "has-filename"));
+        map.put(FILE, getPropertyValue(individual, "has-filename").replaceAll(".xml", ""));
         map.put(URL, getPropertyValue(individual, "has-URL"));
         map.put(HAND_DOWN_DATE, getPropertyValue(individual, "has-handdown-date"));
         map.put(HEARING_DATE, getPropertyValue(individual, "has-hearing-date"));
