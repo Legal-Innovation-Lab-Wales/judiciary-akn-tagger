@@ -5,14 +5,14 @@ import './judgment.css';
 class Judgment extends React.Component {
   render() {
     let elements = [];
-    let tblockIndex = 1;
+    let tblock_index = 1;
 
     this.props.judgment.querySelectorAll('tblock, paragraph').forEach(element => {
       if (element.tagName === 'tblock') {
         elements.push(
-            <p className='tblock' key={`tblock-${tblockIndex}`}>{element.textContent}</p>
+            <p className='tblock' key={`tblock-${tblock_index}`}>{element.textContent}</p>
         );
-        tblockIndex++;
+        tblock_index++;
       } else {
         elements.push(
             <li key={element.querySelector('num').textContent}>

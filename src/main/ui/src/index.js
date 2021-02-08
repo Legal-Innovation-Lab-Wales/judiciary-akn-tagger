@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import Home from './home/home';
 import Case from './case/case';
-import Link from './entity/entity';
+import Entity from './entity/entity';
 
 ReactDOM.render(
   <Router>
@@ -14,7 +14,7 @@ ReactDOM.render(
         <Home />
       </Route>
       <Route path='/case/:id' component={Case} />
-      <Route path='/:entity(courts|judges|lawyers|parties)/:id' component={Link} />
+      <Route path='/:entity(courts|judges|lawyers|parties)/:id' component={Entity} />
       <Route path='*'>
         <Redirect to='/' />
       </Route>

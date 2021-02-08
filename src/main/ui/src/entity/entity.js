@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
+import {Alert, Col, Container, Row} from 'react-bootstrap';
 import Summary from './summary';
 
 class Entity extends React.Component {
@@ -21,18 +21,42 @@ class Entity extends React.Component {
         'Accept': 'application/json'
       }
     })
-        .then(response => response.json())
+        .then(response => {
+          switch (response.status) {
+            case 200:
+              return response.json();
+            case 404:
+              throw Error(`No such [${entity}] could be found for case law file [${id}]`)
+            default:
+              throw Error(`An unexpected error occurred when attempting to fetch [${entity}] for case law file [${id}]`);
+          }
+        })
         .then(data => {
           this.setState({ data: data });
-        });
+        })
+        .catch(error => {
+          this.setState({ error: error.message });
+        })
   }
 
   render() {
-    return (
-        <Container>
-          { this.state.data.map(item => <Summary key={encodeURIComponent(item.name)} data={item}/>) }
-        </Container>
-    )
+    if (this.state.error) {
+      return (
+          <Container>
+            <Row>
+              <Col xs='auto'>
+                <Alert variant='danger'>{ this.state.error }</Alert>
+              </Col>
+            </Row>
+          </Container>
+      )
+    } else {
+      return (
+          <Container>
+            {this.state.data.map(item => <Summary key={encodeURIComponent(item.name)} data={item}/>)}
+          </Container>
+      )
+    }
   }
 }
 

@@ -29,9 +29,9 @@ class Case extends React.Component {
             case 200:
               return response.text();
             case 404:
-              throw Error(`No such case law file could be found: [${id}]`)
-            case 500:
-              throw Error(`An unexpected error occurred when attempting to fetch case law file: [${id}]`);
+              throw Error(`No such case law file could be found [${id}]`)
+            default:
+              throw Error(`An unexpected error occurred when attempting to fetch case law file [${id}]`);
           }
         })
         .then(data => {

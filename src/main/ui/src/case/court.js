@@ -5,32 +5,32 @@ import './court.css';
 
 class Court extends React.Component {
   render() {
-    const organizationParent = this.props.header.querySelector('organization').parentNode,
-          allElements = organizationParent.querySelectorAll('*'),
+    const organization_parent = this.props.header.querySelector('organization').parentNode,
+          all_elements = organization_parent.querySelectorAll('*'),
           main_courts = [], appeal_courts = [],
           court_url = `/courts/${this.props.id}`, judge_url = `/judges/${this.props.id}`;
 
     let is_main_court = true, appeal_judge = '';
 
-    for (let i = 0; i < allElements.length; i++) {
-        const childNode = allElements[i];
+    for (let i = 0; i < all_elements.length; i++) {
+        const child_node = all_elements[i];
 
-        if (childNode.tagName === 'organization') {
+        if (child_node.tagName === 'organization') {
           if (is_main_court) {
-            main_courts.push(childNode);
+            main_courts.push(child_node);
           } else {
-            appeal_courts.push(childNode);
+            appeal_courts.push(child_node);
           }
         }
 
-        if (is_main_court && childNode.nextSibling &&
-            childNode.nextSibling.textContent.toLowerCase().trim().indexOf('on appeal') > -1) {
+        if (is_main_court && child_node.nextSibling &&
+            child_node.nextSibling.textContent.toLowerCase().trim().indexOf('on appeal') > -1) {
           is_main_court = false;
         }
 
-        if ((childNode.nextElementSibling && childNode.nextElementSibling.tagName === 'judge')){
+        if ((child_node.nextElementSibling && child_node.nextElementSibling.tagName === 'judge')){
           if (!is_main_court) {
-            appeal_judge = childNode.nextElementSibling.textContent;
+            appeal_judge = child_node.nextElementSibling.textContent;
           }
 
           break;

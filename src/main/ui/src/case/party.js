@@ -4,7 +4,7 @@ import './party.css';
 
 class Party extends React.Component {
   render() {
-    let type = this.props.header.querySelector(`role[refersTo='${this.props.type}']`).textContent;
+    let type = this.props.header.querySelector(`role[refersTo="${this.props.type}"]`).textContent;
 
     const lawyer_key_colon = this.props.nodes
         .map(node => node.getAttribute('refersTo'))
@@ -12,7 +12,7 @@ class Party extends React.Component {
         .map(party => party.substr(1)).join(';');
 
     const lawyer_nodes = [];
-    this.props.header.querySelectorAll(`lawyer[for='#${lawyer_key_colon}']`)
+    this.props.header.querySelectorAll(`lawyer[for="#${lawyer_key_colon}"]`)
         .forEach(node => lawyer_nodes.push(node));
 
     const parties_url = `/parties/${this.props.id}`, lawyers_url=`/lawyers/${this.props.id}`;

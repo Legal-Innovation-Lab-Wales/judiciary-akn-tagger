@@ -139,16 +139,21 @@ public class OntService implements Service {
 
         List<Map<String, Object>> allCases = new ArrayList<>();
         Map<String, Object> caseLawFile = getCase(caseId);
-        List<String> allEntities = (ArrayList<String>) caseLawFile.get(entityType);
 
-        allEntities.forEach(entity -> {
-            Map<String, Object> map = new LinkedHashMap<>();
-            map.put("name", entity);
-            map.put("cases", getCaseByEntity(entityType, entity));
-            allCases.add(map);
-        });
+        if (caseLawFile != null) {
+            List<String> allEntities = (ArrayList<String>) caseLawFile.get(entityType);
 
-        sendOKJsonResponse(response, allCases);
+            allEntities.forEach(entity -> {
+                Map<String, Object> map = new LinkedHashMap<>();
+                map.put("name", entity);
+                map.put("cases", getCaseByEntity(entityType, entity));
+                allCases.add(map);
+            });
+
+            sendOKJsonResponse(response, allCases);
+        } else {
+            response.status(Http.Status.NOT_FOUND_404).send();
+        }
     }
 
     private Map<String, Object> getCase(String caseId) {
