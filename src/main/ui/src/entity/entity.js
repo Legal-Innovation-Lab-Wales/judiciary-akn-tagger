@@ -1,8 +1,8 @@
 import React from 'react';
-import {Col, Container, Row} from 'react-bootstrap';
-import Summary from '../link_components/summary';
+import {Container} from 'react-bootstrap';
+import Summary from './summary';
 
-class Link extends React.Component {
+class Entity extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -36,4 +36,4 @@ class Link extends React.Component {
   }
 }
 
-export default Link;
+export default Entity;

@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
-import Home from './home_components/home';
-import Case from './case_components/case';
-import Link from './link_components/link';
+import Home from './home/home';
+import Case from './case/case';
+import Link from './entity/entity';
 
 ReactDOM.render(
   <Router>

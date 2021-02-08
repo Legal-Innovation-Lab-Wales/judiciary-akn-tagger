@@ -8,7 +8,7 @@ class Judge extends React.Component {
 
     // Check if this judge node belongs to the Before: ... section of the DOM.
     all_judge_nodes.forEach(judge_node => {
-      if (judge_node.parentNode.textContent.trim().toLowerCase().indexOf('before:') > -1) {
+      if (judge_node.parentNode.textContent.trim().toLowerCase().indexOf('before') > -1) {
         judges.push(judge_node);
       }
     });
