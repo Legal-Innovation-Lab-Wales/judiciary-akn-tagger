@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Container, Row} from 'react-bootstrap';
+import {Breadcrumb, BreadcrumbItem, Col, Container, Row} from 'react-bootstrap';
 import Summary from './summary';
 
 class Home extends React.Component {
@@ -30,6 +30,13 @@ class Home extends React.Component {
   render() {
     return (
         <Container>
+          <Row>
+            <Col>
+              <Breadcrumb>
+                <Breadcrumb.Item href="/">Index</Breadcrumb.Item>
+              </Breadcrumb>
+            </Col>
+          </Row>
           <Row>
             <Col>{this.state.data.map(item => <Summary key={item.file} case={item}/>)}</Col>
           </Row>

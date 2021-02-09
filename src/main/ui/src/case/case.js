@@ -3,7 +3,7 @@ import CaseHeader from './header';
 import Court from './court';
 import Parties from './parties';
 import Judgment from './judgment';
-import {Alert, Container} from 'react-bootstrap';
+import {Alert, Breadcrumb, Col, Container, Row} from 'react-bootstrap';
 import './case.css';
 
 class Case extends React.Component {
@@ -44,15 +44,24 @@ class Case extends React.Component {
     if (this.state.xml) {
       const xml = new DOMParser().parseFromString(this.state.xml, 'text/xml'),
             header = xml.querySelector('header'),
-            judgment = xml.querySelector('judgmentBody');
+            judgment = xml.querySelector('judgmentBody'),
+            id = this.props.match.params.id;
 
       return (
         <Container>
-          <CaseHeader header={header} id={this.props.match.params.id}/>
+          <Row>
+            <Col>
+              <Breadcrumb>
+                <Breadcrumb.Item href='/'>Index</Breadcrumb.Item>
+                <Breadcrumb.Item href={`/case/${id}`}>{id}</Breadcrumb.Item>
+              </Breadcrumb>
+            </Col>
+          </Row>
+          <CaseHeader header={header} id={id}/>
           <hr />
-          <Court header={header} id={this.props.match.params.id}/>
+          <Court header={header} id={id}/>
           <hr />
-          <Parties header={header} id={this.props.match.params.id}/>
+          <Parties header={header} id={id}/>
           <hr />
           <Judgment judgment={judgment} />
         </Container>

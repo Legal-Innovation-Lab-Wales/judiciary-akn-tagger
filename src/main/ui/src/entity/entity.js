@@ -1,5 +1,5 @@
 import React from 'react';
-import {Alert, Container} from 'react-bootstrap';
+import {Alert, Breadcrumb, Col, Container, Row} from 'react-bootstrap';
 import Summary from './summary';
 
 class Entity extends React.Component {
@@ -40,11 +40,23 @@ class Entity extends React.Component {
   }
 
   render() {
+    const id = this.props.match.params.id;
+    const entity = this.props.match.params.entity;
+
     if (this.state.error) {
       return <Alert variant='danger'>{this.state.error}</Alert>
     } else {
       return (
           <Container>
+            <Row>
+              <Col>
+                <Breadcrumb>
+                  <Breadcrumb.Item href='/'>Index</Breadcrumb.Item>
+                  <Breadcrumb.Item href={`/case/${id}`}>{id}</Breadcrumb.Item>
+                  <Breadcrumb.Item href={`/${entity}/${id}`}>{entity}</Breadcrumb.Item>
+                </Breadcrumb>
+              </Col>
+            </Row>
             {this.state.data.map(item => <Summary key={encodeURIComponent(item.name)} data={item}/>)}
           </Container>
       )
