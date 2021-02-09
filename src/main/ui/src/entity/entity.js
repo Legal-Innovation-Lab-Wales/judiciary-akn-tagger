@@ -57,6 +57,12 @@ class Entity extends React.Component {
                 </Breadcrumb>
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <p>This page shows all of the {entity} connected to the {id} case law file along with the additional
+                  case law files these {entity} are linked too.</p>
+              </Col>
+            </Row>
             {this.state.data.map(item => <Summary key={encodeURIComponent(item.name)} data={item}/>)}
           </Container>
       )
