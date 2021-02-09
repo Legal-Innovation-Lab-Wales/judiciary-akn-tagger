@@ -33,7 +33,7 @@ class Home extends React.Component {
           <Row>
             <Col>
               <Breadcrumb>
-                <Breadcrumb.Item href="/">Index</Breadcrumb.Item>
+                <Breadcrumb.Item href="/" active>Index</Breadcrumb.Item>
               </Breadcrumb>
             </Col>
           </Row>
