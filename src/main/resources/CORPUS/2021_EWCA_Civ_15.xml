@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2021_EWCA_Civ_15" />
+          <FRBRuri value="www.judiciary.uk/2021_EWCA_Civ_15" />
+          <FRBRdate date="2021-01-12" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/newman-v-secretary-of-state-for-housing-communities-and-local-government-and-ors" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/newman-v-secretary-of-state-for-housing-communities-and-local-government-and-ors" />
+          <FRBRdate date="2021-01-12" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_15.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_15.xml" />
+          <FRBRdate date="2021-01-21" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="AdministrativeCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdministrativeCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="PlanningCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PlanningCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="PaulNewmanNewHomesLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PaulNewmanNewHomesLimited" showAs="Paul Newman New Homes Limited" />
+        <TLCOrganization eId="SecretaryOfStateForHousing,CommunitiesAndLocalGovernment" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SecretaryOfStateForHousing,CommunitiesAndLocalGovernment" showAs="Secretary Of State For Housing, Communities And Local Government" />
+        <TLCOrganization eId="AylesburyValeDistrictCouncil" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AylesburyValeDistrictCouncil" showAs="Aylesbury Vale District Council" />
+        <TLCPerson eId="SirDuncanOuseley" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SirDuncanOuseley" showAs="Sir Duncan Ouseley" />
+        <TLCPerson eId="LordJusticePeterJackson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticePeterJackson" showAs="Lord Justice Peter Jackson" />
+        <TLCPerson eId="LordJusticeCoulson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeCoulson" showAs="Lord Justice Coulson" />
+        <TLCPerson eId="LadyJusticeAndrewsDbe" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LadyJusticeAndrewsDbe" showAs="Lady Justice Andrews Dbe" />
+        <TLCPerson eId="ChristopherLockhart-mummeryQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ChristopherLockhart-mummeryQc" showAs="Christopher Lockhart-mummery Qc" />
+        <TLCPerson eId="YaaserVanderman" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#YaaserVanderman" showAs="Yaaser Vanderman" />
+        <TLCPerson eId="EmwLawLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EmwLawLlp" showAs="Emw Law Llp" />
+        <TLCPerson eId="GuyWilliams" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GuyWilliams" showAs="Guy Williams" />
+        <TLCPerson eId="GovernmentLegalDepartment" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GovernmentLegalDepartment" showAs="Government Legal Department" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+        <TLCRole eId="interested-party" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#interested-party" showAs="interested-party" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2021] EWCA Civ 15</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>C1/2019/2413</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#AdministrativeCourt">ADMINISTRATIVE COURT</organization>
+        <organization refersTo="#PlanningCourt">PLANNING COURT</organization>
+        <judge refersTo="#SirDuncanOuseley">Sir Duncan Ouseley</judge>
+        (sitting as a Judge of the
+        <organization refersTo="#EWHC">High Court</organization>
+        )
+        <ref href="#CO/867/2019">CO/867/2019</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2021-01-12" refersTo="#hand-downDate">12/01/2021</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticePeterJackson">LORD JUSTICE PETER JACKSON</judge>
+        <judge refersTo="#LordJusticeCoulson">LORD JUSTICE COULSON</judge>
+        and
+        <judge refersTo="#LadyJusticeAndrewsDbe">LADY JUSTICE ANDREWS DBE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant" refersTo="#PaulNewmanNewHomesLimited">PAUL NEWMAN NEW HOMES LIMITED</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and-
+        <party as="#respondent" refersTo="#SecretaryOfStateForHousing,CommunitiesAndLocalGovernment">SECRETARY OF STATE FOR HOUSING, COMMUNITIES AND LOCAL GOVERNMENT</party>
+        <role refersTo="#respondent">Respondent</role>
+        -and-
+        <party as="#interested-party" refersTo="#AylesburyValeDistrictCouncil">AYLESBURY VALE DISTRICT COUNCIL</party>
+        <role refersTo="#interested-party">Interested Party</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#PaulNewmanNewHomesLimited" refersTo="#ChristopherLockhart-mummeryQc">Christopher Lockhart-Mummery QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#PaulNewmanNewHomesLimited" refersTo="#YaaserVanderman">Yaaser Vanderman</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#PaulNewmanNewHomesLimited" refersTo="#EmwLawLlp">EMW Law LLP</lawyer>
+        ) for the Appellant
+        <lawyer as="#barrister" for="#SecretaryOfStateForHousing,CommunitiesAndLocalGovernment" refersTo="#GuyWilliams">Guy Williams</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#SecretaryOfStateForHousing,CommunitiesAndLocalGovernment" refersTo="#GovernmentLegalDepartment">Government Legal Department</lawyer>
+        ) for the Respondent
+      </p>
+      <p>
+        Hearing date:
+        <date date="2020-12-09" refersTo="#hearing">9 December 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Lady Justice Andrews:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The central issue on this appeal is whether an experienced Planning Inspector and a specialist Planning Judge (Sir Duncan Ouseley) correctly interpreted paragraph 11d) of the 2018 version of the National Planning Policy Framework (“NPPF”) when dismissing the appellant developer ’s appeals following the failure by the local planning authority, Aylesbury Vale District Council, (“the Council”) to determine its application for outline planning permission for a residential development of 50 homes and associated facilities in the countryside, on land north of Leighton Road, Soulbury.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>Although the 2018 version has itself been replaced by the 2019 NPPF, the language of paragraph 11d) has not been changed in any material respect. Paragraph 11 is entitled “the presumption in favour of sustainable development”. It provides, so far as material, that “for decision-taking, this means: … d) where there are no relevant development plan policies, or the policies which are most important for determining the applications are out-of-date [FN 7] granting permission unless: i) the application of policies in this Framework that protect areas or assets of particular importance provides a clear reason for refusing the development proposed; or ii) any adverse impacts of doing so would significantly and demonstrably outweigh the benefits, when assessed against the policies in this Framework taken as a whole.” The material part of footnote 7 reads as follows: “This includes, for applications involving the provision of housing, situations where the local planning authority can not demonstrate a five-year supply of deliverable housing sites (with the appropriate buffer, as set out in paragraph 73) ...” This case is not concerned with the exceptions under i) and ii) and I shall therefore say no more about them.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>Paragraph 12 of the 2018 NPPF is also of some relevance. It provides as follows: “The presumption in favour of sustainable development does not change the statutory status of the development plan as the starting point for decision making. Where a planning application conflicts with an up-to-date development plan … permission should not usually be granted. Local planning authorities may take decisions that depart from an up-to-date development plan, but only if material considerations in a particular case indicate that the plan should not be followed.”</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>Background</p>
+        </tblock>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>In a letter sent to the Planning Inspectorate on 30 November 2018, which annexed its case officer ’s report, the Council indicated that it would have refused the application. One of the principal reasons it gave was the detrimental effect of the proposed development on the character and appearance of the rural area. In reaching that conclusion, the Council relied extensively on Policy GP.35 of the 2004 Aylesbury Vale District Local Plan (“AVDLP”) which, despite its age, was still applicable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>Many policies adopted as part of the AVDLP, including those specifically relating to development in the countryside, such as RA.1, RA.12, and RA.15, were not saved by the Secretary of State under paragraph 1 of schedule 8 to the Planning and Compulsory Purchase Act 2004 (“the 2004 Act”). However, policy GP.35, which falls within Chapter 4, under the sub-section “Conservation of the Built Environment” was among those which were saved. The commentary at the beginning of that sub-section states that: “4.105. design and landscaping of development are important priorities. An approach is required that respects the traditional character of towns and villages, and, where development in the countryside is necessary or appropriate, the traditional character of rural landscape and buildings.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>Policy GP. 35 reads as follows: The design of new development proposals should respect and complement: a) the physical characteristics of the site and surroundings; b) the building tradition, ordering, form and materials of the locality; c) the historic scale and context of the setting; d) the natural qualities and features of the area; and e) the effect on important public views and skylines.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>In its letter to the Planning Inspectorate, the Council said that the application would clearly be perceived to urbanise the undeveloped and rural nature of the entrance to the town along the Leighton Road, and that these changes would clearly be contrary to Policy GP.35 and the NPPF. It explained that the indicative layout served to reinforce the fact that development on this site would be perceived as an incongruous ‘ estate’ lying beyond the existing settlement separated from it by a distinct topographical feature, and would appear to be an incongruous feature in the open countryside beyond the settlement boundary. Importantly, it said it felt that any other design “would not be able to overcome the significant harm on [sic] the landscape character.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The case officer ’s report expressed the Council ’s conclusion in these terms: “the evaluation demonstrates that the proposal would result in the development of a Greenfield site, which would result in an intrusion into open countryside with significant adverse effects on the rural character and appearance of the site and its surroundings, and fails to complement the settlement characteristics and the character of the rural site setting, contrary to GP. 35 of AVDLP and NPPF advice.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>In her decision letter dated 24 January 2019, the Inspector identified two main issues, namely, (i) the effect of the proposed development upon the rural character and appearance of the site and wider area; and (ii) whether the Council had a five-year land supply for housing as required by national planning policy. She approached those questions in the order in which they arise in paragraph 11 of the 2018 NPPF, first asking herself whether there were any relevant policies in the AVDLP. She acknowledged that there were no policies in the Plan which restricted development in the location of the appeal site absolutely. She explained why saved policies RA.13 and RA.14 were inapplicable because of the geographic location of the site. The Inspector then gave lucid and cogent reasons for finding that policy GP.35 was relevant to her decision and that it was in keeping with the aims of the NPPF both in terms of standards of design, and conservation and enhancement of the natural environment. For that reason, she found it up-to-date and gave it full weight.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The Inspector next explained why, in her judgment, the proposed development conflicted with policy GP.35. She held that the proposed development would unnaturally extend the settlement and encroach upon the countryside, and be harmful to its rural character and appearance. She went on to find that the Council had a five- year housing land supply. That meant that footnote 7 to Paragraph 11 of the NPPF had no relevance to the determination of the planning application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>On the basis of those findings, the Inspector decided that the presumption in favour of the development under paragraph 11d) (known as the “tilted balance”) was inapplicable. She therefore applied the planning balance set out in section 38(6) of the 2004 Act. She concluded that the housing benefit taken with the more general economic benefits of the proposal did not outweigh the specific harm that she had found, and dismissed the developer ’s appeal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The Judge held that the Inspector correctly found that GP.35 was relevant to a decision on outline planning permission, and that it would be breached by the proposed development. She was entitled to conclude that the development would not accord with the Local Plan. He held that GP.35 gave policy weight and significance to topics relevant to the assessment of the impact of a development on the character and appearance of a rural area. For the purposes of paragraph 11d) of the 2018 NPPF, the Inspector was right in her approach to the existence of a relevant development plan policy, and in her approach to what constituted the most important development plan policies for determining the application. He therefore upheld the Inspector ’s decision.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>The developer appeals against that decision on two grounds namely: 1. The Judge erred in construing paragraph 11d) of the NPPF contrary to its natural meaning and when read in context; and 2. The Judge erred in agreeing with the Inspector ’s construction of policy GP.35 of the AVDLP that the policy was intended to guide decision-making at the outline application stage.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Although both Mr Lockhart-Mummery QC for the developer and Mr Williams for the Secretary of State understandably concentrated their submissions on Ground 1, and addressed that issue first, as the Judge did in his judgment, logically that issue only arises if the Inspector correctly interpreted policy GP.35. Therefore, I will begin by addressing Ground 2.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Does Policy GP.35 apply to applications for outline planning permission?</p>
+        </tblock>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Section 38 (6) of the 2004 Act requires an application for planning permission to be determined in accordance with the local development plan unless material considerations indicate otherwise. If the section 38(6) duty is to be performed properly, the decision-maker must identify and understand the relevant policies, and must establish whether or not the proposal accords with the plan, read as a whole. If the relevant policies have been properly understood in the making of the decision, their application is a matter for the decision-maker, whose reasonable exercise of planning judgment on the relevant considerations the court will not disturb: see Canterbury City Council v Secretary of State for Communities and Local Government and another [2019] EWCA Civ 669, [2019] PTSR 1714 per Lindblom LJ at [21]-[22].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>As the Judge said in paragraph 55 of his judgment, the language of paragraph 11d) of the 2018 NPPF requires a judgment by the decision-maker as to whether GP.35, read in the context of the other policies of the AVDLP, as it was when adopted, was relevant to the determination of this planning proposal, and then a judgment as to its relative importance. There was no dispute that “relevant” in this context means relevant to determining the application under consideration, which in this case was an application for outline planning permission.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>Once outline planning permission has been granted, it will not be open to a decision- maker to revisit at the reserved matters stage any matters of principle which ought to have been considered at this earlier stage; this means that once permission has been granted in principle, some development must be permitted on the site within the ambit of that permission. It would not be open to the local planning authority, for example, to take the position at the reserved matters stage that no development on that site could ever blend in with the character and setting of the local environment. Therefore, a useful purpose would be served in having a provision in the local development plan that would specifically enable the decision-maker to address such matters at the “in principle” stage. The answer to the question whether policy GP.35 serves that useful purpose depends on its interpretation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>Whilst the relevance of a local policy is a matter of planning judgment, the interpretation of that policy is a matter of law. Sometimes the distinction between the two is a fine one, as exemplified by this case. The Inspector considered GP.35 to be relevant and explained why; and that decision has not been challenged as Wednesbury unreasonable. However, Mr Lockhart-Mummery ’s submission was that, properly understood, GP.35 could not be relevant at the stage where outline planning permission was sought, because it was only concerned with issues of detail which arise at the reserved matters stage. In other words, it could not be applied to outline applications. Unlike other policies in the AVDLP (including many which had not been saved because they had been superseded, initially by specific national policies, and ultimately by the NPPF) it was not directed to the question of whether in principle a development should be permitted at a particular site.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>The starting point for the interpretation of planning policy, whether local or national, is the ordinary meaning of the words used, read in their proper context. It was common ground that that context included the other policies in the AVDLP, irrespective of whether they had been saved. In the Canterbury City Council case, Lindblom LJ encapsulated the key principles in the following passage at [22]: “the court does not approach [the task of interpreting development plan policy] with the same linguistic rigour as it applies to the construction of a statute or contract. It must seek to discern from the language used in formulating the plan the sensible meaning of the policies in question, in their full context, and thus their true effect. The context includes the objectives to which the policies are directed, other relevant policies in the plan, and the relevant supporting text. The court will always keep in mind that the creation of development plan policy by a local planning authority is not an end in itself, but a means to the end of coherent and reasonably predictable decision-making in the public interest …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>In support of his submission that GP.35 has a restricted application, Mr Lockhart- Mummery relied on the fact that the AVDLP had an entire section – Section 10 – devoted to development in rural areas. Whilst many of the policies in that section were not saved, and those which were saved were irrelevant to this application because of the location of the site, the language used in those policies indicated that they were addressing the question whether a particular development should be allowed in principle.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>Mr Lockhart-Mummery also pointed to policy GP.34, the immediate predecessor to the policy in question, which was not saved. That policy referred in terms to what the Council will do “in determining planning applications” and made it clear that permission would not be granted in certain circumstances. He contrasted that with the language of GP.35, which contains no similar provisions.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>The Inspector and the Judge both fairly and rightly acknowledged that there were elements of GP.35 that were more relevant to a reserved matters application (or a full planning application) than to an outline application. However, as the Judge said, that did not mean that the Inspector fell into error when she decided that there were aspects that remained relevant to the fundamental question of whether a satisfactory development could be achieved in principle. As the Judge pointed out at paragraph 60 of his judgment, the drafting of local plan policies is not as rigorous or necessarily as logically and clearly structured a process as the drafting of a statute.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>I respectfully agree with the Judge that there are sound reasons why issues relating to the character or appearance or landscaping of a proposed development might be thought better dealt with under a general policy within the local development plan, than under a section devoted to the principles governing what is or is not permitted in specific locations, such as rural areas. These concepts are, quite understandably, expressed in broad terms that allow for maximum flexibility, so that they may be applied by experienced decision makers to a range of planning applications arising in a wide variety of contexts in the planning area covered by the local development plan.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The Judge also made an important point in paragraph 61, where he observed that there is no necessary hard and fast line between what is acceptable in principle, and what the impact of a particular development on the landscape might be. It would be a sound argument against the grant of planning permission that the applicant could not demonstrate how a development could be sited, laid out or otherwise designed in a way that would avoid harm to the factors enumerated in GP. 35, particularly factors a, d and e. These factors would play a part in the consideration of the question whether in principle a development should be permitted in a particular site by reference to any specifically targeted policies, and whether exceptions should be made to any general prohibition on development in such locations. They might also have a significant part to play in assessing whether a development on the site would or would not be harmful to the character and appearance of the area. If, for example, any development on the site, however structured, would block out an important historic view, the local planning authority ought to be able to refuse the development in principle, because it would be too late to address that problem at the reserved matters stage. The language of GP.35 is wide enough to allow this.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>I also agree with the Judge that the fact that in practice, when assessing the impact of the development on the character and appearance of a rural area, its impact on the countryside, the landscape, and public or skyline views would inevitably have to be considered irrespective of the existence of a specific policy, is no reason to interpret that policy as being restricted to reserved matters. As he put it in paragraph 66: “many policies deal with considerations which would obviously be material even if the policy did not exist.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The Judge did not see GP.35 as just a handy reference point for topics relevant to the assessment of the impact of the development on the character and appearance of a rural area. He said it gave policy weight and significance to those topics, which bite at the stage when an outline planning permission is being considered. I agree with that analysis and with the Judge ’s interpretation of the policy. Therefore, the Council ’s understanding of its own policy and the Inspector ’s interpretation of it was correct. I would dismiss the appeal on Ground 2.</p>
+          </content>
+        </paragraph>
+      </background>
+      <motivation>
+        <tblock>
+          <p>Interpretation of paragraph 11d) of the 2018 NPPF</p>
+        </tblock>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>Ground 1 must be considered against the background of the Inspector ’s findings that (i) the AVDLP contained a policy that was relevant to the determination of an application for outline planning permission for this development (i.e. GP. 35), (ii) that policy accorded with national policy and therefore was not out-of-date, and (iii) the Council had demonstrated that it satisfied the requirement of the 5-year land supply for housing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>Ever since a NPPF was first introduced in March 2012, the interpretation of its provisions has provided a fertile hunting ground for planning lawyers. The 2018 version was intended to produce greater clarity and simplicity, but unfortunately it has not been entirely successful. The effect of the appellant ’s argument was that if there is only one relevant policy in the local plan, the developer gets the benefit of the tilted balance (absent the operation of one of the exceptions). Mr Lockhart-Mummery eschewed any suggestion that this was a “numbers game” but he also very fairly accepted that it is virtually unknown for a single policy in a local plan to embrace all the material considerations that would suffice to enable a decision-maker to determine a planning application, especially if that application is to build houses.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Mr Lockhart-Mummery, as he did in the court below, relied on the fact that the 2012 NPPF introduced what he described as “a radical change in policy with a view to boosting significantly the supply of housing”. Paragraph 47 of the 2012 NPPF required local planning authorities, among other matters, to identify and update annually a supply of specific deliverable sites sufficient to provide five years’ worth of housing against their housing requirements with an additional buffer of 5 % (moved forward from later in the plan period) to ensure choice and competition in the market for land. That buffer could increase to 20 % if the authority had a poor history in terms of housing supply. Whilst it is true that one of the national policy objectives was to boost the supply of housing, that was not, and is not, the only objective.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>Among the provisions of the 2012 version of the NPPF that provoked a considerable amount of litigation were paragraph 14, which introduced what became known as the tilted balance, and paragraph 49, which concerned the circumstances in which the tilted balance should be applied. Paragraph 49 provided that: “Housing applications should be considered in the context of the presumption in favour of sustainable development. Relevant policies for the supply of housing should not be considered up-to-date if the local planning authority can not demonstrate a five-year supply of deliverable housing sites.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>The “presumption in favour of sustainable development” was explained in paragraph 14, which describes it as a “golden thread running through both plan-making and decision-taking”. Paragraph 14 provided, so far as relevant, as follows: “For decision-taking this means: …. where the development plan is absent, silent or relevant policies are out-of-date, granting permission unless:-any adverse impacts of doing so would significantly and demonstrably outweigh the benefits, when assessed against the policies in this Framework taken as a whole, or-specific policies in this Framework indicate development should be restricted.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>The way in which paragraphs 14 and 49interacted was described by Lord Carnwath in Hopkins Homes Ltd v Secretary of State for Communities and Local Government [2017] UKSC 37, [2017 ] 1 WLR 1865 at paragraph [54]. He explained that in the absence of relevant or up-to-date development plan policies, the balance was tilted in favour of the grant of permission, except when the benefits were “significantly and demonstrably” outweighed by the adverse effects, or where “specific policies” indicated otherwise.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>Mr Lockhart-Mummery referred us to several cases on the interpretation of “silent” and “absent”, laying particular emphasis on Lindblom J ’s oft-quoted analysis of the requirements of paragraph 14 of the 2012 NPPF in Bloor Homes East Midlands Ltd v Secretary of State for Communities and Local Government [2014] EWHC 754 (Admin), [2017] PTSR 1283 at [42]-[51]. He also took the Court to some of the documents relating to the consultation which informed the 2018 NPPF, as support for the proposition that there was no policy shift.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The Judge addressed all these materials in detail in paragraphs 15 to 28 of his judgment, before ultimately concluding at paragraph 38 that the 2018 NPPF should be considered on its own. He added that the consultation documents and process did not support a different interpretation of paragraph 11d) from the one that he had reached. I agree.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>Like the Judge, I do not find it particularly helpful to consider the language of the 2012 NPPF or how that was construed in earlier cases, and I do not consider that the consultation documentation adds anything useful to the debate. The 2012 NPPF was replaced by the 2018 version, which uses different language and, unlike its predecessor, deals in one place with all the considerations that determine whether the tilted balance should apply.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The words “absent” and “silent” have gone. Cases on their meaning do not assist in the interpretation of the language that was used in their place, which is deliberately and materially different. Moreover, none of the cases to which we were taken by Mr Lockhart-Mummery, including Bloor Homes, directly considered the situation where the local development plan contained one or more policies that were relevant, in the sense of being pertinent to the determination of the application under consideration, but were or might be insufficient in and of themselves to determine the acceptability of the application in principle.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>The first “trigger” for the application of the tilted balance under paragraph 11d) is “where there are no relevant development plan policies”. That describes the situation where there is no policy in the development plan that is relevant to the decision whether the application should be granted or refused. Obviously, that is wide enough to embrace, by way of example, the scenario where there is no development plan at all; or where there is such a plan, but it pre-dates the 2004 Act, and none of the policies in it that might have been relevant has been saved.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>As Mr Williams, on behalf of the Secretary of State, reminded the Court, paragraph 11d) is concerned with the entire range of applications for which planning consent is required and not just with housing developments. Thus, what is relevant in the context of one type of planning application may well be irrelevant in another. Moreover, the number of policies that are relevant will vary from case to case and it may be that only one or two are truly pertinent to the determination of the application under consideration.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>I respectfully agree with the Judge that the concept of “relevance” means that the policy or policies must have a real role to play in the determination of the application, but there is no requirement that it or they should be enough in themselves to enable the decision maker to grant or refuse that application. “Relevant” does not mean, and can not mean, “determinative”. The first trigger can not be activated if there is a relevant policy in the local plan, as there was here. Mr Lockhart-Mummery ’s suggested interpretation would involve doing violence to the language of paragraph 11d) by reading it as if it said: “where the local plan does not contain a body of policies sufficient for determining the application in principle.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>I also agree with the Judge that in a case that involves a housing application, there is no reason to restrict the concept of “relevance” to policies that are specifically targeted at the type of development under consideration (such as affordable housing, or a block of flats) or the location of the proposed development (such as policies about building in the countryside). A general development control policy may be capable of having a real role to play in the outcome of an application; its importance is a different matter, which will depend on the facts and circumstances of the particular case, and is a matter of value judgment on which the expertise of a planning inspector will carry significant weight.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>It was in the specific context of drawing the distinction between relevance and importance that the Judge referred (in paragraph 32) to the concept of relevance not excluding “mundane policies applicable to the sort of development proposal … such as the provision of adequate access to the highway or adequate sewerage”. There is a danger that these illustrations might be misunderstood. I do not believe that the Judge was intending to suggest that policies of that mundane nature would be relevant in every case, let alone that the existence of a single policy of that nature in the local plan would necessarily preclude the operation of the first trigger. Indeed, earlier in the same passage he accepts that a policy of wholly tangential significance may be “irrelevant”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>In any event, policy GP. 35 is of a completely different character and, for reasons that I have already explained, the Inspector was entitled to find it relevant. Since the Inspector and the Judge correctly concluded that policy GP. 35 was not confined in its ambit to matters of detail arising only at the reserved matters stage, the question whether that policy was relevant and how important it was to the determination of the application under consideration were quintessential matters of planning judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The second “trigger” for the application of the tilted balance is “where the policies which are most important for determining the application are out-of-date.” That necessarily involves an evaluation by the decision maker of which of the relevant policies in the local plan are the most important, and whether they accord with current national policy. As the Judge and the Inspector both found, a policy is not out-of-date simply because it is in a time-expired plan : Mr Lockhart-Mummery rightly did not seek to contend otherwise.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>In Wavendon Properties Ltd v Secretary of State for Housing Communities and Local Government and another [2019] EWHC 1524 (Admin), [2019] PTSR 2077, Dove J. had to consider the argument that this phrase meant that if one of the policies that was among the most important for determining the application was out-of-date, the tilted balance automatically applied. He rightly rejected that argument, pointing out that the first step in the exercise is to identify the policies that are the most important for determining the application; the second is to examine each of those policies to see if it is out-of-date; and the third is to stand back and assess whether, taken overall, those policies could be concluded to be out-of-date for the purposes of the decision. He regarded this holistic approach as consistent with the purpose of the policy to put up- to-date plans and plan-led decision taking at the heart of the development control process. As he said at [58]: “The application of the tilted balance in cases where only one policy of several of those most important for the decision was out of date and several others were up-to-date and did not support the grant of consent, would be inconsistent with that purpose.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>That approach is entirely sound, but it is important to note that Dove J. was specifically concerned with a case in which there was a group (or as it has become known colloquially a “basket”) of relevant policies to consider. His remarks, taken out of that context, can not be used to support an interpretation of paragraph 11d) which applies the tilted balance despite the fact that there is a relevant policy in the local plan which is up-to-date, and that policy is regarded by the decision-maker as the most important for determining the application, just because that policy happens to be the only relevant policy. Indeed, his reasoning about the intention of putting plan-led decision taking at the heart of the development control process points towards the opposite conclusion.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>The Judge was right to find that the second trigger contains no requirement that the up- to-date basket of the most important policies in the development plan for determining the application should itself also constitute a body of policies sufficient for the determination of the acceptability of the application in principle. Dove J. said no such thing; that was not the issue he had to determine in Wavendon, and his reasoning does not support that construction of paragraph 11d). Nor does the natural reading of the language, taken in context.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>As the Judge pointed out in paragraph 36 of his judgment in the present case, the plural “policies” embraces the singular, avoids linguistic awkwardness, and makes sense. The alternative construction would mean that the tilted balance would apply (in the absence of the exceptions) despite the presence of an up-to-date, self-contained, site and development policy that was the crucial policy, merely because that policy was the sole survivor in the local plan. I find those points compelling. There is nothing in the Judge ’s approach that is inconsistent with Wavendon; on the contrary, his approach makes sense and accords with a common-sense interpretation of the language used, taken in context.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>As Mr Williams submitted, at the end of the day there is nothing inherently unfair to an applicant or contrary to the overall scheme of the NPPF or the 2004 Act, both of which afford primacy to the local plan, about the balancing exercise being carried out under section 38(6) in circumstances where an experienced Planning Inspector has found that there is a policy in the development plan that is relevant, important and up-to-date. For those reasons I would uphold the interpretation of Paragraph 11d) adopted by the Judge and applied by the Inspector, and dismiss this appeal on Ground 1 also.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Coulson:</p>
+        </tblock>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>I agree.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Peter Jackson:</p>
+        </tblock>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>I also agree.</p>
+          </content>
+        </paragraph>
+      </motivation>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

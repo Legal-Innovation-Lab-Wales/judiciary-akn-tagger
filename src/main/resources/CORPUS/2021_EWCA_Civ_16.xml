@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2021_EWCA_Civ_16" />
+          <FRBRuri value="www.judiciary.uk/2021_EWCA_Civ_16" />
+          <FRBRdate date="2021-01-15" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/lexlaw-ltd-v-zuberi" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/lexlaw-ltd-v-zuberi" />
+          <FRBRdate date="2021-01-15" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_16.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_16.xml" />
+          <FRBRdate date="2021-01-27" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="BusinessAndPropertyCourts" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#BusinessAndPropertyCourts" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="MrsShaistaZuberi" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrsShaistaZuberi" showAs="Mrs Shaista Zuberi" />
+        <TLCOrganization eId="LexlawLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LexlawLimited" showAs="Lexlaw Limited" />
+        <TLCOrganization eId="TheGeneralCouncilOfTheBarOfEnglandAndWales(“theBarCouncil”)" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TheGeneralCouncilOfTheBarOfEnglandAndWales(“theBarCouncil”)" showAs="The General Council Of The Bar Of England And Wales (“the Bar Council”)" />
+        <TLCPerson eId="HhjParfitt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HhjParfitt" showAs="Hhj Parfitt" />
+        <TLCPerson eId="LordJusticeLewison" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeLewison" showAs="Lord Justice Lewison" />
+        <TLCPerson eId="LordJusticeNewey" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeNewey" showAs="Lord Justice Newey" />
+        <TLCPerson eId="LordJusticeCoulson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeCoulson" showAs="Lord Justice Coulson" />
+        <TLCPerson eId="MrAdrianDavies" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAdrianDavies" showAs="Mr Adrian Davies" />
+        <TLCPerson eId="ConnaughtSolicitors" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ConnaughtSolicitors" showAs="Connaught Solicitors" />
+        <TLCPerson eId="MrChristoperSnell" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrChristoperSnell" showAs="Mr Christoper Snell" />
+        <TLCPerson eId="LexlawSolicitors&amp;Advocates" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LexlawSolicitors&amp;Advocates" showAs="Lexlaw Solicitors &amp; Advocates" />
+        <TLCPerson eId="MrNicholasBaconQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrNicholasBaconQc" showAs="Mr Nicholas Bacon Qc" />
+        <TLCPerson eId="MrAlanTunkel&amp;MrGregCox" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAlanTunkel&amp;MrGregCox" showAs="Mr Alan Tunkel &amp; Mr Greg Cox" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+        <TLCRole eId="intervener" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#intervener" showAs="intervener" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2021] EWCA Civ 16</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>A3/2020/1270</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#BusinessAndPropertyCourts">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</organization>
+        <judge refersTo="#HhjParfitt">HHJ PARFITT</judge>
+        ( Sitting as a judge of the
+        <organization refersTo="#EWHC">High Court</organization>
+        )
+        <ref href="#2020EWHC1855Ch">[2020]EWHC1855(Ch)</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2021-01-15" refersTo="#hand-downDate">15th January 2021</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticeLewison">LORD JUSTICE LEWISON</judge>
+        <judge refersTo="#LordJusticeNewey">LORD JUSTICE NEWEY</judge>
+        and
+        <judge refersTo="#LordJusticeCoulson">LORD JUSTICE COULSON</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant" refersTo="#MrsShaistaZuberi">MRS SHAISTA ZUBERI</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and-
+        <party as="#respondent" refersTo="#LexlawLimited">LEXLAW LIMITED</party>
+        <role refersTo="#respondent">Respondent</role>
+        -and-
+        <party as="#intervener" refersTo="#TheGeneralCouncilOfTheBarOfEnglandAndWales(“theBarCouncil”)">THE GENERAL COUNCIL OF THE BAR OF ENGLAND AND WALES (“The Bar Council”)</party>
+        <role refersTo="#intervener">Intervener</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#MrsShaistaZuberi" refersTo="#MrAdrianDavies">MR ADRIAN DAVIES</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#MrsShaistaZuberi" refersTo="#ConnaughtSolicitors">Connaught Solicitors</lawyer>
+        ) for the Appellant
+        <lawyer as="#barrister" for="#LexlawLimited" refersTo="#MrChristoperSnell">MR CHRISTOPER SNELL</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#LexlawLimited" refersTo="#LexlawSolicitors&amp;Advocates">Lexlaw Solicitors &amp; Advocates</lawyer>
+        ) for the Respondent
+        <lawyer as="#barrister" for="#TheGeneralCouncilOfTheBarOfEnglandAndWales(“theBarCouncil”)" refersTo="#MrNicholasBaconQc">MR NICHOLAS BACON QC</lawyer>
+        ,
+        <lawyer as="#barrister" for="#TheGeneralCouncilOfTheBarOfEnglandAndWales(“theBarCouncil”)" refersTo="#MrAlanTunkel&amp;MrGregCox">MR ALAN TUNKEL &amp; MR GREG COX</lawyer>
+        for the Intervener
+      </p>
+      <p>
+        Hearing date:
+        <date date="2020-12-03" refersTo="#hearing">3rd December 2020</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>Covid-19 Protocol: This judgment was handed down remotely by circulation to the parties’ representatives by email, release to BAILII and publication on the Courts and Tribunals Judiciary website. The date and time for hand-down is deemed to be 10:30am on Friday 15th January 2021.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Lord Justice Lewison:</p>
+        </tblock>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>A client enters into a contract of retainer with solicitors to prosecute a claim. The contract provides that in the event of success the solicitors will be entitled to a share of the recoveries. The client achieves success by means of a settlement of the claim; and the solicitors claim their share. But the contract also contains a clause which says that if the client terminates the retainer prematurely (which she did not), she must pay the solicitors’ normal fees and disbursements. Does the existence of that clause invalidate the whole contract? HH Judge Parfitt held that it did not. His judgment is at [2020] EWHC 1855 (Ch).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>The particular factual background to this case does not affect the issue we have to decide; so I give only a short summary. Mrs Zuberi borrowed money from a bank. She subsequently brought a claim against the bank alleging that she had been missold certain financial products. She retained Lexlaw to act on her behalf under the terms of a written agreement. Eventually the bank made an offer to settle her claim, which she accepted.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>Under clause 9.1 of the written agreement Lexlaw were entitled to 12 % of any sum recovered plus expenses (such as disbursements). Lexlaw says that the sum due is just under £ 130,000. Clause 10 provided that if the claim was lost, the client was liable to pay expenses only. But clause 6.2 of the agreement provided: “With the exception of the circumstances set out in clause 6.3 … you may terminate this Agreement at any time. However, you are liable to pay the Costs and the Expenses incurred up to the date of termination of this Agreement within one month of delivery of our bill to you.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The expression “Costs” was defined as time charges at an hourly rate for time spent working on the claim; and the expression “Expenses” was defined as the cost of instructing third parties plus disbursements.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The common law</p>
+        </tblock>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>Retainers under which a lawyer was entitled to a share in the client ’s recoveries were long prohibited at common law on grounds of public policy on the ground that they were “champertous”, although public policy is capable of changing: Kellar v Williams [2004] UKPC 30, [2005 ] 1 LRC 582 at [21].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>At common law, where all the terms of a contract are illegal or contrary to public policy, the contract is unenforceable. Where, however, only some of the terms are illegal or contrary to public policy, the court can in some circumstances enforce those parts that are not illegal or contrary to public policy. The general rule is that where you can not sever the illegal from the legal parts of a contract, the contract is altogether void, but where you can sever them “you may reject the bad part and retain the good”: Chitty on Contracts (33rd ed para 16-237).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The criteria that must be fulfilled before severance is possible are that (a) the offending provision can be removed without modifying or adding to other terms of the agreement; (b) the remaining terms continue to be supported by adequate consideration and (c) the removal of the unenforceable part of the contract does not change the nature of the contract, such that it is not the sort of contract that the parties entered into at all: Tillman v Egon Zehnder Ltd [2019] UKSC 32, [2020] AC 154.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>In my judgment, these conditions are amply fulfilled in this case. At common law, therefore, I consider that clause 6.2 of the written agreement could have been severed from the remainder of the contract, thus leaving it (including clause 9.1) as enforceable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>Sir Rupert Jackson carried out a comprehensive review of the costs regime governing civil litigation in England and Wales. At the time of his review contingency fees were permitted in employment and other tribunals. In his Final Report (December 2009) he recommended the introduction of contingency fees for other types of civil litigation, provided that they were suitably regulated. The reason underlying his recommendation was that there should be as many funding methods as possible available to litigants, because that would promote access to justice.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Under the common law, an agreement of that type would have been unenforceable as champertous. It was therefore necessary, in order to implement Sir Rupert ’s recommendation, to introduce primary legislation to change the common law.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <motivation>
+        <tblock>
+          <p>The legislative framework</p>
+        </tblock>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>Sir Rupert ’s recommendation was accepted by the government; and initially implemented by section 45 of the Legal Aid, Sentencing and Punishment of Offenders Act 2012 which introduced an amended version of section 58AA of the Courts and Legal Services Act 1990, providing for damages-based agreements (“DBAs”). That version of section 58AA came into force on 19 January 2013; and remained in force when the retainer in our case was entered into. It provided so far as material: “(1) A damages-based agreement which satisfies the conditions in subsection (4) is not unenforceable by reason only of its being a damages-based agreement. (2) But … a damages-based agreement which does not satisfy those conditions is unenforceable. (3) For the purposes of this section — (a) a damages-based agreement is an agreement between a person providing advocacy services, litigation services or claims management services and the recipient of those services which provides that — (i) the recipient is to make a payment to the person providing the services if the recipient obtains a specified financial benefit in connection with the matter in relation to which the services are provided, and (ii) the amount of that payment is to be determined by reference to the amount of the financial benefit obtained (4) The agreement — (a) must be in writing; (aa) … (b) if regulations so provide, must not provide for a payment above a prescribed amount or for a payment above an amount calculated in a prescribed manner; (c) must comply with such other requirements as to its terms and conditions as are prescribed; and (d) must be made only after the person providing services under the agreement has complied with such requirements (if any) as may be prescribed as to the provision of information. (5) Regulations under subsection (4) are to be made by the Lord Chancellor and may make different provision in relation to different descriptions of agreements. (6) … (6A) … (7) In this section — “payment” includes a transfer of assets and any other transfer of money ’s worth (and the reference in subsection (4)(b) to a payment above a prescribed amount, or above an amount calculated in a prescribed manner, is to be construed accordingly); …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The first set of regulations made under section 58AA were the Damages-Based Agreements Regulations 2010. They were replaced by the Damages-Based Agreements Regulations 2013, which came into force on 1 April 2013. Regulation 1 (2) contained a number of relevant definitions: ““costs” means the total of the representative ’s time reasonably spent, in respect of the claim or proceedings, multiplied by the reasonable hourly rate of remuneration of the representative “expenses” means disbursements incurred by the representative, including the expense of obtaining an expert 's report and, in an employment matter only, counsel ’s fees; “payment” means that part of the sum recovered in respect of the claim or damages awarded that the client agrees to pay the representative, and excludes expenses but includes, in respect of any claim or proceedings to which these regulations apply other than an employment matter, any disbursements incurred by the representative in respect of counsel ’s fees; …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>Regulation 3 provided: “The requirements prescribed for the purposes of section 58AA(4)(c) of the Act are that the terms and conditions of a damages-based agreement must specify — (a) the claim or proceedings or parts of them to which the agreement relates; (b) the circumstances in which the representative 's payment, expenses and costs, or part of them, are payable; and (c) the reason for setting the amount of the payment at the level agreed, which, in an employment matter, shall include having regard to, where appropriate, whether the claim or proceedings is one of several similar claims or proceedings.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Regulation 4 (on which this appeal turns) provided: “(1) In respect of any claim or proceedings, other than an employment matter, to which these Regulations apply, a damages-based agreement must not require an amount to be paid by the client other than — (a) the payment, net of — (i) any costs (including fixed costs under Part 45 of the Civil Procedure Rules 1998); and (ii) where relevant, any sum in respect of disbursements incurred by the representative in respect of counsel ’s fees, that have been paid or are payable by another party to the proceedings by agreement or order; and (b) any expenses incurred by the representative, net of any amount which has been paid or is payable by another party to the proceedings by agreement or order.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Regulation 4 (2) dealt with personal injury claims; and regulation 4 (3) provided: “(3) Subject to paragraph (4), in any other claim or proceedings to which this regulation applies, a damages-based agreement must not provide for a payment above an amount which, including VAT, is equal to 50 % of the sums ultimately recovered by the client.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Regulation 4 (4) provided: “ The amounts prescribed in paragraphs (2)(b) and (3) shall only apply to claims or proceedings at first instance.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>Regulation 5(1) began: “In an employment matter, the requirements prescribed for the purposes of section 58AA(4)(d) of the Act are to provide” certain matters which it then set out in regulation 5 (2).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>Regulation 7 provided: “In an employment matter, a damages-based agreement must not provide for a payment above an amount which, including VAT, is equal to 35 % of the sums ultimately recovered by the client in the claim or proceedings.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>Finally, so far as relevant, regulation 8 provided: “(1) In an employment matter, the additional requirements prescribed for the purposes of section 58AA(4)(c) of the Act are that the terms and conditions of a damages-based agreement must be in accordance with paragraphs (2), (3) and (4). (2) If the agreement is terminated, the representatives may not charge the client more than the representative 's costs and expenses for the work undertaken in respect of the client 's claim or proceedings. (3) The client may not terminate the agreement — (a) after settlement has been agreed; or (b) within seven days before the start of the tribunal hearing. (4) The representative may not terminate the agreement and charge costs unless the client has behaved or is behaving unreasonably. (5) Paragraphs (3) and (4) are without prejudice to any right of either party under general law of contract to terminate the agreement.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The problem</p>
+        </tblock>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>It will be seen that regulation 8 (which applies only to employment matters) expressly permits a legal representative to charge costs and expenses if the client terminates the retainer. By contrast, regulation 4 does not. This potential defect was pointed out by the Civil Justice Council Working Party in a report produced in 2015 (Chapter 27 para 9). Their recommendation was that the grounds and manner of termination of a DBA “and the consequences of termination on either side” were best left to negotiations between the lawyer and the client.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>This has caused considerable uncertainty in the legal profession; and a widespread fear that if a client terminates a retainer, the lawyer will end up not being paid anything for what might have been months or even years of work. The authors of Costs &amp; Funding Following the Civil Justice Reforms describe this point at para 2-26 as being “seen as one of the key uncertainties preventing wider use of DBAs”. Friston on Costs (3rd ed) takes much the same view at 29.151. Mr Bacon QC, appearing on behalf of the Bar Council as Interveners, told us that because of the uncertainty, neither the Bar Council nor the Law Society has provided a model form of DBA.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Opinions on the point seem to be divided. For example, in formulating a model form of DBA the Chancery Bar Association stated that it was “not possible to provide for some other form of payment if the agreement requires early termination” because it would thus contravene regulation 4. That, they thought, would mean that it was likely that the DBA would be unenforceable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>On the other hand, the editors of Cook on Costs say at paragraph 7.18 that civil litigation lawyers “would be well advised” to consider following the employment matter provisions when drafting their DBA.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The judge ’s view</p>
+        </tblock>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>The judge considered that it was unlikely that regulation 4 (1) was intended to preclude a retainer which allowed a lawyer to recover his costs if the retainer were to be terminated by the client. He gave a number of “inter-locking” reasons for his view. They included the lack of any justification for such a stark difference between the position of a lawyer in an employment matter and a lawyer in any other kind of case; an interference with freedom of contract; and the deterrent effect on the adoption of DBAs which that interpretation of regulation 4 (1) would produce, with the consequence that there would be less choice of funding methods for litigants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>He also analysed the text of regulation 4 (1) and held that the “amount to be paid by the client” took as its underlying premise that there were recoveries to be shared. A clause like clause 6.2 comes into operation at a time when there are no recoveries to be shared; and thus falls outside the target area of regulation 4 (1). He reinforced that interpretation by recalling that the statutory definition of a DBA in the Regulations was the particular agreement to share recoveries. That was the only subject-matter with which regulation 4 (1) was concerned.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Mrs Zuberi ’s argument</p>
+        </tblock>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>Mr Davies’ starting point is that although champerty is no longer a tort, statute has preserved the common law rule that a champertous contract is contrary to public policy: Criminal Law Act 1967 section 14 (2). Where DBAs are permitted by statute they are “islands of legality in a sea of illegality”. Accordingly, if a DBA does not comply with section 58AA or the Regulations made under it, it has not reached the safety of the island. In approaching the validity of the contract of retainer, a court should not be disposed to uphold a contract of doubtful validity. It is for the lawyer to show that it is valid.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>Clause 6.2 of the contract in the present case requires the client to make a payment to the solicitor “other” than “the payment” as defined by regulation 1 (2). It therefore fails to comply with regulation 4 (1). The fact that, in the particular circumstances of this case, the client has not in fact been prejudiced has no bearing on the question of the validity of the contract: Garrett v Halton BC [2006] EWCA Civ 1017, [2007 ] 1 WLR 554 at [38] and [39].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>Even if it is permissible to include a provision requiring payment in the event of the termination by the client of the retainer, the amount of that payment must be capped by reference to regulation 4 (1) and 4 (3).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>There is a clear contrast between regulation 4 and regulation 8 (2). If the judge ’s interpretation was correct, regulation 8 (2) would be unnecessary. What the judge did was to read down regulation 4 impermissibly, rather than to apply the clear language that Parliament has approved.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>General approach</p>
+        </tblock>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>If I may repeat something I have said before ( Pollen Estate Trustee Co Ltd v Revenue and Customs Commissioners [2013] EWCA Civ 753, [2013] 1 W.L.R. 3785 at [24): “The modern approach to statutory construction is to have regard to the purpose of a particular provision and interpret its language, so far as possible, in a way which best gives effect to that purpose. … In seeking the purpose of a statutory provision, the interpreter is not confined to a literal interpretation of the words, but must have regard to the context and scheme of the relevant Act as a whole … The essence of this approach is to give the statutory provision a purposive construction in order to determine the nature of the transaction to which it was intended to apply and then to decide whether the actual transaction (which might involve considering the overall effect of a number of elements intended to operate together) answered to the statutory description. Of course this does not mean that the courts have to put their reasoning into the straitjacket of first construing the statute in the abstract and then looking at the facts. It might be more convenient to analyse the facts and then ask whether they satisfy the requirements of the statute. But however one approaches the matter, the question is always whether the relevant provision of statute, on its true construction, applies to the facts as found.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>Although, of course, Parliament may abolish, modify or displace any common law rule, there is a general presumption that it did not intend to make changes to the common law except expressly or by necessary implication: Bennion on Statutory Interpretation (7th ed) para 25.6, 25.8. In considering whether a statute has displaced the common law, the court must consider the extent to which the legislative purpose would be undermined by the continuing existence of the common law operating alongside it: Bennion para 25.9. Where a legislative scheme is comprehensive, that may be an indication that the common law has been displaced: Bennion para 25.11.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>What is a DBA?</p>
+        </tblock>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>For convenience, I repeat the relevant part of the statutory definition of a DBA: “(a) a damages-based agreement is an agreement between a person providing advocacy services, litigation services or claims management services and the recipient of those services which provides that — (i) the recipient is to make a payment to the person providing the services if the recipient obtains a specified financial benefit in connection with the matter in relation to which the services are provided, and (ii) the amount of that payment is to be determined by reference to the amount of the financial benefit obtained.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>There are two possible views of what the DBA consists of. One view is that if a contract of retainer contains any provision which entitles the lawyer to a share of recoveries, then the whole contract of retainer is a DBA. In other words, a DBA is a contract which includes a provision for sharing recoveries. But another view is that if a contract of retainer contains a provision which entitles a lawyer to a share of recoveries; but also contains other provisions which provide for payment on a different basis, or other terms which do not deal with payment at all, only those provisions in the contract of retainer which deal with payment out of recoveries amount to the DBA.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>In my judgment, there are good reasons for preferring the latter view. First, the object of the legislation was to permit the remuneration of lawyers by means of a share of recoveries. Second, the only part of the common law that needed to be changed to achieve that purpose was the rule against champerty. As I have said, at common law the contract of retainer, shorn of clause 9.1, would have been enforceable. There was no particular reason for Parliament to modify the other statutory and regulatory controls over lawyers’ fees. Third, there is a presumption that Parliament does not intend to change the common law, except expressly or by necessary implication. There is no express provision which displaces the common law (except the rule against champerty). Fourth, the legislation can not be said to be undermined by the co-existence of the common law. Fifth, the legislative scheme is far from comprehensive.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Is this view reflected in the Regulations?</p>
+        </tblock>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>In my judgment, it is. Regulation 4 (1) prohibits payment of “an amount other” than that described in that regulation. Taken literally, that may be thought to encompass any money payment, including a payment under clause 6.2. This is the interpretation for which Mr Davies contends. But there are, in my judgment, cogent reasons for rejecting that interpretation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>As the judge pointed out, the factual premise underlying regulation 4 is that there were in fact recoveries available for sharing. In that respect he was plainly right. The correctness of that conclusion can be seen by considering how the Regulations operate in employment matters. Regulation 7 prohibits a payment by the client above 35 % of the client ’s ultimate recoveries. If the client does not recover anything (because they terminate the retainer) the payment permitted by regulation 7 is, on a literal reading, zero. (35 % of zero is zero, so £ 1 is more than 35 % of zero). Yet regulation 8 expressly permits the lawyer to charge the client his normal costs and expenses in the event that the client terminates the retainer. It would be absurd to interpret a statutory instrument in a way that resulted in its being either ineffective or self-contradictory. So regulation 7 can not be interpreted literally: it must be interpreted so as to give effect to regulation 8. Regulation 4 (3) is framed in much the same way as regulation 7. Regulation 4 (3) and regulation 7 must be interpreted consistently with each other.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>There are other textual indications that regulation 4 is only concerned with circumstances in which a recovery has been made. Again, as the judge pointed out, the heading to regulation 4 is “Payment in respect of claims” and the explanatory note states that regulation 4 deals with “the payment from a client ’s damages”. Since “payment” is defined as a share of recoveries, these are also indications that regulation 4 is not concerned with fees calculated on a time basis.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>The interpretation for which Mr Davies contends would also conflict with regulation 3 which provides that a DBA must specify “the circumstances in which the representative 's payment, expenses and costs, or part of them, are payable”. That regulation is expressed to apply to all DBAs, not just to those dealing with employment matters. As we have seen, “costs” means the hourly charge multiplied by the number of hours spent on the case, whereas “payment” means the representative ’s share of recoveries. On a literal interpretation of regulation 4 (1) which enables a lawyer to be paid only where there has been a recovery, therefore, there would never be any circumstances in which a representative ’s “costs” as opposed to their “payment” would be payable. But, again, it would be absurd to interpret the Regulations as being either self-contradictory or internally inconsistent. In addition, regulation 3 expressly envisages that a DBA may apply to part only of proceedings. Suppose that a client approaches a solicitor and says that they have a claim that they wish to prosecute; that they can pay normal time charges up to close of pleadings; but that if the case goes any further they can only continue if the lawyer ’s payment is limited to a share of the recoveries. I can see no objection to regarding that part of the overall agreement relating to recoveries, rather than the whole of the contract of retainer, as amounting to the DBA. In those circumstances, the effect of regulation 4 would control that part of the contract of retainer which dealt with the share of recoveries, but not that part which dealt with time charges.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>It is also instructive to consider which statutory power has been invoked in making the Regulations. Regulation 3 is the product of the exercise of the power in section 58AA (4) (c). That power concerns the terms and conditions of an agreement: not the amount of the payment that is permitted. Likewise, regulation 8 (which permits the recovery of pre-termination costs in employment matters) is not an exercise of the power under section 58AA (4) (b) which deals with permitted payments; but is the exercise of the power under sub-paragraph (c) which deals with requirements about terms and conditions. In other words, the recovery of “costs” is not the target of the legislation. The effect of regulation 7 in combination with regulation 8 is that a retainer in an employment matter may include a DBA which provides for a share of recoveries not exceeding 35 %, but only if it also includes a limit to the amount that can be charged on termination. As Mr Snell correctly submitted, regulation 8 does not authorise termination payments. It assumes that they are chargeable outside the scope of the Regulations and caps them. This, too, is consistent with a narrow view of the meaning of a DBA in the primary legislation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>In addition, the power to make regulations in section 58AA (4)(b) allows regulations to be made prohibiting payments “above” a prescribed amount or “above” an amount calculated in a prescribed manner. It is thus concerned only with capping fees; and the particular target at which the cap was aimed was the sharing of recoveries.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>Finally, there is the question of policy underlying the Regulations. A reading of the policy documents underlying the Regulations also supports the view that the payment of a lawyer ’s time costs and expenses on early termination of the retainer was not the intended target of regulation 4 (1). It will be noted that a DBA extends more widely than an agreement between lawyer and client. The Explanatory Memorandum drew a distinction between DBAs applicable to ordinary civil litigation on the one hand, and DBAs applicable to employment matters on the other. It said: “7.4 It was not considered necessary to adapt the provisions in the 2010 regulations which deal with termination (now regulation 8), those which prescribe the information which must be provided to a client before entering a DBA (now regulation 5) or the form in which any amendments to the agreement must take (now regulation 6). This is because section 58AA of the 1990 Act and the 2010 regulations were introduced following concerns that some representatives in employment cases were providing inadequate advice to their clients. This included failure to inform clients about alternative options for funding their claim (for example, through trade union representation and legal expenses insurance cover) and the use of unfair terms and conditions (for example, imposing unfair charges where a client wished to instruct another representative or refused to accept the representative ’s advice to settle their claim). The 2010 regulations were designed to ensure that all representatives, whether solicitors or claims management companies, adhered to the stringent requirements specified in the regulations when providing a service under a DBA. 7.5 Only qualified legal representatives, who are subject to regulation by their professional bodies and whose conduct may be subject to challenge through those bodies, will undertake civil litigation (i.e. contentious business). It is therefore considered that, at this stage, further regulation is not required. Moreover, the consequence of failing to comply with these Regulations is that the DBA will not be enforceable and, in those circumstances, the representative will receive no payment. There is a concern that this could lead to attempts to avoid payment, by suggesting that the legal representative had failed to comply with one or more of the additional regulations (as happened when CFAs were subject to greater regulation), leading to satellite litigation.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>It is clear, then, from paragraph 7.5 that the regulation of the circumstances in which lawyers could recover their costs and expenses on termination of a DBA was not intended to be covered by the Regulations, and was to be left to their professional regulators. In addition, if there is a dispute about a solicitor ’s “costs”, the client is entitled to have those costs assessed by the court under section 70 of the Solicitors Act 1974. There were, therefore, consumer protection measures already in place.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>I would hold, therefore, that time costs as such are outside the scope of the Regulations, except where they are brought in as an additional requirement of a DBA in exercise of the power under section 58AA (4) (c).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>I recognise that this conclusion means that the current Regulations do not deal with a lawyer ’s remuneration in the event that the client pursues a case to trial and loses. But that, in my judgment, is a matter that could be provided for in Regulations under section 58AA (4)(c). In other words, it could be a requirement of a DBA that it was part of an overall contract of retainer which either precluded (or limited) a lawyer from charging fees if the claim were lost.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>In the light of my conclusion, I consider that clause 6.2 of the contract of retainer was outside the scope of the Regulations, and that its presence in the contract of retainer did not invalidate the contract.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>I would therefore dismiss the appeal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Other points</p>
+        </tblock>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>Mr Bacon raised a number of other points on behalf of the Bar Council. They included (a) whether, if clause 6.2 fell foul of regulation 4 the whole contract of retainer was invalidated and (b) whether, if clause 6.2 would otherwise fall foul of regulation 4, it could be severed so as to validate the contract.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>The judge decided the first of these points against Lexlaw; and Lexlaw has not challenged that conclusion by Respondent ’s Notice. Since the Bar Council has been given permission to intervene in what is a dispute between the parties to the appeal, I do not consider that it is open to us to consider that question on this appeal, tempting as it might be.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>Similarly, the question of severance was not one that was directly raised by the appeal. Although I have touched on the question of severance in explaining the common law background, that is a different point. Once again, I do not consider that we should embark upon a consideration of that point.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Post-script</p>
+        </tblock>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>I have, since writing the above, had the benefit of reading the judgment of Newey LJ in draft. I agree with him that the underlying policy was to arrive at the result that he has reached. The difficulty for me is to find that result in the words of the Regulations as drafted. Regulation 4 (1) prohibits the payment of “an amount to be paid by the client other than” those specified in that regulation. The interpretation that Newey LJ prefers is that that prohibition prohibits the payment of “an amount” other than expenses if the claim is lost; but permits payment of “an amount” other than expenses if the retainer is terminated early. Try as I might, I can not find that reflected in the text of regulation 4. If, however, I am wrong, then I would agree with Newey LJ that, for the reasons he gives, the appeal should be dismissed.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Newey:</p>
+        </tblock>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>I agree with Lewison LJ that the appeal should be dismissed, but I have reached that conclusion by a different route.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Some more history</p>
+        </tblock>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>Lewison LJ has already mentioned that the version of section 58AA of the Courts and Legal Services Act 1990 (“the 1990 Act”) with which we are concerned was introduced to implement a recommendation made in Sir Rupert Jackson ’s Final Report and that the Damages-Based Agreements Regulations 2013 (“the 2013 Regulations”) replaced the Damages-Based Agreements Regulations 2010 (“the 2010 Regulations”). For my own part, I find it helpful to consider the history of the current legislation further.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>Provision for the regulation of DBAs was first introduced by section 154 of the Coroners and Justice Act 2009, which inserted a new section 58AA into the 1990 Act. This version of section 58AA was limited to DBAs relating to employment matters, but was otherwise in much the same terms as the version quoted in paragraph 11 above. It stated: “(1) A damages-based agreement which relates to an employment matter and satisfies the conditions in subsection (4) is not unenforceable by reason only of its being a damages-based agreement. (2) But a damages-based agreement which relates to an employment matter and does not satisfy those conditions is unenforceable. (3) For the purposes of this section — (a) a damages-based agreement is an agreement between a person providing advocacy services, litigation services or claims management services and the recipient of those services which provides that — (i) the recipient is to make a payment to the person providing the services if the recipient obtains a specified financial benefit in connection with the matter in relation to which the services are provided, and (ii) the amount of that payment is to be determined by reference to the amount of the financial benefit obtained; (b) a damages-based agreement relates to an employment matter if the matter in relation to which the services are provided is a matter that is, or could become, the subject of proceedings before an employment tribunal. (4) The agreement — (a) must be in writing; (b) must not provide for a payment above a prescribed amount or for a payment above an amount calculated in a prescribed manner; (c) must comply with such other requirements as to its terms and conditions as are prescribed; and (d) must be made only after the person providing services under the agreement has provided prescribed information ….”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>The background to that form of section 58AA can be seen from paragraph 3.2 of chapter 12 of Sir Rupert Jackson ’s Final Report. Sir Rupert Jackson there explained: “The Ministry of Justice (the ‘ MoJ’), although not making any submission to the Costs Review, in relation to the contingency fees issue has drawn my attention to its consultation paper ‘ Regulating Damages Based Agreements’. In that consultation paper the MoJ notes that contingency fees are permitted in tribunals. It notes that there are concerns about (i) failures to inform claimants about alternative methods of funding their claims and (ii) lack of clarity and understanding of the fee arrangements and the costs which claimants are likely to pay. Accordingly, the Government proposes to introduce regulations to address these issues. The proposed regulations will introduce requirements in respect of the following elements: (i) The provision of clear and transparent advice and information provided to consumers, on (a) costs; (b) other expenses (such as VAT, counsel ’s fees, expert reports etc); and (c) other methods of funding available. (ii) The maximum percentage of the damages that can be recovered in fees from the award. (iii) Controlling the use of unfair terms and conditions (such as penalty and settlement clauses). Following that consultation paper, section 154 of the Coroners and Justice Act 2009 (which received Royal Assent on 12th November 2009) (the ‘ 2009 Act’) allows for the regulation of damages-based agreements relating to employment matters only. ‘ Damages-based agreement’ is the term used in the 2009 Act to refer to an agreement for contingency fees, as defined in paragraph 1.1 above.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>The 2010 Regulations were made pursuant to the new section 58AA of the 1990 Act. They provided: “Citation, commencement, interpretation and application 1. — … (2) In these Regulations — … ‘ costs’ means the total of the representative ’s time reasonably spent, in respect of the claim or proceedings, multiplied by the reasonable hourly rate of remuneration of the representative; ‘ damages-based agreement’ means a damages-based agreement which relates to an employment matter; ‘ expenses’ means disbursements incurred by the representative, including counsel ’s fees and the expense of obtaining an expert ’s report; ‘ payment’ means a part of the sum recovered in respect of the claim or damages awarded that the client agrees to pay the representative and excludes expenses; ‘ representative’ means the person providing the advocacy services, litigation services or claims management services to which the damages-based agreement relates. … Requirements of an agreement 2. The requirements prescribed for the purposes of section 58AA(4)(c) of the Act are that the terms and conditions of a damages-based agreement must specify — (a) the claim or proceedings or parts of them to which the agreement relates; (b) the circumstances in which the representative ’s payment, expenses and costs, or part of them, are payable; and (c) the reason for setting the amount of the payment at the level agreed, including having regard to, where appropriate, whether the claim or proceedings is one of several similar claims or proceedings. Information to be given before an agreement is made 3. — (1) The information prescribed for the purposes of section 58AA(4) (d) of the Act is — (a) information, to be provided to the client in writing, about the matters in paragraph (2); and (b) such further explanation, advice or other information about any of those matters as the client may request. (2) Those matters are — (a) the circumstances in which the client may seek a review of the costs and expenses of the representative and the procedure for doing so; (b) the dispute resolution service provided by the Advisory, Conciliation and Arbitration Service (ACAS) in regard to actual and potential claims; (c) whether other methods of pursuing the claim or financing the proceedings, including — (i) advice under the Community Legal Service, (ii) legal expenses insurance, (iii) pro bono representation, or (iv) trade union representation, are available, and, if so, how they apply to the client and the claim or proceedings in question; (d) the point at which expenses become payable; and (e) a reasonable estimate of the amount that is likely to be spent upon expenses, inclusive of VAT. … The payment 5. The amount prescribed for the purposes of section 58AA(4) (b) of the Act is the amount which, including VAT, is equal to 35 % of the sum ultimately recovered by the client in the claim or proceedings. Terms and conditions of termination 6. — (1) The additional requirements prescribed for the purposes of section 58AA(4) (c) of the Act are that the terms and conditions of a damages-based agreement must be in accordance with paragraphs (2), (3) and (4). (2) If the agreement is terminated, the representative may not charge the client more than the representative ’s costs and expenses for the work undertaken in respect of the client ’s claim or proceedings. (3) The client may not terminate the agreement — (a) after settlement has been agreed; or (b) within seven days before the start of the tribunal hearing. (4) The representative may not terminate the agreement and charge costs unless the client has behaved or is behaving unreasonably. (5) Paragraphs (3) and (4) are without prejudice to any right of either party under the general law of contract to terminate the agreement.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>When the House of Lords was invited to approve the 2010 Regulations on 25 March 2010, the Minister speaking to them, Lord Bach, said: “A damages-based agreement is a type of contingency or ‘ no win, no fee’ agreement, under which a representative agrees to act for a client in return for a percentage of any damages recovered by the client. If damages are not awarded, the representative is not paid. These agreements are of course different from conditional fee agreements, or CFAs. CFAs are typically used in court proceedings, and allow for an uplift or success fee on top of the representative ’s normal fee. I emphasise that damages-based agreements are not permitted in court proceedings or litigation and that the regulations will not change this. They are, however, commonly used by solicitors and claims managers in proceedings before the employment tribunal. The Courts and Legal Services Act 1990, as amended, controls the use of damages-based agreements to claims that are capable of being heard by the employment tribunal ….”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>In his Final Report, Sir Rupert Jackson recommended that lawyers should be permitted to enter into “contingency fee agreements” with their clients in relation to civil litigation. “Contingency fee” was defined in the glossary as “A lawyer ’s fee calculated as a percentage of monies recovered, with no fee payable if the client loses”. Sir Rupert Jackson said this about contingency fees in the executive summary: “3.2 Contingency fees (chapter 12). A contingency fee agreement may be described as one under which the client ’s lawyer is only paid if his or her client ’s claim is successful, and then the lawyer is paid out of the settlement sum or damages awarded, usually as a percentage of that amount. Lawyers are not presently permitted to act on a contingency fee basis in ‘ contentious’ business. 3.3 It is my recommendation that lawyers should be able to enter into contingency fee agreements with clients for contentious business, provided that: • the unsuccessful party in the proceedings, if ordered to pay the successful party ’s costs, is only required to pay an amount for costs reflecting what would be a conventional amount, with any difference to be borne by the successful party; and • the terms on which contingency fee agreements may be entered into are regulated, to safeguard the interests of clients. Permitting the use of contingency fee agreements increases the types of litigation funding available to litigants, which should thereby increase access to justice ….” Sir Rupert Jackson explained in paragraph 4.1 of chapter 12 that he had concluded that “both solicitors and counsel should be permitted to enter into contingency fee agreements with their clients on the Ontario model”. He also, however, considered that such arrangements should be “properly regulated”. He said in paragraph 4.6 of chapter 12: “The three matters identified by the MoJ in its consultation paper CP 10/9 are the principal matters which will require regulation. In my view the regulations which the MoJ is planning to introduce in respect of contingency fees in tribunal proceedings should be suitably adapted for the purpose of court proceedings. The regulations should (i) introduce a requirement that clear and transparent advice and information be provided to consumers on costs, other expenses and other methods of funding available; (ii) provide a maximum percentage of the damages that can be recovered in fees from the award; and (iii) control the use of unfair terms and conditions.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>Section 58AA was subsequently amended, as Lewison LJ has said, by section 45 of the Legal Aid, Sentencing and Punishment of Offenders Act 2012. The explanatory notes in respect of this Act explained in paragraph 29 that Part 2 of the Act, which includes section 45, “contains provisions to implement reforms to the existing arrangements for civil litigation funding and costs as recommended by Lord Justice Jackson … in his Review of Civil Litigation Costs: Final Report”. This was said about section 45 specifically: “288. Damages-based agreements (‘ DBAs’) are another type of ‘ no win, no fee’ agreement under which a lawyer can recover a percentage of the client ’s damages if the case is won, but will receive nothing if the case is lost. Currently, solicitors and barristers are not permitted to act under DBAs in civil litigation, but solicitors are permitted to act under DBAs in non- contentious business, including cases before employment tribunals. 289. Section 45amends section 58AA of the Courts and Legal Services Act 1990 (inserted by section 154 of the Coroners and Justice Act 2009), which currently provides that DBAs are enforceable only when they relate to employment matters. The effect of the amendments is to enable the use of DBAs in most civil litigation by persons providing advocacy services, litigation services or claims management services.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>The 2013 Regulations were made pursuant to section 58AA in the following year. The explanatory note appended to the 2013 Regulations stated: “DBAs are a type of ‘ no win, no fee’ agreement under which a representative … can recover an agreed percentage of a client ’s damages if the case is won (‘ the payment’), but will receive nothing if the case is lost.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>When the House of Lords considered the 2013 Regulations in Grand Committee on 26 February 2013, the Minister speaking to them, Lord McNally, said: “Regulation 4 sets the cap as I have outlined. Regulations 5, 6, 7 and 8 replicate the provisions from the 2010 regulations for employment matters. These detailed provisions in relation to information and other matters are necessary because employment matters may be undertaken by non-lawyers such as claims managers. On the other hand, civil litigation can be undertaken only by qualified legal representatives, who are subject to regulation by their professional bodies and whose conduct may be subject to challenge through those bodies. It is therefore considered that further regulation at this stage is not required” and “On why DBA regulations do not contain requirements on termination for civil litigation, as in employment cases, the DBA regulations of 2010 made provisions for employment cases which can be taken forward by non-lawyers. Detailed safeguards need to be built in as a result. Civil litigation can be conducted only by lawyers, who are subject to their own professional regulations.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>A working group of the Civil Justice Council considered DBAs in a report published in August 2015. The working group had been asked to make recommendations to the Government on whether the 2013 Regulations could be made more effective by some improvements, including “clarifying that different forms of litigation funding can not take place at the same time, although they could do so at different stages of a case”. The working group addressed drafting issues in respect of “hybrid” DBAs in section 8, which opened with this explanation of “The issue”: “Under one form of ‘ hybrid DBA’, a law firm receives concurrent funding via both a DBA and via some other form of retainer (e.g., discounted hourly rates), in the event of the claim ’s success; and receives the discounted hourly rate fees in the event of the claim ’s failure. This ‘ concurrent hybrid DBA’ represents a scenario that the Government has indicated that it wishes to avoid. On the other hand, sequential forms of funding, where a DBA comprises one or other of those methods of funding for different stages of the legal proceedings, do not offend the Government ’s policy on co-funding. This is called a ‘ sequential hybrid DBA’ in this section, for the sake of clarity. The distinction between the two types of hybrid DBAs arises directly from terms of reference …, and in particular, from the query as to whether the 2015 DBA Regulations could benefit from ‘ clarifying that different forms of funding can not take place at the same time, although they could do so at different stages of a case’. This term of reference raises various points of interest and uncertainty, to do with the drafting of a lawful and enforceable ‘ sequential hybrid DBA’. It must be emphasised that this section focuses upon the types of arrangements in which a DBA, plus some other form of retainer, may be feasible, at least as the drafting of the 2015 DBA Regulations stands, in order to facilitate the sequential hybrid DBA. Whether concurrent hybrid DBAs should be permitted (contrary to the Government ’s current stance) is a policy matter, and is dealt with in Section 21 of the Report.” The report went on: “The DBA must state ‘ the claim or proceedings, or parts of them, to which the agreement relates’, per Reg 3(2)(a). By virtue of this provision, a DBA could feasibly relate to one stage only of the proceedings — whilst presumably an hourly rate retainer could apply to other stages or parts of the proceedings. Hence, a permissible type of ‘ hybrid DBA’ is where the claim is successful, and the solicitor is paid for its ‘ base costs’ (or the WIP incurred in conducting the case) up to a particular stage of the proceedings; and thereafter, the solicitor can be paid a percentage of damages recovered. It is a consecutive or sequential form of funding, which does not raise the same policy concerns as do concurrent forms of funding. The Working Group understands that the Government considers that it is not unreasonable for a solicitor to use one form of funding for one stage of the proceedings (i.e., to investigate the merits of the case, or to obtain expert reports), and then proceeding to another form of funding (i.e., a DBA, as the only form of funding) for the next stages of the claim.” Section 8 of the report concluded with, among others, this recommendation: “Although the prospect of sequential hybrid DBAs is allowed by the drafting of Reg 3(2)(a) of the 2015 DBA Regulations, the Working Group considered that the Regulations should define what a ‘ part’ of the claim or proceedings could entail (e.g., whether the ‘ part’ can be a reference to a time period, or a legal task, or an issue, or a claim or counterclaim).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>The working group considered policy issues relating to concurrent hybrid DBAs in section 21 of its report. It concluded in paragraph 21.1: “The Working Group was divided on the question of concurrent hybrid DBAs, with some members considering that there was no good reason to prohibit their use, and that market freedom should prevail; whilst other members considered that the case in favour of concurrent hybrid DBAs had not been proven. It concluded that it was a policy decision which was ultimately one for the Government. However, the Government should be encouraged to evaluate the arguments in favour of concurrent hybrid DBAs, even in the absence of any cadre of cases which have tested the arguments (given the nervousness of the legal marketplace on this issue).”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>What is a DBA?</p>
+        </tblock>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>As Lewison LJ has explained, he considers that there are good reasons for taking the view that “if a contract of retainer contains a provision which entitles a lawyer to a charge of recoveries; but also contains other provisions which provide for payment on a different basis, or other terms which do not deal with payment at all, only those provisions in the contract of retainer which deal with payment out of recoveries amount to the DBA” and that that view is reflected in the 2013 Regulations. While recognising that this means that the 2013 Regulations “do not deal with a lawyer ’s remuneration in the event that the client pursues a case to trial and loses”, he has concluded that “time costs as such are outside the scope of the Regulations, except where they are brought in as an additional requirement of a DBA in exercise of the power under section 58AA (4) (c)”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>The implication, as I understand it, is that neither “sequential hybrid DBAs” nor “concurrent hybrid DBAs” (in the language of the Civil Justice Council ’s working group) are at present barred. There is nothing to prevent a solicitor agreeing with his client that he will receive up to 50 % of the sums ultimately recovered if the claim succeeds and be paid his full time costs if the claim fails. In fact, it would seem to be the case that a retainer could provide for a solicitor to become entitled to both half of recoveries and full time costs in the event of the claim succeeding.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>My own view, with respect, is that this construction of the legislation is neither consistent with its history nor borne out by its terms.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>In the first place, “damages-based agreement” is defined in section 58AA of the 1990 Act as “an agreement … which provides that (i) the recipient is to make a payment to the person providing the services if the recipient obtains a specified financial benefit in connection with the matter in relation to which the services are provided, and (ii) the amount of that payment is to be determined by reference to the amount of the financial benefit obtained”. On the face of it, that description extends to any agreement under which a solicitor can become entitled to a share of recoveries and, in particular, encompasses an agreement which also provides for the solicitor to be paid on a different basis. An agreement under which a solicitor was to take a percentage of recoveries in the event of success and be remunerated on a time basis if the claim were lost would thus, on the face of it, be a “damages-based agreement” in its entirety.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>Secondly, there are multiple indications that section 58AA and the successive versions of the Damages-Based Agreements Regulations were intended to provide for a regime under which payment would depend on success. When, for example, Lord Bach spoke to the 2010 Regulations on 25 March 2010, he described a “damages-based agreement” as “a type of contingency or ‘ no win, no fee” agreement” under which “If damages are not awarded, the representative is not paid”. Again, the amendments to section 58AA which were effected by the Legal Aid, Sentencing and Punishment of Offenders Act 2012 were intended “to implement reforms … as recommended by Lord Justice Jackson” and what Sir Rupert Jackson had proposed was that lawyers should be able to enter into “contingency fee agreements”, i.e. agreements under which (as Sir Rupert explained) “the client ’s lawyer is only paid if his or her client ’s claim is successful” and “no fee is payable if the client loses”. That was the aim as confirmed by the explanatory note stating that DBAs “are a type of ‘ no win, no fee’ agreement under which a representative … can recover an agreed percentage of a client ’s damages if the case is won (‘ the payment’), but will receive nothing if the case is lost”. If “damages-based agreement” is interpreted as outlined in the previous paragraph, the legislation will have achieved the objective: having regard to regulations 4 and 7 of the 2013 Regulations, a solicitor or other representative who has opted for a DBA will not in general be entitled to any payment absent recoveries. In contrast, Lewison LJ ’s construction of “damages- based agreement” would leave a solicitor or other representative free to stipulate for payment even where the claim had failed.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>Thirdly, the successive versions of the legislation were plainly intended to cap the share of recoveries that a representative could take in fees. Sir Rupert Jackson ’s Final Report noted that what became the 2010 Regulations would introduce requirements in respect of the “maximum percentage of the damages that can be recovered in fees from the award” and proposed that, if lawyers were permitted to use contingency fees, regulations should “provide a maximum percentage of the damages that can be recovered in fees from the award”. Yet, as I have said, Lewison LJ ’s approach would appear to me to leave a representative free to require a “payment” equal to a share of recoveries under the DBA on top of time costs pursuant to a separate agreement, and that would be so even though the DBA and the “separate agreement” were contained in a single document.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>A fourth, and related, point relates to “concurrent hybrid DBAs”, to which, on the basis of Lewison LJ ’s approach, there can be no objection. While “concurrent hybrid DBAs” certainly have supporters, it would be surprising if the legislation had been meant to authorise them without additional safeguards. It might, for instance, have been thought appropriate to insist that time should be charged at a reduced hourly rate or otherwise to impose limits on the extent to which a representative could become entitled to time costs as well as a share of recoveries.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>Fifthly, the terms of the 2013 Regulations do not seem to me to show that a DBA is limited to the provisions in a contract of retainer dealing with payment out of recoveries, as is Lewison LJ ’s view. The expression “damages-based agreement” was, of course, defined in the version of section 58AA of the 1990 Act which the Coroners and Justice Act 2009 introduced into the 1990 Act rather than in the Damages-Based Agreements Regulations which have subsequently been made pursuant to section 58AA. In an y case: i) As I read the 2013 Regulations, regulation 4 is indeed concerned with circumstances in which recoveries have been made, but in the sense that, termination apart, a representative is to receive nothing unless there have been recoveries. Regulation 8 qualifies that principle rather than indicating that regulation 4 is not intended to limit a representative ’s ability to charge “costs”; ii) It is true that regulation 3 speaks of the “circumstances in which the representative ’s payment, expenses and costs, or part of them, are payable”, but the reference to “costs” is not redundant on any construction since regulation 8 allows a representative to charge “costs”. While, moreover, regulation 3 is not limited to employment matters, the wording has been carried over from the 2010 Regulations, which were; iii) The fact that regulation 3 envisages that a DBA may apply only to “parts” of proceedings may be thought to sanction “sequential hybrid DBAs”, as the Civil Justice Council working group noted in section 8 of its report, but does not seem to me to lend any support to the idea that “concurrent hybrid DBAs” are permissible, as Lewison LJ ’s approach would imply; iv) I do not myself read anything significant into the fact that regulations 3 and 8 were made pursuant to section 58AA(4)(c). Although it does not say so, regulation 4 must at least in part be the product of an exercise of section 58AA(4)(b); and v) The policy documents which Lewison LJ mentions in paragraph 41 above appear to me to bear on the extent to which the 2013 Regulations control termination provisions, not on the meaning of “damages-based agreement”.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Termination</p>
+        </tblock>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>While I respectfully part company from Lewison LJ on what a DBA is, I none the less agree that the appeal should be dismissed. In my view, regulation 4 of the 2013 Regulations does not bite on termination provisions and, accordingly, clause 6.2 of Lexlaw ’s agreement with Mrs Zuberi does not fall foul of the 2013 Regulations.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>My reasons are as follows: i) As I read the 2010 Regulations, regulation 6 shows that regulation 5 was not intended to apply where a DBA was terminated early. It is apparent from regulation 6(2), limiting the amount that a representative could charge on termination to “costs and expenses for the work undertaken”, that, regulation 5 notwithstanding, it was proper for a DBA to provide for a representative to charge time costs on termination regardless of what, if anything, the client might ultimately recover from the claim; ii) Regulations 5 and 6 of the 2010 Regulations have now been replaced by regulations 7 and 8 of the 2013 Regulations, but the latter provisions must operate in the same way as the former formerly did. Just as regulation 5 of the 2010 Regulations can not have been meant to extend to early termination, nor can regulation 7 of the 2013 Regulations have been intended so to extend; iii) Regulations 4 and 7 of the 2013 Regulations perform similar functions in relation to, respectively, “employment matters” and “claims or proceedings other than an employment matter”. In particular, regulation 4(3), capping payment at an amount equal to 50 % of recoveries, mirrors regulation 7, save that regulation 7 fixes the cap at 35 % of recoveries rather than 50 %. That suggests that, like regulation 7, regulation 4 should be seen as having no application to termination provisions; iv) That that is the correct interpretation is confirmed by what was said about the 2013 Regulations. Lord McNally explained to the House of Lords on 26 February 2013 that the detailed provisions found in, among others, regulation 8 of the 2013 Regulations were “necessary because employment matters may be undertaken by non-lawyers”, whereas “civil litigation can be undertaken only by qualified legal representatives, who are subject to regulation by their professional bodies and whose conduct may be subject to challenge through those bodies” so that it “was considered that further regulation at this stage is not required”. Lord McNally said, too, that “DBA regulations do not contain requirements on termination for civil litigation, as in employment cases” because “employment cases … can be taken forward by non-lawyers”, while “Civil litigation can be conducted only by lawyers, who are subject to their own professional regulations”. The same thinking emerges from paragraphs 7.4 and 7.5 of the explanatory memorandum in respect of the 2013 Regulations, which Lewison LJ has set out in paragraph 41 above: it was “not considered necessary to adapt the provisions in the 2010 regulations which deal with termination” because “Only qualified legal representatives, who are subject to regulation by their professional bodies and whose conduct may be subject to challenge through those bodies, will undertake civil litigation (i.e. contentious business)”; v) Mr Davies argued that Lord McNally “appears to have been seriously mistaken about how much protection the principles of professional conduct of either branch of the profession offer the lay client”. However that may be, though, both Lord McNally ’s comments and the explanatory memorandum indicate that there was not thought to be a need to regulate termination other than in employment matters. As Mr Snell said in his skeleton argument: “the legislature … felt it necessary to regulate the extent of the costs and expenses that could be charged by those conducting employment tribunal proceedings as an additional requirement to the other matters regulated in respect of DBAs in an employment tribunal context. There are no additional requirements in respect of civil proceedings; i.e. termination fees in a civil litigation are not regulated by the [2013 Regulations]”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>In short, I agree with Mr Snell that the 2013 Regulations “do not regulate, and are not intended to regulate, fees payable to legal representatives in the event of an early termination of the DBA”.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Coulson:</p>
+        </tblock>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>I agree with my Lords that the appeal in this case should be dismissed. Because their reasoning is different, and because nobody can pretend that these Regulations represent the draftsman ’s finest hour, it is appropriate if I add a few words to explain my own approach to the issues.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>Clause 6 of the agreement comprises an unobjectionable series of provisions relating to termination. The provisions themselves are clear and comprehensive. They are neither unlawful nor champertous. Accordingly, the burden is on the appellant to explain how and why these clear provisions, into which she freely entered, should be set aside. It is not, as Mr Davies sought to persuade us, for the respondent to demonstrate the contrary.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>The appellant seeks to rely on section 58AA of the Act and Regulation 4. In my view, for three separate reasons, neither avail the appellant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>First, I agree with my Lord, Lord Justice Lewison, that the term “damages-based agreement” should be given a narrow meaning. It is the agreement between the parties relating to the payment as defined in the Regulations, namely that “part of the sum recovered in respect of the claim or damages awarded that the client agrees to pay the representative”. Other elements of the agreement between the solicitor and the client, such as at which of the solicitors’ offices the work will be done, or the level of expenses incurred (which is expressly excluded from the payment as defined) or, as in this case, the termination provisions, have nothing to do with the payment as defined in the Regulations, and are therefore not part of the DBA itself.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>Secondly, however, if that were too narrow an interpretation, I remain of the view that neither section 58AA of the Act, nor Regulation 4, affect the operation of an early termination provision such as clause 6. They do not address termination at all. I therefore expressly agree with the approach set out by Lord Justice Newey at paragraph 72 above.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>In this context, both before the judge, and again on appeal, Mr Davies made much of Regulation 8, which deals with termination provisions in an employment matter. This Regulation imposes particular restrictions on the nature of such provisions. But in my judgment, that is a point against the appellant. The inclusion of Regulation 8, imposing particular restrictions on early termination provisions in employment disputes, demonstrates that termination provisions are, in themselves, entirely lawful. It is simply that, for the reasons explained by Lord McNally in the House of Lords on 26 February 2013 (paragraph 72 iv) above), it was felt important to have particular restrictions on such clauses in employment disputes.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>80</num>
+          <content>
+            <p>The fact that the Regulations do not prohibit or limit termination provisions for general civil litigation is not an inadvertent omission. On the contrary, as can be seen from the Explanatory Memorandum, it is the result of a deliberate decision. Parliament shied away from imposing any restrictions on termination provisions generally because it acknowledged that, in such cases, lawyers would be involved and therefore would be subjected to the regulatory provisions of their own professional bodies.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>81</num>
+          <content>
+            <p>Thus, taken as a whole, I consider that the Regulations can only be construed on the basis that: (a) They expressly assume that termination provisions such as Clause 6 may be included in the terms of the retainer between the legal representative and the client; (b) No restriction on (much less prohibition of) such provisions was required by Parliament because, if it was necessary, regulation would be carried out by the relevant professional body. Accordingly, there can be no basis now for suggesting that the Regulations render clause 6 unlawful: on the contrary, I consider that they establish its validity.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>82</num>
+          <content>
+            <p>Thirdly, I am confident that the same result is achieved by consideration of the detail of the Regulations themselves. As I have said, the ‘ payment’ is narrowly defined. Regulation 3 (b) expressly draws a distinction between the payment on the one hand, and the representative ’s “expenses and costs” on the other. Thus, an entitlement to expenses and costs can, by agreement, be dealt with separately and can be maintained on termination. That is what happened here.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>83</num>
+          <content>
+            <p>Regulation 4(1) is a particular provision designed to incorporate what is known as the Ontario Model. It is solely concerned with the calculation of the final payment, as defined. It has nothing to do with what might be recoverable if the retainer was terminated early. Regulation 4(3) is a cap on the total amount of the payment and again is not concerned with expenses and costs.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>84</num>
+          <content>
+            <p>Thus, the highest that it can be put by the appellant is that Regulation 4(1) could be read as saying that a damages-based agreement must not require any amount to be paid by the client other than the payment itself, and expenses, whatever circumstances may eventuate. So, if the narrow view of a damages-based agreement is not accepted, then, on that literal reading, Regulation 4(1) would, for example, prevent the legal representative from recovering any of its own costs, whatever the retainer actually said, even if the client terminated the agreement without cause after two years of work by the lawyer. That would not only be a commercial nonsense, but it would be contrary to the statutory purpose of section 58AA, which was designed to encourage the use of DBAs, not make them commercial suicide for the lawyer. It would also be contrary to Regulation 3, contrary to the assumptions made about termination provisions to which I have already referred, and render Regulation 8 redundant. I therefore reject that interpretation of Regulation 4(1).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>85</num>
+          <content>
+            <p>Accordingly, for these reasons, I conclude that clause 6 was not unlawful and I agree that this appeal should be dismissed.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
