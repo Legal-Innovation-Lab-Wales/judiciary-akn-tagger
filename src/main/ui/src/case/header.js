@@ -19,6 +19,11 @@ class CaseHeader extends React.Component {
       });
   }
 
+  getText(selector) {
+    const node = this.props.header.querySelector(selector);
+    return !node ? 'N/A' : node.textContent;
+  }
+
   // It's possible for a hearing date to be a time range of the format X - Y Mon Year.
   formatDate(dates) {
     return dates.length === 0 ? 'N/A' :
@@ -26,9 +31,9 @@ class CaseHeader extends React.Component {
   }
 
   render() {
-    const neutral_citation = this.props.header.querySelector('neutralCitation').textContent,
-          case_number = this.props.header.querySelector('docNumber').textContent,
-          hand_down_date = this.props.header.querySelector('date[refersTo="#hand-downDate"]').textContent,
+    const neutral_citation = this.getText('neutralCitation'),
+          case_number = this.getText('docNumber'),
+          hand_down_date = this.getText('date[refersTo="#hand-downDate"]'),
           hearing_date = this.formatDate(this.props.header.querySelectorAll('date[refersTo="#hearing"]'));
 
     return (
