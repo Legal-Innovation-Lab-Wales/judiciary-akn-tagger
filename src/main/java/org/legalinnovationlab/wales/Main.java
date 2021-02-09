@@ -4,9 +4,7 @@ package org.legalinnovationlab.wales;
 import io.helidon.common.LogConfig;
 import io.helidon.config.Config;
 import io.helidon.media.jackson.JacksonSupport;
-import io.helidon.webserver.Routing;
-import io.helidon.webserver.StaticContentSupport;
-import io.helidon.webserver.WebServer;
+import io.helidon.webserver.*;
 
 public final class Main {
 

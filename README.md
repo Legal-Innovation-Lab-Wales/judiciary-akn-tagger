@@ -29,7 +29,8 @@ an Ontology Model, and the aforementioned XML files. The project structure is as
 ### Build
 
 To build this project you will need to have [Maven](https://maven.apache.org/), [Java 11](https://adoptopenjdk.net/), 
-[Node.js](https://nodejs.org/en/) and npm installed (npm should come bundled with Node.js). 
+[Node.js](https://nodejs.org/en/) and npm installed (npm should come bundled with Node.js), you will also need 
+[gulp](https://gulpjs.com/) installed which can be done using ```npm install gulp```.
 If you intend to make code changes to the applications front-end you will also require some
 additional software packages to be installed, see the ```README``` file under ```src/main/ui``` for more information.
 

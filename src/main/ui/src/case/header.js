@@ -21,7 +21,8 @@ class CaseHeader extends React.Component {
 
   // It's possible for a hearing date to be a time range of the format X - Y Mon Year.
   formatDate(dates) {
-    return dates.length > 1 ? `${dates[0].textContent} - ${dates[1].textContent}` : dates[0].textContent;
+    return dates.length === 0 ? 'N/A' :
+            dates.length > 1 ? `${dates[0].textContent} - ${dates[1].textContent}` : dates[0].textContent;
   }
 
   render() {

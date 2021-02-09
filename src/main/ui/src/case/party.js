@@ -5,11 +5,16 @@ import './party.css';
 function Party(props) {
   const parties_url = `/parties/${props.id}`,
         lawyers_url=`/lawyers/${props.id}`,
-        lawyer_key_colon = props.nodes
-            .map(node => node.getAttribute('refersTo'))
-            .reverse()
-            .map(party => party.substr(1)).join(';'),
-        lawyer_nodes = Array.from(props.header.querySelectorAll(`lawyer[for="#${lawyer_key_colon}"]`))
+        lawyer_nodes = [];
+
+  // Find all of the lawyers linked to the party members.
+  props.nodes.forEach(party_node => {
+    const key = party_node.getAttribute('refersTo').replace('#', '');
+    props.header.querySelectorAll(`lawyer[for*="${key}"]`).forEach(lawyer_node => {
+      // Add the lawyer to array if missing.
+      if (lawyer_nodes.indexOf(lawyer_node) === -1) lawyer_nodes.push(lawyer_node)
+    });
+  });
 
   return (
       <Row className='party'>
