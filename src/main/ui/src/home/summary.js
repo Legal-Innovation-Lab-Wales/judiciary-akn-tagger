@@ -6,7 +6,7 @@ function Summary(props) {
   return (
     <Card className='case'>
       <Card.Body>
-          <a target="_blank" href={`/case/${props.case.file}`}>{props.case.file.replaceAll('_', ' ')}</a>
+          <a href={`/case/${props.case.file}`}>{props.case.file.replaceAll('_', ' ')}</a>
       </Card.Body>
     </Card>
   )

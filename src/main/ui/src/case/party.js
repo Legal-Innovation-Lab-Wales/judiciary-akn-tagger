@@ -23,7 +23,7 @@ function Party(props) {
           <ul>
             {props.nodes.map(node =>
               <li key={node.getAttribute('refersTo')}>
-                <a target="_blank" href={parties_url}>{node.textContent}</a>
+                <a href={parties_url}>{node.textContent}</a>
               </li>
             )}
           </ul>
@@ -33,7 +33,7 @@ function Party(props) {
           <ul>
             {lawyer_nodes.map(node =>
               <li key={node.getAttribute('refersTo')}>
-                <a target="_blank" href={lawyers_url}>{node.textContent}</a>
+                <a href={lawyers_url}>{node.textContent}</a>
               </li>
             )}
           </ul>

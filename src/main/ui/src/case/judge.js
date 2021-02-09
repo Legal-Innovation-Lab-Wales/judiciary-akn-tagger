@@ -15,7 +15,7 @@ function Judge(props) {
       <ul>
         {judges.map(judge =>
           <li key={judge.getAttribute('refersTo')}>
-            <a target="_blank" href={props.judge_url}>{judge.textContent}</a>
+            <a href={props.judge_url}>{judge.textContent}</a>
           </li>
         )}
       </ul>

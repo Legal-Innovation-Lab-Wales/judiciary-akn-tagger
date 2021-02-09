@@ -7,7 +7,7 @@ function AppealCourt(props) {
       <ul>{props.appeal_courts.map(court =>
           <li key={court.getAttribute('refersTo')}>{court.textContent}</li>)}
       </ul>
-      {props.appeal_judge ? <p>Judge: <a target="_blank" href={props.judge_url}>{props.appeal_judge}</a></p> : ''}
+      {props.appeal_judge ? <p>Judge: <a href={props.judge_url}>{props.appeal_judge}</a></p> : ''}
     </Col>;
 }
 

@@ -61,7 +61,7 @@ class Court extends React.Component {
               <ul>
                 {main_courts.map(court =>
                   <li key={court.getAttribute('refersTo')}>
-                    <a target="_blank" href={court_url}>{court.textContent}</a>
+                    <a href={court_url}>{court.textContent}</a>
                   </li>
                 )}
               </ul>

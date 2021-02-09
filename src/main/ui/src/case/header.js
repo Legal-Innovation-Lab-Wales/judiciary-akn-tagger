@@ -46,8 +46,8 @@ class CaseHeader extends React.Component {
         </Col>
         <Col xs='auto'>
           <div className='links'>
-            <p>Click <a target="_blank" href={this.state.url}>here</a> to see the pdf.</p>
-            <p>Click <a target="_blank" href={this.state.url}>here</a> to see the LegalDocML</p>
+            <p>Click <a href={this.state.url}>here</a> to see the pdf.</p>
+            <p>Click <a href={this.state.url}>here</a> to see the LegalDocML</p>
           </div>
         </Col>
       </Row>
