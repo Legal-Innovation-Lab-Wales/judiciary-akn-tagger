@@ -1,32 +1,67 @@
 package org.legalinnovationlab.wales;
 
-import io.helidon.common.http.*;
-import io.helidon.webserver.*;
-import org.apache.jena.ontology.*;
-import org.apache.jena.rdf.model.*;
+import io.helidon.common.http.Http;
+import io.helidon.common.http.HttpRequest;
+import io.helidon.webserver.Routing;
+import io.helidon.webserver.ServerRequest;
+import io.helidon.webserver.ServerResponse;
+import io.helidon.webserver.Service;
+import org.apache.jena.ontology.Individual;
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.NodeIterator;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
 
-import java.io.*;
-import java.util.*;
-import java.util.stream.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class OntService implements Service {
 
-    private static final List<Map<String, Object>> CASE_LAW_FILES = new ArrayList<>();
     private static final String FILE = "file";
 
+    private List<Map<String, Object>> caseLawFiles;
     private OntModel ontModel;
     private String namespace;
 
     public OntService() {
+        caseLawFiles = new ArrayList<>();
+
         // Load Ontology Model
         try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("JudiciaryProcessorDEMOontology.owl")) {
             ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
             ontModel.read(inputStream, null, "TTL");
             namespace = ontModel.getNsPrefixMap().get("");
 
-            // Add every Individual from the models CaseLaw class to CASE_LAW_FILES
+            // Add every Individual from the models CaseLaw class to caseLawFiles
             ontModel.getOntClass(namespace + "CaseLaw").listInstances()
                     .forEachRemaining(individual -> addCase((Individual) individual));
+
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+
+            caseLawFiles = caseLawFiles.stream()
+                    .sorted((map1, map2) -> {
+                        try {
+                            Date date1 = dateFormat.parse((String) map1.get("hand_down_date"));
+                            Date date2 = dateFormat.parse((String) map2.get("hand_down_date"));
+
+                            return date2.compareTo(date1);
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                        }
+
+                        return 0;
+                    })
+                    .collect(Collectors.toList());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -34,7 +69,7 @@ public class OntService implements Service {
 
     // Every CaseLaw Individual is represented via a LinkedHashMap
     private void addCase(Individual individual) {
-        Map<String, Object> map = new LinkedHashMap<>();
+        Map<String, Object> map = new HashMap<>();
         map.put(FILE, getPropertyValue(individual, "has-filename").replaceAll(".xml", ""));
         map.put("url", getPropertyValue(individual, "has-URL"));
         map.put("hand_down_date", getPropertyValue(individual, "has-handdown-date"));
@@ -47,7 +82,7 @@ public class OntService implements Service {
         map.put("lawyers", getMultiple(individual.listPropertyValues(getProperty("has-lawyer"))));
         map.put("parties", getMultiple(individual.listPropertyValues(getProperty("has-party"))));
 
-        CASE_LAW_FILES.add(map);
+        caseLawFiles.add(map);
     }
 
     // The courts are ordered according to the below algorithm
@@ -129,7 +164,7 @@ public class OntService implements Service {
     }
 
     private void getAllCases(ServerRequest request, ServerResponse response) {
-        sendOKJsonResponse(response, CASE_LAW_FILES);
+        sendOKJsonResponse(response, caseLawFiles.stream());
     }
 
     private void getCasesForEntity(ServerRequest request, ServerResponse response) {
@@ -144,7 +179,7 @@ public class OntService implements Service {
             List<String> allEntities = (ArrayList<String>) caseLawFile.get(entityType);
 
             allEntities.forEach(entity -> {
-                Map<String, Object> map = new LinkedHashMap<>();
+                Map<String, Object> map = new HashMap<>();
                 map.put("name", entity);
                 map.put("cases", getCaseByEntity(entityType, entity));
                 allCases.add(map);
@@ -157,14 +192,14 @@ public class OntService implements Service {
     }
 
     private Map<String, Object> getCase(String caseId) {
-        return CASE_LAW_FILES.stream()
+        return caseLawFiles.stream()
                 .filter(map -> caseId.equalsIgnoreCase((String) map.get(FILE)))
                 .findFirst()
                 .orElse(null);
     }
 
     private List<String> getCaseByEntity(String entity, String value) {
-        return CASE_LAW_FILES.stream()
+        return caseLawFiles.stream()
                 .filter(map -> ((List<String>) map.get(entity)).contains(value))
                 .map(map -> (String) map.get(FILE))
                 .collect(Collectors.toList());

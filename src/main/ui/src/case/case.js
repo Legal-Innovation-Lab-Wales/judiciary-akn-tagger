@@ -52,7 +52,8 @@ class Case extends React.Component {
           <Row>
             <Col>
               <Breadcrumb>
-                <Breadcrumb.Item href='/'>Index</Breadcrumb.Item>
+                <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
+                <Breadcrumb.Item href='/list'>List</Breadcrumb.Item>
                 <Breadcrumb.Item href={`/case/${id}`} active>{id}</Breadcrumb.Item>
               </Breadcrumb>
             </Col>

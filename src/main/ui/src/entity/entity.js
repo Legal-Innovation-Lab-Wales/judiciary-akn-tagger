@@ -51,7 +51,8 @@ class Entity extends React.Component {
             <Row>
               <Col>
                 <Breadcrumb>
-                  <Breadcrumb.Item href='/'>Index</Breadcrumb.Item>
+                  <Breadcrumb.Item href='/'>Home</Breadcrumb.Item>
+                  <Breadcrumb.Item href='/list'>List</Breadcrumb.Item>
                   <Breadcrumb.Item href={`/case/${id}`}>{id}</Breadcrumb.Item>
                   <Breadcrumb.Item href={`/${entity}/${id}`} active>{entity}</Breadcrumb.Item>
                 </Breadcrumb>
