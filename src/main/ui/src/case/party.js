@@ -1,6 +1,7 @@
 import React from 'react';
 import {Col, Row} from 'react-bootstrap';
 import './party.css';
+import Lawyer from "./lawyer";
 
 function Party(props) {
   const parties_url = `/parties/${props.id}`,
@@ -31,11 +32,7 @@ function Party(props) {
         <Col>
           <h5>Lawyers</h5>
           <ul>
-            {lawyer_nodes.map(node =>
-              <li key={node.getAttribute('refersTo')}>
-                <a href={lawyers_url}>{node.textContent}</a>
-              </li>
-            )}
+            {lawyer_nodes.map(node => <Lawyer key={node.getAttribute('refersTo')} node={node} url={lawyers_url}/>)}
           </ul>
         </Col>
       </Row>

@@ -7,7 +7,8 @@ class CaseHeader extends React.Component {
     super(props);
 
     this.state = {
-      url: '/',
+      pdf_url: '/',
+      legal_doc_ml_url: `/xml/case/${this.props.id}`
     }
   }
 
@@ -15,7 +16,10 @@ class CaseHeader extends React.Component {
     fetch(`/api/case/${this.props.id}`)
       .then(response => response.json())
       .then(data => {
-        this.setState(data);
+        this.setState({
+          pdf_url: data.url,
+          legal_doc_ml_url: `/xml/case/${this.props.id}`
+        });
       });
   }
 
@@ -46,8 +50,8 @@ class CaseHeader extends React.Component {
         </Col>
         <Col xs='auto'>
           <div className='links'>
-            <p>Click <a href={this.state.url}>here</a> to see the pdf.</p>
-            <p>Click <a href={this.state.url}>here</a> to see the LegalDocML</p>
+            <p>Click <a href={this.state.pdf_url}>here</a> to see the pdf.</p>
+            <p>Click <a href={this.state.legal_doc_ml_url}>here</a> to see the LegalDocML</p>
           </div>
         </Col>
       </Row>

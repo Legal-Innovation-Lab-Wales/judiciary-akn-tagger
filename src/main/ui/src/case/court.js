@@ -59,9 +59,10 @@ class Court extends React.Component {
             <Col>
               <h4>Court</h4>
               <ul>
-                {main_courts.map(court =>
-                  <li key={court.getAttribute('refersTo')}>
-                    <a href={court_url}>{court.textContent}</a>
+                {main_courts.map((court, index) =>
+                  <li style={{marginLeft: `${index * 10}px`}}
+                      key={court.getAttribute('refersTo')}>
+                    <i className="arrow right"/><a href={court_url}>{court.textContent}</a>
                   </li>
                 )}
               </ul>
