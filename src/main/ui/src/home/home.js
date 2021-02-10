@@ -6,6 +6,7 @@ function Home() {
     <Container>
       <Row>
         <Col>
+          <h2>AKN Judiciary Demo</h2>
           <p>
             The AKN Judiciary demo has been developed in the context of a partnership between the&nbsp;
             <a href="https://legaltech.wales">Legal Innovation Lab Wales</a> and&nbsp;
