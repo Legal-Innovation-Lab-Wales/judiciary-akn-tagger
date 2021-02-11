@@ -4,7 +4,10 @@ package org.legalinnovationlab.wales;
 import io.helidon.common.LogConfig;
 import io.helidon.config.Config;
 import io.helidon.media.jackson.JacksonSupport;
-import io.helidon.webserver.*;
+import io.helidon.webserver.Routing;
+import io.helidon.webserver.StaticContentSupport;
+import io.helidon.webserver.WebServer;
+import org.apache.commons.lang3.StringUtils;
 
 public final class Main {
 
@@ -21,10 +24,17 @@ public final class Main {
 
         JacksonSupport jacksonSupport = JacksonSupport.create();
 
-        WebServer server = WebServer.builder(createRouting())
+        WebServer.Builder builder = WebServer.builder(createRouting())
                 .config(config.get("server"))
-                .addMediaSupport(jacksonSupport)
-                .build();
+                .addMediaSupport(jacksonSupport);
+
+        // Override configured port with env var if available.
+        String port = System.getenv("PORT");
+        if (StringUtils.isNotBlank(port)) {
+            builder.port(Integer.parseInt(port));
+        }
+
+        WebServer server = builder.build();
 
         server.start()
                 .thenAccept(ws -> {
