@@ -1,7 +1,7 @@
 # Judiciary Akn Tagger
 
-This repository contains the application code for the Judiciary Akn Tagger (JAT). This application contains 59 case law 
-files from [https://www.judiciary.uk](https://www.judiciary.uk) tagged in the 
+This repository contains the application code for the [Judiciary Akn Tagger (JAT)](https://akn-judiciary-demo.legaltech.wales). 
+This application contains 101 case law files from [https://www.judiciary.uk](https://www.judiciary.uk) tagged in the 
 [Akoma Ntoso XML standard](http://www.akomantoso.org/).
 
 JAT is composed of a Java back-end and React front-end, the data-sources for this application come from a combination of
@@ -49,10 +49,19 @@ WEB server is up! http://localhost:8080
 ---
 ### Usage
 
-To view the application visit ```http://localhost:8080``` in your browser, you will then reach the index page (under 
-construction). You can visit a case law files page, where the XML data is translated into a functional HTML markup via
-a collection of React components by navigating to ```http://localhost:8080/case/{id}``` where ```id``` is the name of 
-the case laws XML file minus the file name suffix for example ```http://localhost:8080/case/2020_EWCA_Civ_1516``` will 
-render the below page.
+To view the application visit ```http://localhost:8080``` in your browser, you will then reach the home page as seen 
+below. 
 
-![Case Law Page](read_me_assets/example_case_law_page.png)
+![Home Page](read_me_assets/home_page.png)
+
+From here you can visit the list page ```http://localhost:8080/list``` by clicking on the link in the line 
+```The annotations can be seen here.``` as seen below.
+
+![List Page](read_me_assets/list_page.png)
+
+You can then visit a case law files page, where the XML data is translated into a functional HTML markup via
+a collection of React components by clicking on an item on the list page or by directly navigating to 
+```http://localhost:8080/case/{id}``` where ```id``` is the name of the case laws XML file minus the file name suffix 
+for example ```http://localhost:8080/case/2020_EWCA_Civ_1516``` as seen below.
+
+![Case Law Page](read_me_assets/case_law_page.png)
