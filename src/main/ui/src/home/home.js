@@ -1,11 +1,12 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
+import "./home.css";
 
 function Home() {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col className="home">
           <h2>AKN Judiciary Demo</h2>
           <p>
             The AKN Judiciary demo has been developed in the context of a partnership between the&nbsp;
@@ -16,16 +17,17 @@ function Home() {
             The demo aims at promoting the use of standard XML formats for the legal domain such as&nbsp;
             <a href="https://www.oasis-open.org/committees/legaldocml">LegalDocML</a> and&nbsp;
             <a href="https://www.w3.org/OWL">Web Ontology Language (OWL)</a>.
-            As they are well-known these standards are at the basis of explainable Artificial Intelligence
+            As it is well-known, these standards are at the basis of explainable Artificial Intelligence
             technologies and so of near-future LegalTech applications.
           </p>
           <p>
-            Similar to what has already done by the&nbsp;
-            <a href="https://www.legislation.gov.uk">Courts and Tribunal Judiciary</a>,
+            Similar to what has already done by&nbsp;
+            <a href="https://www.legislation.gov.uk">legislation.gov.uk</a>,
             which published all UK legislation in LegalDocML
             (<a href="http://www.legislation.gov.uk/projects/drafting-tool#Technologychoices">see here</a>),
-            we crawled one hundred case law files (from the CTJ) and tagged them in LegalDocML while recognizing
-            dates, parties, judges and other named entities.
+            we crawled one hundred case law files from the&nbsp;
+            <a href="https://www.judiciary.uk/">Courts and Tribunal Judiciary</a> and tagged them in LegalDocML
+            while recognizing dates, parties, judges and other named entities.
           </p>
           <p>
             <a href="https://www.readcontract.com">ReadContract</a> has been specifically used to extract the text
@@ -38,7 +40,7 @@ function Home() {
           <p>The annotations can be seen <a href="/list">here</a>.</p>
           <p>
             The source code of this demo is available&nbsp;
-            <a href="https://github.com/Legal-Innovation-Lab-Wales/judiciary-akn-tagger">here</a>. Under the&nbsp;
+            <a href="https://github.com/Legal-Innovation-Lab-Wales/judiciary-akn-tagger">here</a> under the&nbsp;
             <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html">GNU LGPL-2.1 License</a>
           </p>
           <p>

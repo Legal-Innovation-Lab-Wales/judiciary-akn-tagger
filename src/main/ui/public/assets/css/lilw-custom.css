@@ -210,12 +210,23 @@ footer .logos .col {
     margin-right: auto;
 }
 footer .logos .col img {
-    /*float: right;*/
     max-width: 160px;
 }
 footer .logos .col img.erdf {
     margin-left: 48px;
 }
+
+footer .logos .col img.read-contract-logo {
+    max-width: 300px;
+    margin: 0 100px 50px 100px;
+}
+
+@media (min-width: 768px){
+    footer .logos .col img.read-contract-logo {
+        margin: 0 150px 0 0;
+    }
+}
+
 /* Scroll to top button*/
 .scroll-top-btn {
     position: fixed;
