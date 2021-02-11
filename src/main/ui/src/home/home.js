@@ -38,7 +38,7 @@ function Home() {
           <p>The annotations can be seen <a href="/list">here</a>.</p>
           <p>
             The source code of this demo is available&nbsp;
-            <a href="https://github.com/Legal-Innovation-Lab-Wales/judiciaryAknTagger">here</a>. Under the&nbsp;
+            <a href="https://github.com/Legal-Innovation-Lab-Wales/judiciary-akn-tagger">here</a>. Under the&nbsp;
             <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html">GNU LGPL-2.1 License</a>
           </p>
           <p>
