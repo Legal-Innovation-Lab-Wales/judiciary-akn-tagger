@@ -1,56 +1,58 @@
-# judiciaryAknTagger
-This repository contains source code and data about a repository of 100 case law from https://www.judiciary.uk tagged in the Akoma Ntoso XML standard (http://www.akomantoso.org). The Akoma Ntoso files are included in a subfolder CORPUS. The OWL file JudiciaryProcessorDEMOontology.owl contains the knowledge graph indexing the corpus. The Java file retrieveLinks.java allows to retrieve the information from the ontology via the methods described below.
+# Judiciary Akn Tagger
 
+This repository contains the application code for the Judiciary Akn Tagger (JAT). This application contains 59 case law 
+files from [https://www.judiciary.uk](https://www.judiciary.uk) tagged in the 
+[Akoma Ntoso XML standard](http://www.akomantoso.org/).
+
+JAT is composed of a Java back-end and React front-end, the data-sources for this application come from a combination of
+an Ontology Model, and the aforementioned XML files. The project structure is as outlined below
+
+```txt
++-- src
+|  +-- main
+|      +-- java (back-end code)
+|      +-- resources
+|          +-- CORPUS (XML case law files)
+|          +-- JudiciaryProcessorDEMOontology.owl (Ontology Model)
+|      +-- ui (front-end code)
+|          +-- README.md
+|  +-- test (back-end unit tests)
++-- .gitignore
++-- gulpfile.js (Used to bundle the front-end build into resources)
++-- LICENSE
++-- package.json
++-- package-lock.json
++-- pom.xml (Maven build file)
++-- README.md
 ```
-Java Version: 11
+---
+### Build
 
-Window
-javac -cp jena-core-3.9.0.jar retrieveLinks.java
-java -cp ./lib/*;. retrieveLinks
+To build this project you will need to have [Maven](https://maven.apache.org/), [Java 11](https://adoptopenjdk.net/), 
+[Node.js](https://nodejs.org/en/) and npm installed (npm should come bundled with Node.js), you will also need 
+[gulp](https://gulpjs.com/) installed which can be done using ```npm install gulp --global```.
+If you intend to make code changes to the applications front-end you will also require some
+additional software packages to be installed, see the ```README``` file under ```src/main/ui``` for more information.
 
-Mac-OS
-javac -cp ./lib/jena-core-3.9.0.jar retrieveLinks.java
-java -cp "./lib/*:." retrieveLinks
+With the above installed you can now build the project ```mvn clean install``` and run the application server 
+```java -jar target/judiciary-akn-tagger.jar``` you should now see the below output
+
+```txt
+2021.02.05 14:06:33 INFO io.helidon.common.LogConfig Thread[main,5,main]: Logging at initialization configured using classpath: /logging.properties
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2021.02.05 14:06:33 INFO io.helidon.common.HelidonFeatures Thread[features-thread,5,main]: Helidon SE 2.2.0 features: [Config, WebServer]
+2021.02.05 14:06:34 INFO io.helidon.webserver.NettyWebServer Thread[nioEventLoopGroup-2-1,10,main]: Channel '@default' started: [id: 0x5cb6c79c, L:/0:0:0:0:0:0:0:0:8080]
+WEB server is up! http://localhost:8080
 ```
+---
+### Usage
 
-The class retrieveLinks.java includes methods to extract information from the knowledge graph in JudiciaryProcessorDEMOontology.owl. It also includes a main method that simply prints all information of all XML files in CORPUS.
+To view the application visit ```http://localhost:8080``` in your browser, you will then reach the index page (under 
+construction). You can visit a case law files page, where the XML data is translated into a functional HTML markup via
+a collection of React components by navigating to ```http://localhost:8080/case/{id}``` where ```id``` is the name of 
+the case laws XML file minus the file name suffix for example ```http://localhost:8080/case/2020_EWCA_Civ_1516``` will 
+render the below page.
 
-<b>GET methods in retrieveLinks.java:</b>
-
-  public String[] getAllCaseLawFiles()
-  
-    => OUTPUT: the list of case law mapped in the ontology (filenames). Each of them corresponds to a file in the CORPUS subfolder.
-  
-  
-  public String getURLGivenCaseLaw(String caselaw)<br>
-  public String getHanddownDateGivenCaseLaw(String caselaw)<br>
-  public String[] getHearingDatesGivenCaseLaw(String caselaw)
-  
-    => INPUT: a case law (returned from getAllCaseLawFiles)
-       OUTPUT: the URL of the file on the Web, the hand-down date, and the hearing dates.
-  
-  
-  public String[] getCourtsGivenCaseLaw(String caselaw)
-  
-    => INPUT: a case law (returned from getAllCaseLawFiles)
-       OUTPUT: the list of courts ordered from the more generic to the more specific, e.g.:
-          - HIGH COURT OF JUSTICE
-            - QUEEN'S BENCH DIVISION
-              - ADMINISTRATIVE COURT
-    
-  public String[] getJudgesGivenCaseLaw(String caselaw)<br>
-  public String[] getPartiesGivenCaseLaw(String caselaw)<br>
-  public String[] getLawyersGivenCaseLaw(String caselaw)
-  
-    => INPUT: a case law (returned from getAllCaseLawFiles)
-       OUTPUT: the list of judges, parties, and lawyers occurring therein.
-    
-    NOTE: Lawyers and Judges are not disjoint sets! Some judges also act as lawyers (in different case law, of course :-))
-  
-  public String[] getCaseLawGivenCourt(String court)<br>
-  public String[] getCaseLawGivenJudge(String judge)<br>
-  public String[] getCaseLawGivenParty(String party)<br>
-  public String[] getCaseLawGivenLawyer(String lawyer)
-  
-    => INPUT: a case law (returned from getAllCaseLawFiles)
-       OUTPUT: the list of case law in which they occur.
+![Case Law Page](read_me_assets/example_case_law_page.png)

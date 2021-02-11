@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2019_EWHC_409_Admin" />
+          <FRBRuri value="www.judiciary.uk/2019_EWHC_409_Admin" />
+          <FRBRdate date="2019-02-26" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/united-cabbies-group-v-westminster-magistrates-court" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/united-cabbies-group-v-westminster-magistrates-court" />
+          <FRBRdate date="2019-02-26" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_409_Admin.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2019_EWHC_409_Admin.xml" />
+          <FRBRdate date="2021-01-27" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="AdministrativeCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdministrativeCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="UnitedCabbiesGroup(london)Ltd" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#UnitedCabbiesGroup(london)Ltd" showAs="United Cabbies Group (london) Ltd" />
+        <TLCOrganization eId="WestminsterMagistrates’Court" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#WestminsterMagistrates’Court" showAs="Westminster Magistrates’ Court" />
+        <TLCOrganization eId="TransportForLondon" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TransportForLondon" showAs="Transport For London" />
+        <TLCOrganization eId="LicensedTaxiDrivers’Association" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LicensedTaxiDrivers’Association" showAs="Licensed Taxi Drivers’ Association" />
+        <TLCOrganization eId="UberLondonLtd" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#UberLondonLtd" showAs="Uber London Ltd" />
+        <TLCPerson eId="LordBurnettOfMaldon" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordBurnettOfMaldon" showAs="Lord Burnett Of Maldon" />
+        <TLCPerson eId="MrJusticeSupperstone" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJusticeSupperstone" showAs="Mr Justice Supperstone" />
+        <TLCPerson eId="RobertGriffithsQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#RobertGriffithsQc" showAs="Robert Griffiths Qc" />
+        <TLCPerson eId="StuartJessop" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#StuartJessop" showAs="Stuart Jessop" />
+        <TLCPerson eId="ChilternLaw" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ChilternLaw" showAs="Chiltern Law" />
+        <TLCPerson eId="MartinChamberlainQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MartinChamberlainQc" showAs="Martin Chamberlain Qc" />
+        <TLCPerson eId="TimJohnston" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TimJohnston" showAs="Tim Johnston" />
+        <TLCPerson eId="TransportForLondon" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#TransportForLondon" showAs="Transport For London" />
+        <TLCPerson eId="GeraldGourietQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GeraldGourietQc" showAs="Gerald Gouriet Qc" />
+        <TLCPerson eId="CharlesHolland" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CharlesHolland" showAs="Charles Holland" />
+        <TLCPerson eId="MichaelDemidecki&amp;Co" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MichaelDemidecki&amp;Co" showAs="Michael Demidecki &amp; Co" />
+        <TLCPerson eId="PhilipKolvinQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PhilipKolvinQc" showAs="Philip Kolvin Qc" />
+        <TLCPerson eId="HoganLovellsIntl.Llp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#HoganLovellsIntl.Llp" showAs="Hogan Lovells Intl. Llp" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+        <TLCRole eId="interested-party" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#interested-party" showAs="interested-party" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2019] EWHC 409 (Admin)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>CO/3767/2018</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+        <organization refersTo="#AdministrativeCourt">ADMINISTRATIVE COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2019-02-26" refersTo="#hand-downDate">26/02/2019</date>
+      </p>
+      <p>
+        Before: THE RIGHT HONOURABLE THE
+        <judge refersTo="#LordBurnettOfMaldon">LORD BURNETT OF MALDON</judge>
+        LORD CHIEF JUSTICE OF ENGLAND AND WALES THE HONOURABLE
+        <judge refersTo="#MrJusticeSupperstone">MR JUSTICE SUPPERSTONE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        THE QUEEN on the application of
+        <party as="#claimant" refersTo="#UnitedCabbiesGroup(london)Ltd">UNITED CABBIES GROUP (LONDON) LTD</party>
+        <role refersTo="#claimant">Claimant</role>
+        -and-
+        <party as="#defendant" refersTo="#WestminsterMagistrates’Court">WESTMINSTER MAGISTRATES’ COURT</party>
+        <role refersTo="#defendant">Defendant</role>
+        -and- (1)
+        <party as="#interested-party" refersTo="#TransportForLondon">TRANSPORT FOR LONDON</party>
+        (2)
+        <party as="#interested-party" refersTo="#LicensedTaxiDrivers’Association">LICENSED TAXI DRIVERS’ ASSOCIATION</party>
+        (3)
+        <party as="#interested-party" refersTo="#UberLondonLtd">UBER LONDON LTD</party>
+        <role refersTo="#interested-party">Interested Parties</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#UnitedCabbiesGroup(london)Ltd" refersTo="#RobertGriffithsQc">Robert Griffiths QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#UnitedCabbiesGroup(london)Ltd" refersTo="#StuartJessop">Stuart Jessop</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#UnitedCabbiesGroup(london)Ltd" refersTo="#ChilternLaw">Chiltern Law</lawyer>
+        ) for the Claimant The Defendant was not represented
+        <lawyer as="#barrister" for="#TransportForLondon" refersTo="#MartinChamberlainQc">Martin Chamberlain QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#TransportForLondon" refersTo="#TimJohnston">Tim Johnston</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#TransportForLondon" refersTo="#TransportForLondon">Transport for London</lawyer>
+        ) for the 1st Interested Party
+        <lawyer as="#barrister" for="#LicensedTaxiDrivers’Association" refersTo="#GeraldGourietQc">Gerald Gouriet QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#LicensedTaxiDrivers’Association" refersTo="#CharlesHolland">Charles Holland</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#LicensedTaxiDrivers’Association" refersTo="#MichaelDemidecki&amp;Co">Michael Demidecki &amp; Co</lawyer>
+        ) for the 2nd Interested Party
+        <lawyer as="#barrister" for="#UberLondonLtd" refersTo="#PhilipKolvinQc">Philip Kolvin QC</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#UberLondonLtd" refersTo="#HoganLovellsIntl.Llp">Hogan Lovells Intl. LLP</lawyer>
+        ) for the 3rd Interested Party
+      </p>
+      <p>
+        Hearing date:
+        <date date="2019-02-13" refersTo="#hearing">13 February 2019</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>The Lord Chief Justice and Mr Justice Supperstone:</p>
+        </tblock>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>On 26 June 2018 Senior District Judge Emma Arbuthnot, the Chief Magistrate, granted a London Private Hire Vehicle Operator ’s Licence to Uber London Limited (“Uber”) for a period of 15 months. A licence had earlier been refused by Transport for London (“TfL”) but by the time the appeal came on for hearing before the judge they no longer opposed its grant. They adopted a neutral stance but tested the evidence advanced by Uber. The United Cabbies Group (London) Ltd (“UCG”), a mutual society representing Hackney Carriage Drivers in London, challenges the decision in judicial review proceedings brought against Westminster Magistrates’ Court (“the defendant”).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>It is challenged on two grounds. First, it is said that the decision is tainted by actual or apparent bias by reason of the judge ’s husband ’s financial relationship with Uber (Ground 1). Secondly, the judge acted ultra vires and unlawfully in granting the licence in that she did so having made no finding of fact that at the time of her decision Uber was a fit and proper person within the meaning of section 3 of the Private Hire Vehicles (London) Act 1998 (“the 1998 Act”). In effect, she granted a probationary licence unknown to law. (Ground 2). Factual Background</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>TfL is a statutory corporation established by section 154 of the Greater London Authority Act 1999. Its functions include licensing private hire vehicle operators, drivers and vehicles in London, pursuant to the 1998 Act. Under section 3 of the 1998 Act, TfL must grant an applicant a London Private Hire Vehicle (“PHV”) operator ’s licence if satisfied as to various matters. One of these is that the applicant is a “fit and proper person” to hold such a licence (section 3(3)(a)).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>In 2012 TfL granted Uber a five-year London PHV operator ’s licence. Uber operates via an App that drivers and passengers, or riders, download onto their mobile telephones.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>On 28 February 2017 Uber applied to renew its operator ’s licence for five years. At that time TfL was investigating various matters of concern. Not having concluded those investigations, it granted a four-month licence to expire on 30 September 2017.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>On 22 September 2017 TfL wrote to Uber (“the decision letter”) saying that a decision had been made that Uber was not a fit and proper person to hold a London PHV operator ’s licence and that therefore a new licence would not be granted. The decision letter set out a summary of the reasons why Uber was not a fit and proper person. TfL ’s complaints were that Uber misled TfL in correspondence in 2014 about the processes used to make bookings. Uber had available to it software called “Greyball” which could be used to evade regulatory processes and Uber had shown a lack of corporate responsibility in relation to matters which had public safety implications.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>On 13 October 2017 Uber appealed to Westminster Magistrates’ Court. The appeal was heard by the judge on 25 and 26 June 2018. At the end of the hearing the judge retired and produced a written judgement which she handed down later the same day.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Decision of the Chief Magistrate</p>
+        </tblock>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The judge noted that in January 2018 she was provided with a provisional list of issues for the appeal which made it clear that at that time Uber was not accepting the justified complaints of TfL. By the time of the hearing on 25 June the list of issues had narrowed. The parties provided a list of agreed conditions that could be attached to a licence if one was granted.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>The judge also noted that “[Uber] had changed a number of its working practices and its governance, and TfL took a neutral stance as to whether the licence should be granted by the court. Helpfully TfL explored governance and other matters with the three [Uber] witnesses called”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The judge set out her findings and conclusion at paras 40 and 41 of her judgment: “40. I have considered the evidence and submissions in the case. I have given particular weight to the conditions that have been agreed between the parties. Taking into account the new governance arrangements, I find that whilst [Uber] was not a fit and proper person at the time of the Decision Letter and in the months that followed, it has provided evidence to this court that it is now a fit and proper person within the meaning of the Act. I grant a licence to [Uber]. 41. The length of the licence has been the subject of discussion. The rapid and very recent changes undergone by [Uber] lead me to conclude that a shorter period would enable TfL to test out the new arrangements. A 15-month licence will enable Ms Chapman and her team to check the results obtained by the independent assurance procedure set out in condition number 4 whilst ensuring the public are kept safe. 42. I grant a licence for a period of 15 months.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Subsequent Events</p>
+        </tblock>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>On 18 August 2018 The Guardian newspaper published an article entitled “Judge in Uber ’s London legal battle steps aside over husband ’s links to firm”. The article claimed that the judge had withdrawn from hearing further appeals by Uber after an Observer newspaper investigation into links between her husband, Lord Arbuthnot, and Uber. The article reported that Lord Arbuthnot was a former director, now a consultant, for a company called SC Strategy Ltd described as a “private intelligence company”. One of SC Strategy ’s known clients is the Qatar Investment Authority (“QIA”), widely reported to be a significant financial investor in Uber. The article also stated that “a judicial spokesperson” had said, since the investigation had pointed to the link, that the judge would not hear Uber-related cases in the future. It was further stated that the spokesperson had added that the judge had been due to hear a licensing appeal by Uber in Brighton on a date yet to be fixed but that as soon as the link had been pointed out to her, she had assigned the case to a fellow judge.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>On 14 August 2018 the judge responded to the allegation in the Guardian article stating that she did not know that QIA were investors in Uber, and that she had checked with her husband and he did not know either.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>On 22 August 2018 UCG wrote a letter addressed to the Lord Chief Justice referring to the Guardian article and raising the issue of bias. Further it asked for the decision of the judge to be set aside. That was inappropriate because the Lord Chief Justice has no locus to interfere in the decisions of judges save when sitting on appeal or in judicial review proceedings.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>On 11 September 2018 an e-mail was sent on behalf of the judge to Mr Kolvin Q.C. (counsel for Uber) and others informing them that the judge did not know of any connection between Lord Arbuthnot and Uber at the time of the appeal hearing, but that she had recused herself from future cases involving Uber.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>On 19 September 2018 UCG filed a claim for judicial review against the Defendant with TfL and the Licensed Taxi Drivers’ Association listed as interested parties. Uber was added as an interested party on 27 September. On 22 October 2018 the defendant filed an acknowledgement of service and accompanying letter from the Government Legal Department on behalf of the judge. It repeated her state of knowledge as to material matters.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Mr Rogers of Chiltern Law, the solicitors who act for UCG, filed a witness statement with the claim. He made second, third and fourth witness statements on 26 November, 17 December 2018 and 17 January 2019. These referred to other business interests of Lord Arbuthnot evidencing, it was contended, further associations between the judge ’s spouse and Uber (and indeed TfL) capable of demonstrating cause for perceived bias. In summary they include the following: i) Lord Arbuthnot is the Chair of Thales UK (“Thales”) advisory board. He was still the Chair of Thales’ advisory board at around the time the decision was made on 26 June 2018. He was an advisory board member of Thales when on 3 August 2015 TfL awarded Thales a contract to renew the signalling and train control system on the London ’s Underground. TfL also awarded Thales a contract to maintain and upgrade its communications systems in September 2018. An article on 16 July 2018 on the website of Thales suggests a business collaboration between Uber and Thales in respect of air taxis in Dubai. ii) SC Strategy provides consultancy services to another company called Pure Storage UK (“Pure Storage”) that has a business partnership with Thales called Thales Security. Pure Storage also provides data storage for Uber. iii) TfL have selected BlackRock to manage very substantial investments. Blackrock previously invested in Uber in 2014, reportedly in the sum of $ 209 m. iv) The judge ’s brother, who lives in the State of Virginia and works in the wine trade, in an e-mail dated 15 January 2015 to the Public Service Commission of South Carolina “urges [them] very strongly to reinstate the UBER service” as he “knows they have had their backgrounds checked” and that he feels “safe” and that “it encourages tourism to provide a safe environment and travel options”. Mr Rogers exhibits an article from the Washington Post dated 6 October 2016 entitled “Going to Virginia Wine Month Festivities? Take Uber and get discounts”; and an article entitled “Wine and Uber: A Match made in Virginia”. v) On 15 January 2019 it was brought to the attention of Mr Rogers that Uber features on TfL ’s employee website “My TfL” which is accessed via TfL ’s website. Discounts are offered on a number of services, one of which includes Uber journeys taken by TfL staff. vi) Ms Laurel Powers-Freeling, the new chairman of the board of Uber in London, was found by the judge to be “an impressive witness with an impressive background”. The judge said that “[she] was satisfied that under her Chairmanship, as long as she is kept informed of what is happening day to day in the business, that the changes that [Uber] has put in hand will be maintained”. Decades earlier, Ms Powers-Freeling worked at McKinsey together with her future husband and Lord Hague of Richmond. Lord Arbuthnot and Lord Hague worked together in politics and Lord Arbuthnot was his campaign manager in 1997. Lord Hague is also Chairman of the Advisory Board of Linklaters and that firm is apparently the fund counsel to Soft Bank Group who are said to be the largest shareholder in Uber ’s parent company.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>Uber accepted before the judge (and in these proceedings) that the decision not to renew its licence was justified. In September 2017 it was not a fit and proper person within the meaning of the 1998 Act to hold the licence but its case on appeal before the judge was that the deficiencies identified by TfL had been remedied with structures now in place to provide confidence for the future.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>On 8 January 2019 the Government Legal Department wrote a letter setting out in detail the state of the judge ’s knowledge.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Statutory Framework</p>
+        </tblock>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>Section 3 of the 1998 Act provides, so far as is material: “(3) The licensing authority shall grant a London PHV operator ’s licence to the applicant if the authority is satisfied that — (a) the applicant is a fit and proper person to hold a London PHV operator ’s licence; … (4) A London PHV operator ’s licence shall be granted subject to such conditions as may be prescribed and such other conditions as the licensing authority may think fit. (5) … [a] London PHV operator ’s licence shall be granted for five years or such shorter period as the licensing authority may consider appropriate in the circumstances of the case. (7) An applicant for a London PHV operator ’s licence may appeal to a magistrates’ court against — (a) a decision not to grant such a licence; …”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Parties’ Submissions and Discussion</p>
+        </tblock>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>Mr Griffiths Q.C., on behalf of UCG, took the second ground of challenge first. We shall do the same. Ground 2: The judge made no finding of fact that at the time of her decision Uber was a fit and proper person within the meaning of s.3, and therefore her decision was unlawful</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>In para 40 of the judgment, having noted that Uber was not fit and proper when the licence was refused by TfL, the judge simply states that Uber “has provided evidence to this Court that it is now a fit and proper person within the meaning of the Act. I grant a licence to [Uber].”. Mr Griffiths submits that the judgment contains no finding that the judge was satisfied that Uber was now a fit and proper person. In short, she should have added after the reference to Uber ’s evidence “which I accept”, or something similar, to constitute a finding.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Mr Griffiths submits that the absence of this critical finding results from the judge, in effect, having granted Uber a temporary licence on the basis that it may become a fit and proper person. He points to para 13 of her judgment: “Importantly by 25th June 2018 [Uber] was asking for a probationary licence only. The initial period it suggested was one of 18 months but in final submissions it came down to 15 months.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Mr Griffiths submits that para 13 of the judgment characterises the judge ’s flawed reasoning. She applied the wrong test and therefore the decision to grant the licence was unlawful.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>This analysis, Mr Griffiths submits, is supported by Condition 4 to the licence. This agreed condition required Uber to “maintain an independent assurance procedure designed to review and validate the effectiveness of its systems, policies, procedures and oversight mechanisms for promoting compliance with its obligations as a licensed operator in accordance with the 1998 Act as well as [the other] conditions”. He submits that this condition supports the view that what the judge was doing was imposing conditions that if complied with for a longer period would lead to the conclusion that it was a fit and proper person.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Mr Griffiths submits that the approach adopted by the judge was to grant a probationary licence with conditions for a short period during which further consideration can be given as to whether it can be “trusted” when it says it has changed, and TfL would, during the probationary period, be able to “test out” the new arrangements.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>It is common ground between the parties that the judge had no power to grant a “provisional licence”, applying a different test from that required by section 3(3)(a). It was also common ground that whilst the judge had power under the statutory scheme to grant a licence for five years, she was entitled to grant a licence for a shorter period and to attach conditions to it.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>In our view, it is abundantly clear that the judge did not grant a provisional or probationary licence without considering whether Uber was, at the time of the hearing, a fit and proper person.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>The judgment read as a whole demonstrates that the judge understood that the test she had to apply was that set out in section 3(3)(a). She had to be satisfied that at the time of the decision Uber was a fit and proper person to hold the licence for which it had applied.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>At the outset of her judgment the judge stated: “… I must … ask myself whether [Uber] is a fit and proper person to hold a private hire vehicle operator ’s licence …” She later referred to “the agreed legal position” and section 3(3) which: “sets out that TfL shall grant an operator ’s licence where it is satisfied that the applicant is a ‘ fit and proper person’ to hold such a licence.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>The judge noted that she had been provided with a core bundle which contained the parties’ skeleton arguments. She attached them to the judgment. TfL ’s skeleton argument stated that the question for the court was “whether [Uber] is now a fit and proper person to hold a licence.” Uber ’s skeleton stated that the task for the court was to judge its fitness and propriety now, taking account of the progress it had made. It was Uber ’s skeleton argument that introduced the term “probationary licence” which, in context, was no more than an understanding that if it failed to comply with the conditions and reverted to its previous ways, it would not fare well in an application for renewal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>Both a provisional list of issues and the revised list of issues referred to the question of whether Uber was a fit and proper person on numerous occasions. For example, the revised list of issues contained: “It is agreed the issues or questions set out below encompass the full range of potential concerns regarding whether [Uber] is a fit and proper person …” The revised list of issues also refers to the question of duration of licence and conditions as follows: “If the court is satisfied that [Uber] is fit and proper (i) whether it should be granted a licence of 18 months’ duration expiring on 31 December 2019 (as [Uber] has suggested), (ii) if not, then of what duration, (iii) whether the licence should be subject to conditions and (iv) if so, what conditions.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>The parties and the judge were fully aware that the question of the duration of any licence and any conditions it would be subject to, would arise if and only if the court was satisfied that Uber was, at the date of the hearing, a “fit and proper person” to hold a London PHV operator ’s licence. Furthermore, the transcript of the hearing, which includes the opening and closing submissions of leading counsel for Uber and TfL, demonstrates that the judge was repeatedly reminded that the key issue she had to decide was whether Uber at the time of the hearing was a fit and proper person to hold an operator ’s licence.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>We are reminded of the observation of Lord Hoffmann (with whom the other members of the Appellate Committee agreed) in Piglowska v Piglowski [1999 ] 1 WLR 1360 at 1372: “The exigencies of daily courtroom life are such that reasons for judgment will always be capable of having been better expressed. This is particularly true of an unreserved judgment … but also of a reserved judgment based upon notes … These reasons should be read on the assumption that, unless he has demonstrated the contrary, the judge knew how he should perform his functions and which matters he should take into account. This is particularly so when the matters in question are so well known as those specified in s.25(2). An appellate court should resist the temptation to subvert the principle that they should not substitute their own discretion for that of the judge by narrow textual analysis which enables them to claim that he misdirected himself.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>The judge was repeatedly reminded by leading counsel of the well-known test in section 3(3)(a), and we are satisfied that she did not depart from it. Mr Chamberlain Q.C. for TfL makes a further fair point. When the judgment was given to the parties it did not occur to any of the galaxy of distinguished counsel and solicitors in court that the language of paras 40 and 41 demonstrated a failure by the judge to make the necessary finding. We find that unsurprising. Having said, as she did, that Uber had provided evidence that it was fit and proper and then immediately gone on to indicate that the licence would be granted it was obvious that the judge accepted that evidence.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Ground 1: Bias</p>
+        </tblock>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>Mr Griffiths advances this ground of challenge by reference to two categories of bias: first, presumed bias; and second, apparent bias.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The applicable principles are not in doubt. Presumed Bias i) Where a judge has a direct pecuniary or proprietary interest in the outcome of a case, he or she is automatically disqualified, whether or not that interest gives rise to a reasonable apprehension of bias (see Dimes v Proprietors of Grand Junction Canal [1852] 3 HLCas 759; In Re Medicaments and Related Classes of Goods (No.2) [2001] 1 WLR 700 at para 40; R v Bow Street Metropolitan Stipendiary Magistrate and others ex parte Pinochet Ugarte (No.2) [2000] 1 AC 119 at 134, per Lord Browne-Wilkinson; and Locobail (UK) Ltd v Bayfield Properties Ltd [2000] QB 451 at paras 4 to 9, per Lord Bingham of Cornhill CJ, Lord Woolf MR and Sir Richard Scott VC). ii) The rationale of the rule is that “a man can not be a judge in his own cause”. That being so, the rationale disqualifying a judge applies just as much if the judge ’s decision will lead to the promotion of a cause in which the judge is involved together with one of the parties (ex p Pinochet (No.2) at 135). iii) The question is not whether the judge has some link with the party involved in a cause before the judge but whether the outcome of that cause could, realistically, affect the judge ’s interest (Locobail (UK) Ltd at para 8). It needs to be more than a “tenuous connection” (para 50). The impugned interest must be “direct and certain, and not remote or contingent” (R v Manchester, Sheffield and Lincolnshire Railway Co. [1866-67] LR 2 QB 336 at 339). iv) In any case where the judge ’s interest is said to derive from the interest of a spouse, partner or other family member the link must be “so close and direct as to render the interest of that other person, for all practical purposes, indistinguishable from an interest of the judge himself” (Locobail (UK) Ltd at para 10, and Jones v DAS Legal Expenses Insurance Co. Ltd [2003] EWCA Civ 1071 at para 18, per Ward, Waller and Hale LLJ). The fair-minded observer does not assume that the interests of husband and wife are indistinguishable. They are not. Apparent Bias v) The test for apparent bias under English law and Article 6 of the ECHR is “whether the fair-minded and informed observer, having considered the facts, would conclude that there was a real possibility that the tribunal was biased” (Porter v Magill [2002] 2 AC 357 at para 103, per Lord Hope); and Taylor v Lawrence [2003] QB 528 at para 60). vi) “In any case where the impartiality of a judge is in question, the appearance of the matter is just as important as the reality” (ex p Pinochet (No.2) at 139, per Lord Nolan). vii) “While the test is certainly less rigorous than one of probability, it is a test which is founded on reality. The test is not one of “any possibility” but of a “real” possibility of bias” (Resolution Chemicals Ltd v H. Lundbeck A / C [2013] EWCA Civ 1515 at para 36, per Sir Terence Etherton C). viii) “The observer who is fair-minded is the sort of person who always reserves judgment on every point until she has seen and fully understood both sides of the argument. She is not unduly sensitive or suspicious … she is not complacent either …” (Helow v Secretary of State for the Home Department [2008 ] 1 WLR 2416 at paras 2 to 3, per Lord Hope). ix) When applying the test of real possibility “it will very often be appropriate to enquire whether the judge knew of the matter relied on as appearing to undermine his impartiality, because if it is shown that he did not know of it the danger of its having influenced his judgment is eliminated and the appearance of possible bias is dispelled” (Locobail at para 18). However, no attention will be paid to any statement by the judge as to the impact of any knowledge on his or her mind (Locobail (UK) Ltd at para 19, and Helow at para 39, per Lord Mance). x) The test to be applied where there is a familial connection is the same in presumed and apparent bias cases (see (iv) above).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>UCG ’s Case on Bias</p>
+        </tblock>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>UCG ’s pleaded case was and remains grounded in the Guardian article. Mr Griffiths confirmed that he is not relying on the matters referred to in Mr Rogers’ second, third and fourth witness statements, the effect of which we have summarised at para 16 above, as part of his pleaded case; rather he invites us to consider them, as he put it, as part of the factual matrix of relevant circumstances to which we may have regard when considering the issue of bias. Mr Griffiths also referred to the problem with the “insidious nature of bias” being that once the suspicion of bias has been created it colours the mind of even the fair-minded and informed observer and the perception of continuing bias is perpetuated.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>The Facts</p>
+        </tblock>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>The relevant facts are these. The judge is married to Lord Arbuthnot. From 1 January 2016 until 31 December 2017 Lord Arbuthnot was a director of SC Strategy and from 31 December 2017, he was a consultant to that company. One of SC Strategy ’s known clients was the sovereign wealth fund of Qatar (QIA) which was a substantial investor in Uber Technologies Inc., Uber ’s ultimate parent company. The judge ’s husband had provided advice to QIA, but he had not provided advice to QIA (or any other entity) in respect of any company in the Uber group. At the time of the hearing the judge was aware that QIA was a client of SC Strategy, but she did not know that QIA had any direct or indirect link to Uber ’s parent company. Neither her husband (upon her checking with him) nor the judge was aware that QIA was an investor in that company at the time she heard the appeal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>There is no suggestion from Mr Griffiths that we should not accept entirely the judge ’s explanation of what was known to her and her husband, both as regards the matters set out in the Guardian and in response to the additional matters raised by Mr Rogers.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>Mr Griffiths submits that on those facts the judge was automatically disqualified. The judge ’s husband ’s financial interest in Uber is, he submits, deemed by virtue of that marital relationship to be that of the judge herself. Mr Griffiths contends that because of the closeness of the relationship between husband and wife and for reasons related to shared pecuniary and proprietary interests as husband and wife, the disqualifying interest in the judge is indistinguishable from a direct pecuniary interest. That being so, the judge ’s knowledge of the existence of the interest is irrelevant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>We reject this submission. We do not consider that the facts even begin to show that there was a link between the judge ’s interest and the interest of her husband “so close and direct” as to render the interest of her husband indistinguishable from her interest. But the argument fails at an earlier stage. Lord Arbuthnot can not sensibly be said to have a financial interest in the parent company of Uber, and through them Uber in London. As a consultant no doubt he received remuneration from SC Strategy which in turn received income from QIA. QIA no doubt hoped to receive benefit from capital growth in, or perhaps dividends from, their investment in Uber ’s parent company which formed a part of their overall holdings. The link between Uber ’s global prosperity and Lord Arbuthnot ’s remuneration is tenuous, to say the least. He had not advised QIA regarding Uber. In those circumstances it is difficult to see how he could have a direct financial interest in the outcome of the appeal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>In relation to the claim of apparent bias, Mr Griffiths emphasises the importance of perception. He relies heavily on the decision of the judge to recuse herself from any further Uber cases. She explained in her letter of 8 January 2019 that she was “conscious of the need to ensure that the appearance of impartiality, on the part of the court, were maintained”. Mr Griffiths suggests that if the judge perceived it in that way then so would a fair-minded and informed observer.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>We do not agree. At the time the judge wrote that letter she knew about the matters raised by the Guardian which she did not know at the time she granted the licence. Further, as Mummery LJ observed in AWG Group Ltd v Morrison [2006] 1 WLR 1163 at para 9: “If … the court has to predict what might happen if the hearing goes ahead before the judge to whom objection is taken and to assess the real possibility of apparent bias arising, prudence naturally leans on the side of being safe rather than sorry”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>Mr Griffiths accepts that at the relevant time the judge had no knowledge of any link between her husband and QIA or QIA and Uber (and that her husband also had no knowledge of any link between QIA and Uber). Nonetheless, he contends that is no answer to the allegation of apparent bias. He raises a novel argument. There is, Mr Griffiths submits, an obligation on a member of the judiciary in the circumstances of the present case to show not only that she had no knowledge but also that she could not reasonably be expected to be aware of those facts. There is a duty, he submits, on a judge especially when dealing with high profile matters of this kind, which have a significant element of public interest “to check” on whether there are any likely disqualifying interests which she should disclose to the parties on the basis that prima facie they may evidence a conflict of interest in respect of which the judge should recuse herself. In his written submission Mr Griffiths continued: “In this case a simple question by the district judge of her husband – ‘ can you please check on whether you or any of the companies in respect of which you are a Chairman, Director of Consultant have any direct or indirect association with Uber or Transport for London?’ would have resulted in the identification of any potential conflicts of interest which the judge would either have been able to disclose to the parties or enable her in a timely manner to recuse herself from hearing the case.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>This argument is inconsistent with the settled approach identified in Locabail where Lord Bingham CJ made clear that it is the actual knowledge of the judge that determines the assessment of apparent bias cases (see paras 18 and 51), quoting the Court of Appeal in New Zealand in Auckland Casino Ltd. v Casino Control Authority [1995] 1 NZLR 142 at 148, that if the judge were ignorant of the allegedly disqualifying interest: “there would be no real danger of bias, as no one could suppose that the judge could be unconsciously affected by that of which he knew nothing …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>The point was reinforced by Lord Bingham in para 55 dealing expressly with the question of material that might emerge after a judgment had been given which showed that the firm in which the fee-paid judge was a partner had a connection with a party: “In our view, once the hypothesis that the judge “did not know of the connection” is accepted, the answer, unless the case is one to which the Dimes case … applies, becomes obvious. How can there be any real danger of bias, or any real apprehension or likelihood of bias, if the judge does not know the facts that, in argument, are relied on as giving rise to the conflict of interest?”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>The duty of inquiry suggested on behalf of UCG finds no support in authority. It would be inconsistent with the approach in Locabail and would impose an unnecessary and onerous burden on judges. We can foresee considerable practical difficulties if a judge has to research whether his or her immediate family members may have any link with any party in every case over which they preside. We see no warrant for it. Indeed, its justification would be to satisfy the concerns of those unwilling to approach the question as “a fair-minded and informed observer” in the sense described in the authorities. The governing principle regarding absence of knowledge is clearly set out in Locobail and we agree with Mr Kolvin Q.C. for Uber that there is no warrant or support for a gloss upon it.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>Having ascertained all the circumstances bearing on the suggestion that the judge was biased, we consider that those circumstances would not lead a fair-minded and informed observer to conclude that there was a real possibility that the judge was biased in this case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>Even if there was an obligation on her to check whether her husband had any direct or indirect association with Uber or TfL, which as we have said we do not accept, there is no evidence that Lord Arbuthnot had a financial interest in the outcome of the case, still less that the judge could have had such an interest.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>In the light of Mr Griffiths’ approach to the other matters referred to in the witness statements of Mr Rogers (see para 16 above), we can take them shortly. None of those matters, individually or cumulatively, could have any impact on our decision that this is not a case of automatic disqualification, nor, do they add to the case of apparent bias. The judge and TfL have responded to the individual points and, sensibly, Mr Griffiths, in his oral submissions, said no more about them. In summary, the evidence is as follows: i) The judge confirms that she believes that she knew that her husband was Chairman of the UK Thales advisory board. She did not know of any Thales connection either in the UK or otherwise to either Uber or TfL; ii) The judge knew that her husband is a consultant for Pure Storage but she did not and does not know the details of what this involves. She knows that Pure Storage is “an enormous computer company providing storage for information across the world”. She has no knowledge of its clients. She did not know of any connection between Pure Storage and any of the parties in this case; iii) She has no knowledge concerning TfL ’s selection of BlackRock to manage investment portfolios, or that BlackRock invested, it is said, in Uber; iv) She had no idea that her brother used or supported Uber prior to her asking him. v) To her knowledge she had never met or even seen Ms Powers-Freeling before she gave evidence. If she had known her, she would have immediately informed the parties. She was not aware of any connection between her and any person known to her; vi) As for Linklaters being the fund counsel to SoftBank Group (now Uber ’s largest shareholder), neither she nor her husband knew that Lord Hague was the chairman of the Linklaters Advisory Group or that Linklaters were fund counsel to Soft Bank Group, if this be so. vii) We do not accept that the statement in Mr Rogers’ fourth witness statement that discounts are offered on Uber journeys taken by TfL staff could have led the fair-minded and informed observer to conclude that there was a real possibility that the judge was biased. As we understand it, the suggestion is that these discounts are “of relevance to TfL ’s and Uber ’s stance at the licensing hearing and the likely impact this had on the district judge ’s decision” (Mr Rogers’ fourth witness statement, paras 4-9). Again, sensibly, Mr Griffiths made no reference to this matter in his oral submissions.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>The list of tenuous connections unearthed, no doubt as a result of deploying time and energy to internet searching, fall well short of evidence of links that would begin to give a fair-minded observer even pause for thought. It reminds one of the game of consequences or even the old song with the lyrics “I danced with a man who danced with a girl who danced with the Prince of Wales”. Para 25 of Locabail gave some examples of relatively close connections or potentially coincident interests that could not give rise to apparent bias. They illustrate the reality that suggestions of apparent bias must have substance such as to trouble the fair-minded observer, and they bear repetition: “We can not ... conceive of circumstances in which an objection could be soundly based on the religion, ethnic or national origin, gender, age, class, means or sexual orientation of the judge. Nor, at any rate ordinarily, could an objection be soundly based on the judge ’s social or educational or service or employment background or history, nor that of any member of the judge ’s family; or previous political associations; or membership of social or sporting or charitable bodies; or Masonic associations; or previous judicial decisions; or extra-curricular utterances …; or previous receipt of instructions to act for or against any party, solicitor or advocate engaged in the case before him; or membership of the same Inn, circuit, local Law Society or chambers.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>Having regard to what the judge knew about these matters (which is not disputed), and the tenuous connection of any interest of Lord Arbuthnot or the judge ’s brother, still less the judge herself, from the parties in the outcome of the appeal, we do not consider that they could advance UCG ’s case. We think rather that the evidence relating to these matters illustrates the type of problem that could arise if there was a duty “to check” for which Mr Griffiths contends.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>We are satisfied that this first ground of challenge is not made out.</p>
+          </content>
+        </paragraph>
+      </background>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>For the reasons we have given, this claim is dismissed.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>We mention finally the position of the Licensed Taxi Drivers’ Association, on whose behalf Mr Gouriet QC advanced submissions. The particular points of concern to the Association focussed on any reconsideration should the decision be quashed and remitted to the Magistrates’ Court for redetermination. In the event it is not necessary for us to deal with the points raised, other than to note that their criticism of Uber ’s conduct and the relevance of it when considering whether Uber was a fit and proper person to hold a London PHV operator ’s licence has been fully responded to by both Uber and TfL.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2021_EWCA_Civ_90" />
+          <FRBRuri value="www.judiciary.uk/2021_EWCA_Civ_90" />
+          <FRBRdate date="2021-01-29" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/cornerstone-v-ashloch" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/cornerstone-v-ashloch" />
+          <FRBRdate date="2021-01-29" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_90.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_90.xml" />
+          <FRBRdate date="2021-02-02" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="UpperTribunal" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#UpperTribunal" showAs="Upper Tribunal" />
+        <TLCOrganization eId="LandsChamber" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LandsChamber" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#UpperTribunal" />
+        <TLCOrganization eId="CornerstoneTelecommunicationsInfrastructure" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CornerstoneTelecommunicationsInfrastructure" showAs="Cornerstone Telecommunications Infrastructure" />
+        <TLCOrganization eId="AshlochLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AshlochLimited" showAs="Ashloch Limited" />
+        <TLCOrganization eId="ApWirelessIi(uk)Limited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ApWirelessIi(uk)Limited" showAs="Ap Wireless Ii (uk) Limited" />
+        <TLCPerson eId="MrMartinRodgerQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrMartinRodgerQc" showAs="Mr Martin Rodger Qc" />
+        <TLCPerson eId="LordJusticeDavis" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeDavis" showAs="Lord Justice Davis" />
+        <TLCPerson eId="LordJusticeLewison" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeLewison" showAs="Lord Justice Lewison" />
+        <TLCPerson eId="LordJusticeArnold" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeArnold" showAs="Lord Justice Arnold" />
+        <TLCPerson eId="MrJonathanSeitlerQc&amp;MrOliverRadley-gardner" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJonathanSeitlerQc&amp;MrOliverRadley-gardner" showAs="Mr Jonathan Seitler Qc &amp; Mr Oliver Radley-gardner" />
+        <TLCPerson eId="GowlingWlg(uk)Llp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GowlingWlg(uk)Llp" showAs="Gowling Wlg (uk) Llp" />
+        <TLCPerson eId="MrChristopherPymontQc&amp;MrWayneClark" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrChristopherPymontQc&amp;MrWayneClark" showAs="Mr Christopher Pymont Qc &amp; Mr Wayne Clark" />
+        <TLCPerson eId="EvershedsSutherlandInternationalLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EvershedsSutherlandInternationalLlp" showAs="Eversheds Sutherland International Llp" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2021] EWCA Civ 90</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>C3/2020/0107</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#UpperTribunal">UPPER TRIBUNAL</organization>
+        (
+        <organization refersTo="#LandsChamber">LANDS CHAMBER</organization>
+        )
+        <judge refersTo="#MrMartinRodgerQc">Mr Martin Rodger QC</judge>
+        <ref href="#TCR/83/2018">TCR/83/2018</ref>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2021-01-29" refersTo="#hand-downDate">29th January 2021</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#LordJusticeDavis">LORD JUSTICE DAVIS</judge>
+        <judge refersTo="#LordJusticeLewison">LORD JUSTICE LEWISON</judge>
+        and
+        <judge refersTo="#LordJusticeArnold">LORD JUSTICE ARNOLD</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        <party as="#appellant" refersTo="#CornerstoneTelecommunicationsInfrastructure">CORNERSTONE TELECOMMUNICATIONS INFRASTRUCTURE</party>
+        <role refersTo="#appellant">Appellant</role>
+        -and- (1)
+        <party as="#respondent" refersTo="#AshlochLimited">ASHLOCH LIMITED</party>
+        <role refersTo="#respondent">1st Respondent</role>
+        (2)
+        <party as="#respondent" refersTo="#ApWirelessIi(uk)Limited">AP WIRELESS II (UK) LIMITED</party>
+        <role refersTo="#respondent">2nd Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#CornerstoneTelecommunicationsInfrastructure" refersTo="#MrJonathanSeitlerQc&amp;MrOliverRadley-gardner">MR JONATHAN SEITLER QC &amp; MR OLIVER RADLEY-GARDNER</lawyer>
+        (instructed by
+        <lawyer as="#barrister" for="#CornerstoneTelecommunicationsInfrastructure" refersTo="#GowlingWlg(uk)Llp">Gowling WLG (UK) LLP</lawyer>
+        ) for the Appellants
+      </p>
+      <p>The 1st Respondent was neither present nor represented</p>
+      <p>
+        <lawyer as="#barrister" for="#ApWirelessIi(uk)Limited" refersTo="#MrChristopherPymontQc&amp;MrWayneClark">MR CHRISTOPHER PYMONT QC &amp; MR WAYNE CLARK</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#ApWirelessIi(uk)Limited" refersTo="#EvershedsSutherlandInternationalLlp">Eversheds Sutherland International LLP</lawyer>
+        ) for the 2nd Respondent
+      </p>
+      <p>
+        Hearing dates:
+        <date date="2021-01-19" refersTo="#hearing">19th</date>
+        and
+        <date date="2021-01-20" refersTo="#hearing">20th January 2021</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>Covid-19 Protocol: This judgment was handed down remotely by circulation to the parties’ representatives by email, release to BAILII and publication on the Courts and Tribunals Judiciary website. The date and time for hand-down is deemed to be 10:30am on Friday 29th January 2021. Judgment Approved by the court for handing down. Cornerstone v Ashloch Lord Justice Lewison: Introduction</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The issue on this appeal is whether the Upper Tribunal (“the UT”) has jurisdiction under Part 4 of the Electronic Communications Code (“the Code”), which came into force on 28 December 2017, to impose Code rights over land in favour of an operator which is already in occupation of the same land under a tenancy granted before the Code came into force; and which is continuing after its contractual expiry date under section 24(1) of the Landlord and Tenant Act 1954. In more precise terms, the UT was answering a preliminary issue framed in the following terms: “Whether the Tribunal has jurisdiction to impose a Code agreement pursuant to paragraph 20 of the Code in circumstances where there is an existing 1954 Act protected tenancy in place.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>In a careful, detailed and impressive decision, the UT (Martin Rodger QC, Deputy President) held that it did not. His decision is at [2019] UKUT 338 (LC), [2020] 1 P &amp; CR 16. No wider question is directly raised by the preliminary issue.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>Cornerstone Telecommunications Infrastructure Ltd (“Cornerstone”) is a joint venture formed by Vodafone Ltd and the Telefonica group of companies to own and manage a combined portfolio of telecommunications sites contributed by each of them. Cornerstone is an “operator” within the meaning of the Code. As the result of an assignment, Cornerstone is the tenant of part of the roof of a building called Windsor House in Birmingham. The tenancy is one that is protected by Part II of the Landlord and Tenant Act 1954. It was originally granted on 14 June 2002, before the Code came into force. Although its contractual term date has passed, it is common ground that the tenancy is continuing under section 24 of that Act. Necessarily, that means that Cornerstone is in occupation for the purpose of a business carried on by it. The immediate reversioner is a company abbreviated to APW, which specialises in the acquisition and management of leasehold telecommunications sites. The other respondent, which is the freeholder, has played no part in this appeal.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>It is common ground that Cornerstone is entitled to apply to the court for the grant of a new tenancy under Part II of the 1954 Act. But Cornerstone says that it is more to its advantage to acquire rights under the Code as opposed to the 1954 Act; and that it is entitled to do so.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>On 13 August 2019 Cornerstone gave notice to APW under paragraph 20 of the Code, calling on APW to enter into an agreement conferring Code rights upon it. Since no such agreement has been reached, Cornerstone has applied to the UT for the imposition of such an agreement under Part 4 of the Code. APW ’s position is that Part 4 of the Code is not available to Cornerstone because only the occupier can confer Code rights; and APW is not the occupier. Cornerstone is the occupier of the site. It says that the only way for Cornerstone to obtain new rights over the site is by means of an application to the County Court for a new tenancy under section 24(1) of the 1954 Act. The UT decided those issues in APW ’s favour.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The appeal turns partly on the transitional provisions contained in Schedule 2 to the Digital Economy Act 2017, which introduced the Code. But before examining those provisions, it is necessary to say something about the origins of the Code.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Origins of the Code</p>
+        </tblock>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>Since the nineteenth century there have been statutory provisions enabling providers of telecommunications (in essence telephones) to place apparatus on land. The provisions were amended from time to time in a rather piecemeal way culminating (before the introduction of the Code) in the code (“the old code”) contained in Schedule 2 to the Telecommunications Act 2003.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>There was widespread dissatisfaction with the old code for a number of reasons. First, it was complex and extremely difficult to understand. Second, it was outdated. Third, there was evidence of concern that it was making the rollout of electronic communications equipment more difficult. In consequence, the government commissioned the Law Commission to report with recommendations for reform. The Commission ’s report (The Electronic Communications Code (Law Com 336)) was published in February 2013.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>Under the old code, an agreement conferring a right was effective if the occupier of land agreed to it in writing (Telecommunications Act Sched 2, para 2 (1)); and the owner of the land (or a lessee of it), if not the occupier, was only bound by it if he, too, agreed in writing to be bound by it (para 2 (2)). If following notice by an operator requiring agreement, agreement could not be reached, the operator was entitled to apply to the court for an order conferring the proposed right (para 5). It is clear from these provisions of the old code that only the occupier could confer rights under the old code on an operator. The Law Commission also took that view in their report: para 2.18.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>Paragraph 21 of the old code restricted powers to require removal of telecommunications apparatus. The right of removal was triggered by service of a notice under paragraph 21 (1). This could be met by a counter-notice given by the operator under paragraph 21 (3) which either asserted that the person who served the notice was not entitled to require removal; or specifying the steps that the operator proposed to take in order to secure a right to keep the apparatus on the land. In considering those steps, paragraph 21 (5) provided: “Those steps may include any steps which the operator could take for the purpose of enabling him, if the apparatus is removed, to re-install the apparatus; and the fact that by reason of the following provisions of this paragraph any proposed re- installation is only hypothetical shall not prevent the operator from taking those steps or any court or person from exercising any function in consequence of those steps having been taken.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>Although under the old code many agreements were no more than wayleaves (a form of licence), some took the form of leases. In such cases, the leases potentially attracted security of tenure under Part II of the Landlord and Tenant Act 1954. The procedure for termination and renewal of an agreement under that Act differed from the procedure for termination and renewal under the old code. There was considerable uncertainty about how the two forms of protection interacted. That was one of the problems that the Law Commission addressed.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>In paragraph 6.57 of their report they noted that it was not clear that the “dual protection” was either “necessary or helpful”. In a passage beginning at paragraph 6.81 they made recommendations, making it clear in paragraph 6.82 that their recommendations related “only to leases granted after the enactment of the revised Code”. The first recommendation was that leases granted primarily for the purpose of conferring Code rights should not fall within the scope of Part II of the 1954 Act. The second was that where the primary purpose of the lease was not the conferring of Code rights, it should fall within the scope of Part II, and should fall outside the provisions of the Code for the continuity of Code rights.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>That, of course, was for the future, since both recommendations applied to leases granted after the enactment of the Code. But the Law Commission also addressed existing agreements. In paragraph 1.43 of the report the Commission stated: “We are conscious that the introduction of the revised Code will need to be managed with care and considerable thought given to transitional provisions. We do not think that it would be practicable or appropriate simply to apply the revised Code to existing arrangements. This would result in retrospective application, affecting rights which had already arisen. In some cases, there would be disruption to carefully-negotiated agreements by which the parties have sought to strike a balance within the context of the existing Code.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Accordingly, for some time after the introduction of the Code parties and their advisers would need to be aware of the application of the old code; but as new arrangements were formed and old ones renewed under the Code, the old code would eventually become obsolete.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>Although the Law Commission envisaged that there would be transitional provisions, it did not discuss how those transitional provisions should be framed or how they should operate.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>Pausing at this point, what I would draw from these recommendations is that: i) The Code was not intended to apply to existing arrangements (i.e. arrangements subsisting when the Code came into force) including leases protected by Part II of the 1954 Act; but ii) As and when such leases were renewed, they would fall within the Code if their primary purpose was to confer Code rights, but otherwise they would continue under the regime in Part II of the 1954 Act.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>Following the receipt of the Law Commission ’s report, the government carried out consultations. Its response was published by the Department for Culture Media and Sport in May 2016. That response did not specifically address the divide between the Code and Part II of the Landlord and Tenant Act 1954; but it did address the question how far the Code should apply to existing agreements. At paragraph xii of the Executive Summary it stated: “The Government has also decided that the new Code rights will only apply to contracts signed after the law has come into effect, and will not apply to existing contracts retrospectively. Government intends to make transitional arrangements that will make clear how and when existing agreements transition to the provisions of the new Code. This will enable a steady move to the new legal framework over the next 10 to 15 years as existing contracts come up for renewal, while simultaneously creating an incentive for new investment. The Government will keep the whole sector under close review as communications companies and landlords work together to implement the reforms.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>Paragraphs 48 to 51 of the response addressed the question of existing agreements in more detail, concluding that: “We have, therefore, concluded that the revised Code should only apply to new agreements. Government has not been sufficiently convinced that the public benefits of retrospective application are such that they outweigh interference with carefully negotiated arrangements made under the existing Code. We believe that it is not practicable or appropriate for the revised Code to override existing arrangements because this would lead to uncertainty and disruption to the agreements which parties have sought to secure. As new Code arrangements are made and the existing agreements come to an end, the existing Code will eventually become obsolete, over time. This will ensure for a steady phasing in of new Code rights, while preserving better investment incentives on new sites from day one. Government will however, bring forward a clear and robust set of transitional provisions to set out how and when existing agreements transition to the new Code. This will include how and when new administrative arrangements under the new Code such as the move from the ordinary courts, to specialist Tribunals, will apply to existing agreements.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>This statement of policy went further than the Commission ’s recommendation that the continuity provisions of the Code should not apply to existing agreements. Rather, as the first quoted sentence shows, the government ’s view was that the “the revised Code” should not apply to existing agreements. That statement of policy did not differentiate between different parts of the Code. But as the Law Commission recommended, there would also be transitional arrangements. Those arrangements would, among other things, deal with how and when the move from ordinary courts to the specialist tribunals would apply to existing agreements.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>It is, however, clear that the government envisaged that it might take as much as 15 years to complete the transition to the Code.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Digital Economy Act 2017</p>
+        </tblock>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>The Code was introduced by section 4 of the Digital Economy Act 2017, which inserted a new Schedule 3A into the Communications Act 2003. It will be necessary to come back to the detailed provisions of the Code, but at this stage it is convenient to summarise its general structure.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>Part 1 defines key concepts in the Code. Part 2 deals with the conferral and exercise of Code rights by agreement. Part 3 deals with upgrading and assignment. Part 4 (which includes paragraph 20 and with which we are particularly concerned) deals with the power of the court (in practice the UT) to impose agreements. Part 5 (which includes paragraph 29) deals with the termination and modification of agreements. Paragraph 29 provides: “(1) This Part of this code applies to an agreement under Part 2 of this code, subject to sub-paragraphs (2) to (4). (2) This Part of this code does not apply to a lease of land in England and Wales if — (a) its primary purpose is not to grant code rights, and (b) it is a lease to which Part 2 of the Landlord and Tenant Act 1954 (security of tenure for business, professional and other tenants) applies. (3) In determining whether a lease is one to which Part 2 of the Landlord and Tenant Act 1954 applies, any agreement under section 38A (agreements to exclude provisions of Part 2) of that Act is to be disregarded.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Part 6 deals with rights to require removal of electronic communications apparatus. Parts 7 to 11 of the Code deal with specialised regimes. Other parts of the Code deal with further consequential matters.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>In many places, the Code itself confers jurisdiction on “the court” to deal with disputes arising under the Code. So far as England and Wales are concerned, the court means the County Court: paragraph 94. But the Secretary of State had power to confer jurisdiction on the FTT or the UT: paragraph 95. In exercise of that power the Secretary of State made the Electronic Communications (Jurisdiction) Regulations 2017. Those regulations extended jurisdiction under the Code to the FTT and the UT but also provided that proceedings under the Code must be begun in the UT. The UT does, however, have power to transfer proceedings to the County Court. In practice, jurisdiction under the Code has been exercised by the UT alone; and in the discussion that follows I will refer to the UT (except when quoting from the Code itself).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>I will return to the details of the transitional provisions later; but at this stage, in order to understand the framework of Cornerstone ’s appeal, it is necessary to say that under those provisions Part 4 of the Code applies to its lease, but Part 5 does not.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Further provisions of the Code</p>
+        </tblock>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>I have already described the general structure of the Code. It is now necessary to quote some of its provisions in more detail. Part 2 of the Code deals with the conferral of Code rights. Paragraph 9 provides: “A code right in respect of land may only be conferred on an operator by an agreement between the occupier of the land and the operator.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>Paragraph 10 deals with who else may be bound by a Code right conferred on an operator by an occupier. In short, these include the occupier ’s successors in title; persons with a subsequent derivative title; and others with an interest in the land who have agreed to be bound by it under paragraph 10 (4). Paragraph 11 provides that an agreement must be in writing. It is not, therefore, possible to have an oral agreement that creates Code rights. Paragraph 11 also envisages consensual variations to an agreement conferring Code rights but any variation must also be in writing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>Part 4 of the Code deals with the power of the UT to impose agreements. Paragraph 20 provides: “(1) This paragraph applies where the operator requires a person (a “relevant person”) to agree — (a) to confer a code right on the operator, or (b) to be otherwise bound by a code right which is exercisable by the operator. (2) The operator may give the relevant person a notice in writing — (a) setting out the code right, and all of the other terms of the agreement that the operator seeks, and (b) stating that the operator seeks the person 's agreement to those terms. (3) The operator may apply to the court for an order under this paragraph if — (a) the relevant person does not, before the end of 28 days beginning with the day on which the notice is given, agree to confer or be otherwise bound by the code right, or (b) at any time after the notice is given, the relevant person gives notice in writing to the operator that the person does not agree to confer or be otherwise bound by the code right. (4) An order under this paragraph is one which imposes on the operator and the relevant person an agreement between them which — (a) confers the code right on the operator, or (b) provides for the code right to bind the relevant person.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>I understand it to be common ground that a “relevant person” may be either the occupier or another person who is to be bound by the sought Code right. If what is sought is the conferral of a Code right under paragraph 20 (1) (a) then the relevant person is the occupier. If what is sought is to make someone bound by a Code right which has already been conferred by the occupier, then the relevant person will be someone falling within paragraph 10. Paragraph 21 sets out the test that must be applied before making such an order. First, the prejudice to the relevant person must be capable of being adequately compensated in money. Second, the public benefit likely to result from making the order must outweigh that prejudice. But no order may be made where the relevant person intends to redevelop the land to which the Code right would relate; and could not reasonably do so if the order were made.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>If an order is made under paragraph 20 then paragraph 22 provides: “An agreement imposed by an order under paragraph 20 takes effect for all purposes of this code as an agreement under Part 2 of this code between the operator and the relevant person.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>Thus where the relevant person is the occupier (under paragraph 20 (1) (a)) the agreement will take effect as an agreement between operator and occupier under paragraph 9. Where, on the other hand, the relevant person is someone else (under paragraph 20 (1) (b)), then the agreement will take effect as an agreement under paragraph 10 (4).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>Paragraph 26 provides for interim rights. It provides, so far as material: “(1) An operator may apply to the court for an order which imposes on the operator and a person, on an interim basis, an agreement between them which — (a) confers a code right on the operator, or (b) provides for a code right to bind that person. (2) An order under this paragraph imposes an agreement on the operator and a person on an interim basis if it provides for them to be bound by the agreement — (a) for the period specified in the order, or (b) until the occurrence of an event specified in the order. (3) The court may make an order under this paragraph if (and only if) the operator has given the person mentioned in sub- paragraph (1) a notice which complies with paragraph 20(2) stating that an agreement is sought on an interim basis and — (a) the operator and that person have agreed to the making of the order and the terms of the agreement imposed by it, or (b) the court thinks that there is a good arguable case that the test in paragraph 21 for the making of an order under paragraph 20 is met. (4) Subject to sub-paragraphs (5) and (6), the following provisions apply in relation to an order under this paragraph and an agreement imposed by it as they apply in relation to an order under paragraph 20 and an agreement imposed by it — (a) paragraph 20(3) (time at which operator may apply for agreement to be imposed); (b) paragraph 22 (effect of agreement imposed under paragraph 20); …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>Paragraph 27 provides for temporary Code rights. It provides: “(1) This paragraph applies where — (a) an operator gives a notice under paragraph 20(2) to a person in respect of any land, (b) the notice also requires that person 's agreement on a temporary basis in respect of a right which is to be exercisable (in whole or in part) in relation to electronic communications apparatus which is already installed on, under or over the land, and (c) the person has the right to require the removal of the apparatus in accordance with paragraph 37 or as mentioned in paragraph 40(1) but the operator is not for the time being required to remove the apparatus. (2) The court may, on the application of the operator, impose on the operator and the person an agreement between them which confers on the operator, or provides for the person to be bound by, such temporary code rights as appear to the court reasonably necessary for securing the objective in sub-paragraph (3). (3) That objective is that, until the proceedings under paragraph 20 and any proceedings under paragraph 40 are determined, the service provided by the operator 's network is maintained and the apparatus is properly adjusted and kept in repair. (4) Subject to sub-paragraphs (5) and (6), the following provisions apply in relation to an order under this paragraph and an agreement imposed by it as they apply in relation to an order under paragraph 20 and an agreement imposed by it — (a) paragraph 20(3) (time at which operator may apply for agreement to be imposed); (b) paragraph 22 (effect of agreement imposed under paragraph 20); … (8) The court must, in determining for the purposes of paragraph 20 whether the apparatus should continue to be kept on, under or over the land, disregard the fact that the apparatus has already been installed there.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>Part 5 of the Code deals with the termination and renewal of agreements. I have already quoted paragraph 29, which outlines its scope. It is to be noted that paragraph 29 excludes leases with protection under Part II of the 1954 Act (where the primary purpose was not to grant Code rights) only from Part 5 of the Code. It does not purport to exclude such leases from any other part of the Code (including Part 4). Paragraph 30 provides for the continuation of Code rights after they cease to be contractually exercisable, subject to the remainder of Part 5. That paragraph also introduces a new concept; namely a “site provider”. A site provider is either a person who conferred a Code right under a code agreement; or is a person who is bound by such a right. The site provider need not be the occupier (who must have conferred the Code right under paragraph 9), provided that he is bound by a Code right.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>Paragraph 31 enables a site provider to give notice terminating a Code agreement on certain grounds. The grounds are set out in paragraph 31 (4): “(a) that the code agreement ought to come to an end as a result of substantial breaches by the operator of its obligations under the agreement; (b) that the code agreement ought to come to an end because of persistent delays by the operator in making payments to the site provider under the agreement; (c) that the site provider intends to redevelop all or part of the land to which the code agreement relates, or any neighbouring land, and could not reasonably do so unless the code agreement comes to an end; (d) that the operator is not entitled to the code agreement because the test under paragraph 21 for the imposition of the agreement on the site provider is not met.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The operator then has the opportunity under paragraph 32 to give a counter-notice and to apply to the UT for an order under paragraph 34. The initiative for termination under paragraph 31 is that of the site provider alone. If the UT decides that the site provider has established any of the grounds for termination stated in the notice, it “must order that the code agreement comes to an end in accordance with that order”: paragraph 32 (4).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>Paragraph 33 gives either the operator or the site provider the ability to ask for variations to an existing agreement; or for the making of a new agreement. It provides: “(1) An operator or site provider who is a party to a code agreement by which a code right is conferred by or otherwise binds the site provider may, by notice in accordance with this paragraph, require the other party to the agreement to agree that — (a) the code agreement should have effect with modified terms, (b) where under the code agreement more than one code right is conferred by or otherwise binds the site provider, that the agreement should no longer provide for an existing code right to be conferred by or otherwise bind the site provider, (c) the code agreement should — (i) confer an additional code right on the operator, or (ii) provide that the site provider is otherwise bound by an additional code right, or (d) the existing code agreement should be terminated and a new agreement should have effect between the parties which — (i) confers a code right on the operator, or (ii) provides for a code right to bind the site provider.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>It should be noted, at this stage, that among the things that an operator can ask for under this paragraph is the conferring of an additional code right, even without bringing the existing agreement to an end. But paragraph 33 also contains important restrictions on the availability of that procedure. Paragraph 33 is invoked by giving notice under paragraph 33 (2). The notice must specify (among other things): “(b) … (i) the day from which it is proposed that the modified terms should have effect, (ii) the day from which the agreement should no longer provide for the code right to be conferred by or otherwise bind the site provider, (iii) the day from which it is proposed that the additional code right should be conferred by or otherwise bind the site provider, or (iv) the day on which it is proposed the existing code agreement should be terminated and from which a new agreement should have effect …”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>But paragraph 33 (3) provides that: “The day specified under sub-paragraph (2)(b) must fall — (a) after the end of the period of 6 months beginning with the day on which the notice is given, and (b) after the time at which, apart from paragraph 30, the code right to which the existing code agreement relates would have ceased to be exercisable or to bind the site provider or at a time when, apart from that paragraph, the code agreement could have been brought to an end by the site provider.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>In default of agreement either the operator or the site provider may apply to the UT. The UT ’s powers are described in paragraph 34: “(2) The court may order that the operator may continue to exercise the existing code right in accordance with the existing code agreement for such period as may be specified in the order (so that the code agreement has effect accordingl y). (3) The court may order the modification of the terms of the code agreement relating to the existing code right. (4) Where under the code agreement more than one code right is conferred by or otherwise binds the site provider, the court may order the modification of the terms of the code agreement so that it no longer provides for an existing code right to be conferred by or otherwise bind the site provider. (5) The court may order the terms of the code agreement relating to the existing code right to be modified so that — (a) it confers an additional code right on the operator, or (b) it provides that the site provider is otherwise bound by an additional code right. (6) The court may order the termination of the code agreement relating to the existing code right and order the operator and the site provider to enter into a new agreement which — (a) confers a code right on the operator, or (b) provides for a code right to bind the site provider.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>It is to be noted that under paragraph 34 (6) the UT may order the site provider to enter into an agreement which confers a Code right on the operator. Since the site provider need not be the occupier, that seems at first sight to conflict with paragraph 9. But in my judgment that is dealt with by paragraph 34 (8) which provides: “This code applies to the new agreement as if it were an agreement under Part 2 of this code.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>So even if the site provider is not the occupier, Part 2 applies as if he were.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>Part 6 of the Code deals with rights to require removal of electronic communications apparatus. That right is in principle exercisable by a person with an interest in the land concerned, whether or not he is or was an occupier or site provider: paragraph 37 (1). The right can only be exercised on certain specified grounds, one or more of which needs to be satisfied. These include termination of the Code agreement under paragraph 32 (4) where one of the grounds for termination has been made out. Another of the applicable grounds is that the right was granted by an agreement to which Part 5 of the Code does not apply: paragraph 37 (3) (d). But that ground does not apply if: “(a) the land is occupied by a person who — (i) conferred a code right (which is in force) entitling an operator to keep the apparatus on, under or over the land, or (ii) is otherwise bound by such a right, and (b) that code right was not conferred in breach of a covenant enforceable by the landowner.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>The right is exercisable by notice given to the operator. If the operator does not comply with the notice, the landowner may apply to the UT for an order requiring the operator to remove the apparatus: paragraph 40. But paragraph 40 (8) provides that on such an application the UT: “may not make an order in relation to apparatus if an application under paragraph 20(3) has been made in relation to the apparatus and has not been determined.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>I should also mention paragraph 100 which provides: “(1) This code does not affect any rights or liabilities arising under an agreement to which an operator is a party. (2) Sub-paragraph (1) does not apply in relation to paragraph 99 or Parts 3 to 6 of this code.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>It is common ground that this prohibits any attempt to “contract out” of Parts 3 to 6 of the Code.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The argument for Cornerstone</p>
+        </tblock>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>The argument for Cornerstone, ably presented by Mr Seitler QC and Mr Radley- Gardner is, in brief, as follows.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>First, although the transitional provisions prevent the application of Part 5 of the Code to an operator in the position of Cornerstone, they do not disapply Part 4. Since paragraph 20 is within Part 4, Cornerstone, as operator, may exercise the rights conferred by that paragraph. If and in so far as the decision of this court in Cornerstone Telecommunications Infrastructure Ltd v Compton Beauchamp Estates Ltd [2019] EWCA Civ 1755, [2020] 1 P &amp; CR 15 suggests the contrary, it is (a) obiter and (b) wrong.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>Second, the parties can not by agreement exclude the application of Part 4 of the Code as a consequence of paragraph 100. It follows that the existence of Cornerstone ’s current lease can not disapply Part 4.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>Third, a number of paragraphs of the Code expressly contemplate their application to operators in situ. That shows that the provisions of the Code are available for an operator to use, except to the extent that they are expressly excluded by the transitional provisions.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>Fourth, Part 4 is the only option for operators requiring Code rights who are not party to a Code agreement to which Part 5applies; or who need new or different Code rights during the term of an existing Code agreement or unexpired 1954 Act lease or who have periodic tenancies that have arisen following expiry of their written pre-Code agreements.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>Fifth, the County Court has jurisdiction to impose a Code agreement.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>Sixth, paragraph 40 (8) of the Code shows that an operator in situ is entitled to invoke paragraph 20 for the purpose of acquiring Code rights.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>Seventh, even if the County Court, in response to an application for termination of a tenancy under Part II of the 1954 Act, were to make a termination order, the procedure in Part 6 for the removal of apparatus would still have to be followed. Thus the operator would still have the opportunity to make a new application under paragraph 20.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>Eighth, there are significant differences between the terms of any new tenancy likely to be awarded by the court on an application under Part II of the 1954 Act, and the terms of any Code agreement imposed under the Code. The terms of a Code agreement are likely to be far more favourable to the operator, and the policy of the Code was to promote those interests.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>It seems to me that many of the submissions about the supposed defects (at least from the point of the view of the operator) in the legislation are really submissions about what the law ought to be, rather than about what it is.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>Mr Seitler placed heavy reliance on the fact that the transitional provisions do not exclude the operation of Part 4 of the Code. That is true; but neither do the transitional provisions extend the scope of Part 4. For the same reason neither the inability to contract out of Part 4, nor the concurrent jurisdiction of the County Court, illuminates the scope of that Part. I agree with the Deputy President that part of Cornerstone ’s argument (namely that APW is able to confer Code rights under Part 4 of the Code) assumes what Cornerstone needs to demonstrate. That is the issue to which I turn now.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Cornerstone v Compton Beauchamp</p>
+        </tblock>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>In Cornerstone Telecommunications Infrastructure Ltd v Compton Beauchamp Estates Ltd [2019] EWCA Civ 1755, [2020] 1 P &amp; CR 15 this court considered a number of provisions of the Code. For present purposes the most important point that the case decided was that it was a guiding principle of the Code that, as a result of paragraph 9 of the Code, Code rights could only be conferred by the occupier. I do not propose to set out the detailed reasoning which led to that conclusion. But the conclusion is clear from a number of places in my judgment (with which Simon and David Richards LJJ agreed): see paragraphs [36], [40], [55], [69].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>This was also the position under the old code, and the Law Commission did not propose any change in that respect. On the contrary, in the consultation paper which preceded its final report (Law Com Consultation Paper No 205) it said at paragraph 3.30: “We do not doubt that the occupier must remain the Code Operator ’s point of contact on the land, the person who can create code rights by giving agreement, and the person to whom an application to the appropriate body for the grant of code rights should be addressed. Any other arrangement would be impracticable.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>No doubt for that reason, discussion of the question did not feature at all in the Law Commission ’s final report; and the position under the old code was carried forward into the Code. This is confirmed by note 405 of the explanatory notes accompanying the Act which states that paragraph 9: “provides that only the occupier of land may confer a code right on an operator. This reflects the position in paragraph 2(1) of the existing code.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>Necessarily this must mean that an operator in the position of Cornerstone (if an occupier) can not confer Code rights on itself, because it is legally impossible to contract with oneself; and in any event paragraph 9 requires an “agreement between” the occupier and the operator. This point was also decided in Compton Beauchamp at [58].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>Under the scheme of the Code, with limited exceptions, no one but the occupier can confer Code rights. Two of the exceptions were considered (obiter) in Compton Beauchamp: paragraph 26 (interim code rights) and paragraph 27 (temporary code rights).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>As the Deputy President pointed out in the decision under appeal in this case, both those paragraphs of the Code allow notice to be given to “a person.” The phrase “a person” is not further defined, and is not limited to the occupier. In Compton Beauchamp this court took the view that both these paragraphs assumed that an application had been made under paragraph 20 for full code rights. But that view turned out to be mistaken.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>In Cornerstone Telecommunications Infrastructure Ltd v University of London [2019] EWCA Civ 2075, [2020] 1 WLR 2124 this court held that there was a difference between paragraph 26 and paragraph 27. While an application under paragraph 27 could only be made in conjunction with an application under paragraph 20, an application under paragraph 26 contained no such requirement: [68] to [74]. An application under paragraph 20 and an application under paragraph 27 are “inextricably linked”. In so deciding, the court was aware that its interpretation of the effect of paragraph 26 did not accord with the Law Commission ’s recommendation, the government ’s consultation response, or the explanatory notes which accompanied the Act. But, as it held at [67], neither statements of policy nor explanatory notes “can dictate the proper interpretation of legislation”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>In the course of his reply, Mr Radley-Gardner placed particular reliance on paragraph 27. The conditions required to be satisfied in order to invoke that paragraph included (a) the giving of a notice to “a person” under paragraph 20 and (b) electronic communications apparatus which is already installed on the land. That, he said, showed that an operator in situ was able to invoke the machinery for acquiring Code rights under paragraph 20. This is similar to an argument that was run in Compton Beauchamp and which was rejected by this court at [70] to [74]. Moreover, paragraph 27 (8) requires the UT, when making its decision under paragraph 20 in the circumstances set out in 27 (7), to disregard the fact that the electronic communications are already installed on the land. Accordingly, the application under paragraph 20 will proceed on a hypothetical basis which assimilates the position of an operator in situ with an operator who has no apparatus on the land. It is also the case that paragraph 27 only applies where the person to whom notice has been given under paragraph 27 has already established that he is entitled to require removal of the apparatus.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>Apart from the refinement to the analysis in Compton Beauchamp resulting from the decision in University of London (which Mr Seitler described as a “tweak”), I do not consider that the court in that case cast doubt on the proposition that paragraphs 26 and 27 were exceptions to the general principle that only the occupier can confer Code rights. Thus even if Mr Radley-Gardner is right, the ability of an operator in situ to make an application under paragraph 20 is limited to a case in which paragraphs 26 or 27 apply.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>It is right to say that the Supreme Court has granted Cornerstone permission to appeal in Compton Beauchamp. But from what we have seen of the case papers, it appears that there is no challenge to the proposition that only the occupier can confer Code rights. The challenge relates to the question: who is the occupier?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>Mr Seitler argued that the interpretation placed upon Part 4 of the Code in Compton Beauchamp did not allow for the possibility that during the currency of an agreement conferring Code rights the operator might wish to seek additional code rights or to modify Code rights already granted. This could, I think, be done by an agreed variation to an existing agreement under paragraph 11 of the Code. But can it be done in the absence of agreement by invoking Part 4?</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>It is to be noticed, first, that it is only the operator who can invoke Part 4. If Part 4 can be used to alter or modify code rights it would be an entirely one-sided procedure. From the perspective of the land owner, this is an unattractive position. Second, and perhaps more importantly, Part 5 of the Code does allow either the operator or the site provider to request an alteration in the terms of a Code agreement. That would include a request by the operator for additional Code rights: paragraph 33 (1)(c)(i). But the ability to request such a change can not come into effect until after the agreement could have been brought to an end by the site provider: paragraph 33 (3). If the operator could side-step this limitation by recourse to Part 4, the limitation would become largely redundant.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>In support of this argument Mr Seitler relied on note 499 of the explanatory notes accompanying the Act. That states, in commenting on paragraph 100 (2): “Similarly an operator can not be required to agree that it will forgo its right to make an application to the court under Part 4 for a different or additional code right (for which it would have to pay additional consideration). For example an operator may have an agreement with a site provider under which the operator is entitled to enter the land to maintain apparatus on terms that it gives at least 72 hours’ notice (see paragraph 3(f) of the code). The operator might later wish to seek a different code agreement, e.g. to enter the land to maintain apparatus giving only 48 hours’ notice. That would be a new right, more onerous for the landowner, which would have to be agreed on further terms, including as to payment. Failing agreement, the operator could apply to the court to be granted the new right. The court would be required to apply the test under paragraph 21.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>But this note is very difficult (if not impossible) to reconcile with note 497 which provides: “Paragraph 100(1) concerns the binding quality of agreements made under the code, and whether it is possible to “contract out” out of provisions of the code. Agreements for code rights are final so that once agreed (see Part 2), it is not possible for either party to re-open the agreement. For example if an operator agrees to pay £ 5,000 for a (consensual) code agreement, the operator (or landowner) can not then apply to the court to get a better price or improve the accompanying terms that relate to the code right that has been agreed. It is possible to vary an agreement by further agreement (see paragraph 11 of the code).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>This distinction drawn between “code rights” (note 499) and “accompanying terms” (note 497) is not easy to understand. The particular Code right (as defined in paragraph 3 of the Code) to which note 499 refers is simply a right to enter the land. It is not a right to enter on any particular length of notice, so it may well be that a change in the period of notice is simply a change in accompanying terms, falling within the principle that the operator is bound by the agreement. Mr Seitler accepted that the example chosen in note 499 was inapposite; but that casts doubt on the accuracy of the note. In addition, contrary to one of Mr Seitler ’s submissions, note 497 is framed on the basis that what can be done by agreement under paragraph 11 of the Code can not necessarily be done by compulsion under part 4. Moreover, as Mr Pymont QC pointed out, paragraph 20 of the Code does not clearly differentiate between Code rights on the one hand, and terms on the other.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>In addition, in relation to subsisting agreements, such as the one with which we are concerned, the government ’s policy was that they should be allowed to run their course. It is clear that the policy was not to interfere with “carefully negotiated agreements made under the existing Code”. Nor was it appropriate “to override existing arrangements because this would lead to uncertainty and disruption to the agreements which parties have sought to secure.” The interpretation urged by Mr Seitler would in this respect run directly counter to that underlying policy. In Arqiva Services Ltd v AP Wireless II (UK) Ltd [2020] UKUT 0282 Judge Cooke said at [156] that the policy of the Code was that: “… operators who have subsisting agreements have to honour that bargain while it lasts, and must then make use of Part 5 to extend or renew those rights.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>In so far as she said that operators under existing agreements must honour their bargains, I consider that she was right. The Deputy President considered and rejected Mr Seitler ’s argument under this head at [92] to [95]. I agree with his reasoning.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>A further argument that Mr Seitler deployed was that paragraph 40 (8) of the Code (in Part 6) showed that an operator in situ was able to make an application for code rights under paragraph 20. Paragraph 40 applies where a site provider is not bound by a Code right, or has successfully terminated a Code agreement and wishes to enforce a right to require electronic communications equipment to be removed from the land. That sub- paragraph states that the UT: “may not make an order in relation to apparatus if an application under paragraph 20(3) has been made in relation to the apparatus and has not been determined.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>I agree with Mr Pymont that that paragraph does not itself expand the scope of paragraph 20or authorise the making of an application that paragraph 20 does not itself authorise. All that it says is that “if” an application has been made under that paragraph, that application must be dealt with before the UT comes to make an order under paragraph 40.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>Mr Radley-Gardner elaborated on this argument in reply. He drew attention to paragraph 21 of the old code which enabled an operator, faced with a claim to have apparatus removed from land, to specify the steps that it would take to obtain rights to keep the apparatus on the land. His argument was that an operator should be no worse off under the Code than it would have been under the old code. It follows that an operator in situ is entitled to invoke paragraph 20 to acquire new Code rights even if he is the occupier or lessee of the land over which the rights are sought. I do not accept this argument. First, the old code contained no explicit right for the operator to renew an expiring code right. It was necessary for the old code to allow for the possibility of renewal. The only way in which renewed code rights could be obtained under the old code (otherwise than by agreement) arose under paragraph 21, and in particular in cases where the operator served a counter-notice. By contrast, the Code expressly enables an operator to seek a renewal of its Code rights under Part 5. So the particular problem under the old code for which paragraph 21 provided does not exist under the Code. Second, paragraph 21 (5) of the old code enabled the operator to rely on steps that it could have taken on the hypothesis that the apparatus had already been removed from the land. The effect of that hypothesis is that the operator was treated as though it were new to the site. There is no similar hypothesis in paragraph 40.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>There is another reason for holding that paragraph 40 (8) does not have the wide effect for which Mr Seitler and Mr Radley-Gardner contend. Suppose that the existing Code agreement had been terminated because the UT had decided that the Code agreement ought to come to an end because of substantial breaches of obligation by the operator, or persistent delay in making payments under the agreement. In deciding that question the UT would, no doubt, take into account any promises that the operator might make to mend its ways; and any variation in the terms of the agreement (e.g. the payment of a deposit, or an increase in the interest rate on late payments) which might satisfy the site provider ’s concerns. But it would nevertheless have decided that the Code agreement “ought to” come to an end. It would, in those circumstances, be very odd if the operator could simply start all over again. Mr Seitler ’s answer to this kind of point (and many related points) was that the UT had a discretion under Part 4 to refuse to make an order. But that is no answer to the uncertainty that would be created.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>In addition, as Mr Pymont also pointed out, paragraph 40 (8) is not limited to a case in which an application under paragraph 20 is made in relation to the same land as that to which the (now terminated) Code right applied. Indeed the application contemplated by paragraph 40 (8) is not an application relating to land, but an application relating to “apparatus”. So if an operator is required to remove itself from one site, paragraph 40 (8) would prevent actual removal of the apparatus for such time as it took for the operator to make an orderly transition to a new site.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>80</num>
+          <content>
+            <p>In short, I do not consider that we should depart from the proposition established in Compton Beauchamp (even if we could) that, except in limited cases of which this is not one, only the occupier can confer Code rights. The right to require another person to be bound by Code rights presupposes that they have already been conferred by the occupier (or at least that the operator ’s application under paragraph 20 is made against the occupier as well as others).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Who is the occupier?</p>
+        </tblock>
+        <paragraph>
+          <num>81</num>
+          <content>
+            <p>This question was also considered by this court in Compton Beauchamp. Again, I do not propose to set out the detailed reasoning that led to the court ’s conclusion. The statutory test of who is the occupier is set out in paragraph 105 of the Code. The court held at [54] that the primary test of occupation “was a question of fact rather than legal status; it means physical presence on and control of the land”. It may be the case that occupation is a mixed question of fact and law, but it is not a purely legal question.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>82</num>
+          <content>
+            <p>It was argued in that case that the operator can never be the occupier. But the court rejected that argument for the reasons given at [58] to [65]. Among the reasons that the court gave was that if the primary test was not satisfied, then the operator holding under a lease would be the person exercising management and control over the land.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>83</num>
+          <content>
+            <p>Even if Cornerstone is not the occupier in the primary sense, it does not follow that APW is. APW, as far as we know, has no physical presence on the roof; and for as long as Cornerstone retains its tenancy APW is not entitled to interfere with Cornerstone ’s exclusive possession of the property comprised in the tenancy.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>84</num>
+          <content>
+            <p>Mr Seitler sought to resurrect the unsuccessful argument in Compton Beauchamp (although it was put in a different way). I do not consider that it is open to him to do so; for three separate reasons. First, Compton Beauchamp binds us to hold that, at least in the case of an operator holding under a lease, the operator is the occupier even if it does not have a physical presence on the ground. Second, this point was not taken before the UT. Third, in consequence of the second reason, there are no findings of fact which might cast light on the question. We do not know, for instance what equipment is on the roof; which humans employed by Cornerstone (or its predecessor Vodafone) go onto the roof; how often they do and for what purposes. All we know is that Cornerstone has a lease of part of the roof; and that it is occupation of that part for the purposes of a business carried on by it.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>85</num>
+          <content>
+            <p>As I have said, it is the question who is the occupier that is the subject of the appeal to the Supreme Court in Compton Beauchamp. If this court has taken a wrong turn (as some believe), then the Supreme Court will set the law on its proper course.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The transitional provisions</p>
+        </tblock>
+        <paragraph>
+          <num>86</num>
+          <content>
+            <p>Thus far I have considered the operation of the Code independently of the transitional provisions. It is now necessary to turn to those. The Digital Economy Act also gave effect to Schedule 2 which contained the transitional provisions. Paragraph 1 contained definitions. The “new code” meant schedule 3A which the 2017 Act introduced; and the “existing code” meant the old code. It defined a “subsisting agreement” as: “(a) an agreement for the purposes of paragraph 2 or 3 of the existing code, or (b) an order under paragraph 5 of the existing code, which is in force, as between an operator and any person, at the time the new code comes into force (and whose terms do not provide for it to cease to have effect at that time).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>87</num>
+          <content>
+            <p>Paragraph 2 provided: “(1) A subsisting agreement has effect after the new code comes into force as an agreement under Part 2 of the new code between the same parties, subject to the modifications made by this Schedule. (2) A person who is bound by a right by virtue of paragraph 2(4) of the existing code in consequence of a subsisting agreement is, after the new code comes into force, treated as bound pursuant to Part 2 of the new code.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>88</num>
+          <content>
+            <p>Paragraph 5 of Schedule 2 provided that Part 3 of the Code did not apply to a subsisting agreement. Paragraph 6 provided: “(1) This paragraph applies in relation to a subsisting agreement, in place of paragraph 29(2) to (4) of the new code. (2) Part 5 of the new code (termination and modification of agreements) does not apply to a subsisting agreement that is a lease of land in England and Wales, if — (a) it is a lease to which Part 2 of the Landlord and Tenant Act 1954 applies, and (b) there is no agreement under section 38A of that Act (agreements to exclude provisions of Part 2) in relation the tenancy. (3) Part 5 of the new code does not apply to a subsisting agreement that is a lease of land in England and Wales, if — (a) the primary purpose of the lease is not to grant code rights (the rights referred to in paragraph 3 of this Schedule), and (b) there is an agreement under section 38A of the 1954 Act in relation to the tenancy.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>89</num>
+          <content>
+            <p>Similar provisions are made in relation to equivalent legislation in Northern Ireland. No similar provision is made in relation to Scotland, doubtless because in Scotland there is no equivalent to Part II of the Landlord and Tenant Act 1954. Where paragraph 6 did not prevent Part 5 of the Code from applying to a subsisting agreement, paragraph 7 applied it with modifications.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>90</num>
+          <content>
+            <p>In relation to the special regimes dealt with in parts 7 to 11 of the Code, paragraph 8 (2) provided: “Apparatus lawfully installed under any of those provisions (before or after the time when the new code comes into force) is to be treated as installed under the corresponding provision of the new code if it could have been installed under that provision if the provision had been in force or applied to its installation.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>91</num>
+          <content>
+            <p>Paragraphs 11 and 12 dealt with cases in which an operator had given notice under paragraph 5 of the old code requiring agreement. If an application had already been made to court under the old code, that application would be dealt with under the old code. But if no application to the court had yet been made, then the notice under paragraph 5 of the old code was to be treated as if it had been given under paragraph 20 of the Code.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>92</num>
+          <content>
+            <p>Finally, schedule 3 paragraph 4 to the Digital Economy Act amended Part II of the Landlord and Tenant Act 1954 by inserting a new section 43(4): “(4) This Part does not apply to a tenancy — (a) the primary purpose of which is to grant code rights within the meaning of Schedule 3A to the Communications Act 2003 (the electronic communications code), and (b) which is granted after that Schedule comes into force.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Taking stock</p>
+        </tblock>
+        <paragraph>
+          <num>93</num>
+          <content>
+            <p>It is convenient at this stage to take stock of the overall effect of the transitional provisions. As Arnold LJ explained in Bentley Motors Ltd v Bentley 1962 Ltd [2020] EWCA Civ 1726, transitional provisions come in a number of different forms. But there are a number of guiding principles. One of these is to provide for continuity in the law. In broad terms this means that the law should continue to apply in as seamless a manner as possible after a change in the law. But however this principle is applied, it requires policy choices to be made about when and in what circumstances the new law can be expected to apply. A second principle is that in making these policy choices, Parliament will take account of the legitimate expectations of those who are affected by the change in the law. In the case of the Code, those expectations will encompass not only the expectations of operators, but also those of land owners whose land is burdened by rights created under the old code.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>94</num>
+          <content>
+            <p>In principle, all subsisting agreements under the old code take effect as agreements under the Code. But it is necessary to consider how that general provision applies to different kinds of agreement.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>95</num>
+          <content>
+            <p>Take first the case where the operator ’s existing rights are no more than a written licence. Those rights will not fall within Part II of the Landlord and Tenant Act 1954 because that Act does not apply to licences. Such an agreement is not excluded from Part 5 of the Code by paragraph 6 of the transitional provisions. By virtue of paragraph 2 of the transitional provisions it therefore takes effect as an agreement made under Part 2 of the Code. It follows that a licensee under an existing licence can renew that licence under Part 5 of the Code. The same will be true where the operator ’s rights are no more than an easement, because that, too, falls outside the scope of Part II of the 1954 Act.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>96</num>
+          <content>
+            <p>Take next the case where the operator ’s rights are conferred by a lease, but the lease is excluded from security of tenure as the result of an agreement under section 38A of the 1954 Act. If the primary purpose of the lease was to grant Code rights, then paragraph 6 of the transitional provisions will not exclude it from Part 5 of the Code; because paragraph 6 (2) (b) only applies where there is no such agreement. The operator holding under such a lease will, therefore, be entitled to renew it under Part 5 of the Code. If, on the other hand, the primary purpose of the lease was not to grant Code rights, it will be excluded from Part 5by virtue of paragraph 6 (3). Leases of land in Scotland fall outside this paragraph, because there is no equivalent in Scotland of Part II of the 1954 Act; so all leases of land in Scotland will be in the same position as leases of land in England and Wales where the tenant does not have security of tenure.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>97</num>
+          <content>
+            <p>Take next the case in which the operator ’s rights are conferred by a lease to which security of tenure under Part II of the 1954 Act applies. Paragraph 6 (2) of the transitional provisions precludes the operator from renewing the lease under Part 5 of the Code. But the operator can renew the lease under Part II of the 1954 Act. Because of section 43 (4) of the 1954 Act, the new lease, once granted, will no longer be subject to Part II of that Act if its primary purpose was to grant Code rights. Equally, paragraph 29 of the Code will not exclude it from Part 5. If, on the other hand, the primary purpose of the new lease was not to grant Code rights, then section 43(4) will not exclude it from Part II of the 1954 Act, but paragraph 29 will exclude it from Part 5 of the Code.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>98</num>
+          <content>
+            <p>In general where an operator holds under an existing written agreement, it is entitled to apply to renew that agreement under Part 5 of the Code. The only express exception is where the operator holds under a lease which entitles it to apply to renew under Part II of the 1954 Act. If the primary purpose of the lease was to grant Code rights, then after the first renewal, the new lease will fall within the scope of Part 5 of the Code. If it was not, then the new lease will remain outside the scope of Part 5 of the Code. Thus one way or another the operator under a subsisting agreement has the right to apply to renew it, either under Part 5 of the Code or under Part II of the Landlord and Tenant Act 1954.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>99</num>
+          <content>
+            <p>It is important to note at this stage that if a tenant were to apply to renew a lease under Part II of the 1954 Act, the landlord would be entitled to oppose renewal on one or more of the grounds set out in section 30 of that Act. Among those grounds is the ground that on the termination of the current tenancy, the landlord intends to occupy the holding for the purposes of a business carried on by him. That is a ground of opposition that is not available under the Code, either as a reason to resist the imposition of a Code right, or as a ground for terminating a Code agreement. To deprive a landlord of that right in relation to a subsisting agreement would be a substantial inroad into its property rights, for which no justification has been advanced.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>100</num>
+          <content>
+            <p>If, however, there is nothing in writing which signifies the occupier ’s consent to the exercise of rights under the old code, then it appears that the transitional provisions do not apply, because there is no “subsisting agreement”. That is not altogether surprising. If an operator had no rights under the old code, there would be no particular reason for it to acquire rights under the Code by virtue of the transitional provisions; and every reason to give effect to the legitimate expectations of property owners that no such rights under the Code would be created.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>101</num>
+          <content>
+            <p>There are a number of further difficulties which would arise if an operator in the position of Cornerstone had an unfettered right either to seek the imposition of an agreement under Part 4of the Code or to apply to renew its lease under Part II of the 1954 Act. The Deputy President summarised them at [96]: “ Cornerstone ’s suggested operation of the Code would be even more astonishing in the case of a subsisting agreement to which Part 2 of the 1954 Act applies, which the Law Commission recommended should not obtain the benefits of the new Code retrospectively. Rather than making use of the right of renewal under the 1954 Act, which requires between six and twelve months’ notice to be given under section 26(2) expiring after the end of the contractual term, the operator would have an unrestricted opportunity to give 28 days’ notice under paragraph 20. Having done so the operator would escape the provisions in section 34 of the 1954 Act for determining the rent under a new tenancy, which substantially replicate the open market, and would instead obtain access to the valuation assumptions in paragraph 24 of the Code, including the no-network assumption which strips out the component of value referable to the intended use of the site as part of the operator ’s network. The operator would also escape the restrictions of section 34 of the 1954 Act, and those of paragraph 34(12) of the Code, both of which make the terms of the existing tenancy or Code agreement the starting point when, in default of agreement, the Court or Tribunal is required to fix the terms on which new rights are to be enjoyed (see O’May v City of London Real Property Co Ltd [1983] 2 AC 726). Instead the operator would have the benefit of paragraph 23(1)-(2) of the Code which requires the Tribunal to impose an agreement which gives effect to the Code right sought by the operator with such modifications and on such terms as the Tribunal thinks appropriate.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>102</num>
+          <content>
+            <p>I agree.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>103</num>
+          <content>
+            <p>It must be stressed that the particular problem which arises on this appeal only arises in transitional cases. If Cornerstone were to renew its lease under Part II of the 1954 Act, the new lease would fall outside the scope of Part II as the result of section 43 (4) of that Act. It would also have been granted after the coming into force of the Code. It will not, therefore, be a “subsisting agreement” for the purposes of the transitional provisions; and Part 5 of the Code will no longer be excluded because Part II of the 1954 Act will no longer apply to it. The new lease will therefore be capable of renewal under Part 5 of the Code.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>104</num>
+          <content>
+            <p>Many of Cornerstone ’s complaints about the disadvantages to operators in renewing leases under Part II of the 1954 Act, compared with renewal (or acquisition of rights) under the Code are, in reality, complaints about the way that the transitional provisions work, rather than defects in the Code itself.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>105</num>
+          <content>
+            <p>The effect of the definition of “subsisting agreement” in the transitional provisions may have left some operators out in the cold: notably those who occupy under tenancies at will not recorded in writing; and possibly those holding under periodic tenancies protected by Part II of the Landlord and Tenant Act 1954 who can not take the initiative to renew their tenancies under that Act. That, at least, is what Judge Cooke decided in Arqiva. But that is not primarily a consequence of the Code itself. It is primarily a consequence of the transitional provisions, about the contents of which the Law Commission made no recommendations. And, as we have seen, the government ’s position was that “the revised Code should only apply to new agreements”.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <decision>
+        <tblock>
+          <p>Result</p>
+        </tblock>
+        <paragraph>
+          <num>106</num>
+          <content>
+            <p>For the reasons I have given, which are in substance the same as the Deputy President ’s, I would dismiss the appeal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Arnold:</p>
+        </tblock>
+        <paragraph>
+          <num>107</num>
+          <content>
+            <p>I agree.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lord Justice Davis:</p>
+        </tblock>
+        <paragraph>
+          <num>108</num>
+          <content>
+            <p>Unlike all the other judges and advocates who have been involved thus far in this case, I can not claim to have had any prior familiarity with the Electronic Communications Code. No doubt the many areas which it needed to cover, and the concepts with which it needed to grapple, are fiendishly complex. All I can say is that the Code itself is, to my way of thinking, fiendishly complex.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>109</num>
+          <content>
+            <p>This constitution of the court is bound by the previous decision of the court in the Compton Beauchamp case. It seemed to me that aspects of Cornerstone ’s arguments on this appeal were in reality designed to circumvent or reargue the decision in Compton Beauchamp. But that can not be sanctioned in this court. It was also not at all obvious to me why, as was contended by Cornerstone, a tri-partite arrangement was for this purpose to be viewed fundamentally differently from a bi-partite arrangement.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>110</num>
+          <content>
+            <p>I was not much moved by the appeals of Mr Seitler QC to the asserted merits. What was said was, in essence, that operators such as Cornerstone were operating to the public benefit in providing updated and efficient telecommunications services; whereas, so it was said, a body such as APW had inserted itself into the title arrangements with a view, in effect, to extracting for itself a handsome commercial ransom. But the actuality is that both parties are commercial concerns operating for profit. In truth, the underlying competing considerations reflect the fundamental dichotomy between the provision of communication services for the public benefit on the one hand and the need for acknowledgement of private property owners’ rights on the other hand; and the delicate balance that needs to be stuck and maintained between the two.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>111</num>
+          <content>
+            <p>The Transitional Provisions are crucial in this case. As I read them (and I note they were not the subject of the Law Commission Report), they directly confront this perceived dichotomy. As I read them, they give a degree of primacy, as it were, to subsisting rights. There was a clear concern about retrospective effect. That has an obvious policy purpose; and a reading of the provisions of the Code which is consistent with and can accommodate that purpose in such a context can not, therefore, be said to be senseless. Moreover if, as Cornerstone contended, Part 4 of the Code is to be available in the case of a subsisting agreement to which Part 2 of the 1954 Act applies then, as Mr Pymont QC submitted and as the Deputy President had observed at paragraph [96] of his decision, there is potential both for confusion and for conflict between the two different regimes. It is very difficult to think that that could have been intended.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>112</num>
+          <content>
+            <p>I would dismiss this appeal for the reasons given in the judgment of Lewison LJ, with which I agree. I also agree with the reasoning and decision of the Deputy President.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

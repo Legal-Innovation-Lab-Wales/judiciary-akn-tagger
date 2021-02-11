@@ -1,0 +1,255 @@
+:root {
+    /*colors*/
+    --navy: #242F60;
+    --sky-blue: #93c9de;
+    --lime: #CAD401;
+    --gray: #DDDDDD;
+    --green: #378137;
+    --orange: #F2A53F;
+    --red: #E00000;
+    --white: #ffffff;
+    --light-gray: #fcfcfc;
+    --dark-gray: #495087;
+
+    /* University theme colours */
+    --ink: #212529;
+    --primary: var(--navy);
+    --primary-hover: #1A2144;
+    --primary-alt: var(--lime);
+    --primary-alt-hover: #A6AE01;
+    --secondary: var(--gray);
+    --secondary-hover: #CACACA;
+    --info: var(--sky-blue);
+    --info-hover: #76BAD5;
+    --success: var(--green);
+    --success-hover: #2C662C;
+    --warning: var(--orange);
+    --warning-hover: #F0941B;
+    --danger: var(--red);
+    --danger-hover: #BA0000;
+    --background: var(--light-gray);
+    --trout: var(--dark-gray);
+    --white-hover: #b3b3b3;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    justify-content: flex-start;
+}
+
+/*
+***
+* General CSS
+***
+ */
+
+.hidden{
+    display: none;
+}
+
+/*
+***
+* EXPERTISE TABLE
+***
+*/
+
+.expertise-table{
+
+}
+.filter-div{
+    width: 200px;
+}
+
+
+/*
+***
+* QUICK LINK BOXES
+***
+*/
+
+.quick-links{
+    padding:30px 0;
+}
+.link-box{
+    min-width:290px;
+    max-width:400px;
+    min-height:190px;
+    padding:10px;
+    margin:10px;
+    position:relative;
+    display:inline-block;
+    border-radius:5px;
+    box-shadow:0 1px 2px rgba(0,0,0,0.15);
+    transition:all 0.3s ease-in-out;
+    background-color: var(--white);
+}
+.link-box h3{
+    color: var(--navy);
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size:24px
+}
+.link-box i{
+    color:var(--navy);
+}
+.link-box p{
+    color: var(--ink);
+    line-height:1.5;
+    font-size:14px;
+    margin-bottom:0
+}
+.link-box:hover{
+    transform:scale(1.01, 1.01);
+    box-shadow:0 2px 5px rgba(0,0,0,0.3);
+    z-index:2
+}
+.link-box:hover h3,.link-box:hover i{
+    color:var(--navy);
+    transition:all 0.3s ease-in-out
+}
+.link-box:hover::after{
+    opacity:1
+}
+@media (min-width: 992px){
+    .link-box{
+        margin:10px
+    }
+}
+
+
+/*
+***
+* FOOTER
+***
+*/
+footer {
+    background-color: var(--white);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Main Footer */
+footer .main {
+    padding: 60px 0;
+    height: auto;
+    background-color: var(--navy);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 5% 15%;
+    color: var(--white);
+    text-align: left;
+    position: relative;
+}
+
+footer .main .inner {
+    margin: 0 auto;
+    position: relative;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    display: block;
+}
+
+footer .main ul {
+    margin: 0;
+    display: block;
+}
+
+footer .main ul li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 0;
+    background: none;
+}
+
+footer .main ul li a {
+    color: var(--white);
+    transition: .2s;
+    position: relative;
+    top: 0;
+}
+
+footer .main ul li a:hover {
+    text-decoration: none;
+    top: -2px;
+    /*color: #b3b3b3;*/
+    color: var(--white-hover);
+}
+
+footer .main ul li a:visited {
+    color: var(--white);
+}
+
+footer .main .footer-links-list, footer .footer-info-list {
+    margin-bottom: 20px;
+}
+
+footer .main .footer-links-list li::after, footer .footer-info-list li::after {
+    content: "|";
+    margin-left: 5px;
+}
+
+footer .main .footer-links-list li:last-child::after, footer .footer-info-list li:last-child::after {
+    display: none;
+}
+
+/* Logos section */
+
+footer .logos {
+    padding: 20px 0;
+    background-color: var(--white);
+}
+footer .logos .col {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .logos .col img {
+    /*float: right;*/
+    max-width: 160px;
+}
+footer .logos .col img.erdf {
+    margin-left: 48px;
+}
+/* Scroll to top button*/
+.scroll-top-btn {
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--lime);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: background .3s, opacity .6s;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 100;
+}
+
+.scroll-top-btn.visible {
+    opacity: 1;
+}
+
+.scroll-top-btn svg path {
+    stroke: var(--primary);
+    fill: var(--primary);
+    transition: stroke .3s, fill .3s;
+}
+
+.scroll-top-btn:hover {
+    background: var(--primary);
+}
+
+.scroll-top-btn:hover svg path {
+    stroke: var(--white);
+    fill: var(--white);
+}

@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2018_EWHC_2308_QB" />
+          <FRBRuri value="www.judiciary.uk/2018_EWHC_2308_QB" />
+          <FRBRdate date="2018-09-04" name="hand-down date" />
+          <FRBRauthor href="#EWHC" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/crossley-v-volkswagen-aktiengesellschaft-judgment-vw-nox-emissions-group-litigation" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/crossley-v-volkswagen-aktiengesellschaft-judgment-vw-nox-emissions-group-litigation" />
+          <FRBRdate date="2018-09-04" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2018_EWHC_2308_QB.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2018_EWHC_2308_QB.xml" />
+          <FRBRdate date="2021-02-01" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="QueensBenchDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" />
+        <TLCOrganization eId="AnthonyJosephChampionCrossley" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AnthonyJosephChampionCrossley" showAs="Anthony Joseph Champion Crossley" />
+        <TLCOrganization eId="VolkswagenAktiengesellschaft" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VolkswagenAktiengesellschaft" showAs="Volkswagen Aktiengesellschaft" />
+        <TLCOrganization eId="AudiAktiengesellschaft" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AudiAktiengesellschaft" showAs="Audi Aktiengesellschaft" />
+        <TLCOrganization eId="SkodaAutosA.s" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SkodaAutosA.s" showAs="Skoda Autos A.s" />
+        <TLCOrganization eId="SeatS.a." href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SeatS.a." showAs="Seat S.a." />
+        <TLCOrganization eId="VolkswagenGroupUnitedKingdomLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VolkswagenGroupUnitedKingdomLimited" showAs="Volkswagen Group United Kingdom Limited" />
+        <TLCOrganization eId="VolkswagenFinancialServices(uk)Limited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#VolkswagenFinancialServices(uk)Limited" showAs="Volkswagen Financial Services (uk) Limited" />
+        <TLCOrganization eId="InchcapeRetailLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#InchcapeRetailLimited" showAs="Inchcape Retail Limited" />
+        <TLCOrganization eId="ListersGroupLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ListersGroupLimited" showAs="Listers Group Limited" />
+        <TLCPerson eId="SeniorMasterFontaine" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SeniorMasterFontaine" showAs="Senior Master Fontaine" />
+        <TLCPerson eId="OliverCampbellQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#OliverCampbellQc" showAs="Oliver Campbell Qc" />
+        <TLCPerson eId="AlexanderHuttonQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AlexanderHuttonQc" showAs="Alexander Hutton Qc" />
+        <TLCPerson eId="AdamHeppinstall" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#AdamHeppinstall" showAs="Adam Heppinstall" />
+        <TLCPerson eId="Slater&amp;Gordon" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#Slater&amp;Gordon" showAs="Slater &amp; Gordon" />
+        <TLCPerson eId="CharlesGibsonQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CharlesGibsonQc" showAs="Charles Gibson Qc" />
+        <TLCPerson eId="PrashantPopatQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#PrashantPopatQc" showAs="Prashant Popat Qc" />
+        <TLCPerson eId="NicholasBaconQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NicholasBaconQc" showAs="Nicholas Bacon Qc" />
+        <TLCPerson eId="ThomasEvans" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#ThomasEvans" showAs="Thomas Evans" />
+        <TLCPerson eId="FreshfieldsBruckhausDeringerLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#FreshfieldsBruckhausDeringerLlp" showAs="Freshfields Bruckhaus Deringer Llp" />
+        <TLCPerson eId="GeraintWebbQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GeraintWebbQc" showAs="Geraint Webb Qc" />
+        <TLCPerson eId="NoelDilworth" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#NoelDilworth" showAs="Noel Dilworth" />
+        <TLCPerson eId="FreshfieldsBruckhausDeringerLlp" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#FreshfieldsBruckhausDeringerLlp" showAs="Freshfields Bruckhaus Deringer Llp" />
+        <TLCRole eId="claimant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#claimant" showAs="claimant" />
+        <TLCRole eId="defendant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#defendant" showAs="defendant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2018] EWHC 2308 (QB)</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <ref href="#HQ17X02995">HQ17X02995</ref>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#QueensBenchDivision">QUEEN 'S BENCH DIVISION</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2018-09-04" refersTo="#hand-downDate">04/09/2018</date>
+      </p>
+      <p>
+        Before:
+        <judge refersTo="#SeniorMasterFontaine">SENIOR MASTER FONTAINE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>The VW NOx Emissions Group Litigation</p>
+      <p>Between:</p>
+      <p>
+        <party as="#claimant" refersTo="#AnthonyJosephChampionCrossley">ANTHONY JOSEPH CHAMPION CROSSLEY</party>
+        <role refersTo="#claimant">Claimant</role>
+        -and- (1)
+        <party as="#defendant" refersTo="#VolkswagenAktiengesellschaft">VOLKSWAGEN AKTIENGESELLSCHAFT</party>
+        (2)
+        <party as="#defendant" refersTo="#AudiAktiengesellschaft">AUDI AKTIENGESELLSCHAFT</party>
+        (3)
+        <party as="#defendant" refersTo="#SkodaAutosA.s">SKODA AUTOS a.s</party>
+        (4)
+        <party as="#defendant" refersTo="#SeatS.a.">SEAT S.A.</party>
+        (5)
+        <party as="#defendant" refersTo="#VolkswagenGroupUnitedKingdomLimited">VOLKSWAGEN GROUP UNITED KINGDOM LIMITED</party>
+        (6)
+        <party as="#defendant" refersTo="#VolkswagenFinancialServices(uk)Limited">VOLKSWAGEN FINANCIAL SERVICES (UK) LIMITED</party>
+        <role refersTo="#defendant">Defendants</role>
+        (7)
+        <party as="#respondent" refersTo="#InchcapeRetailLimited">INCHCAPE RETAIL LIMITED</party>
+        (8)
+        <party as="#respondent" refersTo="#ListersGroupLimited">LISTERS GROUP LIMITED</party>
+        <role refersTo="#respondent">Respondents</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#AnthonyJosephChampionCrossley" refersTo="#OliverCampbellQc">Oliver Campbell QC</lawyer>
+        ,
+        <lawyer as="#barrister" for="#AnthonyJosephChampionCrossley" refersTo="#AlexanderHuttonQc">Alexander Hutton QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#AnthonyJosephChampionCrossley" refersTo="#AdamHeppinstall">Adam Heppinstall</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#AnthonyJosephChampionCrossley" refersTo="#Slater&amp;Gordon">Slater &amp; Gordon</lawyer>
+        ) for the Claimants
+        <lawyer as="#barrister" for="#VolkswagenFinancialServices(uk)Limited;VolkswagenGroupUnitedKingdomLimited;SeatS.a.;SkodaAutosA.s;AudiAktiengesellschaft;VolkswagenAktiengesellschaft" refersTo="#CharlesGibsonQc">Charles Gibson QC</lawyer>
+        ,
+        <lawyer as="#barrister" for="#VolkswagenFinancialServices(uk)Limited;VolkswagenGroupUnitedKingdomLimited;SeatS.a.;SkodaAutosA.s;AudiAktiengesellschaft;VolkswagenAktiengesellschaft" refersTo="#PrashantPopatQc">Prashant Popat QC</lawyer>
+        ,
+        <lawyer as="#barrister" for="#VolkswagenFinancialServices(uk)Limited;VolkswagenGroupUnitedKingdomLimited;SeatS.a.;SkodaAutosA.s;AudiAktiengesellschaft;VolkswagenAktiengesellschaft" refersTo="#NicholasBaconQc">Nicholas Bacon QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#VolkswagenFinancialServices(uk)Limited;VolkswagenGroupUnitedKingdomLimited;SeatS.a.;SkodaAutosA.s;AudiAktiengesellschaft;VolkswagenAktiengesellschaft" refersTo="#ThomasEvans">Thomas Evans</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#VolkswagenFinancialServices(uk)Limited;VolkswagenGroupUnitedKingdomLimited;SeatS.a.;SkodaAutosA.s;AudiAktiengesellschaft;VolkswagenAktiengesellschaft" refersTo="#FreshfieldsBruckhausDeringerLlp">Freshfields Bruckhaus Deringer LLP</lawyer>
+        ) for the First to Sixth Defendants
+        <lawyer as="#barrister" for="#ListersGroupLimited;InchcapeRetailLimited" refersTo="#GeraintWebbQc">Geraint Webb QC</lawyer>
+        and
+        <lawyer as="#barrister" for="#ListersGroupLimited;InchcapeRetailLimited" refersTo="#NoelDilworth">Noel Dilworth</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#ListersGroupLimited;InchcapeRetailLimited" refersTo="#FreshfieldsBruckhausDeringerLlp">Freshfields Bruckhaus Deringer LLP</lawyer>
+        ) for the Seventh and Eighth Defendants
+      </p>
+      <p>
+        Hearing date:
+        <date date="2018-03-29" refersTo="#hearing">29 March 2018</date>
+      </p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>Approved Judgment</docTitle>
+      </p>
+      <p>I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic. ............................. SENIOR MASTER FONTAINE</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>Senior Master Fontaine:</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>In this judgment the following abbreviations are used: i) VW Defendants – Defendants 1- 6; ii) VWUK -Volkswagen Financial Services (UK) Ltd; iii) Inchcape – the Seventh Respondent; iv) Listers – the Eighth Respondent; v) The Dealer Respondents – Inchcape, Listers and other authorised dealerships; vi) Relevant Claimants – (i) those Claimants who issued the GLO application dated 12 October 2016, and on whose behalf it was pursued to December 2017, originally represented by Harcus Sinclair, and now represented by Slater &amp; Gordon, and (ii) those who instructed Harcus Sinclair or Slater &amp; Gordon under their joint retainer and who issued proceedings during the period 12 October 2016 and 1 December 2017; vii) HS-Harcus Sinclair UK Limited and/or Harcus Sinclair LLP, solicitors to the Relevant Claimants until 24 November 2017; viii) SG-Slater &amp; Gordon, solicitors to the SG Claimant Group; ix) YL – Your Lawyers, solicitors for the YL Claimant Group; x) LD-Leigh Day, solicitors for the LD Claimant Group; xi) ERM – E. Rex Makin, solicitors for the ERM Claimant Group; xii) Other Claimant Groups – remaining Claimants represented by various firms; xiii) Freshfields-Freshfields Bruckhaus Deringer, solicitors for the VW and Dealer Defendants; xiv) GLO – Group Litigation Order; xv) The GLO application – the application of the Relevant Claimants for a GLO dated 12 October 2016; xvi) GPOC – Generic Particulars of Claim xvii) The Johnson judgment-the judgment of Edwin Johnson QC sitting as a Deputy Judge of the High Court in the Chancery Division [2017] EWHC 2900 (Ch). xviii) The NDA – the non-disclosure agreement entered into between HS and YL on 11 April 2016. xix) The HS / YL dispute – the dispute between HS and YL which led to the proceedings determined by the Johnson judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>References to documents in the bundles for the GLO hearing appear as follows: [Bundle / tab / page].</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Summary of Applications before the Court</p>
+        </tblock>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>This is a judgment in respect of the VW Defendants’ application, [L1 / B4/49] and the applications of the Dealer Defendants, both dated 16 February 2018, [L1 / B5/274], in respect of the costs of the GLO application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>The draft order attached to the VW Defendants’ application seeks an order that the Relevant Claimants pay the costs of and occasioned by the GLO application, (insofar as they were incurred on or prior to 1 December 2017), the Adjournment Application (as defined in the draft order) and the Costs Application (as defined in the draft order), limited to the costs arising from and related to (including the costs of relevant correspondence) the following: i) preparation for and attendance at the hearing on 23 November 2016; ii) preparation for and attendance at the hearing on 30 January 2017; iii) preparation for and attendance at the hearing on 8 June 2017 ; iv) the application made by the VW Defendants on 6 September 2017 to adjourn the 12-13 October 2017 hearing; v) preparation for the vacated hearing on 12-13 October 2017; and vi) preparation for and attendance at the hearing on 27 November 2017.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>The draft Order attached to the Dealer Defendants’ application seeks an order that the Relevant Claimants pay the costs of and occasioned by the GLO application, (insofar as they were incurred on or prior to 1 December 2017), the Adjournment Application (as defined in the draft order) and the Costs Application (as defined in the draft order), limited to the costs arising from and related to (including the costs of relevant correspondence) the following: i) preparation for and attendance at the hearing on 8 June 2017 ; ii) preparation for the vacated hearing on 12-13 October 2017; and iii) preparation for and attendance at the hearing on 27 November 2017.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>The following witness statements were before the court VW Defendants-Fourth Statement of John Blain dated 16 February 2018 [L1 / B4/51 -86]; Inchcape-Sixth Statement of John Blain dated 16 February 2018 [L1 / B5/276 – 282] ; Listers-First Statement of Daniel Mark Zakis dated 15 February 2018 [L1 / B3/31- 37]; Relevant Claimants-Second Statement of Gareth Pope dated 9 March 2018 [L1 / B6/326-405]; YL Claimant Group-First Statement of Jonathan Whittle dated 12 January 2018 [L1 / B2/21-28]; ERM Claimants-Third Statement of Robin Simon Graham Makin dated 2 February 2018 [K1 / B9/20 – 27]; Other Claimant Groups – Second Statement of Ronnie James Hutcheon dated 2 February 2018 for the R J Hutcheon, Attwood, Burd Ward, Jefferies and Michael Lewin Group [K1 / B10/428-431].</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <background>
+        <tblock>
+          <p>Background</p>
+        </tblock>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>The GLO application, filed on 28 October 2016 (issued on 18 November 2016), [I / A1] was heard before this court from 27-29 March 2018. At the end of the hearing the court determined, subject to the consent of the President of the Queen ’s Bench Division, to make a GLO as partly agreed and partly determined by the court. The President of the Queen ’s Bench Division approved the GLO and it was duly sealed and entered on the Public List of Group Litigation Orders on 21 May 2018.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The HS / YL dispute</p>
+        </tblock>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>The potential for claims in a group action arose following the revelations that the US Environmental Protection Agency had issued a Notice of Violation against Volkswagen in September 2015 for breach of the Clean Air Act by diesel emissions from its vehicles. The NDA was intended to be a preparatory step in the negotiations between HS and YL with a view to their being able to reach agreement on some form of collaboration regarding claimant representation in the proposed group litigation. The background to the dispute between the parties in relation to the NDA is fully set out in the Johnson judgment. It is sufficient for the purposes of this judgment to state that a fundamental dispute arose between HS / YL, two of the main firms of solicitors acting for potential claimants in the litigation, following their entering into the NDA. This was not capable of being dealt with by agreement and ultimately led to proceedings in the Chancery Division in August 2017, and following directions for an expedited trial, the action came on for trial on 24 September 2017. The Johnson judgment was handed down on 15 November 2017. The judgment held that HS was in breach of the NDA and that YL was entitled, inter alia, to injunctive relief restraining HS from acting for the HS Claimants in the group litigation for a period of 6 years. As a result SG have taken over conduct of the litigation for the former HS Claimants.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Principles applicable to the application</p>
+        </tblock>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>There is no dispute over the relevant principles on the applications for costs, and the court ’s authority derives from CPR 44.2.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The parties referred to a number of authorities in the course of written and oral submissions, as follows: Whaleys (Bradford) Led -v- Bennett &amp; Anor [2017] EWCA Civ 2143 Gladwin -v- Bogescu [2017] EWHC 1287 (QB) The Ocensa Pipeline Group Litigation [2016] EWHC 3348 (TCC) Denton -v- TH White Ltd [2014] EWCA Civ 906 Hurndell -v- Hozier [2011] EWHC 321 (Ch) Esure Services Ltd -v- Quarcoo [2009] EWCA Civ 595 Noorani -v- Calver [2009] EWHC 592 (QB) Three Rivers District Council -v- Bank of England [2006] EWHC 816 (Comm) Excelsior Commercial &amp; Industrial Holdings Ltd -v- Salisbury Hammer Aspden &amp; Johnson [2002] EWCA Civ 879 Training in Compliance Ltd t / a Matthew Read -v- Christopher Paul Dewse t / a Data Research Company [2001] CP Rep 46</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Summary of the VW Defendants’ Submission</p>
+        </tblock>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>The VW Defendants’ submission is that all the costs claimed flow from the allegedly premature issue of the GLO application, and the fact that Relevant Claimants continued to pursue it thereafter, when it should have been obvious that it should be “put on hold” until the Relevant Claimants were in a position to proceed. The VW Defendants contend that if the GLO application had not been made prematurely, or continued to be advanced when it was inappropriate to do so, it would have progressed without HS seeking appointment as lead solicitors, on a largely agreed basis between the majority of the Claimant Firms and Claimant Groups, and with a measure of agreement with the VW Defendants. Any outstanding issues could have been addressed at a single hearing. It is submitted that all the work that occurred between October 2016 and 1 December 2017 was unnecessary, and incurred costs which the Relevant Claimants ought to pay to the VW Defendants. It is submitted that what has in fact occurred between January and March 2018, culminating in the GLO application hearing listed from 27-29 March 2018, is what would have happened, and all that would have been required to have happened, if the Relevant Claimants had not issued the application prematurely and progressed it inappropriately.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>The application is made on three bases: i) the relevance and consequences of the HS / YL dispute; ii) the alleged absence of adequate coordination ; iii) the consequences of the allegedly premature issue of the GLO application and its unreasonable pursuit.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The HS / YL dispute</p>
+        </tblock>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>It is submitted that HS knew from 6 January 2017 that YL were contending that HS were in breach of the NDA, and that the effect of that alleged breach, if demonstrated, would be that HS could not act for any parties in the litigation. On 10 January 2017 a claim had been intimated when YL stated in correspondence with HS that they would issue proceedings. It should have been clear to the Relevant Claimants that they could not pursue the GLO application unless and until the HS / YL dispute had been resolved. This was obvious, and a point made repeatedly in correspondence, witness statements, skeleton arguments and the observations of the court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>The Relevant Claimants failed to inform the Defendants or the court of the existence of the dispute. Mr Parker ’s second witness statement dated 23 January 2018, intended to update the court and the parties on the GLO application, made no mention of the HS / YL dispute. The court was only alerted to the dispute and its significance in a witness statement of Mr Johal of YL dated 26 January 2017, very shortly before the 30 January 2017 hearing listed for the GLO application. Mr Johal ’s statement also alerted the court to the existence of other serious disputes between the firms. On the same date skeleton arguments were exchanged. It was only in response to that witness statement that the Relevant Claimants, through Mr Parker ’s third statement dated 27 January 2017 [B/4 /284.1] acknowledged the existence of the HS / YL dispute. There was no agreement to the adjournment of that hearing until the day before. Even after that dispute had been put before the court at the hearing on 30 January 2017, HS persisted in downplaying its significance so as to press on with the GLO application with HS in the role of lead solicitors, a stance which was maintained throughout until the Johnson judgment was handed down.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>It is submitted that that the events that followed 30 January 2017 hearing and the consequences of the resolution of the HS / YL dispute by the Johnson judgment, [J2 / D2/464] demonstrate that the resolution of that dispute was essential before the GLO application could proceed, and would have a material impact on the GLO ultimately sought.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Absence of Adequate Coordination</p>
+        </tblock>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>It is submitted that the principles and practices when commencing a GLO application are important. The reasoning underpinning CPR 19PDB is to ensure that by the time claimant solicitors seek to engage with defendant solicitors in respect of a proposed GLO application they have co-ordinated the claims and identified GLO issues, which means co-ordinating the pleadings and causes of action and putting in place a structure which will enable the court to order a GLO which will justly and efficiently dispose of the claims caught by the GLO issues. The court will also be concerned at the GLO hearing to ensure that funding is in place, costs sharing is in place, and that all the claimant groups are able to speak with one voice. There is no requirement of perfection, and there will often be certain points that need to be agreed, but there will be a certain threshold at which remaining issues that are not agreed will be capable of being determined by the court. That is why paragraphs 2.1 and 2.2 of the Practice Direction refer to the formation of a solicitors' group, the identification of lead solicitors and in fact say that where one firm does take the lead, their relationship with the other firms in the group" should be carefully defined in writing".</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>This is designed to ensure that the second pre- application stage can take place, namely discussion with the defendant. The defendant needs to know that it is dealing with a notional lead solicitor who can speak with the authority of the group that has been co-ordinated. Group procedures are seeking, so far as possible, to ensure that where there are a multiplicity of claimants, claims, and issues, they are treated, for all practical purposes, as one claim. The structures are intended to enable the defendants to conduct themselves as they would if they were facing a claim by one or more claimants in a more straightforward fashion.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>It is submitted that there was significant failure to properly coordinate in the manner required by the Rules, the GL Practice Direction, the court and the usual procedures and practices concerning a GLO application. The GLO application was not, as it should have been, the result of a coordinated approach between different Claimant groups, and had not been the subject of discussions or agreement with the VW Defendants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>Only eight weeks elapsed between HS first raising the prospect of a GLO on 1 September 2016, and the GLO application being lodged on 28 October 2016. This was despite correspondence from Freshfields in September and October 2016 stating repeatedly that such an application would be unreasonable, premature, would cause unnecessary complexity and confusion, would increase the costs of the litigation, would be a breach of the pre-action protocol and that: “We have received no sensible or co-ordinated proposals as to how the GLO might be managed.” Therefore, irrespective of any efforts made by the Relevant Claimants prior to the issue of that application or prior to the 30 January 2017 hearing, it was patently and objectively clear that the necessary and expected degree of coordination had not been achieved in that very short space of time, nor had there been any meaningful discussion with the VW Defendants, which could only have followed if the Claimants had presented a united coordinated approach.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>It is submitted that it is not necessary for the court to consider privileged material passing between the Claimant firms to identify and assess the extent of coordination between the Claimant firms. The absence of coordination is simply demonstrated by the facts and from the open position presented to the court. From the correspondence between HS and Freshfields [L / B4/58-63], it can be seen that HS had not contacted other Claimant firms by 12 October 2016. They also state: “We agree that co- operation is to be preferred, but disagree that our clients' claims should be held up by potential rather than actual claims." and “Defendants to multiple claims are not entitled to require claimants to co-ordinate for their own convenience.” Having failed to attempt or achieve appropriate co-ordination and co-operation, it was impossible to hold productive, or indeed any, discussions before the GLO application was issued.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>The absence of sufficient or appropriate coordination can be demonstrated by the following examples: i) The GLO that was pursued at the hearing and the draft GLO which accompanied the GLO application issued in October 2016 are significantly different. Annexes 3 and 4 of the VW Defendants’ skeleton argument identifies all the changes made to the GLO over time. The differences are not explicable by the usual progression of the drafting of a proposed GLO, but are substantial changes which came about because, following the requisite court direction, the Claimants put together a version of the draft GLO which was supported by the substantial body of the Claimant cohort. This is what should have happened before the GLO application was issued and pursued. ii) Shortly before the hearing on 30 January 2017, LD presented a separate overlapping draft GLO. That draft would not have been served were it not for the occurrence of 30 January 2017 hearing caused by the GLO application having been issued precipitously and prematurely. iii) After service of the draft GPOC which accompanied the GLO application issued in October 2016, six different drafts of the GPOC have been served on behalf of Claimants, culminating in the version served in January 2018 which is the basis of the GLO now sought. iv) Shortly before the 30 January 2017 hearing LD served a witness statement indicating they intended to pursue claims against Volkswagen Financial Services (UK) Ltd (“VWUK”) and some unidentified dealers, none of whom had been identified as a potential defendant by the Relevant Claimants, and provided a different GPOC which did not include some of the causes of action pleaded by the Relevant Claimants, but included new causes of action not pleaded by the Relevant Claimants. YL also served their own GPOC shortly before the hearing. v) There was no steering committee or solicitors’ group and no agreed mechanism for coordination between the Claimant groups in order to progress the litigation. vi) There was no cooperation protocol agreed between the Claimants or any groups of them before the issue of the GLO application. A draft cooperation protocol was not served until 28 July 2017 [J2 / C2/378]. vii) Even by June 2017, eight months after the application was issued and four months after the 30 January 2017 hearing, very little had changed, in that: a) there was no single draft GPOC; b) there was no agreed draft GLO or sensible or agreed case management proposals; c) there was no agreed structure for the Claimant group or sub groups; d) there was no agreement as to the lead solicitor or steering committee; e) there was no agreement as to funding or ATE; f) there was no agreement as to costs sharing; g) the dispute between HS / YL, both of whom sought to be appointed as lead solicitor, about the representation of the Claimants in the litigation, remained extant; h) the GLO application could not be pursued in its present form.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>In summary the Relevant Claimants were not ready to advance the GLO application that was advanced at the hearing in March 2018, and it should not have been issued when it was, or been pursued following issue, when it became plain that the Relevant Claimants needed to pause and carry out the coordination exercise expected of any GLO applicant. Further the existence of the HS / YL dispute made it impossible for the requisite degree of cooperation and discussion to take place.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>It is clear from the evidence provided to the court that many of the other Claimant firms also considered that there had been a lack of coordination and were not ready to sign up to the proposed GLO, irrespective of the HS / YL dispute. This is clear from evidence in open correspondence, served witness statements and skeleton arguments [D3/24/1769; I1 / E4/2; I1 / E6/5; I1 / E10/7; I2 / H1/2; I2 / H2/5; J1 / B3/106; J2 / C5/409; L / B4/66-69].</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Consequences of the premature issue and unreasonable pursuit of the GLO application</p>
+        </tblock>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>It is submitted that had the GLO application not been issued when it was, and then continued as it was, the following hearings would not have been necessary up to and including 27 November 2017: i) 23 November 2016 hearing: attendance by leading counsel on both sides to arrange a hearing date for the GLO application. This was only necessary because the Relevant Claimants were pressing for an early hearing date as possible, even on dates known to be problematic for the VW Defendants’ counsel. If the GLO application had not been issued when it had, or not progressed with unnecessary urgency, there would not have been any need for such a hearing; ii) 30 January 2017 hearing: the late acknowledgement of the HS / YL dispute meant that it was clear that an effective hearing could not take place. Further there had not been any proper coordination between the parties. The Relevant Claimants agreed only 24 hours before the hearing that the GLO application could not proceed at the scheduled hearing, so the hearing was required to inform the court of that late agreement ; iii) 8 June 2017 hearing: this hearing was ordered at the 30 January 2017 hearing because the Claimant groups had not properly coordinated prior to that hearing, so they could not demonstrate that the GLO application could proceed to the scheduled 12 -13 October 2017 hearing. It was envisaged even by the Relevant Claimants’ own counsel that directions might be required at a hearing in June for the purpose of “knocking heads together”. If the Relevant Claimants had properly coordinated and presented a unified proposal at the time of issue of the GLO application, the directions hearing on 8 June 2017 would not have been necessary. Further at that hearing the VW Defendants sought an order adjourning the hearing scheduled for 12 -13 October 2017, but the Claimants refused to agree that proposed adjournment; iv) The adjournment application: even though the HS / YL dispute had not been resolved the Relevant Claimants initially refused to agree to an adjournment of the 12-13 October 2017 hearing and sought to suggest that the GLO application would be ready to proceed. This was done in the face of a warning from the court on 8 June 2017 that the court would expect to be informed at the earliest stage possible if there were any difficulties in complying with the timetable. The adjournment application was eventually granted by consent given at the last minute on 25 September 2017; v) 27 November 2017 hearing: the GLO application was not in a fit state to be heard by the time of the further adjourned 27 November 2017 hearing and further directions were required. This was primarily because of the implications of the HS / YL dispute as a result of the Johnson judgment handed down on 15 November 2017, which debarred HS from acting in this litigation for a period of six years. There was thus significant uncertainty about the future progress of the GLO application, including which firms might seek the role of lead solicitors, and on what basis they proposed working together and with other Claimant firms. There is an appeal from HS in respect of the Johnson judgment and it was not known whether HS would seek to resume an active role in the litigation if their appeal was successful. There were also potentially renewed uncertainties over funding. Such a hearing would not have been necessary if the GLO application had not been issued prematurely or pursued inappropriately.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Additional Points</p>
+        </tblock>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>Limitation issues could not be regarded as a reason for the issue of the GLO application in October 2016. There was no requirement to issue a GLO application even where individual proceedings had to be issued because of limitation concerns. Individual claim forms could have been issued and the claims stayed thereafter pending Claimants being in a position to issue and pursue a GLO application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>The issue of claims against the VW Defendants in the County Courts was never indicated to be the reason for the issue of the GLO application, nor has it ever been suggested that the Relevant Claimants had knowledge of stays imposed in the small number of County Court claims or that such stays influenced the issue of the GLO application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>It is a red herring by the Relevant Claimants to suggest that the hearing on 30 January 2017 could not proceed because of wrongly taken points on funding by the VW Defendants in their skeleton argument. Amongst many of the reasons why the VW Defendants submitted, and was eventually agreed by the Claimants, that the hearing could not proceed, was that the Relevant Claimants’ funding arrangements were unclear and might be illegal.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Basis of Assessment of Costs</p>
+        </tblock>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>The VW Defendants seek their costs on an indemnity basis. It is submitted that the present circumstances fall clearly within the definition of highly unreasonable conduct and are so far outside the norm as to be a paradigm case in which indemnity costs are apt, to convey the court ’s disapproval of the manner in which its own time and resources have been used.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Prior to the hearing in March 2018, which will have been the first occasion when there was a consideration of the substantive issues in the GLO application, there were four previous hearings and one adjourned hearing in the GLO application, which clearly brings the case outside the norm.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>In addition, the following is relevant: i) it can not be in dispute that the GLO application was doomed to fail at the time it was issued and pursued, as it was conceded by HS on the day before 30th January 2017 hearing that the GLO application was not in a fit state to be heard; ii) HS repeatedly and throughout down-played the significance of the HS / YL dispute by informing the court that it was “an irrelevant distraction” [L / B4/67], “ not relevant to the application” [L / B4/78] and would have “no bearing” on the GLO [L / B4/79]. Such conduct was highly unreasonable not least because it denied the court and the other parties the opportunity to assess the situation properly; iii) both the hopelessness of the GLO application at the time it was issued and the failure to take appropriate preliminary steps were obvious and had been pointed out repeatedly in correspondence [L / B4/58-63]; iv) because these issues have arisen in Group Litigation it is not just the parties to the GLO application itself that have been prejudiced by the delay and unnecessary costs, but also other Claimants and potential Claimants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>In summary all of the costs sought flow from the original highly unreasonable decision to issue the GLO application precipitously and thereafter the similarly highly unreasonable and continuing failure to recognise this fact and to seek to adjourn the application to a realistic future date.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>The VW Defendants seek payment on account of their costs, such costs to be subject to a detailed assessment: see CPR 44.2(8).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Summary of Submissions on behalf of Inchcape and Listers</p>
+        </tblock>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>Inchcape and Listers endorse and adopt the submissions made on behalf of the VW Defendants. In addition, it is submitted that the prematurity in the manner in which the GLO application was pursued was contrary to the open and transparent approach which the Woolf Reforms are expressly intended to foster. The result was that a series of unnecessary hearings took place, which would not have taken place had a measured, transparent and collaborative approach been adopted by the Relevant Claimants, in accordance with the principles underpinning CPR PD19B.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>Inchcape and Listers’ claims for costs are limited to the costs of the work which would not have been undertaken had the GLO application been issued and progressed appropriately. In particular they claim in respect of the two hearings which they attended namely those of 8 June and 27 November 2017.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>It is submitted that the Relevant Claimants proceeded with the GLO application without any proper regard being paid to the potential involvement of authorised dealers in the litigation. Inchcape and Listers rely on the conclusion in my judgment of 8 June 2017 that: “… the dealership issue was not flagged up in any of the material before me, and Mr Cogley is right that there has been no explanation as to why that was flagged up so late in the day”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>The Dealer Defendants were not originally served with the GLO application nor expressly identified as Respondents to it in its original form. Thus, they were not required to attend and were not on notice to attend the hearing on 23 November 2016, nor the hearing of 30 January 2017. Mr Cogley, who was Counsel for Inchcape at the hearing on 8 June 2017, encapsulated the position when he said in court: “First of all, why are we here now? There can be no doubt we are here today because Harcus Sinclair made a premature and opportunistic application."</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>By at least early January 2017 HS were aware that they were in dispute with YL. The existence of that dispute required the Relevant Claimants to pause the GLO application while the dispute was resolved, but that did not happen and rather the Relevant Claimants pressed on with the GLO application despite the existence of the dispute. As a result, Inchcape and Listers were dragged into the subsequent hearings as would have been foreseeable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>Furthermore, the Relevant Claimants pressed on with the GLO application notwithstanding the lack of any agreed position amongst the Claimant law firms in relation to potential claims against dealers, and thus as to the position of dealers in the proposed GLO. Even by the hearing on 8 June 2017 there were differences between the various Claimant groups. The HS Claimants did not intend to bring any claim against dealers; the LD Claimants intended to bring claims against authorised dealers only; YL had intended to bring claims against both authorised and unauthorised dealers. Thus, different cohorts of Claimants sought to bring: a) different claims; b) against different Defendants; c) with the prospect of yet further Dealer Defendants being included. (See Inchcape skeleton argument for that hearing [12 / H5/4]).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>By the time of the hearing in March 2018 it was clear from the draft GPOC that claims were being pursued on behalf of all Claimants against authorised dealers and VWUK. The position of the Claimant firms in relation to the claims against dealers and thus the position of dealers within the proposed GLO should have been clarified and coordinated before the Relevant Claimants pressed forward with their GLO application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>Inchcape adopted a pragmatic and co-operative approach having been notified of the claims and focused on achieving an “appropriate, certain and workable GLO” (paragraph 10 of Inchcape ’s skeleton argument for the hearing on 8 June 2017 [12 / H5/3]). It is evident that Inchcape would have cooperated with all attempts to negotiate an orderly GLO. It was therefore reasonably foreseeable that the Dealer Defendants would actively participate in proceedings following notification of the claims against them and that, therefore, Inchcape ’s and Listers’ participation of 8 June and 27 November 2017 hearings was entirely foreseeable.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>41</num>
+          <content>
+            <p>It was repeatedly flagged up in correspondence by Freshfields that the GLO application was premature. Inchcape ’s Leading Counsel correctly described it at the hearing on 8 June 2018 as: “a premature and opportunistic application to get ahead of the queue so that [HS] could become the lead solicitor, so that it could take control of the proposed GLO.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>42</num>
+          <content>
+            <p>Had the Relevant Claimants adopted an appropriate course then Inchcape and Listers, along with any other authorised Dealer Defendants, would have been afforded a proper opportunity to manage their involvement in the litigation in the most cost- effective way, as they were subsequently able to do by putting in place the necessary arrangements to enable instruction of Freshfields, who also represent the VW Defendants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>43</num>
+          <content>
+            <p>The Relevant Claimants should have paused the GLO application to ensure that proper account was taken of the position of Inchcape, Listers and other authorised Dealer defendants. Inchcape and Listers were unaware of the nature of the intended claims against them until they received the draft consolidated GPOC from the Relevant Claimants and all other claimant groups on 10 July 2017, ordered at the hearing of 8 June 2017. Even then the Relevant Claimants insisted on pressing for a hearing of the GLO application in autumn 2017.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>44</num>
+          <content>
+            <p>Inchcape rely on the facts set out in Blain 6 in relation to the delay in the Relevant Claimants agreeing to adjourn the hearing of 12 -13 October 2017, which ought to have been forthcoming at a much earlier stage, as there was no realistic prospect of the GLO application being granted at that stage, when the HS / YL dispute was unresolved.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>45</num>
+          <content>
+            <p>Inchcape and Listers do not seek those costs which they would have incurred in any event in having to respond to the notification of claims, or instructing TLT or Wallace Robinson &amp; Morgan respectively to liaise with Freshfields. The applications are framed conservatively by reference to costs occasioned by and related to the hearings in June and November 2017, and the adjourned hearing in October 2017.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>46</num>
+          <content>
+            <p>Inchcape also say, in answer to the point made against them that there was no need for them to be involved because no claims were made initially by the Relevant Claimants against the Dealer Respondents, and only LD Claimants had intimated claims, that the joint note prepared by HS / SG, YL and LD Claimants for the 8 June 2017 hearing, attaches a draft order in which Inchcape is added as a respondent and a draft defence was sought from Inchcape. Further, a GLO application can be issued without any issued claims. Listers is a respondent on the draft GLO at the present hearing, and there is no suggestion that claims will not be made against them. In those circumstances Inchcape and Listers were clearly entitled to be represented.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>47</num>
+          <content>
+            <p>Inchcape and Listers also seek indemnity costs on the same basis as that sought by the VW Defendants, and because of the flagrant disregard for the position of Inchcape, Listers and other Dealer Respondents, both in the issue of the GLO application and in the subsequent pursuit thereof. They refer the court to the way that the test was put by Lord Justice Newey in Whaleys (Bradford) Ltd v Bennett [2017] EWCA Civ 2143 at § 20 and § 25, namely, whether the conduct was not “reasonable conduct of proceedings or behaviour that the court should in any way sanction or encourage. " That definition derives from the judgment of Waller LJ in Esure Services Ltd v Quarcoo [2009] EWCA Civ 595 at § 25. It is submitted that the conduct of the Relevant Claimants in issuing the GLO application when they did, and their continued pursuit thereof was highly unreasonable in the circumstances prevailing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>48</num>
+          <content>
+            <p>Inchcape and Listers also seek a payment on account of costs pursuant to CPR 44.2(8).</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Summary of Submissions by the Relevant Claimants</p>
+        </tblock>
+        <paragraph>
+          <num>49</num>
+          <content>
+            <p>In summary the Relevant Claimants submit that the position of the VW Defendants, Inchcape and Listers in placing all responsibility for the lengthy and unusual history of the GLO application on HS and the Relevant Claimants is both simplistic and unfair. The delays were in fact caused by several different issues, not simply by any failure by HS to achieve better co-ordination between Claimant Groups.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>50</num>
+          <content>
+            <p>The following factors are significant: i) The litigation involves a claim by over 50,000 Claimants, described by Mr Johal of YL as “likely to be the largest ever piece of consumer rights litigation in England and Wales”. (Johal 2 para. 7) [I / E9/2]. ii) The Claimants are represented by at least thirteen firms with different aims and very differing ideas as to how the litigation should be progressed. Some of those firms raised eccentric ideas and concerns, and the different firms had varying and sometimes conflicting views as to the causes of action and against which defendants to pursue them. Accordingly achieving coordination of those different firms has proved extremely challenging. iii) Until early 2018 the Relevant Claimants were the only group with funding and thus the only group in a position to prosecute the claim. The Relevant Claimants were not obliged to wait for other firms or groups to obtain funding before pursuing their claims, in particular having regard to limitation issues. iv) Several of the Claimant firms had misconceived views, for example asserting that the Relevant Claimants / their funder was obliged to offer them funding, and that the Relevant Claimants were required to disseminate counsel ’s advice to them. This led to complaints by some of those firms which were not justified. v) Until the GLO application was issued it was impossible for the Relevant Claimants to know exactly which other firms represented Claimants or potential Claimants. That problem was exacerbated by Freshfields’ refusal to disclose that information to HS. Rather than informing HS of the firms who had intimated claims against the VW Defendants, Freshfields chose by a series of letters dated 7 December 2016 to liaise with the other firms to seek to ascertain their position. HS only became aware of this correspondence with the other Claimant firms, and the responses received to the 7 December letters, when they received Mr Blain ’s first witness statement on 6 January 2017 (Pope 2 paragraphs 97-101) [L1 / B6/356].</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Alleged prematurity of the application for a GLO</p>
+        </tblock>
+        <paragraph>
+          <num>51</num>
+          <content>
+            <p>It is denied that the application for a GLO was premature. Prior to the issue of the application HS had written detailed letters of claim to Freshfields, and there had been extensive correspondence about the terms of the GLO proposed by HS (Pope 2, paragraphs 76-830) [L1 / B6/350].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>52</num>
+          <content>
+            <p>The VW Defendants made clear their denial of liability. The only way in which the Claimants could progress their claims was by issuing and progressing proceedings. It was clear that the best way of managing those proceedings was under a GLO. The Relevant Claimants had funding and were in a position to proceed.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>53</num>
+          <content>
+            <p>The VW Defendants were accruing a limitation defence to an increasing number of claims and potential claims as time passed. There was therefore a clear need for claims to be issued and for the litigation to be progressed. By the time the GLO application had been made several claims by claimants represented by other firms or by litigants in person had already been issued. These included a claim issued by YL on 25 January 2016 which stated on its face: “The Claimants will apply for a Group Litigation Order in respect of the management for these claims”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>54</num>
+          <content>
+            <p>In relation to at least some of those claims Freshfields made it clear to the Relevant Claimants that an application for a GLO was expected and that the VW Defendants agreed there needed to be group management of the claims. That position was being used as a reason for obtaining a stay of existing claims, (Pope 2, paragraphs 87-92) [L1 / B6/353].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>55</num>
+          <content>
+            <p>HS complied with its obligation to consult the Law Society ’s MPA Information Service. They were told initially, incorrectly, that no firm had notified a potential claim, whereas it subsequently transpired that Curtis Law had in fact notified the MPA Information Service. HS then liaised with Curtis Law who supported the application for a GLO (letter to Freshfields dated 8 December 2016) [D2/1660]. Cooperation and liaison between the Claimant firms prior to the 30 January 2017 hearing</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>56</num>
+          <content>
+            <p>It is submitted that there is no requirement in CPR 19 that an application for a GLO should not be made until there is complete coordination between claimant firms. In any event it would be unrealistic to expect complete coordination and agreement prior to issuing an application for a GLO, or indeed prior to the first hearing. Further HS was not in a position to ensure coordination or to require the other Claimant firms to cooperate.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>57</num>
+          <content>
+            <p>Notwithstanding those difficulties there was considerable liaison between the Claimants’ firms both prior to the issue of the application for a GLO and prior to the hearing in January 2017 (Pope 2 paragraphs 10 (1) and (2), 62-65 and 93-138) [L1 / B6/329,347,355]. Mr Parker of HS gives evidence in his first and second statements about the extensive liaison that had taken place between Claimant firms (Parker 1 and 2) [B/1/134; B3/232]. The VW Defendants are not in a position to assert that is not true because they do not know the details of the communications that had in fact taken place between the Claimant firms.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>58</num>
+          <content>
+            <p>There had been very considerable discussion between YL and HS both prior to the application for a GLO being issued and prior to the 30 January 2017 hearing (Pope 2, paragraphs 62-65) [L1 / B6/347]. On or about 9 January 2017 the relationship between those firms broke down as a result of a dispute about the NDA (Pope 2, paragraph 71; [L1 / B6/349] and the Johnson judgment). The problem was therefore not a lack of liaison or communication but rather a lack of agreement. It is not possible for a court to come to a view as to who was at fault or more at fault for that lack of agreement without a detailed examination of privileged communication between the firms.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>59</num>
+          <content>
+            <p>By the time of the 30 January 2017 hearing HS ’s application for a GLO was supported by SG, Irwin Mitchell, Curtis Law and Simon Burn Solicitors. Attwood Solicitors had stated they supported the application and the application was either supported or not opposed by LD and Michael Lewin Solicitors.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>60</num>
+          <content>
+            <p>Some of the firms have given positive evidence of HS ’s approach e.g., Irwin Mitchell ’s letter to the court dated 27 January 2017 [G/2336] stating: “We have found [HS] and [SG] to be very collaborative”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>61</num>
+          <content>
+            <p>The evidence served by Jefferies, Burd Ward, Attwood and ERM in the days prior to the 30 January 2017 hearing (Pope 2, paragraph 119, paragraphs 122-138) [L1 / B6/359] demonstrated that there had been significant liaison with Burd Ward, Attwood and Jefferies prior to the 30 January hearing. Burd Ward and Jefferies, despite liaison with them, appeared to have been under a misapprehension about funding arrangements and the effect of the proposed GLO. Attwood had previously stated to HS that it supported the application for a GLO and a draft Order.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>62</num>
+          <content>
+            <p>The position of ERM was different. That firm ’s involvement in the litigation did not become apparent until shortly before the 30 January 2017 hearing so it was not possible to liaise in detail with ERM prior to the hearing (Pope 2, paragraphs 122- 125) [L1 / B6/359].</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The HS / YL Dispute</p>
+        </tblock>
+        <paragraph>
+          <num>63</num>
+          <content>
+            <p>At the point that the GLO application was issued on 18 November 2016 there was no dispute between HS / YL. That dispute emerged in January 2017. Although YL had been aware of the dispute for some time it did not reveal the existence of the dispute until service of Mr Johal ’s witness statement on 26 January 2017. It is not clear to the Relevant Claimants when Freshfields became aware of the dispute, because Freshfields has refused to disclose the entirety of their correspondence during the relevant period.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>64</num>
+          <content>
+            <p>Mr Johal ’s statement indicated the existence of a commercial dispute between HS / YL which Mr Johal stated “may well” have an impact on the application (Johal 1, paragraph 37) [G/5/2286]. At that stage the dispute was not raised as a professional conduct issue. Further there was no indication at that stage that YL intended to apply for injunctive relief. A commercial dispute between the two firms would not have prevented the application proceeding.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>65</num>
+          <content>
+            <p>The VW Defendants’ contention that the facts of the dispute ought to have made it clear that the application could not proceed was manifestly wrong. This is apparent from what the YL Claimants themselves said at the hearing on 6 June 2017. It was submitted by Leading Counsel on behalf of the YL Claimants at that hearing that YL would have to make a decision as to whether the dispute was relevant to the GLO application and would make that decision by 14 July 2017. Thus, even by June 2017 YL had not made a decision as to whether the NDA dispute was or was not relevant to the application for a GLO. The Relevant Claimants can not properly be criticised for not concluding that the NDA dispute was relevant to the application before YL had made up its own mind on that issue. That decision was only made when Mr Johal served his fourth statement on 14 July 2017 [J2 / C5/403], which made allegations for the first time of professional misconduct and breach of a solicitor ’s undertaking by HS. Once that position had been clarified HS took prompt steps to seek a resolution of the NDA dispute by issuing proceedings in the Chancery Division on 3 August 2017, seeking a declaration and applying for that claim to be expedited. In those circumstances it is unfair to criticise the Relevant Claimants for seeking to progress the application notwithstanding the dispute between HS / YL.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Adjournment of 30 January 2017 hearing</p>
+        </tblock>
+        <paragraph>
+          <num>66</num>
+          <content>
+            <p>It is conceded that the position on and immediately before 30 January 2017 hearing was unsatisfactory, but it is not justified to contend that the fault for that situation rests solely with the Relevant Claimants (Pope 2, paragraphs 142-154) [L1 / B6/3365]. The court did not hear any argument at the hearing on 30 January 2017, as it was agreed the GLO application should be adjourned, and there was agreement as to the directions that should be made. The Relevant Claimants were constrained as to what they could say about the need for adjournment, and in particular, the HS / YL dispute that had emerged, by issues of common interest privilege, and thus were unable to present the full picture to the court at that stage.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>67</num>
+          <content>
+            <p>The adjournment of the hearing was necessitated by three major factors: i) The breakdown of the relationship between HS / YL and the issues raised by YL about breach of the NDA. The fact that the application for directions by YL was made so late i.e. on 26 January 2017, two working days before the hearing, made it impossible for the Relevant Claimants to respond substantively or agree an adjournment prior to the hearing. Although the judgment of Edwin Johnson QC upheld YL ’s claim that HS were acting in breach of the NDA, his decision is subject to an appeal. ii) The VW Defendants’ late and unjustified attack on the Relevant Claimants’ funding arrangements. Mr Parker had given details of the Relevant Claimants’ funding arrangements in Parker 1 dated 28 October 2016 [B/1/134]. Blain 1 dated 6 January 2017 [B/2/170] did not take any point on the funding arrangements. However, the VW Defendants’ skeleton argument served on 26 January 2017 made very detailed criticisms of the funding arrangements. The central allegation was that HS funding arrangements were an unlawful hybrid DBA. The criticisms of the VW Defendants of the legitimacy of the Relevant Claimants’ former funding arrangements (Blain 4, paragraph 12.5) [L / B4/56] were wholly unjustified. They were not illegitimate nor are they now challenged. In any event, no significant costs could have arisen from this issue. That issue could not satisfactorily be resolved in the time available to the court on 30 January 2017. iii) Late representations made by Burd Ward, Jefferies, Atwood and ERM Jefferies wrote to the court by letter dated 25 January 2017, Attwood and Burd Ward by letters dated 26 January 2017. It is not clear why they chose to write to the court so shortly before the hearing. They had been aware of the date of the hearing for many weeks and HS had been liaising with them since October 2016 (Parker 1, paragraph 48) [B/1/148]. The Relevant Claimants are not in a position to put the details of that correspondence and liaison with those firms before the court because it is subject to common interest privilege.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lack of coordination and progress after 30 January 2017 hearing</p>
+        </tblock>
+        <paragraph>
+          <num>68</num>
+          <content>
+            <p>The purpose of the 8 June 2017 hearing was to make “any directions which may be required for the coordination of prospective Claimants represented by different firms of solicitors”. It was never intended or contemplated that there be complete agreement between the Claimants groups by the time of 8 June 2017 hearing. Details of the discussions and liaison between the Claimant firms are set out in Pope 2, paragraphs 176-200 [L / B6/374].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>69</num>
+          <content>
+            <p>By the time of 8 June 2017 hearing there was a very large measure of agreement between the three main Claimant groups. It was agreed that, subject to the HS / YL dispute, HS / YL should both be appointed as lead solicitors. It was agreed that LD should play an active role in the progression and conduct of the generic issues. Agreement was reached in relation to costs sharing. Accordingly, the YL Claimants, HS Claimants and the LD Claimants presented a joint note to the court and were agreed as to the directions to be made. There was virtual unanimity between all of the Claimant groups as to the directions required: see submissions of Mr Onslow QC for the YL Claimants (transcript page 12).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>70</num>
+          <content>
+            <p>Thus, the criticisms in Blain 4 of the progress up to the 20 June 2017 hearing are unjustified. If there was lack of agreement the fault for that does not rest solely with the Relevant Claimants but with all of Claimant firms. At the hearing in June 2017 the VW Defendants criticised LD and YL as much as the Relevant Claimants.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>71</num>
+          <content>
+            <p>Following the 8 June 2017 hearing, the three main Claimant groups served agreed draft consolidated GPOC on 10 July 2017 [J2 / C2/344], and on 28 July 2017 an updated draft GLO [J2 / C1/314] and a draft cooperation protocol [J2 / C3/379]. The draft GPOC, GLO and protocol served by the three groups at the end of July 2017 were substantially the same as the documents served by the three groups in January 2018. The only change of substance is that following the Johnson judgment SG replaced HS as a proposed joint lead solicitor to act with YL.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Vacated hearing on 12-13 October 2017</p>
+        </tblock>
+        <paragraph>
+          <num>72</num>
+          <content>
+            <p>It is submitted that the criticism addressed to the Relevant Claimants that they ought to have agreed to an adjournment of this hearing more promptly is unfair (Pope 2, paragraphs 201-215) [L1 / B6/385].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>73</num>
+          <content>
+            <p>On 3 August 2017 HS issued proceedings against YL seeking declaratory relief. Following a directions hearing on 25 August 2017, Mr Johnson QC made expedited directions with the express aim of determining the dispute in sufficient time for the application for the GLO to proceed on 12 October 2017. The dispute was set down for a three-day trial in the week commencing 25 September 2017. Thus, at the time when the VW Defendants made an application on 6 September 2017 to vacate the hearing listed on 12-13 October 2017 would have cut directly across the purpose of the directions made by Mr Johnson QC, the rationale of which was to maintain the October hearing dates. As soon as it became it clear to the Relevant Claimants that Mr Johnson ’s judgment might be delayed and the hearing could not be effective they agreed to the adjournment, writing to Freshfields on 25 September 2017 [J / B4/144]. In any event the hearing could not have been adjourned without LD ’s consent, and LD had made it clear by letter dated 6 September 2017 that it did not consent to an adjournment.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Amendments to the Draft GPOC</p>
+        </tblock>
+        <paragraph>
+          <num>74</num>
+          <content>
+            <p>The Relevant Claimants have served four versions of the draft GPOC. The central allegation of deceit based on the defeat device has changed little. The only major change in the pleaded case was between the version served prior to the January 2017 hearing and the version served in July 2017, which had the input of the counsel teams from all three main Claimant groups. The pleadings were all drafts provided either pre-issue or pre-service and the Relevant Claimants can not properly be criticised for refining their case pre-service. Many of the changes reflect developments in the Claimants’ understanding of the Defendants’ conduct. Further, the Relevant Claimants are not responsible for other draft pleadings served by other Claimant groups (Pope 2 paras 220 -224) [L1 / B/6389].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>75</num>
+          <content>
+            <p>The contention that if there had been better liaison the Defendants would only have received one set of draft GPOC is fanciful. The other Claimant groups have also refined their draft pleadings over time as was always bound to be the case.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The VW Defendants’ counter factual position</p>
+        </tblock>
+        <paragraph>
+          <num>76</num>
+          <content>
+            <p>It is submitted that it is manifestly wrong that the GLO application would have been listed without the need for any preliminary or directions hearings in the context of these proceedings. In the light of the number of the Claimant firms involved and the differences that emerged, direction hearings to corral the Claimants became necessary and would have been necessary even if there had been greater liaison and co- operation prior to the 30 January 2017 hearing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>77</num>
+          <content>
+            <p>If the court does not agree with the Relevant Claimants’ primary position that the Relevant Claimants acted reasonably in applying for a GLO in the way that they pursued that application the court would have to consider : i) the respects in which the Relevant Claimants acted unreasonably ; ii) the consequences of that unreasonable behaviour.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>78</num>
+          <content>
+            <p>That is a very difficult exercise. Mr Makin pointed out in Makin 3, paragraph 33 that: “.. at all the hearings there have been Orders made which may be said to have progress matters – to seek to disentangle what was progressive and what has been wasted and/or unnecessarily or unreasonably incurred is fraught with difficulty”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>79</num>
+          <content>
+            <p>In any event even if HS had not issued a GLO application in the autumn of 2016 it is likely that YL would have done so within a short time in any event. YL had issued a claim form as early as January 2016, declaring an intention on the face of the claim form to apply for a GLO (Pope 2, paragraph 70) [L / B6/349]. This provides confirmation that YL ’s view in the autumn of 2016 was that an application for a GLO should be made promptly.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>80</num>
+          <content>
+            <p>Even if the application for a GLO had been delayed, the VW Defendants would still have been involved in very considerable work and correspondence throughout the relevant period, dealing with numerous Claimants and firms who were intimating claims against them, and indeed issuing claims against them.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>81</num>
+          <content>
+            <p>It is accepted that some delay is attributable to the HS / YL dispute. Until the Court of Appeal has ruled on the HS appeal it will not be known with any certainty where the true merits of the dispute lie.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Indemnity Costs</p>
+        </tblock>
+        <paragraph>
+          <num>82</num>
+          <content>
+            <p>The conduct in question, if the court agrees with the Defendants’ criticisms, was that of HS and not the Relevant Claimants who have not acted unreasonably. Thus, an award of indemnity costs would not be appropriate.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Identity of the Claimants against whom any order is made</p>
+        </tblock>
+        <paragraph>
+          <num>83</num>
+          <content>
+            <p>The court will have to consider which of the Claimants should be responsible for any costs against whom the court considers it appropriate to make an Order (Pope 2, paragraph 47) [L / B6/342].</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The application of the Dealer Defendants</p>
+        </tblock>
+        <paragraph>
+          <num>84</num>
+          <content>
+            <p>It is submitted that these applications give rise to the following issues additional to the submissions made in response to the VW Defendants’ application: i) No claims had been intimated by the Relevant Claimants against Inchcape and Listers prior to 27 November 2017. Their involvement came about as a result of letters of claim sent by LD on 27 April 2017. ii) LD also intimated claims against a large number of dealerships on or about 27 April 2017, but the vast majority of such dealerships did not consider it necessary to attend or be represented at the two hearings for which Inchcape and Listers claim costs, on 8 June and 27 November 2017. iii) Listers played no active part at these hearings. No order was sought against them and there was no need for them to be represented. Inchcape played a more active role at the 8 June hearing. Both Inchcape and Listers would have incurred only limited costs and there was no necessity for them to be represented by Leading Counsel.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Discussion</p>
+          <p>Whether the GLO application was issued prematurely</p>
+        </tblock>
+        <paragraph>
+          <num>85</num>
+          <content>
+            <p>It is not the case that the court expects all issues to have been agreed and a final formulation of the draft GLO to be in place by the time of the application or the hearing. Although in many GLO applications the draft GLO is wholly or substantially agreed, in a significant number there are still issues not agreed that need to be determined by the court. However, the claims need to be at a stage where GLO issues can be identified, and where some claimants may have different claims in law, these need to be identified so that the court can decide whether they should be included in the GLO or dealt with outside the GLO. Proper vetting of claims must have occurred so that weak or unmeritorious claims can be weeded out. Satisfactory funding of the litigation and ATE insurance (or other demonstration of an ability to pay adverse costs orders) needs to have been arranged, or at least be some way towards that being achieved. The common and individual costs provisions of the draft order need to have been discussed and agreed if possible. This is usually an area capable of agreement in most cases. A realistic timetable for service of GPOC and a Generic Defence needs to have been discussed. The different firms of claimant solicitors need to have had substantial discussions so that a common approach can be agreed if possible, and if not the issues of difference, and the reasons for them, identified. The formation of a Solicitors Group needs to be discussed and agreed, and identification, and agreement if possible, of lead solicitors. The defendants need to be involved in discussions once there is a sufficiently identified common approach, or differences of approach are capable of being identified. If there are limitation issues agreement for stays pending the GLO need to be canvassed, and applications made if agreement can not be reached. The court needs a substantial amount of information before it can determine such issues.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>86</num>
+          <content>
+            <p>I reach the conclusion that the GLO application in this case was issued prematurely. For such a major piece of litigation there was simply not enough time allowed for pre- action and pre- application correspondence with other Claimant groups and with the Defendants. The state of disarray in which the application reached me at the hearing on 30 January 2017 made that conclusion all too obvious. As I commented at the hearing, it was simply not possible for the court to have dealt with the GLO application on the state of the evidence and information before it. It was clear to me when reading the papers submitted for that hearing over the weekend before it was due to be heard, that there was no possibility that the application could be dealt with and that the VW Defendants’ application for an adjournment was, unless there was some development that I was unaware of, bound to be successful. When the hearing commenced on the morning of Monday 30 January 2017 the Relevant Claimants conceded that there would have to be an adjournment. That conclusion should have been reached by the Relevant Claimants at a much earlier stage.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>87</num>
+          <content>
+            <p>I note that YL opposed the GLO on that date on the grounds that it was premature (Johal 1 [G/5/2280] and YL Claimant skeleton [H/3/2395]). The LD skeleton stated that an adjournment was not opposed [H/3/2395], and LD ’s evidence for that hearing stated that its clients had different claims than those of the HS and YL Claimants, namely under the Consumer Protection (Amendment) Regulations 2014, and intended to apply for a similar but overlapping GLO once funding was in place. (Howells 1 paras 22-31) [G/1/2159]. That position alone is illustrative of the fact that it should have been apparent to HS that there needed to be far more discussion between the different Claimant groups before the court could deal with the application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>88</num>
+          <content>
+            <p>ERM stated in evidence, after making complaints about lack of discussion with HS: “With the best will in the world it is not possible for my firm or our Counsel to make fully informed and comprehensive representations at the hearing on Monday or to make any formal application.” (Makin 1 para 25) [G/3/2275]</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>89</num>
+          <content>
+            <p>Burd Ward considered the GLO application to be premature [G/8/2321], as did Jefferies [G/10/2328]. That view was also shared by Hutcheon Law [G/13/2336].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>90</num>
+          <content>
+            <p>There were no limitation reasons why the GLO application had to be issued when it was. If claims had to be issued for limitation reasons then there could have been agreement, or in default of agreement, applications to stay those claims pending the issue of the GLO application, or, once the GLO application was issued, there could have been agreement that it should not be listed until an appropriate date.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>91</num>
+          <content>
+            <p>That part of the Johnson judgment dealing with the factual background for the periods May 2016 to September 2016 (Paragraphs 93 to 126) and October 2016 to November 2016 ( Paragraphs 127 to 159) and in particular his findings at Paragraph 125, throw some light as to why the application was issued when it was. At Paragraph 125(4) Mr Johnson found: “By late August 2016 Mr Parker was aware that there was a diminishing prospect of Therium agreeing to fund the proposed group claim with the defendant [YL] in a prominent role, and without the first claimant [HS] in a leading role.” (Therium were professional funders with whom Mr Parker had been in discussions).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>92</num>
+          <content>
+            <p>At Paragraph 126 Mr Johnson refers to the group of claimants that Mr Parker of HS had begun to form at the end of September 2016, to which he refers as “the HS Group”. He describes that this as a group of potential claimants formed outside the NDA and about whom YL had not been informed (Paragraph 125 (7)), and states that without the knowledge of YL, in October and November 2016 HS sent out a further set of retainer letters to add to the HS Group (Paragraph 127). On 5 October 2016 HS wrote to Freshfields stating an intention to issue an application for a GLO in the course of the next week (Paragraph 129). Following a complaint by Freshfields that it was not possible to tell which clients it represented solely and which jointly with YL, on 12 October 2016 HS sent a letter stated to be “on our own clients’ behalf only” (Paragraph 130). That letter enclosed the draft GLO and draft GPOC. On 14 October 2016 Mr Parker raised the possibility of a collaboration with SG in a telephone call with Ms Young of that firm (Paragraph 135). On 19 October 2016 a claim form was issued on behalf of the HS Group of claimants, with HS identified as their solicitors (Paragraph 136). The GLO application was filed on 28 October 2016 (Paragraph 144).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>93</num>
+          <content>
+            <p>That timing suggests that the decision to issue proceedings and file the GLO at that stage was a commercially driven decision for the benefit of HS, to protect its position in the litigation as acting for the HS Group, with the likelihood of funding being available for it in a lead role from Therium, rather than for the benefit of the Relevant Claimants or Claimants generally. This would explain the failure of HS during this period to properly engage with the correspondence from Freshfields. Freshfields’ correspondence repeatedly made the points that a GLO application was premature, giving cogent reasons, and in summary, that HS ’s pre-action correspondence did not comply with the PD, and that “no sensible or co-ordinated proposals as to how a GLO might be managed” had been received (Blain 4 para. 19) [L1 / B4/58-61].</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>94</num>
+          <content>
+            <p>I do not, without the benefit of oral evidence, make any finding as to the reasons why the application was issued when it was, nor do I need to, as whatever the motivation behind the lodging and issue of the GLO application in October / November 2016, I need only be satisfied that it was premature and pursued unreasonably, such that the consequences were that the VW Defendants, and later the Dealer Defendants, suffered unnecessarily incurred costs. I do find, for the reasons above, that the application was issued prematurely.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Significance of the HS / YL Dispute</p>
+        </tblock>
+        <paragraph>
+          <num>95</num>
+          <content>
+            <p>The existence and significance of the dispute were brought to the court ’s attention fairly late in the day before the hearing of 30 January 2017 by the witness statement of Mr Johal of YL dated 26 January 2017. However, between 6 January 2017, when the allegation of breach of the NDA was first made by YL, with proceedings threatened on 10 January 2017, and that date, there was not a great deal of time for discussion and for advice to be sought before taking that position. The fact is that YL recognised that the dispute should be brought to the court ’s attention whereas HS did not. Mr Parker ’s second witness statement, dated 23 January 2018 [B/2/232], a substantial document of 36 pages, dated only 7 days before the GLO hearing date, failed to mention the existence of the dispute.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>96</num>
+          <content>
+            <p>With the benefit of having seen the Johnson judgment, and therefore having much more insight into the nature of the dispute than was the case when the matter was before the court in either January or June 2017, it is apparent that HS did attempt to downplay the significance of this dispute. It is recorded in the Johnson judgment that HS sought to persuade the judge that the dispute need not derail the GLO application. The judge states at Paragraph 20: “Effectively, what the claimants [HS] were seeking to do was to try to find a way of resolving sufficient issues between the parties to allow the hearing of the GLO application to proceed, without the interference of this dispute, while leaving the remaining issues between the parties to be resolved separately.” And at Paragraph 21: “For the reasons which I explained in a judgment delivered at that hearing, I took the view that the claimants’ [HS] approach would not work, and that all the issues arising between the parties in this dispute (save for the quantum of any damages / compensation to which the defendant might be entitled) needed to be resolved as swiftly as possible, so that the hearing of the GLO application could proceed without the interference of this dispute (in an unresolved state).”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>97</num>
+          <content>
+            <p>In the witness statement of Jon Beresford of HS dated 28 July 2017 [J2 / C6/413], made pursuant to my order of 8 June 2017, [J1 / B1/9] the position is put that the dispute, which had not yet reached the stage of a claim being issued, need not have any impact on the progress of the GLO.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>98</num>
+          <content>
+            <p>I am not without sympathy for the dilemma in which both HS and YL found themselves in with regard to this dispute in the middle of the GLO application. However, it should have been apparent to those involved, as it was apparent to Mr Johnson QC after hearing the evidence of the parties, and it gradually became apparent to the other parties and the court, that it was not possible to proceed with the GLO application until that dispute was resolved, unless one of the firms agreed to cease to act in the litigation. The appropriate course, in my view, would have been for HS and YL to have recognised that the dispute would have to be resolved or determined before the GLO application could proceed. There would have unlikely to have been much, if any , dissension on the part of other parties to this litigation, including, in my view, other Claimant groups, if the GLO application had been stayed pending the determination of the HS / YL dispute.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Lack of co-ordination with other Claimant groups</p>
+        </tblock>
+        <paragraph>
+          <num>99</num>
+          <content>
+            <p>It is not necessary for me to investigate and reach conclusions as to whether the Relevant Claimants failed to properly co-ordinate and engage with other Claimant Groups before and following issue of the GLO application, or whether they tried but failed because of the views of other firms to reach sufficient agreement as to the way the GLO application should be progressed. The determination of the costs applications can be dealt with without reaching any finding on that allegation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>100</num>
+          <content>
+            <p>However, an example of HS’ approach to the need for co-ordination with other firms can be seen in HS’ response of 12 October 2016 to Freshfields’ letter of 7 October 2016, which states “We will have contacted other solicitors before issuing the application.” (Blain 4 para. 19.6) [LI / B4/60]. This confirms that by that stage there had been no contact with firms other than YL and SG, and, from the information in the Johnson judgment, those discussions seemed to have focussed on collaborative commercial arrangements rather than the approach to and management of a GLO application. That letter also stated: “We agree that co-operation is to be preferred but disagree that our clients’ claims should be held up by potential rather than actual claims.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>101</num>
+          <content>
+            <p>The court also has direct knowledge of the state of readiness of the GLO application during the period in question. The fact that, acknowledged by all, that this group litigation is complex and not easy to manage, is a very good reason why a substantial amount of time was needed to progress matters to a point where as much as possible was identified and agreed, or reasons for disagreement identified and understood, between the different Claimant groups and between Claimants and Defendants, before a GLO application was made. The chronology, namely, key correspondence with Freshfields in September and October 2016, lodging and issue of the GLO application in late October and November, the insistence on an early hearing date leading to the listing hearing on 23 November 2016, and a hearing in January 2017, demonstrates that far too little time was allowed for that process. That point was, again, made repeatedly by Freshfields in correspondence (Blain 4 para. 19) [L1 / B4/59 – 63], but without any constructive responses.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>102</num>
+          <content>
+            <p>There is accordingly sufficient material before the court to identify the reasons for the delay in the GLO application being able to be heard from November 2016 to March 2018, and to deal with the costs unnecessarily incurred by that delay.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>103</num>
+          <content>
+            <p>I do not criticise the Relevant Claimants for having failed to obtain full agreement from the smaller Claimant groups during the relevant period. But it is apparent that there had simply not been sufficient discussion with those groups before the January 2017 hearing. The correspondence and Makin 1 demonstrate that. By the time of the March 2018 hearing the extent of disagreement from those groups had diminished substantially, and the only areas of disagreement came from ERM, which were easily able to be dealt with by that stage. But the lack of an agreed position by the lead claimant groups at the January 2017 hearing was one of the main reasons why that hearing was premature and could not have been effective.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>104</num>
+          <content>
+            <p>I note that even on the first day of the three days listed for the GLO application on 27 March 2018 the parties were not in a position to proceed, but required a further day for further discussion. That is illustrative of the fact that the GLO application was not in a position to proceed at any hearing before that date.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>105</num>
+          <content>
+            <p>I reject the further reasons proffered by the Relevant Claimants as an explanation for the adjournment of the 30 January 2017 hearing, namely: i) the VW Defendants’ attack on the Relevant Claimants’ funding arrangements; and ii) Late representations made by Burd Ward, Jefferies, Attwood and ERM. (i) Funding Arrangements</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>106</num>
+          <content>
+            <p>Respondents to GLO applications are entitled to have information to assure them that adequate funding arrangements have been put in place for claimants. It should be discussed as part of the pre-application stage of a GLO and capable of being dealt with in correspondence. The issue on funding raised by the VW Defendants, and dealt with by information provided by HS and others pursuant to my order of 8 June 2018, was not an issue that had any part in the adjournment of the 30 January 2017 hearing. (ii) Late representations by smaller Claimant groups.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>107</num>
+          <content>
+            <p>These formed a minor part of the reasons why the hearing had to be adjourned, but those representations illustrated why the application was premature and that there had been insufficient consultation with these groups. ERM still had points to make by the time of the March 2018 hearing but these were able to be dealt with at the hearing. Likewise, the smaller Claimant groups filed the witness statement of Mr Hutcheon making some points, without attending the hearing, and these could be dealt with also. Their position by that stage was thus very different from that immediately before the 30 January 2017 hearing: see Paragraphs 87 to 89 above.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Consequences of the issue of the GLO application</p>
+          <p>The hearings of 23 November 2016 and 30 January 2017</p>
+        </tblock>
+        <paragraph>
+          <num>108</num>
+          <content>
+            <p>The immediate consequences of issuing the GLO application were that a hearing was required to be listed, at the request of HS. HS wanted the hearing to be listed on a date before the Defendants’ Counsel were available, and thus agreement could not be reached in the usual way for a date when all concerned, and the court, had availability. The hearing of 23 November 2016, convened solely so that a hearing date for the GLO application could be identified and fixed, would not have been required, and the hearing of 30 January 2017 would not have been required, if the GLO application had not been issued in October 2016 and pursued to an early hearing date.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>109</num>
+          <content>
+            <p>I acknowledge that there is frequently discussion and redrafting in the period shortly before a GLO application hearing, as views coalesce and further discussions result in some additional agreement, and the court in many GLO applications deals with issues in relation to the draft GLO that are not agreed and have to be determined by the court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>110</num>
+          <content>
+            <p>I further acknowledge that this GLO application is unusual for all the reasons given in Pope 2 and would have been likely to have been more complex than most GLO applications. One significant factor is the very large number of potential Claimants and the number of different Claimant firms. It has also been clear to me throughout this litigation that some of the Claimant firms representing smaller numbers of Claimant groups have had divergent views from those of the solicitors representing the bulk of the Claimants, and they are entitled to have those views considered, unless pursued unreasonably. It is also the case that some firms have not appreciated the extent to which those representing the main Claimant groups were obliged or not obliged to assist them in respect of matters such as obtaining funding, insurance and counsel ’s advice. Those issues would always have been there to deal with. However, those factors did not cause the requirement to list the November 2016 hearing, or the adjournment of the January 2017 hearing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>111</num>
+          <content>
+            <p>The usual order, under CPR 44.2(2), when one party has sought an adjournment consensually, and the other party refuses but concedes on the day of the hearing, is that such party pays the costs incurred by the party who sought the adjournment: see Denton v T H White at § 45, 89; but the court can make a different order. There are no grounds to make a different order, given the conclusions that I have reached. Thus, given my conclusion that the GLO application was issued and pursued to a hearing prematurely, the VW Defendants are entitled under the usual costs principles to the unnecessary costs incurred as a result of those hearings. Progression of the GLO Application – 8 June 2017 hearing, preparation for 12-13 October hearing, application for adjournment of 12-13 October 2017 hearing, and 27 November 2017 hearing</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>112</num>
+          <content>
+            <p>I acknowledge that the court has, on each occasion that the matter has been listed, been able to make directions to progress the matter, the point made in Makin 3. However, that has been the case because the parties had been before me at the 30 January 2017 hearing, and once the court was seised with the application it had to ensure that the application was appropriately managed. The court did not have sufficient information at that stage to stay the application of its own initiative, and the Claimants were not proposing such a course. They were seeking a further directions hearing to enable there to be some discipline for the Claimants’ representatives to progress the application to a state when it could be heard, with the aim of a substantive hearing early in the Michaelmas term. If the application had not been issued in October / November 2016, but discussions and co-ordination allowed to continue, with agreement (or application for a court order in the absence of agreement) to stay claims when issued, then such a hearing at that time would not have been necessary. In my view, with the benefit of the information and evidence I now have, the better course would have been, after the 30 January 2017 hearing, to stay the GLO application with permission to restore when all parties were further advanced in their discussions, and they had a more cohesive approach to the draft GLO and directions.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>113</num>
+          <content>
+            <p>Some further progress had been made by the time of the 8 June 2017 hearing, but if: i) the GLO application had not been issued and pursued before that date; and ii) the HS / YL dispute had been resolved; that progress could have been achieved without the involvement of the court.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>114</num>
+          <content>
+            <p>Further, in the light of the further information I now have from the Johnson judgment, the directions hearing on 8 June 2017 should have been adjourned in any event until the HS / YL dispute had been resolved or determined, or HS had agreed to stand down as acting for the Relevant Claimants and arrangements could be made for alternative representation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>115</num>
+          <content>
+            <p>Having reached those conclusions, the VW Defendants are entitled to their costs of the hearing of 8 June 2017 from the Relevant Claimants. The application to adjourn the 12-13 October 2017 hearing and the costs of preparation for that hearing</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>116</num>
+          <content>
+            <p>I understand the concerns to try and preserve the October hearing in circumstances where Mr Johnson QC had gone to some lengths to accommodate the parties’ wish to preserve that hearing date, first by expediting the trial to a date in September and secondly, to attempt to hand down judgment in sufficient time before the October hearing. It was always highly optimistic that there would be a judgment after a three- day hearing in late September in time to absorb and understand the implications for hearing the GLO application in mid-October. There was, in my view, no pressing reason why that hearing could not be adjourned. I note that even when the hearing came before the court on 27 March 2018 the first day was not effective because the parties required more time to engage in what proved to be productive discussions. It is therefore highly unlikely that, notwithstanding the HS / YL dispute, the GLO application would have been in a sufficient state for determination by that date. In any event, whether the Relevant Claimants can be criticised for leaving the decision to agree to adjourn to a late stage is largely irrelevant. The adjournment was required because of the unresolved HS / YL dispute, and the VW and Dealer Defendants incurred the costs of making the adjournment application because the Relevant Claimants would not agree to an adjournment. The finding of the Johnson judgment, that HS were in breach of the NDA, and ordering that they cease to act in the group litigation, had the consequence that costs were incurred by adjournment of the 12-13 October 2017 hearing.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>117</num>
+          <content>
+            <p>The VW Defendants, Inchcape and Listers are entitled on the same basis as addressed in relation to the adjournment of the 30 January 2017 hearing to recover their costs of doing so, because it was ultimately conceded by the Relevant Claimants. They are also entitled to their costs of preparation for the 12-13 October hearing because until the Relevant Claimants accepted that the hearing would have to be adjourned the VW Defendants, Inchcape and Listers had to continue to prepare for that hearing.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Directions hearing on 27 November 2017</p>
+        </tblock>
+        <paragraph>
+          <num>118</num>
+          <content>
+            <p>I accept the submissions on behalf of the Relevant Claimants that realistically, given the complexity of this litigation by virtue of: i) the large numbers of Claimants and potential claimants; ii) the number of Claimant firms involved; iii) the number of Defendants involved; iv) the many different allegations made in the proceedings, against different Defendants; and v) the high-profile nature of the litigation it was always likely that a directions hearing would be required before the hearing of the GLO application.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>119</num>
+          <content>
+            <p>If there had been appropriate time for discussion and liaison between Claimant Groups and between Claimants and Defendants before issuing the GLO application, and then resolution of the HS / YL dispute, then it may have been appropriate for a GLO application to be made in October 2017 or thereabouts, with a directions hearing in late November or December 2017, leading to a hearing in March 2018. Thus, I do not consider that the effects of issuing and pursuing a premature GLO application, and the consequences of the HS / YL dispute, were such that such a hearing on this date or another date prior to the full GLO hearing would have been unnecessary.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>120</num>
+          <content>
+            <p>I therefore reach a different conclusion from my conclusions in respect of the previous hearings, namely that the VW Defendants’ applications for their costs of the hearing of 27 November 2017 are dismissed, and I consider that such costs should be costs in the GLO application, which costs, for the avoidance of doubt, are already ordered to be costs in the case under paragraph 51 of the GLO.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The number of draft GLOs provided</p>
+        </tblock>
+        <paragraph>
+          <num>121</num>
+          <content>
+            <p>This issue has not formed a significant or separate factor in my reasoning. The draft GLO provided for the 30 January 2017 hearing was inadequate and had to be considerably amended. It is usual in many applications for GLOs for the draft GLO provided to the court to go through a number of iterations before the GLO hearing. Because of the nature of this group litigation there would always have been a number of different drafts. The primary factor which led to the most substantial amendments of the draft provided for the 30 January 2017 hearing, and thus more drafts for consideration than are the norm, was the premature issue and pursuance of the application, which had the consequences described. Further, the total number of different drafts, (seven), from the then four main Claimants Groups, and an additional draft from ERM, over the period from January 2017 to January 2018, is illustrative of the fact that the GLO application was premature and that there had been insufficient liaison and discussion before issue.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>VW Defendants’ Criticisms of the Relevant Claimants’ funding arrangements</p>
+        </tblock>
+        <paragraph>
+          <num>122</num>
+          <content>
+            <p>In Paragraph 12.5 of Blain 4 [L1/4/55] a claim is made for the costs incurred by the VW Defendants for “successfully challenging the legitimacy” of the Relevant Claimants' funding arrangements. Although this is addressed at some length in Mr Campbell ’s skeleton argument, the claim was not pressed in oral submissions by Mr Gibson. It is unclear from the application notice whether such costs are included in the costs sought. If so, they are excluded from my order, and any application for such costs would have to be the subject of further argument, as I have not considered the merits or reasonableness of such a challenge.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Applications by Inchcape and Listers</p>
+        </tblock>
+        <paragraph>
+          <num>123</num>
+          <content>
+            <p>With regard to the hearing of 8 June 2017 and the adjournment application for the 12- 13 October 2017 hearing, the conclusions reached in relation to the VW Defendants' application applies equally to them. I reject the argument that there was no necessity for them to be present or represented at the 8 June 2017 hearing. In circumstances where a GLO application had been issued, and it was clear from the jointly presented draft GLO that claims were to be made against Inchcape and Listers, and that a timetable for defences was sought, they were fully entitled to be present at the hearing and represented. Although the claims were made by the LD Claimants and not the HS Claimants, the 8 June 2017 hearing would not have occurred had the GLO application not been proceeded with and progressed prematurely.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>124</num>
+          <content>
+            <p>Again, I reach the same conclusion in respect of the 27 November 2017 hearing that I reached in respect of the VW Defendants’ application.</p>
+          </content>
+        </paragraph>
+      </background>
+      <decision>
+        <tblock>
+          <p>Conclusion on the costs applications</p>
+        </tblock>
+        <paragraph>
+          <num>125</num>
+          <content>
+            <p>The VW and Dealer Defendants’ applications are therefore granted save for the costs of the hearing of 27 November 2017, and subject to Paragraph 122 above. I do not accept the submissions on behalf of the Relevant Claimants that it will be impossible to disentangle what costs are concerned. It is apparent from the skeleton arguments of the VW Defendants and the Inchcape and Listers Respondents that careful consideration has been given to that difficulty, and that such costs have been addressed on a conservative basis and relate to the costs of and occasioned by the hearings referred to and do not extend further. It is appropriate for those costs to be assessed on a detailed assessment so that further attention to the detail of those costs can be addressed by a specialist Costs Judge.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>126</num>
+          <content>
+            <p>The parties have now reached agreement as to the identity of the Relevant Claimants. Indemnity Costs</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>127</num>
+          <content>
+            <p>The court has an unfettered discretion in relation to costs, including the basis of assessment, under CPR 44.2 and 44.3, but is required to take into account all the circumstances of the case, which include the conduct of the parties. The court is bound by the well known Court of Appeal decision in Excelsior Commercial &amp; Industrial Holdings Ltd v Salisbury Hammer Aspden &amp; Johnson [2002] EWCA Civ 879, where it was said that the making of a costs order on the indemnity basis is appropriate where the facts of the case and/or the conduct of the parties was such as to take the situation away from the norm. That was helpfully interpreted in Esure § 25, and approved in Whaleys § 20-§23, as “something outside the ordinary and reasonable conduct of proceedings.” See also judgments in Noorani at § 8 and Three Rivers at § 25. The principles governing indemnity costs in the context of group litigation were also summarised in The Ocensa Pipeline Group Litigation at § 19 – 28.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>128</num>
+          <content>
+            <p>It is clear from the matters referred above to that the circumstances are well outside the norm. First, and most significantly, because it led to the consequential costs incurred throughout most of 2017, the GLO application was issued prematurely, pursued inappropriately when it should have been stayed, and in the face of cogently expressed grounds given by the VW Defendants and some of the other Claimant groups. It was apparent from my comments on that day, that what occurred leading up to and at the hearing on 30 January 2017 was exceptional in group litigation. It was thus outside the norm in the sense that it happens rarely, and indeed had never been experienced by me in any of the group litigation I have dealt with, nor am I aware of any occurrences from judgments in similar cases. It was also outside the norm in terms of the description provided in Esure, as set out above, for all the reasons set out in the discussion section of this judgment.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>129</num>
+          <content>
+            <p>I have already indicated that the most likely explanation for the manner in which solicitors for the Relevant Claimants, HS, both issued and pursued the application, was because of their desire to obtain a commercial advantage in the litigation. The motivation need not concern the court, only the conduct which resulted in unnecessary costs and use of court resources. The fact that the conduct was that of the Relevant Claimants’ solicitors does not prevent an indemnity costs order being made: In Training in Compliance at § 66; Gladwin v Bogescu at § 30-33. I conclude that the conduct described brings the circumstances outside the norm, and therefore that the costs of the VW and Dealer Defendants against the Relevant Claimants should be assessed on the indemnity basis.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Payment on Account</p>
+        </tblock>
+        <paragraph>
+          <num>130</num>
+          <content>
+            <p>The VW Defendants, Inchcape and Listers are entitled to a payment on account of costs. This has now been agreed.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

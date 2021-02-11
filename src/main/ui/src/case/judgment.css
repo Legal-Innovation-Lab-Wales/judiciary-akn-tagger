@@ -1,0 +1,9 @@
+.judgment ol li {
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+.tblock {
+    margin-left: -40px;
+    font-style: italic;
+}

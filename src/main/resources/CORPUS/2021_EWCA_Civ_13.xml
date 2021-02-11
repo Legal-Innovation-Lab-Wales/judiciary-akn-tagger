@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="Judgment - www.judiciary.uk">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="www.judiciary.uk/2021_EWCA_Civ_13" />
+          <FRBRuri value="www.judiciary.uk/2021_EWCA_Civ_13" />
+          <FRBRdate date="2021-01-13" name="hand-down date" />
+          <FRBRauthor href="#EWCA" />
+          <FRBRcountry value="GB-UKM" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="https://www.judiciary.uk/judgments/r-friends-of-the-earth-ltd-v-secretary-of-state-for-transport" />
+          <FRBRuri value="https://www.judiciary.uk/judgments/r-friends-of-the-earth-ltd-v-secretary-of-state-for-transport" />
+          <FRBRdate date="2021-01-13" name="hand-down date" />
+          <FRBRauthor href="www.judiciary.uk" />
+          <FRBRlanguage language="eng" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_13.xml" />
+          <FRBRuri value="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/2021_EWCA_Civ_13.xml" />
+          <FRBRdate date="2021-01-21" name="date generation AKN file" />
+          <FRBRauthor href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" />
+          <FRBRformat value="application/akn+xml" />
+        </FRBRManifestation>
+      </identification>
+      <references source="#source">
+        <TLCOrganization eId="source" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales" showAs="Legal Innovation Lab Wales" />
+        <TLCOrganization eId="EWCA" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" showAs="Court of Appeal" />
+        <TLCOrganization eId="CivilDivision" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#CivilDivision" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWCA" />
+        <TLCOrganization eId="EWHC" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#EWHC" showAs="High Court of Justice" />
+        <TLCOrganization eId="DivisionalCourt" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#DivisionalCourt" showAs="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#QueensBenchDivision" />
+        <TLCOrganization eId="FriendsOfTheEarthLimited" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#FriendsOfTheEarthLimited" showAs="Friends Of The Earth Limited" />
+        <TLCOrganization eId="SecretaryOfStateForTransport" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#SecretaryOfStateForTransport" showAs="Secretary Of State For Transport" />
+        <TLCPerson eId="LordJusticeSingh" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeSingh" showAs="Lord Justice Singh" />
+        <TLCPerson eId="LordJusticeHaddon-cave" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LordJusticeHaddon-cave" showAs="Lord Justice Haddon-cave" />
+        <TLCPerson eId="MrDavidWolfeQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrDavidWolfeQc" showAs="Mr David Wolfe Qc" />
+        <TLCPerson eId="MrPeterLockley" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrPeterLockley" showAs="Mr Peter Lockley" />
+        <TLCPerson eId="MrAndrewParkinson" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAndrewParkinson" showAs="Mr Andrew Parkinson" />
+        <TLCPerson eId="LeighDay" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#LeighDay" showAs="Leigh Day" />
+        <TLCPerson eId="MrJamesStrachanQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrJamesStrachanQc" showAs="Mr James Strachan Qc" />
+        <TLCPerson eId="MrDavidBlundellQc" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrDavidBlundellQc" showAs="Mr David Blundell Qc" />
+        <TLCPerson eId="MrAndrewByass" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAndrewByass" showAs="Mr Andrew Byass" />
+        <TLCPerson eId="MrAdmasHabteslasie" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#MrAdmasHabteslasie" showAs="Mr Admas Habteslasie" />
+        <TLCPerson eId="GovernmentLegalDepartment" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#GovernmentLegalDepartment" showAs="Government Legal Department" />
+        <TLCRole eId="appellant" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#appellant" showAs="appellant" />
+        <TLCRole eId="respondent" href="https://www.swansea.ac.uk/law/legal-innovation-lab-wales/judiciary-demo-ontology#respondent" showAs="respondent" />
+      </references>
+    </meta>
+    <header>
+      <p>
+        Neutral Citation Number:
+        <neutralCitation>[2021] EWCA Civ 13</neutralCitation>
+      </p>
+      <p>
+        Case No:
+        <docNumber>C1/2019/1056</docNumber>
+      </p>
+      <p>
+        IN THE
+        <organization refersTo="#EWCA">COURT OF APPEAL</organization>
+        (
+        <organization refersTo="#CivilDivision">CIVIL DIVISION</organization>
+        ) ON APPEAL FROM THE
+        <organization refersTo="#EWHC">HIGH COURT OF JUSTICE</organization>
+        <organization refersTo="#DivisionalCourt">DIVISIONAL COURT</organization>
+      </p>
+      <p>
+        <location refersTo="#addressLocation">Royal Courts of Justice Strand, London, WC2A 2LL</location>
+      </p>
+      <p>
+        Date:
+        <date date="2021-01-13" refersTo="#hand-downDate">13/01/2021</date>
+      </p>
+      <p>
+        Before: THE SENIOR PRESIDENT OF TRIBUNALS
+        <judge refersTo="#LordJusticeSingh">LORD JUSTICE SINGH</judge>
+        and
+        <judge refersTo="#LordJusticeHaddon-cave">LORD JUSTICE HADDON-CAVE</judge>
+      </p>
+      <p>---------------------</p>
+      <p>Between:</p>
+      <p>
+        The Queen (on the application of
+        <party as="#appellant" refersTo="#FriendsOfTheEarthLimited">Friends of the Earth Limited</party>
+        )
+        <role refersTo="#appellant">Appellant</role>
+        -and-
+        <party as="#respondent" refersTo="#SecretaryOfStateForTransport">Secretary of State for Transport</party>
+        <role refersTo="#respondent">Respondent</role>
+      </p>
+      <p>---------------------</p>
+      <p>---------------------</p>
+      <p>
+        <lawyer as="#barrister" for="#FriendsOfTheEarthLimited" refersTo="#MrDavidWolfeQc">Mr David Wolfe QC</lawyer>
+        ,
+        <lawyer as="#barrister" for="#FriendsOfTheEarthLimited" refersTo="#MrPeterLockley">Mr Peter Lockley</lawyer>
+        and
+        <lawyer as="#barrister" for="#FriendsOfTheEarthLimited" refersTo="#MrAndrewParkinson">Mr Andrew Parkinson</lawyer>
+        (instructed by
+        <lawyer as="#solicitor" for="#FriendsOfTheEarthLimited" refersTo="#LeighDay">Leigh Day</lawyer>
+        ) for the Appellant
+        <lawyer as="#barrister" for="#SecretaryOfStateForTransport" refersTo="#MrJamesStrachanQc">Mr James Strachan QC</lawyer>
+        ,
+        <lawyer as="#barrister" for="#SecretaryOfStateForTransport" refersTo="#MrDavidBlundellQc">Mr David Blundell QC</lawyer>
+        ,
+        <lawyer as="#barrister" for="#SecretaryOfStateForTransport" refersTo="#MrAndrewByass">Mr Andrew Byass</lawyer>
+        and
+        <lawyer as="#barrister" for="#SecretaryOfStateForTransport" refersTo="#MrAdmasHabteslasie">Mr Admas Habteslasie</lawyer>
+        (instructed by The
+        <lawyer as="#solicitor" for="#SecretaryOfStateForTransport" refersTo="#GovernmentLegalDepartment">Government Legal Department</lawyer>
+        ) for the Respondent
+      </p>
+      <p>On the basis of written submissions</p>
+      <p>---------------------</p>
+      <p>
+        <docTitle>APPROVED JUDGMENT ON A COSTS ISSUE</docTitle>
+      </p>
+      <p>Covid-19 Protocol: This judgment was handed down remotely by circulation to the parties’ representatives by email, release to BAILII and publication on the Courts and Tribunals Judiciary website. The date and time for hand-down is deemed to be 10 a.m. on Wednesday, 13 January 2021.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <tblock>
+          <p>The Court:</p>
+        </tblock>
+        <tblock>
+          <p>Introduction</p>
+        </tblock>
+        <paragraph>
+          <num>1</num>
+          <content>
+            <p>The issue in the present case arises from para. 4 of this Court ’s order of 27 February 2020, after judgment had been handed down in the substantive appeal: “The Defendant is to pay the costs of the Claimant in the Divisional Court and in this Court, subject to detailed assessment and a cap of £ 35,000 in respect of the costs in the Divisional Court, and a cap of £ 35,000 in respect of the costs in this Court.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>2</num>
+          <content>
+            <p>This part of this Court ’s order is unaffected by the fact that the Supreme Court has allowed the appeal by Heathrow Airport Limited. The Secretary of State did not appeal against this Court ’s decision and the order made by the Supreme Court on 16 December 2020 does not alter the costs order made by this Court as between Friends of the Earth (“FoE”) and the Secretary of State.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>3</num>
+          <content>
+            <p>The only question for this Court now is whether the Secretary of State must pay FoE £ 70,000 without more or whether VAT is payable on top of that sum.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>4</num>
+          <content>
+            <p>In view of the potential importance of the issue for other cases, we thought it right to give a reasoned judgment, having had the benefit of written submissions from the parties.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The Civil Procedure Rules</p>
+        </tblock>
+        <paragraph>
+          <num>5</num>
+          <content>
+            <p>The caps imposed by the order were made, in the Divisional Court, pursuant to CPR 45.43(3) and, in this Court, CPR 52.19A(2)(b), on the basis that the claim falls within the Aarhus Convention, as defined in CPR 45.41.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>6</num>
+          <content>
+            <p>It is important to set out the terms of the relevant provision in the Civil Procedure Rules. CPR 45.43 states as follows: “ (1) Subject to rules 45.42 and 45.45, a claimant or defendant in an Aarhus Convention claim may not be ordered to pay costs exceeding the amounts in paragraph (2) or (3) or as varied in accordance with rule 45.44. (2) For a claimant the amount is – (a) £ 5,000 where the claimant is claiming only as an individual and not as, or on behalf of, a business or other legal person; (b) £ 10,000 in all other cases. (3) For a defendant the amount is £ 35,000. (4) In an Aarhus Convention claim with multiple claimants or multiple defendants, the amount in paragraphs (2) and (3) (subject to any directions of the court under rule 45.44) apply in relation to each such claimant or defendant individually and may not be exceeded, irrespective of the number of receiving parties.”</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Submissions on behalf of Friends of the Earth</p>
+        </tblock>
+        <paragraph>
+          <num>7</num>
+          <content>
+            <p>On behalf of FoE it is submitted that the sums should be exclusive of VAT for three main reasons: (1) The purposes of the Aarhus Convention would be better served if the cap on costs under CPR 45.43(3) is exclusive of VAT and would be undermined if it is inclusive of it. (2) Domestic authority supports the proposition that a cost capping order is exclusive of VAT unless the contrary is stated. (3) An analogy with (i) the position in Northern Ireland and (ii) other parts of the CPR providing for costs limits and fixed costs indicates that costs limits in Aarhus claims should be regarded as exclusive of VAT.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>8</num>
+          <content>
+            <p>It is submitted that the terms of the Aarhus Convention support this interpretation of the Civil Procedure Rules. The relevant provision in the CPR was clearly enacted in order to give effect to that Convention. It is well-established that in that context it is appropriate and relevant to refer to an international convention in the interpretation of domestic legislation. It is submitted that, as the recitals to the Convention make clear, access to justice in environmental matters is of paramount importance, so that the public ’s legitimate interests may be protected. Article 9(4) of the Convention states that parties must provide for review by the courts of environmental decisions in a manner that is “not prohibitively expensive”.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>9</num>
+          <content>
+            <p>It is submitted that, where the receiving party will be liable to pay VAT on its cost and disbursements, and its costs without VAT exceed the amount that the court has ordered the paying party to pay, then the protection afforded by CPR 45.43 would be eroded if VAT were not payable on top. The successful claimant would be required to bear an additional cost burden because it would not recover the VAT it was required to pay on the costs which it did recover. It is submitted that that result would be contrary to the purposes of the Aarhus Convention.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>10</num>
+          <content>
+            <p>The main foundation in domestic law for the submission on behalf of FoE is the decision of Mr Rabinder Singh QC (sitting as a Deputy Judge of the High Court, as he then was) in R (Warley) v Wealden District Council [2011] EWHC 2083 (Admin), in particular at paras. 164-165.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>11</num>
+          <content>
+            <p>In that case, a claim for judicial review of the grant of a planning permission was granted. The challenge had been brought by a local resident. The relevant site lay within an Area of Outstanding Natural Beauty. The main legal issue in the case concerned the Town and Country (Environmental Impact Assessment) (England and Wales) Regulations 1999 (SI 1999/293).</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>12</num>
+          <content>
+            <p>When granting permission to bring the claim for judicial review, on 14 February 2011, Lindblom J (as he then was) had made a Protective Costs Order (“PCO”), which capped the costs which would be recoverable depending on which party was successful in the claim. In the case of the claimant, the cap was £ 15,000. It was silent on the question whether that included VAT.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>13</num>
+          <content>
+            <p>After judgment had been given orally by the Deputy Judge, counsel made submissions on various consequential matters, including the question of VAT. The submission for the claimant was that the figure of £ 15,000 should be read as not including VAT. In the alternative, the claimant submitted that the Deputy Judge should exercise his discretion under CPR Part 3to vary the order of Lindblom J to make that clear. Reliance was placed on correspondence which had taken place between the parties in the period leading up to the making of the PCO and subsequently, which it was submitted made it clear that the parties had envisaged that the caps for each side would be exclusive of VAT. The submission was made (para. 122) that this was “entirely just and fair, because in that way it would simply be reflecting the position which the defendant said it wished to be in.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>14</num>
+          <content>
+            <p>Counsel for the defendant made very brief submissions, to the effect that the order of Lindblom J was clear on its terms and should be interpreted as being a total of the cap imposed, inclusive of VAT: see paras. 128, 130 and 132.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>15</num>
+          <content>
+            <p>The Deputy Judge then said the following, at paras. 164-165: “164. First of all, I will exercise my discretion to vary the order of Lindblom J to make it clear that the costs ceiling is to be £ 15,000 plus VAT. Indeed, in so far as it may be necessary for the basis of reciprocity, on the other side the ceiling of the PCO is £ 2,500 plus VAT. It seems to me that that is the just order to make in this case, because even if it was not necessarily what Lindblom J had in mind, which it may well have been given the nature of the submissions that were put before him by both sides, but leaving that out of account and taking the decision afresh myself, it seems to me that that is reflective of the justice of the case. 165. There are two essential reasons for that: one is that, as I understand it, the way in which the VAT scheme works in this country is the that the registered VAT payer is simply acting as a sort of tax collector on behalf of the Treasury, and as a conduit through which publicly required taxation is collected. The second is that it could well be, as indeed by coincidence has happened in this case, that while a case is proceeding from start to finish the rate of VAT may be increased or indeed decreased. The loss, it seems to me, in that sort of situation should not in principle fall upon the legal representatives or the lay client concerned. Whatever VAT is in fact due ought in principle, it seems to me, to be recoverable from the losing party when an inter partes costs order is made. So that is what I decide on the VAT question.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>16</num>
+          <content>
+            <p>The decision in Warley was recently followed by Dove J in Abbotskerswell Parish Council v Secretary of State for Housing, Communities and Local Government and Others [2020] EWHC 2870 (Admin), where he said, at para. 24: “In my view, the closest authority to provide guidance in respect of the application of the costs in Aarhus cases is that provided by Rabinder Singh QC sitting as a Deputy High Court Judge in the case of Warley. That was a case which was directed squarely at the Aarhus costs situation and the reasoning which he provided for his conclusion, at para. 165, is, in my judgment, clear, apposite and still of application. Little weight can be afforded, in my view, to the consultation submission. I have had regard to the position recently outlined in an intellectual property context, but in the context of environmental litigation and the specific provisions in relation to Aarhus Convention claims, I see no reason to depart from both the reasoning and substance of the conclusions that were reached in the Warley case. Thus, if this case is to be subject to an Aarhus Convention approach on costs, the costs cap will be one which is exclusive of VAT.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>17</num>
+          <content>
+            <p>In reaching that conclusion, Dove J rejected the suggested analogy with the decision of HHJ Hacon in Response Clothing Ltd v Edinburgh Woollen Mill Ltd [2020] EWHC 721 (IPEC). Dove J also rejected the submission made on behalf of the Secretary of State in that case in reliance upon the consultation response provided in relation to proposals in respect of Aarhus Costs Caps, in which the Secretary of State expressed the view that the proposal for £ 35,000 was, in truth, a proposal for £ 30,000 bearing in mind that VAT would be payable on top of any such award.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>18</num>
+          <content>
+            <p>The only decision of this Court that has been cited to us is that in R (Garner) v Elmbridge Borough Council [2010] EWCA Civ 1006. The reported decision does not record the decision of this Court on the question of whether the costs cap of £ 35,000 was inclusive or exclusive of VAT. However, the written submissions before us on behalf of FoE state that discussion took place between counsel, as a result of which this Court concluded that the sum was exclusive of VAT. This has been confirmed by the solicitor instructed for the claimants in Garner, whose note of the discussion records the point. Should this be contentious, FoE have offered to file a witness statement to that effect. We do not consider that to be necessary in the circumstances.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>19</num>
+          <content>
+            <p>FoE acknowledge that the current limit provided by CPR 45.43(3) was set after the decisions in Warley and Garner. Nevertheless, it is submitted that the reasoning in Warley clearly continues to apply and it is observed that it has been followed in a number of High Court decisions subsequently.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>20</num>
+          <content>
+            <p>Reliance is also placed by FoE on the Costs Protection (Aarhus Convention) Regulations (Northern Ireland) 2013. They were intended to give effect in Northern Ireland to the Aarhus Convention. Regulation 3(3) places a limit of £ 35,000 but regulation 3(9) provides that this amount does not include VAT. It is submitted that there is no good reason why environmental claimants in Northern Ireland should be extended greater costs protection in this regard than they would be in England and Wales.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>21</num>
+          <content>
+            <p>Reliance is placed by both parties on a number of decisions of the courts in non- environmental cases.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>Submissions for the Secretary of State</p>
+        </tblock>
+        <paragraph>
+          <num>22</num>
+          <content>
+            <p>On behalf of the Secretary of State reliance is placed, first, on the consultation exercise which resulted in the cap being imposed in the Civil Procedure Rules. The original proposal had been to impose a cap of £ 30,000. The Government ’s response to the consultation expressed the view as follows: “The Government has taken note of the comments made in respect of the cross-cap. Although there was a slight majority opposed to the specific proposal for a £ 30,000 cap, not all of those were opposed to the idea of a cross cap entirely. The Government sees value in limiting costs overall and an incentive to keep costs low will also serve the interests of unsuccessful claimants who will be liable for the entirely of their own costs. The Government recognises the concerns raised about the actual level of the cross-cap being lower than £ 30,000 because it will be subject to VAT and therefore recommends that the cross-cap should be set at £ 35,000.” (See the Ministry of Justice paper, Costs Protection for Litigants in Environmental Judicial Review Claims: Outline proposals for a cost capping scheme for costs which fall within the Aarhus Convention, 28 August 2012.)</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>23</num>
+          <content>
+            <p>Secondly, the Secretary of State relies on the plain and ordinary meaning of the wording of CPR 45.43. He submits that the specified maximum cap of £ 35,000 is clearly a total, inclusive figure.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>24</num>
+          <content>
+            <p>Thirdly, the Secretary of State submits that an analogy can be drawn with the decision of HHJ Hacon in Response Clothing Limited. That case was a patent case, not an environmental case under the Aarhus Convention. It concerned a different rule, CPR 45.31(1), which provides: “(1) Subject to rule 45.32, the court will not order a party to pay total costs of more than – (a) £ 50,000 on the final determination of a claim in relation to liability; and (b) £ 25,000 on an inquiry as to damages or account of profits.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>25</num>
+          <content>
+            <p>The Secretary of State further submits that the cases on which FoE rely are distinguishable. It is pointed out that in Warley there was not full argument and in particular the Deputy Judge ’s attention was not drawn to Practice Direction 44, paras. 2.7-2.8. “2.7 Where there is a change in the rate of VAT, suppliers of goods and services are entitled by sections 88(1) and 88(2) of the Value Added Tax Act 1994 in most circumstances to elect whether the new or the old rate of VAT should apply to a supply where the basic and actual tax points span a period during which the rate changed. 2.8 It will be assumed, unless a contrary indication is given in writing, that an election to take advantage of the provisions mentioned in paragraph 2.7 and to charge VAT at the lower rate has been made. In any case in which an election to charge at the lower rate has been made, such a decision must be justified to the court assessing the costs.”</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>26</num>
+          <content>
+            <p>On behalf of FoE it is submitted, in reply, that those paragraphs address a different issue. It is submitted that they apply only where the VAT rate changes between the basic point (the date that the service is performed) and actual tax point (the date when the VAT invoice is issued). As such, they provide no answer to the conclusion in Warley based on changes to the rate of VAT between the commencement and completion of the litigation.</p>
+          </content>
+        </paragraph>
+      </introduction>
+      <motivation>
+        <tblock>
+          <p>Our decision</p>
+        </tblock>
+        <paragraph>
+          <num>27</num>
+          <content>
+            <p>We would make three preliminary observations.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>28</num>
+          <content>
+            <p>First, in our view, the issue in the present case has to be determined on the true construction of CPR 45.43. Some of the cases which have been cited to us concerned the construction of a particular costs order which had been made in that case: e.g. the decision of Chamberlain J in R (Independent Workers’ Union of Great Britain) v Secretary of State for Work and Pensions and Another [2020] EWHC 3050 (Admin), at para. 148(c). Such cases are not to the point, since they do not decide what is the true construction of CPR 45.43.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>29</num>
+          <content>
+            <p>Secondly, we would observe that the decision of the Deputy Judge in Warley similarly did not concern the construction of the CPR. In that case the Deputy Judge accepted an invitation from counsel to exercise his discretion to vary the earlier order which had been made by Lindblom J. This was particularly in the light of the exchange of correspondence between the parties, which indicated that they both intended that, whichever side won, the limit on their costs should be exclusive of VAT. It should also be noted that the decision in Warley pre-dated the enactment of CPR 45.43. In those circumstances, while we have no reason to doubt the correctness of the outcome in Warley on its facts, it should not be regarded as laying down any general principle. The same applies to the decision of Dove J in Abbotskerswell Parish Council.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>30</num>
+          <content>
+            <p>Thirdly, for similar reasons, we do not consider that assistance is to be derived from decisions which have been cited to us from non-environmental contexts. They do not concern the issue of interpretation which we have to decide in this case.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>31</num>
+          <content>
+            <p>As we have mentioned, there is no authority at the level of this Court in which the issue which now arises before us has been authoritatively considered. No reasoning appears to have been given in Garner and, in any event, that decision pre-dated the enactment of CPR 45.43. Accordingly, we must address the issue on first principles and, in particular, as a matter of interpretation.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>32</num>
+          <content>
+            <p>On that issue, we have reached the conclusion that the caps which are set out in CPR 45.43, in particular at (2) and (3), are inclusive of VAT. This is for the following reasons.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>33</num>
+          <content>
+            <p>First, that is the natural meaning of the words used in those provisions. The figures are set out as absolute amounts, without qualification.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>34</num>
+          <content>
+            <p>Secondly, this construction is supported by the history of the consultation exercise and the response to it by the Government in the process which led up to the enactment of CPR 45.43.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>35</num>
+          <content>
+            <p>Thirdly, it does not seem to us that this would impede or frustrate the implementation in domestic law of the Aarhus Convention. That Convention simply requires that the costs of environmental litigation such as this should not be prohibitive. It does not require a contracting State to specify a particular ceiling, still less to state whether it is inclusive or exclusive of VAT.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>36</num>
+          <content>
+            <p>Fourthly, the fact that the regulations applicable in Northern Ireland expressly provide for the ceilings to be exclusive of VAT does not assist FoE. Indeed, it suggests that, when the relevant legislative body wished to make the point clear, it was able to, and did so.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>37</num>
+          <content>
+            <p>We do not consider that what is said in Practice Direction 44, paras. 2.7-2.8, has any material bearing on the true construction of CPR 45.43.</p>
+          </content>
+        </paragraph>
+      </motivation>
+      <decision>
+        <tblock>
+          <p>Conclusion</p>
+        </tblock>
+        <paragraph>
+          <num>38</num>
+          <content>
+            <p>For the reasons we have given, the application by FoE is refused. The sums specified in the costs order made by this Court on 27 February 2020, in respect of the costs as between FoE and the Secretary of State in this Court and in the Divisional Court, include VAT and are not exclusive of it.</p>
+          </content>
+        </paragraph>
+        <tblock>
+          <p>The costs of this application</p>
+        </tblock>
+        <paragraph>
+          <num>39</num>
+          <content>
+            <p>The parties have not been able to agree an order relating to the costs of the present application. The Secretary of State makes the simple submission that the normal principle that costs follow the event should apply: FoE made this application and, having failed, should pay his costs. FoE submits, first, that the costs of this application are simply part of its costs in this Court. They are therefore part of the costs that were awarded to FoE, albeit the point is academic since the cap of £ 35,000 has already been exceeded. Alternatively, FoE submits that there should be no order as to costs.</p>
+          </content>
+        </paragraph>
+        <paragraph>
+          <num>40</num>
+          <content>
+            <p>In the circumstances which have arisen, we consider that the just order would be that there should be no order as to costs, for the following reasons. First, the dispute about VAT arose from the terms of the costs orders made by the Divisional Court and this Court. There was a genuine uncertainty about the effect of the costs orders, which needed to be resolved by the Court. It was reasonable for the parties to bring that to the Court ’s attention and, at the Court ’s request, to make written submissions about it. Secondly, as we have said above, there was no authoritative decision at the level of this Court on the legal issue which we have had to determine. There were a number of first instance decisions, which each side cited in support of its position. It has been important for this Court to resolve that issue of principle. This serves the wider public interest and not only the parties to this dispute.</p>
+          </content>
+        </paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
