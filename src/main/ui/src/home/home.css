@@ -1,3 +1,7 @@
 .home {
     text-align: justify;
 }
+p a, p a:hover  {
+    text-decoration: none;
+    font-weight: bold;
+}

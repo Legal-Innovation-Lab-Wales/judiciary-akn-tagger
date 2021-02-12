@@ -221,11 +221,6 @@ footer .logos .col img.read-contract-logo {
     margin: 0 100px 50px 100px;
 }
 
-@media (min-width: 768px){
-    footer .logos .col img.read-contract-logo {
-        margin: 0 150px 0 0;
-    }
-}
 
 /* Scroll to top button*/
 .scroll-top-btn {
