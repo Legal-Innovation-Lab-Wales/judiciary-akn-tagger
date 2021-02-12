@@ -12,15 +12,15 @@ app separately on different ports. (Thankfully this is a common use case of Reac
 ### Build
 
 To build the front-end app you will need to have [Node.js](https://nodejs.org/en/) installed which should come
-bundled with npm, you will also need to have [yarn](https://www.npmjs.com/package/yarn) installed.
+bundled with npm.
 
-To run the app in development mode you can run ```yarn start```, you can now visit the app at ```http://localhost:3000```.
+To run the app in development mode you can run ```npm start```, you can now visit the app at ```http://localhost:3000```.
 When in development mode any changes you make to the code will be automatically detected and the app refreshed.
 
 ---
 ### Production
 
-You can compile the app and create the production build via ```yarn build``` however there's no reason you should need to
+You can compile the app and create the production build via ```npm build``` however there's no reason you should need to
 do this as the parent Maven project will handle running the production build and copying the compiled files in the 
 appropriate location (```src/main/resources/static-content```).
 
@@ -30,7 +30,7 @@ You may be wondering "If I'm running the back-end application on localhost:8080 
 on localhost:3000 (default) then how do fetch requests to the back-end that utilise a relative path (i.e. GET /api/cases) 
 go to the right place? Won't they just get routed to the front-end and return an unwanted response?" This is indeed what 
 would happen if the ```proxy``` variable in the applications ```package.json``` file wasn't set, by setting this variable
-we tell the front-end app that when running in development mode (via ```yarn start```) any relative fetch requests we 
+we tell the front-end app that when running in development mode (via ```npm start```) any relative fetch requests we 
 make should actually go to the configured address.
 
 ---
