@@ -10,8 +10,15 @@ function Party(props) {
 
   // Find all of the lawyers linked to the party members.
   props.nodes.forEach(party_node => {
-    const key = party_node.getAttribute('refersTo').replace('#', '');
-    props.header.querySelectorAll(`lawyer[for*="${key}"]`).forEach(lawyer_node => {
+    const key = party_node.getAttribute('refersTo');
+    let query_selector = `lawyer[for="${key}"]`;
+
+    // If a lawyer has multiple parties then they need to be searched either at start of list or within the list.
+    if (props.nodes.length > 1) {
+      query_selector += `,lawyer[for*=";${key.replace('#', '')};"]`
+    }
+
+    props.header.querySelectorAll(query_selector).forEach(lawyer_node => {
       // Add the lawyer to array if missing.
       if (lawyer_nodes.indexOf(lawyer_node) === -1) lawyer_nodes.push(lawyer_node)
     });
