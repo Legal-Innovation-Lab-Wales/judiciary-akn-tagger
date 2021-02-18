@@ -1,4 +1,15 @@
-# Judiciary Akn Tagger
+<p align="center">
+  <img src="logo-header-svg.jpg">
+</p>
+
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#build">Build</a> •
+  <a href="#usage">Usage</a> •
+    <a href="#credit-and-licence">Credit and Licence</a> •
+  <br>
+</p>
+### Introduction
 
 This repository contains the application code for the [Judiciary Akn Tagger (JAT)](https://akn-judiciary-demo.legaltech.wales). 
 This application contains 101 case law files from [https://www.judiciary.uk](https://www.judiciary.uk) tagged in the 
@@ -65,3 +76,6 @@ a collection of React components by clicking on an item on the list page or by d
 for example ```http://localhost:8080/case/2020_EWCA_Civ_1516``` as seen below.
 
 ![Case Law Page](read_me_assets/case_law_page.png)
+
+## Licence 
+[NU Lesser General Public License v2.1](https://github.com/Legal-Innovation-Lab-Wales/judiciary-akn-tagger/blob/main/LICENSE)
