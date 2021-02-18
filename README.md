@@ -6,9 +6,10 @@
   <a href="#introduction">Introduction</a> •
   <a href="#build">Build</a> •
   <a href="#usage">Usage</a> •
-    <a href="#credit-and-licence">Credit and Licence</a> •
+    <a href="#licence">Credit and Licence</a> •
   <br>
 </p>
+---
 ### Introduction
 
 This repository contains the application code for the [Judiciary Akn Tagger (JAT)](https://akn-judiciary-demo.legaltech.wales). 
