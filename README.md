@@ -9,8 +9,8 @@
     <a href="#licence">Credit and Licence</a> •
   <br>
 </p>
----
-### Introduction
+
+## Introduction
 
 This repository contains the application code for the [Judiciary Akn Tagger (JAT)](https://akn-judiciary-demo.legaltech.wales). 
 This application contains 101 case law files from [https://www.judiciary.uk](https://www.judiciary.uk) tagged in the 
