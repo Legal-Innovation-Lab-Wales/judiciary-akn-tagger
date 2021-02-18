@@ -80,7 +80,6 @@ public class OntService implements Service {
         map.put("courts", courtList);
         map.put("judges", getMultiple(individual.listPropertyValues(getProperty("has-judge"))));
         map.put("lawyers", getMultiple(individual.listPropertyValues(getProperty("has-lawyer"))));
-        map.put("parties", getMultiple(individual.listPropertyValues(getProperty("has-party"))));
 
         caseLawFiles.add(map);
     }
