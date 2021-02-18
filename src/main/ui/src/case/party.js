@@ -31,7 +31,7 @@ function Party(props) {
           <ul>
             {props.nodes.map(node =>
               <li key={node.getAttribute('refersTo')}>
-                <a href={parties_url}>{node.textContent}</a>
+                {node.textContent}
               </li>
             )}
           </ul>

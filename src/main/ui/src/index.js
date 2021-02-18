@@ -14,7 +14,7 @@ ReactDOM.render(
       <Route exact path='/' component={Home} />
       <Route exact path='/list' component={List} />
       <Route exact path='/case/:id' component={Case} />
-      <Route exact path='/:entity(courts|judges|lawyers|parties)/:id' component={Entity} />
+      <Route exact path='/:entity(courts|judges|lawyers)/:id' component={Entity} />
       <Route path='*'>
         <Redirect to='/' />
       </Route>
