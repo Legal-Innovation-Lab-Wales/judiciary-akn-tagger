@@ -6,7 +6,7 @@
   <a href="#introduction">Introduction</a> •
   <a href="#build">Build</a> •
   <a href="#usage">Usage</a> •
-    <a href="#licence">Credit and Licence</a> •
+    <a href="#license">License</a> •
   <br>
 </p>
 
@@ -78,5 +78,5 @@ for example ```http://localhost:8080/case/2020_EWCA_Civ_1516``` as seen below.
 
 ![Case Law Page](read_me_assets/case_law_page.png)
 
-## Licence 
+## License
 [NU Lesser General Public License v2.1](https://github.com/Legal-Innovation-Lab-Wales/judiciary-akn-tagger/blob/main/LICENSE)
